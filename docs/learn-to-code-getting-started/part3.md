@@ -10,13 +10,13 @@ In this section, you will need to sign-up to [CodePen](https://codepen.io/), an 
 
 You can create your own pens by copying the code and playing with it. Don't worry if you break your code - its part of the process of learning. Just go back and copy my pen and start again!
 
-In **Part 1 - So you want to learn to Code** we explore what motivates you and how to go about learning to code.[https://medium.com/@sumisastri/learning-to-code-part-1-of-5-a117f2c0811c]
+In **Learn to code Part 1 - questions to ask yourself** we explore what motivates you and how to go about learning to code.
 
-In **Part 2 What is a "real" coding language?** we explore what code is and isn't and what are the "real" coding languages.[https://sumisastri.medium.com/learning-to-code-part-2-of-5-f7e93ca529ac]
+In **Learn to code Part 2 - what is a "real" coding language** we explore what code is and isn't and what are the "real" coding languages.
 
 ## The super-fast HTML crash course
 
-I demo the basics of how HTML (hyper-text-mark-up language) code runs on [this link or as CodePen terms it a pen](https://codepen.io/sumisastri/pen/yLgRpZN)
+I demo the basics of how HTML (hyper-text-mark-up language) [with this super fast HTML crash course on CodePen](https://codepen.io/sumisastri/pen/yLgRpZN)
 
 As a brief guide to understanding this pen, HTML was designed in 1990 to share documents over the world wide web. The current version in use is HTML5 with several enhancements to the original text-mark-up language.
 
@@ -56,7 +56,7 @@ This is the right moment to talk about clean code. Clean code is important as a 
 
 Typos will make the difference between code working or breaking. So ensure your code is clean and consistent when you are working in your pen.
 
-There are thousands of HTML tags - the key ones are six h-tags for headings. Search engines will rank a `h1` tag the highest in terms of importance and `h6` the lowest. The semantic tags lare self-explanatory.
+There are thousands of HTML tags - the key ones are 6 h-tags for headings. Search engines will rank a `h1` tag the highest in terms of importance and `h6` the lowest. The semantic tags lare self-explanatory.
 
 ```HTML
 <body></body>
@@ -117,9 +117,9 @@ It happens all the time, to experienced coders as well so don't feel bad about i
 
 In the pen, see how we use a linear gradient and a background image.
 
-To change the background to your pen using the [linear gradient effect this site is handy](https://www.eggradients.com/linear-gradients). There are 300 to choose from and you can add to the six bouncing balls more divs with your own design of how the balls bounce and your own animation.
+To change the background to your pen using the [linear gradient effect this site is handy](https://www.eggradients.com/linear-gradients). There are 300 to choose from and you can add to the 6 bouncing balls more divs with your own design of how the balls bounce and your own animation.
 
-Experiment with the shape and size of the six class selector attributes in HTML. Change the class selector to an id selector and experiment with this too.
+Experiment with the shape and size of the 6 class selector attributes in HTML. Change the class selector to an id selector and experiment with this too.
 
 Read more documentation referring to [Mozilla's HTML, CSS and JavaScript sections](https://developer.mozilla.org/en-US/docs/Learn/CSS). Use W3 Schools as well, get to understand what you are doing and why!
 
@@ -149,4 +149,4 @@ Note that the JavaScript files are imported just above the `</body>` closing tag
 
 Don't worry too much about how this works, have fun and read the next section if you want to delve into some of the fundamental concepts of JavaScript.
 
-In **Part 4 of Learning to Code**, we will continue to use CodePen and you will get a free pre-written template of a portfolio or website template that you can adapt, change and reuse many times over!
+In **Learn to code Part 4 - a free portfolio or website template with HTML, CSS & JavaScript**, we will continue to use CodePen and you will get a free pre-written template of a portfolio or website template that you can adapt, change and reuse many times over.

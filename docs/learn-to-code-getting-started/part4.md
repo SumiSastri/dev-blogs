@@ -1,25 +1,20 @@
 ---
 layout: default
-title: Part 4
-parent: Learn to code Part 4 -  a free portfolio or website template with HTML, CSS & JavaScript
+title: Learn to code Part 4 -  a free portfolio or website template with HTML, CSS & JavaScript
+parent: Learn to code - getting started
 ---
 
 # Learn to code Part 4 - a free portfolio or website template with HTML, CSS & JavaScript
 
-In this section, you can continue with CodePen, an open source sandbox. Use this pen [https://codepen.io/sumisastri/pen/oNBadVp]
-You will need to have completed Part 3 in this series to feel comfortable with this section.
+In this section, you can continue with CodePen, an open source sandbox. You will need to have completed Part 3 in this series to feel comfortable with this section.
 
-In **Part 1 - So you want to learn to Code** we explore what motivates you and how to go about learning to code.[https://medium.com/@sumisastri/learning-to-code-part-1-of-5-a117f2c0811c]
-
-In **Part 2 What is a "real" coding language?** we explore what code is and isn't and what are the "real" coding languages.[https://sumisastri.medium.com/learning-to-code-part-2-of-5-f7e93ca529ac]
-
-In **Part 3 Have fun learning to code HTML, CSS & JavaScript with three "pens"** we learn by doing, creating and adapting three mini-projects in HTML, CSS and JavaScript on CodePen. [https://sumisastri.medium.com/learning-to-code-part-3-of-5-7c3827c2981a]
+Use [this free portfolio website template on CodePen](https://codepen.io/sumisastri/pen/oNBadVp) to work on this section
 
 A word of advice, invest your time learning JavaScript. If this project interests you, do read the documentation and try more stuff from W3 Schools and Mozilla. Google, read and research!
 
-JavaScript was originally written and designed in 10 days by Brenden Eich [https://en.wikipedia.org/wiki/Brendan_Eichin] the 1990s. It has as many exceptions as it has rules. It failed to gain popularity until the early 2000s and now it is the fastest growing language by popularity and adoption.
+JavaScript was originally written and designed in 10 days by [Brenden Eich](https://en.wikipedia.org/wiki/Brendan_Eich) in the 1990s. It has as many exceptions as it has rules. It failed to gain popularity until the early 2000s and now it is the fastest growing language by popularity and adoption.
 
-The European Computer Manufacturers' Association, ECMA[https://en.wikipedia.org/wiki/Ecma_International], acts as a standards body for JavaScript and updates JavaScript design patterns. ECMA-6, or ES6,[https://www.w3schools.com/Js/js_es6.asp.] was the first major update to JavaScript. Each year since new updates have been added, part of a developers' job is to keep abreast of these changes, a list of the revisions up to 2020 are on this link.[https://en.wikipedia.org/wiki/ECMAScript]
+The European Computer Manufacturers' Association, [ECMA](https://en.wikipedia.org/wiki/Ecma_International), acts as a standards body for JavaScript and updates JavaScript design patterns. [ECMA-6, or ES6](https://www.w3schools.com/Js/js_es6.asp), was the first major update to JavaScript. Each year since new updates have been added, part of a developers' job is to keep abreast of these changes, a list of the revisions up to 2020 are on [this link]9https://en.wikipedia.org/wiki/ECMAScript).
 
 Like CSS ,the basics of vanilla JavaScript or JS, is easy to learn but difficult to master. There are no short-cuts except to practice, practice, practice and learn, learn, learn.
 
@@ -30,13 +25,26 @@ Google new terms and research everything you read to layer and improve your know
 Go back to the portfolio pen link. Copy and paste the HTML and CSS into your own workspace creating your pen first.
 
 Personalise both the HTML & CSS to suit your needs. Don't be afraid it is just text, change the text and see how it looks. Then change the styling.
-Run the analyse HTML chevron to make sure there are no syntax mistakes. Note that two external libraries have been added to the boiler plate. I have commented the file with notes. If you want to write your own notes the syntax for comments in HTML.
 
-- HTML &lt ! Write HTML comments here &gt
-- CSS /_ Write CSS comments here_/
-- JavaScript // Write JS comments here
+Run the analyse HTML chevron to make sure there are no syntax mistakes. Note that 2 external libraries have been added to the boiler plate.
 
-In the CSS, I have marked the sections with CSS-Grid and CSS-FlexBox, these help in creating flexible layouts, using comments. CSS Tricks is another great resource if you find documentation trying. [https://css-tricks.com/]
+I have commented the file with notes. If you want to write your own notes the syntax for comments in HTML.
+
+```HTML
+<!-- comments in HTML -->
+```
+
+```CSS
+/* comments in CSS */
+```
+
+```JavaScript
+
+// comments in JavaScript
+
+```
+
+In the CSS, I have marked the sections with CSS-Grid and CSS-FlexBox, these help in creating flexible layouts, using comments. CSS Tricks is another great resource if you find documentation trying is [CSS Tricks](https://css-tricks.com/)
 
 Only when you are happy with how the page looks for you progress to the JavaScript section.
 
@@ -54,14 +62,14 @@ Go back to the Traffic Light Pen [https://codepen.io/sumisastri/pen/zyzPZm]
 
 Go to this function written on Line 15
 
-```
+```JavaScript
 function illuminateGreen() {
   clearLights();
   document.getElementById("goLight").style.backgroundColor = "green";
 }
 ```
 
-The function called `illuminateGreen(){}` returns two instructions. To clear the lights and to go to the HTML DOM-tree, find the element with the id of "goLight", access the style attribute, specifically to access the background color and change it to green.
+The function called `illuminateGreen(){}` returns 2 instructions. To clear the lights and to go to the HTML DOM-tree, find the element with the id of "goLight", access the style attribute, specifically to access the background color and change it to green.
 
 The function or set of instructions written here is called declaring the function. Or outlining the set of instructions that you expect the function to perform.
 
@@ -69,7 +77,7 @@ To make the function work, the function must be called or invoked to get execute
 
 Go to Line 3, here we are selecting from the DOM-tree the HTML button element by its id. When the user clicks the button, the function is executed, or runs, or is invoked.
 
-```
+```JavaScript
 document.getElementById("goButton").onclick = illuminateGreen;
 ```
 
@@ -78,7 +86,8 @@ Now look at all the functions written or declared and see where they are invoked
 ### How JavaScript stores different types of data
 
 JavaScript stores and changes data with the simple power of functions.
-Primitive data or scalar values are:
+
+**Primitive data or scalar values are**
 
 - Strings (words and letters), which are recognised by the browser parsers when single or double quotes are used "this is a string of words", 'this is also a string of words'. Use either but stay consistent within your code base.
 
@@ -86,7 +95,7 @@ Primitive data or scalar values are:
 
 - Booleans -( true/false statements)
 
-Complex data types are:
+**Complex data types are**
 
 - Arrays which are recognised by parsers with the square brackets [] they are zero-indexed set of elements, separated by commas.
 
@@ -96,13 +105,22 @@ We will be using arrays to store our images in our carousel slider. So look out 
 
 - Objects which are recognised by parsers with the curly braces `{}`.
 
-They are an unordered list of key-value pairs. `{name:'Joe', age: 5, adult: False, favouriteFood: ['peas', 'beans', 'eggs'], {parent: 'Mr Blog', phone: 123456}}` each key is separated from its value by a colon. The value can be any data type - strings, booleans, numbers and even arrays. While an object can contain an array, an array can not contain an object. An object can even contain another object, making it a very flexible data type. Each key-value pair is separated by commas. The last key-value pair - in this case another object - does not have a comma after it.
+They are an unordered list of key-value pairs.
+
+```JavaScript
+{name:'Joe', age: 5, adult: False, favouriteFood: ['peas', 'beans', 'eggs'], {parent: 'Mr Blog', phone: 123456}}
+
+```
+
+each key is separated from its value by a colon. The value can be any data type - strings, booleans, numbers and even arrays.
+
+While an object can contain an array, an array can not contain an object. An object can even contain another object, making it a very flexible data type.
+
+Each key-value pair is separated by commas. The last key-value pair - in this case another object - does not have a comma after it.
 
 ### JavaScript in action with a simple image slide show
 
-Now go back to the Portfolio Pen and look at the JavaScript. I have used a YouTube tutorial by Brad Traversy for this section [https://www.youtube.com/watch?v=4YQ4svkETS0]
-
-If you want to follow and code along with Brad, I would encourage you to try it.
+Now go back to the Portfolio Pen and look at the JavaScript. I have used a [YouTube tutorial by Brad Traversy](https://www.youtube.com/watch?v=4YQ4svkETS0). If you want to follow and code along with Brad, I would encourage you to try it.
 
 The code has been written in ES6 updates - note how a function now is assigned to a variable to store the `const changeImg = () => {}`.
 
@@ -110,7 +128,7 @@ The keyword "function" has been dropped and the arrow is used to return the func
 
 A conditional statement runs the code. A conditional statement is a JavaScript design pattern that says
 
-```
+```JavaScript
 if (some condition is met){do this
 } else{
 do this
@@ -121,11 +139,10 @@ Our code says, check the length of the array by counting the number of elements 
 
 The index in an array is notated square brackets or [index] as in the code in the Portfolio pen. It is often notated with just an i, like so [i] as you will see in the the documentation from W3 schools or Mozilla.
 
-W3[https://www.w3schools.com/js/js_if_else.asp]
+[W3](https://www.w3schools.com/js/js_if_else.asp)
 
-Moz[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator]
+[Moz](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
-The images change every 2000 milliseconds or two seconds, you can speed up the change or slow it down and see how you want the slide-show to function.
+The images change every 2000 milliseconds or 2 seconds, you can speed up the change or slow it down and see how you want the slide-show to function.
 
-If you are happy with your portfolio site and want to host it on a URL (unique resource locator) Part 5 of Learning to Code concludes this series with instructions of how to deploy your project with Netifly -> next->
-[https://www.netlify.com/].
+If you are happy with your portfolio site and want to host it on a URL (unique resource locator) Part 5 of Learning to Code concludes this series with instructions of how to deploy your project with [Netifly](https://www.netlify.com/).
