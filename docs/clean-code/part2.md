@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Part 2
+title: Part 2 - Linting and formatting
 parent: Clean Code
 ---
 
-# Part 2
+# Part 2 - Linting and formatting
