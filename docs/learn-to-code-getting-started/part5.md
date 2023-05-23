@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Part 5 - how the internet works
+title: Part 5 - How the internet works
 parent: Learn to code - getting started
 ---
 
@@ -48,7 +48,7 @@ Decoupling the frontend from the backend allows for more modular development.
 
 Read Part 1, 2 in the series if you have missed them to understand the difference between front-end and back-end code bases.
 
-### File Set-up on Sublime Text
+## File Set-up on Sublime Text
 
 In Sublime text create a folder and give it a name, for example, _'My porfolio folder'_. If you have not created your own portfolio site go back to Part 4 in this series. Once you have your site, continue with this section.
 
@@ -58,7 +58,7 @@ Save the file and add another file and name it `styles.css`. Copy and save your 
 
 Do the same with the JavaScript code in a file called `scripts.js`. Remember this file is imported as meta data just above the closing body tag `</body>`. Check the file has been imported correctly.
 
-### Transfer files to a GitHub repo
+## Transfer files to a GitHub repo
 
 Git is the version control system from Microsoft. Version control managers allow you to commit your code. Each version gets a unique id to tag each version. Version control, enhances collaborative code writing, peer reviews and maintaining an evolving code base.
 
@@ -68,7 +68,7 @@ You can upload your files following the instructions on GitHub with a single cli
 
 Note if you are not already familiar with the Terminal or it gets too much to learn at this stage skip this section and go straight to the section Deploy over Netifly.
 
-### Optional reading - using the terminal and CLI tools
+## Optional reading - using the terminal and CLI tools
 
 The Terminal is a Command Line Interface(CLI) that allows you to interact directly with your laptop's operating system.
 You can use it to run programmes, manage files and folders and install software.
@@ -102,7 +102,7 @@ To connect your laptop files to your GitHub repo using the terminal
 - $git remote add origin - **(use HTTPS url not SSH)**
 - $git push -u origin main - make the first push and linking remote and local repos.
 
-### Deploy over Netifly
+## Deploy over Netifly
 
 From your GitHub repo, now drag and drop your files into Netifly in the first tab called Site Overview.
 
@@ -116,7 +116,7 @@ The files are deployed in less than 5 minutes. A random url is generated that yo
 
 The random link I was given for this 5 minute deployment for [a repo called spinning snakes is](https://elastic-minsky-12de5c.netlify.app/)
 
-### If at first you don't succeed
+## If at first you don't succeed
 
 This is the most difficult part of the series. Getting to know the Terminal, CLI commands, GitHub and Deployment is a huge amount to learn and get right in the first instance.
 

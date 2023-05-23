@@ -25,7 +25,7 @@ Wanting to become a developer and learning to code is a decision. It was a proce
 
 After 2 years, since I retrained at bootcamp, the last question is a - yes, but... the full answer is further down the page :-)
 
-### Why do you want to become a developer
+## Why do you want to become a developer
 
 Everyone's path is different. You need to answer this fundamental question so that you get the best answer that works for you. I started by reading articles like these by other people who had gone through the same decision making process.
 
@@ -39,7 +39,7 @@ It was only when I was responsible for driving digital transformation as a produ
 
 This happened occasionally when people were off sick, or devs more interested in "real" programming languages. It got me thinking and asking questions like so what's a "real" programming language?
 
-### Do you need a computer science or software engineering degree
+## Do you need a computer science or software engineering degree
 
 I was fortunate to work in technology for 10 years and talk to a lot of developers.
 
@@ -47,7 +47,7 @@ I began to notice a pattern, there were the engineers and the CS (computer Scien
 
 It got me thinking.
 
-### How long does it take learning to code
+## How long does it take learning to code
 
 The answer is 3 months at bootcamp or forever as learning never stops. You have to keep training to keep on top of your game.
 
@@ -85,7 +85,7 @@ I wanted to know from my dev friends who were non-engineers and non-computer sci
 
 For me, it was always a question of finding out - albeit an expensive, high-risk route - whether I would enjoy coding.
 
-### Will you enjoy learning to code
+## Will you enjoy learning to code
 
 For me the answer was a resounding yes. I came away from bootcamp learning more that I thought that I would. We rapidly raced through the fundamentals of some "real" programming languages
 
@@ -96,7 +96,7 @@ For me the answer was a resounding yes. I came away from bootcamp learning more 
 - Node.js - a JavaScript back-end framework
 - MongoDB - a document-based language
 
-### Can you make a living after you have learnt to code
+## Can you make a living after you have learnt to code
 
 At the end of 3 months I understood the general concepts of coding. I was fairly terrified. I did not feel confident that what I knew was enough to get a "real" job.
 
@@ -115,5 +115,3 @@ I lucked out. The first potential mentor I connected with via Linked-in was look
 I did a white-board pair-coding test and I even got paid!
 
 It was the best 3-months of my life after bootcamp.
-
-In **Learn to code Part 2** you will discover what a "real" coding language is versus hyper-text and styling.

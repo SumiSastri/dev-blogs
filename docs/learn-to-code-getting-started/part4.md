@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Part 4 - a free portfolio or website template with HTML, CSS & JavaScript
+title: Part 4 - A free portfolio or website template with HTML, CSS & JavaScript
 parent: Learn to code - getting started
 ---
 
-# Part 4 - a free portfolio or website template with HTML, CSS & JavaScript
+# Part 4 - A free portfolio or website template with HTML, CSS & JavaScript
 
 In this section, you can continue with CodePen, an open source sandbox. You will need to have completed Part 3 in this series to feel comfortable with this section.
 
@@ -46,7 +46,7 @@ In the CSS, I have marked the sections with CSS-Grid and CSS-FlexBox, these help
 
 Only when you are happy with how the page looks for you progress to the JavaScript section.
 
-### How JavaScript uses the DOM-tree to change behaviour of HTML and CSS tags and selectors
+## How JavaScript uses the DOM-tree to change behaviour of HTML and CSS tags and selectors
 
 JavaScript can target each HTML tag and CSS selector. It can target these tags and selectors because browsers read HTML and CSS and converts these files into a Document Object Model (DOM).
 
@@ -81,7 +81,7 @@ document.getElementById("goButton").onclick = illuminateGreen;
 
 Now look at all the functions written or declared and see where they are invoked. Understand the DOM-tree and the elements that are being selected by JavaScript. See if you can figure out what the `clearLights(){}` function's set of instructions are. See where it is executed, called or run. You will be right if you say the function is called within the other functions to illuminate the traffic light!
 
-### How JavaScript stores different types of data
+## How JavaScript stores different types of data
 
 JavaScript stores and changes data with the simple power of functions.
 
@@ -123,7 +123,7 @@ While an object can contain an array, an array can not contain an object. An obj
 
 Each key-value pair is separated by commas. The last key-value pair - in this case another object - does not have a comma after it.
 
-### JavaScript in action with a simple image slide show
+## JavaScript in action with a simple image slide show
 
 Now go back to the Portfolio Pen and look at the JavaScript. I have used a [YouTube tutorial by Brad Traversy](https://www.youtube.com/watch?v=4YQ4svkETS0). If you want to follow and code along with Brad, I would encourage you to try it.
 

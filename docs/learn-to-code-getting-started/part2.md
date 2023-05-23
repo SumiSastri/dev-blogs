@@ -44,7 +44,7 @@ A tech-stack, or stack, is a configuration of languages that a developer/organis
 
 It is worth remembering that while JavaScript is incredibily popular as a language to learn today, when JavaScript was introduced as a programming language for web-browsers in the 1990s, it failed to gain popularity. Similarly Ruby was extremely popular in the early 2000s but has fallen out of favour as React and Vue have replaced front-end code initially written in Ruby and back-end code with other languages, frameworks or libraries.
 
-### Is learning to code a front-end language better
+## Is learning to code a front-end language better
 
 The front-end languages refer to code that writes the front-end of a web or mobile application. The visible part of the app to a user.
 
@@ -52,7 +52,7 @@ However, the back-end of an application where the data is stored and retrieved f
 
 Learning to code both for the back-end and front-end is more valuable as it enhances your understanding of a code-base.
 
-### What back-end languages should you learn
+## What back-end languages should you learn
 
 Once again, what you can learn in bootcamp is limited by what is taught in the curriculum.
 
@@ -70,7 +70,7 @@ Python - a scripting language used for Data Science is taught and is swiftly gai
 
 JavaScript for back-end frameworks is what most bootcamps teach - Node.js or Node is an environment where JavaScript works outside the browser and therefore in the backend.
 
-### What about learning to code for data-bases
+## What about learning to code for data-bases
 
 Bootcamps do run through both relational-databases and non-relational databases.
 
@@ -80,7 +80,7 @@ Non-relational databases are also referred to as document-based databases.
 
 MongoDB and DynamoDB are two such databases. MongoDB is JavaScript-based and once again the most easily accessible if you learn JavaScript.
 
-### Isn't this a spaghetti tangle of code to learn
+## Isn't this a spaghetti tangle of code to learn
 
 Yes and no. Learning HTML, CSS and JavaScript - especially JavaScript will take you a long way.
 
@@ -104,7 +104,7 @@ On a subscription basis you can check
 
 This is not a comprehensive list but should be enough to get you started.
 
-### Learn to code the MERN-stack
+## Learn to code the MERN-stack
 
 I found that learning the MERN stack - MongoDB, Express.js (or Express) as a server, React and Node - was the easiest way to practice the fundamentals of vanilla JavaScript through the stack.
 
@@ -114,7 +114,7 @@ It helps you stay focused to gaining mastery with one language - JavaScript and 
 
 Most of my portfolio is based on the MERN-stack. It's what helped me in the 18-months after I left bootcamp to keep my focus narrow but deep rather than cast my net wide and lose focus.
 
-### What about learning to code the JAM stack
+## What about learning to code the JAM stack
 
 Even better!
 
@@ -133,5 +133,3 @@ In Part 3 of Learning to Code, I will run through three pens or links from [Code
 **[The CSS Bouncing Balls pen]((https://codepen.io/sumisastri/full/zYNmWoy)** adds CSS styling and animation. You can copy this pen and change the shape of the coloured balls and the animation and make this project your own.
 
 **[The JavaScript traffic lights pen](https://codepen.io/sumisastri/full/zyzPZm)** demos the power of JavaScript and the magic it works with a click of a button!
-
-_In Learn to code Part 3 - have fun learning to code HTML, CSS & JavaScript_

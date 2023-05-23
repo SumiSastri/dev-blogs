@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Part 3 - have fun learning to code HTML, CSS & JavaScript
+title: Part 3 - Have fun learning to code HTML, CSS & JavaScript
 parent: Learn to code - getting started
 ---
 
-# Part 3 - have fun learning to code HTML, CSS & JavaScript
+# Part 3 - Have fun learning to code HTML, CSS & JavaScript
 
 In this section, you will need to sign-up to [CodePen](https://codepen.io/), an open source sandbox. I share links or pens that I have created in HTML, HTML & CSS and finally HTML, CSS & JavaScript.
 
@@ -69,7 +69,7 @@ Don't forget to have fun and play in the playpen :-) Experiment with the chevron
 
 Try and make your own HTML pens that are different from the pen you have copied. Experiment with the inline styling tags and then move on to Pen 2 to get a better understanding of how to style with CSS.
 
-### CSS bouncing balls - an introduction to CSS and styling HTML
+## CSS bouncing balls - an introduction to CSS and styling HTML
 
 Here is a project you can truly make your own. Go to [the CSS bouncing balls pen](https://codepen.io/sumisastri/full/zYNmWoy) copy the HTML and CSS (Cascading Style Sheets) to your own work space and change the shape, sizes and animations in the CSS section. Like HTML, CSS has evolved and the current version is CSS3.
 
@@ -117,7 +117,7 @@ Experiment with the shape and size of the 6 class selector attributes in HTML. C
 
 Read more documentation referring to [Mozilla's HTML, CSS and JavaScript sections](https://developer.mozilla.org/en-US/docs/Learn/CSS). Use W3 Schools as well, get to understand what you are doing and why!
 
-### JavaScript traffic lights pen - an introduction to adding JavaScript to HTML
+## JavaScript traffic lights pen - an introduction to adding JavaScript to HTML
 
 To boost your confidence, this small exercise is to help you understand the power of JavaScript animation compared with CSS.
 
@@ -142,5 +142,3 @@ Note that this change is triggered by the `onClick` of the button - an action 
 Note that the JavaScript files are imported just above the `</body>` closing tag and not in the meta-data in the HTML boiler plate.
 
 Don't worry too much about how this works, have fun and read the next section if you want to delve into some of the fundamental concepts of JavaScript.
-
-In **Learn to code Part 4 - a free portfolio or website template with HTML, CSS & JavaScript**, we will continue to use CodePen and you will get a free pre-written template of a portfolio or website template that you can adapt, change and reuse many times over.
