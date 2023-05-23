@@ -1,10 +1,10 @@
 ---
 layout: default
-title: What is a "real" coding language
+title: Part 2 - What is a "real" coding language
 parent: Learn to code - getting started
 ---
 
-# What is a "real" coding language
+# Part 2 - What is a "real" coding language
 
 In this article we expore what code is and isn't and what are the "real" coding languages you should learn when you are starting from ground zero. There is a view that HTML (hyper-text-mark-up language) & CSS (cascading style sheets) are not "real" computer languages. They are text and styling mark-up. However, they are computer coding languages - just with simpler and more easy to understand rules.
 
@@ -16,9 +16,7 @@ Most computer languages are designed by programmers as a set of rules that are e
 
 You do not need to know advanced maths, be a "techie" or a "geek" to learn coding. Follow the rules, the syntax of a language or the protocol as the rules are strict but fairly simple especially with HTML and CSS.
 
-In **[Click here for Part 1 of Learning to Code](https://medium.com/@sumisastri/learning-to-code-part-1-of-5-a117f2c0811c)** where I explore what motivates people to code and how to go about learning to code.
-
-If you are a little more interested now, you may ask yourself new questions to see if you want to pursue.
+In _Part 1_ I explore what motivates people to code and how to go about learning to code. If you are a little more interested now, you may ask yourself new questions to see if you want to pursue.
 
 ## Which language should I learn if I want to code
 

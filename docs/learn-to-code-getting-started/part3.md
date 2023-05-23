@@ -1,18 +1,14 @@
 ---
 layout: default
-title: Have fun learning to code HTML, CSS & JavaScript
+title: Part 3 - have fun learning to code HTML, CSS & JavaScript
 parent: Learn to code - getting started
 ---
 
-# Have fun learning to code HTML, CSS & JavaScript
+# Part 3 - have fun learning to code HTML, CSS & JavaScript
 
 In this section, you will need to sign-up to [CodePen](https://codepen.io/), an open source sandbox. I share links or pens that I have created in HTML, HTML & CSS and finally HTML, CSS & JavaScript.
 
 You can create your own pens by copying the code and playing with it. Don't worry if you break your code - its part of the process of learning. Just go back and copy my pen and start again!
-
-In **Learn to code Part 1 - questions to ask yourself** we explore what motivates you and how to go about learning to code.
-
-In **Learn to code Part 2 - what is a "real" coding language** we explore what code is and isn't and what are the "real" coding languages.
 
 ## The super-fast HTML crash course
 
@@ -37,11 +33,9 @@ To create your own HTML pen in CodePen, copy and paste the boiler plate and you 
   <title>Title Name of your choice</title>
 </head>
 <body>
-
   <!--
   This is a comment tag - another meta-tag that is not visible to the front-end of an app but allows you to comment your code.
   -->
-
 </body>
 </html>
 ```

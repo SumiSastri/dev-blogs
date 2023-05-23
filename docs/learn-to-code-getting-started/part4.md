@@ -1,10 +1,10 @@
 ---
 layout: default
-title: A free portfolio or website template with HTML, CSS & JavaScript
+title: Part 4 - a free portfolio or website template with HTML, CSS & JavaScript
 parent: Learn to code - getting started
 ---
 
-# A free portfolio or website template with HTML, CSS & JavaScript
+# Part 4 - a free portfolio or website template with HTML, CSS & JavaScript
 
 In this section, you can continue with CodePen, an open source sandbox. You will need to have completed Part 3 in this series to feel comfortable with this section.
 
@@ -39,9 +39,7 @@ I have commented the file with notes. If you want to write your own notes the sy
 ```
 
 ```JavaScript
-
 // comments in JavaScript
-
 ```
 
 In the CSS, I have marked the sections with CSS-Grid and CSS-FlexBox, these help in creating flexible layouts, using comments. CSS Tricks is another great resource if you find documentation trying is [CSS Tricks](https://css-tricks.com/)
@@ -108,11 +106,18 @@ We will be using arrays to store our images in our carousel slider. So look out 
 They are an unordered list of key-value pairs.
 
 ```JavaScript
-{name:'Joe', age: 5, adult: False, favouriteFood: ['peas', 'beans', 'eggs'], {parent: 'Mr Blog', phone: 123456}}
+{
+  name:'Joe',
+  age: 5,
+  adult: False,
+  favouriteFood: ['peas', 'beans', 'eggs'],
+  {parent: 'Mr Blog',
+  phone: 123456}
 
+}
 ```
 
-each key is separated from its value by a colon. The value can be any data type - strings, booleans, numbers and even arrays.
+Each key is separated from its value by a colon. The value can be any data type - strings, booleans, numbers and even arrays.
 
 While an object can contain an array, an array can not contain an object. An object can even contain another object, making it a very flexible data type.
 

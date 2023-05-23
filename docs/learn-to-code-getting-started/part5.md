@@ -1,15 +1,15 @@
 ---
 layout: default
-title: How the internet works
+title: Part 5 - how the internet works
 parent: Learn to code - getting started
 ---
 
-# How the internet works
+# Part 5 - how the internet works
 
 To take advantage of the content in this section, you need to
 
-- create an account with [Netifly]9https://www.netlify.com/)
-- download a code editor - [Sublime Text is good for beginners]9https://www.sublimetext.com/)
+- create an account with [Netifly](https://www.netlify.com/)
+- download a code editor - [Sublime Text is good for beginners](https://www.sublimetext.com/)
 - set up a [GitHub account](https://github.com/)
 - have read the parts 1–4 in this series
 
