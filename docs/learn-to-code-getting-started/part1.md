@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Learn to code Part 1 - questions to ask yourself
+title: Questions to ask yourself
 parent: Learn to code - getting started
 ---
 
-# Learn to code Part 1 - questions to ask yourself
+# Questions to ask yourself
 
 This is a jargon-free, plain English series, written to inspire people who are considering learning to code.
 It will also help non-coders, who work with coders, understand what the process is to get a feature built, into production, deployed and released on a web or mobile application.

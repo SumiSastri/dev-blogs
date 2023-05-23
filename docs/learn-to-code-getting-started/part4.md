@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Learn to code Part 4 -  a free portfolio or website template with HTML, CSS & JavaScript
+title: A free portfolio or website template with HTML, CSS & JavaScript
 parent: Learn to code - getting started
 ---
 
-# Learn to code Part 4 - a free portfolio or website template with HTML, CSS & JavaScript
+# A free portfolio or website template with HTML, CSS & JavaScript
 
 In this section, you can continue with CodePen, an open source sandbox. You will need to have completed Part 3 in this series to feel comfortable with this section.
 
