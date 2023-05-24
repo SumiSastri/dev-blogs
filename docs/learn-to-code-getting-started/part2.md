@@ -9,8 +9,6 @@ nav_order: 2
 
 In this article we expore what code is and isn't and what are the "real" coding languages you should learn when you are starting from ground zero. There is a view that HTML (hyper-text-mark-up language) & CSS (cascading style sheets) are not "real" computer languages. They are text and styling mark-up. However, they are computer coding languages - just with simpler and more easy to understand rules.
 
-_The series *Learn to code* was first published on Medium_
-
 Computer code is the set of rules - the syntax - of a particular computer language.
 
 Most computer languages are designed by programmers as a set of rules that are easy to learn and interpret for humans.
