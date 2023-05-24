@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Teach yourself to code
+title: Home - Teach yourself to code
+has_children: true
 ---
 
-# Teach yourself to code
+# Home - Teach yourself to code
 
 Hi I am Sumi, a full-stack developer. I did a bootcamp to learn to code. But you can do it yourself, with no experience.
 
