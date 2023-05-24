@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Part 5 - How the internet works
-parent: Learn to code - getting started
+parent: learn-to-code-getting-started
 ---
 
 # Part 5 - how the internet works

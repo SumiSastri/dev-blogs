@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Part 3 - Have fun learning to code HTML, CSS & JavaScript
-parent: Learn to code - getting started
+parent: learn-to-code-getting-started
 ---
 
 # Part 3 - Have fun learning to code HTML, CSS & JavaScript
