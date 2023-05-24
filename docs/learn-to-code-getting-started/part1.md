@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Part 1 - Questions to ask yourself
+parent: Learn to code - getting started
 ---
 
 # Part 1 - Questions to ask yourself

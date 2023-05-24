@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Part 1 - What is clean code
+parent: Clean Code
 ---
 
 # Part 1 - What is clean code

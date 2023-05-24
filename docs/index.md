@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Teach yourself to code
-nav_order: 1
 ---
 
 # Teach yourself to code
