@@ -25,6 +25,27 @@ Sublime Text although good for beginners, is annoying as it interupts your code 
 
 This blog is pretty Mac-centric, so a small note - **Commander (cmder)** allows you to run the same commands on Macs/ Windows/ Linux - and especially good for windows.
 
+## Linter set up - ESLint
+
+- Install the following eslint packages globally with yarn or npm
+
+```sh
+yarn global add eslint eslint-plugin-react babel-eslint
+
+npm install eslint eslint-plugin-react babel-eslint
+
+```
+
+- Create an `.eslintrc` file
+
+```open .eslintrc``` if you want to check pre-set linter rules in a code base
+
+- In your terminal copy and paste - this programs the terminal to open your code editors
+
+```code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}```
+​
+After you should be able to now use VS Code with the command `code .` or Atom with `atom .`
+
 ## Vim - the IDE everyone loves to hate
 
 Vim is an editor that is on every Mac terminal by default. All you need to do is type `vi` in your Mac terminal and the IDE fires up. Type `I` (insert and edit), escape from the command mode. You can quit `:q` (quit), `:qa` (quit all tabs the quit commands do do not save edits). The command for editing is to write and then quit `:wq` (write & quit) or `:wqa` (write and quit all tabs).
@@ -184,7 +205,7 @@ Once you use these commands often enough, they become a part of your DNA and you
 - Prettier - cleans up formatting
 - Thunder client - great for api's and a substitute for postman so that you can work on apis and check data within the IDE
 
-### VS Code extensions - how long is a peice of string**
+### VS Code extensions - how long is a peice of string
 
 There are a ton of extensions which can be used - I have tried some of these and removed them as I don't need them on a day-to-day basis. You will develop your own list of faves too...
 
