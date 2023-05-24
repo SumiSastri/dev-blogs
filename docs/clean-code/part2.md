@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Part 2 - Code editors and linting
+title: Code editors and linting
 parent: Clean code
 nav_order: 4
 ---
 
-# Part 2 - Code editors and linting
+# Code editors and linting
 
 There are as many code editors as there are coding languages. Before code editors were developed, Notepad and TextEdit on Macs were used or vim - on the computer terminal.
 

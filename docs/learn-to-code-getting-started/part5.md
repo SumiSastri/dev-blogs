@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Part 5 - How the internet works
+title: How the internet works
 parent: Learn to code - getting started
 nav_order: 3
 ---
 
-# Part 5 - how the internet works
+# How the internet works
 
 To take advantage of the content in this section, you need to
 

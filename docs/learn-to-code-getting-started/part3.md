@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Part 3 - Have fun learning to code HTML, CSS & JavaScript
+title:  Have fun learning to code HTML, CSS & JavaScript
 parent: Learn to code - getting started
 nav_order: 3
 ---
 
-# Part 3 - Have fun learning to code HTML, CSS & JavaScript
+# Have fun learning to code HTML, CSS & JavaScript
 
 In this section, you will need to sign-up to [CodePen](https://codepen.io/), an open source sandbox. I share links or pens that I have created in HTML, HTML & CSS and finally HTML, CSS & JavaScript.
 

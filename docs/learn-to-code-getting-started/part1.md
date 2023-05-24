@@ -1,17 +1,13 @@
 ---
 layout: default
-title: Part 1 - Questions to ask yourself
+title: Questions to ask yourself
 parent: Learn to code - getting started
 nav_order: 3
 ---
 
-# Part 1 - Questions to ask yourself
+# Questions to ask yourself
 
-This is a jargon-free, plain English series, written to inspire people who are considering learning to code.
-It will also help non-coders, who work with coders, understand what the process is to get a feature built, into production, deployed and released on a web or mobile application.
-
-_The series Learn to code was first published on Medium_
-
+Learning to code is an investment in time, to go down this route here are some of the questions I asked myself as I had already spent a few years as a certified Agile Scrum Master.
 ## Do you really want to learn to code
 
 In this article we explore if your really do want to learn to code, what motivates you and how to go about fulfilling your goal.
