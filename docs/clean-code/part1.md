@@ -2,7 +2,7 @@
 layout: default
 title: Part 1 - What is clean code
 parent: Clean Code
-nav_order: 3
+nav_order: 4
 ---
 
 # Part 1 - What is clean code

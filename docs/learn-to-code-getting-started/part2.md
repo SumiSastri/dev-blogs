@@ -2,7 +2,7 @@
 layout: default
 title: Part 2 - What is a "real" coding language
 parent: Learn to code - getting started
-nav_order: 2
+nav_order: 3
 ---
 
 # Part 2 - What is a "real" coding language

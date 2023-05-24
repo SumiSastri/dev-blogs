@@ -2,7 +2,7 @@
 layout: default
 title: Part 1 - Questions to ask yourself
 parent: Learn to code - getting started
-nav_order: 2
+nav_order: 3
 ---
 
 # Part 1 - Questions to ask yourself

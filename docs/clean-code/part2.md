@@ -2,7 +2,7 @@
 layout: default
 title: Part 2 - Code editors and linting
 parent: Clean Code
-nav_order: 3
+nav_order: 4
 ---
 
 # Part 2 - Code editors and linting
