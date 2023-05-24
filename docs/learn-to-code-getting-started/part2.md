@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Part 2 - What is a "real" coding language
-parent: learn-to-code-getting-started
 ---
 
 # Part 2 - What is a "real" coding language

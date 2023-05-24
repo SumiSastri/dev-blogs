@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Part 4 - A free portfolio or website template with HTML, CSS & JavaScript
-parent: learn-to-code-getting-started
 ---
 
 # Part 4 - A free portfolio or website template with HTML, CSS & JavaScript
