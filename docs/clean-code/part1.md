@@ -64,13 +64,13 @@ Code smells appear when code rots. Every line of code that you write should be r
 
 ## Uncle Bob says ...
 
-Here are some practical Uncle Bob, [also known as Robert C Martin](<(https://en.wikipedia.org/wiki/Robert_C._Martin)>), tests - much of this blog is inspired by watching his YouTube videos
+Much of this blog is inspired by watching Uncle Bob's, [also known as Robert C Martin](<(https://en.wikipedia.org/wiki/Robert_C._Martin)>), YouTube videos when I need inspiration. Here are some of my key take outs from what he says in simple terms.
 
-- is it easy to understand?
-- does your brain relax when you read the code?
-- does it read like good prose?
-- does it step up from most important first - code execution - to least important last - gives parser place to exit quick?
-- does the way the function you write start with simple first to complex later?
+- is your code easy to understand
+- does your brain relax when you read the code
+- does it read like good prose
+- does it step up from most important first - code execution - to least important last - gives parser place to exit quick
+- does the way the function you write start with simple first to complex later
 
 [For those who don't know this industry maverick check this video out](https://www.youtube.com/watch?v=7EmboKQH8lM)
 
