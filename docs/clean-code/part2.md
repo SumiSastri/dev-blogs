@@ -27,7 +27,7 @@ This blog is pretty Mac-centric, so a small note - **Commander (cmder)** allows 
 
 ## Linter set up - ESLint
 
-- Install the following eslint packages globally with yarn or npm
+- Install the following eslint packages globally with package managers `yarn` or `npm`
 
 ```sh
 yarn global add eslint eslint-plugin-react babel-eslint
@@ -36,7 +36,7 @@ npm install eslint eslint-plugin-react babel-eslint
 
 ```
 
-- Create an `.eslintrc` file
+- Create an `.eslintrc` file - note this is a dotfile
 
 ```open .eslintrc``` if you want to check pre-set linter rules in a code base
 
