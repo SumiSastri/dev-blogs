@@ -64,7 +64,7 @@ Code smells appear when code rots. Every line of code that you write should be r
 
 ## Uncle Bob says ...
 
-Here are some practical Uncle Bob, [also known as Robert C Martin](<(https://en.wikipedia.org/wiki/Robert_C._Martin)>) tests - much of this blog is inspired by watching his YouTube videos
+Here are some practical Uncle Bob, [also known as Robert C Martin](<(https://en.wikipedia.org/wiki/Robert_C._Martin)>), tests - much of this blog is inspired by watching his YouTube videos
 
 - is it easy to understand?
 - does your brain relax when you read the code?
@@ -72,7 +72,7 @@ Here are some practical Uncle Bob, [also known as Robert C Martin](<(https://en.
 - does it step up from most important first - code execution - to least important last - gives parser place to exit quick?
 - does the way the function you write start with simple first to complex later?
 
-[For those who don't know this industry maverick - check Robert C Martin out :-)](https://www.youtube.com/watch?v=7EmboKQH8lM)
+[For those who don't know this industry maverick check this video out](https://www.youtube.com/watch?v=7EmboKQH8lM)
 
 I am sure this conversation will grow. I am sure there will be many disagreements. There will definitely be divided opinions about what is clean code.
 
