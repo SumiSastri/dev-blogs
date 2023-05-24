@@ -2,9 +2,9 @@
 layout: default
 title: What is the difference between code transpiling, compiling and code bundling
 nav_order: 2
+parent: What is computer code
 has_children: true
 ---
-
 
 # What is the difference between code transpiling, compiling and code bundling
 
@@ -55,5 +55,3 @@ CoreJS is an ECMA script polyfill library. There are several such libraries. Cor
 Other shims have a more focused scope - only ES5/ ES6 and sometimes use global name spaces which is a trade off. Global namespaces are more unstable (unreliable). More bugs and time wasted in short.
 
 Kangex - the best support for Babel compared to other shims. [Browserstack](https://www.browserstack.com/) - gives you a        list.
-
-

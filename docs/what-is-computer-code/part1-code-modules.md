@@ -2,6 +2,7 @@
 layout: default
 title: What is a code module
 nav_order: 2
+parent: What is computer code
 has_children: true
 ---
 
