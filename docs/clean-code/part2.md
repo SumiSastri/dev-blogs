@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Part 2 - code editors and linting
+title: Part 2 - Code editors and linting
 parent: Clean Code
 nav_order: 3
 ---
 
-# Part 2 - code editors and linting
+# Part 2 - Code editors and linting
 
 There are as many code editors as there are coding languages. Before code editors were developed, Notepad and TextEdit on Macs were used or vim - on the computer terminal.
 
@@ -13,7 +13,7 @@ Modern code editors come with many extensions to help code writers write and edi
 
 Linting is a programme that can be run to scan your code and keep it clean. As you can imagine, writing lines and lines of code is fatiguing. Nobody writes bad code because they want to. The nature of the beast - code being lines of programmatic instructions that need to be parsed and executed - depends on every indent, comma, spelling and use of a code block being rigid and adhere to rules. This becomes humanly impossible to monitor as you will find if you rely on Notepad, for example as a text editor.
 
-Linting therefore keeps track of code inconsitencies and is one tool to use to keep code that smells at bay. For more, here's [a good read from freeCodeCamp](https://www.freecodecamp.org/news/what-is-linting-and-how-can-it-save-you-time/)
+Linting therefore keeps track of code inconsitencies and is 1 tool to use to keep code that smells at bay. For more, here's [a good read from freeCodeCamp](https://www.freecodecamp.org/news/what-is-linting-and-how-can-it-save-you-time/)
 
 An IDE - Integrated Development Environment - is a code editor on speed.
 
@@ -176,7 +176,7 @@ Some quick ones that are handy <kbd>cmd</kbd> plus
 
 <kbd>alt</kbd> plus <kbd>shift</kbd> plus
 
-- arrow up or down duplicates the code line selected one line up or down
+- arrow up or down duplicates the code line selected 1 line up or down
 
 <kbd>cmd</kbd> plus <kbd>shift</kbd> plus
 
