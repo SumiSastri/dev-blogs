@@ -12,7 +12,7 @@ But code written any how, in any way means that someone else reading our code - 
 
 There is a value and effort put into writing code therefore it stands to reason that some value and effort must be derived from reading it, running it and maintaining it.
 
-Even if clean code is written just as a matter of self-development, that is, in my opinion, a goal worth achieving. It gives you mastery over the code you have written, therefore an ability to transfer that knowledge. It provides autonomy, self-sufficiency and the confidence, perhaps to write new and better code. There is a sense of purpose and a clarity of direction writing code that you and your team are proud of, and of course if it does not work, it isn't code. So it must work but also work hopefully elegantly and efficiently.
+Even if clean code is written just as a matter of self-development, that is in my opinion, a goal worth achieving. It gives you mastery over the code you have written, therefore an ability to transfer that knowledge. It provides autonomy, self-sufficiency and the confidence, perhaps to write new and better code. There is a sense of purpose and a clarity of direction writing code that you and your team are proud of, and of course if it does not work, it isn't code. So it must work but also work hopefully elegantly and efficiently.
 
 ## Clean code benefits organisations
 
@@ -34,17 +34,7 @@ Scapgoating of dev teams and individual code writers have a terrible impact whic
 
 Keeping code clean therefore becomes an armour a sword of protection. And it does not have to be difficult.
 
-## Uncle Bob says ...
-
-Here are some practical Uncle Bob tests.
-
-- is it easy to understand?
-- does your brain relax when you read the code?
-- does it read like good prose?
-- does it step up from most important first - code execution - to least important last - gives parser place to exit quick?
-- does the way the function you write start with simple first to complex later?
-
-For those who don't know this industry maverick - check him out :-)
+For organisations it is a high cost and training and development of tech teams is as much an investment in your product as other research and development investments.
 
 ## Design and clean code go hand-in-hand
 
@@ -52,7 +42,7 @@ Working to a robust architectural design provides code with a strong foundation.
 
 Often, as a code writer, you are writing on a body of work that already exists. It becomes easy to iterate already established patterns. Search for a good example you can follow: webhook, service, unit tests, integration tests, etc., there will be several your fellow code writers have invested good time writing. Follow their lead.
 
-Often, unnfamiliar code becomes an excuse to describe something as high effort. Let it serve as a signal that you need to invest in learning the approach. Work on a side project, check the code out, make your mistakes in a sandbox.
+Often, unfamiliar code becomes an excuse to describe something as high effort. Let it serve as a signal that you need to invest in learning the approach. Work on a side project, check the code out, make your mistakes in a sandbox.
 
 ## All code needs to be maintained, clean code needs less maintenance
 
@@ -62,14 +52,30 @@ Code smells appear when code rots. Every line of code that you write should be r
 - If something is not in spec leave it out
 - Check that you have added tests
 - Think about code dependencies
-- Add dependabot to check code updates
+- Work on tech debt and legacy to see if you can update and renew your code base
 - Heavily coupled or unclear code is very difficult to change
 - Value objects over arrays - they make the interface more obvious/ help to keep them cleaner
 - Avoid private methods as they are difficult to test, and could hide complex logic
 - Write better functions
-- Is there any unnecessary code e.g. `if (myBooleanVariable == true) return true else return false` vs `return myBooleanVariable`
-- If 2 lines makes your code clearer, maybe 2 lines is better than 1 line - don't be a slave to writing DRY (don't repeat yourself) code
-- Write better variable names - 'n' - finally what is 'n' ? Any number of things if you come back and try to decipher it or someone else needs to decipher it - waste of cognitive energy isn't it easier to understand a variable that is `let number = () => {}` Instead of `num` or `n`?
+- Is there too much bloat in your code - is there something you can refactor that works more efficiently?
+- Contra-intuitively to the above, if 2 lines makes your code clearer, maybe 2 lines is better than 1 line - don't be a slave to writing DRY (don't repeat yourself) code
+- Write better variable names - 'n' - finally what is 'n' ? Any number of things if you come back and try to decipher it or someone else needs to decipher it - waste of cognitive energy isn't it easier to understand a variable that is `let number = () => {}` Instead of `n` which could mean infinity as well
 - Think about the packages/ libraries you add - are they performant, well-maintained, do they compile well, are issues reported and fixed
 
-I am sure this will grow, I am sure there will be many disagreements, there will definitely be divided opinions about what is clean code - that's great let's start talking more about it and for sure, doing more as a result of all of the talk to keep it clean (both the talk and the code!).
+## Uncle Bob says ...
+
+Here are some practical Uncle Bob, [also known as Robert C Martin](<(https://en.wikipedia.org/wiki/Robert_C._Martin)>) tests - much of this blog is inspired by watching his YouTube videos
+
+- is it easy to understand?
+- does your brain relax when you read the code?
+- does it read like good prose?
+- does it step up from most important first - code execution - to least important last - gives parser place to exit quick?
+- does the way the function you write start with simple first to complex later?
+
+[For those who don't know this industry maverick - check Robert C Martin out :-)](https://www.youtube.com/watch?v=7EmboKQH8lM)
+
+I am sure this conversation will grow. I am sure there will be many disagreements. There will definitely be divided opinions about what is clean code.
+
+That's great! Let's start talking more about it. And for sure, doing more as a result of all of the talk. So let's keep it clean (both the talk and the code!).
+
+Uncle Bob may disagree - as he says "let's not ship sh$@!X%".
