@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home - Teach yourself to code
+nav_order: 1
 has_children: true
 ---
 
