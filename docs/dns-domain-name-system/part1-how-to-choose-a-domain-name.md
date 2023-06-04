@@ -1,9 +1,8 @@
 ---
 layout: default
 title: How to choose a domain name
-nav_order: 5
 parent: DNS - The Domain Name System
-has_children: true
+nav_order: 5
 ---
 
 

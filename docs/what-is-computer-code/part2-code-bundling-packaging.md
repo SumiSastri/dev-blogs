@@ -1,9 +1,8 @@
 ---
 layout: default
 title: What is a code bundling
-nav_order: 2
 parent: What is computer code
-has_children: true
+nav_order: 2
 ---
 
 
