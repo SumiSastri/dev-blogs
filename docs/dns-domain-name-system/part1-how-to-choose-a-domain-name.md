@@ -55,42 +55,4 @@ If you want to maintain a brand and get additional services doing some research 
 
 Sometimes, you may just want to purchase a domain name and think about the rest of the process - hosting, designing and maintaining your site - after you have purchased the name. Since this takes time, it is worth just purchasing a name and not purchasing hosting at all. Once again, the cheapest service works best till you have a design, architecture and plan for your content.
 
-## Do you build your site yourself with static site builders
-
-Once you buy a domain name, the next tricky decision comes into play.
-
-At this stage, many content creators jump straight into DIY mode and try and use WordPress, SquareSpace or Wix to build sites and then get unstuck because there is so much to deal with before you can create content and launch a successful site.
-
-However, if a site is a simple calling card - says something about your business and nothing more - no content that is frequently updated (like blogs, videos, etc.) - then some of these quick-to-set-up options above make sense. They provide shared hosting that is cheap and you do not need to worry about security and site maintenance. 
-
-As the content is static (does not change frequently) and the building of the site with the WISYWG (what-you-see-is-what-you-get) tools like click and drag, text editing and formatting tools that are simple to use, an image library for logos and basic images, these options make sense.
-
-However, if there is more that you want to do with your site, this is a trap to avoid. The reason, I called it a trap is that each of these systems have a learning curve.
-
-Wordpress is considered a bit dated but it is quick, easy and intuitive to use. It is built on PHP, a server-side language and has many themes and standard formats to choose from. The downside is, these formats are rigid and unless you know PHP, you can not change the rigid framework that it ships with. The cheapest option - shared hosting - means you get all sorts of intrusive advertisements that have nothing to do with your site displayed. The most expensive option - full hosting - is only worth it if you think your business case needs it and you are willing to spend around $500 a year (correct at the time of writing 2022) to host your site.
-
-Wix and SquareSpace are pretty much the same. It is a cost to carry your content and store it and maintain it and all service providers charge you for that cost. Both Wix and SquareSpace also come with their learning curve and if you want to do-it-yourself, you will learn how they set up their fixed templates and use them and figure out whether they suit your purpose.
-
-There is unfortunately no short-cuts to trial and error - but these are expensive errors to make if you just want to build a brand, blog-site and content-site that needs your creative input and frequent updates. At some stage you will have to outsource the grunt work to a Wordpress, Wix or SquareSpace expert, either to customise the site to your requirements or to maintain the site updates as you want to focus on the creative input.
-
-## Do you learn to code and other options
-
-At this stage in sheer frustration, you may think you want to learn to code - do read the section on learning to code - if you want to go down this route.
-
-As a content creator, you may want to focus on the creative work and not the grunt work and coding, though is creative in its own way, may not be something that appeals to you.
-
-If you do not want to learn to code, what do you do next once you have purchased a name for your website?
-
-- Research your competitors and get ideas and a look-book from their designs
-- Draw your own design for how you want your site to look like
-- If you can't do this yourself, get a UI-UX (user interface and user experience) designer and get a design prototype built
-- Give your design to a web developer - they may use static site generators but at least you are in control of what you would like your site to look like
-- If you have a complex design that requires e-commerce and users to sign up, you may need to consider security options as well
-- You may want to provide a newsletter - in which case you may need to integrate plugins like an e-mail service provider to your site
-- You may want social media plugins - again you may need a developer to help you with all of this.
-
-Knowing what you want will determine what you do next. A developer may then set up static sites based on your requirements with a static site generator and manage the e-commerce, sign-in options and the social media plugins.
-
-These add-ons are what cost you to design, build and maintain your site and make the next decision from purchasing hosting. Until you have thought all of this through, it is worth just buying the website name and not hosting while you make these decisions.
-
-## The real big question - hosting
+See Part 2 in this series for more.
