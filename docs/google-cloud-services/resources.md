@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resources and further reading
-parent: google cloud services
+parent: Google cloud services
 nav_order: 7
 ---
 

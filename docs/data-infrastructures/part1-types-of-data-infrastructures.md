@@ -1,11 +1,11 @@
 ---
 layout: default
-title: The emergance of IaaS, PaaS, SaaS and DaaS
+title: The emergence of IaaS, PaaS, SaaS and DaaS
 parent: Data infrastructures
 nav_order: 6
 ---
 
-#  The emergance of IaaS, PaaS, SaaS and DaaS
+#  The emergence of IaaS, PaaS, SaaS and DaaS
 
 Data can be stored in all sorts of ways - external hard-drives is the simplest form of data-backup. You can also have locally hosted data on your computer - in files and drives. The challenge is scaling and security. 
 
