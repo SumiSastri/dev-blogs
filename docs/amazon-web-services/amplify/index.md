@@ -2,7 +2,8 @@
 layout: default
 title: AWS-Amplify
 parent: Amplify
-has_children: true
+grand_parent: Amazon Web Services
+nav_order: 1
 ---
 
 
