@@ -1,8 +1,7 @@
 ---
 layout: default
 title: AWS
-parent: Amazon Web Services
-nav_order: 6
+has_children: true
 ---
 
 # AWS
