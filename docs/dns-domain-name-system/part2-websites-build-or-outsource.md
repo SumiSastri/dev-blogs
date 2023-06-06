@@ -7,7 +7,7 @@ nav_order: 5
 
 ## Websites - build or outsource
 
-Once you buy a domain name, the next tricky decision comes into play.
+Once you buy a domain name, the next big decision comes into play.
 
 At this stage, many content creators jump straight into DIY mode and try and use WordPress, SquareSpace or Wix to build sites and then get unstuck because there is so much to deal with before you can create content and launch a successful site.
 
