@@ -3,6 +3,7 @@ layout: default
 title: Amplify Scaffolding
 parent: Amplify
 grand_parent: Amazon Web Services
+nav_order: 2
 
 ---
 
