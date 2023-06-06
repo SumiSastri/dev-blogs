@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Amazon Web Services
+title: 1. Amazon Web Services
 parent: AWS-Amplify
-has_children: true
+has_children: false
 ---
 
 # AWS-Amplify
