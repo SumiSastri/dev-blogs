@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2. Amplify Scaffolding
-parent: Amazon Web Services
+parent: Amplify
 grand_parent: Amazon Web Services
 has_children: false
 ---
