@@ -5,7 +5,7 @@ parent: DNS - The Domain Name System
 nav_order: 5
 ---
 
-# Webhosting the tricky parts
+# Web shosting the tricky parts
 
 What no web hosting service provider tells you is that once you have purchased their service you are locked-in. There is no exception that I have found to this as every hosting service provider makes it easy for you to host supporting you all the way through the onboarding process.
 
