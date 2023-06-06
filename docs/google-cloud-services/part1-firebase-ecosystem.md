@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Firebase SDK
-parent: Google cloud services
+title: Google cloud services
 nav_order: 7
 ---
 

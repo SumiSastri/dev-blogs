@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Google Cloud Services
+title: Google cloud services
 nav_order: 7
 has_children: true
 ---
