@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Firebase engage tools
-title: Google cloud services
+parent: Google cloud services
 nav_order: 7
 ---
 

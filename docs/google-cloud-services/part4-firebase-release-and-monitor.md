@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Firebase release and monitor tools
-title: Google cloud services
+parent: Google cloud services
 nav_order: 7
 ---
 
