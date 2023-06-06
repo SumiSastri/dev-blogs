@@ -36,4 +36,4 @@ If you really want a web application, or website here's my checklist - make your
 
 9. Site maintenance once you scale up is a major cost, understand these costs with your service provider.
 
-10. It's perfectly ok to ourchase a domain name and do nothing before someone else purchases the name of your business so you don't have to repurchase it from a domain-name squatter. I had a friend who purchased a celebrity name and sold the domain name for a little fortune...just a thought.
+10. It's perfectly ok to purchase a domain name and do nothing before someone else purchases the name of your business so you don't have to repurchase it from a domain-name squatter. I had a friend who purchased a celebrity name and sold the domain name for a little fortune...just a thought.

@@ -53,7 +53,7 @@ Shared hosting, falls into this category. As it says on the tin, you share your 
 
 Managed VPS (Virtual Private Service), the next level up, manages some backup and updates of your site, improved security, configuration and some additional services depending on the service provider.
 
-Cloud Hosting - instead of an onpremise server, the hosting services allow you to host your sites in a remote server, or the cloud. Cloud hostiing can be either shared or a managed VPC (Virtual Private Cloud).
+Cloud Hosting - instead of an onpremise server, the hosting services allow you to host your sites in a remote server, or the cloud. Cloud hosting can be either shared or a managed VPC (Virtual Private Cloud).
 
 You can scale up from a shared service to a VPS/VPC with the same host. This is often easier than a migration.
 
