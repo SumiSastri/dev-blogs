@@ -7,13 +7,16 @@ nav_order: 4
 
 # How linting works
 
-Linting removes fluff from fabrics. That is the original use of the term when threads come off the surface of cloth and you remove them with a linter. This was done for 2 reasons - lint inhaled by workers in a factory resulted in respitory challenges and artificially inflated the weight of the cloth. Lint had to be removed to clean and pare down the cotton to its real intrisinc value in terms of commercial sales as well as prevent workers from being impacted by the fluff flying around.
+Linting removes fluff from fabrics. That is the original use of the term when threads come off the surface of cloth and you remove them with a linter. This was done for 2 reasons - lint inhaled by workers in a factory resulted in respiratory challenges and artificially inflated the weight of the cloth. Lint had to be removed to clean and pare down the cotton to its real intrisinc value in terms of commercial sales as well as prevent workers from being impacted by the fluff flying around.
 
 Code linting was created by a computer scientist at Bell Labs, in the United States, for pretty much similar reasons. Stephen C Johnson, used the term linting code as a linter could trap the bad code and leave it out of the code base while letting the best value code pass through.
 
-He split code into algorithms that caught the bad code and good code that then passed through - more of the history can be found on [Wikipedia](https://en.wikipedia.org/wiki/Lint_(software)) - walking you through the process in which lint-tools were also used as optimising code compiling making the code more performant.
+He split code into algorithms that caught the bad code, then the good code that was written then passed through. More of the history of linting can be found on [Wikipedia](https://en.wikipedia.org/wiki/Lint_(software)).
 
-Do read the references where there is a fascinating bio of Johnson, who was not a computer scientist but a mathematician. It makes reading his original paper a pleasure. He has both a sense of humour and a wealth of knowledge which he shares in a way that is easy to understand.
+Do read the references where there is a fascinating bio of Johnson, who was not a computer scientist but a mathematician. 
+
+It makes reading his original paper a pleasure - some extracts from the 12-page document below.
+
 ## From Johnson's original white paper on linting
 
 In his [original paper](https://web.archive.org/web/20220123141016/https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.56.1841&rep=rep1&type=pdf), on why he created a linting package, Johnson says "Lint is a command which examines C source programs, detecting a number of bugs and obscurities. It enforces the type rules of C more strictly than the C compilers. It may also be used to enforce a number of portability restrictions involved in moving programs between different machines and/or operating systems. Another option detects a number of wasteful, or error prone, constructions which nevertheless are, strictly speaking, legal. Lint accepts multiple input files and library specifications, and checks them for consistency."
@@ -24,9 +27,13 @@ One of my pet peeves on linting was how strict the rules are. Johnson, refers to
 
 "The programmer obviously has a strong motivation for doing this, and has clearly signaled his intentions. It seems harsh for lint continue to complain about this." he says, "On the other hand, if this code is moved to another machine, such code should be looked at carefully."
 
-The motivation for linting, therefore arose to make code portable across multiple systems and devices and correcting kinks that may otherwise pass through and block the performance of the software that has been written. Understanding this, significantly helps the radical acceptance of linting as a tool that helps and defends rather than blocks and annoys.
+The motivation for linting, therefore arose to make code portable across multiple systems and devices and correcting kinks that may otherwise pass through and block the performance of the software that has been written.
 
-One of the joys of the paper is the sense of humour, and frustration Johnson expresses for the reasons behind his need for a linter - "(for various stupid reasons!)" - he says, code can be written badly and this "causes fatal conflicts which prevent the proper operation of the program". Linting therefore detects some code discrepancies.
+Understanding this motivation behind the creation of linting, significantly helps the radical acceptance of linting as a tool that helps and defends, rather than blocks and annoys.
+
+One of the joys of the paper is the sense of humour, and frustration Johnson expresses for the reasons behind his need for a linter ... "(for various stupid reasons!)" - he says, code can be written badly and this "causes fatal conflicts which prevent the proper operation of the program".
+
+He created a program for linting therefore to detect as many code discrepancies possible.
 
 ## Shutting lint up
 
@@ -45,24 +52,26 @@ In Part 2, of this series - the ES Lint config for Atom - is the config we used 
 
 Besides checking style, linters are also excellent tools for finding certain classes of bugs and code inconsistencies that may cause a code run to fail.
 
-You can find this out before the code runs and compiles and fix it. However, it is not a silver bullet and you may not be able to fix all problems using a lint. Test, other style check tools can, and should, be used with a linter.
+You can find this out before the code runs and compiles and fix it. However, it is not a silver bullet and you may not be able to fix all problems using a lint. Test other tools than can, and should, be used with a linter as it is not a fail-safe method to catch all code smells.
 
 ## ES Lint for JavaScript
 
 There are different linters for JavaScript, but ES Lint has proved to be very popular as it is more easily configurable. [The Codecampus](https://www.thecodecampus.de/blog/eslint-customizable-javascript-linting-tool-1/) has a good article on why it believes ES Lint to be a better linter for JavaScript compared to other options in the market.
 
-The [airbnb guide](https://www.npmjs.com/package/eslint-config-airbnb) is most often used for React projects as it pre-writes some rules for linting with the React component library. 
+The [airbnb guide](https://www.npmjs.com/package/eslint-config-airbnb) is most often used for React projects as it pre-writes some rules for linting with the React component library.
 
 Kwabena Boadu has a great guide to [set-up ES Lint with airbnb's style guide](https://biblicalph.github.io/journal/linting-with-eslint-airbnb-and-prettier.html).
 
-Style guides can be opinionated and vary - this is an example of an opionated guide - [The Arcanist user guide - lint](https://secure.phabricator.com/book/phabricator/article/arcanist_lint/) 
+Style guides can be opinionated and vary - this is an example of an opionated guide - [The Arcanist user guide - lint](https://secure.phabricator.com/book/phabricator/article/arcanist_lint/), but reading them always gives you another perspective and challenges your own ways of thinking, opening you out to possibilities that you may not have considered.
 
 Many organisations will write in some overides or make tweaks to prefab style-guides like airbnb. Some style guides can be very strict and some packages methods may fail linting. For example, with the `Formik` form library for React, the use of the spread operator, essential to run some methods in the package, fail the airbnb style guide rules.
 
-Another point worth bearing in mind is your repo structure. Monoliths and monorepos have different ways of configuring ES Lint. A monolith, is a repo that refers to packages and APIs outside the repo for its functioning. A monorepo hosts all packages that it depends on within the same repo. An uber-package manager like `pnpm` or `lerna` are popular package managers for monorepos.
+Another point worth bearing in mind is your repo structure. Monoliths and monorepos have different ways of configuring ES Lint. A monolith, is a repo that refers to packages and APIs outside the repo for its functioning. A monorepo hosts all packages that it depends on within the same repo. An uber-package manager like `pnpm` or `lerna` are popular package managers for JavaScript monorepos that use [`npm` packges](https://www.npmjs.com/).
 
-In a side-project, or an enterprise level app, you will add several Node packages to help you with the task you hope to complete. Each of these packages are written by different code writers, to different rules.
+Whether you are working on a side-project, or an enterprise level app, you will add several `npm` packages to help you with the task you hope to complete. Each of these packages are written by different code writers, to different rules.
 
 While these packages are maintained by the code writers, they are often upgraded, patches added and therefore, you will also need to manage the packages you have used in your code base regularly.
 
-Do take [style-guides and rules](https://xkcd.com/1513/)seriously and save the blushes. Here's a good link to help you understand why [linting is a friend not foe](https://www.thecodecampus.de/blog/eslint-customizable-javascript-linting-tool-1/).
+Do take [style-guides and rules](https://xkcd.com/1513/) seriously and save the blushes :-)
+
+Here's a good link to help you understand why [linting is a friend not foe](https://www.thecodecampus.de/blog/eslint-customizable-javascript-linting-tool-1/).
