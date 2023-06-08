@@ -61,3 +61,8 @@ To override your linter commands, it requires a team to discuss which rules shou
 In part 2 - the ES Lint config for Atom - is the config we used when I was at bootcamp with [GA](https://generalassemb.ly/) and enforces, what GA believed were good styling guiderails for a linter.
 
 Every organisation will have their own rules and overrides and it is worth looking at them and asking questions about the[style-guides and rules](https://xkcd.com/1513/) so that you save some blushes.
+
+Some additional reading:
+[Arcanist user guide - lint](https://secure.phabricator.com/book/phabricator/article/arcanist_lint/)
+[Why ESLint vs other JavaScript linters](https://www.thecodecampus.de/blog/eslint-customizable-javascript-linting-tool-1/)
+[Lint a friend not foe](https://www.thecodecampus.de/blog/eslint-customizable-javascript-linting-tool-1/)
