@@ -48,7 +48,7 @@ merely that the lint directives don’t work," the paper says.
 
 To override your linter commands, it requires a team to discuss which rules should be ignored and how. Style-guides, like airbnb's linting guide for React, prepackages these rules for you.
 
-In Part 2, of this series - the ES Lint config for Atom - is the config we used when I was at bootcamp with [GA](https://generalassemb.ly/) and enforces, what GA believed were good styling guiderails for a linter.
+In Part 2, of this series - the ES Lint config for the code editor, Atom - is the config we used when I was at bootcamp with [GA](https://generalassemb.ly/) and enforces, what GA believed were good styling guiderails for a linter.
 
 Besides checking style, linters are also excellent tools for finding certain classes of bugs and code inconsistencies that may cause a code run to fail.
 
