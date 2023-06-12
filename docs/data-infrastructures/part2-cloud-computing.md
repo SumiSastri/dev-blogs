@@ -33,3 +33,34 @@ Cutting edge quirks - new technologies may not fit your use cases.
 Security and compliance can not be outsourced - you still have to have a security policy for your customers data that you collect and store whether on premise or on the cloud.
 
 Cloud computing is another form of hosting that is available for enterprise-level apps.
+
+# Why move infrastructure to the cloud?
+
+The main reason to move storage of your infrastructure files off local servers to cloud based services is that these services now can be accessed anywhere with an internet connection.
+
+Cloud computing combines the use of software and hardware components to deliver services over an internet connection. Users can access these files and services through a plurality of devices depending on the use case requirements. 
+
+Some of the benefits of cloud computing are:-
+
+- automatic software integration
+- back up and restoring data
+- data storage
+- access to different types of databases
+- data querying
+- reliability with networking services
+- load balancing
+- developer tools - often a better developer experience with admin panels to access services
+- often a cost efficient pay-as-you-go model
+- speed to market using on demand and self-service options
+- elasticity in requirement of resources - upscaling or downsclaing
+- compute power that is high but affordable
+- automation
+- resource pooling which are shared and accessed at a lower costs
+- sole tenant offerings - higher costs
+- identity and access management of sensitive data (IdAM) or authorisation (auth) of access
+- federated authorisation - via social media sign in
+- big data options
+- modernisation - access to the Internet of Things (IoT), Cloud AI (Artificial Intelligence)  & ML (Machine Learning)
+- full user-journey analytics (from lead-generation to post-sales)
+- data transfer and migration
+- data integration with different service providers

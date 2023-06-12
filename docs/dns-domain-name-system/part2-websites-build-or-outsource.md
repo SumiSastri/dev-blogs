@@ -43,10 +43,9 @@ Knowing what you want will determine what you do next. A developer may then set 
 
 These add-ons are what cost you to design, build and maintain your site and make the next decision from purchasing hosting. Until you have thought all of this through, it is worth just buying the website name and not hosting while you make these decisions.
 
-
 ## The geek stuff
 
-You also need to know a little about the tecnologies around and who can do what for you. It is easy to assume that any developer can do a better job than you can. They are geeks right - they will sort it out. Wrong.
+You also need to know a little about the technologies around and who can do what for you. It is easy to assume that any developer can do a better job than you can. They are geeks right - they will sort it out. Wrong.
 
 For example, Wordpress is build on the coding language PHP, a server-side-rendering language. Your developer may know HTML, JavaScript and some CSS. So they will have to figure out the PHP bit.
 

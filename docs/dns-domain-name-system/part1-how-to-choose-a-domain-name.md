@@ -10,6 +10,10 @@ nav_order: 5
 
 To choose a domain name, it is useful to understand how the  Domain Name System (DNS) works.
 
+The DNS is a directory of the names of all registered web domains.The DNS matches the URLs (unique-resource-locators) of a web page, the name of the website to the IP (internet protocol) associated with the webpage.
+
+The IP address is a string of numbers, which is hard for users to remember, and the IP address is stored in the URL, also long and hard to remember. So users can assign memorable names to websites they want to own and register them with the DNS system. The DNS is used to point the websites URL to its IP address.
+
 The DNS is set into motion when searches are carried out for web pages by a computer or any other device (client). The search is sent to a server. Device use a browsers to search servers.
 
 The browser sends a request to a server to look up the DNS network.
@@ -55,4 +59,36 @@ If you want to maintain a brand and get additional services doing some research 
 
 Sometimes, you may just want to purchase a domain name and think about the rest of the process - hosting, designing and maintaining your site - after you have purchased the name. Since this takes time, it is worth just purchasing a name and not purchasing hosting at all. Once again, the cheapest service works best till you have a design, architecture and plan for your content.
 
-See Part 2 in this series for more.
+## What is a sub-domain and how is it different from a domain name?
+
+The domain hierarchy is how each of the elements of a domain work with each other.
+
+These are the IP (internet protocol) address, the top-level domain, the second-level domain and the third-level domain.
+
+**Top-level domain** is the part of the URL after the dot. Therefore dot com/ dot co dot uk/ dot org are TLDs or top-level domains. `.com` for example is a TLD.
+
+ICANN is the international not-for profit body that aims to keep the internet safe, stable, inter-operable and secure. It plays a co-ordination role in domain name registration. It has contracts with registrars of domain names but does not register these domain names. It defines how the name system is defined, expands and is governed with policy inputs.
+
+The registered purchaser of a domain name is registered in the WHOIS protocol. If the look-up fails ICANN is a fall-back option for the registry but this is not its primary role.
+
+**Second Level Domain** is the part of the URL before the dot. The name you choose for your site. `mywebsitename.com`
+
+**Third Level Domain** often known as the sub-domain, it is separated from the second level domain by a dot. If for example, you want to guide users to a shopping experience the subdomain could be `shop.yourwebsitename.com` where shop is the third level domain.
+
+## What is DNS resolution
+
+Each segment of a domain name is queried through a process called DNS resolution. Sites need a hosting service. Hosting is parking your URL with a service provider that connects this URL through its servers to the DNS network.  When you send a query in your browser to search for a domain name, the client or your device/ computer sends a message to the a recursive resolver in the web network.
+
+If it is the first search, the search is recursive. If it is a second search of the same URL the search is saved in the cached memory.
+
+The search is first performed at the Top Level Domain. Once this is found the search is then re-routed to the Second Level Domain. Then the Third Level Domain is retrieved and the string of numbers is stored and routed back from the servers to your computer/ device (client).
+
+Many sites have a server that takes care of this configuration before it reaches your computer directly via your local router (wifi/ lan/ adsl/ cable). The pre-prepared routing happens between two DNS servers before it reaches your computer or device (the client).
+
+Different servers behave differently in terms of speed and security, chosing the right host/ name server is therefore important.
+
+## What is DNS propagation?
+
+Changes made to a web or mobile application are deployed by a tech team to the data-infrastructure that the application uses. This infrastructure can be a mix of service providers like Amazon Web Services, Google Cloud Services, or managed services provided by Netifly, Wordpress, Vercel.
+
+The infrastructure is connected to the web hosting service and all the files used in the web application have to be propagated via the DNS system first before these changes can be seen by the end user. The propagation process takes between 24-48 hours depending on the servers and the hosting services you choose.

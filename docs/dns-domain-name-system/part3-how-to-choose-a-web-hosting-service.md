@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Webhosting the tricky parts
+title: Web hosting the tricky parts
 parent: DNS - The Domain Name System
 nav_order: 5
 ---
@@ -39,10 +39,10 @@ The key things to look for when you are choosing a web host are
 - Downtime and crashlytics if any provided
 - Customer reviews
 - Customer service
-- Whether you want to add subscription services, ecommerce services and other backend services where you need to scale up and the capacity the hosting service provides you matches your requirements
+- Capacity offered - the next section talks in a little more detail about choosing a service level. Capacity is measured in the number of servers at your disposal, memory, storage capacity, databases and the type of database offered if you want to add a subscription service or store data for sales where additional protection is required to take credit card payments.
 - Security services
 - Data zones - global or regional - choose a regional one if your customer base is local
-- Web traffic and handling peaks and troughs of traffic on your site seamlessly
+- Web traffic and handling peaks and troughs of traffic on your site seamlessly - also known as load balancing. A good host is able to throttle services up and down and an infrastructure team using code to control deployment to backend services can write in rules to facilitate this process.
 - Any data-protection or database services if you need to store customer data
 
 ## Chosing a service level
@@ -53,12 +53,18 @@ Shared hosting, falls into this category. As it says on the tin, you share your 
 
 Managed VPS (Virtual Private Service), the next level up, manages some backup and updates of your site, improved security, configuration and some additional services depending on the service provider.
 
-Cloud Hosting - instead of an onpremise server, the hosting services allow you to host your sites in a remote server, or the cloud. Cloud hosting can be either shared or a managed VPC (Virtual Private Cloud).
+Cloud Hosting - instead of an on premise server, the hosting services allow you to host your sites in a remote server, or the cloud. Cloud hosting can be either shared or a managed VPC (Virtual Private Cloud).
 
 You can scale up from a shared service to a VPS/VPC with the same host. This is often easier than a migration.
 
 From my research time of writing (2022), Hostgater is a good host for Latin American sites, performs less optimally globally. Host Papa great for Canada and Spain, NameCheap and HostGater great to buy names but general hosting services better with other options - GoDaddy, BlueHost offer good customer services. BlueHost has some covert costs to watch. DreamHost and Hostinger are reliable and performant but the customer service outside the US isn't up to the mark once again good to buy a domain name but not great if you are outside the USA.
 
-The bigger service providers like Google, Amazon and Azure need investment in developers an understanding of infrastucture and paying for a small team to support your growth plans.
+The bigger service providers like Google, Amazon and Azure need investment in developers an understanding of infrastructure and paying for a small team to support your growth plans.
 
 For developers, GitHub's hosting is great for side projects - my choice for this blogsite.
+
+I have used Vercel, Netifly and Heroku (though I have now taken all my data off Heroku as they no longer offer a free-tier for developers).
+
+Once you work at enterprise level, AWS and Google Cloud Platform services are used with larger teams and as a junior developer it is worth working on side projects to familiarise yourself with the basics. You are likely to be given work at mid to senior levels on data-infrastructures as a higher level of skill is required for these business-critical operations. 
+
+Data infrastrutures are complex and at enterprise level, decisions on hosting and data-infrastructures go hand-in-hand and senior-teams review the enterprises business case making these selections based on current and future growth plans with solutions architects and other IT specialists like networking experts and big-data experts.
