@@ -13,7 +13,7 @@ Here are a list of resources that I have used for this section
 
 ### PluralSight
 
-(AWS Cloud Formation Overview Andy Cummings)[https://app.pluralsight.com/library/courses/introduction-aws-cloudformation/table-of-contents]
+(AWS CloudFormation Overview Andy Cummings)[https://app.pluralsight.com/library/courses/introduction-aws-cloudformation/table-of-contents]
 
 ## Documentation
 

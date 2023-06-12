@@ -7,7 +7,7 @@ nav_order: 8
 
 # Workflow
 
-The workflow is Install -> Configure -> Construct & Validate -> Bootsrap -> Synthesize -> Deploy -> Destroy
+The AWS CDK workflow is _Install -> Configure -> Construct & Validate -> Bootsrap -> Synthesize -> Deploy -> Destroy_
 
 ## INSTALL
 
@@ -26,6 +26,10 @@ The package ships with
 - in addition to the `package.json` file there is a `cdk.json` file (review both to familiarise yourself with what is in it)
 - for typescript the `tsconfig.json` file
 
+Lerna  or `pnpm` can be used as package managers across all node-based repos
+
+Once installed AWS and all dependencies have to be configured.
+
 ### Useful CLI commands
 
 check documentation `cdk docs`
@@ -34,6 +38,8 @@ list all stacks `cdk list`
 check local with deploy `cdk diff`
 
 ## CONFIGURE
+
+All dependencies can be installed with `npm` from the AWS V2 services.
 
 In the project `cd aws-cdk-demo-app`
 Configure AWS to sync local to AWS Cloud services `aws configure --profile your-profile-name`
@@ -56,6 +62,16 @@ To change details if you have got them wrong - see instructions on aws configure
 
 ## BOOTSTRAP
 
+The AWS `cdk bootstrap()` method ships with the CDK library and allows you to connect local stacks to AWS Cloud Services.
+
+The first step is to make a decision on the AWS CloudFormation stack to be used:
+
+eg:
+- Node
+- Fargate
+- AppSync
+- CloudFormation
+
 Once configured you can bootstrap or connect the local machine to the AWS cloud services
 `cdk bootstrap --profile your-profile name`
 
@@ -66,7 +82,15 @@ CDKToolkit: creating CloudFormation changeset...
  ✅  Environment aws://992722868670/eu-west-2 bootstrapped.
 ```
 
+- By running the command `cdk bootstrap()` in the background a CDK Tool Kit configures the local code to the AWS CloudFormation stack along with an S3 Bucket to store all Assets in an AWS Account - [See repo code](https://github.com/SumiSastri/nextjs-aws-app/tree/main/packages/aws-cdk-demo-app) to follow.
+
 ## SYNTHESIZE
+
+Synthesing is the process useed to convert one or more AWS CDK stacks code to AWS CloudFormation templates and related assets to manage the CloudFormation infrastructure.
+
+Running the method `cdk synth` generates the CloudFormation templates. It traverses the CDK-app tree and invokes the method on all constructs in the app. It generates unique IDs for the CloudFormation Templates and then generates the code needed for the files/ assets that are bundled into the CDK-app. These could be lambda handler code, docker images, s3 static assets. These assets are any artifacts that the app needs to operate. When `cdk synth` or `cdk deploy` are run a `cdk.out` file is generated.
+
+The synth process is a handoff from the local machine code to the CloudFormation Deployment. The output is sent to CloudFormation to deploy code in the AWS Cloud.
 
 In root of app
 `mkdir templates`
