@@ -1,11 +1,11 @@
 ---
 layout: default
-title: AWS CDK installation
+title: Installation
 parent: AWS CDK
 nav_order: 8
 ---
 
-# AWS CDK installation
+# Installation
 
 1. Install the AWS CDK with node package manager globally `npm install aws-cdk -g`
 2. Create a directory for the project `aws-cdk-demo-app`

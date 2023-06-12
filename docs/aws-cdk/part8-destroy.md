@@ -1,11 +1,11 @@
 ---
 layout: default
-title: AWS CDK destroy method
+title: Destroy
 parent: AWS CDK
 nav_order: 8
 ---
 
-# AWS CDK destroy method
+# Destroy
 
 You can destroy the deployed CDK anytime and redeploy it using the in the workflow section.
 

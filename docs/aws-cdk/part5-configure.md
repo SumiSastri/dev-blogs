@@ -1,11 +1,11 @@
 ---
 layout: default
-title: AWS CDK configuration
+title: Configure
 parent: AWS CDK
 nav_order: 8
 ---
 
-# AWS CDK configuration
+# Configure
 
 All dependencies can be installed with `npm` from the AWS V2 services.
 

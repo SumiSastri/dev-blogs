@@ -1,11 +1,11 @@
 ---
 layout: default
-title: AWS CDK bootstrap method
+title: Bootstrap
 nav_order: 8
 parent: AWS CDK
 ---
 
-# AWS CDK bootstrap method
+# Bootstrap
 
 The AWS `cdk bootstrap()` method ships with the CDK library and allows you to connect local stacks to AWS Cloud Services.
 

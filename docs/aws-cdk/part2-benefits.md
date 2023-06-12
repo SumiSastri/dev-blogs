@@ -1,11 +1,11 @@
 ---
 layout: default
-title: AWS CDK benefits
+title: Benefits
 nav_order: 8
 parent: AWS CDK
 ---
 
-# AWS CDK benefits
+# Benefits
 
 The AWS CDK allows you to use serverless microservices or infrastructure as code. In the AWS ecosystem, this means you can
 

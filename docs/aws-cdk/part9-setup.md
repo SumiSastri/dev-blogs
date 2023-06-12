@@ -1,11 +1,11 @@
 ---
 layout: default
-title: AWS CDK construct method
+title: Project setup
 parent: AWS CDK
 nav_order: 8
 ---
 
-# AWS CDK construct method
+# Project setup
 
 The AWS `cdk construct()` method ships with the CDK library and allows you create the basic building blocks or constructs required to configure an AWS CDK app. This method takes out the grunt work of manually writing the pre-requisites and folders structure for the app and helps to separate concerns within the CDK app.
 

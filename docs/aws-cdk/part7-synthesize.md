@@ -1,11 +1,11 @@
 ---
 layout: default
-title: AWS cdk synth method
+title: Synthesize 
 parent: AWS CDK
 nav_order: 8
 ---
 
-# AWS cdk synth method
+# Synthesize
 
 Synthesing is the process useed to convert one or more AWS CDK stacks code to AWS CloudFormation templates and related assets to manage the CloudFormation infrastructure.
 

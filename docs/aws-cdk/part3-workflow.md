@@ -1,11 +1,11 @@
 ---
 layout: default
-title: WS CDK workflow
+title: Workflow
 parent: AWS CDK
 nav_order: 8
 ---
 
-# AWS CDK workflow
+# Workflow
 
 The workflow is Install -> Configure -> Construct & Validate -> Bootsrap -> Synthesize -> Deploy -> Destroy
 
