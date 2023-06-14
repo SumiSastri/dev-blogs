@@ -35,7 +35,7 @@ One of the joys of the paper is the sense of humour, and frustration Johnson exp
 
 He created a program for linting therefore to detect as many code discrepancies possible.
 
-## Shutting lint up
+## Shut the lint up
 
 Johnson, in his imitable way, has a section called "shutting lint up" as he says "There are occasions when the programmer is smarter than lint... Some way of communicating with lint, typically to shut it up, is desirable."
 

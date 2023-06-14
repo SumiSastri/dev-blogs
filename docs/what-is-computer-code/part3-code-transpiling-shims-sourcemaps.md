@@ -27,8 +27,6 @@ Transpilers go one step further when they traverse the root and branches of the 
 
 Transpilers now go through the process of de-sugaring (removing the syntatical sugar added by newer versions of code that make it easier for the code writer to work with) ES6 to ES13 back into the older machine-readable JavaScript.
 
-So while syntactical sugar is syntax added to a code that makes it easy to work with, transpiling reverses this process and makes the process more basic for binary computation and machine-readable code.
-
 Transpilers perform the following tasks:
 
 1. Creating an Abstract Traversal Tree (AST) instead of the DOM
