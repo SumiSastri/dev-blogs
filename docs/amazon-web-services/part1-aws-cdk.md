@@ -159,7 +159,7 @@ new CfnOutput(this, 'MusicItemsExport', {
    `npm install @aws-cdk/aws-lambda-nodejs`
    `npm i esbuild`
 
-7. Config of `getApi` construct is different - node runtime is 16, entry changes to code and import of S3 uses commonJS syntax `import S3 = require("aws-sdk/clients/s3");`
+7. Config of `getApi` construct is different - node runtime is 16, entry changes to code and import of S3 uses CommonJS syntax `import S3 = require("aws-sdk/clients/s3");`
 
 ```JavaScript
 type MusicAssetsAPIProps = {

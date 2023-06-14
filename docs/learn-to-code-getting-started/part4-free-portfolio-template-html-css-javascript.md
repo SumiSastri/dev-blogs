@@ -15,7 +15,7 @@ A word of advice, invest your time learning JavaScript. If this project interest
 
 JavaScript was originally written and designed in 10 days by [Brenden Eich](https://en.wikipedia.org/wiki/Brendan_Eich) in the 1990s. It has as many exceptions as it has rules. It failed to gain popularity until the early 2000s and now it is the fastest growing language by popularity and adoption.
 
-The European Computer Manufacturers' Association, [ECMA](https://en.wikipedia.org/wiki/_International), acts as a standards body for JavaScript and updates JavaScript design patterns. [ECMA-6, or ES6](https://www.w3schools.com/Js/js_es6.asp), was the first major update to JavaScript. Each year since new updates have been added, part of a developers' job is to keep abreast of these changes, a list of the revisions up to 2020 are on [this link]9https://en.wikipedia.org/wiki/ECMAScript).
+The European Computer Manufacturers' Association, [ECMA](https://en.wikipedia.org/wiki/Ecma_International), acts as a standards body for JavaScript and updates JavaScript design patterns. [ECMA-6, or ES6](https://www.w3schools.com/Js/js_es6.asp), was the first major update to JavaScript. Each year since new updates have been added, part of a developers' job is to keep abreast of these changes, a list of the revisions up to 2020 are on [this link](https://en.wikipedia.org/wiki/ECMAScript).
 
 Like CSS ,the basics of vanilla JavaScript or JS, is easy to learn but difficult to master. There are no short-cuts except to practice, practice, practice and learn, learn, learn.
 
