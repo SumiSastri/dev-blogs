@@ -7,7 +7,7 @@ nav_order: 2
 
 # What is webpack?
 
-![Webpack Version 5](docs/what-is-computer-code/assets/webpack-v5-screengrab.png)
+![Webpack Version 5](./assets/webpack-v5-screengrab.png)
 
 Webpack is a JavaScript build tool that helps transpiling, configuiring, compiling code and more. It is used in a NodeJS environment. It is a specialised task runner that takes inputs and produces and output. The inputs are `.js/`,`.html/` `.css` files and the output is browser parseable code. The `.html` and `.css` files are processed with plugins as the [documentation on npm](https://www.npmjs.com/package/webpack) describes.
 
