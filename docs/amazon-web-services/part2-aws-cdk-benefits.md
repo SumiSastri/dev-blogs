@@ -2,7 +2,7 @@
 layout: default
 title: Benefits
 nav_order: 8
-parent: AWS CDK
+parent: AWS 
 ---
 
 # Benefits
