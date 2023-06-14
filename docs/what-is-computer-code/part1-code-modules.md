@@ -1,11 +1,11 @@
 ---
 layout: default
-title: What is a code module
+title: What is a code module?
 parent: What is computer code
 nav_order: 2
 ---
 
-# What is a code module
+# What is a code module?
 
 A module is a way of encapsulating code before it is bundled. It is a way of writing reusable code that can be exported and made available to other dependent code blocks.
 
@@ -17,7 +17,7 @@ The code that code writers create is not machine-readable. This blog gives you a
 
 While the code is being compilied in a module and an error occurs, the errors are called compile-time errors. Once the application is read by a browser or any other code parser, it is called a run-time error because the code may compile in compile time but further errors may be discovered when the code runs on the environment that the end-user consumes the code.
 
-## Code design patterns vs code modules
+## What is the difference between code design patterns and a code module ?
 
 With JavaScript, the modularization of code before 2015 when the ES-6 module was created to standardize code modules was with design patterns. These are some of the design patterns that were common in the initial phases of the development of JavaScript.
 
@@ -36,7 +36,7 @@ CommonJS - simple and readable. A module is declared in a file and exported so t
 
 Modern modularization of code patterns with ECMA (The European Computer Manufacturers' Association) Script follow rules set by the organisation. Now, each JavaScript file is considered a module. The code in that file remains private unless explicitly exported and imported using the `export` and `import` keyword.
 
-Browsers understand, with named imports of the code fragments, that this file or module that has been imported into a new file is available for use in the new file. They understand this because of a process of bundling called transpiling rather than compiling which software packages like Webpack and Babel perform once the JavaScript code is received by these transpilers.
+Browsers understand, with named imports of the code fragments, that this file or module that has been imported into a new file is available for use in the new file. They understand this because of a process of bundling called transpiling rather than compiling which software packages like webpack and Babel perform once the JavaScript code is received by these transpilers.
 
 Webpack bundles ECMA6- HTML, CSS, images, styles and fonts in one and is a preferred bundler of JavaScript modules. 
 
@@ -46,4 +46,4 @@ The ability to bundle different modules/ packages/ code together is known as cod
 
 Module formatting with Babel turns ECMA script/ globals/ IFFEs/ AMDs/UMDs into their browser-compatible JavaScript. 
 
-Browsers like google/ edge/ safari/ mozilla each has their own software in the browser that parses JavaScript. Babel will format modules that have been bundled by Webpack back into the format required by each of these individual browsers and their software parsing requirements. It is module agnostic.
+Browsers like google/ edge/ safari/ mozilla each has their own software in the browser that parses JavaScript. Babel will format modules that have been bundled by webpack back into the format required by each of these individual browsers and their software parsing requirements. It is module agnostic.

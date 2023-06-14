@@ -13,7 +13,7 @@ Transpiling is a further process once code has been compiled to re-compiling the
 
 JavaScript, for example has evolved syntax over the years into [ECMA](https://en.wikipedia.org/wiki/Ecma_International) Script Modules, see Part 1 in this series for more information. 
 
-However, browser parsers read one format of JavaScript in Common JS. A transpiler (like Babel or Webpack) translates this more modern version of JavaScript into the browser-version of JavaScript which is older. Webpack, therefore first compiles, then transpiles the code and is used both as a compiler and transpiler. Most code compilers now are also transpilers.
+However, browser parsers read one format of JavaScript in Common JS. A transpiler (like babel or webpack) translates this more modern version of JavaScript into the browser-version of JavaScript which is older. Webpack, therefore first compiles, then transpiles the code and is used both as a compiler and transpiler. Most code compilers now are also transpilers.
 
 [This Scotch.io article](https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them#:~:text=Transpilers%2C%20or%20source%2Dto%2D,are%20said%20to%20target%20JavaScript.) goes a little more into the detail of how this happens.
 

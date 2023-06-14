@@ -6,24 +6,26 @@ nav_order: 2
 ---
 
 
-# What is code bundling
+# What is code bundling?
 
-Code, as we have seen in Part1 of What is Computer Code, is a series of instructions written in a coding language by code writers. This code is bundled for usage for browsers to understand in small chunks.
+Code, as we have seen in Part1 of What is Computer Code, is a series of instructions written in a coding language by code writers. This code is bundled for usage for browsers to understand in small chunks. Under the hood, bundling is a function that takes some files and emits others.
 
-Bundlers, like Webpack chunks and bundles all the code together to make it easier and more performant for browsers to understand code that is sent to a web-server.
+While this is a simple explaination, there are several scripts that are between input and output - bundlers examine code modules, entry points, code chunks, code chunk groups, and perform several tasks.
 
-You may just require to package all your JavaScript into one file. Bundling files is a common way to pack code into a file that is more performant/ efficient depending on its use case.
+Bundlers, like webpack, chunk and bundle all the code together to make it easier and more performant for browsers to understand code that is sent to a web-server.
 
-Webpack is one such JavaScript bundler for JavaScript ES6 modules. It is the most popular, however ,there are others like Browserify, Parcel,Rollup and SnowPack. Here is a short list of bundlers and my notes:-
+You may just require to package all your JavaScript into one file. Bundling files is a common way to pack code into a file that is more performant/efficient depending on its use case.
 
-- RequireJS is outdated
-- Broswerify is simple but not necissarily performant
-- Webpack is comprehensive and good for projects
-- Rollup is faster for mobile applications and libraries.
-- Parcel has no config with some of the same benefits as webpack - code splitting, asset bundling (images-videos-CSS styles) and claims to be faster than webpack
-- Snowpack however has some significant advantages over webpack on the front end for instant front-end builds. Data is cached (saved in memory) so once code is built it is cached forever improving the speed and performance of page reloads, it means instant start-up time of front-end applications and an instant refresh on save - built in bundling for ReactJS - a JavaScript frontend component library, TypeScript a JavaScript superscript,and more.
+Webpack is one such JavaScript bundler for JavaScript ES6 modules. It is the most popular, however, there are others like Browserify, Parcel, Rollup and SnowPack. Here is a short list of bundlers and my notes:-
 
-NodeJs a JavaScript run-time language, packages code into programs using a library, Node Package Manager (npm) that can be re-used by deverlopers. NPM, as it is more frequently referred to as, uses CommonJS (which is a code bundler), that browsers can't parse (read/ understand).
+- requireJS is outdated
+- broswerify is simple but not necissarily performant
+- webpack is comprehensive and good for projects
+- rollup is faster for mobile applications and libraries.
+- parcel has no config with some of the same benefits as webpack - code splitting, asset bundling (images-videos-CSS styles) and claims to be faster than webpack
+- snowpack however has some significant advantages over webpack on the front end for instant front-end builds. Data is cached (saved in memory) so once code is built it is cached forever improving the speed and performance of page reloads, it means instant start-up time of front-end applications and an instant refresh on save - built in bundling for ReactJS - a JavaScript frontend component library, TypeScript a JavaScript superscript and more.
+
+NodeJs, a JavaScript run-time language, packages code into programs using a library. Node Package Manager (npm) that can be re-used by developers, npm, as it is more frequently referred to as, uses CommonJS (which is a code bundler), that browsers can't parse (read/ understand).
 
 ## What do code modules do to help bundling
 
@@ -41,18 +43,19 @@ Minification is the process which a code bundler removes all white spaces and un
 
 Concatenation is the process where one or more files are combined together.
 
-## Task runners
+## What are task runners?
 
-Build tools that perform specialised tasks are called task runners.
+Build tools that perform specialised tasks. These sub-set of tools that perform these tasks are called task runners.
 
-eg: Lodash - is JavaScript utility library delivering modularity, performance & extras specifically when it comes to working with arrays, numbers, objects, strings, etc.
+eg: Lodash is a task runner, it is a JavaScript utility library delivering modularity, performance & extras specifically when it comes to working with arrays, numbers, objects, strings, etc.
+
 Lodash’s modular methods are great for:
 
-- Iterating arrays, objects, & strings
-- Manipulating & testing values
-- Creating composite functions
+- iterating arrays, objects, & strings
+- manipulating & testing values
+- creating composite functions
 
-## What is a code package 
+## What is a code package
 
 Packages are bundles of source code distributed by developers of software, which can be compiled and installed on your machine.
 
