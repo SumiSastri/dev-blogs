@@ -8,7 +8,7 @@ nav_order: 2
 
 Code, as we have seen in Part1, is a list of instructions written in a coding language by code writers. This code is bundled for usage for browsers to understand in small chunks. Under the hood, bundling is a function that takes some files and emits others. I write about JavaScript specifically, but in general all code behaves in the same way - the syntax and grammar of the function that is written depends on the language the code is running in.
 
-While this is a simple explaination, there are several scripts that are run between input and output. Bundlers examine code modules, entry points, code chunks, code chunk groups, and perform several tasks.
+While this is a simple explanation, there are several scripts that are run between input and output. Bundlers examine code modules, entry points, code chunks, code chunk groups, and perform several tasks.
 
 Bundlers, like webpack, chunk and bundle all the code together to make it easier and more performant for browsers to understand code that is sent to a web-server. This bundling happens asynchronously - which means it happens on a server in the background - while you are browsing pages on a web or mobile app.
 

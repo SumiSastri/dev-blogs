@@ -21,7 +21,7 @@ Computer programmers and software engineers may have a higher skill set compared
 
 ## What is the difference between code design patterns and a code module?
 
-With JavaScript, the modularization of code before 2015 when the [ECMA Script 6, ECMA-6 or ES6 for JavaScript](https://en.wikipedia.org/wiki/ISO/IEC_646#ECMA-6) module was created to standardize code modules was with design patterns. There are so many different [JavaScript design patterns](https://www.digitalocean.com/community/tutorial_series/javascript-design-patterns) as this article demonstrates with a more technical explaination.
+With JavaScript, the modularization of code before 2015 when the [ECMA Script 6, ECMA-6 or ES6 for JavaScript](https://en.wikipedia.org/wiki/ISO/IEC_646#ECMA-6) module was created to standardize code modules was with design patterns. There are so many different [JavaScript design patterns](https://www.digitalocean.com/community/tutorial_series/javascript-design-patterns) as this article demonstrates with a more technical explanation.
 
 These are some of the design patterns, that I found easy to understand and that were common in the initial phases of the development of JavaScript before ECMA Script and a universal standard for writing JavaScript code emerged.
 

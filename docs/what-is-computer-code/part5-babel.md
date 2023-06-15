@@ -39,6 +39,6 @@ Other transpilers are google's Traceur - this is an experimental transpiler and 
 
 TypeScript has a transpiler and sometimes is compared to Babel but it is a language - a superscript of JavaScript. The primary function of TypeScript is to transpile TypeScript to JavaScript, it happens to have a transpiler but that is not its core function. Babel is not a language, its core function is transpiling.
 
-Babel, itself is is made up of several Node packages. In Part2 you can see a brief explaination of npm - Node Package Manager - and Node. To paraphrase, NodeJs packages code into programs and these pre-packaged libraries are available on npm.
+Babel, itself is is made up of several Node packages. In Part2 you can see a brief explanation of npm - Node Package Manager - and Node. To paraphrase, NodeJs packages code into programs and these pre-packaged libraries are available on npm.
 
 It is a pattern you will see in many libraries. For example, Babel which is now in Version 6 of its package-management lifecycle, has baked in 2 key libraries (amongst others) - `babel-core` and `babel-cli` it has further plugins, transformers, task runners, presets. These have to be configured in a dotfile - `.babelrc` in the root of a project with presets depending on how you use Babel.
