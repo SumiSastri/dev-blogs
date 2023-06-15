@@ -1,7 +1,7 @@
 ---
 layout: default
 title: What is Babel?
-title: What is computer code
+parent: What is computer code
 nav_order: 2
 ---
 

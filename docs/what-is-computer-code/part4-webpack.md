@@ -7,8 +7,6 @@ nav_order: 2
 
 # What is webpack?
 
-![Webpack Version 5](./assets/webpack-v5-screengrab.png)
-
 Webpack is a JavaScript build tool that helps transpiling, configuiring, compiling code and more. It is used in a NodeJS environment. It is a specialised task runner that takes inputs and produces and output. The inputs are `.js/`,`.html/` `.css` files and the output is browser parseable code. The `.html` and `.css` files are processed with plugins as the [documentation on npm](https://www.npmjs.com/package/webpack) describes.
 
 Webpack an open source project that relies on [sponsors](https://webpack.js.org/#sponsors) and programmers who volunteer their time to maintain the programme.. It is not tied to (and paid by) a big company like some other open source projects, and on the [Webpack github repo](https://github.com/webpack/webpack.js.org) you will find several opportunities to contribute to the maintenance and development of this package.
@@ -50,7 +48,9 @@ While the main release of webpack v5 was in 2018, every major version may have s
 
 At the time of writing (2022) the main version of webpack is v5, the details in the official documentation [webpack version 5](https://webpack.js.org/blog/2020-10-10-webpack-5-release/).
 
-While the functionality of Webpack v5 may have specific breaking changes from v4, webpack has all the functionality of a good bundling package outlined in Part2 of this series which discusses the generic ways in which bundlers offer better functionality for code bundling.
+While the functionality of Webpack v5 may have specific breaking changes from v4, webpack has all the functionality of a good bundling package outlined in Part2 of this series which discusses the generic ways in which bundlers offer better functionality for code bundling. This is a screen grab from the v5 home page.
+
+![Webpack Version 5](./assets/webpack-v5-screengrab.png)
 
 It is worth noting that webpack works with `npm` not Bower and like all packages are a work in progress, so v5 could be updated and future breaking changes are possible.
 
