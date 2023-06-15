@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Firebase build tools
-parent: Google cloud services
+parent: GCP Firebase
 nav_order: 9
 ---
 
