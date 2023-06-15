@@ -12,7 +12,7 @@ AWS Cloud Development Kit (CDK) is a stack that allows you to define the AWS res
 
 [An example repo in my portfolio](https://github.com/SumiSastri/nextjs-aws-app/tree/main/packages/aws-cdk-demo-app) to follow and see how the code works.
 
-This repo follows the tutorial AWS Infrastructure with TypeScript - David Tucker [https://app.pluralsight.com/library/courses/aws-infrastructure-typescript-getting-started/table-of-contents]
+This repo follows the tutorial AWS Infrastructure with TypeScript - [David Tucker](https://app.pluralsight.com/library/courses/aws-infrastructure-typescript-getting-started/table-of-contents)
 
 AWS Cloud Development Kit (CDK) is a stack that co-ordinates the lifecycles of nested stacks. A nested stack, is a stack within a stack.
 
