@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Auth requirements
-nav_order: 9
+nav_order: 8
 parent: Authentication and authorisation
 ---
 

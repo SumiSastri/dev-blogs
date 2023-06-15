@@ -2,7 +2,7 @@
 layout: default
 title: What is the cloud
 parent: Data infrastructures
-nav_order: 6
+nav_order: 4
 ---
  
  

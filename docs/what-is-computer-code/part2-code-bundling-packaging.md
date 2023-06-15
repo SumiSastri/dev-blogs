@@ -2,7 +2,7 @@
 layout: default
 title: What is a code bundling
 parent: What is computer code
-nav_order: 2
+nav_order: 5
 ---
 # What is code bundling?
 

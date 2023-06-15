@@ -1,7 +1,7 @@
 ---
 layout: default
 title: DNS - The Domain Name System
-nav_order: 5
+nav_order: 3
 has_children: true
 ---
 

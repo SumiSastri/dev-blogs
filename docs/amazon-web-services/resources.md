@@ -2,7 +2,7 @@
 layout: default
 title: Resources
 parent: AWS 
-nav_order: 8
+nav_order: 10
 ---
 
 # Resources

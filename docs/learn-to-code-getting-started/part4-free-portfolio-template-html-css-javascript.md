@@ -2,7 +2,7 @@
 layout: default
 title: A free portfolio or website template with HTML, CSS & JavaScript
 parent: Learn to code - getting started
-nav_order: 3
+nav_order: 6
 ---
 
 # A free portfolio or website template with HTML, CSS & JavaScript

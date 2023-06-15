@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Learn to code - getting started
-nav_order: 3
+nav_order: 6
 has_children: true
 ---
 

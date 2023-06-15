@@ -2,7 +2,7 @@
 layout: default
 title: How the internet works
 parent: Learn to code - getting started
-nav_order: 3
+nav_order: 6
 ---
 
 # How the internet works
