@@ -27,7 +27,7 @@ While the browser wars raged in the 1990s, today Safari has been taken to task f
 
 Apple phones and I-pads mask these browsers and use Safari, which users see and interact with. However, the UX with Safari is so poor that users often prefer Android mobile devices. A plurality of browsers perform so much better on speed and efficiency, Lawson said. As of 2025, Apple in Europe under the Digital Act will be obliged to change this anti-competitive behaviour, he added.
 
-## I am going to the garden to eat bugs - big ones, fat ones, round ones, curly ones
+## I'm going to the garden to eat bugs - big ones, fat ones, round ones, curly ones
 
 Browsers, and JavaScript with all its avatars, also bring with them the joy of bugs. Gabriel Manor-Leichtman’s in-depth look at browser developer tools to help debugging code and network performance issues was worth reviewing once again for its rich content and useful guidelines on the online playback of Stack Skills conference package.
 

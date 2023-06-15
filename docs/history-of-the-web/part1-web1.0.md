@@ -8,6 +8,10 @@ title: A love letter to the personal website
 
 # A love letter to the personal website
 
+Full disclosure right up front, this conference and the topics have been doing a slow brew in my head. I looked at my own portfolio website and removed some JavaScript (might remove more), gave static-site-generators a twirl and thought they were over-engineered. Finally Just the Docs is the barest bones of HTML-CSS and Jekyll with GitHub as the host, the option I chose for my dev blogs.
+
+That's the history of this blog site - but on to the more important topic that was discussed and the thoughts that have influenced my thinking about web development in the last year...
+
 If we thought Web 1.0 was dead, a full-stack conference hosted by Stack Skills considered it fun to resurrect that dead thought from the grave. The theme was taking us through a brief history of the web starting with HTML and reminding us that CSS are perfect tools to build any website, all that JavaScript added was the browser wars and bugs...
 
 Sophie Koonin's introductory talk, “A love letter to the personal website,” took us through the sad loss of the personal websites of the 1990s - websites for profit for pleasure of the individual not for the profit of the conglomerates.
