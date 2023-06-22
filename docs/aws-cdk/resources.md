@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Resources
-parent: AWS 
+title: Resources AWS-CDK
+parent: AWS-CDK
 nav_order: 10
 ---
 
-# Resources
+# Resources AWS-CDK
 
 Here are a list of resources that I have used for this section
 

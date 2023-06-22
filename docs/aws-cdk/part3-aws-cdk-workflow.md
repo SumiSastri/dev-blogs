@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Workflow
-parent: AWS 
+parent: AWS-CDK
 nav_order: 10
 ---
 

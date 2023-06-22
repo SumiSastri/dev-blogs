@@ -1,7 +1,7 @@
 ---
 layout: default
 title: What is AWS CDK
-parent: AWS 
+parent: AWS-CDK
 nav_order: 10
 ---
 
