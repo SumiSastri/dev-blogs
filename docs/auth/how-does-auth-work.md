@@ -1,11 +1,11 @@
 ---
 layout: default
-title: How does auth work in a digital environment
+title: How does auth work in a digital environment?
 nav_order: 8
 parent: Authentication and authorisation
 ---
 
-# How does auth work in a digital environment
+# How does auth work in a digital environment?
 
 Authentication in the physical environment works in different ways. For example, if you have received a parcel in the Post Office, you may be required to take a proof of address like a recent bill with your name and address and some additional photo-identity like a driver's licence. These proofs are also considered claim-based identification for authorisation. Your name, address are claims that you are who you say you are.
 
@@ -31,11 +31,13 @@ As an additional 3rd-party verifiction OpenID Connect is a system that provides 
 
 OpenId connect uses a system called OAuth or Open Authentication.
 
-Now anyone who claims to be you digitally must provide additional information to the username and password, which is a digital authorisation token. There are several digital auth tokens, the most common being a JWT, (Json Web Token), also called a Jot.
+Now anyone who claims to be you digitally must provide additional information to the username and password, which is a digital authorisation token. There are several digital auth tokens, the most common being a JWT, (Json Web Token), also called a Jot. A JWT is a `.json` (JavaScript Object Notation) file that holds the `bearerToken` or the jot token from the JWT library. 
+
+The token is like a session stateless cookie that is generated when the user types in their authentication details (username and password for example) and sends it via an API (Application Programming Interface) call in the header of the request to the backend resources, typically a database which stores user information.
 
 When you sign in, a session-cookie identifies you as a user and a Jot is dropped into the browser with OpenId as a gateway that is the equivalent of the additional proof - the driver's licence.
 
-Now when you request for a resource - in the form of an API (Application Programming Interface) call to an URL (unique resource locator) that identifies what you have requested for (consider this the parcel you want from the Post office with a tracking code to identify your resource from all the other resources in the digital warehouse of the world-wide-web) a matching service takes place.
+Now when you request for a resource - in the form of an API call to an URL (unique resource locator) that identifies what you have requested for (consider this the parcel you want from the Post office with a tracking code to identify your resource from all the other resources in the digital warehouse of the world-wide-web) a matching service takes place.
 
 - Digitally does your email, password correspond with the data-store that holds your email and password?
 - Does the additional proof of the JWT token provide you access to the URL requested - if yes, you can see the resource, if no you will not be authorised to receive the URL and the information it holds.

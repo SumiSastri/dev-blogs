@@ -7,7 +7,3 @@ parent: Authentication and authorisation
 
 
 # What is OpenId Connect
-
-
-
-

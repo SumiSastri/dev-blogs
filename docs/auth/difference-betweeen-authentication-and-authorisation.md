@@ -1,11 +1,11 @@
 ---
 layout: default
-title: What is authentication
+title: What is authentication?
 nav_order: 8
 parent: Authentication and authorisation
 ---
 
-# What is authentication
+# What is authentication?
 
 Authentication is the process by which a user who registers to use an app is verified. The user must be who they say they are, a person and not a bot, and the person who registered for a service and not the person's friends, family or other work colleagues.
 
