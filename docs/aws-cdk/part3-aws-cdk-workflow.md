@@ -7,7 +7,7 @@ nav_order: 10
 
 # Workflow
 
-The key steps in the AWS-CDK workflow are:
+The key steps in the AWS (Amazon Web Services) Cloud Development Kit (CDK) workflow are:
 
  _Install -> Configure -> Construct & Validate -> Bootstrap -> Synthesize -> Deploy -> Destroy_
 

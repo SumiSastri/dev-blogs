@@ -7,7 +7,7 @@ parent: AWS-CDK
 
 # Benefits
 
-The AWS CDK allows you to use serverless microservices or infrastructure as code. 
+AWS (Amazon Web Services) Cloud Development Kit (CDK) allows you to use serverless microservices or infrastructure as code.
 
 In the AWS ecosystem, this means you can:
 

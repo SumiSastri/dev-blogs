@@ -7,7 +7,7 @@ parent: Authentication and authorisation
 
 # What is authentication?
 
-Authentication is the process by which a user who registers to use an app is verified. The user must be who they say they are, a person and not a bot, and the person who registered for a service and not the person's friends, family or other work colleagues.
+Authentication is the process of identifying a user and ensuring the user is, who the user says the user is. By this we mean, the user must be a person and not a bot, and the person who registered for a service and not the person's friends, family or other work colleagues.
 
 Authenticating a user can be done in many ways using a number of devices. Today we have not just email & password identification, we also can have bio-metric identification - fingerprints, voice, iris-identifiction.
 
@@ -31,7 +31,7 @@ Federated authentication is allowing a 3rd party - like social media account aut
 
 ## What is authorisation?
 
-After a user has been authenticated, or verified as the right user to have access to a system, the user can be authorised to access information on the app.
+After a user has been authenticated, or verified as the right user to have access to a system, the user can be authorised to access information on the app. Authorisation is the process of granting permissions and levels of access control.
 
 Confusingly, some use auth to mean both authentication and authorisation but they are two distinct processes that allow a user to perform certain tasks based on their roles and needs to perform those tasks.
 
@@ -53,3 +53,5 @@ Some of the requirements for authorisation are:-
 - Understanding a user may have multiple roles and storing the data in a variety of directories with the right access level for each role - eg: a super-admin may have all the rights of a reader, admin plus certain rights as a super-admin and have a presence in each of the directories
 - setting levels of access - superusers vs. reader-bronze and the whole spectrum inbetween
 - establishing authorisation rights - what can each of these users do once they have access, and what internal APIs can they access
+- prevent credential sharing - a person sharing emails and passwords for other people to use
+- restricting access is the flip side of granting access, authorisation must also allow the revoking of access

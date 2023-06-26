@@ -12,6 +12,8 @@ has_children: true
 
 [AWS SES](https://docs.aws.amazon.com/ses/latest/dg/Welcome.html)
 
-[PluralSight oAuth](https://app.pluralsight.com/library/courses/pluralsight-live-2020-oauth2-openid-connect/table-of-contents)
+[PluralSight OAuth](https://app.pluralsight.com/library/courses/pluralsight-live-2020-oauth2-openid-connect/table-of-contents)
 
 [JWT Docs](https://jwt.io/)
+
+[Plural Sight OAuth-2](https://app.pluralsight.com/library/courses/oauth-2-getting-started/table-of-contents)
