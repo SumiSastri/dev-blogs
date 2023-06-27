@@ -67,7 +67,7 @@ These are the IP (internet protocol) address, the top-level domain, the second-l
 
 **Top-level domain** is the part of the URL after the dot. Therefore dot com/ dot co dot uk/ dot org are TLDs or top-level domains. `.com` for example is a TLD.
 
-ICANN is the international not-for profit body that aims to keep the internet safe, stable, inter-operable and secure. It plays a co-ordination role in domain name registration. It has contracts with registrars of domain names but does not register these domain names. It defines how the name system is defined, expands and is governed with policy inputs.
+ICANN is the international not-for profit body that aims to keep the internet safe, stable, interoperable and secure. It plays a co-ordination role in domain name registration. It has contracts with registrars of domain names but does not register these domain names. It defines how the name system is defined, expands and is governed with policy inputs.
 
 The registered purchaser of a domain name is registered in the WHOIS protocol. If the look-up fails ICANN is a fall-back option for the registry but this is not its primary role.
 

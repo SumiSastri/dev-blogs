@@ -27,7 +27,36 @@ When you sign-in to an account, you use these claims to verifiy you are who you 
 
 As an additional 3rd-party verifiction OpenID Connect is a system that provides the same kind of proof that you are who you say you are digitally.
 
-For this a digitial authorisation token is required.
+For this a digitial authorisation token is required. There are several digital auth tokens, the most common being a JWT, (Json Web Token), also called a Jot.
+## A short history of digital auth
+
+Before we go into the detail of how digital authorisation takes place. A brief history of auth is useful to understand to put digital auth into context.
+
+In the 1990s, Web 1.0 -  HTML (hyper-text-markup-language), CSS (Cascading Style Scripts) and XML (extensible mark-up language) were programming languages used to share documents over the world-wide web. While HTML defined text blocs and CSS styled them, XML was introduced as a mark-up language that would transport data. SAML (Security Assertion Markup Language) - was the early way to authenticate users. SAML is still used for SSO (Single Sign On) with the latest version (v2) of SAML.
+
+Note in the early stages of the web all you needed was mark-up languages as documents were shipped from one user to another without APIs (application programming interfaces).
+
+With the introduction of backend databases that stored data, users could use HTTP requests with a SOAP (Simple Object Access Protocol) SAML and XML. SAML was an early form of federated authentication and with SSO enables enterprises to monitor and control who has access to the organisation's resources. 
+
+Federated authentication allows users to access multiple devices and resources with one set of credentials - for example a third-party like Instagram, google or Facebook, Microsoft's Active Directory Federation Services (ADFS) as an identity authentication manager.
+
+Federated authentication needs an identity provider (IdP) like in the physical world the government department that issues passports is an Id Provider. This IdP establishes a user's identity. This IdP then digitally makes an internal connection via an API call an authentication service provider (SP), (SAML) is the protocol that is used to authenticates the user via this API call.
+
+SAML uses XML to transport data and is geared towards safeguarding resources of an organisation. It uses session cookies with an expiration date - which works for organisations where users may have a different tenures and work schedules.
+
+As the internet became widely adopted by the general public rather than academics and government bodies who were early users, the backend APIs also multiplied and JavaScript was introduced to the landscape. With complexity and higher use of the internet by different people with different needs, standardisation of authorisation protocols to allow users access to the data developed.
+
+Web Services Federation, one of the early federated authorisation services offering web tokens emerged. MicroSoft was one of the companies that was involved in developing Identity Federation - which is the linking of a claims-based electronic identity across different types of identity management systems.
+
+Interoperability across multiple platforms and systems increased with Web 2.0 - late 1990s and early 2000s when social media and sharing content over the web became more frequent.
+
+Today (2023), while Web 3.0 is not yet a "thing" we are seeing mobile disruption, NFC (near field communication), IoT (the internet of things), connected devices and ML (machine learning)/ AI (artificial intelligence) as the latest disrupters. Code no longer runs just on the internet. It is in smart devices, phones and a whole host of daily devices - cameras, washing machines, utility meters.
+
+The restrictions of mark-up languages soon showed up and today lighter-weight files like `.json` (JavaScript Object Notation) and `.yaml` (YAML Ain't Markup Language) files are used with HTTP calls using REST (Representational State Transfer ) APIs.
+
+OAuth v1 and OpenID Connect also developed to enhance and speed up authentication and authorisation of users and the documents and data they wished to access. OAuth is a protocol that uses `.json` files and makes use of API calls and is different from SSO as it is not based on the needs of an organisation but based on the needs of individual users.
+
+This is a simplistic derivation from the following literature I found through search engines (see the resources section for links to more details)
 ## What is a digital authorisation token?
 
 A digital authorisation token is an encrypted token that scrambles the information of the user's sensitive data and sends this data to the browser, then on to the servers and backend APIs as a request header. Tokens can be basic or bearer tokens. Bearer tokens are tied to a session and can not be used by a different user. The bearer token makes it un-readable to unauthorised users who may be looking for sensitive user information on web-browsers or who have infilterated servers and backend databases.
@@ -42,26 +71,47 @@ A cookie is also a packet of data stored on the browser. It allows anyone to log
 
 - [Cookies vs Tokens: The Definitive Guide](https://auth0.com/blog/cookies-vs-tokens-definitive-guide/)
 
+Initially a solution was to use cookies to authorise users to access data but this quickly went out of favour as it is open to Cross Site Request Forgery (XSRF or CSRF) which makes use of tab-nabbing or man-in-the-middle attacks. This is when a user moves from tab to tab in a browser and can still access the information and an attacker uses any of the open tabs to access the same information you are trying to access.
+
+## How are auth tokens different from API keys?
+
+API keys require users to sign up to the API and generate a key with a set of secrets. These secrets then are stored and the user can use the key to unlock the data they want to access.
+
+This is different from a token as it requires configuration. It is more secure than a cookie but limits interoperability and speed which auth tokens allow.
+
+Keys allow you to scope the permissions of the user per key issued, prevents man-in-the-middle attacks (if the key is stored securely) and is a form of digital authorisation that is widely used.
+
+There are limitations - there are no standards and common-ways of storing keys safely. The keys have an expiration date - no standards for key expiration lifetimes - if the key is stolen anyone can use it.
 ## Additional auth with OpenID and OAuth?
 
-OpenId connect uses a system called OAuth or Open Authentication.
+OpenID Connect uses a system called OAuth or Open Authentication. OpenID Connect and OAuth follow industry standards to provide authentication and authorisation services across multiple platforms and multiple user needs.
 
-Anyone who claims to be you digitally must provide additional information to the username and password, which is a digital authorisation token. There are several digital auth tokens, the most common being a JWT, (Json Web Token), also called a Jot. A JWT is a `.json` (JavaScript Object Notation) file that holds the `bearerToken` or the jot token from the JWT library.
+It is a form of federated identity authentication, digitally performing the same id checks as a passport or driving licence would. OAuth is a protocol or a set of rules that allows for secure access via auth tokens.
 
-The token is like a session stateless cookie that is generated when the user types in their authentication details (username and password for example) and sends it via an API (Application Programming Interface) call in the header of the request to the backend resources, typically a database which stores user information.
+Anyone who claims to be you digitally must provide additional information to the username and password, which is a digital authorisation token or a bearer token. A JWT is a `.json`  file that holds the `bearerToken` or the jot token from the JWT library.
 
-When you sign in, a session-cookie identifies you as a user and a Jot is dropped into the browser with OpenId as a gateway that is the equivalent of the additional proof - the driver's licence.
+The token is like a session stateless cookie that is generated when the user types in their authentication details (username and password for example) and sends it via an API call in the header of the request to the backend resources, typically a database which stores user information.
+
+When you sign in, a session-cookie identifies you as a user and a Jot is dropped into the browser with OpenID as a gateway that is the equivalent of the additional proof - the driver's licence.
 
 If you request for a resource - in the form of an API call to an URL (unique resource locator) that identifies what you have requested for (consider this the parcel you want from the Post office with a tracking code to identify your resource from all the other resources in the digital warehouse of the world-wide-web) a matching service takes place.
 
 - Digitally does your email, password correspond with the data-store that holds your email and password?
-- Does the additional proof of the JWT token provide you access to the URL requested - if yes, you can see the resource, if no you will not be authorised to receive the URL and the information it holds.
+- Does the additional proof of the JWT bearer token verified by the third party OAuth and OpenID Connect grant you access to the URL requested - if yes, you can see the resource, if no you will not be authorised to receive the URL and the information it holds.
 
-<!-- The JWT provides you with a digital signature in its scope - a scope is a set of requirements for the digital signature. As with your licence or passport, the Post Master looks for identifying data - a hologram, a bar code, a unique reference number - all these are the scopes of the document. Similarly a Jot will have different scopes depending on the resource requested which are contained in the request header of the API-call. -->
+The JWT provides you with a digital signature in its scope - a scope is a set of authorisation requirements.
+
+The Post Master has a set of scopes - to check your passport/ driving licence / utility bill - these are the Post Master's authorisation scopes. If he can not use these scopes, he may ask for other substitute or equivalent scopes - a credit card or bank card with your name on it, a bank statement with your address, any photo-identity. These are variable scopes.
+
+ Similarly a Jot will have different scopes depending on the resource requested which are contained in the request header of the API-call that scope your authorisation - you are scoped to receive the parcel with the matching tracking order. The tracking order is a scope.
+
+ A scope simply is a set of rules that authorise you to receive or perform actions as defined by the scope.
 
 The JWT is a digital signature, dropped with a session token, so that the user of the session when they attempt to log in is matched with the additional token identification and authentication before the release of the URL.
 
 If another user/ bot impersonates the true user, the digital signature will not match as a new session has been created and the new user must provide all of these proofs to get the URL resource.
+
+If the scopes in the authentication are not matched, the authorisation can not take place. For example, if you have none of the Post Master's scopes to receive your parcel, he can say he can not release the parcel till you provide him with the scopes or authorisation proofs he needs that authorise him to release the parcel to you.
 
 ## How do middleware libraries help authentication?
 

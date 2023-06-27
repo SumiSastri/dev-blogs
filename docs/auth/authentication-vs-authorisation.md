@@ -29,6 +29,21 @@ Some of the requirements for authentication are:-
 
 Federated authentication is allowing a 3rd party - like social media account authorisation - to access an account. An example would be you can sign in with a Google, Apple, Facebook or Twitter account as these 3rd parties have already established your identity.
 
+## Why do you need authentication?
+
+Some of the reasons why authentication of the user is important before authorisation
+
+- Allow secure sharing of data and information across geographies/ networks/ devices
+- Stop spam
+- Identify and stop hack attacks - terror/ ransom-based on instituions
+- Prevent impersonation
+- Avoid credential sharing (loss of revenues)
+- Ensure users who trust apps with confidential information can be sure their data is protected
+- Stop bots and non-human actors from infiltering apps
+- Prevent theft - where payment systems are used, theft of ID can lead to actual theft (skimming of bank accounts, credit cards, other misuse of payment systems)
+- Prevent personal information misuse - reselling of information on the dark-net
+- Avoid infilteration of malicious scripts, viruses
+
 ## What is authorisation?
 
 After a user has been authenticated, or verified as the right user to have access to a system, the user can be authorised to access information on the app. Authorisation is the process of granting permissions and levels of access control.

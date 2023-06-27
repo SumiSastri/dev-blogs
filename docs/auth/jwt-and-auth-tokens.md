@@ -1,14 +1,37 @@
----
+<!-- ---
 layout: default
 title: What is an authorisation token?
 nav_order: 8
 parent: Authentication and authorisation
----
+--- -->
 
 
+__What__  bcrypt.js is a library that helps with the encrypting of passwords logged in the front-end by users.
+
+__Why__ Passwords and other sensitive information can be seen in local storage in a browser and open to security threats. 
+Encrypting passwords and other senstive information is recommended.
 
 
-# Authentication
+__Where__  bycrypt is a backend encryptation library that takes a post request and encrypts the response body of passwords
+
+__When__ 
+
+1. After a post-request with logic that validates the user, the password then is encrypted to the validated user
+2. After a get-request with logic that validates the user, the password is encrypted password is checked against the decrypted original
+__How__ 
+
+Install the library
+``` npm install bcryptjs```
+
+Import and instantiate on the page.
+
+Use the methods of the library
+
+```bcrypt.genSalt()``` - once user is validated, generates the number of salting rounds and encrypts plain text password
+
+```bycrypt.compare()``` - once a user is validated, compares the encrypted password with the plain text input 
+
+**Gotchas**  
 
 To authenticate our app we will use the same basic methodology as we did with Express:
 
@@ -16,12 +39,6 @@ To authenticate our app we will use the same basic methodology as we did with Ex
 1. When a user logs in we will validate the password they supply against the hashed password in the database
 1. If the password is valid we will send a _JSON web token_ (JWT)
 1. The JWT can then be used to access certain routes that would otherwise be unavail
-
-
-
-
-
-
 
 
 ## What is a JWT token?
