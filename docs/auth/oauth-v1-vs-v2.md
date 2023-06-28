@@ -32,7 +32,14 @@ The resource provider - sometimes, confusingly called the client, this is digita
 
 OAuth is designed to work with HTTP (Hyper Text Transfer Protocol) and HTTPS (the S stands for secure - now a more required format compared with HTTP) protocols.
 
-Get OAuth 2.0 Client Id from Google API Console
+The Protocol requires 2 Application Programming Interfaces (API) endpoints and both endpoints require transport layer security
+
+Auth endpoint - get request via the user scripted into the API header via the browser
+
+Token endpoint - machine-generated token that is encrypted outside the browser environment by encrypting algorithms
+
+B
+
 Next, Obtain an access token from the Google Authorization Server to access the API.
 Send the request with the access token to an API .
 Get Refresh token if longer access is required.
@@ -43,3 +50,9 @@ The Initiative for Open Authentication is OAUTH - an acronym, OAuth is a protoco
 
 OAUTH - pronounced Oath, (OAuth pronounced O Auth) is also an industry-wide collaboration to develop an architecture around strong authentication based on open standards agreed upon by interested parties in industry. Interestingly [OAUTH's official website](https://openauthentication.org/) shows up as an insecure site with warnings to accessing it. The organisation publishes [a white paper as an industry roadmap for strong open authentication](https://openauthentication.org/wp-content/uploads/2015/09/AnIndustryRoadmapforOpenStrongAuthentication.pdf), which is worth a read.
 
+
+## Is OpenID Connect the same as the OpenID Foundation?
+
+The original OpenID authentication protocol was developed in May 2005 by Brad Fitzpatrick, by 2009 PayPal and Facebook joined the initial discussion groups. Initially dubbed Yadis (Yet another distributed ID System), the group renamed themselves [the Open Id Foundation](https://en.wikipedia.org/wiki/OpenID#OpenID_Foundation). By 2013, Facebook and google, who initially supported the Foundation started their own federated ID authentication protocols.
+
+OpenID Connect is a distinct entity from OpenID Foundation.

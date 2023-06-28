@@ -188,7 +188,7 @@ new Promise((resolve, reject) => {
 
 ## Adding JWT to a login route
 
-To incorporate a JWT into the authentication flow of our APIs, we can create a JWT in our login (and register) controller and send it to the client when they successfully authenticate:
+To incorporate a JWT into the authentication flow of our Application Programming Interfaces (APIs), we can create a JWT in our login (and register) controller and send it to the client when they successfully authenticate:
 
 ```js
 const User = require('../models/user')

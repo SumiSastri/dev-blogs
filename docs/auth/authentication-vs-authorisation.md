@@ -23,20 +23,46 @@ Some of the requirements for authentication are:-
 - device recognition - where is the user signing in from - phone, watch - is a tool that can check id
 - operating system recognition - windows, mac, linux, android - is another way to check if the users identity is authentic
 - bio-metrics are another way for access to high-risk access by non-auth users
-- once users are authenticated they may access certain internal platform APIs, further authentication may be required to complete this process
+- once users are authenticated they may access certain internal platform Application Programming Interfaces (APIs), further authentication may be required to complete this process
 
-## What is federated authentication?
+## What is federated authentication is it better?
 
 Federated authentication is allowing a 3rd party - like social media account authorisation - to access an account. An example would be you can sign in with a Google, Apple, Facebook or Twitter account as these 3rd parties have already established your identity.
+
+There are benefits and disadvantages to federate or delegate authorisation and authentication responsibilites.
+
+On the plus side:
+
+- Shared costs
+- Universal use
+- Friction free for user
+
+On the downside side:
+
+Hack attack needs to compromise only one source - eg: google accounts were compromised and from this federated id - any other account using gmail to authenticate and authorise compromised
+## What is the basis of digital authentication?
+
+Given the explosion of devices, networks and global actors - indviduals as well as organisations and non-human actors, such as bots - digital authentication has a lot of challenges to face to make it work.
+
+The basis of authentication is trust. This takes multiple trust-points that must be met and trusted
+
+- the process used to authenticate
+- the authentication service provider's credentials and history of providing secure authentication solutions
+- the type of credential being issued - a bearer token that is encrypted is one example
+- policies - framework for maintaining security in networks and systems
+- architecture - solutions that are robust and well thought through
+- operational challenges - testing across different scenarios and devices
+- government regulations that may impact business and individuals
+- financial challenges to develop a robust system globally
 
 ## Why do you need authentication?
 
 Some of the reasons why authentication of the user is important before authorisation
 
 - Allow secure sharing of data and information across geographies/ networks/ devices
-- Stop spam
+- Stop spam and pshing (pronounced fishing) attacks
 - Identify and stop hack attacks - terror/ ransom-based on instituions
-- Prevent impersonation
+- Prevent impersonation or authentication hijacking and covert redirects 
 - Avoid credential sharing (loss of revenues)
 - Ensure users who trust apps with confidential information can be sure their data is protected
 - Stop bots and non-human actors from infiltering apps
@@ -70,3 +96,4 @@ Some of the requirements for authorisation are:-
 - establishing authorisation rights - what can each of these users do once they have access, and what internal APIs can they access
 - prevent credential sharing - a person sharing emails and passwords for other people to use
 - restricting access is the flip side of granting access, authorisation must also allow the revoking of access
+- bug free and vulnerability free to the maximum possible extent

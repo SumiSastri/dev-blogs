@@ -11,9 +11,9 @@ Similar any infrastructure service, a data infrastructure, it is the digital fou
 
 Like all infrastructures, data infrastructures are made up of several moving parts - hardware, software, networking, services, government policies - to make them function smoothly across geographies and a variety of devices. In an organisation, a data infrastructure provides the enterprise to manage, use, and secure its data.
 
-To meet this goal, an organization must have a solid data infrastructure strategy in place to maintain data flows, protect data quality, minimize redundant data, and prevent crucial data from being isolated into silos.
+To meet this goal, an organization must have a robust data infrastructure strategy in place to maintain data flows, protect data quality, minimize redundant data, and prevent crucial data from being isolated into silos.
 
-Data infrastructures have become very complicated even for small to medium size organisations because of the rapid explosion of data distribution and consumption - what is often referred to as "big data".
+Data infrastructures have become very complicated even for small to medium size organisations because of the rapid explosion of data distribution and consumption of - what is often referred to as "big data".
 
 [Hewlett Packard Enterprise](https://www.hpe.com/uk/en/what-is/data-infrastructure.html) has a sales message which is a short summary of how data-infrastructures work and what services they provide.
 
@@ -85,7 +85,7 @@ Code is written on managed machines and not directly on the server. With AWS lam
 
 The code gets executed and the interface between the code and the server is the section of server that is managed and operated by the server service provider. AWS-Azure-Google, IBM being the largest service providers of cloud computing services. There are niche providers like Cloud Flare, openFaas, iron.io
 
-Code as infrastructure is driven by events that control the server's performance. Server management therefore only runs on events that trigger it.eg: API requests/ file uploads/ data inputs into a database, IoT and streaming of video/ audio.
+Code as infrastructure is driven by events that control the server's performance. Server management therefore only runs on events that trigger it.eg: Application Programming Interface (API) requests/ file uploads/ data inputs into a database, IoT and streaming of video/ audio.
 
 This programatic way of managing servers allows businesses and developers to focus on code written to make their apps better and not to manage servers.
 

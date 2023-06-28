@@ -30,7 +30,7 @@ Device recognition is also an option that a user can select.
 
 The user in the user pool can then be assigned an authentication token - to access the information they are authorised to access. The token can be set up with an expiration date/ time so that security of access is improved.
 
-The GUI also allows you to set up AWS-Lambda functions without having to do this programmatically. Some of the options are a pre-sign up trigger, post-confirmation trigger, post-authentication trigger. Each of these triggers set up a work flow that checks the authenticity of the user and allows them to perform the next step - eg: access information, APIs etc.
+The GUI also allows you to set up AWS-Lambda functions without having to do this programmatically. Some of the options are a pre-sign up trigger, post-confirmation trigger, post-authentication trigger. Each of these triggers set up a work flow that checks the authenticity of the user and allows them to perform the next step - eg: access information, Application Programming Interfaces (APIs) etc.
 
 ## What are AWS-Cognito Identity Pools?
 

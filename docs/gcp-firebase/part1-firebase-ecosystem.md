@@ -13,7 +13,7 @@ Firebase services are serverless because you do not spin up a server but use Goo
 
 All resources are hosted on Google Cloud Services. Using Firebase is using Google Servers and addiitional infrastructure services provided by the Firebase SDKs.
 
-A software development kit (SDK), is a downloadable software package which bundles in all the code you need to build on a specific platform. The code is packages into kits - libraries, APIs, IDE's, CLIs, debuggers, test-runners, compilers and code-builders - these kits help you work with the kit to build the platform.
+A software development kit (SDK), is a downloadable software package which bundles in all the code you need to build on a specific platform. The code is packages into kits - libraries, Application Programming Interfaces (APIs), IDE's, CLIs, debuggers, test-runners, compilers and code-builders - these kits help you work with the kit to build the platform.
 
 Firebase SDKs supports web-apps and Android/IoS mmobile apps as well as run on several languages - Java, JavaScript, Python, etc., If you wish to build a web-app you need the JavaScript SDK and if you need a mobile app you work with the Android/IoS SDK, depending on what you want to build. The FireBase Admin SDK to access privileged info from the Google Servers, the language specific SDKs are required eg: Firebase Admin Python SDK or Firebase Admin NodeJS SDK.
 

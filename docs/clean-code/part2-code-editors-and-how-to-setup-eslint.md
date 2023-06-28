@@ -203,7 +203,7 @@ Once you use these commands often enough, they become a part of your DNA and you
 - Markdown pdf - markdown for pdf's
 - MPEG-4 Preview - saves mp4 files that you can view in the IDE
 - Prettier - cleans up formatting
-- Thunder client - great for api's and a substitute for postman so that you can work on apis and check data within the IDE
+- Thunder client - great for Application Programming Interfaces (APIs) and a substitute for postman so that you can work on APIs and check data within the IDE
 
 ### VS Code extensions - how long is a peice of string
 

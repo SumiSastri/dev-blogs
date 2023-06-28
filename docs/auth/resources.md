@@ -18,7 +18,6 @@ has_children: true
 
 [Plural Sight OAuth-2](https://app.pluralsight.com/library/courses/oauth-2-getting-started/table-of-contents)
 
-
 Search engine queries:
 
 - [What is federated authentication](https://www.hexnode.com/blogs/what-is-federated-authentication/)
@@ -46,3 +45,9 @@ Search engine queries:
 - [Cookies vs tokens](https://auth0.com/blog/cookies-vs-tokens-definitive-guide/)
 
 - [What is OAuth](https://en.wikipedia.org/wiki/OAuth#OAuth_and_other_standards)
+
+- OAUTH as distinct from OAuth [OAUTH's official website](https://openauthentication.org/)
+
+- [OAUTH white paper as an industry roadmap for strong open authentication](https://openauthentication.org/wp-content/uploads/2015/09/AnIndustryRoadmapforOpenStrongAuthentication.pdf)
+
+- Distinct from OpenID Connect is [The OpenID Foundation](https://en.wikipedia.org/wiki/OpenID#OpenID_Foundation)

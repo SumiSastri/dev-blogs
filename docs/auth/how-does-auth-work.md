@@ -34,7 +34,7 @@ Before we go into the detail of how digital authorisation takes place. A brief h
 
 In the 1990s, Web 1.0 -  HTML (hyper-text-markup-language), CSS (Cascading Style Scripts) and XML (extensible mark-up language) were programming languages used to share documents over the world-wide web. While HTML defined text blocs and CSS styled them, XML was introduced as a mark-up language that would transport data. SAML (Security Assertion Markup Language) - was the early way to authenticate users. SAML is still used for SSO (Single Sign On) with the latest version (v2) of SAML.
 
-Note in the early stages of the web all you needed was mark-up languages as documents were shipped from one user to another without APIs (application programming interfaces).
+Note in the early stages of the web all you needed was mark-up languages as documents were shipped from one user to another without Application Programming Interfaces (APIs).
 
 With the introduction of backend databases that stored data, users could use HTTP requests with a SOAP (Simple Object Access Protocol) SAML and XML. SAML was an early form of federated authentication and with SSO enables enterprises to monitor and control who has access to the organisation's resources. 
 
