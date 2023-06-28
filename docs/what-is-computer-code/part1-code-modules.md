@@ -11,7 +11,7 @@ A module is a way of encapsulating code before it is bundled. It is the process 
 
 Code modules are similar to modular frameworks, like Ikea furniture modules that can be reused and reconfigured. Similarly, code writers bundle blocks of code into a module that can be reused.
 
-Bundling modules is the first step in code compilation. Modules are parsed by code readers, either in browsers or other software programs, and compiled into machine-readable code. Modules are then loaded onto HTML files via a <script> tag in the HTML file's metadata.
+Bundling modules is the first step in code compilation. Modules are parsed by code readers, either in browsers or other software programs, and compiled into machine-readable code. Modules are then loaded onto HTML (Hyper Text Markup Language) files via a `<script/>` tag in the HTML file's metadata.
 
 The code that many code writers create is not machine-readable. This blog gives you a good insight into the difference between [the difference between code writing and machine-readable-code](https://www.makeuseof.com/tag/what-is-coding/)
 

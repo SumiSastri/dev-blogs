@@ -21,7 +21,7 @@ Like all things, choosing a code editor is a matter or personal preference and w
 
 Language specific code editors - like PyCharm - are great for Python. IDE's like Vim and Visual Studio Code, which is what I have migrated to after using Vim, Sublime Text, Scribd and Atom, suits my needs as it has several great extensions and integrates with GitHub seamlessly.
 
-Sublime Text although good for beginners, is annoying as it interupts your code flow with regular prompts to upgrade to a paid version - which you can ignore when you are using it infrequently, but becomes intrusive when you want to code in peace. For a beginner who has gone beyond the useful functions of CodePen, code sandboxes and Sublime Text, Atom is a good free option to set up shop with and start projects in HTML, CSS and JavaScript.
+Sublime Text although good for beginners, is annoying as it interupts your code flow with regular prompts to upgrade to a paid version - which you can ignore when you are using it infrequently, but becomes intrusive when you want to code in peace. For a beginner who has gone beyond the useful functions of CodePen, code sandboxes and Sublime Text, Atom is a good free option to set up shop with and start projects in HTML (Hyper Text Markup Language), CSS and JavaScript.
 
 This blog is pretty Mac-centric, so a small note - **Commander (cmder)** allows you to run the same commands on Macs/ Windows/ Linux - and especially good for windows.
 

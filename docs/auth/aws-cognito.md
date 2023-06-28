@@ -14,7 +14,7 @@ AWS Cognito handles a user's identity and access management (IdaaM) of resources
 
 ## What are AWS-Cognito User Pools?
 
-Cognito User Pools perform the function of storing user identities - their names, passwords, email addresses etc., In a user pool you can also store other user information - images, URLs, phone numbers.
+Cognito User Pools perform the function of storing user identities - their names, passwords, email addresses etc., In a user pool you can also store other user information - images,URLs (Unique Resource Locators) , phone numbers.
 
 Workflows in a user pool can be triggered with AWS-Lambdas - which are serverless functions to set an action in a user pool in motion - for example, if a user forgets their password and access details, an AWS-Lambda can be written to trigger an action to send a reset password email.
 

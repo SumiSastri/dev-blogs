@@ -8,17 +8,19 @@ title: A love letter to the personal website
 
 # A love letter to the personal website
 
-Full disclosure right up front, Stack Skills conference in London (2022) and the topics have been doing a slow brew in my head this site is the result of the influence that the speakers had on my thought processes as an emerging developer.
+Full disclosure right up front.  Staack Skills conference in London (2022), and the topics discussed, have been doing a slow brew in my head. This site is the result of the influence that the speakers had on my thought processes as an emerging developer.
 
-Sophie Koonin's introductory talk, “A love letter to the personal website,” took us through the sad loss of the personal websites of the 1990s - websites for profit for pleasure of the individual not for the profit of the conglomerates.
+Sophie Koonin's introductory talk, “A love letter to the personal website,” took us through the sad loss of the personal websites of the 1990s - websites for the creative pleasure of the individual not for the profit of conglomerates.
 
 ## What is the differrence between Web 1.0, 2.0 and 3.0 ?
 
-If we thought Web 1.0 was dead, a full-stack conference hosted by Stack Skills considered it fun to resurrect that dead thought from the grave. The theme was taking us through a brief history of the web starting with HTML and reminding us that CSS are perfect tools to build any website, all that JavaScript added was the browser wars and bugs...
+If we thought Web 1.0 was dead, this full-stack conference hosted by Stack Skills, considered it fun to resurrect that dead thought from the grave.
+
+The theme of the 2-day conference, was to take us through a brief history of the web starting with HTML (Hyper Text Markup Language), reminding us that combination of HTML & CSS (Cascading Style Sheets) are perfect tools to build any website. All that JavaScript added was the browser wars and bugs...
 
 Here is a brief time-line of the transition points between the 3 versions of the web:
 
-1997 - The world-wide-web, which was started by document sharing amongs academics, was built on HTML, Hyper Text MarkUp Language with URLs - Unique Resource Locators - that linked the documents and gave academics access to scientific research.
+1997 - The world-wide-web, which was started by document sharing amongs academics, was built on HTML, with URLs (Unique Resource Locators) - that linked the documents and gave academics access to scientific research.
 
 Web 1.0 started as a document storage and sharing experiment, till the advent the introduction of CSS, Cascading Style Sheets, which provided more opportunities for styling the typewriter style printed page.
 

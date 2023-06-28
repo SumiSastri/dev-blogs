@@ -30,7 +30,7 @@ My path was I love gadgets, technology and people - and not necessarily in that 
 
 I was variously a content-writer/ marketing professional/ product-owner and scrum master. My developer friends seemed to have a supportive community, interests out of the work place, a good sense of humour and minds full of questions.
 
-As a marketeer I did know some basic HTML (hyper-text-markup-language) and some vanilla CSS (Cascading Style Sheets). So email-marketing templates and the early development work gave me a basic idea of what HTML did - creates text blocks - and CSS - adds styling on the page.
+As a marketeer I did know some basic HTML (Hyper Text Markup Language) and some vanilla CSS (Cascading Style Sheets). So email-marketing templates and the early development work gave me a basic idea of what HTML did - creates text blocks - and CSS - adds styling on the page.
 
 It was only when I was responsible for driving digital transformation as a product owner, that I actually was asked by my dev friends to write some of the CSS in the files to speed up the work.
 

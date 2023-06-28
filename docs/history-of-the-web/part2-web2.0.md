@@ -11,7 +11,7 @@ With the introduction of JavaScript to the web, Brenden Eich its creator, did no
 
 At a full-stack conference hosted by Stack Skills, speakers reflected on the good-old-days of Web 1.0 and the risks that the introduction of JavaScript created.
 
-While HTML is just text and CSS enhanced a web page with HTML attributes for layouts, design, colour and animations, JavaScript took web-development to another level of interactivity. 
+While HTML (Hyper Text Markup Language)is just text and CSS (Cascading Style Sheets) enhanced a web page with HTML attributes for layouts, design, colour and animations, JavaScript took web-development to another level of interactivity.
 
 JavaScript allows the user to interact with every HTML element and change its behaviour. This event-driven behaviour is based on the users’ interaction with the web - mouse and key movements, clicks on the page and offered a whole new way of looking at web data and analytics.
 

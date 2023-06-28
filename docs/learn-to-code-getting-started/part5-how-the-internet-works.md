@@ -21,7 +21,7 @@ The internet, is just a network of computers that talk to each other over a comp
 The internet connects trillions of computers and mobile devices over the world, using the world-wide-web. The internet itself is a data-layer over the web that shares all of this information.
 This information is collected via web-browsers, from websites.
 
-Web-browsers are software-engines that read and interpret the computer code from web or mobile apps and transmits this information via unique-resource-locator(URL) to a server. A server hosts billions of URLs and "serves" them back to any other user who is interested in this information.
+Web-browsers are software-engines that read and interpret the computer code from web or mobile apps and transmits this information via URLs (Unique Resource Locators) to a server. A server hosts billions of URLs and "serves" them back to any other user who is interested in this information.
 
 All of this information is written in code on 1 computer (client) sent to a server via an IP address - a series of numbers that uniquely identifies a computer - and then the server sends this information back to a user. This process is often called the client-server model.
 
@@ -29,7 +29,7 @@ If you are a buyer and are looking for a product to buy, your laptop is the clie
 
 ## How HTML, CSS & JavaScript are parsed on the web
 
-When a request comes in to the client - your computer with your HTML, CSS and JavaScript files - via your computer's operating system allows the files on your system to be read by or parsed by the web browser.
+When a request comes in to the client - your computer with your HTML (Hyper Text Markup Language), CSS (Cascading Style Sheets) and JavaScript files - via your computer's operating system allows the files on your system to be read by or parsed by the web browser.
 
 The first files that are fetched are HTML and CSS. Then JavaScript, via its connectivity to the Document Object Model, or DOM, is parsed. (Part 4, in this series, explains the DOM-tree and how JavaScript interacts with HTML and CSS.)
 

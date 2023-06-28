@@ -47,7 +47,7 @@ These add-ons are what cost you to design, build and maintain your site and make
 
 You also need to know a little about the technologies around and who can do what for you. It is easy to assume that any developer can do a better job than you can. They are geeks right - they will sort it out. Wrong.
 
-For example, Wordpress is build on the coding language PHP, a server-side-rendering language. Your developer may know HTML, JavaScript and some CSS. So they will have to figure out the PHP bit.
+For example, Wordpress is build on the coding language PHP, a server-side-rendering language. Your developer may know HTML (Hyper Text Markup Language), JavaScript and some CSS. So they will have to figure out the PHP bit.
 
 To customise many of these pre-built sites, you may have to outsource this to the right developer - not your friend's nephew who is studying computer science. You may laugh, but many do go down this route and wonder why it all goes wrong.
 
@@ -57,7 +57,7 @@ If you want to take payments, build a data-base there are several plugins that c
 
 None of these are easy to do yourself and will take time for the person or agency you hireout to customise something for you. 
 
-You can get someone who knows HTML, JavaScript and CSS to build a simple site for you - this will be 100% customised and not an off-the-shelf option.
+You can get someone who knows HTML, JavaScript and CSS (Cascading Style Sheets) to build a simple site for you - this will be 100% customised and not an off-the-shelf option.
 
 If you have more than 5 pages of a site this is not a great option. This is because code repeated for each page, so hard to update and maintain. Also the number of calls to the server slows down the performance of the site.
 

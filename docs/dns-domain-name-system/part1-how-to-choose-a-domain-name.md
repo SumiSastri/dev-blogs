@@ -10,7 +10,7 @@ nav_order: 3
 
 To choose a domain name, it is useful to understand how the  Domain Name System (DNS) works.
 
-The DNS is a directory of the names of all registered web domains.The DNS matches the URLs (unique-resource-locators) of a web page, the name of the website to the IP (internet protocol) associated with the webpage.
+The DNS is a directory of the names of all registered web domains.The DNS matches the URLs (Unique Resource Locators) of a web page, the name of the website to the IP (internet protocol) associated with the webpage.
 
 The IP address is a string of numbers, which is hard for users to remember, and the IP address is stored in the URL, also long and hard to remember. So users can assign memorable names to websites they want to own and register them with the DNS system. The DNS is used to point the websites URL to its IP address.
 

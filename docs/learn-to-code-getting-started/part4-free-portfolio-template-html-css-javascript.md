@@ -17,13 +17,13 @@ JavaScript was originally written and designed in 10 days by [Brenden Eich](http
 
 The European Computer Manufacturers' Association, [ECMA](https://en.wikipedia.org/wiki/Ecma_International), acts as a standards body for JavaScript and updates JavaScript design patterns. [ECMA-6, or ES6](https://www.w3schools.com/Js/js_es6.asp), was the first major update to JavaScript. Each year since new updates have been added, part of a developers' job is to keep abreast of these changes, a list of the revisions up to 2020 are on [this link](https://en.wikipedia.org/wiki/ECMAScript).
 
-Like CSS ,the basics of vanilla JavaScript or JS, is easy to learn but difficult to master. There are no short-cuts except to practice, practice, practice and learn, learn, learn.
+Like CSS (Cascading Style Sheets) ,the basics of vanilla JavaScript or JS, is easy to learn but difficult to master. There are no short-cuts except to practice, practice, practice and learn, learn, learn.
 
 Google new terms and research everything you read to layer and improve your knowledge. Wherever I have been able to I have added links to make this process easier for you.
 
 ## Start your project with HTML & CSS first
 
-Go back to the portfolio pen link. Copy and paste the HTML and CSS into your own workspace creating your pen first.
+Go back to the portfolio pen link. Copy and paste the HTML (Hyper Text Markup Language) and CSS into your own workspace creating your pen first.
 
 Personalise both the HTML & CSS to suit your needs. Don't be afraid it is just text, change the text and see how it looks. Then change the styling.
 
@@ -151,4 +151,4 @@ The index in an array is notated square brackets or [index] as in the code in th
 
 The images change every 2000 milliseconds or 2 seconds, you can speed up the change or slow it down and see how you want the slide-show to function.
 
-If you are happy with your portfolio site and want to host it on a URL (unique resource locator) Part 5 of Learning to Code concludes this series with instructions of how to deploy your project with [Netifly](https://www.netlify.com/).
+If you are happy with your portfolio site and want to host it on an URL (Unique Resource Locator) Part 5 of Learning to Code concludes this series with instructions of how to deploy your project with [Netifly](https://www.netlify.com/).

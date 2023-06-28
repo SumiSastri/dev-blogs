@@ -48,7 +48,7 @@ The hosting service allows you to deploy code into a production environment.
 
 - Global CDNs (Content Delivery Networks)
 - Integrated with GitHub
-- Testing URLs possible
+- Testing UURLs (Unique Resource Locators) possible
 - Versioned releases and simple deploys
 - Roll backs easy - one click
 - Integrates with Google Cloud Functions - allows you to integrate 3rd party APIs

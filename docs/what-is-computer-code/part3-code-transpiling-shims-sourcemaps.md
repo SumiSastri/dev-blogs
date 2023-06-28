@@ -7,7 +7,7 @@ nav_order: 5
 
 # What is the difference between code transpiling, compiling and code bundling?
 
-All code is bundled first and compiled by specialised code compilers. Code is written in small modules, these modules are further bundled together into parcels or chunks so that they can be loaded as `<script>` tags into the meta-data of HTML pages so that they can be read by browsers.
+All code is bundled first and compiled by specialised code compilers. Code is written in small modules, these modules are further bundled together into parcels or chunks so that they can be loaded as `<script>` tags into the meta-data of HTML (Hyper Text Markup Language) pages so that they can be read by browsers.
 
 Transpiling is a further process once code has been compiled to re-compiling the code from one language or code format into another code format or language. I think of it as a translation service.
 
@@ -49,7 +49,7 @@ For example, an error has occured in the DOM tree can be traced by writing `debu
 
 A shim, is a peice of code that provides a layer of abstraction during the transpiling of code when an network call is made and therefore runs in the network layer.
 
-A polyfill, is a type of shim, that transpiles modern HTML5/ CSS3 and ES6 code back into the more basic versions to ensure browser compatability.
+A polyfill, is a type of shim, that transpiles modern HTML/ CSS (Cascading Style Sheets) and ES6 code back into the more basic versions to ensure browser compatability.
 
 Babel is a polyfill that uses CoreJS and babel-regenerator-runtime to polyfill (made backwards compatible) older browsers to newer language syntax.
 

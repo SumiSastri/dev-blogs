@@ -7,13 +7,13 @@ nav_order: 6
 
 # Have fun learning to code HTML, CSS & JavaScript
 
-In this section, you will need to sign-up to [CodePen](https://codepen.io/), an open source sandbox. I share links or pens that I have created in HTML, HTML & CSS and finally HTML, CSS & JavaScript.
+In this section, you will need to sign-up to [CodePen](https://codepen.io/), an open source sandbox. I share links or pens that I have created in HTML (Hyper Text Markup Language), HTML & CSS (Cascading Style Sheets) and finally HTML, CSS & JavaScript.
 
 You can create your own pens by copying the code and playing with it. Don't worry if you break your code - its part of the process of learning. Just go back and copy my pen and start again!
 
 ## The super-fast HTML crash course
 
-I demo the basics of how HTML (hyper-text-mark-up language) [with this super fast HTML crash course on CodePen](https://codepen.io/sumisastri/pen/yLgRpZN)
+I demo the basics of how HTML [with this super fast HTML crash course on CodePen](https://codepen.io/sumisastri/pen/yLgRpZN)
 
 As a brief guide to understanding this pen, HTML was designed in 1990 to share documents over the world wide web. The current version in use is HTML5 with several enhancements to the original text-mark-up language.
 

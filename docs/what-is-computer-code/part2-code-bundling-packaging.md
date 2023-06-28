@@ -18,7 +18,7 @@ webpack is one such JavaScript bundler for JavaScript ES6 modules. It is the mos
 
 __A short list of JavaScript code bundlers__
 
-- [RequireJS](https://requirejs.org/), is a JavaScript bundler which is now outdated, it is a library that helped developers manage dependencies in their code base, as you see in Part1, it uses AMDs (Asynchronous Module Definition), older JavaScript libraries like JQuery use RequireJS. All bundlers require code to be loaded on an HTML page, the [documentation for RequireJS](https://requirejs.org/docs/api.html) shows that RequireJS takes an alternative approach to loading - it encourages using module IDs instead of URLs for script tags.
+- [RequireJS](https://requirejs.org/), is a JavaScript bundler which is now outdated, it is a library that helped developers manage dependencies in their code base, as you see in Part1, it uses AMDs (Asynchronous Module Definition), older JavaScript libraries like JQuery use RequireJS. All bundlers require code to be loaded on an HTML (Hyper Text Markup Language) page, the [documentation for RequireJS](https://requirejs.org/docs/api.html) shows that RequireJS takes an alternative approach to loading - it encourages using module IDs instead of URLs for script tags.
 
 - [Browserify](https://browserify.org/) is a code compiler and how it works is on the [handbook on GitHub](https://github.com/browserify/browserify-handbook)
 
@@ -26,7 +26,7 @@ __A short list of JavaScript code bundlers__
 
 - [Rollup](https://rollupjs.org/)is faster for mobile applications and libraries and its home page neatly divides some of the operations that a code bundler undertakes under the hood, namely code formatting options (including AMDs, UMDs, iffies and ES6 as we have seen in Part1), code and bundle splitting where code is automatically split into chunks and lazy loading for images allows images to be loaded only when the user scrolls down the page - and much more. 
 
-- [Parcel](https://parceljs.org/) has no configuration files. It has some of the same benefits as webpack and all code bundlers - code splitting, asset bundling (images-videos-CSS styles), efficient DOM-tree shaking to remove inefficient code. It claims to be faster than webpack.
+- [Parcel](https://parceljs.org/) has no configuration files. It has some of the same benefits as webpack and all code bundlers - code splitting, asset bundling (images-videos-CSS (Cascading Style Sheets) styles), efficient DOM-tree shaking to remove inefficient code. It claims to be faster than webpack.
 
 - [Snowpack](https://www.snowpack.dev/) claims to have significant advantages over webpack for front-end. Data is cached (saved in memory) so once code is built it is cached forever improving the speed and performance of page reloads, it means instant start-up time of front-end applications and an instant refresh on save - built in bundling for ReactJS - a JavaScript front-end component library, TypeScript a JavaScript superscript and more.
 
