@@ -33,7 +33,7 @@ If you do not want to learn to code, what do you do next once you have purchased
 
 - Research your competitors and get ideas and a look-book from their designs
 - Draw your own design for how you want your site to look like
-- If you can't do this yourself, get a UI-UX (user interface and user experience) designer and get a design prototype built
+- If you can't do this yourself, get a UI-UX (user interface and user-experience) designer and get a design prototype built
 - Give your design to a web developer - they may use static site generators but at least you are in control of what you would like your site to look like
 - If you have a complex design that requires e-commerce and users to sign up, you may need to consider security options as well
 - You may want to provide a newsletter - in which case you may need to integrate plugins like an e-mail service provider to your site

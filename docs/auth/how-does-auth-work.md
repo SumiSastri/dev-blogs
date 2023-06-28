@@ -50,7 +50,7 @@ Web Services Federation, one of the early federated authorisation services offer
 
 Interoperability across multiple platforms and systems increased with Web 2.0 - late 1990s and early 2000s when social media and sharing content over the web became more frequent.
 
-Today (2023), while Web 3.0 is not yet a "thing" we are seeing mobile disruption, NFC (near field communication), IoT (the internet of things), connected devices and ML (machine learning)/ AI (artificial intelligence) as the latest disrupters. Code no longer runs just on the internet. It is in smart devices, phones and a whole host of daily devices - cameras, washing machines, utility meters.
+Today (2023), while Web 3.0 is not yet a "thing" we are seeing mobile disruption, NFC (Near Field Communication), IoT (the Internet of Things), connected devices and ML (machine learning)/ AI (artificial intelligence) as the latest disrupters. Code no longer runs just on the internet. It is in smart devices, phones and a whole host of daily devices - cameras, washing machines, utility meters.
 
 The restrictions of mark-up languages soon showed up and today lighter-weight files like `.json` (JavaScript Object Notation) and `.yaml` (YAML Ain't Markup Language) files are used with HTTP calls using REST (Representational State Transfer ) APIs.
 

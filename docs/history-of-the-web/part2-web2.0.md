@@ -19,7 +19,7 @@ Web 1.0 from static sites, with text and some styling but with limited user inte
 
 However Web 2.0 is not just about JavaScript that the user can interact with, it also about JavaScript accessing databases with Application Programming Interfaces (APIs).
 
-Every hardware developer wanted a JavaScript engine to parse the web documents so that users who were adopting personal computers and interacting with the web could have a better user experience (UX). 
+Every hardware developer wanted a JavaScript engine to parse the web documents so that users who were adopting personal computers and interacting with the web could have a better user-experience (UX).
 
 Microsoft kicked the ball into play with Internet Explorer, google followed with Chrome, Apple with Safari and Mozilla with Firefox, many other niche market players emerged, made inroads into the market, got burnt and decayed.
 
