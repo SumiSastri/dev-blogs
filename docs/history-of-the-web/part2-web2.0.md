@@ -21,9 +21,9 @@ However Web 2.0 is not just about JavaScript that the user can interact with, it
 
 Every hardware developer wanted a JavaScript engine to parse the web documents so that users who were adopting personal computers and interacting with the web could have a better user-experience (UX).
 
-Microsoft kicked the ball into play with Internet Explorer, google followed with Chrome, Apple with Safari and Mozilla with Firefox, many other niche market players emerged, made inroads into the market, got burnt and decayed.
+Microsoft kicked the ball into play with Internet Explorer, google followed with Chrome, Apple with Safari and Mozilla with Firefox. Many other niche market players emerged, made inroads into the market, many got burnt and/ or suffered decay.
 
-UX design became more important and JavaScript frameworks like google's AngularJS, or Facebook's UI (user interface) library, ReactJS,  burgeoned and grew to make the developer experience better in creating software for users.
+UX design became more important and JavaScript frameworks like google's AngularJS, or Facebook's UI (User Interface) library, ReactJS,  burgeoned and grew to make the developer experience better in creating software for users.
 
 The real disruptor was mobile technologies which the emphasis on technologies that supported mobile-app development. 
 
@@ -37,9 +37,9 @@ Apple phones and I-pads mask these browsers and use Safari, which users see and 
 
 Browsers, and JavaScript with all its avatars, also bring with them the joy of bugs. Gabriel Manor-Leichtman’s in-depth look at browser developer tools to help debugging code and network performance issues was worth reviewing once again for its rich content and useful guidelines on the online playback of Stack Skills conference package.
 
-Loosely typed JavaScript, and its bug-ridden code, can partially be tackled with the stricter TypeScript superscript. TypeScript has uses well beyond the front end as Ryan Cormack from Moon Pig pointed out. Using Amazon Web Services (AWS) which compiles down to Cloud Formation, you can move JavaScript code and embedded data from the front-end to the back end of apps with TypeScript lambda functions. This does not come without its trade-offs, Cormack said, you need to write imperative (versus declarative) codeif you use YAML (Yet Another Markup Language - also known as YML) compilation, constant code updates and a foundational knowledge of AWS, which has its own learning curve.
+Loosely typed JavaScript, and its bug-ridden code, can partially be tackled with the stricter TypeScript superscript. TypeScript has uses well beyond the front end as Ryan Cormack from Moon Pig pointed out. Using Amazon Web Services (AWS) which compiles down to Cloud Formation, you can move JavaScript code and embedded data from the front-end to the back end of apps with TypeScript lambda functions. This does not come without its trade-offs, Cormack said, you need to write imperative (versus declarative) code if you use YAML (Yet Another Markup Language - also known as YML) compilation, constant code updates and a foundational knowledge of AWS, which has its own learning curve.
 
-A way through this maze of JavaScript options is to choose the option of creating micro-frontends to scale and deploy complex Apps, Teresa Wu said demonstrating how the Chase App worked. Chase’s banking app looked the customer journey (CJ) from onboarding through to off-boarding with each segment of the UX built with strategic intent and collaboration but released in operational isolation to speed up the process of development and ensure each moving part of the app worked efficiently.  
+A way through this maze of JavaScript options is to choose the option of creating micro-frontends to scale and deploy complex Apps, Teresa Wu said, demonstrating how the Chase App worked. Chase’s banking app looked the customer journey (CJ) from onboarding through to off-boarding with each segment of the UX built with strategic intent and collaboration but released in operational isolation to speed up the process of development and ensure each moving part of the app worked efficiently.  
 
 Micro-front ends, Wu said, helps modularisation. For example, customer navigation through the app can be tested as the journey changes. This offers flexibility where it is needed. Navigation (the main - entry point for the customer) is wrapped in routine logic but when authentication of the user is required, authentication logic and a more centralised logic is used. This works, like a proxy, Wu said, where the two sets of logic reference each other. All of this helps scaling web and mobile apps.
 

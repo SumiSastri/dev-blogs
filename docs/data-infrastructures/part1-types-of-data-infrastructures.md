@@ -122,4 +122,4 @@ Depending on your cloud service provider you will need developers with the skill
 
 ## What about BaaS
 
-Backend as a service allows users to configure the backend from the front-end UI. One such example is Google Firebase.
+Backend as a service allows users to configure the backend from the front-end UI (User Interface). One such example is Google Firebase.

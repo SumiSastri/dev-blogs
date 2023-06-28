@@ -37,7 +37,7 @@ What Netifly does is a pre-rendering, pre-reading, or a pre-parsing of these fil
 
 Traditional websites need the client-server model to run. Running sites this way needlessly slows things down, provides way too many opportunities for attack, and is expensive to scale.
 
-Unlike the large legacy apps, JAM-stack projects neatly separate the front-end pages and UI from the backend apps and databases. JAM refers to JavaScript, Application Programming Interfaces (APIs) and Markup (HTML & CSS). APIs are application protocol interfaces, or a way of getting data from the back-end to the front-end, without relying on a server.
+Unlike the large legacy apps, JAM-stack projects neatly separate the front-end pages and UI (User Interface) from the backend apps and databases. JAM refers to JavaScript, Application Programming Interfaces (APIs) and Markup (HTML & CSS). APIs are application protocol interfaces, or a way of getting data from the back-end to the front-end, without relying on a server.
 
 Part 2, in this series, outlines the benefits of the JAM stack.
 

@@ -64,7 +64,7 @@ To use and install:-
 2. Copy it into your `Applications` folder, and add it to your dock.
 3. Open Atom and click on the `Atom` menu then `Install Shell Commands`
 4. Un-check the box on the left hand panel `Show Welcome Guide when opening Atom`
-5. Type <kbd>cmd</kbd> + <kbd>,</kbd> to open the preferences. Click on the _Themes_ tab and set the UI theme **and** the syntax theme to _One Light_
+5. Type <kbd>cmd</kbd> + <kbd>,</kbd> to open the preferences. Click on the _Themes_ tab and set the UI (User Interface) theme **and** the syntax theme to _One Light_
 6. In the _Core_ panel, make the following change:
    - **Exclude VCS Ignored Paths** - _uncheck_
 7. In the _Editor_ panel, make the following changes:
