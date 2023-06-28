@@ -118,3 +118,8 @@ Depending on your cloud service provider you will need developers with the skill
 - spin up and destroy environments (save costs)
 - easy to build a PoC see how it works and destroy it if not fit for purpose
 - environments stay in sync - no environment drift and if there is drift detection tools available
+
+
+## What about BaaS
+
+Backend as a service allows users to configure the backend from the front-end UI. One such example is Google Firebase.

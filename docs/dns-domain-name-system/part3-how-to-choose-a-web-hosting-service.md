@@ -68,3 +68,5 @@ I have used Vercel, Netifly and Heroku (though I have now taken all my data off 
 Once you work at enterprise level, AWS and Google Cloud Platform services are used with larger teams and as a junior developer it is worth working on side projects to familiarise yourself with the basics. You are likely to be given work at mid to senior levels on data-infrastructures as a higher level of skill is required for these business-critical operations. 
 
 Data infrastrutures are complex and at enterprise level, decisions on hosting and data-infrastructures go hand-in-hand and senior-teams review the enterprises business case making these selections based on current and future growth plans with solutions architects and other IT specialists like networking experts and big-data experts.
+
+See the section on data-infrastructures - this is currently (2023) a work in progress.

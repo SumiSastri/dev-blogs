@@ -4,8 +4,6 @@ title: Monoliths, microservices to serverless
 parent: Data infrastructures
 nav_order: 4
 ---
- 
- 
 # Monoliths, microservices to serverless
 
 A monolith is a single program that runs the whole application. The program is responsible for maintaining authentication and authorisation (auth), access to Application Programming Interfaces (APIs), user interfaces (UI) and even messaging systems like emails, notifications and alarms.

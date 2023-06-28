@@ -75,7 +75,7 @@ The registered purchaser of a domain name is registered in the WHOIS protocol. I
 
 **Third Level Domain** often known as the sub-domain, it is separated from the second level domain by a dot. If for example, you want to guide users to a shopping experience the subdomain could be `shop.yourwebsitename.com` where shop is the third level domain.
 
-## What is DNS resolution
+## What is DNS resolution?
 
 Each segment of a domain name is queried through a process called DNS resolution. Sites need a hosting service. Hosting is parking your URL with a service provider that connects this URL through its servers to the DNS network.  When you send a query in your browser to search for a domain name, the client or your device/ computer sends a message to the a recursive resolver in the web network.
 

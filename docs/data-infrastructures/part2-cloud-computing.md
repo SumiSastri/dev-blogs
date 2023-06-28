@@ -1,12 +1,12 @@
 ---
 layout: default
-title: What is the cloud
+title: What is the cloud?
 parent: Data infrastructures
 nav_order: 4
 ---
  
  
-# What is the cloud
+# What is the cloud?
 
 Amazon Web Services defines cloud computing as an on‑demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform via the internet with pay‑as‑you‑go pricing.
 

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: What is clean code
+title: What is clean code?
 parent: Clean code
 nav_order: 7
 ---
 
-# What is clean code
+# What is clean code?
 
 There are some that are of the view that if code works then does it matter if it is clean. It works right?
 

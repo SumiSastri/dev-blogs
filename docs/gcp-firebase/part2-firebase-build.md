@@ -1,9 +1,9 @@
----
+<!-- ---
 layout: default
 title: Firebase build tools
 parent: GCP Firebase
 nav_order: 9
----
+--- -->
 
 # Firebase build tools
 
@@ -137,6 +137,49 @@ The advantages of using Google Cloud functions is that they integrate seamlessly
 
 However, there are also disadvantages. App efficiency is compromised as the functions have to perform the create-test-build operations before sending information back to the user. This makes it slower and less performant. It is also harder to debug and fix server-side challenges as you have no control over server-side code - there is no middleware, or shared server state to check, you are reliant on the debugging tools provided by Google Cloud Services and Firebase.
 
+## Extensions and integrations with third parties
+
+Integrations get product features to market, reduce your build time, flex your scale up and down based on requests and traffic and reduces maintenance of each of these services separately as they can be integrated with other Firebase services. Some of these integrations are
+
+- Stripe - set up payments and invoice dispatch
+- Mailchimp - marketing triggers for email journeys
+- Snapchat
+- Twilio - multi-media notifications 
+
+Internal extensions to other Google services are
+
+- Google Play
+- Google Translate - if you need to quickly translate text into multiple languages
+- Resizing images
+- Deleting users
+
+## Firebase AppCheck
+
+A security product that checks that requests are authentic and prevents unauthorised users from accessing information from your backend services.
+
+eg:
+- Device check - is a service that checks the user's device - is it an Android/ Apple/ Mobile/ Desktop
+- Captcha - is a service that checks if the the user is a human and not a bot
+
+The request is sent to the authentication service provider. The response, in the form of a token validation is sent to AppCheck to verify the device and authenticity of the user. The request is sent only for a limited time and expects a token to be returned to verify the device or user. The token is then used to make a request to your app's provisioned server for further validation.
+
+AppCheck integrates with the Firebase Ecosystem - FireStore, the Realtime Database, Cloud Storage, Cloud Functions, to name a few. It adds an additional security layer to your app.
+
+## Remote Config
+
+This is an object-base storage system that allows you control UX (user-experience) of your app. This can be used for
+
+- Feature flags
+- Personalising content for the user
+- Testing - A/B and multivariate for marketing teams
+
+The way that the config works is a bit like polling - just less frequently. You set a fetch interval, a client value to be fetched and a default value. The UX is based then on what the customer is fetching from this backend fetched value.
+
+To use it for testing you can set the fetched value for the percentage/ segment of users you wish to test the experience they have selected to analyse how users respond to certain features you have added.
+
+## Security Rules
+
+Each service has security rules that you can set for read-write access.
 ## Pricing
 
 There is a free tier - Firebase Spark but the paid tier -Firebase Blase does not allow you to pick and mix services. As it is a fully managed service, you pay for services that you may or may not use.

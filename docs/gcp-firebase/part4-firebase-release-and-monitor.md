@@ -11,29 +11,6 @@ Some of the release and monitor tools have added functionality from the build an
 
 Release and monitor is about deploying your app and monitoring its performance in a production and post-production environment.
 
-## Remote Config
-
-This is an object-base storage system that allows you control UX (user-experience) of your app. This can be used for
-
-- Feature flags
-- Personalising content for the user
-- Testing - A/B and multivariate for marketing teams
-
-The way that the config works is a bit like polling - just less frequently. You set a fetch interval, a client value to be fetched and a default value. The UX is based then on what the customer is fetching from this backend fetched value.
-
-To use it for testing you can set the fetched value for the percentage/ segment of users you wish to test the experience they have selected to analyse how users respond to certain features you have added.
-
-## App Check
-
-A security product that checks that requests are authentic for example
-
-- Device check - is it an Android/ Apple/ Mobile/ Desktop
-- Captcha - is the user a human not a bot
-
-The request is sent to the authentication service provider. The response, in the form of a token validation is sent to AppCheck to verify the device and authenticity of the user. The request is sent only for a limited time and expects a token to be returned to verify the device or user. The token is then used to make a request to your app's provisioned server for further validation.
-
-AppCheck integrates with the Firebase Ecosystem - FireStore, the Realtime Database, Cloud Storage, Cloud Functions, to name a few. It adds an additional security layer to your app.
-
 
 ## Firebase emulator
 
