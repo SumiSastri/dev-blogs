@@ -32,9 +32,9 @@ For this a digitial authorisation token is required. There are several digital a
 
 Before we go into the detail of how digital authorisation takes place. A brief history of auth is useful to understand to put digital auth into context.
 
-In the 1990s, Web 1.0 -  HTML (Hyper Text Markup Language), CSS (Cascading Style Sheets) and XML (extensible mark-up language) were programming languages used to share documents over the world-wide web. While HTML defined text blocs and CSS styled them, XML was introduced as a mark-up language that would transport data. SAML (Security Assertion Markup Language) - was the early way to authenticate users. SAML is still used for SSO (Single Sign On) with the latest version (v2) of SAML.
+In the 1990s, Web 1.0 -  HTML (Hyper Text Markup Language), CSS (Cascading Style Sheets) and XML (extensible mark-up language) were programming languages used to share documents over the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web. While HTML defined text blocs and CSS styled them, XML was introduced as a mark-up language that would transport data. SAML (Security Assertion Markup Language) - was the early way to authenticate users. SAML is still used for SSO (Single Sign On) with the latest version (v2) of SAML.
 
-Note in the early stages of the web all you needed was mark-up languages as documents were shipped from one user to another without Application Programming Interfaces (APIs).
+Note in the early stages of the Web all you needed was mark-up languages as documents were shipped from one user to another without Application Programming Interfaces (APIs).
 
 With the introduction of backend databases that stored data, users could use HTTP requests with a SOAP (Simple Object Access Protocol) SAML and XML. SAML was an early form of federated authentication and with SSO enables enterprises to monitor and control who has access to the organisation's resources. 
 
@@ -48,7 +48,7 @@ As the internet became widely adopted by the general public rather than academic
 
 Web Services Federation, one of the early federated authorisation services offering web tokens emerged. MicroSoft was one of the companies that was involved in developing Identity Federation - which is the linking of a claims-based electronic identity across different types of identity management systems.
 
-Interoperability across multiple platforms and systems increased with Web 2.0 - late 1990s and early 2000s when social media and sharing content over the web became more frequent.
+Interoperability across multiple platforms and systems increased with Web 2.0 - late 1990s and early 2000s when social media and sharing content over the Web became more frequent.
 
 Today (2023), while Web 3.0 is not yet a "thing" we are seeing mobile disruption, NFC (Near Field Communication), IoT (the Internet of Things), connected devices and ML (machine learning)/ AI (artificial intelligence) as the latest disrupters. Code no longer runs just on the internet. It is in smart devices, phones and a whole host of daily devices - cameras, washing machines, utility meters.
 
@@ -94,7 +94,7 @@ The token is like a session stateless cookie that is generated when the user typ
 
 When you sign in, a session-cookie identifies you as a user and a Jot is dropped into the browser with OpenID as a gateway that is the equivalent of the additional proof - the driver's licence.
 
-If you request for a resource - in the form of an API call to an URL (Unique Resource Locator) that identifies what you have requested for (consider this the parcel you want from the Post office with a tracking code to identify your resource from all the other resources in the digital warehouse of the world-wide-web) a matching service takes place.
+If you request for a resource - in the form of an API call to an URL (Unique Resource Locator) that identifies what you have requested for (consider this the parcel you want from the Post office with a tracking code to identify your resource from all the other resources in the digital warehouse of the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, a matching service takes place.
 
 - Digitally does your email, password correspond with the data-store that holds your email and password?
 - Does the additional proof of the JWT bearer token verified by the third party OAuth and OpenID Connect grant you access to the URL requested - if yes, you can see the resource, if no you will not be authorised to receive the URL and the information it holds.

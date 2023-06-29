@@ -14,11 +14,11 @@ To take advantage of the content in this section, you need to
 - set up a [GitHub account](https://github.com/)
 - have read the parts 1–4 in this series
 
-As we are going to deploy our portfolio site to the web, it is useful to know how the internet works and how your files are read, stored and received by your users and viewers.
+As we are going to deploy our portfolio site to the Web, it is useful to know how the internet works and how your files are read, stored and received by your users and viewers.
 
 The internet, is just a network of computers that talk to each other over a computer network. A network can be made up of 2 or more computers.
 
-The internet connects trillions of computers and mobile devices over the world, using the world-wide-web. The internet itself is a data-layer over the web that shares all of this information.
+The internet connects trillions of computers and mobile devices over the world, using the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web. The internet itself is a data-layer over the Web that shares all of this information.
 This information is collected via web-browsers, from websites.
 
 Web-browsers are software-engines that read and interpret the computer code from web or mobile apps and transmits this information via URLs (Unique Resource Locators) to a server. A server hosts billions of URLs and "serves" them back to any other user who is interested in this information.
@@ -27,9 +27,9 @@ All of this information is written in code on 1 computer (client) sent to a serv
 
 If you are a buyer and are looking for a product to buy, your laptop is the client, your request for a URL goes via interconnected servers managed by the DNS (Domain Name System) to the seller's computer (another client) and serves back the content hosted on an URL once again through this network of servers back to your laptop or mobile device all in a matter of micro-seconds.
 
-## How HTML, CSS & JavaScript are parsed on the web
+## How HTML, CSS & JavaScript are parsed on the Web
 
-When a request comes in to the client - your computer with your HTML (Hyper Text Markup Language), CSS (Cascading Style Sheets) and JavaScript files - via your computer's operating system allows the files on your system to be read by or parsed by the web browser.
+When a request comes in to the client - your computer with your HTML (Hyper Text Markup Language), CSS (Cascading Style Sheets) and JavaScript files - via your computer's operating system allows the files on your system to be read by or parsed by the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, browser.
 
 The first files that are fetched are HTML and CSS. Then JavaScript, via its connectivity to the Document Object Model, or DOM, is parsed. (Part 4, in this series, explains the DOM-tree and how JavaScript interacts with HTML and CSS.)
 

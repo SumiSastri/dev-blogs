@@ -37,7 +37,7 @@ If you are building a website, the first pre-requisite is to choose a name for y
 
 As this is a lucrative business, names are only sold for a period of time on a subscription basis and you have to pay for to renew your ownership of the name every year, or the length of time you choose to prucahse your web name for.
 
-Often hosting services sell names as well - for example, if you use GoDaddy/ BlueHost/ AWS, the request will reach the GoDaddy servers or the BlueHost servers to find your website, or the web name you are seeking to purchase.
+Often hosting services sell names as well - for example, if you use GoDaddy/ BlueHost/ AWS, the request will reach the GoDaddy servers or the BlueHost servers to find your website, or the Web name you are seeking to purchase.
 
 If you change your web host to AWS then the request will go to the Amazon Web Services servers to find your website. There is often a fee to migrate your name to a new host.
 

@@ -7,27 +7,27 @@ title: Enter the browser with the JavaScript dragon
 
 # Enter the browser with the JavaScript dragon
 
-With the introduction of JavaScript to the web, Brenden Eich its creator, did not anticipate the browser wars and the host of controversy that JavaScript brought to the rapid growth of the web and web-mobile apps.  
+With the introduction of JavaScript to the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, Brenden Eich its creator, did not anticipate the browser wars and the host of controversy that JavaScript brought to the rapid growth of the Web and mobile apps.  
 
 At a 2-day full-stack conference hosted by [Stack Skills](https://stackskills.com/), speakers reflected on the good-old-days of Web 1.0 and the risks that the introduction of JavaScript created.
 
-While HTML (Hyper Text Markup Language)is just text and CSS (Cascading Style Sheets) enhanced a web page with HTML attributes for layouts, design, colour and animations, JavaScript took web-development to another level of interactivity.
+While HTML (Hyper Text Markup Language) is just text and CSS (Cascading Style Sheets) enhanced a web page with HTML attributes for layouts, design, colour and animations, JavaScript took web-development to another level of interactivity.
 
-JavaScript allows the user to interact with every HTML element and change its behaviour. This event-driven behaviour is based on the users’ interaction with the web - mouse and key movements, clicks on the page and offered a whole new way of looking at web data and analytics.
+JavaScript allows the user to interact with every HTML element and change its behaviour. This event-driven behaviour is based on the users’ interaction with the Web - mouse and key movements, clicks on the page - offering a whole new way of looking at web data and analytics.
 
 Web 1.0 from static sites, with text and some styling but with limited user interaction, transformed and JavaScript allowed users to now interact with pages - click buttons, see sliders and animated picture galleries, play interactive games.
 
 However Web 2.0 is not just about JavaScript that the user can interact with, it also about JavaScript accessing databases with Application Programming Interfaces (APIs).
 
-Every hardware developer wanted a JavaScript engine to parse the web documents so that users who were adopting personal computers and interacting with the web could have a better user-experience (UX).
+Every hardware developer wanted a JavaScript engine to parse the Web documents so that users who were adopting personal computers and interacting with the Web could have a better user-experience (UX).
 
 Microsoft kicked the ball into play with Internet Explorer, google followed with Chrome, Apple with Safari and Mozilla with Firefox. Many other niche market players emerged, made inroads into the market, many got burnt and/ or suffered decay.
 
-UX design became more important and JavaScript frameworks like google's AngularJS, or Facebook's UI (User Interface) library, ReactJS,  burgeoned and grew to make the developer experience better in creating software for users.
+UX design became more important and JavaScript frameworks like google's AngularJS, or Facebook's UI (User Interface) library called ReactJS,  burgeoned and grew to enhance the developer experience.
 
-The real disruptor was mobile technologies which the emphasis on technologies that supported mobile-app development. 
+The real disruptor was mobile technologies with the emphasis on technologies that supported mobile-app development.
 
-Given this shift from web applications to mobile applications, Bruce Lawson’s look under the hood of the browser wars with a talk called __"Internet Explorer - Rest in Peace (RIP) or Be Right Back (BRB)?"__.  
+Given this shift from web applications to mobile applications, Bruce Lawson’s look under the hood of the browser wars with a talk called __"Internet Explorer - Rest in Peace (RIP) or Be Right Back (BRB)?"__, explored the history of the browser in the evolution of the world wide web.
 
 While the browser wars raged in the 1990s, today Safari has been taken to task for not using Chrome, Internet Explorer, Firefox, or any other browser on its mobile devices.
 

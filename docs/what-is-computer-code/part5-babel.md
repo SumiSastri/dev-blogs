@@ -11,7 +11,7 @@ As a short recap, for many years there was no innovation on JavaScript code. Thi
 
 As the the browser wars broke out every computer manufacturer wanted their own browser and the race to grab a share of the browser market led to some rapid updates ES2 - 1998, ES3 - 1999 and then a long lull ES5 - 2009 and the more standardised version ES6- 2015 with ES13 (current-2022).
 
-With The European Computer Manufacturers' Association, [ECMA's](https://en.wikipedia.org/wiki/Ecma_International), intervention, JavaScript now is maintained and updated regularly. Early modules of JavaScript still run on the web and newer modules need to be transpiled so that there is uniformity over the code base for browsers to parse(read/ understand) the code.
+With The European Computer Manufacturers' Association, [ECMA's](https://en.wikipedia.org/wiki/Ecma_International), intervention, JavaScript now is maintained and updated regularly. Early modules of JavaScript still run on the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, and newer modules need to be transpiled so that there is uniformity over the code base for browsers to parse(read/ understand) the code.
 
 There are over 100 languages that are transpiled back into JavaScript today. TypeScript and Babel are 2 popular transpilers, although TypeScript is a superscript of JavaScript, it has to be transpiled back into JavaScript and the older versions that browsers can read. TypeScript's main function is to make JavaScript, which is loosely typed, into a strongly-typed version or super-script. Babel, on the other hand, is primarily a transpiler.
 

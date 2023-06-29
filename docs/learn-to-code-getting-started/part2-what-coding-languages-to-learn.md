@@ -19,7 +19,7 @@ In _Part 1_ I explore what motivates people to code and how to go about learning
 
 ## Which language should I learn if I want to code
 
-Languages wax and wane in favour. The most popular languages are not the same as the most adopted languages on the web.
+Languages wax and wane in favour. The most popular languages are not the same as the most adopted languages on the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web.
 
 While JavaScript - often abbreviated to JS - is the most popular front-end language, PHP is the still the most used. Wordpress is built on PHP and initially so was Facebook!
 

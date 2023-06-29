@@ -18,7 +18,7 @@ As the size of projects and web-applications grew from 1997, when JavaScript was
 Some of the key changes that have led to build as a pre-requisite now to host sites.
 
 - multiple browser request-response cycles in an HTTP/ XHR calls (frequency/ volume)
-- requests for more than just HTML (Hyper Text Markup Language) files - when the world-wide-web was beginning to grow over the internet
+- requests for more than just HTML (Hyper Text Markup Language) files - when the the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, was beginning to grow over the internet
 - requests for more than just styling with CSS (Cascading Style Sheets) and other static files - images/ audio/ video
 - more pages for websites in the late 1990s - sites becoming larger in terms of content provision
 - more computers used by more people

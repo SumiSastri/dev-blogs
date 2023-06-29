@@ -73,7 +73,7 @@ Drawbacks of SSR (server-side-rendering) is that data calls are made for every r
 
 A static site generator - SSG, for short - generates static HTML pages using a combination of pre-built templates, components and data. There are many SSGs -  it's a whole minefield on choosing one that will fit your use case.
 
-SSGs compile the HTML pages at build time before the app is deployed to the web. After the initial request, the SSG behaves like an SPA.
+SSGs compile the HTML pages at build time before the app is deployed to the Web. After the initial request, the SSG behaves like an SPA.
 
 SPAs and SSRs can be over-engineered. SSGs take some of the grunt work out of building static sites. SSGs bundle all the files in build time and then sends the files to a CDN (content delivery network) to host.
 
