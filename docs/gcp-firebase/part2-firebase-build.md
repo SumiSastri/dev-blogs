@@ -72,7 +72,7 @@ Security rules can be written for how data can be read or written to the databas
 
 ## Realtime database
 
-This is also a NoSQL document database using a JSON tree structure.
+This is also a NoSQL document database using a JSON (JavaScript Object Notation) tree structure.
 
 It has limited offline supported and limited sorting and filtering functionality.
 

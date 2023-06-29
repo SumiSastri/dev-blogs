@@ -5,287 +5,102 @@ nav_order: 8
 parent: Authentication and authorisation
 --- -->
 
+# What is a digital authorisation token?
 
-__What__  bcrypt.js is a library that helps with the encrypting of passwords logged in the front-end by users.
+A digital authorisation token, is a token that contains a digital signature that authenticates the user and once the authentication process is passed authorises the user to access protected resources.
 
-__Why__ Passwords and other sensitive information can be seen in local storage in a browser and open to security threats. 
-Encrypting passwords and other senstive information is recommended.
+The token is sent over the internet via an HTTP (Hyper Text Transfer Protocol) request-reponse cycle. The HTTP architecture is the basis of any data exchange across the internet.
 
+Between the user posting the request from a device, is the browser that sends the request on behalf of the user and brings back a response, which is the resource the user is requesting on the return trip from servers.
 
-__Where__  bycrypt is a backend encryptation library that takes a post request and encrypts the response body of passwords
+The browser, once again, is in the middle of the server and the user. It performs the function on the return trip, or the HTTP response, of compiling the page from different documents fetched - the user interface (UI) text and images, the data from databases like the user passwords, in this case and the authentication token with a digital signature.
 
-__When__ 
+To connect the user, browser and servers is a transport layer - that transports the data with its own encryptation services and protocols. A TCP (Transport Control Protocol) connection, connects two hosts connect and makes the exchange data possible. During the transport of the data an encrypted TLS (Transport Layer Security - formerly known as a Secure Sockets Layer SSL) is enabled to prevent data leaks.
 
-1. After a post-request with logic that validates the user, the password then is encrypted to the validated user
-2. After a get-request with logic that validates the user, the password is encrypted password is checked against the decrypted original
-__How__ 
+Between the browser and the server is this transport layer with several proxys - its routers, modems and other networking systems that connect user devices, browsers and servers.
 
-Install the library
-``` npm install bcryptjs```
+The browser, itself is a proxy called the user-agent as it transports information on behalf of the user, via the transport layer to the servers and returns this information back to the user.
 
-Import and instantiate on the page.
+In the transport layer, a proxy that controls the access or routing of the user to protected resources intercepts the request and a token is dropped as a data-packet in this secure TCP-TLS environment, and passes this request with the additional scripts in the token to the servers.
 
-Use the methods of the library
+An authentication token therefore is a type of cookie, or data packet that is not stored in the browser and performs the action of a stateless bearer token.
 
-```bcrypt.genSalt()``` - once user is validated, generates the number of salting rounds and encrypts plain text password
+It does not mean that the token is sessionless - the data packet is closely coupled with the user session to connect the user and the authentication process in the transport layer of the request-response cycle.
 
-```bycrypt.compare()``` - once a user is validated, compares the encrypted password with the plain text input 
+Using the request header extensibility, HTTP cookies, like bearer tokens are added to the workflow, allowing session creation on each HTTP request to share the same context, or the same state in the transport layer and not the UI or design layer which is exposed to anyone surfing the web.
 
-**Gotchas**  
+It is in this transport layer that the bearer token sent in the HTTP header request is intercepted, again by middleware that encrypts sensitive data before it is passed on to databases on the server.
 
-To authenticate our app we will use the same basic methodology as we did with Express:
+Encrypted passwords are now stored server side and even those with access to server side databases have no access to the real password as it has been encrypted.
 
-1. When a user registers we will hash their password with BCrypt before storing it in the database
-1. When a user logs in we will validate the password they supply against the hashed password in the database
-1. If the password is valid we will send a _JSON web token_ (JWT)
-1. The JWT can then be used to access certain routes that would otherwise be unavail
+The password now is decrypted in the response cycle server side where the encryptation process is reversed, the details matched and checked for authentication and if authenticated, the authorisation token is sent back in the HTTP response body.
 
+This tamper-proof system of encryptation and decryptation that occurs allows the token to carry an authenticated digital signature and authorises the user to access the documents that are written into the scope of the authorisation token.
+
+A point to note is that authentication happens with an HTTP - POST request while authorisation allows HTTP POST, PUT, DELETE requests which allow the user to perform CRUD(CREATE, READ, UPDATE, DELETE) actions.
+
+## What is JOSE
 
 ## What is a JWT token?
-`npm install jsonwebtoken` [https://www.npmjs.com/package/jsonwebtoken]
-5.5 Jot or JWT Tokens are required for authentication in the login route
-[https://jwt.io/introduction] There are several libraries offered depending on the language and methods associated [https://jwt.io/libraries]
 
+A JWT, (Json Web Token), also called a Jot, is an industry standard security token used to transmit sensitive information like passwords across distributed systems. It is a type of digital authorisation token.
 
-- Debugger [https://jwt.io/#debugger-io]
-
-The 2 key methods `jwt.sign()` and `jwt()` verify are provided by o-auth free.
-`jwt.sign({ id: savedUser.id }, config.get('jwtSecret'), { expiresIn: 36000 },`
-
-
-
-It is make up of a 
-- header
-- payload
-- expiry/ refresh
-With this method you can 
-- find a saved user
-- configure the jot token with a secret 
-- set the bearer token which will unsalt and unhash the password match it and validate it
-- you can set the token to expire this is an optional field you do not have to have an expiry time
-- This allows in the front end the user to put in their password and if the password is wrong then  they are not authenticated
-
-
-Gotchas:
-- When you are creating your DB create one user where you know the password and can check and test the authenticated route as your db will have the hashed passwords saved.
-
-Authentication  -> POST
-Authorisation -> POST, PUT, DELETE (CREATE, READ, UPDATE, DELETE)
-
-The jot token has the id of the user, the timestamp of when the token is issued and the expiry if one.
-
-The user then in the front end types in the password, the id identifies the user and then provides the password back in a string by unhashing it.
-
-
-
-__Where__ Server side encryptation of data
-
-1. Post request has a session id and a browser cookie (or bearer Token like JWT) - the session id identifies the unique session initiated by the user
-2. Client post request goes to the back end server with the browser cookie (or bearer Token) and session id 
-3. The server parses the information in the header request body, with the session id and the browser cookie (or bearer Token), if parsed correctly, the data requested by the user is sent back in the response body connects to the session id and is stored in the browser cookie (or bearer token). 
-
-__When__ On login and access to secure routes requested
-
-
-
-import the library and set a secret in a ```.config``` or ```.env``` file
-
-
-Use the methods of the library
-
-```jwt.sign()``` first step of authorisation - so identify the user you want to authorise by the user id.
-
-```jwt.sign({ id: savedUser.id }```
-
-When you save the post payload, drop the bearer token into the object 
-
+A JWT token has 3 parts punctuated by a period `.` - see the example below
 
 ```JavaScript
-// REFACTOR FOR JWT - SIGN TOKEN WITH USER ID
-					jwt.sign
-					({ id: savedUser.id }, 
-						config.get('jwtSecret'), 
-						{ expiresIn: 36000 }, 
-						(err, bearerToken) => {
-						if (err) throw err;
-						// JREFACTOR FOR JWT - DROP TOKEN IN RESPONSE
-						res.json({
-							bearerToken,
-							savedUser: {
-								id: savedUser.id,
-								username: savedUser.username,
-								email: savedUser.email,
-								image: savedUser.image,
-								userType: savedUser.userType
-							}
-						});
-     })
-				);
-			});
-```
-
-
-## JSON Web Tokens
-
-The technology we will be using is JWT (pronounced 'jot'), which stands for **JSON Web Token**. It allows us to embed JSON into an encrypted token.
-
-A JWT consists of three parts:
-
-- **Header**: which contains information about the token, encryption method etc
-- **Payload**: which contains any data that we want to store in the token (most commonly the user's ID)
-- **Signature**: which contains the header and payload encrypted with a secret. The secret is stored on the server and is used to generate the token. If a token's signature cannot be decrypted using the correct secret it is deemed to be invalid, and the user is refused access to the requested resource.
-
-A typical JWT might look like this:
-
-```
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.XbPfbIHMI6arZ3Y922BhjWgQzWXcXNrz0ogtVhfEd2o
 ```
 
-You can see each section delineated by a period `.`.
+The token starts with the alphabets `eyJ` for the first 2 segments, showing that this is encoded [base64 URL character set](https://www.base64url.com/).
 
-## Usage
+- **Header**:  contains information about the token
 
+When decoded ot gives you a JSON (JavaScript Object Notation) object that describes the token and outlines how to read and validate the token. The keys - `typ` tell you the type of object, here a JWT, the `alg` is the algorithm to use to decode it and the `kid` is the id of the key holder. 
 
+eg:
 
-### Creating a token
-
-The syntax for creating a JWT is as follows:
-
-```js
-const jwt = require('jsonwebtoken')
-
-// `sub` means subject, ie the subject of the token, and usually contains the user's ID
-const payload = { sub: 1526 }
-const secret = 'shhhh!'
-const options = { expiresIn: '1hr' }
-
-const token = jwt.sign(payload, secret, options)
-```
-
-### Verifying a token
-
- An asynchronous function requiring a callback:
-
-```js
-jwt.verify(token, secret, (err, payload) => {
-  if(err) console.log(err) // token is invalid
-  console.log(token) // { sub: 1526 }
-})
-```
-
-We can turn this into a promise using a promise library like Bluebird:
-
-```js
-new Promise((resolve, reject) => {
-  jwt.verify(token, secret, (err, payload) => {
-    if(err) return reject(err) // token is invalid
-    return resolve(token) // { sub: 1526 }
-  })
-})
-  .then(payload => console.log(payload)) // { sub: 1526 }
-  .catch(err => console.log(err)) // token is invalid
-```
-
-## Adding JWT to a login route
-
-To incorporate a JWT into the authentication flow of our Application Programming Interfaces (APIs), we can create a JWT in our login (and register) controller and send it to the client when they successfully authenticate:
-
-```js
-const User = require('../models/user')
-const jwt = require('jsonwebtoken')
-const { secret } = require('../config/environment')
-
-function login(req, res, next) {
-  User.findOne({ email: req.body.email })
-    .then(user => {
-      if(!user || !user.validatePassword(req.body.password)) {
-        return res.status(401).json({ message: 'Unauthorized' })
-      }
-
-      const token = jwt.sign({ sub: user._id }, secret, { expiresIn: '24h' })
-      res.json({ user, token, message: `Welcome back ${user.username}` })
-    })
-    .catch(next)
+```JavaScript
+{
+    "typ": ""
+    "alg": ""
+    "kid": ""
 }
 ```
 
-## Checking for a token
+- **Payload**: this contains the claims-based authorisation information about the user asking for the information in the HTTP request header.
 
-In order check for a token when the client makes a request, we need to verify the token in our `secureRoute`:
-
-```js
-const Promise = require('bluebird')
-const jwt = require('jsonwebtoken')
-const { secret } = require('../config/environment')
-const User = require('../models/user')
-
-function secureRoute(req, res, next) {
-  // if there is no Authorization header, respond with 401 Unauthorized
-  if(!req.headers.authorization) return res.status(401).json({ message: 'Unauthorized' })
-
-  // get the token out of the Authorization header
-  const token = req.headers.authorization.replace('Bearer ', '')
-
-  // create a new promise to verify the token
-  new Promise((resolve, reject) => {
-    jwt.verify(token, secret, (err, payload) => {
-      if(err) return reject(err)
-      return resolve(payload)
-    })
-  })
-      .then(payload => User.findById(payload.sub)) // find the user by the user ID in the payload
-      .then(user => {
-        // if the user can't be found, respond with 401 Unauthorized
-        if(!user) return res.status(401).json({ message: 'Unauthorized' })
-
-        // add the user to the `req` object for use in the controllers
-        req.currentUser = user
-
-        // go to the destination controller action
-        next()
-      })
-      .catch(next)
+```JavaScript
+{
+    "iss": ""
+    "aud": ""
+    "sub": ""
+    "iss": ""
+    "client_id": ""
+    "iat": ""
+    "jti": ""
 }
-
-module.exports = secureRoute
 ```
 
-## Testing
+- **Signature**: contains the header and payload encrypted with a secret. The secret is stored on the server and is used to generate the token. If a token's signature cannot be decrypted using the correct secret it is deemed to be invalid, and the user is refused access to the requested resource.
 
-Now that the authentication flow has been completed it we can test that everything is working using Insomnia.
+The library uses 2 key methods.
+`jwt.sign({ id: savedUser.id }, config.get('jwtSecret'), { expiresIn: 36000 },`
 
-Make a request to a secured route, you should receive a 401 response:
+JWTs were created for OAuth and (OIDC) OpenID Connect to replace SAML.
+## What is BCrypt?
 
-![](https://user-images.githubusercontent.com/3531085/37476299-af82b422-286c-11e8-9f37-fdc66c782028.png)
+Passwords and other sensitive information can be seen in local storage in a browser and open to security threats need to be encrypted. Encrypting passwords and other senstive information is recommended.
 
-Now login, you should receive a token in the response:
+BCrypt is a JavaScript encryptation library that takes a post request and encrypts the response body. 
 
-![](https://user-images.githubusercontent.com/3531085/37476179-6921ea98-286c-11e8-9ad9-cdedb4c94c9b.png)
+The way it works is when a user registers with a password, BCrypt encrypts the data before storing it in the database. When a user logs the passwords are matched by a BCrypt program that compares the password sent by the user with the password in the database. If the password is valid,  BCrypt sends a JWT and during the session the user is on the site, the JWT can then be used to access certain routes that would otherwise be unavailable.
 
-In the **Header** tab of Insomnia add the Authorization header with the token you received in the previous response:
+The library can be installed with npm as a package manager `npm install bcryptjs` and once imported into a JavaScript frontend and instantiated, it can be used. The library ships with a compare and generate salting rounds methods that perform the tasks of comparing and encrypting passwords.
 
-![](https://user-images.githubusercontent.com/3531085/37476683-b0d6da00-286d-11e8-928a-a87bcedc1c02.png)
+```bycrypt.compare()``` - once a user is validated, compares the encrypted password with the plain text input
 
-You should now be able to make an authenticated request:
+```bcrypt.genSalt()``` - once user is validated, generates the number of salting rounds and encrypts plain text password
 
-![](https://user-images.githubusercontent.com/3531085/37476685-b2ec1116-286d-11e8-9b91-2120b932a26f.png)
+### Further reading
 
-## Further reading
-
-
-
-- [jsonwebtoken Docs](https://github.com/auth0/node-jsonwebtoken)
-
-
-
-You can use middleware libraries or set up your own middle ware for protected and authenticated routes.
-
-The middleware intercepts the req-res cycle specifically to authenticate the user.
-
-The jot token is checked, the user id ad the token matched - or error thrown and user denied access
-
-If decoded and the token matched then the token is decoded to return the password as a true match. If the token expired then error thrown and access denied.
-
-This middle ware prevents immediate authentication at the front end or even to the back end routes if they are protected
-
-Jot tokens are stateless - they are not stored in the browser the hashing salting process is reversed server-side. So the middleware intercepts this and authenticates user before they can enter sensitive data in databases.
+[MDN docs on the network layer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP)

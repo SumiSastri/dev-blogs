@@ -103,7 +103,7 @@ The JWT provides you with a digital signature in its scope - a scope is a set of
 
 The Post Master has a set of scopes - to check your passport/ driving licence / utility bill - these are the Post Master's authorisation scopes. If he can not use these scopes, he may ask for other substitute or equivalent scopes - a credit card or bank card with your name on it, a bank statement with your address, any photo-identity. These are variable scopes.
 
- Similarly a Jot will have different scopes depending on the resource requested which are contained in the request header of the API-call that scope your authorisation - you are scoped to receive the parcel with the matching tracking order. The tracking order is a scope.
+ Similarly a JWT token will have different scopes depending on the resource requested which are contained in the request header of the API-call that scope your authorisation - you are scoped to receive the parcel with the matching tracking order. The tracking order is a scope.
 
  A scope simply is a set of rules that authorise you to receive or perform actions as defined by the scope.
 
@@ -125,4 +125,3 @@ If decoded and the token matched then the token is decoded to return the passwor
 
 This middleware prevents immediate authentication at the frontend or even to the backend routes if they are protected.
 
-Jot tokens are stateless - they are not stored in the browser the hashing salting process is reversed server-side. So the middleware intercepts this and authenticates user before they can enter sensitive data in databases.
