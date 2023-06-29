@@ -40,7 +40,7 @@ This version control, helps the different AWS resource templates to remain in sy
 
 [AWS CDK Docs](https://docs.aws.amazon.com/cdk/v2/guide/apps.html)
 
-The CLI command `cdk synth` synthesises all the templates in the CloudFormation platform. Once the stack is sync'd or synthesized, you can deploy using the CLI command `cdk deploy`.
+The  Command Line Interface (CLI) command `cdk synth` synthesises all the templates in the CloudFormation platform. Once the stack is sync'd or synthesized, you can deploy using the CLI command `cdk deploy`.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 

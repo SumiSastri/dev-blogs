@@ -20,11 +20,11 @@ The theme of the 2-day conference, was to take us through a brief history of the
 
 Here is a brief time-line of the transition points between the 3 versions of the Web:
 
-1980s and 1990s - The Web, which was invented by collaborators, [Robert Cailliau](https://www.cailliau.org/Welcome.html) and [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) in 1989, was conceived as a document sharing amongst academics, was built on HTML, with URLs (Unique Resource Locators) - that linked the documents and gave academics access to scientific research.
+1980s and 1990s - The Web, which was invented by collaborators, [Robert Cailliau](https://www.cailliau.org/Welcome.html) and [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) in the 1980s, was conceived as a document sharing amongst academics, was built on HTML, with URLs (Unique Resource Locators) - that linked the documents and gave academics access to scientific research.
 
-Web 1.0 started as a document storage and sharing experiment at a particle physics organisation, [CERN ](https://home.cern/), the introduction of CSS, in 1994, by [Håkon Wium Lie](https://www.wiumlie.no/en), ideas which he developed with [Bert Bos] (https://www.w3.org/People/Bos/ ), provided more opportunities for styling the typewriter-style printed page that was a bit dull and difficult to read.
+Web 1.0 started as a document storage and sharing experiment at a particle physics organisation, [CERN](https://home.cern/), the introduction of CSS in the 1990s, by [Håkon Wium Lie](https://www.wiumlie.no/en), ideas which he developed with [Bert Bos](https://www.w3.org/People/Bos/), provided more opportunities for pepping-up the typewriter-style printed page that was a bit dull and difficult to read.
 
-Kooky sites like [Sad Girl](https://sadgrl.online/) and [Cassie Online](https://www.cassieonline.co.uk/), Koonin demonstrated were examples of the next phase in the development of the Web where people built sites for fun, self-expression and creativity.
+Kooky sites like [Sadgrl](https://sadgrl.online/), Koonin demonstrated were examples of the next phase in the development of the Web where people built sites for fun, self-expression and creativity.
 
 It was not just with content, but with top-level-domains (TLDs), that content creators showed creativity.
 
@@ -56,7 +56,7 @@ The discussion about Web 3.0 started around 2006, where mobile distruption and b
 
 Web 3.0 is not really a "thing" as it has not been designed, defined and its characteristics - big data, use of emerging technologies like AI (artificial intelligence), ML (machine learning), block chain are making significant departures from what Web 2.0 looked like.
 
-Koonin, also said, Web 2.0 needed a reset as the cancel culture will slowly lead to content loss when these sites are taken down as a UGC provider is in the eye of a social media storm.
+Koonin also said Web 2.0 needed a reset as the cancel culture will slowly lead to content loss when these sites are taken down as a UGC provider is in the eye of a social media storm.
 
 Content generators now need to think of uncreative content guidelines - search-engine-optimisation and other engagement metrics  as well as social and political correctness - taking the fun out of building a personal website.
 
@@ -68,29 +68,30 @@ Koonin suggests we turn this paradigm on its head and join the [POSSE](https://i
 
 The challenge for developers with this spartan approach - using pure HTML and CSS - is the lack of tools and options that JavaScript offer.
 
-A shibbolith that Elad Schechter, who was the next speaker, aimed to dismiss. It is hard to convice a crowd of developers who are keen to learn the next best thing that going backwards is the way forwards, but it certainly made me think in new ways about how to approach what has become a significantly over-engineered space.
+A shibbolith that Elad Schechter, who was the next speaker, aimed to dismiss. It is hard to convince a crowd of developers who are keen to learn the next best thing that going backwards is the way forwards, but it certainly made me think in new ways about how to approach what has become a significantly over-engineered space.
 
 ## Pure CSS Games - hey no blinking JavaScript
 
-Schechter, ran through “How to Create Pure CSS Games”, using clever CSS tricks like checkboxes and radio-buttons and CSS animations.
+Schechter, talk “How to Create Pure CSS Games”, used clever CSS tricks like checkboxes and radio-buttons and CSS animations.
 
-Schechter ran through how he created a CSS counter for his games and animations. Pseudo classes, sibling selectors in conjunction with CSS animations like transform-rotate helped providing an illusion of movement.  
+Schechter ran through how he created a CSS counter for his games and animations. Pseudo classes, sibling selectors in conjunction with CSS animations like transform-rotate helped providing an illusion of movement - proving you do not blinking well need JavaScript. He did caveat-emptor this by saying he used an HTML pre-processor. A pre-processor takes HTML and CSS code and processes it in advance so that it renders more efficiently (quickly) on the Web.
 
 Schechter created atoms of coronavirus with blinking eyes, elements appearing and disappearing, movement of these atoms across the page using and CSS attributes like display-block and display-none or setting opacity at various levels.
 
-Worth checking out is [Elad2412](https://codepen.io/elad2412/) on Code pen for more inspiration as there was not a line of JavaScript code on the page - though a HTML pre-processor was used for the page layout.
-
+Worth checking out is [Elad2412 on CodePen](https://codepen.io/elad2412/) for more inspiration.
 ## Assistive technologies - why Web 1.0 worked better with just HTML
 
 On a more serious note, Sam Prioux, highlighted how Web 2.0 creates more complexity and less accessibility to visually challenged users.
 
 Web 1.0 offered text-to-speech screen readers and since most of the Web was HTML, this made the early web much more universally accessible. Text could also be printed to braille.
 
-Today with text layered with images, audio, and video there are still tools to make the Web more accessible. Command-line-interface (CLI) tools, image recognition tags, voice recognition, video-magnification, and accessibility APIs.
+Today with text layered with images, audio, and video there are still tools to make the Web more accessible. ommand Line Interface (CLI) tools, image recognition tags, voice recognition, video-magnification, and accessibility APIs.
 
 Hardware and software developers, Prioux said, need to work together as computer central processing units (CPUs), and compute-power, can be slow with speech recognition. Commercial [assistive technologies](https://www.who.int/news-room/fact-sheets/detail/assistive-technology) are in their infancy and need to be further developed.
 
-Web 2.0 and mobile disruption with touchscreens, more event-driven behaviours on-clicks, on-blur, on-mouse-in and out, icons that point to these events, rather than words made Web 2.0 a difficult space to navigate for those who needed accessibility to be built into the programming and hardware. An event-driven behaviour is when the user is expected to interact with a web page for an action to occur. In the examples above, when the user is expected to click a link, if they hover over a form field that then becomes blurred to the vision, when the mouse is moved on a trackpad.
+Web 2.0 and mobile disruption with touchscreens, more event-driven behaviours on-clicks, on-blur, on-mouse-in and out, icons that point to these events, rather than words made Web 2.0 a difficult space to navigate for those who needed accessibility to be built into the programming and hardware. 
+
+Event-driven behaviour is when the user is expected to interact with a web page for an action to occur. In the examples above, when the user is expected to click a link, if they hover over a form field that then becomes blurred to the vision, when the mouse is moved on a trackpad.
 
 It was not till Apple introduced touch-screen accessibility that hardware caught up with the needs of computer accessibility to the community who needed additional support, Prioux said.
 
@@ -106,9 +107,12 @@ And on a seriously light-hearted note, Herve Aniglo, talked about teaching child
 
 Python, JavaScript, and Ruby are languages that can be learnt by programming sounds for synthesisers. Conversely, it is also a tool for programmers to learn how to read and write music.
 
+Music and sound, Aniglo said, bring tech to a wider audience and is a great introduction to children learning the web. One of the section in Berners-Lee's site is the section for kids where he explains particle physics in simple terms. It is also a great reference for Koonin's examples of a Web 1.0 site.
+
 In [Part2 - Enter the browser with the JavaScript Dragon](https://sumisastri.github.io/dev-blogs/history-of-the-web/part2-web2.0/), I have aggregated the talks on JavaScript together to tell a story. The theme of this next section questions if JavaScript really the big, bad wolf of the Web or just another coding language, a tool at our disposal.
 
+### Additional Resources
 
-Additional Resources:
+- [Wikipedia Robert Cailliau](https://en.wikipedia.org/wiki/Robert_Cailliau)
 
-(Wikipedia Robert Cailliau)[https://en.wikipedia.org/wiki/Robert_Cailliau]
+- [CSS Tricks and Preprocessors](https://css-tricks.com/comparing-html-preprocessor-features/)

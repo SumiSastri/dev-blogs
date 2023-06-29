@@ -71,7 +71,7 @@ Note if you are not already familiar with the Terminal or it gets too much to le
 
 ## Optional reading - using the terminal and CLI tools
 
-The Terminal is a Command Line Interface(CLI) that allows you to interact directly with your laptop's operating system.
+The Terminal is a CLI that allows you to interact directly with your laptop's operating system.
 You can use it to run programmes, manage files and folders and install software.
 
 - With a Mac cmd + space - you will get spotlight search
@@ -84,7 +84,7 @@ With Windows window icon
 - You will get your Windows's default Terminal
 
 Further reading on the CLI
-[Unix CLI ](https://www.cs.dartmouth.edu/~campbell/cs50/shellcontinued.html)
+[Unix CLI](https://www.cs.dartmouth.edu/~campbell/cs50/shellcontinued.html)
 
 Some useful terminal commands (the dollar symbol indicates you must start at terminal leaving no spaces between the first character you type and the terminal file path end)
 

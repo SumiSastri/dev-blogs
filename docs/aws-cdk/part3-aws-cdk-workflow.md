@@ -49,7 +49,7 @@ Lerna  or `pnpm` can be used as package managers across all node-based repos
 
 Once installed AWS and all dependencies have to be configured.
 
-### Useful CLI commands
+### Useful ommand Line Interface (CLI) commands
 
 check documentation `cdk docs`
 bootstrap local code to cloud services`cdk bootstrap`
