@@ -9,7 +9,7 @@ title: Enter the browser with the JavaScript dragon
 
 With the introduction of JavaScript to the web, Brenden Eich its creator, did not anticipate the browser wars and the host of controversy that JavaScript brought to the rapid growth of the web and web-mobile apps.  
 
-At a full-stack conference hosted by Stack Skills, speakers reflected on the good-old-days of Web 1.0 and the risks that the introduction of JavaScript created.
+At a 2-day full-stack conference hosted by [Stack Skills](https://stackskills.com/), speakers reflected on the good-old-days of Web 1.0 and the risks that the introduction of JavaScript created.
 
 While HTML (Hyper Text Markup Language)is just text and CSS (Cascading Style Sheets) enhanced a web page with HTML attributes for layouts, design, colour and animations, JavaScript took web-development to another level of interactivity.
 
