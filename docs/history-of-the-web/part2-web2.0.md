@@ -41,7 +41,7 @@ Gabriel Manor-Leichtman’s in-depth look at browser developer tools to help deb
 
 Loosely typed JavaScript, and its bug-ridden code, can partially be tackled with the stricter TypeScript superscript. 
 
-TypeScript, has uses well beyond the front end, as Ryan Cormack from Moon Pig pointed out. Using Amazon Web Services (AWS) which compiles down to Cloud Formation, you can move JavaScript code and embedded data from the front-end to the back end of apps with TypeScript lambda functions.
+TypeScript, has uses well beyond the frontend, as Ryan Cormack from Moon Pig pointed out. Using Amazon Web Services (AWS) which compiles down to Cloud Formation, you can move JavaScript code and embedded data from the frontend to the backend of apps with TypeScript lambda functions.
 
 This does not come without its trade-offs, Cormack said, you need to write imperative (versus declarative) code if you use YAML (Yet Another Markup Language - also known as YML) compilation, deal with constant code updates and have at least a foundational knowledge of AWS, which has its own learning curve.
 
@@ -49,7 +49,7 @@ A way through this maze of JavaScript options is to choose the option of creatin
 
 Chase’s banking app looked the customer journey (CJ) from onboarding through to off-boarding with each segment of the UX built with strategic intent and collaboration but released in operational isolation to speed up the process of development and ensure each moving part of the app worked efficiently.  
 
-Micro-front ends, Wu said, helps modularisation. For example, customer navigation through the app can be tested as the journey changes. This offers flexibility where it is needed. Navigation (the main - entry point for the customer) is wrapped in routine logic but when authentication of the user is required, authentication logic and a more centralised logic is used. This works, like a proxy, Wu said, where the two sets of logic reference each other. All of this helps scaling web and mobile apps.
+Micro frontends, Wu said, helps modularisation. For example, customer navigation through the app can be tested as the journey changes. This offers flexibility where it is needed. Navigation (the main - entry point for the customer) is wrapped in routine logic but when authentication of the user is required, authentication logic and a more centralised logic is used. This works, like a proxy, Wu said, where the two sets of logic reference each other. All of this helps scaling web and mobile apps.
 
 ## Testing and data availability challenges with JavaScript
 
@@ -71,7 +71,7 @@ The challenge, as seen by McDonald, with Dynamic Web Apps (DWAs) that consume AP
 
 Complex modern system of libraries and tooling services result in the constant converting of modern JavaScript code back into vanilla JavaScript that browsers understand. It requires debugging with source maps for multiple branches of code as well as maintenance of versions of code updates with patches and breaking changes. All this makes for a poor customer experience (CX), as well as developer experience (DX). Background jobs like cron jobs are clunky and infrastructure as code may solve some of these challenges, but not all.
 
-The JAM-stack which relies on JavaScript, APIs, and Markup with code mashed-up into one artefact has its own trade-offs, McDonald said - slow builds, not really a full-stack - the rehydration from API call to front end is slow and not always secure. 
+The JAM-stack which relies on JavaScript, APIs, and Markup with code mashed-up into one artefact has its own trade-offs, McDonald said - slow builds, not really a full-stack - the rehydration from API call to frontend is slow and not always secure. 
 
 Progressive Web Apps (PWAs) that format and minify code with complex nested DOMs and custom rendered elements provide another headache of layout-thrashing and DOM-tree-shaking.  
 

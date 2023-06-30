@@ -86,11 +86,11 @@ For me, it was always a question of finding out - albeit an expensive, high-risk
 
 For me the answer was a resounding yes. I came away from bootcamp learning more that I thought that I would. We rapidly raced through the fundamentals of some "real" programming languages
 
-- JavaScript - a front-to-back end language
-- Python - a scripting back-end language
+- JavaScript - a front-to-backend language
+- Python - a scripting backend language
 - PostgreSQL - a relational database language
 - React.js - a JavaScript component Library
-- Node.js - a JavaScript back-end framework
+- Node.js - a JavaScript backend framework
 - MongoDB - a document-based language
 
 ## Can you make a living after you have learnt to code

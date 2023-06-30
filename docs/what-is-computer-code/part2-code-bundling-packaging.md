@@ -28,7 +28,7 @@ __A short list of JavaScript code bundlers__
 
 - [Parcel](https://parceljs.org/) has no configuration files. It has some of the same benefits as webpack and all code bundlers - code splitting, asset bundling (images-videos-CSS (Cascading Style Sheets) styles), efficient DOM-tree shaking to remove inefficient code. It claims to be faster than webpack.
 
-- [Snowpack](https://www.snowpack.dev/) claims to have significant advantages over webpack for front-end. Data is cached (saved in memory) so once code is built it is cached forever improving the speed and performance of page reloads, it means instant start-up time of front-end applications and an instant refresh on save - built in bundling for ReactJS - a JavaScript front-end component library, TypeScript a JavaScript superscript and more.
+- [Snowpack](https://www.snowpack.dev/) claims to have significant advantages over webpack for frontend. Data is cached (saved in memory) so once code is built it is cached forever improving the speed and performance of page reloads, it means instant start-up time of frontend applications and an instant refresh on save - built in bundling for ReactJS - a JavaScript frontend component library, TypeScript a JavaScript superscript and more.
 
 ## What are the key functions of a code bundler?
 
@@ -66,7 +66,7 @@ Lodash’s modular methods are great for:
 
 Packages are bundles of source code distributed by developers of software, which can be compiled and installed on your machine.
 
-JavaScript for many years did not have package managers and a software bundle had to built for every use case from scratch. Today (time of writing 2022), packages have been created for reusable front-end components - ReactJS - is component library package, testing - Jest is a JavaScript test runner and state management - Redux is one such tool, to name a few packages for JavaScript developers.
+JavaScript for many years did not have package managers and a software bundle had to built for every use case from scratch. Today (time of writing 2022), packages have been created for reusable frontend components - ReactJS - is component library package, testing - Jest is a JavaScript test runner and state management - Redux is one such tool, to name a few packages for JavaScript developers.
 
 ## What is code package management?
 

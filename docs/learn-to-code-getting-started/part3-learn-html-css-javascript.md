@@ -21,7 +21,7 @@ As it is a programming language, identifying HTML on a browser starts with meta-
 
 Every HTML page, or document, starts with a boiler plate with the opening tag `<!DOCTYPE html>` and the closing tag `</html>`
 
-To create your own HTML pen in CodePen, copy and paste the boiler plate and you can then create the tags that are visible as front-end code.
+To create your own HTML pen in CodePen, copy and paste the boiler plate and you can then create the tags that are visible as frontend code.
 
 ```HTML
 
@@ -35,13 +35,13 @@ To create your own HTML pen in CodePen, copy and paste the boiler plate and you 
 </head>
 <body>
   <!--
-  This is a comment tag - another meta-tag that is not visible to the front-end of an app but allows you to comment your code.
+  This is a comment tag - another meta-tag that is not visible to the frontend of an app but allows you to comment your code.
   -->
 </body>
 </html>
 ```
 
-If you have not read **Part 2 of Learning to Code**, I briefly outline the difference between learning to code for front-end web and mobile applications is vs. learning to code for the back-end of an app.
+If you have not read **Part 2 of Learning to Code**, I briefly outline the difference between learning to code for frontend web and mobile applications is vs. learning to code for the backend of an app.
 
 This boiler plate that you copy into your workspace, or pen, is parsed - or read - by the web browsers. If the syntax is wrong and you miss an opening or closing tag, the program breaks and will not run. Each browser has its own JavaScript engine that parses HTML, CSS and JavaScript in a different way.
 

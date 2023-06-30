@@ -37,7 +37,7 @@ What Netifly does is a pre-rendering, pre-reading, or a pre-parsing of these fil
 
 Traditional websites need the client-server model to run. Running sites this way needlessly slows things down, provides way too many opportunities for attack, and is expensive to scale.
 
-Unlike the large legacy apps, JAM-stack projects neatly separate the front-end pages and UI (User Interface) from the backend apps and databases. JAM refers to JavaScript, Application Programming Interfaces (APIs) and Markup (HTML and CSS). APIs are application protocol interfaces, or a way of getting data from the back-end to the front-end, without relying on a server.
+Unlike the large legacy apps, JAM-stack projects neatly separate the frontend pages and UI (User Interface) from the backend apps and databases. JAM refers to JavaScript, Application Programming Interfaces (APIs) and Markup (HTML and CSS). APIs are application protocol interfaces, or a way of getting data from the backend to the frontend, without relying on a server.
 
 Part 2, in this series, outlines the benefits of the JAM stack.
 
@@ -45,9 +45,9 @@ Freed from backend servers, websites run faster with automated deployments of th
 
 Rather than building content at runtime for each request, content is prebuilt and optimised during a build setup using a site generator and other build tools.
 
-Decoupling the front-end from the backend allows for more modular development.
+Decoupling the frontend from the backend allows for more modular development.
 
-Read Part 1, 2 in the series if you have missed them to understand the difference between front-end and back-end code bases.
+Read Part 1, 2 in the series if you have missed them to understand the difference between frontend and backend code bases.
 
 ## File Set-up on Sublime Text
 

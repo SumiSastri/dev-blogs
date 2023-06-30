@@ -11,7 +11,7 @@ Firebase is an eco-system of products. Firebase build tools account for about 30
 
 Firebase replaces your need to spin up a server and maintain a database as these products are integrated in the package. Firestore is a database, and other Firebase build services offer and the hosting and filestorage systems to provide a place to store your files and images. The serverless functions are the mesh that ties the services together and provision Firebase cloud services offered by Google.
 
-Through the stack, Firebase provides authentication of users and easy integration to front-end analytics with Google Analytics as well as with marketing tools like Google Ads. You can also use non-Google services and integrate it into your app.
+Through the stack, Firebase provides authentication of users and easy integration to frontend analytics with Google Analytics as well as with marketing tools like Google Ads. You can also use non-Google services and integrate it into your app.
 
 These services are part of the Firebase Build suite.
 
@@ -19,7 +19,7 @@ These services are part of the Firebase Build suite.
 
 If you are creating user-generated-content (UGC), the Firebase file storage system is primarily to store user generated files. Other file storage is also permitted.
 
-You can store static files - text, markdown and images. Images are cached on Firebase (Solid State Drives) SSDs, with the view to pre-optimising images and to fast rendering on front-end services.
+You can store static files - text, markdown and images. Images are cached on Firebase (Solid State Drives) SSDs, with the view to pre-optimising images and to fast rendering on frontend services.
 
 Often, you have to find image hosts like Imgur, or Pixabay, to host your images and then import these again via these services Application Programming Interfaces (APIs) to use to build your app.
 
@@ -108,7 +108,7 @@ Authenticated users are automatically integrated into the Firestore database.
 
 Firebase Cloud Functions allow you to write custom functions to set up and manage your app's backend code. The code you write manages the Google Cloud Servers and your app's infrastructure.
 
-The advantage is that you can roll out new features progressively from the front-end of your app without worrying too-much about how to manage infrastructure. Start-ups find this a good option as employing cloud infrastructure engineers is expensive. There is a caveat to this approach. Scaling is not seamless with Google Cloud Services and migration to a new service - AWS, Azure or any other cloud infrastructure provider.
+The advantage is that you can roll out new features progressively from the frontend of your app without worrying too-much about how to manage infrastructure. Start-ups find this a good option as employing cloud infrastructure engineers is expensive. There is a caveat to this approach. Scaling is not seamless with Google Cloud Services and migration to a new service - AWS, Azure or any other cloud infrastructure provider.
 
 Firebase cloud functions are serverless functions that are trigged by an event set up in the code that provisions Google Cloud Servers functionality. Serverless means there is no dedicated machine running your code at all time. Code is deployed to the servers and is run when an event you have set up in your code is triggered.
 

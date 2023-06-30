@@ -77,7 +77,7 @@ SSGs compile the HTML pages at build time before the app is deployed to the Web.
 
 SPAs and SSRs can be over-engineered. SSGs take some of the grunt work out of building static sites. SSGs bundle all the files in build time and then sends the files to a CDN (content delivery network) to host.
 
-They are good for SEO as the server gets back a content-rich, pre-rendered HTML page. Performant - as it is pre-rendered. Easy to maintain and update - based on templates that can be reused. Data sources are diverse - you can use content from Wordpress, e-commerce data from Shopify, back-end data from Firebase or a simple file system.
+They are good for SEO as the server gets back a content-rich, pre-rendered HTML page. Performant - as it is pre-rendered. Easy to maintain and update - based on templates that can be reused. Data sources are diverse - you can use content from Wordpress, e-commerce data from Shopify, backend data from Firebase or a simple file system.
 
 So the whole process of building the site needs some thought and planning. This is before we even think about hosting.
 

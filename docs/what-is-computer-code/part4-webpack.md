@@ -11,7 +11,7 @@ Webpack is a JavaScript build tool that helps transpiling, configuiring, compili
 
 Webpack an open source project that relies on [sponsors](https://webpack.js.org/#sponsors) and programmers who volunteer their time to maintain the programme.. It is not tied to (and paid by) a big company like some other open source projects, and on the [Webpack github repo](https://github.com/webpack/webpack.js.org) you will find several opportunities to contribute to the maintenance and development of this package.
 
-Webpack is a build tool for front-end development in particular. JavaScript can be read by browsers and does not actually need a build program to run. Naming convention sometimes is upper case as in webpack, as is now consider an essential in a JavaScript toolkit. However, like google, webpack is a brand name, I use lower case in these blogs.
+Webpack is a build tool for frontend development in particular. JavaScript can be read by browsers and does not actually need a build program to run. Naming convention sometimes is upper case as in webpack, as is now consider an essential in a JavaScript toolkit. However, like google, webpack is a brand name, I use lower case in these blogs.
 
 As the size of projects and web-applications grew from 1997, when JavaScript was created by the computer scientist Brendan Eich, the need to have a build process intercepting the code and compiling it back to what is more performant (a single light file) became more of an issue.
 

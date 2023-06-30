@@ -21,7 +21,7 @@ In _Part 1_ I explore what motivates people to code and how to go about learning
 
 Languages wax and wane in favour. The most popular languages are not the same as the most adopted languages on the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web.
 
-While JavaScript - often abbreviated to JS - is the most popular front-end language, PHP is the still the most used. Wordpress is built on PHP and initially so was Facebook!
+While JavaScript - often abbreviated to JS - is the most popular frontend language, PHP is the still the most used. Wordpress is built on PHP and initially so was Facebook!
 
 JavaScript libraries have replaced vanilla JavaScript. These are j-Query, once again not popular but often used and React.js popular but may not be with the same market share. React was designed by Facebook to replace PHP.
 
@@ -37,29 +37,29 @@ JavaScript is the entry-point to understanding other JS libraries such as React.
 
 Should you learn PHP? Many bootcamps do not offer PHP as a language to be learnt as it is waning in popularity as JavaScript's popularity has grown in leaps and bounds over the last decade.
 
-What about Ruby? Some bootcamps still offer Ruby and Ruby-on-Rails (the back-end framework for front-end Ruby) but many start-ups find Ruby does not scale well and are migrating out of a Ruby-based stack. There still are a number of jobs where Ruby developers are in demand to maintain existing legacy stacks.
+What about Ruby? Some bootcamps still offer Ruby and Ruby-on-Rails (the backend framework for frontend Ruby) but many start-ups find Ruby does not scale well and are migrating out of a Ruby-based stack. There still are a number of jobs where Ruby developers are in demand to maintain existing legacy stacks.
 
 A tech-stack, or stack, is a configuration of languages that a developer/organisation uses to build web or mobile apps.
 
-It is worth remembering that while JavaScript is incredibily popular as a language to learn today, when JavaScript was introduced as a programming language for web-browsers in the 1990s, it failed to gain popularity. Similarly Ruby was extremely popular in the early 2000s but has fallen out of favour as React and Vue have replaced front-end code initially written in Ruby and back-end code with other languages, frameworks or libraries.
+It is worth remembering that while JavaScript is incredibily popular as a language to learn today, when JavaScript was introduced as a programming language for web-browsers in the 1990s, it failed to gain popularity. Similarly Ruby was extremely popular in the early 2000s but has fallen out of favour as React and Vue have replaced frontend code initially written in Ruby and backend code with other languages, frameworks or libraries.
 
-## Is learning to code a front-end language better
+## Is learning to code a frontend language better
 
-The front-end languages refer to code that writes the front-end of a web or mobile application. The visible part of the app to a user.
+The frontend languages refer to code that writes the frontend of a web or mobile application. The visible part of the app to a user.
 
-However, the back-end of an application where the data is stored and retrieved for use on the front-end is equally important.
+However, the backend of an application where the data is stored and retrieved for use on the frontend is equally important.
 
-Learning to code both for the back-end and front-end is more valuable as it enhances your understanding of a code-base.
+Learning to code both for the backend and frontend is more valuable as it enhances your understanding of a code-base.
 
-## What back-end languages should you learn
+## What backend languages should you learn
 
 Once again, what you can learn in bootcamp is limited by what is taught in the curriculum.
 
-Java, a language that is most useful for back-end development is not taught at bootcamp.
+Java, a language that is most useful for backend development is not taught at bootcamp.
 
 It is no relation to JavaScript, except that when [Brenden Eich](https://en.wikipedia.org/wiki/Brendan_Eich), who designed JavaScript code as a browser-based scripting language for Netscape. It was called Mocha, LiveScript and then JavaScript only to tag its name to the popular language of the day, which was Java.
 
-C, C++, C Sharp are other back-end languages that are not taught at bootcamp.
+C, C++, C Sharp are other backend languages that are not taught at bootcamp.
 
 PHP and Ruby-on-Rails once again are not taught at all bootcamps.
 
@@ -67,7 +67,7 @@ Which of course does not mean you should not learn these languages. It means the
 
 Python - a scripting language used for Data Science is taught and is swiftly gaining popularity.
 
-JavaScript for back-end frameworks is what most bootcamps teach - Node.js or Node is an environment where JavaScript works outside the browser and therefore in the backend.
+JavaScript for backend frameworks is what most bootcamps teach - Node.js or Node is an environment where JavaScript works outside the browser and therefore in the backend.
 
 ## What about learning to code for data-bases
 
@@ -83,7 +83,7 @@ MongoDB and DynamoDB are two such databases. MongoDB is JavaScript-based and onc
 
 Yes and no. Learning HTML, CSS and JavaScript - especially JavaScript will take you a long way.
 
-Learning one back-end language like Node and one JavaScript-based data-base like MongoDB will help you quickly spin up small projects for your portfolio.
+Learning one backend language like Node and one JavaScript-based data-base like MongoDB will help you quickly spin up small projects for your portfolio.
 
 If you do not want to go the bootcamp route and are comfortable with online learning there are many free training courses. Here are a few you can check out.
 
@@ -117,7 +117,7 @@ Most of my portfolio is based on the MERN-stack. It's what helped me in the 18-m
 
 Even better!
 
-This is Pure JavaScript, HTML and CSS without a server. It is great as a starter for anyone who is looking to build a small project on their with only front-end languages. [Netifly](https://www.netlify.com/) helps you deploy and host this stack in a matter of seconds.
+This is Pure JavaScript, HTML and CSS without a server. It is great as a starter for anyone who is looking to build a small project on their with only frontend languages. [Netifly](https://www.netlify.com/) helps you deploy and host this stack in a matter of seconds.
 
 You don't need bootcamp for this if you are in the research phase and want to dabble.
 

@@ -67,7 +67,7 @@ Whenever the client makes a request the token along with the request is sent in 
 
 ## How is an authorisation token different from a cookie?
 
-A cookie is also a packet of data stored on the browser. It allows anyone to log the results of the response body to the console and capture the information stored in the browser memory on the front-end server. With an authorisation cookie, nothing is stored on the server, it is serialised and hashed and stored in the token in this encrypted form.
+A cookie is also a packet of data stored on the browser. It allows anyone to log the results of the response body to the console and capture the information stored in the browser memory on the frontend server. With an authorisation cookie, nothing is stored on the server, it is serialised and hashed and stored in the token in this encrypted form.
 
 - [Cookies vs Tokens: The Definitive Guide](https://auth0.com/blog/cookies-vs-tokens-definitive-guide/)
 
