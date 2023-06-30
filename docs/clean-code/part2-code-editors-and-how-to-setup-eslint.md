@@ -48,7 +48,7 @@ After you should be able to now use VS Code with the command `code .` or Atom wi
 
 ## Vim - the IDE everyone loves to hate
 
-Vim is an editor that is on every Mac terminal by default. All you need to do is type `vi` in your Mac terminal and the IDE fires up. Type `I` (insert and edit), escape from the command mode. You can quit `:q` (quit), `:qa` (quit all tabs the quit commands do do not save edits). The command for editing is to write and then quit `:wq` (write & quit) or `:wqa` (write and quit all tabs).
+Vim is an editor that is on every Mac terminal by default. All you need to do is type `vi` in your Mac terminal and the IDE fires up. Type `I` (insert and edit), escape from the command mode. You can quit `:q` (quit), `:qa` (quit all tabs the quit commands do do not save edits). The command for editing is to write and then quit `:wq` (write and quit) or `:wqa` (write and quit all tabs).
 
 Created by Bram Moolenaar in 1991 as an upgrade from the 1970s version, Vim is free, open-source and light-weight. It is easy to use but for the unfamiliar, a bit clunky and the vim commands can be a bit difficult to understand, at first.
 

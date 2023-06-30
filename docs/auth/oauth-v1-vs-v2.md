@@ -1,12 +1,12 @@
 ---
 layout: default
-title: OAuth what is the difference between v1 & v2?
+title: OAuth what is the difference between v1 and v2?
 nav_order: 8
 parent: Authentication and authorisation
 ---
 
 
-#  OAuth what is the difference between v1 & v2?
+#  OAuth what is the difference between v1 and v2?
 
 OAuth is an open source authorisation protocol (set of rules) that allows a third party application access to user-related claim-based information.
 

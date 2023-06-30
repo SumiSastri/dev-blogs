@@ -54,12 +54,12 @@ Some of the functions that bundlers under take are:
 
 Build tools that perform specialised tasks. These sub-set of tools that perform these tasks are called task runners.
 
-eg: Lodash is a task runner, it is a JavaScript utility library delivering modularity, performance & extras specifically when it comes to working with arrays, numbers, objects, strings, etc.
+eg: Lodash is a task runner, it is a JavaScript utility library delivering modularity, performance and extras specifically when it comes to working with arrays, numbers, objects, strings, etc.
 
 Lodash’s modular methods are great for:
 
-- iterating arrays, objects, & strings
-- manipulating & testing values
+- iterating arrays, objects, and strings
+- manipulating and testing values
 - creating composite functions
 
 ## What is a code package?

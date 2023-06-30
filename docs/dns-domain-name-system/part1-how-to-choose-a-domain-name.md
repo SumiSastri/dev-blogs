@@ -47,7 +47,7 @@ If you change your web host to AWS then the request will go to the Amazon Web Se
 
 A domain name can have different extensions .com/ .org/ etc. Domain names gives content-creators control over the content they want to publish across the internet.
 
-ICANN, [International Corporation for Assigned Names & Numbers](https://lookup.icann.org/), is the intenational directory, that the DNS refers to, for web names to make sure there are no duplication of IP-addresses (the number relating to your domain name) or the actual name itself. ICANN's principal job is to reconcile the name of the site with the IP number and publish it in an internationally accessible directory. This is used both by the DNS and hosting companies.
+ICANN, [International Corporation for Assigned Names and Numbers](https://lookup.icann.org/), is the intenational directory, that the DNS refers to, for web names to make sure there are no duplication of IP-addresses (the number relating to your domain name) or the actual name itself. ICANN's principal job is to reconcile the name of the site with the IP number and publish it in an internationally accessible directory. This is used both by the DNS and hosting companies.
 
 If you are a content creator you will need to purchase a domain name and there are several resellers of domain names that are linked to ICANN allowing you to buy domain names and connect to the registry maintained by ICANN.
 

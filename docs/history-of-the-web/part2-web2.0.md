@@ -27,7 +27,7 @@ UX design became more important and JavaScript frameworks like google's AngularJ
 
 The real disruptor was mobile technologies with the emphasis on technologies that supported mobile-app development.
 
-Given this shift from web applications to mobile applications, Bruce Lawson’s look under the hood of the browser wars with a talk called __"Internet Explorer - Rest in Peace (RIP) or Be Right Back (BRB)?"__, explored the history of the browser in the evolution of the world wide web.
+Given this shift from web applications to mobile applications, Bruce Lawson’s look under the hood of the browser wars with a talk called _"Internet Explorer - Rest in Peace (RIP) or Be Right Back (BRB)?"_, explored the history of the browser in the evolution of the world wide web.
 
 While the browser wars raged in the 1990s, today Safari has been taken to task for not using Chrome, Internet Explorer, Firefox, or any other browser on its mobile devices, he said.
 

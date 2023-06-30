@@ -10,7 +10,7 @@ parent: Authentication and authorisation
 
 Each cloud service provider will have their own way of handling auth. Amazon Web Services (AWS) handles auth with a product called AWS-Cognito.
 
-AWS Cognito handles a user's identity and access management (IdaaM) of resources with Cognito User Pools (authentication) & Cognito Identity Pools (authorisation). We can look at both in a little more detail.
+AWS Cognito handles a user's identity and access management (IdaaM) of resources with Cognito User Pools (authentication) and Cognito Identity Pools (authorisation). We can look at both in a little more detail.
 
 ## What are AWS-Cognito User Pools?
 

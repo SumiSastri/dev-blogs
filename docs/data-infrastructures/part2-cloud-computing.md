@@ -60,7 +60,7 @@ Some of the benefits of cloud computing are:-
 - identity and access management of sensitive data (IdAM) or authorisation (auth) of access
 - federated authorisation - via social media sign in
 - big data options
-- modernisation - access to the Internet of Things (IoT), Cloud AI (Artificial Intelligence)  & ML (Machine Learning)
+- modernisation - access to the Internet of Things (IoT), Cloud AI (Artificial Intelligence) and ML (Machine Learning)
 - full user-journey analytics (from lead-generation to post-sales)
 - data transfer and migration
 - data integration with different service providers

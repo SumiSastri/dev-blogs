@@ -25,11 +25,11 @@ A webhost is managing all of this for you. While they may charge you for the tim
 
 DNS propagation is the process by which information is relayed from the service provider you have bought your web domain from all the way up through a global network to the top-level DNS registry. This takes about 24-48 hours to complete. The DNS allows several resellers to sell domain names. You may therefore buy your domain name from one service provider and very easily host with another.
 
-You register your domain name then with ICANN, [International Corporation for Assigned Names & Numbers](https://lookup.icann.org/). Usually your domain name reseller service will send you an email and request you to register these details. You can make these details private or public. Many domain-name squatters will purchase domain names and resell them for higher prices - words like mortgage, interest-rates for example rank high on SEO, so domain name squatters may purchase these names and never host looking to make a profit on the resale of the domain name.
+You register your domain name then with ICANN, [International Corporation for Assigned Names and Numbers](https://lookup.icann.org/). Usually your domain name reseller service will send you an email and request you to register these details. You can make these details private or public. Many domain-name squatters will purchase domain names and resell them for higher prices - words like mortgage, interest-rates for example rank high on SEO, so domain name squatters may purchase these names and never host looking to make a profit on the resale of the domain name.
 
 The domain name can now be mapped to a name server. Once you purchase hosting all you will need to obtain the correct nameservers from your service provider and map the name server (usually notated as `ns1` and `ns2`) to your host. The instructions may vary from service-to-service but they are fairly simple and easy to follow.
 
-For example `ns1.bluehost.com IPnumber` & `ns2.bluehost.com IPnumber` is the pattern used to map the name server from where you purchased your domain name, say for example NameCheap, to BlueHost.
+For example `ns1.bluehost.com IPnumber` and `ns2.bluehost.com IPnumber` is the pattern used to map the name server from where you purchased your domain name, say for example NameCheap, to BlueHost.
 
 ## Comparing web hosting services
 

@@ -25,7 +25,7 @@ _1950s-1970s - era of mainframes:_ Installation, maintenance, cost - writing sof
 
 _1977 - era of personal computing:_ Distribution of compute power - on premise servers (same issues lower costs)
 
-_2005 - start of operating system (OS) virtualisation & containerisation:_
+_2005 - start of operating system (OS) virtualisation and containerisation:_
 
 - distributed virtual software
 - servers running multiple operating systems
@@ -49,7 +49,7 @@ _2006 - paradigm shift to cloud computing:_
 _2014 - serverless uptake higher with end users:_
 
 - function as a service (FaaS) normalised with enterprise level projects
-- hybrid systems - on-prem & cloud still in existence
+- hybrid systems - on-prem and cloud still in existence
 - no complete move to cloud though progression from on-prem to cloud rapid
 
 ## What are IaaS, PaaS, SaaS and DaaS

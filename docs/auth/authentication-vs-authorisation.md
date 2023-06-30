@@ -9,7 +9,7 @@ parent: Authentication and authorisation
 
 Authentication is the process of identifying a user and ensuring the user is, who the user says the user is. By this we mean, the user must be a person and not a bot, and the person who registered for a service and not the person's friends, family or other work colleagues.
 
-Authenticating a user can be done in many ways using a number of devices. Today we have not just email & password identification, we also can have bio-metric identification - fingerprints, voice, iris-identifiction.
+Authenticating a user can be done in many ways using a number of devices. Today we have not just email and password identification, we also can have bio-metric identification - fingerprints, voice, iris-identifiction.
 
 Passwordless authentication - using an email link authentication has also become popular, while 2-factor (2FA) authentication and multi-factor authentication (MFA) add another layer of security to protecting a user's identity and access management (IdaaM) of resources.
 

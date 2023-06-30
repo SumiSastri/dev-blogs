@@ -27,7 +27,7 @@ All of this information is written in code on 1 computer (client) sent to a serv
 
 If you are a buyer and are looking for a product to buy, your laptop is the client, your request for a URL goes via interconnected servers managed by the DNS (Domain Name System) to the seller's computer (another client) and serves back the content hosted on an URL once again through this network of servers back to your laptop or mobile device all in a matter of micro-seconds.
 
-## How HTML, CSS & JavaScript are parsed on the Web
+## How HTML, CSS and JavaScript are parsed on the Web
 
 When a request comes in to the client - your computer with your HTML (Hyper Text Markup Language), CSS (Cascading Style Sheets) and JavaScript files - via your computer's operating system allows the files on your system to be read by or parsed by the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, browser.
 
@@ -37,7 +37,7 @@ What Netifly does is a pre-rendering, pre-reading, or a pre-parsing of these fil
 
 Traditional websites need the client-server model to run. Running sites this way needlessly slows things down, provides way too many opportunities for attack, and is expensive to scale.
 
-Unlike the large legacy apps, JAM-stack projects neatly separate the front-end pages and UI (User Interface) from the backend apps and databases. JAM refers to JavaScript, Application Programming Interfaces (APIs) and Markup (HTML & CSS). APIs are application protocol interfaces, or a way of getting data from the back-end to the front-end, without relying on a server.
+Unlike the large legacy apps, JAM-stack projects neatly separate the front-end pages and UI (User Interface) from the backend apps and databases. JAM refers to JavaScript, Application Programming Interfaces (APIs) and Markup (HTML and CSS). APIs are application protocol interfaces, or a way of getting data from the back-end to the front-end, without relying on a server.
 
 Part 2, in this series, outlines the benefits of the JAM stack.
 

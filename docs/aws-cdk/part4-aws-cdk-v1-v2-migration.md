@@ -259,7 +259,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 ```
 
-This installs & uses it in your project
+This installs and uses it in your project
 
 `nvm install 18`
 `nvm use 18`

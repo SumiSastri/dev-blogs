@@ -58,4 +58,4 @@ With all packages, it is important to keep an eye on changes and modify your cod
 
 ## What is the difference between Babel and Webpack?
 
-webpack is mainly a JavaScript bundler for ES6 modules. Babel is mainly a transpiler. Babel & webpack are often used together. In the next section I review Babel in a little more detail.
+webpack is mainly a JavaScript bundler for ES6 modules. Babel is mainly a transpiler. Babel and webpack are often used together. In the next section I review Babel in a little more detail.

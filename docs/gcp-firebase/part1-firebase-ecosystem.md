@@ -21,4 +21,4 @@ SDKs come with minimum access requirements eg: Node v8 or higher needs to be ins
 
 SDKs are updated and latest versions of the SDK should be used wherever possible versions should be updated as they fix code challenges and security issues that may have been raised as issues in previous versions of the SDK.
 
-Firebase supports many languages, this repo focuses on JavaScript & NodeJS. It can be used with an existing app as a plugin.
+Firebase supports many languages, this repo focuses on JavaScript and NodeJS. It can be used with an existing app as a plugin.

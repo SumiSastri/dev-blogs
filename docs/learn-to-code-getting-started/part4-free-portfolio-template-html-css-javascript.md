@@ -1,11 +1,11 @@
 ---
 layout: default
-title: A free portfolio or website template with HTML, CSS & JavaScript
+title: A free portfolio or website template with HTML, CSS and JavaScript
 parent: Learn to code - getting started
 nav_order: 6
 ---
 
-# A free portfolio or website template with HTML, CSS & JavaScript
+# A free portfolio or website template with HTML, CSS and JavaScript
 
 In this section, you can continue with CodePen, an open source sandbox. You will need to have completed Part 3 in this series to feel comfortable with this section.
 
@@ -21,11 +21,11 @@ Like CSS (Cascading Style Sheets) ,the basics of vanilla JavaScript or JS, is ea
 
 Google new terms and research everything you read to layer and improve your knowledge. Wherever I have been able to I have added links to make this process easier for you.
 
-## Start your project with HTML & CSS first
+## Start your project with HTML and CSS first
 
 Go back to the portfolio pen link. Copy and paste the HTML (Hyper Text Markup Language) and CSS into your own workspace creating your pen first.
 
-Personalise both the HTML & CSS to suit your needs. Don't be afraid it is just text, change the text and see how it looks. Then change the styling.
+Personalise both the HTML and CSS to suit your needs. Don't be afraid it is just text, change the text and see how it looks. Then change the styling.
 
 Run the analyse HTML chevron to make sure there are no syntax mistakes. Note that 2 external libraries have been added to the boiler plate.
 

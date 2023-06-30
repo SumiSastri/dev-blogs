@@ -1,13 +1,13 @@
 ---
 layout: default
-title:  Have fun learning to code HTML, CSS & JavaScript
+title:  Have fun learning to code HTML, CSS and JavaScript
 parent: Learn to code - getting started
 nav_order: 6
 ---
 
-# Have fun learning to code HTML, CSS & JavaScript
+# Have fun learning to code HTML, CSS and JavaScript
 
-In this section, you will need to sign-up to [CodePen](https://codepen.io/), an open source sandbox. I share links or pens that I have created in HTML (Hyper Text Markup Language), HTML & CSS (Cascading Style Sheets) and finally HTML, CSS & JavaScript.
+In this section, you will need to sign-up to [CodePen](https://codepen.io/), an open source sandbox. I share links or pens that I have created in HTML (Hyper Text Markup Language), HTML and CSS (Cascading Style Sheets) and finally HTML, CSS and JavaScript.
 
 You can create your own pens by copying the code and playing with it. Don't worry if you break your code - its part of the process of learning. Just go back and copy my pen and start again!
 

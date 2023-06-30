@@ -88,7 +88,7 @@ NoSQL databases do not have formal relationships between data-sets. Data is an o
 
 ## Authentication
 
-The authentication service can be used in isolation. It handles account creation, sets user IDs used for loading data that only required by a particular user, allows users to  register/ sign-in & sign-out of accounts.
+The authentication service can be used in isolation. It handles account creation, sets user IDs used for loading data that only required by a particular user, allows users to  register/ sign-in and sign-out of accounts.
 
 Other features include email-confirmation and password re-sets, so that users can manage their accounts effectively.
 
