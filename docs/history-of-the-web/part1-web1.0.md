@@ -8,13 +8,14 @@ title: A love letter to the personal website
 
 # A love letter to the personal website
 
-Full disclosure right up front.  [Stack Skills](https://stackskills.com/) conference in London (2022), and the topics discussed, have been doing a slow brew in my head. This site is the result of the influence that the speakers had on my thought processes as an emerging developer.
-
-Sophie Koonin's introductory talk, “A love letter to the personal website,” took us through the sad loss of the personal websites of the 1990s - websites for the creative pleasure of the individual not for profit of conglomerates.
-
-## What is the differrence between Web 1.0, 2.0 and 3.0 ?
-
 If we thought Web 1.0 was dead, this full-stack conference hosted by Stack Skills, considered it fun to resurrect that dead thought from the grave.
+
+A [Stack Skills](https://stackskills.com/)  conference in London (2022) was an interesting post-lockdown experience and the 2-day conference focused on the history of the Web, Web 1.0, Web 2.0 and challenges ahead for Web 3.0.
+
+Full disclosure right up front.  
+
+This site is the result of the influence that the speakers had on my thought processes as an emerging developer.
+## What is the differrence between Web 1.0, 2.0 and 3.0 ?
 
 The theme of the 2-day conference, was to take us through a brief history of the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, starting with HTML (Hyper Text Markup Language), reminding us that a combination of HTML and CSS (Cascading Style Sheets) are perfect tools to build any website. All that JavaScript added was the browser wars and bugs...
 
@@ -23,6 +24,8 @@ Here is a brief time-line of the transition points between the 3 versions of the
 1980s and 1990s - The Web, which was invented by collaborators, [Robert Cailliau](https://www.cailliau.org/Welcome.html) and [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) in the 1980s, was conceived as a document sharing amongst academics, was built on HTML, with URLs (Unique Resource Locators) - that linked the documents and gave academics access to scientific research.
 
 Web 1.0 started as a document storage and sharing experiment at a particle physics organisation, [CERN](https://home.cern/), the introduction of CSS in the 1990s, by [Håkon Wium Lie](https://www.wiumlie.no/en), ideas which he developed with [Bert Bos](https://www.w3.org/People/Bos/), provided more opportunities for pepping-up the typewriter-style printed page that was a bit dull and difficult to read.
+
+Sophie Koonin's introductory talk, “A love letter to the personal website,” was a tribute to the loss of the personal websites of the 1990s - websites for the creative pleasure of the individual not for profit of conglomerates.
 
 Kooky sites like [Sadgrl](https://sadgrl.online/), Koonin demonstrated were examples of the next phase in the development of the Web where people built sites for fun, self-expression and creativity.
 
