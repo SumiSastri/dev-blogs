@@ -67,7 +67,7 @@ Specifically testing for mobile devices and browsers on different platforms is p
 
 A little left field was the option to build Functional Web Apps (FWAs) with Web Components proposed by Simon McDonald. Web Components are APIs to different web platforms that help you create custom HTML tags and design your app pages.
 
-FWAs solve the challenge, as seen by McDonald, that developers face with Dynamic Web Apps (DWAs), JAM (JavaScript, APIs and Markup) stacks and PWAs (Progressive Web Apps). Markup refers to the styling from CSS stylesheets that marks up HTML text blocks helping in layouts and organising chunky blocks of text.
+FWAs solve the challenge that developers face with Dynamic Web Apps (DWAs), JAM (JavaScript, APIs and Markup) stacks and PWAs (Progressive Web Apps), McDonald said. Markup refers to the styling from CSS stylesheets that marks up HTML text blocks helping in layouts and organising chunky blocks of text.
 
 DWAs consume APIs from external sources, the complex modern system of libraries and tooling services that they bring, result in the constant converting of modern JavaScript code back into vanilla JavaScript that browsers understand.
 
@@ -91,7 +91,7 @@ The cons are that code must be loaded in memory in the machine and this is limit
 
 Emergent DBs - Cosmos (Azure), DynamoDB (AWS), PlanetScale, a relational DB or Fauna and document-style DB (independents not linked to any big cloud provider) - fill this gap, he said.
 
-Another challenge with FWAs is infrastructure as code is complex, as Cormack highlighted earlier in the day. Databases are often linked to a cloud-based service you must decide on the cloud service provider you are going to use and go all in with AWS/ Google/ Azure.
+Another challenge with FWAs is infrastructure as code is complex, as Cormack highlighted earlier in the day. DBs are often linked to a cloud-based service you must decide on the cloud service provider you are going to use and go all in with AWS/ Google/ Azure.
 
 This all is may not be the optimal option for some organisations. The BBC has gone down this route and for more inspiration, McDonald pointed to resources [Begin](https://begin.com/) to explore the option of FWA suitability.
 
@@ -101,14 +101,14 @@ As a total aside, [fun-fun functions](https://www.youtube.com/channel/UCO1cgjhGz
 
 - [Fossbytes - Who is Brenden Eich](https://fossbytes.com/who-is-brendan-eich/)
 
-- [What are FWAs](https://fwa.dev/)
+- [What are FWAs (Functional Web Apps)](https://fwa.dev/)
 
 - [What are web components](https://coherent-labs.com/posts/web-components/)
 
-- [What is a DWA (Dynamic Web App)](https://www.ramotion.com/blog/dynamic-web-application-development/)
+- [What are DWAs (Dynamic Web Apps)](https://www.ramotion.com/blog/dynamic-web-application-development/)
 
 - [What is the JAM-Stack](https://jamstack.org/what-is-jamstack/)
 
-- [What is a PWA (Progressive Web App)](https://www.codecademy.com/resources/blog/what-is-a-progressive-web-application/)
+- [What are PWAs (Progressive Web Apps)](https://www.codecademy.com/resources/blog/what-is-a-progressive-web-application/)
 
 - [What are assistive technologies](https://www.who.int/news-room/fact-sheets/detail/assistive-technology)
