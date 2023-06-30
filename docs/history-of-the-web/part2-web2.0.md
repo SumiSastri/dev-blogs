@@ -17,7 +17,7 @@ JavaScript allows the user to interact with every HTML element and change its be
 
 Web 1.0 from static sites, with text and some styling but with limited user interaction, transformed and JavaScript allowed users to now interact with pages - click buttons, see sliders and animated picture galleries, play interactive games.
 
-However Web 2.0 is not just about JavaScript that the user can interact with, it also about JavaScript accessing databases with Application Programming Interfaces (APIs).
+However Web 2.0 is not just about JavaScript that the user can interact with, it also about JavaScript accessing DBs (databases) with Application Programming Interfaces (APIs).
 
 Every hardware developer wanted a JavaScript engine to parse the Web documents so that users who were adopting personal computers and interacting with the Web could have a better user-experience (UX).
 
@@ -77,19 +77,19 @@ All this makes for a poor customer experience (CX), as well as developer experie
 
 The JAM-stack which relies on HTML, CSS & JavaScript mashed-up into one artefact has its own trade-offs, McDonald said.These are slow builds, not really a full-stack - the rehydration from API calls to the frontend is slow and not always secure.
 
-PWAs are built on HTML, CSS and JavaScript rtather than traditional mobile-app languages like Swift or Kotlin. They are accessed through a browser. To enhance the speed of dowloading a PWAs use pre-processors to format and minify code. A pre-processor, takes out all the empty spaces in a code block (minification) and formats newer versions of JavaScript to a version that browsers recognise.
+PWAs are built on HTML, CSS and JavaScript rather than traditional mobile-app languages like Swift or Kotlin. They are accessed through a browser. To enhance the speed of dowloading PWAs use pre-processors to format and minify code. A pre-processor, takes out all the empty spaces in a code block (minification) and formats newer versions of JavaScript to a version that browsers recognise.
 
-When a website is created a tree of all the elements called the DOM (Document Object Model) is built. To shake out the fluff from every branch of this DOM-tree, pre-processors have to delve into a complex mesh of HTML elements, a process called layout-thrashing or DOM-tree shaking. With complex nested DOMs - as more pages and complex layouts, API calls are made, this process of layout-thrashing and DOM-tree shaking can become a headache.
+When a website is created a tree of all the elements called the DOM (Document Object Model) is built. To shake out the fluff from every branch of this DOM-tree, pre-processors have to delve into a complex mesh of HTML elements. A process called layout-thrashing or DOM-tree shaking. With complex nested DOMs - as more pages and complex layouts, API calls are made, this process of layout-thrashing and DOM-tree shaking can become a headache.
 
 FWAs, on the other hand, with their HTML first approach offers dynamic personalisation and assistive technologies built in by default.
 
-FWAs are built using functions as code, programmed on the server using managed databases making deployments more efficient.
+FWAs are built using functions as code, programmed on the server using managed DBs making deployments more efficient.
 
 With this enhanced control comes a better CX, inclusivity, speed and even a better DX with less maintenance and breaking changes from versions of code updates.
 
-The cons are that code must be loaded in memory in the machine and this is limiting in terms of the time taken to parse the code and then run it.
+The cons are that code must be loaded in memory in the machine and this is limiting in terms of the time taken to parse the code and then run it. Not all DBs are able to fill this requirement.
 
-Emergent databases - Cosmos (Azure) Planet scale (RDBMS) Fauna DB (indie not-cloud coupled), DynamoDB (AWS) - fill this gap, he said.
+Emergent DBs - Cosmos (Azure), DynamoDB (AWS), PlanetScale, a relational DB or Fauna and document-style DB (independents not linked to any big cloud provider) - fill this gap, he said.
 
 Another challenge with FWAs is infrastructure as code is complex, as Cormack highlighted earlier in the day. Databases are often linked to a cloud-based service you must decide on the cloud service provider you are going to use and go all in with AWS/ Google/ Azure.
 
@@ -99,9 +99,16 @@ As a total aside, [fun-fun functions](https://www.youtube.com/channel/UCO1cgjhGz
 
 ### Additional Resources
 
-[Fossbytes - Who is Brenden Eich](https://fossbytes.com/who-is-brendan-eich/)
-[What are FWAs](https://fwa.dev/)
-[What are web components](https://coherent-labs.com/posts/web-components/)
-[What is a DWA (Dynamic Web App)](https://www.ramotion.com/blog/dynamic-web-application-development/)
-[What is the JAM-Stack](https://jamstack.org/what-is-jamstack/)
-[What is a PWA (Progressive Web App)](https://www.codecademy.com/resources/blog/what-is-a-progressive-web-application/)
+- [Fossbytes - Who is Brenden Eich](https://fossbytes.com/who-is-brendan-eich/)
+
+- [What are FWAs](https://fwa.dev/)
+
+- [What are web components](https://coherent-labs.com/posts/web-components/)
+
+- [What is a DWA (Dynamic Web App)](https://www.ramotion.com/blog/dynamic-web-application-development/)
+
+- [What is the JAM-Stack](https://jamstack.org/what-is-jamstack/)
+
+- [What is a PWA (Progressive Web App)](https://www.codecademy.com/resources/blog/what-is-a-progressive-web-application/)
+
+- [What are assistive technologies](https://www.who.int/news-room/fact-sheets/detail/assistive-technology)
