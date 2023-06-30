@@ -21,9 +21,11 @@ webpack and Babel, or transpilers of which they are many, in general first compi
 
 ## Transpiling and DOM-tree-shaking
 
-As we saw in Part2, (Document Object Model) or DOM, tree-shaking is an important function of a code bundler. It removes all the code that is not being used in the DOM-tree which is a programmatic representation of all the elements of an application and how they interact with each other.
+As we saw in Part2, (Document Object Model) or DOM, tree-shaking is an important function of a code bundler. It removes all the code that is not being used in the DOM-tree which is a programmatic representation of all the elements of an application and how they interact with each other. 
 
-Transpilers go one step further when they traverse the root and branches of the DOM-tree. They simplify the code back into the older version of JavaScript that browsers can read. The newer, more modern versions of JavaScript from ES6 to ES13 that developers write are cleaner and easier to write. This process of making the syntax easier (and sweeter for the developers) to consume is called syntactical sugar.
+Transpilers go one step further when they traverse the root and branches of the DOM-tree. They simplify the code back into the older version of JavaScript that browsers can read. A process called layout-thrashing or DOM-tree shaking.
+
+The newer, more modern versions of JavaScript from ES6 to ES13 that developers write are cleaner and easier to write. This process of making the syntax easier (and sweeter for the developers) to consume is called syntactical sugar.
 
 Transpilers now go through the process of de-sugaring (removing the syntatical sugar added by newer versions of code that make it easier for the code writer to work with) ES6 to ES13 back into the older machine-readable JavaScript.
 

@@ -86,7 +86,7 @@ Worth checking out is [Elad2412 on CodePen](https://codepen.io/elad2412/) for mo
 
 On a more serious note, Sam Prioux, highlighted how Web 2.0 creates more complexity and less accessibility to visually challenged users.
 
-Web 1.0 offered text-to-speech screen readers and since most of the Web was HTML, this made the early web much more universally accessible. Text could also be printed to braille.
+Web 1.0 offered text-to-speech screen readers and since most of the Web was HTML, this made the early Web much more universally accessible. Text could also be printed to braille.
 
 Today with text layered with images, audio, and video there are still tools to make the Web more accessible. Command Line Interface (CLI) tools, image recognition tags, voice recognition, video-magnification, and accessibility APIs.
 
@@ -110,7 +110,7 @@ And on a seriously light-hearted note, Herve Aniglo, talked about teaching child
 
 Python, JavaScript, and Ruby are languages that can be learnt by programming sounds for synthesisers. Conversely, it is also a tool for programmers to learn how to read and write music.
 
-Music and sound, Aniglo said, bring tech to a wider audience and is a great introduction to children learning the web. One of the sections on Berners-Lee's site is the section for kids where he explains particle physics in simple terms. It is also a great reference for Koonin's examples of a Web 1.0 site.
+Music and sound, Aniglo said, bring tech to a wider audience and is a great introduction to children learning the Web. One of the sections on Berners-Lee's site is the section for kids where he explains particle physics in simple terms. It is also a great reference for Koonin's examples of a Web 1.0 site.
 
 In [Part2 - Enter the browser with the JavaScript dragon](https://sumisastri.github.io/dev-blogs/history-of-the-web/part2-web2.0/), I have aggregated the talks on JavaScript together to tell a story. The theme of this next section questions if JavaScript really the big, bad wolf of the Web or just another coding language, a tool at our disposal.
 

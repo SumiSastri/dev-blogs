@@ -23,7 +23,7 @@ Every hardware developer wanted a JavaScript engine to parse the Web documents s
 
 Microsoft kicked the ball into play with Internet Explorer, google followed with Chrome, Apple with Safari and Mozilla with Firefox. Many other niche market players emerged, made inroads into the market, many got burnt and/ or suffered decay.
 
-UX design became more important and JavaScript frameworks like google's AngularJS, or Facebook's UI (User Interface) library called ReactJS,  burgeoned and grew to enhance the developer experience.
+UX design became more important and JavaScript frameworks like google's AngularJS, or Facebook's user interface library called ReactJS,  burgeoned and grew to enhance the developer experience.
 
 The real disruptor was mobile technologies with the emphasis on technologies that supported mobile-app development.
 
@@ -35,19 +35,19 @@ Apple phones and i-pads mask these browsers and use Safari, which users see and 
 
 ## I'm going to the garden to eat bugs - big ones, fat ones, round ones, curly ones
 
-Browsers, and JavaScript with all its avatars, also bring with them the joy of bugs. 
+Browsers, and JavaScript with all its avatars, also bring with them the joy of bugs.
 
 Gabriel Manor-Leichtman’s in-depth look at browser developer tools to help debugging code and network performance issues was worth reviewing once again for its rich content and useful guidelines on the online playback of Stack Skills conference package.
 
-Loosely typed JavaScript, and its bug-ridden code, can partially be tackled with the stricter TypeScript superscript. 
+Loosely typed JavaScript, and its bug-ridden code, can partially be tackled with the stricter TypeScript superscript.
 
-TypeScript, has uses well beyond the frontend, as Ryan Cormack from Moon Pig pointed out. Using Amazon Web Services (AWS) which compiles down to Cloud Formation, you can move JavaScript code and embedded data from the frontend to the backend of apps with TypeScript lambda functions.
+TypeScript, has uses well beyond the frontend, as Ryan Cormack from the online card and gifts site, Moonpig, pointed out. Using Amazon Web Services (AWS) which compiles down to Cloud Formation, you can move JavaScript code and embedded data from the frontend to the backend of apps with TypeScript lambda functions.
 
 This does not come without its trade-offs, Cormack said, you need to write imperative (versus declarative) code if you use YAML (Yet Another Markup Language - also known as YML) compilation, deal with constant code updates and have at least a foundational knowledge of AWS, which has its own learning curve.
 
 A way through this maze of JavaScript options is to choose the option of creating micro-frontends to scale and deploy complex apps, Teresa Wu said, demonstrating how the Chase App worked. 
 
-Chase’s banking app looked the customer journey (CJ) from onboarding through to off-boarding with each segment of the UX built with strategic intent and collaboration but released in operational isolation to speed up the process of development and ensure each moving part of the app worked efficiently.  
+Chase’s banking app looked the customer journey from onboarding through to off-boarding with each segment of the UX built with strategic intent and collaboration but released in operational isolation to speed up the process of development and ensure each moving part of the app worked efficiently.  
 
 Micro frontends, Wu said, helps modularisation. For example, customer navigation through the app can be tested as the journey changes. This offers flexibility where it is needed. Navigation (the main - entry point for the customer) is wrapped in routine logic but when authentication of the user is required, authentication logic and a more centralised logic is used. This works, like a proxy, Wu said, where the two sets of logic reference each other. All of this helps scaling web and mobile apps.
 
@@ -63,32 +63,45 @@ Availability of data also becomes a challenge with testing. Due to higher levels
 
 Specifically testing for mobile devices and browsers on different platforms is part of the integration testing that Web 2.0 developers need to consider.
 
-## Fun, fun, Functional Web Apps?
+## Fun, fun, FWAs?
 
-A little left field was the option to build Functional Web Apps (FWAs) with [web components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) proposed by Simon McDonald.
+A little left field was the option to build Functional Web Apps (FWAs) with Web Components proposed by Simon McDonald. Web Components are APIs to different web platforms that help you create custom HTML tags and design your app pages.
 
-The challenge, as seen by McDonald, with Dynamic Web Apps (DWAs) that consume APIs from external sources is that physical infrastructure is slower to scale than logic.  
+FWAs solve the challenge, as seen by McDonald, that developers face with Dynamic Web Apps (DWAs), JAM (JavaScript, APIs and Markup) stacks and PWAs (Progressive Web Apps). Markup refers to the styling from CSS stylesheets that marks up HTML text blocks helping in layouts and organising chunky blocks of text.
 
-Complex modern system of libraries and tooling services result in the constant converting of modern JavaScript code back into vanilla JavaScript that browsers understand. It requires debugging with source maps for multiple branches of code as well as maintenance of versions of code updates with patches and breaking changes. All this makes for a poor customer experience (CX), as well as developer experience (DX). Background jobs like cron jobs are clunky and infrastructure as code may solve some of these challenges, but not all.
+DWAs consume APIs from external sources, the complex modern system of libraries and tooling services that they bring, result in the constant converting of modern JavaScript code back into vanilla JavaScript that browsers understand.
 
-The JAM-stack which relies on JavaScript, APIs, and Markup with code mashed-up into one artefact has its own trade-offs, McDonald said - slow builds, not really a full-stack - the rehydration from API call to frontend is slow and not always secure. 
+DWAs require debugging with source maps for multiple branches of code as well as maintenance of versions of code updates with patches and breaking changes.
 
-Progressive Web Apps (PWAs) that format and minify code with complex nested DOMs and custom rendered elements provide another headache of layout-thrashing and DOM-tree-shaking.  
+All this makes for a poor customer experience (CX), as well as developer experience (DX). Background jobs like cron jobs are clunky and infrastructure as code may solve some of these challenges, but not all.
 
-[FWAs](https://fwa.dev/) with their HTML first approach offers dynamic personalisation on server side and accessibility is to users who need this enhanced access is a priority by default. With this enhanced control comes a better CX, inclusivity, speed and even a better DX with less maintenance and breaking changes from versions of code updates.
+The JAM-stack which relies on HTML, CSS & JavaScript mashed-up into one artefact has its own trade-offs, McDonald said.These are slow builds, not really a full-stack - the rehydration from API calls to the frontend is slow and not always secure.
+
+PWAs are built on HTML, CSS and JavaScript rtather than traditional mobile-app languages like Swift or Kotlin. They are accessed through a browser. To enhance the speed of dowloading a PWAs use pre-processors to format and minify code. A pre-processor, takes out all the empty spaces in a code block (minification) and formats newer versions of JavaScript to a version that browsers recognise.
+
+When a website is created a tree of all the elements called the DOM (Document Object Model) is built. To shake out the fluff from every branch of this DOM-tree, pre-processors have to delve into a complex mesh of HTML elements, a process called layout-thrashing or DOM-tree shaking. With complex nested DOMs - as more pages and complex layouts, API calls are made, this process of layout-thrashing and DOM-tree shaking can become a headache.
+
+FWAs, on the other hand, with their HTML first approach offers dynamic personalisation and assistive technologies built in by default.
+
+FWAs are built using functions as code, programmed on the server using managed databases making deployments more efficient.
+
+With this enhanced control comes a better CX, inclusivity, speed and even a better DX with less maintenance and breaking changes from versions of code updates.
 
 The cons are that code must be loaded in memory in the machine and this is limiting in terms of the time taken to parse the code and then run it.
 
 Emergent databases - Cosmos (Azure) Planet scale (RDBMS) Fauna DB (indie not-cloud coupled), DynamoDB (AWS) - fill this gap, he said.
 
-Another challenge is infrastructure as code is complex, as Cormack highlighted. Databases are often linked to a cloud-based service you must decide on the cloud service provider you are going to use and go all in with AWS/ Google/ Azure.
+Another challenge with FWAs is infrastructure as code is complex, as Cormack highlighted earlier in the day. Databases are often linked to a cloud-based service you must decide on the cloud service provider you are going to use and go all in with AWS/ Google/ Azure.
 
-This all is may not be the optimal option, using Kubernetes, functions as service, instead of infra as service may work in this case he said. This is where FWAs come in as many of these decisions do not need to be made.
-
-The BBC has gone down this route and for more inspiration, McDonald pointed to resources [Begin](https://begin.com/) to explore the option of FWA suitability.
+This all is may not be the optimal option for some organisations. The BBC has gone down this route and for more inspiration, McDonald pointed to resources [Begin](https://begin.com/) to explore the option of FWA suitability.
 
 As a total aside, [fun-fun functions](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q) is a great YouTuber - sadly taking a sabbatical but a great Web 2.0 site to checkout and total inspiration for the subhead I chose for this section...he will be more sadly missed than Web 1.0 imho :-).
 
 ### Additional Resources
 
 [Fossbytes - Who is Brenden Eich](https://fossbytes.com/who-is-brendan-eich/)
+[What are FWAs](https://fwa.dev/)
+[What are web components](https://coherent-labs.com/posts/web-components/)
+[What is a DWA (Dynamic Web App)](https://www.ramotion.com/blog/dynamic-web-application-development/)
+[What is the JAM-Stack](https://jamstack.org/what-is-jamstack/)
+[What is a PWA (Progressive Web App)](https://www.codecademy.com/resources/blog/what-is-a-progressive-web-application/)
