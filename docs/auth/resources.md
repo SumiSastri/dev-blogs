@@ -2,7 +2,7 @@
 layout: default
 title: Resources Auth
 nav_order: 8
-has_children: true
+parent: Authentication and authorisation
 ---
 
 

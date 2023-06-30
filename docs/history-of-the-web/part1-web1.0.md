@@ -35,17 +35,17 @@ TLDs are the final extension of a web name, for example `.com`. If you look at t
 
 Even if TLDs were not creative, secondary-domain names, which are the memorable part of the domain name, before the `.com` extention, were truly memorable - `https://lynnandtonic.com/` and `https://darn.es/` showed the creative flair that early developers had.
 
-Some of this creative flair has been retained, Koonin concedes, `google` being an example. Today's creative naming seem to be more about brand building than self-expression, is the point of difference between a name like `lynnandtonic` which simply was an expression of Stephanie Eckles, a CSS specialist's creative flair, Koonin pointed out.
+Some of this creative flair has been retained, Koonin concedes, `google` being an example. Today's creative naming seem to be more about brand building than self-expression. This is the point of difference between a name like `lynnandtonic` which simply was an expression of Stephanie Eckles, a CSS specialist's creative flair, Koonin pointed out.
 
 Another common feature of these sites are, they are all built in HTML and CSS with no JavaScript in sight. The purpose of early websites of the 1990s were to be creative and full of personality to mark the developer's individuality on the Web.  
 
 Web 2.0 was coined in 1999 by [Darci DiNucci](http://darcyd.com/), whose personal website display all the characteristics of Web 1.0 static pages, no email form, you need to download a CV which is stored on a URL rather than a database, limited CSS and no JavaScript. The name Web 1.0 was retrofitted by DiNucci a UI-UX and technical writer, to differentiate Web 2.0 which was more feature rich.
 
-One of the early movers to shift the dynamic of the Web as a document storage system for academics and researchers, was the content generator, [My Space](https://myspace.com/) which also socialised content.
+One of the early movers to shift the dynamic of the Web, as a document storage system for academics and researchers, was the content generator, [My Space](https://myspace.com/). The site started the shift towards UGC (user-generated-content).
 
 Web 2.0, played to DiNucci's strengths - a focus on the user-experience(UX), personalisation of the user-journey with UXD (UX-Design frameworks), data stored server-side with Application Protocol Interfaces (APIs) making it easy to use a variety of resources on a web page.
 
-The increased use of APIs, along with improved UI-UXD, encouraged more users to post blogs, comments, reactions, photographs, images making the Web more interconnected and devices and infrastructures more interoperable. At this stage UGC (user-generated-content) was the shift from developer generated content.
+The increased use of APIs, along with improved UI-UXD, encouraged more users to post blogs, comments, reactions, photographs, images making the Web more interconnected and devices and infrastructures more interoperable. At this stage UGC  was the shift from developer-generated content.
 
 As a precursor to Web 2.0, where UGC was more common, in Koonin’s opinion, was the success of MySpace, which ruined the Web for indie sites. The term Web 2.0, was only widely adopted in 2004 in a conference where DiNucci's original terminology to differentiate the 2 versions of the Web was viralised.
 
