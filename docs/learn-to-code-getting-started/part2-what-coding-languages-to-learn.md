@@ -1,11 +1,11 @@
 ---
 layout: default
-title: What is a "real" coding language
+title: What is a "real" coding language?
 parent: Learn to code - getting started
 nav_order: 6
 ---
 
-# What is a "real" coding language
+# What is a "real" coding language?
 
 In this article we expore what code is and isn't and what are the "real" coding languages you should learn when you are starting from ground zero. There is a view that HTML (Hyper Text Markup Language) and CSS (Cascading Style Sheets) are not "real" computer languages. They are text and styling mark-up. However, they are computer coding languages - just with simpler and more easy to understand rules.
 
@@ -17,7 +17,7 @@ You do not need to know advanced maths, be a "techie" or a "geek" to learn codin
 
 In _Part 1_ I explore what motivates people to code and how to go about learning to code. If you are a little more interested now, you may ask yourself new questions to see if you want to pursue.
 
-## Which language should I learn if I want to code
+## Which language should I learn if I want to code?
 
 Languages wax and wane in favour. The most popular languages are not the same as the most adopted languages on the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web.
 
@@ -43,7 +43,7 @@ A tech-stack, or stack, is a configuration of languages that a developer/organis
 
 It is worth remembering that while JavaScript is incredibily popular as a language to learn today, when JavaScript was introduced as a programming language for web-browsers in the 1990s, it failed to gain popularity. Similarly Ruby was extremely popular in the early 2000s but has fallen out of favour as React and Vue have replaced frontend code initially written in Ruby and backend code with other languages, frameworks or libraries.
 
-## Is learning to code a frontend language better
+## Is learning to code a frontend language better?
 
 The frontend languages refer to code that writes the frontend of a web or mobile application. The visible part of the app to a user.
 
@@ -51,7 +51,7 @@ However, the backend of an application where the data is stored and retrieved fo
 
 Learning to code both for the backend and frontend is more valuable as it enhances your understanding of a code-base.
 
-## What backend languages should you learn
+## What backend languages should you learn?
 
 Once again, what you can learn in bootcamp is limited by what is taught in the curriculum.
 
@@ -69,7 +69,7 @@ Python - a scripting language used for Data Science is taught and is swiftly gai
 
 JavaScript for backend frameworks is what most bootcamps teach - Node.js or Node is an environment where JavaScript works outside the browser and therefore in the backend.
 
-## What about learning to code for data-bases
+## What about learning to code for data-bases?
 
 Bootcamps do run through both relational-databases and non-relational databases.
 
@@ -79,7 +79,7 @@ Non-relational databases are also referred to as document-based databases.
 
 MongoDB and DynamoDB are two such databases. MongoDB is JavaScript-based and once again the most easily accessible if you learn JavaScript.
 
-## Isn't this a spaghetti tangle of code to learn
+## Isn't this a spaghetti tangle of code to learn?
 
 Yes and no. Learning HTML, CSS and JavaScript - especially JavaScript will take you a long way.
 
@@ -113,7 +113,7 @@ It helps you stay focused to gaining mastery with one language - JavaScript and 
 
 Most of my portfolio is based on the MERN-stack. It's what helped me in the 18-months after I left bootcamp to keep my focus narrow but deep rather than cast my net wide and lose focus.
 
-## What about learning to code the JAM stack
+## What about learning to code the JAM stack?
 
 Even better!
 
@@ -127,8 +127,10 @@ It's a risk free and cost-free way of checking whether coding is for you or not.
 
 In Part 3 of Learning to Code, I will run through three pens or links from [CodePen](https://codepen.io/), a free sandbox that allows you to play with code and see how it works.
 
-**[The super-fast HTML crash course pen](https://codepen.io/sumisastri/pen/yLgRpZN)** is adapted from W3Schools tutorials.
+### Useful links
 
-**[The CSS Bouncing Balls pen]((https://codepen.io/sumisastri/full/zYNmWoy)** adds CSS styling and animation. You can copy this pen and change the shape of the coloured balls and the animation and make this project your own.
+[The super-fast HTML crash course pen](https://codepen.io/sumisastri/pen/yLgRpZN) is adapted from W3Schools tutorials.
 
-**[The JavaScript traffic lights pen](https://codepen.io/sumisastri/full/zyzPZm)** demos the power of JavaScript and the magic it works with a click of a button!
+[The CSS Bouncing Balls pen]((https://codepen.io/sumisastri/full/zYNmWoy) adds CSS styling and animation. You can copy this pen and change the shape of the coloured balls and the animation and make this project your own.
+
+[The JavaScript traffic lights pen](https://codepen.io/sumisastri/full/zyzPZm) demos the power of JavaScript and the magic it works with a click of a button!

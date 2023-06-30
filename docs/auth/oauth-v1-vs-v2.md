@@ -1,9 +1,9 @@
----
+<!-- ---
 layout: default
 title: OAuth what is the difference between v1 and v2?
 nav_order: 8
 parent: Authentication and authorisation
----
+--- -->
 
 
 #  OAuth what is the difference between v1 and v2?
@@ -37,8 +37,6 @@ The Protocol requires 2 Application Programming Interfaces (API) endpoints and b
 Auth endpoint - get request via the user scripted into the API header via the browser
 
 Token endpoint - machine-generated token that is encrypted outside the browser environment by encrypting algorithms
-
-B
 
 Next, Obtain an access token from the Google Authorization Server to access the API.
 Send the request with the access token to an API .

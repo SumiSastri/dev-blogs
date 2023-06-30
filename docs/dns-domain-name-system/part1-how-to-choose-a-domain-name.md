@@ -1,12 +1,12 @@
 ---
 layout: default
-title: How to choose a domain name
+title: How to choose a domain name?
 parent: DNS - The Domain Name System
 nav_order: 3
 ---
 
 
-# How to choose a domain name
+# How to choose a domain name?
 
 To choose a domain name, it is useful to understand how the  Domain Name System (DNS) works.
 
@@ -43,7 +43,7 @@ If you change your web host to AWS then the request will go to the Amazon Web Se
 
 [NameCheap](https://www.namecheap.com/dns/what-is-dns-domain-name-system-definition/), sells domain names and has an overview of what the DNS is, to guide users on how to purchase a suitable web-name and how the DNS works.
 
-## How to choose a domain name service provider
+## How to choose a domain name service provider?
 
 A domain name can have different extensions .com/ .org/ etc. Domain names gives content-creators control over the content they want to publish across the internet.
 

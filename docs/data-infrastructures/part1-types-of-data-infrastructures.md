@@ -52,7 +52,7 @@ _2014 - serverless uptake higher with end users:_
 - hybrid systems - on-prem and cloud still in existence
 - no complete move to cloud though progression from on-prem to cloud rapid
 
-## What are IaaS, PaaS, SaaS and DaaS
+## What are IaaS, PaaS, SaaS and DaaS?
 
 Data can be stored in all sorts of ways - external hard-drives is the simplest form of data-backup. You can also have locally hosted data on your computer - in files and drives. The challenge is scaling and security.
 
@@ -120,6 +120,6 @@ Depending on your cloud service provider you will need developers with the skill
 - environments stay in sync - no environment drift and if there is drift detection tools available
 
 
-## What about BaaS
+## What about BaaS?
 
 Backend as a service allows users to configure the backend from the frontend UI (User Interface). One such example is Google Firebase.
