@@ -8,9 +8,7 @@ title: A love letter to the personal website
 
 # A love letter to the personal website
 
-If we thought Web 1.0 was dead, this full-stack conference hosted by Stack Skills, considered it fun to resurrect that dead thought from the grave.
-
-A [Stack Skills](https://stackskills.com/)  conference in London (2022) was an interesting post-lockdown experience and the 2-day conference focused on the history of the Web, Web 1.0, Web 2.0 and challenges ahead for Web 3.0.
+If we thought Web 1.0 was dead, a 2-day [Stack Skills](https://stackskills.com/) conference in London (2022), considered it fun to resurrect that dead thought from the grave. The conference focused on the history of the Web, Web 1.0, Web 2.0 and challenges ahead for Web 3.0.
 
 Full disclosure right up front.  
 
@@ -25,7 +23,7 @@ Here is a brief time-line of the transition points between the 3 versions of the
 
 Web 1.0 started as a document storage and sharing experiment at a particle physics organisation, [CERN](https://home.cern/), the introduction of CSS in the 1990s, by [Håkon Wium Lie](https://www.wiumlie.no/en), ideas which he developed with [Bert Bos](https://www.w3.org/People/Bos/), provided more opportunities for pepping-up the typewriter-style printed page that was a bit dull and difficult to read.
 
-Sophie Koonin's introductory talk, “A love letter to the personal website,” was a tribute to the loss of the personal websites of the 1990s - websites for the creative pleasure of the individual not for profit of conglomerates.
+Sophie Koonin's introductory talk, _“A love letter to the personal website,”_ was a tribute to the loss of the personal websites of the 1990s - websites for the creative pleasure of the individual not for profit of conglomerates.
 
 Kooky sites like [Sadgrl](https://sadgrl.online/), Koonin demonstrated were examples of the next phase in the development of the Web where people built sites for fun, self-expression and creativity.
 
@@ -49,7 +47,7 @@ The increased use of APIs, along with improved UI-UXD, encouraged more users to 
 
 As a precursor to Web 2.0, where UGC was more common, in Koonin’s opinion, was the success of MySpace, which ruined the Web for indie sites. The term Web 2.0, was only widely adopted in 2004 in a conference where DiNucci's original terminology to differentiate the 2 versions of the Web was viralised.
 
-The general word of caution on Web 2.0, from Koonin, is that although it has influenced a whole generation of content creators to flock to social media sites, it has also spelt the death of the creative impulse of self-experession and a risk towards all sites looking like cookie-cutter imprints of each other. If you do see the My Space site, for example, it has suffered from this general trend.
+The general word of caution on Web 2.0, from Koonin, is that although it has influenced a whole generation of content creators to flock to social media sites, it has also spelt the death of the creative impulse of self-expression and a risk towards all sites looking like cookie-cutter imprints of each other. If you do see the My Space site, for example, it has suffered from this general trend.
 
 While individuality is lost and customisation is limited, the real danger lies in algorithms harvest data and generate feeds of echo-chamber information, Koonin said.
 
@@ -75,9 +73,11 @@ A shibbolith that Elad Schechter, who was the next speaker, aimed to dismiss. It
 
 ## Pure CSS Games - hey no blinking JavaScript
 
-Schechter, talk “How to Create Pure CSS Games”, used clever CSS tricks like checkboxes and radio-buttons and CSS animations.
+Schechter, talk _“How to Create Pure CSS Games”_, used clever CSS tricks like checkboxes and radio-buttons and CSS animations.
 
-Schechter ran through how he created a CSS counter for his games and animations. Pseudo classes, sibling selectors in conjunction with CSS animations like transform-rotate helped providing an illusion of movement - proving you do not blinking well need JavaScript. He did caveat-emptor this by saying he used an HTML pre-processor. A pre-processor takes HTML and CSS code and processes it in advance so that it renders more efficiently (quickly) on the Web.
+Schechter ran through how he created a CSS counter for his games and animations. Pseudo classes, sibling selectors in conjunction with CSS animations like transform-rotate helped providing an illusion of movement - proving you do not blinking well need JavaScript. 
+
+He did caveat-emptor this by saying he used an HTML pre-processor. A pre-processor takes HTML and CSS code and processes it in advance so that it renders more efficiently (quickly) on the Web.
 
 Schechter created atoms of coronavirus with blinking eyes, elements appearing and disappearing, movement of these atoms across the page using and CSS attributes like display-block and display-none or setting opacity at various levels.
 
@@ -88,7 +88,7 @@ On a more serious note, Sam Prioux, highlighted how Web 2.0 creates more complex
 
 Web 1.0 offered text-to-speech screen readers and since most of the Web was HTML, this made the early web much more universally accessible. Text could also be printed to braille.
 
-Today with text layered with images, audio, and video there are still tools to make the Web more accessible. ommand Line Interface (CLI) tools, image recognition tags, voice recognition, video-magnification, and accessibility APIs.
+Today with text layered with images, audio, and video there are still tools to make the Web more accessible. Command Line Interface (CLI) tools, image recognition tags, voice recognition, video-magnification, and accessibility APIs.
 
 Hardware and software developers, Prioux said, need to work together as computer central processing units (CPUs), and compute-power, can be slow with speech recognition. Commercial [assistive technologies](https://www.who.int/news-room/fact-sheets/detail/assistive-technology) are in their infancy and need to be further developed.
 
