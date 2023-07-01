@@ -13,7 +13,7 @@ If we thought Web 1.0 was dead, a 2-day [Stack Skills](https://stackskills.com/)
 Full disclosure right up front.  
 
 This site is the result of the influence that the speakers had on my thought processes as an emerging developer.
-## What is the differrence between Web 1.0, 2.0 and 3.0 ?
+## What is the difference between Web 1.0, 2.0 and 3.0 ?
 
 The theme of the 2-day conference, was to take us through a brief history of the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, starting with HTML (Hyper Text Markup Language), reminding us that a combination of HTML and CSS (Cascading Style Sheets) are perfect tools to build any website. All that JavaScript added was the browser wars and bugs...
 
@@ -61,7 +61,7 @@ Koonin also said Web 2.0 needed a reset as the cancel culture will slowly lead t
 
 Content generators now need to think of uncreative content guidelines - search-engine-optimisation and other engagement metrics  as well as social and political correctness - taking the fun out of building a personal website.
 
-Emergent technlogies like AI, interconnected devices with IoT (the Internet of Things) and NFC (Near Field Communication), will alogorithmize content and many human interactions. This has the potential of rendering content we consume devoid of human intelligence and actions we take devoid of human intervention. This will all be in the name of convenience, speed and removing the nature of individuals, prone errors and creative rather than programmed logic.
+Emergent technlogies like AI, interconnected devices with IoT (the Internet of Things) and NFC (Near Field Communication), will alogorithmize content many human interactions. This has the potential of rendering content we consume devoid of human intelligence and actions we take devoid of human intervention. This will all be in the name of convenience, speed and removing the nature of individuals, prone errors and creative rather than programmed logic.
 
 Pointing us to [Indie Web](https://indieweb.org/) and [Yester Web](https://yesterweb.org/) which aim to “reclaim the Web,” the movement encourages developers to harken back to the past and create a personal website which is not dependent on pre-built templates like WordPress, Wix and Square Space offer but on vanilla HTML and CSS.
 
@@ -73,9 +73,9 @@ A shibbolith that Elad Schechter, who was the next speaker, aimed to dismiss. It
 
 ## Pure CSS Games - hey no blinking JavaScript
 
-Schechter, talk _“How to Create Pure CSS Games”_, used clever CSS tricks like checkboxes and radio-buttons and CSS animations.
+Schechter, talk _“How to Create Pure CSS Games”_, used clever CSS tricks like checkboxes and radio-buttons with CSS animations.
 
-Schechter ran through how he created a CSS counter for his games and animations. Pseudo classes, sibling selectors in conjunction with CSS animations like transform-rotate helped providing an illusion of movement - proving you do not blinking well need JavaScript. 
+Schechter ran through how he created a CSS counter for his games and animations. Pseudo classes, sibling selectors in conjunction with CSS animations like transform-rotate helped providing an illusion of movement - proving you do not blinking well need JavaScript.
 
 He did caveat-emptor this by saying he used an HTML pre-processor. A pre-processor takes HTML and CSS code and processes it in advance so that it renders more efficiently (quickly) on the Web.
 
@@ -106,7 +106,7 @@ Prioux, provided an inspiring and insightful look into the plethora of options t
 
 AI promises to revolutionise accessibility, he also pointed developers to think of customisation for accessibility or creating separate but equal experiences for assistive technologies that help the enjoyment and ease of use.  
 
-And on a seriously light-hearted note, Herve Aniglo, talked about teaching children to code with music using [Sonic PI](https://sonic-pi.net/), a language agnostic platform that helps you learn recursions, looping, circuit breaking and functional programming by creating simple tunes.  
+On a seriously light-hearted note, Herve Aniglo, talked about teaching children to code with music using [Sonic PI](https://sonic-pi.net/), a language agnostic platform that helps you learn recursions, looping, circuit breaking and functional programming by creating simple tunes.  
 
 Python, JavaScript, and Ruby are languages that can be learnt by programming sounds for synthesisers. Conversely, it is also a tool for programmers to learn how to read and write music.
 
