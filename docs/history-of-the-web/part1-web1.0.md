@@ -13,6 +13,19 @@ If we thought Web 1.0 was dead, a 2-day [Stack Skills](https://stackskills.com/)
 Full disclosure right up front.  
 
 This site is the result of the influence that the speakers had on my thought processes as an emerging developer.
+
+Topics covered
+
+What is the difference between Web 1.0, 2.0 and 3.0 ?
+
+Dangers of the cancel culture for Web 3.0
+
+Pure CSS Games - hey no blinking JavaScript
+
+Assistive technologies - why Web 1.0 worked better with just HTML
+
+Additional Resources
+
 ## What is the difference between Web 1.0, 2.0 and 3.0 ?
 
 The theme of the 2-day conference, was to take us through a brief history of the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, starting with HTML (Hyper Text Markup Language), reminding us that a combination of HTML and CSS (Cascading Style Sheets) are perfect tools to build any website. All that JavaScript added was the browser wars and bugs...

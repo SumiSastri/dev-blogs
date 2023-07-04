@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resources Auth
-nav_order: 8
+nav_order: 9
 parent: Authentication and authorisation
 ---
 

@@ -1,7 +1,7 @@
 <!-- ---
 layout: default
 title: OAuth what is the difference between v1 and v2?
-nav_order: 8
+nav_order: 9
 parent: Authentication and authorisation
 --- -->
 

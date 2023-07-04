@@ -1,7 +1,7 @@
 <!-- ---
 layout: default
 title: What is an authorisation token?
-nav_order: 8
+nav_order: 9
 parent: Authentication and authorisation
 --- -->
 
