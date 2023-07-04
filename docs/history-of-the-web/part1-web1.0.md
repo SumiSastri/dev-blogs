@@ -1,11 +1,9 @@
 ---
 layout: default
-parent: History of the web
+parent: History of the Web
 nav_order: 2
 title: A love letter to the personal website
 ---
-
-
 # A love letter to the personal website
 
 If we thought Web 1.0 was dead, a 2-day [Stack Skills](https://stackskills.com/) conference in London (2022), considered it fun to resurrect that dead thought from the grave. The conference focused on the history of the Web, Web 1.0, Web 2.0 and challenges ahead for Web 3.0.

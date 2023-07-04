@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: History of the web
+parent: History of the Web
 nav_order: 2
 title: Enter the browser with the JavaScript dragon
 ---
