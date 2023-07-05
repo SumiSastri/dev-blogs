@@ -84,6 +84,18 @@ This is a list with links to the resources
 
 - [Git - now owned by Microsoft](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
+## What are the cons of using a version control system?
+
+While version control benefits are they are fast, flexible, distributed and enhance collaboration, the downside is everyone has access with few controls.
+
+The nature of version control is its open for distributed teams to use and collaborate, so how can you lock-down files? Everyone can change them to update code so how do you keep a version flexible yet secure?
+
+A lot of experimentation leads to both good and bad code being pushed to branches and repositories.  Repository file sizes can get too heavy with version history and the bloat. There are work arounds like cherry-picking only the files you want in an environment, or after it is merged into a main branch. This leads to the option of shallow-cloning where not all files are pushed to the main repositories, ignore file rules can be set.
+
+Many version control systems are not good for binary files and have to be compiled or transpiled down again to machine readable code.
+
+The key challenge for emerging and established developers is that version control is not user friendly. It is hard to learn but easy to use which is a conundrum.
+
 ## Additional reading and resources
 
 [Wikipedia](https://en.wikipedia.org/wiki/Version_control)

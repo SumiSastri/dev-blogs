@@ -73,7 +73,7 @@ Branches are often updated by fetching code from an upstream branch and merging 
 
 Keeping environments, packages and library dependencies in sync require some thought and planning so that the code development process is smooth and bug-free.
 
-Branching strategies will vary from organisation to organisation and best-practices that are followed will also vary. Following clear guidelines prevent code collison (code conflicts) as branches often go out of sync. Code then has to be reverted, rebased or deleted. 
+Branching strategies will vary from organisation to organisation and best-practices that are followed will also vary. Following clear guidelines prevent code collison (code conflicts) as branches often go out of sync. Code then has to be reverted, rebased or deleted.
 
 Each version control system will have different methodologies to help you rewind, re-write, revise code so that branches remain in sync in the environment you are working on so that the code you pass to the next environment is of a quality that can be accepted (merged) into the next environment.
 
