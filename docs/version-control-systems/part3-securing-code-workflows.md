@@ -6,4 +6,3 @@ title: How do you secure a code workflow in a version control system?
 ---
 
 # How do you secure a code workflow in a version control system?
-
