@@ -44,6 +44,7 @@ The key things to look for when you are choosing a web host are
 - Data zones - global or regional - choose a regional one if your customer base is local
 - Web traffic and handling peaks and troughs of traffic on your site seamlessly - also known as load balancing. A good host is able to throttle services up and down and an infrastructure team using code to control deployment to backend services can write in rules to facilitate this process.
 - Any data-protection or database services if you need to store customer data
+- Developers required and cost of hiring developers with specific skills
 
 ## Chosing a service level
 
