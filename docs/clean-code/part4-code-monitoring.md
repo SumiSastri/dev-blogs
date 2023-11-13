@@ -1,4 +1,4 @@
----
+<!-- ---
 # layout: default
 # title: What is code monitoring?
 # parent: Clean code
@@ -14,4 +14,4 @@
 
 ## Code monitoring tools
 
-## Additional reading and resources
+## Additional reading and resources -->
