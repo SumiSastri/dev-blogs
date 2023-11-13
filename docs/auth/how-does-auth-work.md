@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How does auth work in a digital environment?
-nav_order: 9
+nav_order: 10
 parent: Authentication and authorisation
 ---
 
