@@ -1,8 +1,8 @@
 <!-- ---
 layout: default
 title: Monoliths, microservices to serverless
-parent: Data infrastructures
-nav_order: 4
+parent: Data infrastructures and cloud computing
+nav_order: 5
 --- -->
 # Monoliths, microservices to serverless
 

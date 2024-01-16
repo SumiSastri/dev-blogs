@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Short history of the shift from mainframe servers to serverless
-parent: Data infrastructures
-nav_order: 4
+parent: Data infrastructures and cloud computing
+nav_order: 5
 ---
 
 # Short history of the shift from mainframe servers to serverless
@@ -106,7 +106,7 @@ Drawback is the throttling required - several requests can block the servers eff
 
 ## Examples of code as infrastructure
 
-AWS Lambdas/ Azure Functions/ Google Cloud Functions/ IBM Cloud Fuinctions - polyglot of code support in their VM (virtual machine - as different from on-premise or on-prem) containers - eg: functions can be written in JavaSript, Java, Ruby, Pyhton, Go, PHP, C#
+AWS Lambdas/ Azure Functions/ Google Cloud Functions/ IBM Cloud Functions - polyglot of code support in their VM (virtual machine - as different from on-premise or on-prem) containers - eg: functions can be written in JavaSript, Java, Ruby, Pyhton, Go, PHP, C#
 
 Depending on your cloud service provider you will need developers with the skills to write the code that manages this infrastructure. Most popular languages for serverless - NodeJS and Python.
 

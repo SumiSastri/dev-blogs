@@ -2,7 +2,7 @@
 layout: default
 title: What is webpack?
 parent: What is computer code
-nav_order: 5
+nav_order: 6
 ---
 
 # What is webpack?

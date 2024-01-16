@@ -1,7 +1,7 @@
 ---
 layout: default
 title: History of the Web
-nav_order: 2
+nav_order: 3
 has_children: true
 ---
 

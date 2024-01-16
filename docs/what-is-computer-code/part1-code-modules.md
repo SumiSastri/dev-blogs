@@ -2,7 +2,7 @@
 layout: default
 title: What is a code module?
 parent: What is computer code
-nav_order: 5
+nav_order: 6
 ---
 
 # What is a code module?

@@ -2,7 +2,7 @@
 layout: default
 title: What is a "real" coding language?
 parent: Learn to code - getting started
-nav_order: 6
+nav_order: 1
 ---
 
 # What is a "real" coding language?

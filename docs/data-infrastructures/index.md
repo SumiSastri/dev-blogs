@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Data infrastructures
-nav_order: 4
+title: Data infrastructures and cloud computing
+nav_order: 5
 has_children: true
 ---
 

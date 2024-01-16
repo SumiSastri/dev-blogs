@@ -2,7 +2,7 @@
 layout: default
 title: Web hosting the tricky parts
 parent: DNS - The Domain Name System
-nav_order: 3
+nav_order: 4
 ---
 
 # Web hosting the tricky parts
@@ -70,4 +70,4 @@ Once you work at enterprise level, AWS and Google Cloud Platform services are us
 
 Data infrastrutures are complex and at enterprise level, decisions on hosting and data-infrastructures go hand-in-hand and senior-teams review the enterprises business case making these selections based on current and future growth plans with solutions architects and other IT specialists like networking experts and big-data experts.
 
-See the section on data-infrastructures - this is currently (2023) a work in progress.
+See the section on data-infrastructures.

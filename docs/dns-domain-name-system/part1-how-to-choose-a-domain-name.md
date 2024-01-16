@@ -2,7 +2,7 @@
 layout: default
 title: How to choose a domain name?
 parent: DNS - The Domain Name System
-nav_order: 3
+nav_order: 4
 ---
 
 

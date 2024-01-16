@@ -2,7 +2,7 @@
 layout: default
 title:  Have fun learning to code HTML, CSS and JavaScript
 parent: Learn to code - getting started
-nav_order: 6
+nav_order: 1
 ---
 
 # Have fun learning to code HTML, CSS and JavaScript
