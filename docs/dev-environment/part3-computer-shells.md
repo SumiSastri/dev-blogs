@@ -15,9 +15,9 @@ In the mid‑nineties, the UNIX world has been dominated by Bash, which is the d
 
 Microsoft Windows has its own shells, which are very different from UNIX shells. You can use the Linux for (WSL) Windows Subsystem for Linux and run either Bash or the Z shell on your Windows system.
 
-Macs ship with Bash by default. Bash stands for **'Bourne-again shell'**, referring to its objective as a free replacement for the Bourne shell which was developed by [Steven Bourne](https://en.wikipedia.org/wiki/Stephen_R._Bourne).
+Older Macs with the Intel Chip, ship with Bash by default. Bash stands for **'Bourne-again shell'**, referring to its objective as a free replacement for the Bourne shell which was developed by [Steven Bourne](https://en.wikipedia.org/wiki/Stephen_R._Bourne).
 
-The Zish or `zsh` shell is considered by some Mac users to be more user friendly as it has some extra features. The American English pronunciation of Z is "zee", so Z shell rhymes with C shell, which sounds like seashell. `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao.
+Zish is now the default terminal for Macs replacing Bash, with the M1 chips. The Zish or `zsh` shell is considered by some Mac users to be more user friendly as it has some extra features. The American English pronunciation of Z is "zee", so Z shell rhymes with C shell, which sounds like seashell. `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao.
 
 By default the command line on a Mac is fairly unhelpful and not nearly as pleasent to work on as it can be with a few tweaks.
 
@@ -125,6 +125,12 @@ alias api="cd $HOME/projects/in2plane-api"
 7. Close and reopen your terminal application. This will enable `zsh` by default. You should see the `%` symbol at the prompt.
 7. Type `echo $SHELL`. This should return `/usr/local/bin/zsh`.
 
+Further Reading:
+
+- [How to install zish](https://linuxhandbook.com/install-zsh/)
+  
+- [How zsh files are sourced](http://zsh.sourceforge.net/Intro/intro_3.html)
+
 <br>
 
 ## Oh-My-Zsh (optional)
@@ -139,6 +145,8 @@ The `PATH` environment variable is a colon-delimited list of directories that yo
 4. Remove the `#` and the space at the start. This sets the right path
 5. Save the file and quit Atom.
 6. Close your terminal and open a new one.
+
+- If you want to override or add plugins go to [zsh plugins](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vscode)
 
 <br>
 
@@ -162,36 +170,3 @@ You might want to switch from $bash to %zsh and vice-versa. To use %zsh - if you
 
 
 [PluralSight](https://app.pluralsight.com/course-player?courseId=29e8d875-9af9-4018-9362-1b94d3e1e049)
-
-<!-- 
-
-## Install zsh (zish/ zee-shell)
-
-
-## Oh-My-Zsh (optional - can create conflicts with updates)
-
-.zshrc (customize for more information) on your files
-
-```
-autoload -Uz compinit && compinit
-autoload -Uz vcs_info
-
-precmd_vcs_info() { vcs_info }
-precmd_functions+=( precmd_vcs_info )
-
-setopt prompt_subst
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-
-# Check me
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-```
-
- -->
