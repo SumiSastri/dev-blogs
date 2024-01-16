@@ -18,7 +18,6 @@ Packages like npm, yarn, Babel, webpack may have their own CLI commands.
 
 [Further reading: Unix CLI](https://www.cs.dartmouth.edu/~campbell/cs50/shellcontinued.html)
 
-
 ## My CLI cheat sheet
 
 In your terminal you can type the following most used commands to navigate through your files. The terminal has command arguments and options. A combination of arguments and their options give you the power to list, create or navigate effectively through your filing system. eg: `ls` is an argument and `-a` is an option of the argument. This is my CLI cheat sheet of commands I most frequently use.

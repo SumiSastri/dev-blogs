@@ -2,16 +2,22 @@
 layout: default
 parent: The developer environment
 nav_order: 7
-title: Computer shells and shell switching
+title: Computer shells - Bash vs Zish
 ---
 
-# Computer shells and shell switching
+# Computer shells - Bash vs Zish
 
-A shell is a very basic user interface for accessing an operating system's service. There are 2 main types of shells - Bash and Zish.
+A shell is a very basic user interface for accessing an operating system's service. 
 
-Bash stands for **'Bourne-again shell'**, referring to its objective as a free replacement for the Bourne shell which was developed by [Steven Bourne](https://en.wikipedia.org/wiki/Stephen_R._Bourne). Macs usually have bash shells pre-installed.
+Two of the most popular shells, Bash and Zish both are mostly used on UNIX and Linux systems. In the UNIX world, and that includes macOS and Linux, many shell implementations have been popular in the past, like bash, the Korn shell, the C shell (seashell).
 
-The Zish shell or `zsh` is considered by some Mac users to be more user friendly as it has some extra features. The American English pronunciation of Z is "zee", so Z shell rhymes with C shell, which sounds like seashell. `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao.
+In the mid‑nineties, the UNIX world has been dominated by Bash, which is the default shell on almost every Linux and BSD system. There are exceptions, though, and one of them is macOS, which used to have Bash as the default shell but recently switched to the Zee (S) shell with the introduction of macOS Catalina.
+
+Microsoft Windows has its own shells, which are very different from UNIX shells. You can use the Linux for (WSL) Windows Subsystem for Linux and run either Bash or the Z shell on your Windows system.
+
+Macs ship with Bash by default. Bash stands for **'Bourne-again shell'**, referring to its objective as a free replacement for the Bourne shell which was developed by [Steven Bourne](https://en.wikipedia.org/wiki/Stephen_R._Bourne).
+
+The Zish or `zsh` shell is considered by some Mac users to be more user friendly as it has some extra features. The American English pronunciation of Z is "zee", so Z shell rhymes with C shell, which sounds like seashell. `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao.
 
 By default the command line on a Mac is fairly unhelpful and not nearly as pleasent to work on as it can be with a few tweaks.
 
@@ -24,6 +30,38 @@ After making any changes you can restart your session by typing:
 ```bash
 $ source ~/.bash_profile
 ```
+
+Zish has some extra features features to make web-development easier. The American English pronunciation of Z is "zee", so Z shell rhymes with C shell, which sounds like seashell. `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao.
+
+Bash is still by far the most‑used shell in the UNIX world and unlikely to change.
+
+The Z shell is very similar to Bash. The Z shell as a more configurable version of Bash with some extra features.
+
+The main difference between Bash and the Z shell is not so much what you can do with them, because they are both very powerful tools that can accomplish the same things, but Zish is easier to customize and tweak, and there's a large community of people who write extensions and themes for it. 
+
+Oh My Zsh, is a framework for customizing Zish.
+
+
+**The dot files**
+for zee shell
+
+```
+.zcompdump
+.zsh_history
+.zsh_sessions
+.zshrc
+```
+
+use `open .zshrc` for example to check contents/ edit contents of the file for customisation
+
+for bash
+
+```
+.bash_history
+.bashrc
+```
+
+If you dont have a `.bashrc` or a `.zshrc` file you can create one for customizations `touch .bashrc` in your terminal to add your aliases and customisations
 
 ## Bash 
 
@@ -125,3 +163,60 @@ You might want to switch from $bash to %zsh and vice-versa. To use %zsh - if you
 
 [PluralSight](https://app.pluralsight.com/course-player?courseId=29e8d875-9af9-4018-9362-1b94d3e1e049)
 
+<!-- 
+
+## Install zsh (zish/ zee-shell)
+
+Check your shell - a shell is a very basic user interface for accessing an operating system's serviceMacs come shipped with a shell called 'bash' by default. Bash stands for **'Bourne-again shell'**, referring to its objective as a free replacement for the Bourne shell which was developed by [Steven Bourne](https://en.wikipedia.org/wiki/Stephen_R._Bourne).
+
+- zsh (zish) has some extra features to make web-development easier. The American English pronunciation of Z is "zee", so Z shell rhymes with C shell, which sounds like seashell. `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao.
+
+1. Type `brew install zsh`.
+2. Type `zsh`. You will see a list of options. Type `0` to create a `~/.zshrc` file.
+3. You should see a `%` instead of a `$` at the terminal prompt. Type `exit` and you should see the `$` again. The dollar sign is a bash shell the percentage is the zee-shell.
+4. Type `which zsh` to determine where your new shell has installed. It should say `/usr/local/bin/zsh`
+5. Type `sudo su` and enter your password. You should see a `#` instead of the `$` at the terminal prompt
+6. Type `echo '/usr/local/bin/zsh' >> /etc/shells` to add `zsh` into the list of allowed shells, then type `exit`. You should see the `$` sign at the prompt again.
+7. Type `chsh -s /usr/local/bin/zsh`, and enter your password (laptop) - you will get the shell you have changed paths for `chsh: /usr/local/bin/zsh: non-standard shell` change if you get this error message ` chsh -s /bin/zsh`
+8. Close and reopen your terminal application. This will enable `zsh` by default. You should see the `%` symbol at the prompt.
+9. Type `echo $SHELL`. This should return `/usr/local/bin/zsh`.
+
+## Oh-My-Zsh (optional - can create conflicts with updates)
+
+Oh My Zsh is an open source, community-driven framework for managing your zsh configuration. Here is the link to the [Github](https://github.com/robbyrussell/oh-my-zsh).
+
+The `PATH` environment variable is a colon-delimited list of directories that your shell searches through when you enter a command.
+
+1. Type `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`.
+2. Open the `.zshrc` file by typing `code. ~/.zshrc`
+3. Find the line `# export PATH=$HOME/bin:/usr/local/bin:$PATH` It's right at the top of the file.
+4. Remove the `#` and the space at the start. This sets the right path
+5. Save the file and quit Atom.
+6. Close your terminal and open a new one.
+
+.zshrc (customize for more information) on your files
+
+```
+autoload -Uz compinit && compinit
+autoload -Uz vcs_info
+
+precmd_vcs_info() { vcs_info }
+precmd_functions+=( precmd_vcs_info )
+
+setopt prompt_subst
+
+RPROMPT=\$vcs_info_msg_0_
+# PROMPT=\$vcs_info_msg_0_'%# '
+
+zstyle ':vcs_info:git:*' formats '%b'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+```
+
+<br>
+
+
+ -->

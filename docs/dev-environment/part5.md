@@ -1,4 +1,7 @@
 
+rsh (remote shell)
+
+
 ## GUI applications 
 
 **Google Chrome**
