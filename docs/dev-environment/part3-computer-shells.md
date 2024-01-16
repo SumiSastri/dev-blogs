@@ -167,32 +167,8 @@ You might want to switch from $bash to %zsh and vice-versa. To use %zsh - if you
 
 ## Install zsh (zish/ zee-shell)
 
-Check your shell - a shell is a very basic user interface for accessing an operating system's serviceMacs come shipped with a shell called 'bash' by default. Bash stands for **'Bourne-again shell'**, referring to its objective as a free replacement for the Bourne shell which was developed by [Steven Bourne](https://en.wikipedia.org/wiki/Stephen_R._Bourne).
-
-- zsh (zish) has some extra features to make web-development easier. The American English pronunciation of Z is "zee", so Z shell rhymes with C shell, which sounds like seashell. `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao.
-
-1. Type `brew install zsh`.
-2. Type `zsh`. You will see a list of options. Type `0` to create a `~/.zshrc` file.
-3. You should see a `%` instead of a `$` at the terminal prompt. Type `exit` and you should see the `$` again. The dollar sign is a bash shell the percentage is the zee-shell.
-4. Type `which zsh` to determine where your new shell has installed. It should say `/usr/local/bin/zsh`
-5. Type `sudo su` and enter your password. You should see a `#` instead of the `$` at the terminal prompt
-6. Type `echo '/usr/local/bin/zsh' >> /etc/shells` to add `zsh` into the list of allowed shells, then type `exit`. You should see the `$` sign at the prompt again.
-7. Type `chsh -s /usr/local/bin/zsh`, and enter your password (laptop) - you will get the shell you have changed paths for `chsh: /usr/local/bin/zsh: non-standard shell` change if you get this error message ` chsh -s /bin/zsh`
-8. Close and reopen your terminal application. This will enable `zsh` by default. You should see the `%` symbol at the prompt.
-9. Type `echo $SHELL`. This should return `/usr/local/bin/zsh`.
 
 ## Oh-My-Zsh (optional - can create conflicts with updates)
-
-Oh My Zsh is an open source, community-driven framework for managing your zsh configuration. Here is the link to the [Github](https://github.com/robbyrussell/oh-my-zsh).
-
-The `PATH` environment variable is a colon-delimited list of directories that your shell searches through when you enter a command.
-
-1. Type `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`.
-2. Open the `.zshrc` file by typing `code. ~/.zshrc`
-3. Find the line `# export PATH=$HOME/bin:/usr/local/bin:$PATH` It's right at the top of the file.
-4. Remove the `#` and the space at the start. This sets the right path
-5. Save the file and quit Atom.
-6. Close your terminal and open a new one.
 
 .zshrc (customize for more information) on your files
 
@@ -205,18 +181,17 @@ precmd_functions+=( precmd_vcs_info )
 
 setopt prompt_subst
 
-RPROMPT=\$vcs_info_msg_0_
-# PROMPT=\$vcs_info_msg_0_'%# '
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-zstyle ':vcs_info:git:*' formats '%b'
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
+# Check me
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 ```
-
-<br>
-
 
  -->
