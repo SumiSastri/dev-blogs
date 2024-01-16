@@ -1,4 +1,4 @@
-
+<!-- 
 rsh (remote shell)
 
 
@@ -100,4 +100,4 @@ Like with the React Developer Tools, you need to use `APP_SHOW_SIDE_SLIDER` as a
 ```
 
 
-<br>
+<br> -->
