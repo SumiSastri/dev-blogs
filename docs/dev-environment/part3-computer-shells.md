@@ -168,5 +168,5 @@ You might want to switch from $bash to %zsh and vice-versa. To use %zsh - if you
 ``` chsh -s /bin/sh```
 ``` chsh -s /bin/bash```
 
-
-[PluralSight](https://app.pluralsight.com/course-player?courseId=29e8d875-9af9-4018-9362-1b94d3e1e049)
+[Sourbhajaj's set up guides](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
+[Premium access PluralSight](https://app.pluralsight.com/course-player?courseId=29e8d875-9af9-4018-9362-1b94d3e1e049)
