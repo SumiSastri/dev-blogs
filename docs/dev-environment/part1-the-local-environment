@@ -1,0 +1,41 @@
+---
+layout: default
+parent: The developer environment
+nav_order: 7
+title: Your computer - the local enivronment
+---
+
+# Your computer - the local enivronment
+
+You computer is a synonym for a developer's local environment. Setting up  your computer with the right tools to help  you code helps you link your computer to cloud based systems like GitHub, where you code may reside, as well as cloud based data-infrastructures that host your software packages.
+
+## Some pre-install checks for a Mac
+
+1. Identify which version of your Mac's Operating System you're using - ideally you should have Mojave or higher - click the apple icon on the left nav bar and check the "About this Mac" tab to find which OS you are on
+
+2. Ensure that you've uninstalled any anti-virus software you may have, as it can prevent some of the tools from installing properly - if you are working in a team, ask your tech lead if you are unsure. You can reinstall you anti-virus after you have installed all the tools you require.
+
+3. The terminal is a Command Line Interface (CLI) that allows you to interact directly with your laptop's operating system. You can use it to run programmes, manage files and folders and install software. To open the terminal use <kbd>cmd</kbd> + <kbd>space</kbd>, then type Terminal and <kbd>enter</kbd>
+
+5. HomeBrew is a package manager which helps you install external software packages on your Mac - in terminal type `brew doctor` to see if Homebrew has already been installed
+
+6. Node is a JavaScript environment that you will need if you are developing through the stack with JavaScript or TypeScript - in terminal type ```node --version``` to see if Node is pre-installed (ask your dev team lead to uninstall  node if it has been installed)
+
+[Node check] (https://www.sitepoint.com/beginners-guide-node-package-manager/)
+`which node` or  `node --version` for the version of node
+`which npm` or  `npm --version` for the version of node package manager
+`npm install npm@latest -g` - update node packages ONLY FOR MACs with the latest version of npm
+
+7. Git which is a version control system should be preinstalled check by typing in terminal ```git --version```
+
+8. Speed up your cursor - By default, the speed of the cursor on a Mac is a little too slow. Let's increase the speed of the cursor by going to:
+
+```
+System Preferences > Keyboard
+```
+
+Set Key Repeat to `Fast` and Delay Util Repeat to `Short`, then close the Preferences panel.
+
+9. Check if you have [Xcode installed](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12)
+
+10. Vim in the default text editor in a Mac, many developers prefer to use vim instead of code editors and integrated development environments (IDE's)
