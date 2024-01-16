@@ -19,9 +19,9 @@ Packages like npm, yarn, Babel, webpack may have their own CLI commands.
 [Further reading: Unix CLI](https://www.cs.dartmouth.edu/~campbell/cs50/shellcontinued.html)
 
 
-## A quick CLI cheat sheet
+## My CLI cheat sheet
 
-In your terminal you can type the following most used commands to navigate through your files The terminal has command arguments and options. A combination of arguments and their options give you the power to list, create or navigate effectively through your filing system. eg: `ls` is an argument and `-a` is an option of the argument
+In your terminal you can type the following most used commands to navigate through your files. The terminal has command arguments and options. A combination of arguments and their options give you the power to list, create or navigate effectively through your filing system. eg: `ls` is an argument and `-a` is an option of the argument. This is my CLI cheat sheet of commands I most frequently use.
 
 _List_
 
@@ -59,9 +59,9 @@ _Navigate or move files/directories/shells_
 - `mv [~/*.file-extension ~/filepathto]` move all files with the file extension (eg: .doc/.jpg) from one directory to another
 - `open [file_name]`
 - `chsh -s` change shell
-- ` chsh -s /bin/zsh`
-- ` chsh -s /bin/sh`
-- ` chsh -s /bin/bash`
+- `chsh -s /bin/zsh`
+- `chsh -s /bin/sh`
+- `chsh -s /bin/bash`
 - `echo $SHELL` - which shell are you on
 - `zsh --emulate sh` - zsh can be made to emulate sh by executing the command `man -ls` manual for the ls command
 - `/` search
