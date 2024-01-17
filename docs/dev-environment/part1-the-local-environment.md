@@ -4,7 +4,6 @@ title: Your computer - the local enivronment
 parent: The developer environment
 nav_order: 7
 ---
-
 # Your computer - the local enivronment
 
 You computer is a synonym for a developer's local environment. Setting up  your computer with the right tools to help  you code helps you link your computer to cloud based systems like GitHub, where you code may reside, as well as cloud based data-infrastructures that host your software packages.
@@ -64,3 +63,4 @@ Save this to add new packages from the app store or from online downloads. Note 
 15. Reduce the number of times you require the use of your password - go to your terminal and paste this code
 
   `echo $(whoami)" ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/$(whoami)`
+  

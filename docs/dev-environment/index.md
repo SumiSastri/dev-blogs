@@ -1,8 +1,8 @@
 ---
 layout: default
 title: The developer environment
-nav_order: 7
 has_children: true
+nav_order: 7
 ---
 
 # The developer environment
