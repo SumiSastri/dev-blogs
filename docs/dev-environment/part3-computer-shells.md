@@ -170,3 +170,44 @@ You might want to switch from $bash to %zsh and vice-versa. To use %zsh - if you
 
 [Sourbhajaj's set up guides](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
 [Premium access PluralSight](https://app.pluralsight.com/course-player?courseId=29e8d875-9af9-4018-9362-1b94d3e1e049)
+
+## What is in my .zshrc file
+
+If you open your `.zshrc` file in your local environmemnt, you can use this as a template to customise your zish terminal, I have experimented with changing the default theme to pygmalion, adding a few plugins that make sense for me to use as a predominately Typescript developer.
+
+```
+# Path to your oh-my-zsh installation.
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export ZSH="$HOME/.oh-my-zsh"
+export NVM_DIR="$HOME/.nvm"
+
+# Change default theme
+ZSH_THEME=pygmalion
+
+# Add Plugins
+plugins=(
+...git
+...git-commit
+colorize
+...vscode
+zsh-autosuggestions
+zsh-syntax-highlighting
+)
+
+# PROMPT=\$vcs_info_msg_0_'%# '
+RPROMPT=\$vcs_info_msg_0_
+
+autoload -Uz compinit && compinit
+autoload -Uz vcs_info
+
+precmd_vcs_info() { vcs_info }
+precmd_functions+=( precmd_vcs_info )
+
+setopt prompt_subst
+
+zstyle ':vcs_info:git:*' formats '%b'
+
+```
