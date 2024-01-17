@@ -15,7 +15,7 @@ You computer is a synonym for a developer's local environment. Setting up  your 
 2. Ensure that you've uninstalled any anti-virus software you may have, as it can prevent some of the tools from installing properly - if you are working in a team, ask your tech lead if you are unsure. You can reinstall you anti-virus after you have installed all the tools you require.
 
 3. The terminal is a Command Line Interface (CLI) that allows you to interact directly with your laptop's operating system. You can use it to run programmes, manage files and folders and install software. To open the terminal use <kbd>cmd</kbd> + <kbd>space</kbd>, then type Terminal and <kbd>enter</kbd>
-You can [read Part2 for a more detailed view of how your terminal works](https://sumisastri.github.io/dev-blogs/dev-environment/part2-the-terminal/)
+You can [read Part 2 for a more detailed view of how your terminal works](https://sumisastri.github.io/dev-blogs/dev-environment/part2-the-terminal/)
 
 5. HomeBrew is a package manager which helps you install external software packages on your Mac - in terminal type `brew doctor` to see if Homebrew has already been installed
 

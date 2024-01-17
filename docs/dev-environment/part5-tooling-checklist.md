@@ -73,7 +73,6 @@ Like with the React Developer Tools, you need to use `APP_SHOW_SIDE_SLIDER` as a
     TYPE: 'APP_SHOW_SIDE_SLIDER'
 }
 ```
-<br> -->
 
 2. [Sign up to Slack](https://www.slack.com/) a popular developer messaging service. Slack has a native app available on the App store. It's the first thing I install, if you haven't already,  online, and install the OS app. Once it has downloaded you'll find it your the Applications folder. Drag it into the dock and launch the app.
 

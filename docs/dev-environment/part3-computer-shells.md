@@ -11,6 +11,8 @@ A shell is a very basic user interface for accessing an operating system's servi
 
 Two of the most popular shells, Bash and Zish both are mostly used on UNIX and Linux systems. In the UNIX world, and that includes macOS and Linux, many shell implementations have been popular in the past, like bash, the Korn shell, the C shell (seashell).
 
+[Read Part 4 for the difference between shells and secure shells](https://sumisastri.github.io/dev-blogs/dev-environment/part4-secure-shells/)
+
 In the mid‑nineties, the UNIX world has been dominated by Bash, which is the default shell on almost every Linux and BSD system. There are exceptions, though, and one of them is macOS, which used to have Bash as the default shell but recently switched to the Zee (S) shell with the introduction of macOS Catalina.
 
 Microsoft Windows has its own shells, which are very different from UNIX shells. You can use the Linux for (WSL) Windows Subsystem for Linux and run either Bash or the Z shell on your Windows system.
@@ -145,8 +147,6 @@ Further Reading:
   
 - [How zsh files are sourced](http://zsh.sourceforge.net/Intro/intro_3.html)
 
-<br>
-
 ## Oh-My-Zsh (optional)
 
 Oh My Zsh is an open source, community-driven framework for managing your zsh configuration. Here is the link to the [Github](https://github.com/robbyrussell/oh-my-zsh).
@@ -161,8 +161,6 @@ The `PATH` environment variable is a colon-delimited list of directories that yo
 6. Close your terminal and open a new one.
 
 - If you want to override or add plugins go to [zsh plugins](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vscode)
-
-<br>
 
 ## Shell switching
 
@@ -182,8 +180,8 @@ You might want to switch from $bash to %zsh and vice-versa. To use %zsh - if you
 ``` chsh -s /bin/sh```
 ``` chsh -s /bin/bash```
 
-[Sourbhajaj's set up guides](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
-[Premium access PluralSight](https://app.pluralsight.com/course-player?courseId=29e8d875-9af9-4018-9362-1b94d3e1e049)
+- [Sourbhajaj's set up guides](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
+- [Premium access PluralSight](https://app.pluralsight.com/course-player?courseId=29e8d875-9af9-4018-9362-1b94d3e1e049)
 
 ## What is in my .zshrc file
 
