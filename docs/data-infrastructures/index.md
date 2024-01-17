@@ -6,6 +6,6 @@ has_children: true
 ---
 
 
-# Data infrastructures
+# Data infrastructures and cloud computing
 
 All apps web and mobile need data to run and data is hosted on servers. The infrastructure (infra) that supports data can be simple or complex depending on your use case.

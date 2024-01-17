@@ -1,10 +1,9 @@
 ---
 layout: default
 title: What is the cloud?
-parent:Data infrastructures and cloud computing
+parent: Data infrastructures and cloud computing
 nav_order: 5
 ---
- 
  
 # What is the cloud?
 
