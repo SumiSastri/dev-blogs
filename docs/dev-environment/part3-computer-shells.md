@@ -113,6 +113,20 @@ alias cloud="cd $HOME/projects/in2plane-cloud"
 alias api="cd $HOME/projects/in2plane-api"
 ```
 
+_Prettify your git logs_
+
+You can configure the terminal to include a colourful prompt showing the current git branch next to the cursor.
+
+Add the following to your `~/.bash_profile` and restart the session:
+
+```
+export CLICOLOR=1
+source /usr/local/git/contrib/completion/git-completion.bash
+GIT_PS1_SHOWDIRTYSTATE=true
+reset=$(tput sgr0)
+export PS1='\w \[\033[01;32m\]$(__git_ps1)\[$reset\] \$ '
+```
+
 ## Zish
 
 1. Type `brew install zsh`.

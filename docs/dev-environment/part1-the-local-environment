@@ -21,7 +21,7 @@ You computer is a synonym for a developer's local environment. Setting up  your 
 
 6. Node is a JavaScript environment that you will need if you are developing through the stack with JavaScript or TypeScript - in terminal type ```node --version``` to see if Node is pre-installed (ask your dev team lead to uninstall  node if it has been installed)
 
-[Node check] (https://www.sitepoint.com/beginners-guide-node-package-manager/)
+[Node check](https://www.sitepoint.com/beginners-guide-node-package-manager/)
 `which node` or  `node --version` for the version of node
 `which npm` or  `npm --version` for the version of node package manager
 `npm install npm@latest -g` - update node packages ONLY FOR MACs with the latest version of npm
