@@ -35,6 +35,9 @@ Software developers will see their work benefit a lot from using the command lin
 
 You can use the shell to search, filter, edit, and transform data, and as such, the shell is also a power tool for data scientists and analysts. And also, because the CLI is a text‑only interface, it is ideal for remotely accessing a machine. It's usable, even if you only have a dial‑up connection, and you'll never have to wait for it to start up. The shell can even be used as a powerful programming language to write scripts.
 
+[Read this section in conjunction with Part 3](https://sumisastri.github.io/dev-blogs/dev-environment/part3-computer-shells/)
+
+
 ## Secure Shells or SSH
 
 SSH, also known as Secure Shell or Secure Socket Shell, is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network.
@@ -64,5 +67,4 @@ This is a hidden file, stored by default in a hidden directory, called `/.ssh/kn
 
 Once the host key has been stored in the known_hosts file, the client system can connect directly to that server again without need for any approvals; the host key authenticates the connection.
 
-This is how, for example, GitHub works.
-
+SSH keys are a way to identify trusted computers, without involving passwords. This is how, for example, GitHub works.

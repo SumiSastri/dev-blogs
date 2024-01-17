@@ -13,14 +13,17 @@ Before you set up your local environment with global installs of useful packages
 
 During the development process you need to check you Mac has the
 
-- A code editor or IDE (integrated development environment) - Atom, Visual Studio Code, Sublime Text (See section on clean code for [a quick guide to code editors and IDEs](https://sumisastri.github.io/dev-blogs/clean-code/part2-code-editors-and-how-to-setup-eslint/))
-- Version control - GitHub or Gitlab, BitBucket
+- A code editor or IDE (integrated development environment) - Atom, Visual Studio Code, Sublime Text (See section on clean code for [a quick guide to code editors and IDEs](https://sumisastri.github.io/dev-blogs/clean-code/part2-code-editors-and-how-to-setup-eslint/)
+
+- Version control - GitHub or Gitlab, BitBucket for more details on [how GitHub works as a version control system](https://sumisastri.github.io/dev-blogs/version-control-systems/) and to set up a GitHub repo
+
 - For JavaScript developers - Node and Node Version manager (nvm)
+
 - Package managers - Node package manager (npm) or Yarn, Homebrew for Macs in your local environment.
 
-## Useful Apps and GUIs
+## Useful apps and GUIs
 
-1.[Install Chrome](https://google.com/chrome) - chrome has the best developer tools, although Firefox and Safari have their own versions, personally I use Chrome for all my dev work. I also have Firefox and Duckduckgo as my non-developer browsers. I haven't warmed to Safari - once again these are all personal/ institutional choices if you are working in a team with its own corporate preferences.
+1.[Install Chrome](https://google.com/chrome) - chrome is a ed operational powers - no can not execute complex calculations, manage complex binary data or create [graphical user interfaces (GUIs)](https://www.computerhope.com/jargon/g/gui.htm) and has the best developer tools, although Firefox and Safari have their own versions, personally I use Chrome for all my dev work. I also have Firefox and Duckduckgo as my non-developer browsers. I haven't warmed to Safari - once again these are all personal/ institutional choices if you are working in a team with its own corporate preferences.
 
 You will need to have a gmail account to install chrome and its extensions. One of the advantages of chrome once you install it is when you change computers you can sync the bookmarks and extensions of your choice. This immediately makes the other tasks of connecting your local to Github, AWS, GCS and all your other go-to developer bookmarked sites so easy.
 
@@ -73,8 +76,6 @@ Like with the React Developer Tools, you need to use `APP_SHOW_SIDE_SLIDER` as a
 <br> -->
 
 2. [Sign up to Slack](https://www.slack.com/) a popular developer messaging service. Slack has a native app available on the App store. It's the first thing I install, if you haven't already,  online, and install the OS app. Once it has downloaded you'll find it your the Applications folder. Drag it into the dock and launch the app.
-
-
 
 3. Checking API calls Insomnia/ Postman are apps that will allow us to make requests to web servers, and visualise the responses that they make. Either is fine, it is a matter of preference.
 

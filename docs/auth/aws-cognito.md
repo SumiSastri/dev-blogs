@@ -18,7 +18,7 @@ Cognito User Pools perform the function of storing user identities - their names
 
 Workflows in a user pool can be triggered with AWS-Lambdas - which are serverless functions to set an action in a user pool in motion - for example, if a user forgets their password and access details, an AWS-Lambda can be written to trigger an action to send a reset password email.
 
-Segmentation of the users in groups is possible and some management of these users is possible with the AWS Management Console - an AWS GUI (Graphical User Interface).
+Segmentation of the users in groups is possible and some management of these users is possible with the AWS Management Console - an AWS ed operational powers - no can not execute complex calculations, manage complex binary data or create [graphical user interfaces (GUIs)](https://www.computerhope.com/jargon/g/gui.htm).
 
 User pools can be created with the GUI or programmatically in your app. AWS' GUI lets you select how you want to identify your user - with an email-password/ address etc., it has a host of pre-prepared choices as well as the option of adding custom authentication methods should they be required.
 

@@ -16,8 +16,6 @@ CLI allows you to make commands that are executed in the terminal emulator.
 
 Packages like npm, yarn, Babel, webpack may have their own CLI commands.
 
-[Further reading: Unix CLI](https://www.cs.dartmouth.edu/~campbell/cs50/shellcontinued.html)
-
 ## What is C-URL
 
 C-URL also written as c-url, c-URL and curl, is an acryonm for client-URL (unique resource locator).
@@ -26,7 +24,8 @@ Your local device, when it needs to connect to a client (on a remote server or c
 
 A curl is encoded and therefore different from a general URL where you can access web or mobile pages and data. The code is then decoded at your local device making the data from software development kits (SDKs) available for developers to use.
 
-Further reading:
+_Further reading_
+
 - [What is c-url and when to use it](https://blog.pair.com/2018/01/26/curl-description-basic-use-cases/)
   
 - [curl Documentation](https://curl.se/docs/manpage.html)
