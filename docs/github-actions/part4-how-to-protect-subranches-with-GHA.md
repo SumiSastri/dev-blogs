@@ -1,8 +1,8 @@
 ---
 layout: default
 title: How to protect sub-branches with GitHub Actions
+parent: Github Actions
 nav_order: 11
-parent: GitHub Actions
 ---
 
 # How to protect sub-branches with GitHub Actions

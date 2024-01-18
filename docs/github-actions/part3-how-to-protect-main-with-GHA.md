@@ -1,8 +1,8 @@
 ---
 layout: default
 title: How to protect your main or master branch with GitHub Actions
+parent: Github Actions
 nav_order: 11
-parent: GitHub Actions
 ---
 
 # How to protect your main or master branch with GitHub Actions

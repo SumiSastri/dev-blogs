@@ -1,8 +1,8 @@
 ---
 layout: default
 title: What is GitHub Actions
+parent: Github Actions
 nav_order: 11
-parent: GitHub Actions
 ---
 
 # What is GitHub Actions

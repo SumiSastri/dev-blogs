@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Github Actions
-nav_order: 11
 has_children: true
+nav_order: 11
 ---
 
 # Github Actions
