@@ -2,10 +2,10 @@
 layout: default
 parent: Version Control
 nav_order: 8
-title: What is Git and GitHub?
+title: What is the difference between Git and GitHub?
 ---
 
-# What is Git and GitHub?
+# What is the difference between Git and GitHub?
 
 Git created by Linux to manage code versions now purchased by Microsoft. Other workflow tools are Gitlab and BitBucket.
 

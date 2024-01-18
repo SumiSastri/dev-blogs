@@ -6,7 +6,7 @@ title: What is a version control system and why do we need it?
 ---
 
 
-# What is a version control system in software engineering?
+# What is a version control system and why do we need it?
 
 From the writing of code, to the final shipping of a feature to users, a code writer will experiment with different approaches to make the code work.
 

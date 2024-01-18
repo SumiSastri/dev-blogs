@@ -2,7 +2,7 @@
 layout: default
 parent: Version Control
 nav_order: 8
-title: Developer workflows
+title: What are developer workflows and environments?
 ---
 
 # What are developer workflows and environments?
@@ -76,3 +76,99 @@ Branching strategies will vary from organisation to organisation and best-practi
 Each version control system will have different methodologies to help you rewind, re-write, revise code so that branches remain in sync in the environment you are working on so that the code you pass to the next environment is of a quality that can be accepted (merged) into the next environment.
 
 Clean code principles and other development best practices and developer tools are used to manage this process. Version control systems form a fundamental part of an organisations branching strategy.
+
+<!-- Check and dedupe -->
+
+## Version control workflows
+
+The purpose of this document is to see how version control manages the workflow pipeline. It helps teams set guidelines and enhances the developer experience across teams.
+
+Developers set up instances of code in different environments to ensure clean code and production-ready code to ship to external clients.
+
+1. The development environment
+
+- The initial environment where developers code is written and peer reviewed. This is a feature driven environment where initial features are created, tested and reviewed
+
+2. The testing environment
+
+- Once peer review is completed and as many tests that are required at this stage of development pass, the next instance of the code is the testing environment.
+
+This is a test-driven environment, additional tests like end-to-end testing checks code and its working with other downstream applications such as databases/ security-applications are more thoroughly tested. Bugs from this environment are sent back to the development environment for developers to fix
+
+3. The production environment
+
+- Once tests are completed, the code can be shipped to the servers. As the more data stored on servers increases costs all activities that are not production-ready are worked on in mocked environments (mock-servers/ mock-api calls).
+
+This is an integration-driven environment further pre-release tests and integration to on-premise or cloud-based servers are tested. Bugs found here are returned to the testing environment or back to the development environment.
+
+4. The staging environment
+
+- This is the pre-release stage before the product is released to end-users.
+- The feature is seen in its release form for product-owners/ clients/ teams to review and approve before the final release stage to the end user
+
+This is an approval-driven environment. Some workflows use this as a beta-environment testing new features with a small group of users.
+
+5. The release environment
+
+Each development phase has its own release environment where in the development phase, the feature is released to the testing environment, in testing it is released into production and the final release phase to the end-user by going through this filtering process should be bug-free and end-user friendly.
+
+Some development workflows have a specific end-user release environment after all approvals to ensure features that have been produced meet specifications before the final release to end user
+
+Because the development workflow is iterative, it is important to keep track of every version of the code base as a reference point.
+
+There are several tools to manage code work-flows.
+
+## Git vs BitBucket
+
+Git is the version control system from Microsoft, it integrates well with VS Code, BitBucket is another version control system. Version control managers allow you to commit your code, each version gets a ``sha``` or id or hash code that identifies each version as unique.
+
+It helps collaborative code writing, peer reviews and maintaining an evolving code base.
+
+BitBucket is another version control system that teams can use.
+
+Contributing to a workflow:
+
+### Features (new feature development)
+
+Feature/ Ticket Number/ Short Description
+
+### QA & Testing
+
+- Done in a separate branch where code is pushed from develop branch
+- All code must pass in develop before it goes to a QA/ Test environment with the PR process 2 pairs of eyes at least
+- End-to-end failing tests in QA become defects and go back to develop with bug-fix tickets or tidies tickets with new numbers prioritised and re-assigned
+
+### Bugfixes (fixing defects)
+
+Naming convention
+BugFix/ Bug-fix-ticket Number/ Short Description
+
+### Tidies (tidying up code/ includes tech-debt fixes)
+
+Naming convention
+Tidy/ Tidy-ticket Number/ Short Description
+
+### Release Testing to Deploy
+
+- Deploy to a staging environment, the release candidates should be prioritised and discussed
+- A start release sheet written
+- All bugs, tidies from QA should be fixed before they come to a release branch
+- This is the final e2e test before deploy
+- Any defects now can be reclassified to bugfixes, tidies or hotfixes
+- Only deploy team can assign a hotfix
+
+using the instructions that you will find [here](https://github.com/i6systems/docker-kube/blob/master/docs/Deployment.md). Use as the container name the name of the tag that you just created
+
+### Deploying to production
+
+- deploy to production as described [here](https://github.com/i6systems/docker-kube/blob/master/docs/Deployment.md). There is no need to run any tests or build any container before deploying as we have already done this in previous steps
+- Rebase the `master` branch to point to the tag that we have deployed
+
+### HotFix (urgent bug-fix)
+
+Naming convention
+Hotfix/ HotFix-ticket Number/ Short Description
+
+### Rollbacks
+
+If we have deployed some code which intruduces some problems which cannot be fixed by a quick hot fix, we may need to roll back to a previous version of the code. To do so, just deploy an earlier tag by using the name of this tag in the docker kube files. There is no need to build anything as these images have already been built and stored in Docker Hub

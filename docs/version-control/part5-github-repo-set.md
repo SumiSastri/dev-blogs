@@ -2,8 +2,10 @@
 layout: default
 parent: Version Control
 nav_order: 8
-title: Installing Git & GitHub
+title: How to setup and use a GitHub repo or repository 
 ---
+
+# How to setup and use a GitHub repo or repository 
 
 Repositories are created for personal side projects and for commercial organisations to maintain their code base.
 
