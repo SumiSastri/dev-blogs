@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dependency management
+title: What is Dependabot
 parent: Safeguarding your GitHub repo
 nav_order: 9
 ---

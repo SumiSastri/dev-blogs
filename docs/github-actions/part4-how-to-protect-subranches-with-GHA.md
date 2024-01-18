@@ -1,11 +1,11 @@
 ---
 layout: default
-title: How to protect sub-branches with GitHubActions
+title: How to protect sub-branches with GitHub Actions
 nav_order: 11
 parent: GitHub Actions
 ---
 
-# How to protect sub-branches with GitHubActions
+# How to protect sub-branches with GitHub Actions
 
 Each branch or sub-branch (from an integration or development branch head) also needs to be protected so that code is sanitised before it reaches the main branch and merged into master.
 
