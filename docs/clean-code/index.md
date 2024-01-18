@@ -2,7 +2,7 @@
 layout: default
 title: Clean code
 has_children: true
-nav_order: 8
+nav_order: 10
 ---
 
 # Clean code
