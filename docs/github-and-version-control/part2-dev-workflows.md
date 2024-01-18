@@ -78,7 +78,7 @@ Each version control system will have different methodologies to help you rewind
 Clean code principles and other development best practices and developer tools are used to manage this process. Version control systems form a fundamental part of an organisations branching strategy.
 
 <!-- Check and dedupe -->
-
+<!-- 
 ## Version control workflows
 
 The purpose of this document is to see how version control manages the workflow pipeline. It helps teams set guidelines and enhances the developer experience across teams.
@@ -171,4 +171,4 @@ Hotfix/ HotFix-ticket Number/ Short Description
 
 ### Rollbacks
 
-If we have deployed some code which intruduces some problems which cannot be fixed by a quick hot fix, we may need to roll back to a previous version of the code. To do so, just deploy an earlier tag by using the name of this tag in the docker kube files. There is no need to build anything as these images have already been built and stored in Docker Hub
+If we have deployed some code which intruduces some problems which cannot be fixed by a quick hot fix, we may need to roll back to a previous version of the code. To do so, just deploy an earlier tag by using the name of this tag in the docker kube files. There is no need to build anything as these images have already been built and stored in Docker Hub -->
