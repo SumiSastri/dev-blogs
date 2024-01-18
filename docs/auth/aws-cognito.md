@@ -1,9 +1,9 @@
----
+<!-- ---
 layout: default
 title: Auth with AWS-Cognito
 nav_order: 10
 parent: Authentication and authorisation
----
+--- -->
 
 
 # Auth with AWS-Cognito

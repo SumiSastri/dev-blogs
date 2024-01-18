@@ -1,19 +1,17 @@
 ---
 layout: default
-parent: Software version control systems
-nav_order: 9
-title: What is a branching strategy?
+parent: Version Control
+nav_order: 8
+title: Developer workflows
 ---
 
-# What is a branching strategy?
+# What are developer workflows and environments?
 
 As we have seen in Part 1, version control systems help software developers to write and experiment with code to develop features for a software application. To allow for parallel workflows across multiple systems, geographies and developers the code base has a root and branch structure.
 
 The root of the branches is the final shipped software to the end user. The trunk is the workflow pipeline and the individual branches are the sections of code that individual teams and developers work on.
 
 A branching strategy is required to orchestrate and synchronise all these different workflows, test the code and ship working code to the end user.
-
-## What are developer workflows and environments?
 
 A large organisation will usually set out 3-4 main branches that form the trunk of the workflow tree. Each stage is a refining stage of the code. As with physical products, code also goes through a refining process.
 

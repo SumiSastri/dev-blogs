@@ -1,7 +1,7 @@
 ---
 layout: default
-parent: Software version control systems
-nav_order: 9
+parent: Version Control
+nav_order: 8
 title: What is a version control system and why do we need it?
 ---
 
