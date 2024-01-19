@@ -223,3 +223,4 @@ setopt prompt_subst
 zstyle ':vcs_info:git:*' formats '%b'
 
 ```
+[More on git and git status prompt with vcs_info](https://salferrarello.com/zsh-git-status-prompt/)
