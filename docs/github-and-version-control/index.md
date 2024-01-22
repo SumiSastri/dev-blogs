@@ -11,4 +11,4 @@ Once you write a block of code and want to change it, tooling and version contro
 
 This section primarily deals with GitHub as a version control system.
 
-You will need to set up your [local environment](https://sumisastri.github.io/dev-blogs/dev-environment/) before you can proceed to this section
+You will need to set up your [local environment](https://sumisastri.github.io/dev-blogs/dev-environment/) before you can proceed to this section.
