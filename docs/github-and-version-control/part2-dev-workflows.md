@@ -7,7 +7,7 @@ title: What are developer workflows and environments?
 
 # What are developer workflows and environments?
 
-As we have seen in Part 1, version control systems help software developers to write and experiment with code to develop features for a software application. To allow for parallel workflows across multiple systems, geographies and developers the code base has a root and branch structure.
+As we have seen in [Part 1 - What is a version control system and why do we need it](https://sumisastri.github.io/dev-blogs/github-and-version-control/part2-dev-workflows/), version control systems help software developers to write and experiment with code to develop features for a software application. To allow for parallel workflows across multiple systems, geographies and developers the code base has a root and branch structure.
 
 The root of the branches is the final shipped software to the end user. The trunk is the workflow pipeline and the individual branches are the sections of code that individual teams and developers work on.
 
@@ -17,7 +17,7 @@ A large organisation will usually set out 3-4 main branches that form the trunk 
 
 Take the case of sugar, for example. When harvested the first stage of refinement is to rid the molasses of mud, plant matter and process it into a dark liquid form.
 
-The second stage of refinement is transform the liquid into crystals and standardise them to the International Commission for Uniform Methods of Sugar Analysis [ICUMSA](https://www.icumsa.org/) values. The Icumsa values range 0-1000 degrees, which represent the angle at which light enters a sugar crystal. The lower the number the higher the quality of sugar.
+The second stage of refinement is transform the liquid into crystals and standardise them to the  [Icumsa values](https://www.icumsa.org/) an acryonym for the International Commission for Uniform Methods of Sugar Analysis. The Icumsa values range 0-1000 degrees, which represent the angle at which light enters a sugar crystal. The lower the number the higher the quality of sugar.
 
 The refinement process of sugar then goes through stages to refine sugar down to 25- 45 Icumsa a standard required for commodities trading.
 
