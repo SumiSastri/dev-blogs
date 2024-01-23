@@ -7,28 +7,33 @@ title: Installing Git & GitHub
 
 # Installing Git & GitHub
 
-Git is the version control system if you have a personal GitHub account provide the details to your manager for access, if not create your own repo. Installation requires you to set up your computer with an SSH key for securty.
-
-You need to configure your local machine to the repo read this overview Link: [https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup]
+To get you started with the installation of GitHub and Git the [git guidelines are a good place to start ](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
 
 **Install `git`**
 
-Set up an account go to [https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account]
+To paraphrase some of the steps
+
+[To sign up and set up an account follow the instructions on this link](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
 
 There are several ways to install GitHub to your local machine
 
-CLI [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git]
+1. With you computer Terminal's [command line interface (CLI)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) - run the command
 `$ sudo dnf install git-all` or `$ sudo apt install git-all`
 
-Binary installer link: https://sourceforge.net/projects/git-osx-installer/
+2. You can use the [binary installer](https://sourceforge.net/projects/git-osx-installer/
+)
 
-With Home Brew on a Mac
+3. Home Brew on a Mac with the command
+
 `brew install git`
-Homebrew instructions link: https://git-scm.com/download/mac
 
-- Quit terminal and reopen.
+[Homebrew instructions](https://git-scm.com/download/mac)
 
-- Ensure you're not using "Apple Git". Type `which git` it should say `/usr/local/bin/git`
+- Quit Terminal and reopen it
+
+- Ensure you're not using "Apple Git"
+
+- To check in terminal type `which git` it should say `/usr/local/bin/git`
 
 - Configure your name and email address for commits (be sure to use the email address you have registered with Github) not the email that is your personal/ office email. If you are required to setup an enterprise github with your organisation double check this step with your team lead or manager.
 
@@ -54,8 +59,6 @@ Track case changes in file names:
 
 Check set up:
 `git config –list`
-
-<br>
 
 ## Global `.gitignore`
 
