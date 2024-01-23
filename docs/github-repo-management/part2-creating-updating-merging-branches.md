@@ -1,5 +1,12 @@
 ## Version control workflows
 
+Working on files
+
+Changes made - changes untracked if the changes not saved
+Changes saved and staged - changes tracked
+Staged files saved into a commit - tracked changes saved
+Committed files with a push - tracked and saved changes transfered to the repository
+
 **Create a branch**
 Branching off from the main branch created or cloned enables collaborative and parrallel coding for teams
 
@@ -56,3 +63,6 @@ eg: '123-feture adds submit button'
 
 - deleting branches (see Medium article)
   [git fetch origin] [git merge origin master] if origin branch deleted by mistake [git branch —unset-upstream]
+
+
+  
