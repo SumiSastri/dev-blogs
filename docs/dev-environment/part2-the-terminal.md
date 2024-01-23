@@ -32,7 +32,7 @@ _Further reading_
   
 - [curl and APIs](https://developer.ibm.com/articles/what-is-curl-command/)
 
-- [What are soucre or dot files](https://en.wikipedia.org/wiki/Dot_(command)#Source)
+- [What are source or dot files](https://en.wikipedia.org/wiki/Dot_(command)#Source)
   
 - [Customising your terminal](https://towardsdatascience.com/the-ultimate-guide-to-your-terminal-makeover-e11f9b87ac99) 
   

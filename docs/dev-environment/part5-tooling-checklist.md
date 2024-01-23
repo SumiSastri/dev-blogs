@@ -28,22 +28,22 @@ During the development process you need to check you Mac has the
 You will need to have a gmail account to install chrome and its extensions. One of the advantages of chrome once you install it is when you change computers you can sync the bookmarks and extensions of your choice. This immediately makes the other tasks of connecting your local to Github, AWS, GCS and all your other go-to developer bookmarked sites so easy.
 
 _Cheatsheet to install Chrome_
-      - Check your chrome version [https://www.whatismybrowser.com/detect/what-version-of-chrome-do-i-have]. If you have an older version update it [https://www.whatismybrowser.com/guides/how-to-update-your-browser/chrome]. This is useful as the installed version on a laptop may not be the latest chrome version, which means your bookmarks may not sync effectively.
-    - Go to [https://google.com/chrome](https://google.com/chrome)
-    - Click on `Download Chrome`
-    - Go to the Downloads folder and run the `googlechrome.dmg` package
-    - Drag the icon into the Applications folder
-    - Add Chrome to your dock and open it
-    - Select `set Chrome as my default browser`
+    - [Check your chrome version ](https://www.whatismybrowser.com/detect/
+      what-version-of-chrome-do-i-have). If you have an older version [update it ](https://www.whatismybrowser.com/guides/how-to-update-your-browser/chrome). This is useful as the installed version on a laptop may not be the latest chrome version, which means your bookmarks may not sync effectively.
+    -  [To download chrome - go to](https://google.com/chrome)
+    -  Click on `Download Chrome`
+    -  Go to the Downloads folder and run the `googlechrome.dmg` package
+    -  Drag the icon into the Applications folder
+    -  Add Chrome to your dock and open it
+    -  Select `set Chrome as my default browser`
 
 **Google Chrome Extensions**
-1. React dev tools Docs[https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en]
-2. Redux dev tools [https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd]
-3. Node Inspector Monitor - Docs [https://chrome.google.com/webstore/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj?hl=en]
 
 __React / redux in the browser__
 
 While most new react features are being developed, they are completely hidden from customers, but we still have a way to interact with the new react code as it is loaded like other JS bundles.
+
+1. [React dev tools Docs](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
 
 __React Developer Tools__
 
@@ -56,6 +56,8 @@ Then, you can get the store state with `$r.store.getState()`, and dispatch actio
 
 Right now, as we develop a component, you can show it once the page has loaded with:
 `r.store.dispatch({ type: 'APP_SHOW_SIDE_SLIDER'});`
+
+2. [Redux dev tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
 
 __Redux DevTools__
 
@@ -73,6 +75,14 @@ Like with the React Developer Tools, you need to use `APP_SHOW_SIDE_SLIDER` as a
     TYPE: 'APP_SHOW_SIDE_SLIDER'
 }
 ```
+
+3. [Node Inspector Monitor - Docs](https://chrome.google.com/webstore/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj?hl=en)
+
+
+
+
+
+
 
 2. [Sign up to Slack](https://www.slack.com/) a popular developer messaging service. Slack has a native app available on the App store. It's the first thing I install, if you haven't already,  online, and install the OS app. Once it has downloaded you'll find it your the Applications folder. Drag it into the dock and launch the app.
 

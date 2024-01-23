@@ -211,7 +211,8 @@ zsh-syntax-highlighting
 # Set up auto complete
 autoload -Uz compinit && compinit
 
-# Autoload zsh add-zsh-hook and vcs_info functions (-U autoload w/o substition, -z use zsh style)
+
+# Autoload zsh add-zsh-hook and vcs_info functions (-U autoload w/o substituion, -z use zsh style)
 autoload -Uz add-zsh-hook vcs_info
 
 # Enable substitution in the prompt.
@@ -221,15 +222,19 @@ setopt prompt_subst
 add-zsh-hook precmd vcs_info
 
 # add ${vcs_info_msg_0} to the prompt
-# e.g. here we add the Git information in red
+# e.g. here we add the Git information in red - the RPROMPT also adds info to the right
   
 PROMPT='%1~ %F{red}${vcs_info_msg_0_}%f %# '
+RPROMPT='${vcs_info_msg_0_}'
 
 # Set the format of the Git information for vcs_info
 zstyle ':vcs_info:git:*' formats       '(%b%u%c)'
 zstyle ':vcs_info:git:*' actionformats '(%b|%a%u%c)'
 
 ```
+
+Ensure there are no trailing spaces at the end of the file
+
 Further reading and to debug your `.zshrc file` if you get errors
 [1 - Official ](https://zsh.sourceforge.io/Doc/Release/User-Contributions.html#Version-Control-Information)
 [4 - Sal Ferrarello blog](https://salferrarello.com/zsh-git-status-prompt/)
