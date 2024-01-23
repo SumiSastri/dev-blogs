@@ -225,16 +225,14 @@ add-zsh-hook precmd vcs_info
   
 PROMPT='%1~ %F{red}${vcs_info_msg_0_}%f %# '
 
-# Enable checking for (un)staged changes, enabling use of %u and %c
-zstyle ':vcs_info:*' check-for-changes true
-
-# Set custom strings for an unstaged vcs repo changes (*) and staged changes (+)
-zstyle ':vcs_info:*' unstagedstr ' *'
-zstyle ':vcs_info:*' stagedstr ' +'
-
 # Set the format of the Git information for vcs_info
 zstyle ':vcs_info:git:*' formats       '(%b%u%c)'
 zstyle ':vcs_info:git:*' actionformats '(%b|%a%u%c)'
 
 ```
-[A run through of vs_info and its functions in this blog](https://salferrarello.com/zsh-git-status-prompt/)
+Further reading and to debug your `.zshrc file` if you get errors
+[1 - Official ](https://zsh.sourceforge.io/Doc/Release/User-Contributions.html#Version-Control-Information)
+[4 - Sal Ferrarello blog](https://salferrarello.com/zsh-git-status-prompt/)
+[2 - The Modern Coder](https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/)
+[3 - Araaj van der Garg](https://arjanvandergaag.nl/blog/customize-zsh-prompt-with-vcs-info.html)
+
