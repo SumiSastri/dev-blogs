@@ -9,22 +9,11 @@ nav_order: 9
 
 Git is the version control system if you have a personal GitHub account provide the details to your manager for access, if not create your own repo. Installation requires you to set up your computer with an SSH key for securty.
 
-**Install `git`**
+ For a basic installation of git and connecting it to your local machine, see [the version control section](https://sumisastri.github.io/dev-blogs/github-and-version-control/part4-github-setup-checklist/)
 
 Set up an account go to [https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account]
 
-There are several ways to install GitHub to your local machine
-
-CLI [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git]
-`$ sudo dnf install git-all` or `$ sudo apt install git-all`
-
-Binary installer link: https://sourceforge.net/projects/git-osx-installer/
-
-With Home Brew on a Mac
-`brew install git`
-Homebrew instructions link: https://git-scm.com/download/mac
-
-- Ensure you're not using "Apple Git". Type `which git` it should say `/usr/local/bin/git`
+These next steps will secure your code in your repo.
 
 # Set up Authentication
 

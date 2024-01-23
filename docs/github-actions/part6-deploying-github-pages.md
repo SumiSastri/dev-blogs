@@ -1,7 +1,7 @@
 ---
 layout: default
-parent: Version Control
-nav_order: 8
+parent: Github Actions
+nav_order: 11
 title: How to deploy your app with GitHub Pages
 ---
 
