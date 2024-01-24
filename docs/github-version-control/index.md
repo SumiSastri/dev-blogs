@@ -9,6 +9,8 @@ has_children: true
 
 Once you write a block of code and want to change it, tooling and version control systems come into play. This section deals with how version control works (VCS). Version control is also known as SCM (Source Code Management) tools or RCS (Revision Control System) and source code management.
 
-This section primarily deals with GitHub a version-control system authored by Linus Torvalds.
+This section primarily deals with GitHub a version-control system authored by Linus Torvalds and (GIT) an acronym for Global Information Tracker, also shortened to the proper noun, Git.
 
-You will need to set up your [local environment](https://sumisastri.github.io/dev-blogs/dev-environment/) before you can proceed to this section.
+Please set up your [local environment](https://sumisastri.github.io/dev-blogs/dev-environment/) before you can proceed to this section as it will be much easier to follow along.
+
+

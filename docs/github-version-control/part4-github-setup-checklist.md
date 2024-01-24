@@ -15,7 +15,7 @@ To paraphrase some of the steps
 
 [To sign up and set up an account follow the instructions on this link](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
 
-There are several ways to install GitHub to your local machine
+There are several ways to install Git and GitHub to your local machine
 
 1. With you computer Terminal's [command line interface (CLI)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) - run the command
 `$ sudo dnf install git-all` or `$ sudo apt install git-all`
@@ -114,4 +114,4 @@ fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
 and the repository exists.
 ```
-This is a basic set up. Please read the section on repo security to set up your repo more securely.
+This is a basic set up. Please read the section on [repo security](https://sumisastri.github.io/dev-blogs/github-repo-security/) to set up your repo more securely. There may be some duplication of content.

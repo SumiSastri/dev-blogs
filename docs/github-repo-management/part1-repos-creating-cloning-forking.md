@@ -43,8 +43,12 @@ _With SSH keys_
 
 ## The difference between forking and cloning a repo
 
-When you fork a repo, you create a copy of the repo in GitHub. You can do this with the GitHub GUI. A copy of the forked repo can be added to your repo. You can not alter a forked repo without the owner of the repo accepting the changes via a pull-request. This is a form of cloning a repo in GitHub without this being a Git version control process. There are no changes to track or git commands to run.
+When you fork a repo, you create a copy of the repo in GitHub. You can do this with the GitHub GUI. If you click the Fork button on a repo you will see the tab that says "Create a new fork", you can click the tab and follow the instructions.
 
-Cloning is a git process that creates a cloned version of the repo with the command `git clone`. In the cloned version git actions can occur.
+A fork does create a cloned copy but you can not alter a forked repo without the owner of the repo accepting the changes via a pull-request. This is a form of cloning a repo in GitHub without this being a Git version control process. There are no changes to track or git commands to run.
+
+Read more about [the difference between Git and GitHub](https://sumisastri.github.io/dev-blogs/github-version-control/part3-what-is-github/) in the [version control](https://sumisastri.github.io/dev-blogs/github-version-control/) section of this blog.
+
+Cloning is a Git process that creates a cloned version of the repo with the command `git clone`. In the cloned version Git actions can occur.
 
 A forked branch needs to be cloned and this becomes the main branch divorced of the original copy where changes are reflected in forked and cloned branch. 
