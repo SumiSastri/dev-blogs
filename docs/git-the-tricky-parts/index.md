@@ -27,17 +27,6 @@ You may also have by mistake created 2 branches in conflict with each other
 
 
 
-
-
-  Code Snapshots__
-Git does this by capturing snapshots of the code as it is changed.
-
-The commands `git add <filename>` adds a file as a snapshot
-The command `git add . ` adds all the files changed to the snapshot
-The command `git status ` shows you the files modified but not saved
-The command ` git commit ` adds the files to save to the snapshot
-A commit can be a one line commit or a long commit if the change is complex. With the commit you get a serialised number identifying the commit/ the author of the commit and the date and time of the commit.
-
 Add/Change/ Delete - the imperative is best practice when adding a line to your commit message
 Adding tickets and other links in a longer commit gives the change context and helps management and maintainence of the code by multiple developers.
 

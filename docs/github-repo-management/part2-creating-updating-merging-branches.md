@@ -2,11 +2,11 @@
 layout: default
 parent: GitHub Repo Management
 nav_order: 10
-title: Git, GitHeads and Branch Management
+title: Git, GitHeads and branch management
 ---
 
 
-# Git, GitHeads and Branch Management
+# Git, GitHeads and branch management
 
 When Linus Torvalds created Git, he considered it nothing but a "stupid content tracker" and named it Git which in British slang means an annoying and infuriating person.
 
@@ -14,13 +14,13 @@ Git, to its reputation has some infuriating and annoying terminology, and perfor
 
 It does benefit you greatly to understand the structure around which Git is built and how it tracks version changes. 
 
-## GitHeads and the Merkle Tree
+## GitHeads and the Merkle tree
 
-A basic concept to get right is, that all commits in a Git branch are part of a Merkle Tree. 
+A basic concept to get right is, that all commits in a Git branch are part of a Merkle tree. 
 
 At the top or the head of the Merkle tree is the trunk or main branch (this branch was formerly called the master branch). The head of the main or original branch and is also known as the origin head.
 
-From the main branch - or the trunk of the Merkle Tree - other branches are created. Each branch that is created now has its own head of the branch or branch head.
+From the main branch - or the trunk of the Merkle tree - other branches are created. Each branch that is created now has its own head of the branch or branch head.
 
 Sub-branches created from these secondary branches then have their own branch heads.
 
@@ -36,7 +36,7 @@ Wikipedia has a good image and description that really helps understanding the c
 
 To change the history of a git commit means understanding how each commit fits into this tree-like structure.
 
-## Adding, commiting, staging and pushing code changes up the Merkle Tree
+## Adding, commiting, staging and pushing code changes up the Merkle tree
 
 Typically the workflow in a branch follow these steps
 
@@ -97,6 +97,12 @@ Eg:
 
 Each of these branches will be merged into the main branch and each of these branches will have their own origin head.
 
+To check your logs try these out
+`git log --pretty=format:"%cn - %cd %h %s %t"` - a neater version of the log files
+
+Check the Merkle tree `git log --pretty=format:'%h %s' --graph git log --graph --oneline --decorate --all`
+
+Check more details of the commit `git cat-file -p HEAD` 
 
 ## Creating your first branch and sub-branch 
 
@@ -164,7 +170,7 @@ As we have seen, at the top of every branch is the head. To attach the blob data
 
 ## Code snapshots an organic way to capture code as it is changed
 
-As you can see Torvalds is actually right, it is quite an easy to understand content tracking system if you know how the Merkle Tree is structured.
+As you can see Torvalds is actually right, it is quite an easy to understand content tracking system if you know how the Merkle tree is structured.
 
 Git tracks code up and down the Merkle tree by capturing snapshots of the code as it is changed.
 
@@ -184,4 +190,5 @@ _In summary_
 - The main branch is exactly like any branch.
 
 - All new branches created are merged into the master branch.
+
 -  Each new branch has its own unique head to track changes in the sub-branch.

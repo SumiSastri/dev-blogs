@@ -28,8 +28,7 @@ You can also set up a repo using the GUI in GitHub and then clone that repo to y
 Trouble shooting.
 - If you have not linked the files remove the git initialisation `rm –rf .git` or `git remote remove`
 
-
-## How to clone a repo
+## Clone a repo
 
 - When you are in GitHub and you choose a repo to clone, go to clone button copy to clip board the  clone the HTTPS version, not the SSH version of the repo
 - In your local environment make a a directory to store your code - eg: dev/ side-projects
