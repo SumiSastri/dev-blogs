@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What is a code bundling
+title: What is code bundling?
 parent: What is computer code
 nav_order: 6
 ---

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: How to keep Set up Git, SSH Keys, 2FA and Signed Commits
+title: How set up SSH Keys, 2FA and signed commits
 parent: Safeguarding your GitHub repo
 nav_order: 9
 ---
 
-# How to keep Set up Git, SSH Keys, 2FA and Signed Commits
+# How set up SSH Keys, 2FA and signed commits
 
 Git is the version control system if you have a personal GitHub account provide the details to your manager for access, if not create your own repo. Installation requires you to set up your computer with an SSH key for securty.
 

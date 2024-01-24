@@ -1,11 +1,11 @@
 ---
 layout: default
-title: What is Dependabot
+title: What is Dependabot?
 parent: Safeguarding your GitHub repo
 nav_order: 9
 ---
 
-# What is Dependabot
+# What is Dependabot?
 
 Dependabot is a dedicated GitHub tool that improves code security by automatically managing your dependency change logs.
 
