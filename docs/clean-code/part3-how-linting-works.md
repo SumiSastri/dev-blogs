@@ -2,7 +2,7 @@
 layout: default
 title: How linting works
 parent: Clean code
-nav_order: 10
+nav_order: 11
 ---
 
 # How linting works

@@ -2,7 +2,7 @@
 layout: default
 title: What is clean code?
 parent: Clean code
-nav_order: 10
+nav_order: 11
 ---
 
 # What is clean code?
