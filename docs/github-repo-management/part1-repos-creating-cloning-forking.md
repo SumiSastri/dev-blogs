@@ -41,7 +41,10 @@ _With SSH keys_
 - If you need to clone the SSH version
 - In terminal you will need to add your SSH key -  [git clone + sshkey]
 
-## How to fork a repo
-
-
 ## The difference between forking and cloning a repo
+
+When you fork a repo, you create a copy of the repo in GitHub. You can do this with the GitHub GUI. A copy of the forked repo can be added to your repo. You can not alter a forked repo without the owner of the repo accepting the changes via a pull-request. This is a form of cloning a repo in GitHub without this being a Git version control process. There are no changes to track or git commands to run.
+
+Cloning is a git process that creates a cloned version of the repo with the command `git clone`. In the cloned version git actions can occur.
+
+A forked branch needs to be cloned and this becomes the main branch divorced of the original copy where changes are reflected in forked and cloned branch. 
