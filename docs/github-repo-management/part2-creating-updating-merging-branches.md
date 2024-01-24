@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 parent: GitHub Repo Management
 nav_order: 10
@@ -214,4 +214,4 @@ eg: '123-feture adds submit button'
   [git fetch origin] [git merge origin master] if origin branch deleted by mistake [git branch —unset-upstream]
 
 
-  
+   -->
