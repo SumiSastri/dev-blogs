@@ -12,6 +12,8 @@ Managing a repo with multiple contributors and multiple changes can get messy. G
 
 In this section, I will dive briefly into the core concepts and some trouble shooting for beginners looking to set up a personal repo and manage version control for the first time.
 
+_Some articles in this section were first published on Medium_
+
 You will find it easier to follow this section if you:
 
 - [Set up your local environment](https://sumisastri.github.io/dev-blogs/dev-environment/) 
@@ -19,3 +21,5 @@ You will find it easier to follow this section if you:
 - [Install Git and GitHub locally](https://sumisastri.github.io/dev-blogs/github-version-control/part4-github-setup-checklist/)
 
 - [Set up a GitHub repo](https://sumisastri.github.io/dev-blogs/github-version-control/part5-github-repo-set/)
+
+- Refer to the [Git official documentation](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)

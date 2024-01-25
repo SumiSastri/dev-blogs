@@ -1,4 +1,4 @@
-Rebasing:
+Rebasing: docs https://git-scm.com/docs/git-rebase
 From current branch:
 $ git checkout -b diverging-branch
 $ git rebase master

@@ -73,8 +73,8 @@ If you do not want the code in the headless state branch instead of merging you 
 You may want to read the chatter on StackOverflow which I personally found confusing although it made me do some root cause analysis to find out how git tracks changes.
 Understanding the Merkle tree, how a commit is a blob and how a blob is attached to an origin head made it easier to understand some of the challenges with git heads.
 More reading on detached heads
-Circle CI
-Cloud Bees
+[Circle CI] (https://circleci.com/blog/git-detached-head-state/#:~:text=What%20does%20detached%20HEAD%20mean,commit%20or%20the%20remote%20repository.)
+[Cloud Bees](https://www.cloudbees.com/blog/git-detached-head)
 
 What is the difference between git reset hard, soft and mixed?
 You may want to reset the head of your list of commits to a particular SHA. This can happen if you have committed code and think that some of the commits have added no value to the code base. You want to rewind to a particular point in the commit history where the code was working and more useful to continue from this point that the point you are at.

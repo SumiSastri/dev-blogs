@@ -1,3 +1,5 @@
+Docs toc https://git-scm.com/docs
+
 Not to be used in team situation where you may need to stash local changes then pull/merge remote branch
 
 Check what you have done

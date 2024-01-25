@@ -52,3 +52,7 @@ node_modules
 ```
 
 **Save** and close the file.
+
+__Official Git Tutorials__
+
+Git is neither easy to understand or master so use a search engine to find answers if you are stuck. Git also has an [official tutorials section](https://git-scm.com/docs/gittutorial) and YouTube is another great resource if you follow best with video tutorials.

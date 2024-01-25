@@ -14,6 +14,8 @@ Git, to its reputation has some infuriating and annoying terminology, and perfor
 
 It does benefit you greatly to understand the structure around which Git is built and how it tracks version changes. 
 
+The section in [docs on branch management](https://git-scm.com/book/en/v2/Git-Branching-Branch-Management) is a the best resource if you get stuck.
+
 ## GitHeads and the Merkle tree
 
 A basic concept to get right is, that all commits in a Git branch are part of a Merkle tree. 
@@ -26,13 +28,13 @@ Sub-branches created from these secondary branches then have their own branch he
 
 So the main branch could be the production branch, a sub-branch a development, staging, integration or testing branch. 
 
-You may afind it useful to read this section in conjunction with [the developer workfows](https://sumisastri.github.io/dev-blogs/github-version-control/part2-dev-workflows/) section as tracking changes is part of a systematic tracking of every miniscule change through the development process.
+You may find it useful to read this section in conjunction with [the developer workfows](https://sumisastri.github.io/dev-blogs/github-version-control/part2-dev-workflows/) section as tracking changes is part of a systematic tracking of every miniscule change through the development process.
 
 Each sub-branch points to a branch head, the branch head may point to another branch head until all branches point to the origin head in the main branch.
 
 To track these complex secondary and tertiary branch changes, the Merkle tree generates serialised hash-tags that uniquely identify all the changes or git commits in a branch. 
 
-Wikipedia has a good image and description that really helps understanding the concept.
+[Wikipedia has a good image and description](https://en.wikipedia.org/wiki/Merkle_tree) that really helps understanding the concept.
 
 To change the history of a git commit means understanding how each commit fits into this tree-like structure.
 

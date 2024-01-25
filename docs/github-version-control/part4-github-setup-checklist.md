@@ -71,6 +71,8 @@ touch ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 ```
 
+[The gitignore docs are a useful guideline](https://git-scm.com/docs/gitignore)
+
 **Configure secure shell or SSH access to Github**
 
 GitHub is a web-based Git repository hosting service.
