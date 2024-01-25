@@ -2,11 +2,10 @@
 layout: default
 parent: GitHub Repo Management
 nav_order: 10
-title: Git, GitHeads and branch management
+title: Git, Git 'heads' and branch management
 ---
 
-
-# Git, GitHeads and branch management
+# Git, Git 'heads' and branch management
 
 When Linus Torvalds created Git, he considered it nothing but a "stupid content tracker" and named it Git which in British slang means an annoying and infuriating person.
 
@@ -16,7 +15,7 @@ It does benefit you greatly to understand the structure around which Git is buil
 
 The section in [docs on branch management](https://git-scm.com/book/en/v2/Git-Branching-Branch-Management) is a the best resource if you get stuck.
 
-## GitHeads and the Merkle tree
+## Git heads and the Merkle tree
 
 A basic concept to get right is, that all commits in a Git branch are part of a Merkle tree. 
 

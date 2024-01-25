@@ -2,17 +2,16 @@
 layout: default
 parent: GitHub Repo Management
 nav_order: 10
-title: How to change a local git branch name in five easy steps
+title: How to change a local Git branch name in five easy steps
 ---
 
-
-# How to change a local git branch name in five easy steps
+# How to change a local Git branch name in five easy steps
 
 Changing a branch name in Git sounds easy but there are some gotchas. Here's an easy way to get it right.
 
 Git is a tool that tracks changes to source code, and it's very basic. That's what it does. It tracks changes to any file, but it's mostly used for source code files. 
 
-[In Part 2 the article on Git and git heads](https://sumisastri.github.io/dev-blogs/github-repo-management/part2-creating-updating-merging-branches/) provides some context on how git as a version control system works under the hood.
+[In Part 2 the article on Git and Git heads](https://sumisastri.github.io/dev-blogs/github-repo-management/part2-creating-updating-merging-branches/) provides some context on how git as a version control system works under the hood.
 
 The challenge is once a file is created, it is created permanently.
 

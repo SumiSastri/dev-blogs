@@ -1,65 +1,6 @@
-Git and git heads: how to track origin head, create a detached head and reset or revert detached heads
-Photo credit: Roman Synkevych 🇺🇦 on UnsplashGit - which in British slang means an annoying and infuriating person aka a right git-head.
-It also happens to be a version-control system authored by Linus Torvalds.
-It is no accident, that (GIT) which politely stands for Global Information Tracker, was termed git by Torvalds as he considered it nothing but a "stupid content tracker".
-For the sake of accuracy here's a link to the documentation
-Git, to its reputation has some infuriating and annoying terminology, and performs certain content tracking tasks in its own way. Setting git heads is one of them. Git heads can get detached, need to be reset - three ways hard, soft or mixed - or can be reverted instead of reset.
-All a bit confusing until you learn all about git origin heads and how to attach and track them before you can detach and meddle with them.
-What does origin-head mean in a git branch?
-Git branches and git branch management from the git book goes into some detail on how to manage branches but I found understanding what an origin-head was difficult.
-A basic concept to get right is, that all commits in a git branch are part of a Merkle Tree. Wikipedia has a good image and description that really helps understanding the concept.
-A Merkle tree is made up of a series of hash-tags that uniquely identify all the commits in a branch. To change the history of a git commit means understanding how each commit fits into this tree-like structure.
-At the top of each branch of the Merkle tree is the head, or origin head. If you commit and run a `git log` in your main branch you should see `commit 123ab456 (HEAD -> main, origin/main, origin/HEAD)`.
-The number you see in the commit is a Secure Hash Algorithm or SHA, or hashtag, that contains all the data of the commit and points to the top of the Merkle tree or the head of the branch.
-This is how a commit points to the head of the git branch. The commit with the hash number holds the data of the author, date and the commit message which describes what the change in the version is all about.
-So when you `git add <filename>` you add your blobs in your working file into a staging area. When you `git commit -m"Commit message"` you save the blob in a log queue.
-Run a `git log` and you should see the blob of data:
-commit 123ab456
-Author: YourName <your email>
-Date: Fri Jan 13 15:11:26 2023 +0000
-The main or master branch is a branch like any other made up of commits. In the case of a main branch, the sub-branches are merged into the main branch and these merged branches are the key commits.
-If you run `git branch` in a repo, you will see a list of branches with an asterisk against the name of the branch you are working on.
-Feature-Create-data-table
-BugFix-Remove-logo
-Chore-Update-docs
-HotFix-Add-codes-to-db
-* Spike-Experiment-with-libraries
-Feature-Create-admin-user-form
-Each of these branches will be merged into the main branch and each of these branches will have their own origin head.
-What does a blob refer to in a git branch and how does it relate to origin head?
-Photo Credit: UnsplashIf the concept of git as a tree of data can be used as an analogy, then the commits are like leaves on the branch. Each leaf is a data object or a blob.
-A blob is an acronym for both basic large object or a binary large object (BLOB) but is spelt as a common noun - blob and referred to as such. While many consider a commit as a file that is being committed, we are merely committing blobs of data to the data tree in the branches of the data tree.
-As we have seen, at the top of every branch is the head. To attach the blob data to the branch the first commit must attach itself to the head and is set to the origin head. Each origin head is unique and at the top of the branch that the blob is attached to.
-Setting the origin head of each branch for the first time
-When you first create or clone a repo, add and commit changes, in your first commit you need to set the origin head to track the changes in the main branch with a `$git push -u origin main`. This sets the head to origin-main (previously known as origin-master). You only need to do this one before you create other branches off the main (master) branch.
-However, each new branch you create must also be connected to its unique origin head to track changes of the branch.
-To set up a new branch `git checkout -b <branch-name>` defines your new branch, you can also use the more up to date `git switch -b` to create a branch. When you add and commit for the first time to this branch and push the changes you need to set the upstream origin to the new branch to track the origin head of the new branch you will get a prompt to set the upstream origin of the branch eg: `git push - set-upstream origin <branch-name>`. Once again, you only need to do it with your first commit.
-The branch now tracks unique changes made in your code with the SHA or hashed algorithm. As you have seen above in the log, the SHA is the commit number - `commit 123ab456`. The commits in this branch track the branch origin head and when you merge the branch into master all the changes in the branch track the master branch with its own unique SHA representing the point at which the branch origin head starts tracking the master origin head.
-When you merge master into a branch, all the SHA's merged into master are merged into the branch and track the branch origin head.
-This flip-flop between the branch and master origin heads can create some challenges.
-Manually setting branch origin head if the process fails
-Sometimes - especially if your computer is slow, you can create a new branch with the `git checkout -b <branch-name>` command and start to add and commit code. When you push the code and you set the origin `git push - set-upstream origin <branch-name>` you find it runs through all the processes checking deltas but the final blob is not pushed to your GitHub repo.
-This happens because you have not successfully checked out of the previous branch into the new branch you have created. Therefore, the branch you have created has an origin head that has not been set and GitHub is still tracking the origin head of the branch you have checked out of.
-To match the new branch head with the remote branch head you will have to set the upstream manually with `git push - set-upstream origin <your branch name>:<your branch name>`. You only have to do this once.
-You may get a prompt to run `git config` to automatically set your upstream branch. You can `git config - global push.autoSetupRemote true` this way you do not need to manually set the upstream branch up with each creation of a new branch.
-If you wish to ignore this config option, you will need to manually attach the branch blobs to the branch origin head.
-What is a SHA and what does it do in git?
-A SHA is a hash function which takes an input and produces a 160-bit (20-byte) hash value known as a message digest - typically rendered as a hexadecimal number, 40 digits long. It was designed by the United States National Security Agency, and is a U.S. Federal Information Processing Standard.
-SHA-1 sometimes know as SHA-0 is deprecated/ SHA-2 and SHA-3 are now required for SSL certificates for browsers by the NIST (National Institute of Standards and Technology).
-Version control systems still use SHA-1 to hash versions.
-Every blob has a SHA which is the serialised number that holds the commit message, author name, time and date of creation.
-As you add commits and run `git log - oneline` you will see all your commit messages in a single line with the commit message and the serialised number that uniquely identifies it. The `oneline` flag removes the author, date and other information that is contained in the `git log` command so that you can see the key information
-In this case there is only one branch which is origin master therefore all the commit logs you see point to the origin head of the master branch.
-b4ceaa6 (HEAD -> master, origin/master, origin/HEAD) Add regex
-eec4771 Conditionally render url on submit for home page
-0beb61d Fixes radio buttons css and custom component
-c1790e4 Debug radio buttons
-3d2fee9 Add radio buttons - initial set up
-db6284a Add radio buttons component to component library
-6505fea Add checkbox to registration page
-1d3e6a6 Refactor select filter to make it a reusable typescript component
 What is a detached head in git?
-Photo Credit: Mathew Schwartz on UnsplashA blob may be detached from a head - that is when you get a detached head. It can be consciously created so that you can work in a detached head.
+
+A blob may be detached from a head - that is when you get a detached head. It can be consciously created so that you can work in a detached head.
 The use of detaching a blob from the head is to pretty much remove a part of the data to experiment with it - if the experiment proves to have no value the detached head can be discarded. If the the experiment is useful, then the blob can be reattached to the branch head.
 However a detached head might occur by accident. If you get an error message you need to attach the blob to a branch.
 Here are 3 easy steps to fix this
@@ -129,6 +70,3 @@ All new branches created are merged into the master branch.
 Each new branch has its own unique head to track changes in the sub-branch.
 Unless upstream origin head is set once, either manually or through a `git config` automatically, you have a detached head.
 Detached heads are like sandboxes and can be manually re-attached to the origin.
-
-Hopefully this helps you from head butting a git head!
-In this series How to change a git branch name

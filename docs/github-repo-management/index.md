@@ -12,7 +12,7 @@ Managing a repo with multiple contributors and multiple changes can get messy. G
 
 In this section, I will dive briefly into the core concepts and some trouble shooting for beginners looking to set up a personal repo and manage version control for the first time.
 
-_Some articles in this section were first published on Medium_
+_Some articles in this section have been published on Dev.to & Medium_
 
 You will find it easier to follow this section if you:
 
