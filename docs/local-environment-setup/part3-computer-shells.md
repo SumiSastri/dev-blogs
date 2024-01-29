@@ -9,7 +9,7 @@ title: Computer shells - Bash vs Zish
 
 A shell is a very basic user interface for accessing an operating system's service. 
 
-Two of the most popular shells, Bash and Zish both are mostly used on UNIX and Linux systems. In the UNIX world, and that includes macOS and Linux, many shell implementations have been popular in the past, like bash, the Korn shell, the C shell (seashell).
+Two of the most popular shells, Bash and Zish both are mostly used on UNIX and Linux systems. In the UNIX world, and that includes macOS and Linux, many shell implementations have been popular in the past, like Bash, the Korn shell, the C shell (seashell).
 
 [Read Part 4 for the difference between shells and secure shells](https://sumisastri.github.io/dev-blogs/dev-environment/part4-secure-shells/)
 
@@ -133,7 +133,7 @@ Further reading and to debug your `.zshrc file` if you get errors
 [3 - Araaj van der Garg](https://arjanvandergaag.nl/blog/customize-zsh-prompt-with-vcs-info.html)
 
 
-__Zish customisation with Oh My Zsh optional__
+__Zish customisation with Oh My Zsh (optional)__
 
 Oh My Zsh, is a framework for customizing Zish.
 
@@ -157,42 +157,35 @@ Older Macs with the Intel Chip, ship with Bash by default. Bash stands for **'Bo
 
 Bash is still by far the most‑used shell in the UNIX world and unlikely to change.
 
-Most customisation happens by running commands inside a file called `.bash_profile` which is parsed every time you open a new terminal window.
+Modern Macs may have both Zish and Bash Shells installed.
 
-This file is found in your home directory, so to edit it, run `nano ~/.bash_profile`
+Run `nano ~/.bash_profile` and it should open up  `.bash_profile`. 
 
-After making any changes you can restart your session by typing:
+Most customisation happens by running commands inside this file which is parsed or read every time you open a new terminal window.
 
-you can create one for customizations `touch .bashrc` in your terminal to add your aliases and customisations
+__Installing Bash__
 
-```bash
-$ source ~/.bash_profile
-```
-
-```
-.bash_history
-.bashrc
-```
-
-Bash completion is a bash function that allows you to auto complete commands or arguments by typing partially commands or arguments, then pressing the [Tab] key.
-
-### Installation
+If you do not have Bash installed you can use HomeBrew to install the shell package.
 
 ```bash
 $ brew install bash-completion
 ```
 
-You will need to add the following to your `~/.bash_profile` then restart your session - from command line or
-
-open .bash_profile (copy and paste the code below)
+Now `open .bash_profile ` and copy and paste this code into the file
 
 ```
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 ```
 
-### Usage
+Close the file and restart your session
 
-Once you've done this, you can use bash completion by pressing the tab key twice after a command. For example:
+__The `.bashrc` file__
+
+To customise your Bash shell you will need a `.bashrc` file, if you do not have one create it by running `touch .bashrc` in your terminal 
+
+Once you've done this, you can use Bash completion by pressing the tab key twice after a command. Bash completion is a Bash function that allows you to auto complete commands or arguments by typing partially commands or arguments, then pressing the [Tab] key.
+
+For example:
 
 ```bash
 $ git [tab] [tab]

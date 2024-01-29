@@ -42,7 +42,7 @@ System Preferences > Keyboard
 
 9. Vim in the default text editor in a Mac, many developers prefer to use vim instead of code editors and integrated development environments (IDE's) - bookmark [Vim CheatSheet](https://vimsheet.com/) you will find it useful when you are using a Mac terminal
 
-10. Check your computer shell - a shell is a very basic user interface for accessing an operating system's service. Macs come shipped with a shell called 'bash' by default. 
+10. Check your computer shell - a shell is a very basic user interface for accessing an operating system's service. Macs come shipped with a shell called 'Bash' by default. 
 
 Type `echo $0`
 If you get the answer `/bin/zsh` then you are in the  shell and if you get `/bin/bash` you are in the Bash shell.
