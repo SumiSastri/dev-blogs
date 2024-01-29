@@ -19,7 +19,7 @@ Microsoft Windows has its own shells, which are very different from UNIX shells.
 
 Older Macs with the Intel Chip, ship with Bash by default. Bash stands for **'Bourne-again shell'**, referring to its objective as a free replacement for the Bourne shell which was developed by [Steven Bourne](https://en.wikipedia.org/wiki/Stephen_R._Bourne).
 
-Zish is now the default terminal for Macs replacing Bash, with the M1 chips. The Zish or `zsh` shell is considered by some Mac users to be more user friendly as it has some extra features. The American English pronunciation of Z is "zee", so Z shell rhymes with C shell, which sounds like seashell. `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao.
+Zish is now the default terminal for Macs replacing Bash, with the M1 chips. The Zish or `` shell is considered by some Mac users to be more user friendly as it has some extra features. The American English pronunciation of Z is "zee", so Z shell rhymes with C shell, which sounds like seashell. `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao.
 
 By default the command line on a Mac is fairly unhelpful and not nearly as pleasent to work on as it can be with a few tweaks.
 
@@ -33,7 +33,7 @@ After making any changes you can restart your session by typing:
 $ source ~/.bash_profile
 ```
 
-Zish has some extra features features to make web-development easier. The American English pronunciation of Z is "zee", so Z shell rhymes with C shell, which sounds like seashell. `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao.
+Zish or `zsh` (zish) has some extra features to make web-development easier. The American English pronunciation of Z is "zee", so Zee shell which can get confused with C shell (or seashell) so Zish is sometimes used instead of Zee Shell. The alphabets `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao. 
 
 Bash is still by far the most‑used shell in the UNIX world and unlikely to change.
 

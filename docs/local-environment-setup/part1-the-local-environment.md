@@ -24,43 +24,53 @@ You can [read Part 2 for a more detailed view of how your terminal works](https:
 - [Node version check](https://www.sitepoint.com/beginners-guide-node-package-manager/)
 - `which node` or  `node --version` for the version of node
 - `which npm` or  `npm --version` for the version of node package manager
-- `npm install npm@latest -g` - update node packages ONLY FOR MACs with the latest version of npm
 
 6. Git which is a version control system should be preinstalled check by typing in terminal ```git --version```
 
-7. Speed up your cursor - By default, the speed of the cursor on a Mac is a little too slow. Let's increase the speed of the cursor by going to:
+7. Speed up your cursor - By default, the speed of the cursor on a Mac is a little too slow. In an older Mac you need to go to 
 
 ```
 System Preferences > Keyboard
 ```
+- In a newer Mac you can go directly to Keyboard
 
-- Set Key Repeat to `Fast` and Delay Util Repeat to `Short`, then close the Preferences panel.
+- Set Key Repeat to `Fast` 
+- Set Delay Util Repeat to `Short`
 
-8. Check if you have [Xcode installed](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12)
+8. Check if you have Xcode installed - type
+`xcode` or  `xcode --version` 
 
-9. Vim in the default text editor in a Mac, many developers prefer to use vim instead of code editors and integrated development environments (IDE's)
+9. Vim in the default text editor in a Mac, many developers prefer to use vim instead of code editors and integrated development environments (IDE's) - bookmark [Vim CheatSheet](https://vimsheet.com/) you will find it useful when you are using a Mac terminal
 
-10. Check your computer shell - a shell is a very basic user interface for accessing an operating system's service. Macs come shipped with a shell called 'bash' by default. Bash stands for **'Bourne-again shell'**, referring to its objective as a free replacement for the Bourne shell which was developed by [Steven Bourne](https://en.wikipedia.org/wiki/Stephen_R._Bourne). 
+10. Check your computer shell - a shell is a very basic user interface for accessing an operating system's service. Macs come shipped with a shell called 'bash' by default. 
 
-You can also use`zsh` (zish) which has some extra features to make web-development easier. The American English pronunciation of Z is "zee", so Z shell rhymes with C shell, which sounds like seashell. `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao. More detail on what a computer shell is and how to set up and [manage the Bash and Zish shells in Part 3](https://sumisastri.github.io/dev-blogs/dev-environment/part4-secure-shells/)
+Type `echo $0`
+If you get the answer `/bin/zsh` then you are in the zish shell and if you get `/bin/bash` you are in the Bash shell.
+
+Zish or `zsh` (zish) has some extra features to make web-development easier. The American English pronunciation of Z is "zee", so Zee shell which can get confused with C shell (or seashell) so Zish is sometimes used instead of Zee Shell. The alphabets `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao. 
+
+More detail on what a computer shell is and how to set up and [manage the Bash and Zish shells in Part 3](https://sumisastri.github.io/dev-blogs/dev-environment/part4-secure-shells/)
 
 11. Speed up your mouse clicks on a Mac
 
-Go to mouse clicks and enable tap-to-click
+- Go to Trackpad and enable tap-to-click
+- Tracking speed to medium or fast
+- Click to Light
 
 12. Privacy and disabling Siri
 
-Siri by default tracks everything – to disable
+Siri by default tracks everything – to disable (with a name like mine - Sumi, this is often confused with Siri so I disable Siri on all my Apple devices)
 
-Go to settings (system-preferences)/ accessibility/ Siri/ disable all you want to disable from type to Siri main page – then go to Siri preferences and disable each app that you do not want Siri to track your voice on – open Siri privacy suggestions to disable each app individually
+- Go to settings (system-preferences)/ accessibility/ Siri/ disable all you want to disable from type to Siri main page – then go to Siri preferences and disable each app that you do not want Siri to track your voice on – open Siri privacy suggestions to disable each app individually
 
-To check your screen time and set breaks go to screen time in settings
+13. To check your screen time and set breaks go to screen time in settings
 
-13. Apple ID - each mac requires one (check with your office for what your user-name/ password should be)
+14. Apple ID - each mac requires one (check with your office for what your user-name/ password should be)
 
-Save this to add new packages from the app store or from online downloads. Note if you lose this Apple now takes about 5-6 days to reset your password after MFA kicks in.
+_NOTE_Save this to add new packages from the app store or from online downloads. Note if you lose this Apple now takes about 5-6 days to reset your password after MFA kicks in.
 
 14. Reduce the number of times you require the use of your password - go to your terminal and paste this code
 
   `echo $(whoami)" ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/$(whoami)`
   
+The password is your screen password that unlocks your Mac. You will not see it being typed but if it matches you will not get an error message.
