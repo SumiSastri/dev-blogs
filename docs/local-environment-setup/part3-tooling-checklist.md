@@ -2,56 +2,59 @@
 layout: default
 parent: The developer environment
 nav_order: 7
-title: Basic tooling for beginner devs
+title: Basic tooling when you are learning to code
 ---
 
-# Basic tooling for beginner devs
+# Basic tooling when you are learning to code
 
 When I started out the dev journey, it was hard to figure out what the very basic tooling I needed in my local environment - versus in my first job where the business needs were different and my work laptop had tonnes of stuff I had to download to get my environment set up.
 
 This is a basic list for beginner devs in their first few jobs to help you set up your personal laptop with the basics that you require and separate that from the long list of requirements that an organisation may have to get your local environment working.
 
-Please read the section on Installfest - which is a longer list of the various packages I have had to install in different jobs - it may be helpful but is an optional read.
+Please read the section on Installfest - which is a longer list of the various packages I have had to install in different jobs - it may be helpful but is an optional read for beginners. I refer to this section often to pick and mix what I need to install on my local computer depending on what I am learning and the tools required to do the job.
 
-## A checklist to get you started in your local environment
+Installfest has some simple set up instructions resources that I hope will help troubleshoot when you are stuck.
 
-During the development process you will need these basic tools:
+## A beginner's checklist to setting up your local environment
 
-1. A code editor or IDE (integrated development environment) - Atom, Visual Studio Code, Sublime Text (See section on clean code for [a quick guide to code editors and IDEs](https://sumisastri.github.io/dev-blogs/clean-code/part2-code-editors-and-how-to-setup-eslint/)
+During the development process you will need these basic tools. 
 
-2. A version control system -  Git, the main version control system used by developers, should be preinstalled on both Mac and Windows. 
+Make sure you have read [Part 1 - your local environment] and have run all the pre-set up steps. You will also need to be familiar with your computer terminal, read [read Part 2 for a more detailed view of how your terminal works](https://sumisastri.github.io/dev-blogs/dev-environment/part2-the-terminal/) and use the cheatsheet to check out the terminal commands and familiarise yourself navigating your computer with the terminal.
 
-Run ```git --version```. 
+You are now ready for the next steps in getting your local environment ready. Follow set up in the order given below.
 
-For more details on [how GitHub works as a version control system](https://sumisastri.github.io/dev-blogs/version-control-systems/) and to set up a GitHub repo.
-
-3. For JavaScript developers - Node is a JavaScript environment that you will need if you are developing through the stack with JavaScript or TypeScript - in terminal type ```node --version``` to see if Node is pre-installed.
-
-- [Node version check](https://www.sitepoint.com/beginners-guide-node-package-manager/)
-- `which node` or  `node --version` for the version of node
-- `which npm` or  `npm --version` for the version of node package manager
-
-> **Note:** if you have installed NodeJS previously, you will have to uninstall it first. Having node and npm already installed doesn't matter. 
-
-Installing node with `nvm` is easier as it allows you to manage and upgrade node versions. This is especially useful if you are working on multiple projects with different Node versions
-
-- [Install Node & Node Version Manager](https://github.com/nvm-sh/nvm#install--update-script)
-
-4. For Mac users
+1. For Mac users
 
 HomeBrew is a package manager which helps you install external software packages on your Mac.
 
 Check if you have Homebrew installed run `brew doctor` 
 Check if you have Xcode installed run `xcode` or  `xcode --version` 
 
-You can install both Xcode and Homebrew with one command
+You can install both Xcode and Homebrew with one command.
 
 ```
 xcode-select --install && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-- Install Zsh or Bash and customise
+__Note: It takes over 4-5 hours to install x-code, so plug your computer into a power socket and let it run overnight.__
+
+Run `xcode-select --install` to check if it has been installed, you will get the confirmation Command Line Tools are already installed, with an error use "Software Update" - in that case run ```softwareupdate -i -a```
+
+A more detailed guide in the Installfest section will help you trouble shooting installing x-code or Homebrew.
+
+2. Familiarise yourself with computer shells and install Bash or Zish and customise them to suit your needs.
+
 [In Part 3 - Computer shells the difference between Bash and Zish there is a quick guide and more details to understand shells and shell switching ](https://sumisastri.github.io/dev-blogs/dev-environment/part3-computer-shells/)
+
+Once you have familiarised yourself with your computer shell and your terminal you can install a version control system.
+
+3. Install a code editor or IDE (integrated development environment) - Atom, Visual Studio Code, Sublime Text (See section on clean code for [a quick guide to code editors and IDEs](https://sumisastri.github.io/dev-blogs/clean-code/part2-code-editors-and-how-to-setup-eslint/)
+
+This will help you write HTML, CSS, JavaScript and get started on learning the fundamentals of web development.
+
+4. Git, the main version control system used by developers, should be preinstalled on both Mac and Windows. The set up requires secure hash keys and requires you to have a basic knowledge of how to set up your local environment, be comfortable with using the terminal and computer shells. Once you are confident in your terminal run ```git --version``` to check if it is pre-installed.
+
+Then proceed to the section [how GitHub works as a version control system](https://sumisastri.github.io/dev-blogs/version-control-systems/) and to set up a Git, GitHub and set up your first GitHub repository to store versions of your code.
 
 ## Useful apps and GUIs
 

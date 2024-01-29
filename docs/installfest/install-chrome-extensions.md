@@ -1,14 +1,19 @@
-**Google Chrome Extensions**
+---
+layout: default
+parent: Installfest
+nav_order: 12
+title: Chrome Extensions for React and Redux
+---
 
-__React / redux in the browser__
+# Chrome Extensions for React and Redux
 
-While most new react features are being developed, they are completely hidden from customers, but we still have a way to interact with the new react code as it is loaded like other JS bundles.
+While most new React features are being developed, they are completely hidden from customers, but we still have a way to interact with the new React code as it is loaded like other JS bundles.
 
     - [React dev tools Docs](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
 
-    __React Developer Tools__
+__React Developer Tools__
 
-    To be able to view the react component tree in the chrome console, please install [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+    To be able to view the React component tree in the Chrome console, please install [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
     You will then have a "React" tab in your chrome developer tools.
 
     If you click on this, and open the console (Esc) at the same time, you'll have access to the `store provider` in there, through a variable named `$r`.
@@ -20,7 +25,7 @@ While most new react features are being developed, they are completely hidden fr
 
     - [Redux dev tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
 
-    __Redux DevTools__
+__Redux DevTools__
 
     While the React developer tools give you access to the store, it's cumbersome to inspect the current store state and dispatch actions. There is an easier way, with another extension: [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
 

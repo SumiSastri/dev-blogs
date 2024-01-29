@@ -11,8 +11,7 @@ The terminal in your computer allows you to interact with the programs on your c
 
 Windows/ Mac / Linux have different terminals. WSL allows you to use a Windows terminal for a Linux OS.
 
-The command line interface(CLI) helps you navigate through these systems with a terminal emulator. The
-CLI allows you to make commands that are executed in the terminal emulator. 
+The command line interface(CLI) helps you navigate through these systems with a terminal emulator. The CLI allows you to make commands that are executed in the terminal emulator. 
 
 Packages like npm, yarn, Babel, webpack may have their own CLI commands.
 

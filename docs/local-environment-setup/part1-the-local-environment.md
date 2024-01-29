@@ -4,6 +4,7 @@ title: Your computer - the local environment
 parent: The developer environment
 nav_order: 7
 ---
+
 # Your computer - the local environment
 
 You computer is a synonym for a developer's local environment. Setting up  your computer with the right tools to help  you code helps you link your computer to cloud based systems like GitHub, where you code may reside, as well as cloud based data-infrastructures that host your software packages.

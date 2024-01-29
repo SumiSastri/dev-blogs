@@ -1,4 +1,4 @@
-## Node
+<!-- ## Install Node with NVM
 
 Node is a run-time environment. It is not a language but uses JavaScript syntax to run programmes outside the browsers. It is instrinsically a JavaScript engine that works on the server side - just as Spider Monkey/ V8 work browser-side.
 
@@ -14,17 +14,19 @@ To use the Node environment, several packages or modules - known as Node Modules
 
 To flip between different versions of the packages, `nvm` is installed. `nvm`(MacOS) or `nvm-windows` (WindowsOS)
 
-- [Node Version Manager](https://github.com/nvm-sh/nvm#install--update-script)
+In terminal run ```node --version``` to see if Node is pre-installed.
 
-> **Note:** if you have installed NodeJS previously, you will have to uninstall it first. Having node and npm already installed doesn't matter. However, installing node with `nvm` which allows us to easily manage and upgrade our node version.
+- [Node version check](https://www.sitepoint.com/beginners-guide-node-package-manager/)
+- `which node` or  `node --version` for the version of node
+- `which npm` or  `npm --version` for the version of node package manager
 
-**Install and use `nvm`**
+> **Note:** if you have installed NodeJS previously, you will have to uninstall it first. Having node and npm already installed doesn't matter. 
 
-Node is installed in the terminal as a global installation on your operating system.
+Installing node with `nvm` is easier as it allows you to manage and upgrade node versions. This is especially useful if you are working on multiple projects with different Node versions
 
-Open a terminal window MacOS(spacebar + enter) / Windows (go to start and find the terminal)
+- [Install Node & Node Version Manager](https://github.com/nvm-sh/nvm#install--update-script)
 
-In the terminal paste the following command for node
+If you want to install Node using the terminal rather than the GUI, paste the following command for node in your terminal.
 
 ```
 curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -sudo apt-get install -y nodejs
@@ -139,4 +141,4 @@ Grunt was the first (therefore has first mover advantage over other build tools)
 
 Webpack and Browserify are bundlers and module loaders.
 
-The build can be done manually but a combination of these pre-packaged tools make it so much easier to create a production-ready/ deployment-ready package for servers like Heroku/ AWS/ Azure/ Google Cloud to parse and display content on the browser.
+The build can be done manually but a combination of these pre-packaged tools make it so much easier to create a production-ready/ deployment-ready package for servers like Heroku/ AWS/ Azure/ Google Cloud to parse and display content on the browser. -->

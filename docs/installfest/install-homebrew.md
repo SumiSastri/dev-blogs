@@ -1,6 +1,13 @@
-## Homebrew Package Manager
+---
+layout: default
+parent: Installfest
+nav_order: 12
+title: How to install HomeBrew on a Mac
+---
 
-Homebrew is a package manager for OSX. Packages are bundles of source code distributed by developers of software, which can be compiled and installed on your machine.
+# How to install HomeBrew on a Mac
+
+Homebrew is a package manager for Mac OSX. Packages are bundles of source code distributed by developers of software, which can be compiled and installed on your machine.
 
 You can install both Xcode and Homebrew with one command
 
