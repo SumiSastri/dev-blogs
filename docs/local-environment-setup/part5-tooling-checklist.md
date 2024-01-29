@@ -15,22 +15,29 @@ During the development process you need to check you Mac has the
 
 1. A code editor or IDE (integrated development environment) - Atom, Visual Studio Code, Sublime Text (See section on clean code for [a quick guide to code editors and IDEs](https://sumisastri.github.io/dev-blogs/clean-code/part2-code-editors-and-how-to-setup-eslint/)
 
-2.  Version control - GitHub or Gitlab, BitBucket for more details on [how GitHub works as a version control system](https://sumisastri.github.io/dev-blogs/version-control-systems/) and to set up a GitHub repo
+2. Version control - GitHub or Gitlab, BitBucket. 
 
-3. For JavaScript developers 
+Git which is a version control system should be preinstalled on both Mac and Windows. Run ```git --version```. For more details on [how GitHub works as a version control system](https://sumisastri.github.io/dev-blogs/version-control-systems/) and to set up a GitHub repo.
+
+3. For JavaScript developers - Node is a JavaScript environment that you will need if you are developing through the stack with JavaScript or TypeScript - in terminal type ```node --version``` to see if Node is pre-installed.
+
+- [Node version check](https://www.sitepoint.com/beginners-guide-node-package-manager/)
+- `which node` or  `node --version` for the version of node
+- `which npm` or  `npm --version` for the version of node package manager
 - Node and Node Version Manager
 
 > **Note:** if you have installed NodeJS previously, you will have to uninstall it first. Having node and npm already installed doesn't matter. 
 
-Check by running `node --version` or `which node` you will know if Node has been installed
-
-Installing node with `nvm` which allows you to manage and upgrade node versions. This is especially useful if you are working on multiple projects with different Node versions
+Installing node with `nvm` is easier as it allows you to manage and upgrade node versions. This is especially useful if you are working on multiple projects with different Node versions
 
 - [Install Node & Node Version Manager](https://github.com/nvm-sh/nvm#install--update-script)
 
-4. For Mac users 
-- [Install Homebrew]  
-- [Install Xcode]
+4. For Mac users
+
+HomeBrew is a package manager which helps you install external software packages on your Mac.
+
+Check if you have Homebrew installed run `brew doctor` 
+Check if you have Xcode installed run `xcode` or  `xcode --version` 
 
 You can install both Xcode and Homebrew with one command
 

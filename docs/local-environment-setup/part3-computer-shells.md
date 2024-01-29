@@ -25,8 +25,6 @@ The main difference between Bash and the Z shell is not so much what you can do 
 
 By default the command line on a Mac is fairly unhelpful and not nearly as pleasent to work on as it can be with a few tweaks.
 
-If you skipped the pre-install checks, you will need to
-
 Type `echo $0` or `which zsh`
 If you get the answer `/bin/zsh` then you are in the Zish shell and if you get `/bin/bash` you are in the Bash shell.
 
