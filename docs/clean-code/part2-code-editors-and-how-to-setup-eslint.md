@@ -7,7 +7,7 @@ nav_order: 11
 
 # Code editors and linting
 
-There are as many code editors as there are coding languages. Before code editors were developed, Notepad and TextEdit on Macs were used or vim - on the computer terminal.
+There are as many code editors as there are coding languages. Before code editors were developed, Notepad and TextEdit on Macs were used or Vim - on the computer terminal.
 
 Modern code editors come with many extensions to help code writers write and edit code as well as check formatting and syntax. They also provide you with a linter, which is a tool that analyses your code and flags up errors, bugs, syntax mistakes and incorrect code constructs.
 
@@ -50,9 +50,13 @@ After you should be able to now use VS Code with the command `code .` or Atom wi
 
 Vim is an editor that is on every Mac terminal by default. All you need to do is type `vi` in your Mac terminal and the IDE fires up. Type `I` (insert and edit), escape from the command mode. You can quit `:q` (quit), `:qa` (quit all tabs the quit commands do do not save edits). The command for editing is to write and then quit `:wq` (write and quit) or `:wqa` (write and quit all tabs).
 
-Created by Bram Moolenaar in 1991 as an upgrade from the 1970s version, Vim is free, open-source and light-weight. It is easy to use but for the unfamiliar, a bit clunky and the vim commands can be a bit difficult to understand, at first.
+Created by Bram Moolenaar in 1991 as an upgrade from the 1970s version, Vim is free, open-source and light-weight. It is easy to use but for the unfamiliar, a bit clunky and the Vim commands can be a bit difficult to understand, at first.
 
-[This guide](https://vim.rtorr.com/) might help. I use Vim, when I have to - for adding configs and some other tasks, but it is not my preferred IDE. However, this is a great guide if you want to check it out - [codecademy guide](https://www.codecademy.com/resources/blog/what-is-vim/) and [freeCodeCamp](https://www.freecodecamp.org/news/vim-language-and-motions-explained/) provides a more detailed guide.
+- [This guide](https://vim.rtorr.com/) might help. 
+
+I use Vim, when I have to - for adding configs and some other tasks, but it is not my preferred IDE. However, this is a great guide if you want to check it out - [codecademy guide](https://www.codecademy.com/resources/blog/what-is-vim/) and [freeCodeCamp](https://www.freecodecamp.org/news/vim-language-and-motions-explained/) provides a more detailed guide.
+
+- This is another useful [Vim CheatSheet](https://vimsheet.com/)
 
 ## Atom set up and linting for JavaScript
 

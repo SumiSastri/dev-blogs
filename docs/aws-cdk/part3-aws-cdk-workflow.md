@@ -78,21 +78,21 @@ You can run the whole process with the CLI after the initial set up.
 
 - Log into your AWS Account
 
-- Use vim command in root `vi ~/.aws/credentials` and set up your AWS profile locally
+- Use Vim command in root `vi ~/.aws/credentials` and set up your AWS profile locally
 
 You will need:
 
 `aws_access_key_id`
 `aws_secret_access_key`
 
-- In vim give your profile a name:
+- In Vim give your profile a name:
 
-- Delete all previous configs exit vim `escape :` after the colon type`1,$d` (you can also delete a specific number of lines `:[Start],[end]d` eg: `:1,4d`)
+- Delete all previous configs exit Vim `escape :` after the colon type`1,$d` (you can also delete a specific number of lines `:[Start],[end]d` eg: `:1,4d`)
 
-- Paste your config in the credentials file exit vim `:wqa`
+- Paste your config in the credentials file exit  `:wqa`
 
-In root directory check using vim - `vi ~/.aws/credentials` you should see your environment variable saved
-To quit vim `:wqa`
+In root directory check using Vim - `vi ~/.aws/credentials` you should see your environment variable saved
+To quit Vim `:wqa`
 
 To change details if you have got them wrong - see [instructions on the link](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html) and for [more details](https://docs.aws.amazon.com/cli/latest/reference/configure/set.html)
 

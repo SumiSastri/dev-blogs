@@ -7,7 +7,7 @@ title: Tooling a checklist
 
 # Tooling a checklist
 
-Before you set up your local environment with global installs of useful packages that will support your development of software locally, I have a checklist of tools that you may find useful to checkout and use as appropriate.
+Before you set up your local environment with global installs of useful packages that will support your development of software locally. This is a basic list please check the section Installfest for details on other package installation guides.
 
 ## Basic tools
 
@@ -18,14 +18,28 @@ During the development process you need to check you Mac has the
 2.  Version control - GitHub or Gitlab, BitBucket for more details on [how GitHub works as a version control system](https://sumisastri.github.io/dev-blogs/version-control-systems/) and to set up a GitHub repo
 
 3. For JavaScript developers 
-- [Install Node]
-- [Install Node Package Manager] 
-- [Install Node Version Manager] 
+- Node and Node Version Manager
+
+> **Note:** if you have installed NodeJS previously, you will have to uninstall it first. Having node and npm already installed doesn't matter. 
+
+Check by running `node --version` or `which node` you will know if Node has been installed
+
+Installing node with `nvm` which allows you to manage and upgrade node versions. This is especially useful if you are working on multiple projects with different Node versions
+
+- [Install Node & Node Version Manager](https://github.com/nvm-sh/nvm#install--update-script)
 
 4. For Mac users 
 - [Install Homebrew]  
 - [Install Xcode]
+
+You can install both Xcode and Homebrew with one command
+
+```
+xcode-select --install && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
 - [Install Zsh or Bash and customise]
+[In Part 3 - Computer shells the difference between Bash and Zish there is a quick guide](https://sumisastri.github.io/dev-blogs/dev-environment/part3-computer-shells/)
 
 ## Useful apps and GUIs
 
