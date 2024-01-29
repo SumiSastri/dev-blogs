@@ -126,11 +126,12 @@ zstyle ':vcs_info:git:*' actionformats '(%b|%a%u%c)'
 
 Ensure there are no trailing spaces at the end of the file
 
-Further reading and to debug your `.zshrc file` if you get errors
-[1 - Official ](https://zsh.sourceforge.io/Doc/Release/User-Contributions.html#Version-Control-Information)
-[4 - Sal Ferrarello blog](https://salferrarello.com/zsh-git-status-prompt/)
-[2 - The Modern Coder](https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/)
-[3 - Araaj van der Garg](https://arjanvandergaag.nl/blog/customize-zsh-prompt-with-vcs-info.html)
+Further reading and to debug your `.zshrc file` if you get errors:
+
+- [1 - Official ](https://zsh.sourceforge.io/Doc/Release/User-Contributions.html#Version-Control-Information)
+- [2 - The Modern Coder](https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/)
+- [3 - Araaj van der Garg](https://arjanvandergaag.nl/blog/customize-zsh-prompt-with-vcs-info.html)
+- [4 - Sal Ferrarello blog](https://salferrarello.com/zsh-git-status-prompt/)
 
 
 __Zish customisation with Oh My Zsh (optional)__
@@ -233,20 +234,18 @@ export PS1='\w \[\033[01;32m\]$(__git_ps1)\[$reset\] \$ '
 
 You can check which shell you are using by type `echo $SHELL` in your terminal.
 
-By default, macOS Catalina uses zsh as the default login shell (see this announcement[https://support.apple.com/en-ca/HT208050]). 
+By default, since the upgrade to Catalina, MacOS uses Zish [see this announcement](https://support.apple.com/en-ca/HT208050). 
 
 You can, however, change the default login shell through `chsh -s /bin/bash` or any other shells listed by running  `< /etc/shells` this lists the shell paths: /etc/shells, such as /bin/zsh, /bin/bash, /bin/csh, /bin/dash, /bin/ksh, /bin/sh, or /bin/tcsh..
 
-To test script compatibility with Bourne-compatible shells in macOS Catalina, you can change /var/select/sh to /bin/bash, /bin/dash, or /bin/zsh. If you change /var/select/sh to a shell other than bash, be aware that scripts that make use of bashisms may not work properly.
-
-zsh can be made to emulate sh by executing the command ```zsh --emulate sh```.
-
-You might want to switch from $bash to %zsh and vice-versa. To use %zsh - if you wish to switch to any of the other paths listed replace with the file path.
+You might want to switch from Bash to Zish and vice-versa. To use %zsh - if you wish to switch to any of the other paths listed replace with the file path.
 
 ``` chsh -s /bin/zsh```
-``` chsh -s /bin/sh```
 ``` chsh -s /bin/bash```
+
+In some code editors like VS Code, you can select a Zish or Bash shell by clicking the chevron to the right of the terminal.
+
+Further Reading:
 
 - [Sourbhajaj's set up guides](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
 - [Premium access PluralSight](https://app.pluralsight.com/course-player?courseId=29e8d875-9af9-4018-9362-1b94d3e1e049)
-

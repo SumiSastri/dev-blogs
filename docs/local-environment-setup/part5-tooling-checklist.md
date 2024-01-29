@@ -13,13 +13,19 @@ Before you set up your local environment with global installs of useful packages
 
 During the development process you need to check you Mac has the
 
-- A code editor or IDE (integrated development environment) - Atom, Visual Studio Code, Sublime Text (See section on clean code for [a quick guide to code editors and IDEs](https://sumisastri.github.io/dev-blogs/clean-code/part2-code-editors-and-how-to-setup-eslint/)
+1. A code editor or IDE (integrated development environment) - Atom, Visual Studio Code, Sublime Text (See section on clean code for [a quick guide to code editors and IDEs](https://sumisastri.github.io/dev-blogs/clean-code/part2-code-editors-and-how-to-setup-eslint/)
 
-- Version control - GitHub or Gitlab, BitBucket for more details on [how GitHub works as a version control system](https://sumisastri.github.io/dev-blogs/version-control-systems/) and to set up a GitHub repo
+2.  Version control - GitHub or Gitlab, BitBucket for more details on [how GitHub works as a version control system](https://sumisastri.github.io/dev-blogs/version-control-systems/) and to set up a GitHub repo
 
-- For JavaScript developers - Node and Node Version manager (nvm)
+3. For JavaScript developers 
+- [Install Node]
+- [Install Node Package Manager] 
+- [Install Node Version Manager] 
 
-- Package managers - Node package manager (npm) or Yarn, Homebrew for Macs in your local environment.
+4. For Mac users 
+- [Install Homebrew]  
+- [Install Xcode]
+- [Install Zsh or Bash and customise]
 
 ## Useful apps and GUIs
 
