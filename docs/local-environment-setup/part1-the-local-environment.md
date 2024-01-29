@@ -45,9 +45,11 @@ System Preferences > Keyboard
 10. Check your computer shell - a shell is a very basic user interface for accessing an operating system's service. Macs come shipped with a shell called 'bash' by default. 
 
 Type `echo $0`
-If you get the answer `/bin/zsh` then you are in the zish shell and if you get `/bin/bash` you are in the Bash shell.
+If you get the answer `/bin/zsh` then you are in the  shell and if you get `/bin/bash` you are in the Bash shell.
 
-Zish or `zsh` (zish) has some extra features to make web-development easier. The American English pronunciation of Z is "zee", so Zee shell which can get confused with C shell (or seashell) so Zish is sometimes used instead of Zee Shell. The alphabets `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao. 
+Another way to identify which shell you are in  is, you should see a `%` instead of a `$` at the terminal prompt with Zish. 
+
+Zish or `zsh` (Zish) has some extra features to make web-development easier. The American English pronunciation of Z is "zee", so Zee shell which can get confused with C shell (or seashell) so Zish is sometimes used instead of Zee Shell. The alphabets `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao. 
 
 More detail on what a computer shell is and how to set up and [manage the Bash and Zish shells in Part 3](https://sumisastri.github.io/dev-blogs/dev-environment/part4-secure-shells/)
 
