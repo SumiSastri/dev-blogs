@@ -42,6 +42,9 @@ I will start with Zish as it is my preferred shell.
 Zish or `zsh` (Zish) has some extra features to make web-development easier. The American English pronunciation of Z is "zee", so Zee shell which can get confused with C shell (or seashell) so Zish is sometimes used instead of Zee Shell. The alphabets `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao. 
 
 __Installing Zish__
+
+To install Homebrew see [Part 5 a tooling checklist]()
+
 If you are not in the Zish shell and do not have installed on your computer then to install Zish without Homebrew type `sudo apt install zsh git fonts-font-awesome` or type `brew install zsh` if you have already installed HomeBrew.
 
 If you have skipped the pre-install checks please run through them again as you may avoid the next step which is entering your computer password. If you have skipped these steps, type `sudo su` and enter your password. You should see a `#` instead of the `$`. Type `echo '/usr/local/bin/zsh' >> /etc/shells` to add `zsh` into the list of allowed shells, then type `exit`. You should see the `$` sign at the prompt again. 
