@@ -7,24 +7,25 @@ title: Tooling a checklist
 
 # Tooling a checklist
 
-Before you set up your local environment with global installs of useful packages that will support your development of software locally. This is a basic list please check the section Installfest for details on other package installation guides.
+This is a basic list please check the section Installfest for details on other package installation guides.
 
 ## Basic tools
 
-During the development process you need to check you Mac has the
+During the development process you need
 
 1. A code editor or IDE (integrated development environment) - Atom, Visual Studio Code, Sublime Text (See section on clean code for [a quick guide to code editors and IDEs](https://sumisastri.github.io/dev-blogs/clean-code/part2-code-editors-and-how-to-setup-eslint/)
 
-2. Version control - GitHub or Gitlab, BitBucket. 
+2. A version control system -  Git, the main version control system used by developers, should be preinstalled on both Mac and Windows. 
 
-Git which is a version control system should be preinstalled on both Mac and Windows. Run ```git --version```. For more details on [how GitHub works as a version control system](https://sumisastri.github.io/dev-blogs/version-control-systems/) and to set up a GitHub repo.
+Run ```git --version```. 
+
+For more details on [how GitHub works as a version control system](https://sumisastri.github.io/dev-blogs/version-control-systems/) and to set up a GitHub repo.
 
 3. For JavaScript developers - Node is a JavaScript environment that you will need if you are developing through the stack with JavaScript or TypeScript - in terminal type ```node --version``` to see if Node is pre-installed.
 
 - [Node version check](https://www.sitepoint.com/beginners-guide-node-package-manager/)
 - `which node` or  `node --version` for the version of node
 - `which npm` or  `npm --version` for the version of node package manager
-- Node and Node Version Manager
 
 > **Note:** if you have installed NodeJS previously, you will have to uninstall it first. Having node and npm already installed doesn't matter. 
 
@@ -45,8 +46,8 @@ You can install both Xcode and Homebrew with one command
 xcode-select --install && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-- [Install Zsh or Bash and customise]
-[In Part 3 - Computer shells the difference between Bash and Zish there is a quick guide](https://sumisastri.github.io/dev-blogs/dev-environment/part3-computer-shells/)
+- Install Zsh or Bash and customise
+[In Part 3 - Computer shells the difference between Bash and Zish there is a quick guide and more details to understand shells and shell switching ](https://sumisastri.github.io/dev-blogs/dev-environment/part3-computer-shells/)
 
 ## Useful apps and GUIs
 
