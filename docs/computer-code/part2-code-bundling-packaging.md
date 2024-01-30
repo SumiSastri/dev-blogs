@@ -89,3 +89,22 @@ npm uses CommonJS as a code bundler to facilitate easy distribution and helps de
 In summary, NodeJs packages code into programs using different libraries into a bundle called `node_modules`, and npm uses CommonJS and other bundlers and code parsers to manage packages of code from various libraries in the `node_modules` packages so that can be read and parsed by browsers.
 
 Some of the other JavaScript package managers are Bower/ JSPM /JAM and Volo. NPM has over a million packages so has become the most used JavaScript package manager.
+
+## What are Node or `npm` scripts
+
+Node or npm `scripts` is an object that holds a key-value pair of the scripts that can be run to build out your front-end browser-based app.
+
+They are like a batch file or a bash script, depending on your operating system. One of their key advantages is they will run a local version of your app.
+
+If you use the CLI - `npm run scripts` runs these scripts and builds your front-end. To run tests from your repo `npm run test`.
+
+Should there be a compile time error then an error is thrown in the Node Console with the reason why the script failed and where. 
+
+The errors are written to the Node Console as Node works outside the browser, so a `console.log()` command will log what you want to see in the terminal section of your IDE not in the google developer tools available with Chrome, which is a browser-based console.
+
+Gulp/ Grunt/ Webpack are all front-end build tools that have more specialised scripts and features that help front-end production-ready builds. Grunt was the first (therefore has first mover advantage over other build tools) task runner that automated the process of chunking, bundling, compiling and transpiling front-end code ready for production and deployment.
+
+Webpack and Browserify are bundlers and module loaders.
+
+The build can be done manually but a combination of these pre-packaged tools make it so much easier to create a production-ready/ deployment-ready package for servers like Heroku/ AWS/ Azure/ Google Cloud to parse and display content on the browser. 
+

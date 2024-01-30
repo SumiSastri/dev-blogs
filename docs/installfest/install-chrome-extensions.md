@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: Installfest
-nav_order: 12
+nav_order: 13
 title: Chrome Extensions for React and Redux
 ---
 

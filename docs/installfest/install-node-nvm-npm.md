@@ -1,61 +1,55 @@
-<!-- ## Install Node with NVM
+---
+layout: default
+parent: Installfest
+nav_order: 13
+title: How to install NodeJS with Node Version Manager(nvm)
+---
 
-Node is a run-time environment. It is not a language but uses JavaScript syntax to run programmes outside the browsers. It is instrinsically a JavaScript engine that works on the server side - just as Spider Monkey/ V8 work browser-side.
+# How to install NodeJS with Node Version Manager(nvm)
 
-Node is used to full stack web applications for those who prefer an end-to-end JavaScript solution architectuore. Node ships with command line tools and various other tools and packages.
+NodeJS, known as Node, is a run-time environment. This section helps you install Node with nvm, or Node Version Manager.
 
-Node updates are frequent. Different project may have different versions of node installed.
+Node not a language but uses JavaScript syntax to run programmes outside the browsers. It is instrinsically a JavaScript engine that works on the server side - just as Spider Monkey/ V8 work browser-side.
 
-This is where `nvm` or Node Version Manager is useful.
+Node is used to full stack web applications for those who prefer an end-to-end JavaScript solution architecture. Node ships with command line tools (the Node CLI) and various other tools and packages.
 
-To use the Node environment, several packages or modules - known as Node Modules need to be installed. Node package manager is used to install these modules and packages.
+For more on Node I have a [Node Tutorial repo on GitHub](https://github.com/SumiSastri/nodeJs-server-side-javascript) where I have followed some Linked-in and YouTube course materials.
 
-# Node Version Manager vs Node Package Manager
+## What is the different between `nvm` and `npm`
 
-To flip between different versions of the packages, `nvm` is installed. `nvm`(MacOS) or `nvm-windows` (WindowsOS)
+Node updates are frequent. Different project may have different versions of Node installed.
 
-In terminal run ```node --version``` to see if Node is pre-installed.
+This is where `nvm` is useful.
 
-- [Node version check](https://www.sitepoint.com/beginners-guide-node-package-manager/)
-- `which node` or  `node --version` for the version of node
-- `which npm` or  `npm --version` for the version of node package manager
+To use the Node environment, several packages or modules - known as node modules need to be installed. 
 
-> **Note:** if you have installed NodeJS previously, you will have to uninstall it first. Having node and npm already installed doesn't matter. 
+Node Package Manager, more familiarly refered to as `npm`, is used to install these modules and packages.
 
-Installing node with `nvm` is easier as it allows you to manage and upgrade node versions. This is especially useful if you are working on multiple projects with different Node versions
+While `npm` is used to install packages of code that your app requires to function, `nvm` manages the version of node used in your app.
 
-- [Install Node & Node Version Manager](https://github.com/nvm-sh/nvm#install--update-script)
+Installing Node with `nvm` is easier as it allows you to manage and upgrade Node versions. This is especially useful if you are working on multiple projects with different Node versions.
 
-If you want to install Node using the terminal rather than the GUI, paste the following command for node in your terminal.
+## Node pre-installation checks
 
+In terminal run 
+
+```sh
+node --version
+``` 
+
+for the version of Node. You can also use this [Node version check link](https://www.sitepoint.com/beginners-guide-node-package-manager/) For the version of nvm, run
+
+```sh
+nvm --version
 ```
-curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -sudo apt-get install -y nodejs
-```
 
-Install NVM [https://github.com/nvm-sh/nvm#installing-and-updating]
+> **Note:** if you have installed NodeJS previously, you will have to uninstall it first. 
+
+- [Install nvm] (https://github.com/nvm-sh/nvm#installing-and-updating)
 
 In terminal `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
 
-You need to close the terminal and open it again after installation to check
-
-node --version
-nvm --version
-
-Once you do this you can run the script
-
-`nvm use` which will use the existing NodeJS version in your project.
-
-**Get the latest version of node with an alias**
-
-```
-nvm alias default 12
-```
-
-or
-
-```
-nvm install 12
-```
+You need to close the terminal and open it again after installation to check if nvm has been installed.
 
 Once `nvm` is installed, list the available versions by typing:
 
@@ -63,15 +57,29 @@ Once `nvm` is installed, list the available versions by typing:
 nvm ls-remote
 ```
 
-And you will be shown a list of all the available versions of node.js. Install the latest version. At the time of writing that was `v12`.
-
-If you type:
+You can now install the exact version of Node you require by running either of these commands
 
 ```sh
-node --version
+nvm alias default 12
 ```
 
-You should see the last version number that you've installed.
+or
+
+```sh
+nvm install 12
+```
+
+And you will be shown a list of all the available versions of node.js. Install the latest version. At the time of writing that was `v12`.
+
+- [Install Node & Node Version Manager with the GUI](https://github.com/nvm-sh/nvm#install--update-script). If you prefer to install Node and nvm separately you can use the GUI link. If you want to install Node using the terminal rather than the GUI, paste the following command for Node in your terminal. This is useful if you do not have HomeBrew or Xcode preinstalled.
+
+```sh
+curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -sudo apt-get install -y nodejs
+```
+Once you start coding with Node as an environment or with npm to install packages that your app is dependent on for performance, you will see a directory of `node_modules` installed. If Node is part of your app's stack, you will require an dot file `.npmrc` where you pin the version of Node used in the package. You can then run `nvm use` in the project and use different versions of Node in different projects on your local machine.
+
+
+<!--
 
 **Trouble shooting with MacOS installing Node**
 
@@ -114,7 +122,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 <!-- or for oh my zsh -->
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+<!-- export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 ```
@@ -123,22 +131,5 @@ file (follow the subprocess in the Homebrew section)
 
 In your project now you can use `npm install -y` which will set up a `package.json` file that stores the dependencies you have used in your repository.
 
-**This loads nvm bash_completion**
+**This loads nvm bash_completion** -->
 
-# Node scripts
-
-`npm` scripts they are a lightweight, easy to learn alternative to Grunt, Gulp, Webpack, etc. They are actually part of the `package.json` file. The `scripts` object holds the key-value pair of the key scripts that can be run to build out your front-end browser-based app.
-
-They are like a batch file or a bash script, depending on your operating system. One of their key advantages is they will run the local version of an `npm` module you have installed for your project without providing a path. The program goes to the `node_modules` folder.
-
-If you use the CLI - `npm run scripts` runs these scripts and builds your front-end. To run tests from your repo `npm run test`.
-
-Should there be a compile time error then an error is thrown in the console with the reason why the script failed and where. The errors are written to the console as Node works outside the browser, so a `console.log()` command will log what you want to see in the CLI and not necissarily in the google browser console.
-
-Gulp/ Grunt/ Webpack are all front-end build tools that have more specialised scripts and features that help front-end production-ready builds.
-
-Grunt was the first (therefore has first mover advantage over other build tools) task runner that automated the process of chunking, bundling, compiling and transpiling front-end code ready for production and deployment.
-
-Webpack and Browserify are bundlers and module loaders.
-
-The build can be done manually but a combination of these pre-packaged tools make it so much easier to create a production-ready/ deployment-ready package for servers like Heroku/ AWS/ Azure/ Google Cloud to parse and display content on the browser. -->
