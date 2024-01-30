@@ -11,7 +11,7 @@ A shell is a very basic user interface for accessing an operating system's servi
 
 Two of the most popular shells, Bash and Zish both are mostly used on UNIX and Linux systems. In the UNIX world, and that includes macOS and Linux, many shell implementations have been popular in the past, like Bash, the Korn shell, the C shell (seashell).
 
-[Read Part 4 for the difference between shells and secure shells](https://sumisastri.github.io/dev-blogs/dev-environment/part4-secure-shells/)
+[Read Part 5 for the difference between shells and secure shells](https://sumisastri.github.io/dev-blogs/local-environment-setup/part5-secure-shells/)
 
 In the mid‑nineties, the UNIX world has been dominated by Bash, which is the default shell on almost every Linux and BSD system. There are exceptions, though, and one of them is macOS, which used to have Bash as the default shell but recently switched to the Zee (S) shell with the introduction of macOS Catalina.
 
@@ -43,7 +43,7 @@ Zish or `zsh` (Zish) has some extra features to make web-development easier. The
 
 __Installing Zish__
 
-To install Homebrew see [Part 5 a tooling checklist]()
+To install Homebrew see [the section basic tooling for beginner's learning to code](https://sumisastri.github.io/dev-blogs/local-environment-setup/part3-tooling-checklist/)
 
 If you are not in the Zish shell and do not have installed on your computer then to install Zish without Homebrew type `sudo apt install zsh git fonts-font-awesome` or type `brew install zsh` if you have already installed HomeBrew.
 

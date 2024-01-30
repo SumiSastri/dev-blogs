@@ -7,7 +7,7 @@ title: What are developer workflows and environments?
 
 # What are developer workflows and environments?
 
-As we have seen in [Part 1 - What is a version control system and why do we need it](https://sumisastri.github.io/dev-blogs/github-and-version-control/part2-dev-workflows/), version control systems help software developers to write and experiment with code to develop features for a software application. To allow for parallel workflows across multiple systems, geographies and developers the code base has a root and branch structure.
+As we have seen in [Part 1 - What is a version control system and why do we need it](https://sumisastri.github.io/dev-blogs/github-version-control/part1-what-is-version-control/), version control systems help software developers to write and experiment with code to develop features for a software application. To allow for parallel workflows across multiple systems, geographies and developers the code base has a root and branch structure.
 
 The root of the branches is the final shipped software to the end user. The trunk is the workflow pipeline and the individual branches are the sections of code that individual teams and developers work on.
 

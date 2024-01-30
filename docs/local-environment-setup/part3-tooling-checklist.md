@@ -19,7 +19,7 @@ Installfest has some simple set up instructions resources that I hope will help 
 
 During the development process you will need these basic tools. 
 
-Make sure you have read [Part 1 - your local environment] and have run all the pre-set up steps. You will also need to be familiar with your computer terminal, [read Part 2 for a more detailed view of how your terminal works](https://sumisastri.github.io/dev-blogs/dev-environment/part2-the-terminal/) and use the cheatsheet to check out the terminal commands and familiarise yourself navigating your computer with the terminal.
+Make sure you have read [Part 1 - your local environment] and have run all the pre-set up steps. You will also need to be familiar with your computer terminal, [read Part 2 for a more detailed view of how your terminal works](https://sumisastri.github.io/dev-blogs/local-environment-setup/part2-the-terminal/) and use the cheatsheet to check out the terminal commands and familiarise yourself navigating your computer with the terminal.
 
 You are now ready for the next steps in getting your local environment ready. Follow set up in the order given below.
 
