@@ -9,8 +9,6 @@ title: How to setup and use a GitHub repo or repository
 
 Repositories are created for personal side projects and for commercial organisations to maintain their code base.
 
-Follow the steps you now get on your repo - GitHub has added an additional step to create a branch (time of writing Oct 2020)
-
 - to create a new repository on the command line
   echo "# testing-with-jest" >> README.md
   git init
@@ -53,6 +51,3 @@ node_modules
 
 **Save** and close the file.
 
-__Official Git Tutorials__
-
-Git is neither easy to understand or master so use a search engine to find answers if you are stuck. Git also has an [official tutorials section](https://git-scm.com/docs/gittutorial) and YouTube is another great resource if you follow best with video tutorials.

@@ -43,7 +43,7 @@ for the version of Node. You can also use this [Node version check link](https:/
 nvm --version
 ```
 
-> **Note:** if you have installed NodeJS previously, you will have to uninstall it first. You will also need to have set up your `.zshrc` and if you are using Bash your `.bash_profile` and `.bashrc`
+> **Note:** if you have installed NodeJS previously, you will have to uninstall it first. You will also need to have set up your `.zshrc` and if you are using Bash your `.bash_profile` and `.bashrc` (see trouble shooting if you have not set this up)
 
 To install `nvm` run `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
 
