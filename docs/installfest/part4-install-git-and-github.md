@@ -1,7 +1,7 @@
 ---
 layout: default
-parent: Version Control
-nav_order: 8
+parent: Installfest
+nav_order: 13
 title: Installing Git & GitHub
 ---
 

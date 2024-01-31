@@ -1,8 +1,11 @@
+---
+layout: default
+parent: The developer environment
+nav_order: 7
+title: The terminal under the hood - computer processes
+---
 
-
-
-
-## The terminal under the hood - computer processes
+# The terminal under the hood - computer processes
 
 A computer's behavior is expressed in code and data that is contained within programs that run in your computer hardware - or local environment, or operating system (OS).
  
