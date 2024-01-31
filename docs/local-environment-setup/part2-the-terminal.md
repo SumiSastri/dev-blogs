@@ -49,18 +49,20 @@ _List_
 - `ls` - list files
 - `ls - a` list all including hidden files
 - `ls - l` list long version
-- `ls - la` list all including hidden files in long version
+- `ls - la` or `ls -lah` list all including hidden files in long version
 - `ls - s` list and sort
 - `ls -lt` list long and sort by modification time - newest first
-- `ls *a` - files starting with a
-- `ls *a*` - files with a anywhere
+- `ls | less` - list a shorter version (uses the pipe symbol)
+- `ls a*` - files starting with a (uses the wild card asterisk to search)
+- `ls *a` - files ending with a (uses the wild card asterisk to search)
+- `ls *amperstand*` - files with amperstand anywhere in the files (see grep as well)
 - `pwd` - path to home directory - prints all in file path
 - `echo $PATH` - prints current path. Your default path should be export PATH=/usr/bin:/usr/sbin:/bin:/sbin
 
 _Create_
 
-- `mkdir [directory name]` make a directory
-- `touch [filename]` make a new file in the directory if you have spaces between file names you will have as many files as there are spaces eg: `touch this is my file` - will create this/is/my/file as separate files.
+- `mkdir <directory name>` make a directory
+- `touch <filename>` make a new file in the directory if you have spaces between file names you will have as many files as there are spaces eg: `touch this is my file` - will create this/is/my/file as separate files.
 - `cat this \ is \ my \file` concatinates files into one file - you will get a file with <thisismyfile> as the file name
 - `echo ` prints to console
 - `nano create_report`
@@ -78,7 +80,7 @@ _Navigate or move files/directories/shells_
 - `mv [~/filepathfrom ~/filepathto]` move file from one directory to another
 - `mv [~/*.file-extension ~/filepathto]` move all files with the file extension (eg: .doc/.jpg) from one directory to another
 - `open [file_name]`
-- `chsh -s` change shell
+- `chsh -s` change shell to Zish, Bash or sh
 - `chsh -s /bin/zsh`
 - `chsh -s /bin/sh`
 - `chsh -s /bin/bash`
@@ -90,7 +92,10 @@ _Navigate or move files/directories/shells_
 - `spacebar` move down a page
 - `q` quit
 - `wqa` quit all
-- `grep ` search text strings
+- `grep ` search eg: `grep <searchkeywords>*` this will search through text and files
+- `grep <searchkeywords> | sort` sorts the search out in alphabetical order
+- `grep <searchkeywords> | wc -l` search and list number of lines and word count
+- `grep <searchkeywords>*` - search all matches - if key word is NodeJS matches and returns files
 - `echo *` prints all the files in the directory (star is a wild card finder)
 - `chmod ` change mode
 - `chmod u+x [file_name]` change mode to the user of the computer only can execute commands on the file
@@ -116,9 +121,12 @@ _Delete_
 - `rm [file_name]` remove file - destructive you won't get the file back again
 - `rm -rf [file_name]` remove file force remove
 
-_Super user rights_
+_`sudo`` or Super user rights_
 
-- `sudo ` gives you super admin rights to your computer - if you are working with a team these rights may be reserved only to senior developers
+`sudo` is the short version of super-user-do and is usually used to install packages - you will find many examples in the [Installfest section](https://sumisastri.github.io/dev-blogs/installfest/) 
+
+- `sudo ` gives you super admin rights to your computer - if you are working with a team these rights may be reserved only to senior developers. 
 - ` sudo chown` - change file owner or user
 - ` sudo chown -r` change file owner or user recursively
 - ` sudo chmod` change mode - changes user rights
+

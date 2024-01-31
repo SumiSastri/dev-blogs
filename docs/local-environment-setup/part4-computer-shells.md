@@ -7,7 +7,9 @@ title: Computer shells - Bash vs Zish
 
 # Computer shells - Bash vs Zish
 
-A shell is a very basic user interface for accessing an operating system's service. 
+A shell a peice of software that is a basic user interface for accessing an operating system's (OS)service. 
+
+In the early 1960s, French computer scientist [Louis Pouzin](https://en.wikipedia.org/wiki/Louis_Pouzin) was credited for writing the first software that ressembles a modern computer shell.
 
 Two of the most popular shells, Bash and Zish both are mostly used on UNIX and Linux systems. In the UNIX world, and that includes macOS and Linux, many shell implementations have been popular in the past, like Bash, the Korn shell, the C shell (seashell).
 
@@ -30,11 +32,10 @@ If you get the answer `/bin/zsh` then you are in the Zish shell and if you get `
 
 Another way to identify which shell you are in  is, you should see a `%` instead of a `$` at the terminal prompt with Zish. 
 
-- First check if you have a  `.bashrc` or a `.zshrc` file 
+- First check if you have a  `.bashrc` or a `.zshrc` file these are the files that you can use to customise your personal commands to customise your shell
 - In terminal type `open .bashrc` or `open .zshrc`
 
 If you do not have these files you can create them depending on which shell you would like to use.
-
 I will start with Zish as it is my preferred shell.
 
 ## Zish
@@ -71,6 +72,7 @@ __The `.zshrc` file__
 .zcompdump
 .zsh_history
 .zsh_sessions
+.zshenv (the equivalent of bash_profile)
 
 ```
 To check these hidden dot files type `ls -a` which is list all including hidden files in your terminal. You may also see .bash_profile.save which means you have both Zish and Bash installed and you can switch shells if you prefer Bash.
