@@ -2,23 +2,28 @@
 layout: default
 parent: Installfest
 nav_order: 13
-title: Installing Git & GitHub
+title: Installing Git and linking it to GitHub
 ---
 
-# Installing Git & GitHub
+# Installing Git 
 
-To get you started with the installation of GitHub and Git the [git guidelines are a good place to start ](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
+Some new Macs already have Git installed to check run
+`git --version`
 
-**Install `git`**
+- Ensure you're not using "Apple Git"
 
-To paraphrase some of the steps
+If you do have Git installed, the official docs recommend you update by running
+`git clone https://git.kernel.org/pub/scm/git/git.git`
 
-[To sign up and set up an account follow the instructions on this link](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
+- To check in terminal type `which git` it should say `/usr/local/bin/git` or `/usr/bin/git`
 
-There are several ways to install Git and GitHub to your local machine
 
-1. With you computer Terminal's [command line interface (CLI)](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) - run the command
-`$ sudo dnf install git-all` or `$ sudo apt install git-all`
+The [official docs to install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) are quite easy to follow.
+
+There are several ways to install Git
+ 1. Directly with the Xcode CLI 
+
+   `sudo dnf install git-all` or `$ sudo apt install git-all`
 
 2. You can use the [binary installer](https://sourceforge.net/projects/git-osx-installer/
 )
@@ -31,71 +36,65 @@ There are several ways to install Git and GitHub to your local machine
 
 - Quit Terminal and reopen it
 
-- Ensure you're not using "Apple Git"
+## Create a GitHub account
 
-- To check in terminal type `which git` it should say `/usr/local/bin/git`
+To use Git you need a cloud based service to host your version control repositories.
 
-- Configure your name and email address for commits (be sure to use the email address you have registered with Github) not the email that is your personal/ office email. If you are required to setup an enterprise github with your organisation double check this step with your team lead or manager.
+[GitHub account options](https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts) give you the option to set up a free account which is ideal for anyone learning to code.
 
-_Connecting the cloud-based instance of GitHub to your local machine_
+[To sign up for a Git Hub account follow the instructions on this link](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
+
+Even if you work with an orgainsation, you will use your personal account. The organisation repository custodians will set you a role and access level, depending on their security and access policies for GitHub.
+
+This is true even with SAML-SSO(single sign on where authentication is required at an enterprise level).
+
+GitHub now strongly reccommends you use 2FA (2-factor authentication) since its [March 2023 announcement](https://github.blog/2023-03-09-raising-the-bar-for-software-security-github-2fa-begins-march-13/) to share with users the increased level of access security settings provided.
+
+Once you have created a GitHub account, you can [add 2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
+
+
+## Using secure socket shell (SSH) to connect your local machine to GitHub
+
+GitHub is a web-based Git repository hosting service. It allows you to store a remote copy of your projects and all the changes (versions) you have made. 
 
 To successfully use GitHub, you should be able to write code in your local machine and then send the code (push the code) to your cloud-based repo or repository. Equally, if you want to update code, you should be able to access this remote version (pull code) into your local machine again.
 
 The two sets of code - on your local machine and the cloud back up should be sync'd by this pull-push method.
 
-[This is an excellent walk through from free-code-camp](https://www.freecodecamp.org/news/git-ssh-how-to/) which you can follow to configure your local machine to sync code with your cloud-based GitHub repo.
+To login to GitHub, you will need to use a secure socket shell (SSH) key. SSH keys are are a way to identify trusted computers, without involving passwords.
 
+Check if you already have SSH keys on your computer. Open up your Terminal and type: `ls -al ~/.ssh`. 
 
-First Check file path `git config --list --show-origin`
+If you get `No such file or directory` 
 
-Your user name:
-`git config --global user.name "John Doe"`
+**Generate a new SSH key**, otherwise, go to step 4 **Add your SSH Ket to Github**.
 
-Your email:
-`git config --global user.email johndoe@example.com`
+1. Generate a new SSH key - run `ssh-keygen -t rsa -C <"your_email@example.com">` 
+      Note: THE EMAIL IS THE EMAIL YOU USED TO SET UP GITHUB 
 
-Track case changes in file names:
-`git config --global core.ignorecase false`
+2. You'll be prompted for a file to save the key in a filepath, and a passphrase. Press enter for all steps leaving both options blank (default name, and no passphrase). If you do enter a name and passphrase SAVE BOTH THE NAME AND PASSPHRASE
 
-Check set up:
-`git config –list`
+You should get a success message with your key fingerprint. `<some serialised hash number> + <your email>` SAVE THE KEY BEFORE EXITING TERMINAL
 
-## Global `.gitignore`
-
-There are a few files that we don't want Git to track. We can specifically ignore them by adding the files to a global `.gitignore` file.
-
-Create a file in your home directory called `.gitignore_global` and configure git to use it for all repos, like so:
-
-```sh
-touch ~/.gitignore_global
-git config --global core.excludesfile ~/.gitignore_global
-```
-
-[The gitignore docs are a useful guideline](https://git-scm.com/docs/gitignore)
-
-**Configure secure shell or SSH access to Github**
-
-GitHub is a web-based Git repository hosting service.
-
-It allows you to store a remote copy of your projects and all the changes (versions) you have made. 
-
-To login to GitHub, you will need an SSH key. SSH keys are are a way to identify trusted computers, without involving passwords.
-
-Check if you already have SSH keys on your computer. Open up your Terminal and type: `ls -al ~/.ssh`. If you get `No such file or directory` go to the next step **Generate a new SSH key**, otherwise, go to step 4 **Add your SSH Ket to Github**.
-
-1. Generate a new SSH key by typing `ssh-keygen -t rsa -C "your_email@example.com"` SAVE THE KEY
-2. You'll be prompted for a file to save the key, and a pass phrase. Press enter for both steps leaving both options blank (default name, and no pass phrase).
-3. Add your new key to the ssh-agent:
+3. Add your new key to the SSH-agent on your local machine. The agent refers to the file path where the SSH key is encrypted and stored. 
    `ssh-add ~/.ssh/id_rsa`
-4. Add your SSH key to GitHub by logging into Github, visiting **Account settings** and clicking **SSH keys**. Click **Add SSH key**
-   It will read
-   SHA256:some serialised hash + your email associated to your laptop
-   You can also find it by clicking your profile image and the edit key under it in the left nav.
-5. Copy your key to the clipboard with the terminal command:
-   `pbcopy < ~/.ssh/id_rsa.pub`
-6. In the **Title** field put something that identifies your machine, eg: **My Office Mac - Office Repo Keys** or for your personal computer **My Home computer - personal repo Keys**
-7. In the **Key** field just hit <kbd>cmd</kbd> + <kbd>V</kbd> to paste the key that you created earlier - _do not add or remove and characters or whitespace to the key_
-8. Click **Add key** and check everything works in the terminal by typing:
+
+You should get a success message  - Identity added with the file path and your email.   
+
+4. Copy your key to the clipboard with the terminal command:
+   `pbcopy < ~/.ssh/id_rsa.pub` (SAVE THIS INFORMATION FOR FUTURE REFERENCE)
+
+5. Add your SSH key ID generated in the step above to GitHub 
+   - log into your Github account (with a new computer/ if you have more than one device - work and home for example - you may now also be asked to create a passkey to identify and link the device to GitHub securely)
+   - go to **/settings/profile** under your repo
+   - you can find this section by clicking your profile image and the edit key under the image in the right navigation panel. Then on the left navigation panel you should see SSH and GPG keys
+   - click **SSH and GPG keys**
+   - click **New SSH key**
+   - in the **Title** field put something that identifies your machine, eg: **My Office Mac - Office Repo Keys** or for your personal computer **My Home computer - personal repo Keys**
+   -  In the **Key** field paste your SSH key that you have saved to the clipboard in step 4 - or just use <kbd>cmd</kbd> + <kbd>V</kbd> to paste _do not add or remove and characters or whitespace to the key_
+   - Save by clicking **Add SSH key** 
+   
+   and check everything works in the terminal by typing:
    `ssh -T git@github.com` <br>
 
 You should see the following message:
@@ -103,17 +102,14 @@ You should see the following message:
 ```
 Hi YOUR_NAME! You've successfully authenticated, but GitHub does not provide shell access.
 ```
+_Trouble shooting_
+_
+  - In case you do not, you may have to go to your email with which you signed up for a GitHub repo and download your recovery codes they are random numbers and you will get between 12 to 20 recovery codes. SAVE YOUR GIT HUB RECOVERY CODES - it is recommended to manage passwords with a password keeper - 1Password, Authy or Keeper by GitHub
 
-<br>
+  Note these codes are your LAST DEFENCE in case you lose or forget your pasword and 2FA does not work. If you lose these codes, you will lose access to your account. There is NO customer service or support with account recovery for the free tier.
 
-Now that your local machine is connected to the cloud you can create a repo online or on your local machine. Git has changed the name master for a branch main.
-When linking repos it is easier to use the HTTPS key rather than the SSH key. While you need the SSH to link the repos initially to avoid the error.
+  - Now go back and type  `ssh -T git@github.com` 
 
-```
-Permission denied (publickey).
-fatal: Could not read from remote repository.
+  If the error message - the authenticity of host github.com can't be established, you will get a prompt - are you sure you want to continue, instead of typing yes or no, type your SHA fingerprint that you have saved in step 2, note this is not the same as the SSH-rsa which you have pasted into your cloud-based GitHub repo.
 
-Please make sure you have the correct access rights
-and the repository exists.
-```
-This is a basic set up. Please read the section on [repo security](https://sumisastri.github.io/dev-blogs/github-repo-security/) to set up your repo more securely. There may be some duplication of content.
+Now that your local machine is connected to the cloud you can create a repo online or on your local machine and check if the two are in sync.
