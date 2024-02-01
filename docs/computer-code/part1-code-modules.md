@@ -7,7 +7,9 @@ nav_order: 6
 
 # What is a code module?
 
-A module is a way of encapsulating code before it is bundled. It is the process of writing reusable code that can be exported and made available to other dependent code blocks.
+Computer code is a series of instructions written in a computer programming language that tells the computer what to do. How to execute these instructions written by code writers, computer programmers, software engineers and developers.
+
+A module is a way of encapsulating this code before it is bundled. It is the process of writing reusable code that can be exported and made available to other dependent code blocks.
 
 Code modules are similar to modular frameworks, like Ikea furniture modules that can be reused and reconfigured. Similarly, code writers bundle blocks of code into a module that can be reused.
 

@@ -11,6 +11,8 @@ GitHub a version-control system authored by Finnish-American, software developer
 
 Git is a tool that tracks changes to source code, and it's very basic. That's what it does. It tracks changes to any file actually, but it's mostly used for source code files. GitHub is where Git versions are stored - a hub for Git.
 
+[Git official documentation](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
+
 _Note_ When I refer to Git, this refers to the source code tracking tool, whereas git, is the series of commands and instructions used to track these changes in Git.
 
 Git isn't the only version control tool around, even though it's the most popular one. Other workflow tools are Gitlab and BitBucket.
