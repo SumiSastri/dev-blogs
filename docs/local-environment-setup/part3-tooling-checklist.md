@@ -36,11 +36,11 @@ You can install both Xcode and Homebrew with one command.
 xcode-select --install && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-__Note: It takes over 4-5 hours to install x-code, so plug your computer into a power socket and let it run overnight.__
+__Note: It takes over 4-5 hours to install XCode, so plug your computer into a power socket and let it run overnight.__
 
 Run `xcode-select --install` to check if it has been installed, you will get the confirmation Command Line Tools are already installed, with an error use "Software Update" - in that case run ```softwareupdate -i -a```
 
-A more detailed guide in the Installfest section will help you trouble shooting installing x-code or Homebrew.
+A more detailed guide in the Installfest section will help you trouble shooting installing XCode or Homebrew.
 
 Neither HomeBrew nor Xcode are essential, installing Xcode CLI should be sufficient for starters. [GUIs or graphical user interfaces](https://www.computerhope.com/jargon/g/gui.htm) are often easier to install with versions for both Macs and PCs.
 

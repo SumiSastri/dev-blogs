@@ -35,7 +35,7 @@ JSON (JavaScript Object Notation) - is a lighter version of other more rigid syn
 The config.yml file has the following fields
 
 `name` - Name for this config eg: PR Checks
-`on` - Where the git hub action takes place
+`on` - Where the GitHub action takes place
 
 eg:
 

@@ -9,7 +9,7 @@ title: How to install HomeBrew on a Mac
 
 Homebrew is a package manager for Mac OSX. Packages are bundles of source code distributed by developers of software, which can be compiled and installed on your machine.
 
-You can install both Xcode and Homebrew with one command
+You can install both Xcode and Homebrew with one command. I personally do not have HomeBrew but do have XCode CLI.
 
 ```
 xcode-select --install && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -42,7 +42,7 @@ Test with `brew install hello`
 This will install it in your Bash shell
 
 Subprocess:
-If you are using bash, create a .bash_profile file `$touch .bash_profle` and add the code so that files are sourced in this order once you install homebrew and nvm
+If you are using bash, create a .bash_profile file `$touch .bash_profle` and add the code so that files are sourced in this order once you install Homebrew and nvm
 
 ```
 export NVM_DIR=~/.nvm && source ~/.nvm/nvm.sh
@@ -74,22 +74,4 @@ export PATH=$HOME/.linuxbrew/bin:$HOME/bin:/usr/local/bin:$PATH
 export ZSH="/Users/YourUserName/.oh-my-zsh"
 ```
 
-Now that it works
-
-## Trouble shooting
-
-[https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#troubleshoot-brew]
-
-Warning: The following directories are not writable by your user:
-/usr/local/share/zsh
-/usr/local/share/zsh/site-functions
-
-You should change the ownership of these directories to your user.
-sudo chown -R $(whoami) /usr/local/share/zsh /usr/local/share/zsh/site-functions
-
-And make sure that your user has write permission.
-chmod u+w /usr/local/share/zsh /usr/local/share/zsh/site-functions
-
-Warning: Unbrewed header files were found in /usr/local/include.
-If you didn't put them there on purpose they could cause problems when
-building Homebrew formulae, and may need to be deleted.
+[Trouble shooting official docs](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/#troubleshoot-brew)

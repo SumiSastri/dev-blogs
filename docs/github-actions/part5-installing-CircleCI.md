@@ -13,6 +13,6 @@ As an example of how to protect branches, here is an example of how to do this w
 1. Go to Marketplace in Github
 2. Select CI
 3. Select circle CI
-4. In the left nav select circle CI's github page
+4. In the left nav select circle CI's GitHub page
 5. Create an account
 6. Set up the `config.yml` file

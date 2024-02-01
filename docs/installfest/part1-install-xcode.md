@@ -9,7 +9,8 @@ title: How to install Xcode on a Mac
 
 Xcode is a large suite of software development tools and libraries from Apple.  The Xcode Command Line Tools are part of XCode. 
 
-You can install both xcode and homebrew with one command
+You can install both Xcode and HomeBrew with one command. I personally only have XCode CLI installed
+
 ```
 xcode-select --install && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
@@ -35,14 +36,14 @@ To quit, press enter, then `q`
 
 On the next prompt, type `agree` to the licence 
 
-It takes over 4-5 hours to install x-code, so plug your computer into a power socket and let it run overnight.
+It takes over 4-5 hours to install XCode, so plug your computer into a power socket and let it run overnight.
 
-When installing Xcode from the App Store, disable windows defender restart your machine, download xcode and simply enable it after install. 
+When installing Xcode from the App Store, disable windows defender restart your machine, download Xcode and simply enable it after install. 
 
 After download, install can take 3-5 hrs, just leave it running. Alternatively, if only the Xcode Command Line Tools are needed (a requirement for Git/Homebrew) you can simple install Homebrew and you will be prompted with the option to install Xcode Command Line Tools.
 
 _Note_
-With every major version change in Apple there are challenges installing xcode. Catalina, BigSur and Sonomo (current version 2024) have caused a lot of challenges for developers, you may have to search and trouble shoot using Stack Overflow or other dev chat threads.
+With every major version change in Apple there are challenges installing . Catalina, BigSur and Sonomo (current version 2024) have caused a lot of challenges for developers, you may have to search and trouble shoot using Stack Overflow or other dev chat threads.
 
 Some commands to try:
 - `sudo rm -rf /Library/Developer/CommandLine Tools` and rerun `xcode-select --install`
