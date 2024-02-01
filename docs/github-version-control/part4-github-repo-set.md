@@ -1,6 +1,6 @@
 <!-- ---
 layout: default
-parent: Version Control
+parent: GitHub and version control
 nav_order: 8
 title: How to setup and use a GitHub repo or repository 
 ---

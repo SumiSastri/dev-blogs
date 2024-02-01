@@ -14,12 +14,4 @@ In this section, I will dive briefly into the core concepts and some trouble sho
 
 _Some articles in this section have been published on Dev.to & Medium_
 
-You will find it easier to follow this section if you:
-
-- [Set up your local environment](https://sumisastri.github.io/dev-blogs/dev-environment/) 
-
-- [Install Git and GitHub locally]
-
-- [Set up a GitHub repo](https://sumisastri.github.io/dev-blogs/github-version-control/part5-github-repo-set/)
-
-- Refer to the [Git official documentation](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
+You will find it easier to follow this section if you [Set up your local environment](https://sumisastri.github.io/dev-blogs/dev-environment/) an[install Git and GitHub](https://sumisastri.github.io/dev-blogs/installfest/part4-install-git-and-github/)

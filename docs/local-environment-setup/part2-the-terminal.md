@@ -130,3 +130,4 @@ _`sudo`` or Super user rights_
 - ` sudo chown -r` change file owner or user recursively
 - ` sudo chmod` change mode - changes user rights
 
+[Credit for content in this section - A premium Plural Sight course on shells](https://app.pluralsight.com/library/courses/bash-zshell-getting-started/table-of-contents)

@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Version Control
+parent: GitHub and version control
 nav_order: 8
 title: What are developer workflows and environments?
 ---

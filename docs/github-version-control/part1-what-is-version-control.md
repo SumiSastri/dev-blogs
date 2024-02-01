@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Version Control
+parent: GitHub and version control
 nav_order: 8
 title: What is a version control system and why do we need it?
 ---
@@ -11,7 +11,7 @@ From the writing of code, to the final shipping of a feature to users, a code wr
 
 Each small change is a version of the previous code base. Keeping track of the minute changes is impossible but necessary.
 
-Version control systems have been developed to manage workflows of multiple developers across distributed systems - and maybe geographies - to write versions of code that can be unifed, tested and shipped to end-users.
+Version control systems have been developed to manage workflows of multiple developers across distributed systems - and maybe geographies - to write versions of code that can be unifed, tested and shipped to end-users. Version control is also known as SCM (Source Code Management) tools or RCS (Revision Control System) and source code management.
 
 Once code is written, tracking its history is one part of the job. An equally important corollary is the ability to discard incorrect code, unused code, or reverting to a point in the version history of the code that is the cleanest and most usable.
 

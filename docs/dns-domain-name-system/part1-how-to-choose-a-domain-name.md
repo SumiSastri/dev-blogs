@@ -8,7 +8,7 @@ nav_order: 4
 
 # How to choose a domain name?
 
-To choose a domain name, it is useful to understand how the  Domain Name System (DNS) works.
+To choose a domain name, it is useful to understand how the  Domain Name System (DNS) works. DNS, is also confusingly, referred to as name server/ domain system server or DSS, but more frequently termed as the DNS system.
 
 The DNS is a directory of the names of all registered web domains.The DNS matches the URLs (Unique Resource Locators) of a web page, the name of the website to the IP (internet protocol) associated with the webpage.
 

@@ -9,6 +9,8 @@ title: A love letter to the personal website
 
 If we thought Web 1.0 was dead, a 2-day [Stack Skills](https://stackskills.com/) conference in London (2022), considered it fun to resurrect that dead thought from the grave. The conference focused on the history of the Web, Web 1.0, Web 2.0 and challenges ahead for Web 3.0.
 
+[The World Wide Web or Web and how it is different from the internet](https://en.wikipedia.org/wiki/World_Wide_Web)
+
 Full disclosure right up front.  
 
 This site is the result of the influence that the speakers had on my thought processes as an emerging developer.

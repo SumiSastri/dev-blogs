@@ -18,3 +18,5 @@ Attackers may be able to execute their code within the build infrastructure. The
 They may also try to steal information or install backdoors to launch further attacks. Open‑source projects often require sensitive information, such as access tokens and deployment keys. Attackers may try to obtain this information if it is publicly available through files or build logs.
 
 Successful open‑source projects may have a user base of significant size. A security vulnerability may impact many of the users. Security vulnerability can be introduced directly through a bug in the code. They may also be introduced through a vulnerable third‑party dependency. Providing fixes for security vulnerabilities also requires care. If attackers learn about the vulnerability, they may try to abuse it. The problem is especially dangerous if the knowledge about the vulnerability is public, but the fix is not available yet.
+
+Refer to the [Git official documentation](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
