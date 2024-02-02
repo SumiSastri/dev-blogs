@@ -31,7 +31,6 @@ Resources on a computer are finite, and we can only start to manage our processe
  
  Compute time of the CPU in executing the process: This is often expressed in absolute terms as the number of seconds, minutes, or hours that processes have spent executing the process. [A good article to read - to understand how a CPU processes information]https://www.lifewire.com/what-is-a-cpu-2618150
 
- 
  Random Access Memory or RAM:  Fast storage where the processor can keep the parts of the process's data that aren't currently being executed. [Understanding RAM](https://www.crucial.com/articles/about-memory/support-what-does-computer-memory-do) as different from computer storage is important. Computer storage capacity refers to the hard drive or disk on a computer. 
  
  RAM does not store data between reboot so it is referred to as volatile. And normally, only the OS has a choice over what is put here. For processes, it is generally measured in megabytes, gigabytes, or as a percentage of all the memory available and this is where the confusion can arise. When someone describes a laptop as having 32 GB of memory, this storage is what they're referring to. RAM is additional "fast" storage.
