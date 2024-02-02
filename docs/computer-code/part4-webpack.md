@@ -7,7 +7,7 @@ nav_order: 6
 
 # What is webpack?
 
-Webpack is a JavaScript build tool that helps transpiling, configuiring, compiling code and more. It is used in a NodeJS environment. It is a specialised task runner that takes inputs and produces and output. The inputs are `.js/`,`.html/` `.css` files and the output is browser parseable code. The `.html` and `.css` files are processed with plugins as the [documentation on npm](https://www.npmjs.com/package/webpack) describes.
+Webpack is a JavaScript build tool that helps transpiling, configuiring, compiling code and more. It is used in a NodeJS (commonly known as Node) environment. It is a specialised task runner that takes inputs and produces and output. The inputs are `.js/`,`.html/` `.css` files and the output is browser parseable code. The `.html` and `.css` files are processed with plugins as the [documentation on npm](https://www.npmjs.com/package/webpack) describes.
 
 Webpack an open source project that relies on [sponsors](https://webpack.js.org/#sponsors) and programmers who volunteer their time to maintain the programme.. It is not tied to (and paid by) a big company like some other open source projects, and on the [Webpack github repo](https://github.com/webpack/webpack.js.org) you will find several opportunities to contribute to the maintenance and development of this package.
 
@@ -58,4 +58,4 @@ With all packages, it is important to keep an eye on changes and modify your cod
 
 ## What is the difference between Babel and Webpack?
 
-webpack is mainly a JavaScript bundler for ES6 modules. Babel is mainly a transpiler. Babel and webpack are often used together. In the next section I review Babel in a little more detail.
+Webpack is mainly a JavaScript bundler for ES6 modules. Babel is mainly a transpiler. Babel and webpack are often used together. In the next section I review Babel in a little more detail.

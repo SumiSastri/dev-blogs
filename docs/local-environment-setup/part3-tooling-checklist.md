@@ -88,3 +88,15 @@ _Cheatsheet to install Chrome_
 Copy the chosen app it into your Applications folder and add it to your dock.
 
 4. Sign up to Stack Overflow
+
+5. Pursue continuous learing with
+  - [StackSkills](https://stackskills.com),
+  - [Udemy](https://www.udemy.com/)
+  - [Linked-in Learning](https://www.linkedin.com/learning/)
+  - [FreeCodeCamp](https://www.freecodecamp.org/)
+  - [Udacity](https://www.udacity.com/)
+
+6. Refer to HTML and CSS documentation
+- [W3Schools](https://www.w3schools.com/html/)
+- [Mozilla](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+

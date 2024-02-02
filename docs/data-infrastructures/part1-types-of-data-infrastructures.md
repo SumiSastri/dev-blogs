@@ -108,7 +108,7 @@ Drawback is the throttling required - several requests can block the servers eff
 
 AWS Lambdas/ Azure Functions/ Google Cloud Functions/ IBM Cloud Functions - polyglot of code support in their VM (virtual machine - as different from on-premise or on-prem) containers - eg: functions can be written in JavaSript, Java, Ruby, Pyhton, Go, PHP, C#
 
-Depending on your cloud service provider you will need developers with the skills to write the code that manages this infrastructure. Most popular languages for serverless - NodeJS and Python.
+Depending on your cloud service provider you will need developers with the skills to write the code that manages this infrastructure. Most popular languages for serverless - NodeJS, more commonly known as Node, and Python.
 
 ## Benefits of FaaS
 

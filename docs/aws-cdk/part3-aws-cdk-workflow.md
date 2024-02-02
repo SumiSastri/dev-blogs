@@ -13,7 +13,7 @@ The key steps in the AWS (Amazon Web Services) Cloud Development Kit (CDK) workf
 
 ## Pre-requisites
 
-Check versions of node, npm, cdk, aws, docker and sam, if you do not have this installed then follow instructions to install
+Check versions of NodeJs or Node, npm, cdk, aws, docker and sam, if you do not have this installed then follow instructions to install
 
 `node --version` check NodeJs v14 or higher or [install](https://nodejs.org/en/download/)
 `npm --version` check Npm - v7 or higher or [install](https://www.npmjs.com/package/npm)

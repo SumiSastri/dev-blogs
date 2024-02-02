@@ -8,6 +8,7 @@ nav_order: 2
 # Questions to ask yourself
 
 Learning to code is an investment in time, to go down this route here are some of the questions I asked myself as I had already spent a few years as a certified Agile Scrum Master.
+
 ## Do you really want to learn to code?
 
 In this article we explore if your really do want to learn to code, what motivates you and how to go about fulfilling your goal.
@@ -20,7 +21,7 @@ Wanting to become a developer and learning to code is a decision. It was a proce
 - Will I enjoy it?
 - Can I make a living out of it - will I actually be employable?
 
-After 2 years, since I retrained at bootcamp, the last question is a - yes, but... the full answer is further down the page :-)
+Since I retrained at bootcamp (2019), the last question is a - yes, but... the full answer is further down the page :-)
 
 ## Why do you want to become a developer?
 
@@ -89,8 +90,8 @@ For me the answer was a resounding yes. I came away from bootcamp learning more 
 - JavaScript - a front-to-backend language
 - Python - a scripting backend language
 - PostgreSQL - a relational database language
-- React.js - a JavaScript component Library
-- Node.js - a JavaScript backend framework
+- ReactJS - a JavaScript component Library
+- NodeJS - a JavaScript backend framework (more commonly known as Node)
 - MongoDB - a document-based language
 
 ## Can you make a living after you have learnt to code?
@@ -112,3 +113,25 @@ I lucked out. The first potential mentor I connected with via Linked-in was look
 I did a white-board pair-coding test and I even got paid!
 
 It was the best 3-months of my life after bootcamp.
+
+## Life in the industry post the 2020 lockdown
+
+Is there life-after bootcamp and internships? Yes, but a very complex life and one where you have to keep upskilling to stay relevant.
+
+Landing your first job or internship maybe tough, but the industry is tougher. AI (artificial intelligence) is considered a real threat to developer jobs, you can get ChatGPT to spit out code for you.
+
+Recruiters and tech firms prefer software engineers and computer scientists to bootcamp graduates. After my internship, I struggled - had to work on j-query for 3 months freelancing. The next job lasted 3 months because from a team of over 200 engineers, senior management decided to move all but 12 jobs overseas. 
+
+Global competition to local jobs is real and post lock-down in 2020, more companies are open to overseas/ flexi and remote workers. So where one associate or junior role had a hundred candidates suitable with only one post to fill, now that ratio is more like at least a thousand global candidates.
+
+The quality of the candidates has improved too, there are so many online courses that upskilling once you know the basics is not difficult - free resources, internationally rated universities providing online courses, a genuine interest in the field from school level means even 21-year olds are competing with some very clever 16-year old developers.
+
+And then there is knowledge obsolescence. 
+
+ReactJS is now in version 18, Node in version 20. Some of the older versions like Node version 12 which I learnt are no longer supported. There are breaking changes you need to keep upto date with.
+
+Bootcamps can no longer teach React without updating their course materials to include React Hooks and perhaps a framework like NextJS which is now in version 14 and was in its early stages of adoption in 2019.
+
+Despite all of this would I do anything else - absolutely not. It is a great profession and a great skill to learn. It changes the way you look at things and the world.
+
+I would still heartily recommend you pursue your dreams, if this is your dream, knowing the pros and the cons, and for me the pros of keeping mentally engaged, interested and continously learning outweight the cons.

@@ -7,7 +7,7 @@ title: How to install NodeJS with Node Version Manager(nvm)
 
 # How to install NodeJS with Node Version Manager(nvm)
 
-NodeJS, known as Node, is a run-time environment. This section helps you install Node with nvm, or Node Version Manager.
+NodeJS, more commonly known as Node, is a run-time environment. This section helps you install Node with nvm, or Node Version Manager.
 
 Node not a language but uses JavaScript syntax to run programmes outside the browsers. It is instrinsically a JavaScript engine that works on the server side - just as Spider Monkey/ V8 work browser-side.
 

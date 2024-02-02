@@ -78,15 +78,15 @@ With npm, you can use `npm update` to auto-update packages and `npm-audit-fix` t
 
 You can also use 3rd party audits like Synk (pronounced sneak).
 
-## Are Node and NPM a code bundlers?
+## Are NodeJS and NPM a code bundlers?
 
-NodeJs, a JavaScript run-time language, packages code into programs using a library called Node Package Manager. While it performs certain bundling functionality, it's primary role is as a run-time environment.
+NodeJs, or Node, is a JavaScript run-time language, packages code into programs using a library called Node Package Manager. While it performs certain bundling functionality, it's primary role is as a run-time environment.
 
-One of the most popular libraries used with NodeJS is npm, which stands for Node Package Manager. It is also a brand name and therefore written in lower case - where it is a command or script `npm` is notated as code.
+One of the most popular libraries used with Node is npm, which stands for Node Package Manager. It is also a brand name and therefore written in lower case - where it is a command or script `npm` is notated as code.
 
 npm uses CommonJS as a code bundler to facilitate easy distribution and helps developers to easily install, manage, and share packages of code that can be re-used in their applications. These packages can include anything from small utility functions to entire frameworks. So npm is not a code bundler but many of the libraries are pre-packaged with bundlers like webpack, Babel, or Snowpack and CommonJS under the hood.
 
-In summary, NodeJs packages code into programs using different libraries into a bundle called `node_modules`, and npm uses CommonJS and other bundlers and code parsers to manage packages of code from various libraries in the `node_modules` packages so that can be read and parsed by browsers.
+In summary, Node packages code into programs using different libraries into a bundle called `node_modules`, and npm uses CommonJS and other bundlers and code parsers to manage packages of code from various libraries in the `node_modules` packages so that can be read and parsed by browsers.
 
 Some of the other JavaScript package managers are Bower/ JSPM /JAM and Volo. NPM has over a million packages so has become the most used JavaScript package manager.
 

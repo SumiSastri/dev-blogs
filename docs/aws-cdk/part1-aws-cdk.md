@@ -72,4 +72,4 @@ Tags are applied in the entry point directory - the bin directory - OR in the st
 
 ## Versions and trouble shooting
 
-The CDK App V2 only stable version to install available since Dec 2021. It uses Node as an environment and enables code to be written Cfn templates. (See resources.md). V1 is no longer supported since June 2023.
+The CDK App V2 only stable version to install available since Dec 2021. It uses NodeJS as an environment and enables code to be written Cfn templates. (See resources.md). V1 is no longer supported since June 2023.

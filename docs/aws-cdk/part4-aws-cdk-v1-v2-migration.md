@@ -10,7 +10,7 @@ nav_order: 10
 
 The AWS (Amazon Web Services) Cloud Development Kit (CDK) App V2 is currently (June 2023) the only stable version to install available since Dec 2021. [V1 is no longer supported](https://aws.amazon.com/blogs/developer/version-1-of-the-aws-cloud-development-kit-aws-cdk-is-now-in-maintenance-mode/) so all your packages will go out of sync and possibly your integration/ production environments break.
 
-It uses Node as an environment and enables code to be written CloudFormation templates.
+It uses NodeJS or Node as an environment and enables code to be written CloudFormation templates.
 
 Migrating from v1 to v2 is as easy as how you have configured your stack. A more complex stack will have more challenges - more packages that relied on the old AWS-CDK core library that have all been bundled into AWS-CDK library.
 

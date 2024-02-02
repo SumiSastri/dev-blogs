@@ -63,7 +63,7 @@ CLEAR or keyboard interrupt is sent to a process when Ctrl+C is used
 
 The QUIT signal is sent to terminate a process and dump its memory, which can be useful for debugging. In Vim this command can be `q` - quit as well as `qa` quit all processes. 
 
-KILL is a signal most often used when we're terminating a stubborn, otherwise frozen process. Any process receiving a KILL signal must end immediately and will not get a chance to perform cleanup operations. KILL sends a wide variety of signals eg: p-KILL is to kill a process, if a Node process is running and you want to terminate all Node processes that are running you can run p-KILL Node.
+KILL is a signal most often used when we're terminating a stubborn, otherwise frozen process. Any process receiving a KILL signal must end immediately and will not get a chance to perform cleanup operations. KILL sends a wide variety of signals eg: p-KILL is to kill a process, if a Node process is running and you want to terminate all Node processes that are running you can run p-KILL Node. NodeJS or Node, is a JavaScript runtime environment.
 
 STOP is used to suspend a running process. Stop spelled S‑T‑P is the same as Control+Z on a foreground job, and it is possible for a process to ignore it. Ctrl+Z will suspend the foreground job, this is useful if you want to switch from one long-running job to a job that has a shorter execution time and return to the longer one without losing the information that has already been processed.
 

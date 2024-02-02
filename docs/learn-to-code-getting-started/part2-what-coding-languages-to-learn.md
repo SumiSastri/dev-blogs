@@ -67,7 +67,7 @@ Which of course does not mean you should not learn these languages. It means the
 
 Python - a scripting language used for Data Science is taught and is swiftly gaining popularity.
 
-JavaScript for backend frameworks is what most bootcamps teach - Node.js or Node is an environment where JavaScript works outside the browser and therefore in the backend.
+JavaScript for backend frameworks is what most bootcamps teach - NodeJS, or Node as it is commonly known, is an environment where JavaScript works outside the browser and therefore in the backend.
 
 ## What about learning to code for data-bases?
 
@@ -89,7 +89,7 @@ If you do not want to go the bootcamp route and are comfortable with online lear
 
 - [FreeCodeCamp](https://www.freecodecamp.org/)
 - [W3Schools](https://www.w3schools.com/html/)
-- [ Mozilla](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+- [Mozilla](https://developer.mozilla.org/en-US/docs/Learn/CSS)
 
 For a small fee there are other resources like
 
@@ -98,8 +98,8 @@ For a small fee there are other resources like
 
 On a subscription basis you can check
 
-- Udacity](https://www.udacity.com/)
-- [Linked-in Learning](https://www.linkedin.com/learning/).
+- [Udacity](https://www.udacity.com/)
+- [Linked-in Learning](https://www.linkedin.com/learning/)
 
 This is not a comprehensive list but should be enough to get you started.
 

@@ -9,10 +9,10 @@ nav_order: 6
 
 Before a software package can be released into production mode, all the JavaScript files have to be bundled and built.
 
-Webpack takes dev files, for example,
+Webpack takes developer files, for example,
 
     - CSS (cascading style sheet or `.css` files) 
-    - node modules
+    - Node modules (bundled NodeJs packages in a folder `node_modules`)
     - JavaScript extension files (`.js`) - from npm library imports
     - imported and exported modules of JavaScript code
 
