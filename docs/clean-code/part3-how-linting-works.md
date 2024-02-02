@@ -21,7 +21,7 @@ It makes reading his original paper a pleasure - some extracts from the 12-page 
 
 In his [original paper](https://web.archive.org/web/20220123141016/https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.56.1841&rep=rep1&type=pdf), on why he created a linting package, Johnson says "Lint is a command which examines C source programs, detecting a number of bugs and obscurities. It enforces the type rules of C more strictly than the C compilers. It may also be used to enforce a number of portability restrictions involved in moving programs between different machines and/or operating systems. Another option detects a number of wasteful, or error prone, constructions which nevertheless are, strictly speaking, legal. Lint accepts multiple input files and library specifications, and checks them for consistency."
 
-The paper has a wealth of information and is written so well that if you have ever (or never) used a code linter, you will understand the philosphy and constraints of linting far better than I can every describe - it is a read worth investing in.
+The paper has a wealth of information and is written so well that if you have ever (or never) used a code linter, you will understand the philosophy and constraints of linting far better than I can every describe - it is a read worth investing in.
 
 One of my pet peeves on linting was how strict the rules are. Johnson, refers to this in his paper. The example he uses is a number being converted to a character - possible in JavaScript where 1 or one can be used interchangeably and the program will still run.
 
@@ -41,8 +41,7 @@ Johnson, in his imitable way, has a section called "shutting lint up" as he says
 
 The challenge with lint overrides - a more polite term for shutting your lint up - is a lack of clarity on how to do this with your existing linter. Linters work on certain key word commands and new keywords may not be recognised by code compilers. If you see lint overrides, they still follow the same principles set out in Johnson's paper - they take the form of comments, which require minimal preprocessor changes.
 
-"The preprocessor just had to agree to pass comments through to its output, instead of deleting them as had been previously done. Thus, lint directives are invisible to the compilers, and the effect on systems with the older preprocessors is
-merely that the lint directives don’t work," the paper says.
+"The preprocessor just had to agree to pass comments through to its output, instead of deleting them as had been previously done. Thus, lint directives are invisible to the compilers, and the effect on systems with the older preprocessors is merely that the lint directives don’t work," the paper says.
 
 ## Lint override strategies
 
@@ -64,7 +63,7 @@ Kwabena Boadu has a great guide to [set-up ES Lint with airbnb's style guide](ht
 
 Style guides can be opinionated and vary - this is an example of an opionated guide - [The Arcanist user guide - lint](https://secure.phabricator.com/book/phabricator/article/arcanist_lint/), but reading them always gives you another perspective and challenges your own ways of thinking, opening you out to possibilities that you may not have considered.
 
-Many organisations will write in some overides or make tweaks to prefab style-guides like airbnb. Some style guides can be very strict and some packages methods may fail linting. For example, with the `Formik` form library for React, the use of the spread operator, essential to run some methods in the package, fail the airbnb style guide rules.
+Many organisations will write in some overrides or make tweaks to prefab style-guides like airbnb. Some style guides can be very strict and some packages methods may fail linting. For example, with the `Formik` form library for React, the use of the spread operator, essential to run some methods in the package, fail the airbnb style guide rules.
 
 Another point worth bearing in mind is your repo structure. Monoliths and monorepos have different ways of configuring ES Lint. A monolith, is a repo that refers to packages and Application Programming Interfaces (APIs) outside the repo for its functioning. A monorepo hosts all packages that it depends on within the same repo. An uber-package manager like `pnpm` or `lerna` are popular package managers for JavaScript monorepos that use [npm packages](https://www.npmjs.com/).
 
