@@ -2,7 +2,7 @@
 layout: default
 title: How to set up Github Actions config files
 parent: Github Actions
-nav_order: 12
+nav_order: 11
 ---
 
 # How to set up Github Actions config files

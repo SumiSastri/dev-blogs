@@ -4,6 +4,7 @@ title: What is code bundling?
 parent: What is computer code
 nav_order: 6
 ---
+
 # What is code bundling?
 
 Code, as we have seen in Part1, is a list of instructions written in a coding language by code writers. This code is bundled for usage for browsers to understand in small chunks. Under the hood, bundling is a function that takes some files and emits others. I write about JavaScript specifically, but in general all code behaves in the same way - the syntax and grammar of the function that is written depends on the language the code is running in.

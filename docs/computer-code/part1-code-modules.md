@@ -40,6 +40,7 @@ These are some of the design patterns, that I found easy to understand and that 
 To further clarify, UMD is "a pattern used in JavaScript to create modules that can work in different environments, such as CommonJS, AMD, and the browser. It is a way to write code that can be used in different contexts without having to rewrite it. The UMD pattern is a combination of the CommonJS and AMD patterns. It checks if the module is being loaded in a CommonJS environment (such as Node.js) or an AMD environment (such as RequireJS), and if not, it creates a global variable that can be accessed from the browser," as explained by Chat.
 
 This section demonstrates how JavaScript had no universal standards that could be followed.
+
 ## What is ECMA Script and ES6 - a code module or design pattern?
 
 The European Computer Manufacturers' Association, [ECMA](https://en.wikipedia.org/wiki/Ecma_International), was formed in 1961 to standardise computer systems in Europe. It is a non-profit organisation that was involved in the first version of ES6 that described a universal standard to which JavaScript needed to conform to so that it was easy for browsers to parse.

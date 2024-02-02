@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: Github Actions
-nav_order: 12
+nav_order: 11
 title: How to deploy your app with GitHub Pages
 ---
 

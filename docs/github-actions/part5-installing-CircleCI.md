@@ -2,7 +2,7 @@
 layout: default
 title: Installing Circle-CI
 parent: Github Actions
-nav_order: 12
+nav_order: 11
 ---
 
 
