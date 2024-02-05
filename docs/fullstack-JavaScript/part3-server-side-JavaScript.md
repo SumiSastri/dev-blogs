@@ -2,13 +2,13 @@
 layout: default
 parent:  Fullstack JavaScript
 nav_order: 14
-title: NodeJs as a runtime environment
+title: Server-side JavaScript
 last_updated: Feb 2024
 ---
 
-# NodeJs as a runtime environment
+# Server-side JavaScript
 
-As we have seen in part 1, NodeJS  or Node, is an opensource, cross-platform runtime environment created by Ryan Dahl. 
+As we have seen in part 1, NodeJS  or Node, is an opensource, cross-platform runtime environment created by Ryan Dahl. It is the main gateway as a runtime environment to server-side JavaScript.
 
 Initially, it was backed by large corporations, but within a few years, it decoupled from corporate backers to become an opensource project. 
 
@@ -42,7 +42,6 @@ CLI (command line services) use Node, which are not server-side applications. We
 
 Many desktop applications use Node, with [ElectronJs](https://www.electronjs.org/), such as Teams and even code editors like Visual Studio Code and Atom.
 
-Handling data-streams
 
 
 __Further reading__

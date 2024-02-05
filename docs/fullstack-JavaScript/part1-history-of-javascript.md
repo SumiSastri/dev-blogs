@@ -93,16 +93,16 @@ Node is largely used to limit the languages that a team uses to JavaScript, henc
 
 This is why many developers like Node because it's lightweight and you can write your frontend and backend in the same language and share libraries, reduce code write times and tech stack adoption efforts.
 
-## RESOURCES
+__Further reading__
 
-- More about JavaScript on Wikipedia [https://en.wikipedia.org/wiki/JavaScript]
+- More about [JavaScript on Wikipedia](https://en.wikipedia.org/wiki/JavaScript)
 
-- History of JavaScript a long and detailed read[https://auth0.com/blog/a-brief-history-of-javascript/]
+- [History of JavaScript](https://auth0.com/blog/a-brief-history-of-javascript/)
 
-- JavaScript tutorial & Style Guide W3 Schools [https://www.w3schools.com/js/default.asp] [https://www.w3schools.com/js/js_conventions.asp]
+- JavaScript tutorial & Style Guide [W3 Schools](https://www.w3schools.com/js/default.asp] [https://www.w3schools.com/js/js_conventions.asp)
 
-- Improve the readability of your code [https://dzone.com/articles/10-tips-how-to-improve-the-readability-of-your-sof]
+- I[mprove the readability of your code ](https://dzone.com/articles/10-tips-how-to-improve-the-readability-of-your-sof)
 
-- MDN Tutorial [https://developer.mozilla.org/en-US/docs/Learn/JavaScript]
+- [MDN Tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
 
-- The modern JavaScript Tutorial [http://javascript.info]
+- [The modern JavaScript Tutorial](http://javascript.info)

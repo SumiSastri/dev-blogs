@@ -105,7 +105,7 @@ This is not a comprehensive list but should be enough to get you started.
 
 ## Learn to code the MERN-stack
 
-I found that learning the MERN stack - MongoDB, Express.js (or Express) as a server, React and Node - was the easiest way to practice the fundamentals of vanilla JavaScript through the stack.
+I found that learning the MERN stack - MongoDB, ExpressJs (or Express) as a server, React and Node - was the easiest way to practice the fundamentals of vanilla JavaScript through the stack.
 
 It is a stable stack that does not need a cloud architect to configure if you are building side-projects for a portfolio.
 
