@@ -6,7 +6,6 @@ title: NodeJs as a runtime environment
 last_updated: Feb 2024
 ---
 
-
 # NodeJs as a runtime environment
 
 As we have seen in part 1, NodeJS  or Node, is an opensource, cross-platform runtime environment created by Ryan Dahl. 
