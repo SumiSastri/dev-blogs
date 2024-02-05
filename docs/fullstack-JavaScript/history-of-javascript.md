@@ -3,6 +3,7 @@ layout: default
 parent:  Fullstack JavaScript
 nav_order: 14
 title: A short history of JavaScript
+last_updated: Feb 2024
 ---
 
 # A short history of JavaScript
@@ -49,16 +50,26 @@ The asynchronous nature of these callback functions means that several inputs ca
 
 In the frontend where users interact with an application, inputs such as clicks, mouse movements, keypad movements are "listened" to and "handled" by callback functions. 
 
+JavaScript, as a language may evolve with newer versions, but browsers do not always upgrade versions as quickly. Therefore compile time code builders like webpack, Babel and ESBuild are used to compile and transpile code back into the older versions of JavaScript that browsers may use.
 
-## How does the event loop work server side?
+The frontend is therefore more dependent on the browser environment while JavaScript server-side is updated with every NodeJS long-term-support (LTS) update.
+
+The browser and JavaScript incompatibility issues, have led to a series of shims and polyfills used to patch up the discrepancies in build, compile and runtime code environments.
+
+See the section on computer code for more information.
+
+
+## How does the event loop work server-side?
 
 NodeJS is an opensource, cross-platform runtime environment created by Ryan Dahl. He demo'd the workings of Node, as it is more commonly termed, at a conference, using JavaScript as a language.
 
 Node is a preferred environment in the network layer of computer processes. Just as JavaScript needs the HTML-DOM nodes to hook on to and hydrate, Node requires a server to hook onto and connect backend data services in the network layer of an application.
 
+You can build a simple server using Node and some basic JavaScript to link to the Node server.
+
 Full stack JavaScript apps may use a server, such as ExpressJS or Express, to link frontend user interfaces with backend files, databases and the execution of jobs and processes.
 
-To do this, Dahl took the JavaScript code on the browser (Chrome's V8 engine) and repackaged it to make it work server-side. 
+To do this, Dahl took the JavaScript code on the browser (Chrome's V8 engine and the Blink rendering Engine) and repackaged it to make it work server-side. 
 
 Dahl adopted JavaScript's non-blocking, [single-threaded asynchronous features in the execution of the event-loop in runtime](https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/).
 
@@ -84,7 +95,7 @@ This is why many developers like Node because it's lightweight and you can write
 
 ## RESOURCES
 
-- More on Wikipedia [https://en.wikipedia.org/wiki/JavaScript]
+- More about JavaScript on Wikipedia [https://en.wikipedia.org/wiki/JavaScript]
 
 - History of JavaScript a long and detailed read[https://auth0.com/blog/a-brief-history-of-javascript/]
 

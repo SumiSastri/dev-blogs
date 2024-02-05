@@ -202,7 +202,7 @@ Once you use these commands often enough, they become a part of your DNA and you
 - Prettier - code formatting
 - VSCode pdf - save pdf's and read them in vscode
 - Bracket pair colorizer - colors pairs of brackets to identify code blocks
-- Live Server - opens html files serves it on a real port
+- Live Server - opens HTML files serves it on a real port
 - Live Share - share code and collaborate
 - Markdown pdf - markdown for pdf's
 - MPEG-4 Preview - saves mp4 files that you can view in the IDE

@@ -52,7 +52,7 @@ The hosting service allows you to deploy code into a production environment.
 - Versioned releases and simple deploys
 - Roll backs easy - one click
 - Integrates with Google Cloud Functions - allows you to integrate 3rd party APIs
-- Keep client and server side code in the same project
+- Keep client and server-side code in the same project
 
 ## Firestore
 

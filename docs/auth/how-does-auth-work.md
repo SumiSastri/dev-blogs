@@ -32,7 +32,7 @@ For this a digitial authorisation token is required. There are several digital a
 
 Before we go into the detail of how digital authorisation takes place. A brief history of auth is useful to understand to put digital auth into context.
 
-In the 1990s, Web 1.0 -  HTML (Hyper Text Markup Language), CSS (Cascading Style Sheets) and XML (extensible mark-up language) were programming languages used to share documents over the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web. While HTML defined text blocs and CSS styled them, XML was introduced as a mark-up language that would transport data. SAML (Security Assertion Markup Language) - was the early way to authenticate users. SAML is still used for SSO (Single Sign On) with the latest version (v2) of SAML.
+In the 1990s, Web 1.0 -   (Hyper Text Markup Language), CSS (Cascading Style Sheets) and XML (extensible mark-up language) were programming languages used to share documents over the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web. While  HTML (Hyper Text Markup Language) defined text blocs and CSS styled them, XML was introduced as a mark-up language that would transport data. SAML (Security Assertion Markup Language) - was the early way to authenticate users. SAML is still used for SSO (Single Sign On) with the latest version (v2) of SAML.
 
 Note in the early stages of the Web all you needed was mark-up languages as documents were shipped from one user to another without Application Programming Interfaces (APIs).
 

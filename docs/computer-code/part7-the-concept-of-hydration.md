@@ -11,7 +11,7 @@ Before a software package can be released into production mode, all the JavaScri
 
 Webpack takes developer files, for example,
 
-    - CSS (cascading style sheet or `.css` files) 
+    - CSS (Cascading Style Sheets) or `.css` files) 
     - Node modules (bundled NodeJs packages in a folder `node_modules`)
     - JavaScript extension files (`.js`) - from npm library imports
     - imported and exported modules of JavaScript code
@@ -20,7 +20,7 @@ and then bundles these files into a commonJs or mainJs file.
 
 All the JavaScript bundles of files are then transpiled into to JavaScript that browser engines can read and parse.
 
-These transpiled files are fed into a script tag into the root HTML (hyper-text-markup-language file or the `.html` file). 
+These transpiled files are fed into a script tag into the root  HTML (Hyper Text Markup Language) file or the `.html` file). 
 
 Wepack can be used in conjunction with babel to transpile code, or any other transpiler..
 

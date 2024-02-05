@@ -52,7 +52,7 @@ Once you have familiarised yourself with your computer shell and your terminal y
 
 3. Install a code editor or IDE (integrated development environment) - Atom, Visual Studio Code, Sublime Text (See section on clean code for [a quick guide to code editors and IDEs](https://sumisastri.github.io/dev-blogs/clean-code/part2-code-editors-and-how-to-setup-eslint/)
 
-This will help you write HTML, CSS, JavaScript and get started on learning the fundamentals of web development.
+This will help you write HTML (Hyper Text Markup Language), CSS (Cascading Style Sheets), JavaScript and get started on learning the fundamentals of web development.
 
 4. Git, the main version control system used by developers, should be preinstalled on both Mac and Windows. The set up requires secure hash keys and requires you to have a basic knowledge of how to set up your local environment, be comfortable with using the terminal and computer shells. Once you are confident in your terminal run ```git --version``` to check if it is pre-installed.
 

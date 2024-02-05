@@ -29,7 +29,7 @@ If you are a buyer and are looking for a product to buy, your laptop is the clie
 
 ## How HTML, CSS and JavaScript are parsed on the Web
 
-When a request comes in to the client - your computer with your HTML (Hyper Text Markup Language), CSS (Cascading Style Sheets) and JavaScript files - via your computer's operating system allows the files on your system to be read by or parsed by the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, browser.
+When a request comes in to the client - your computer with your  HTML (Hyper Text Markup Language), CSS (Cascading Style Sheets) and JavaScript files - via your computer's operating system allows the files on your system to be read by or parsed by the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, browser.
 
 The first files that are fetched are HTML and CSS. Then JavaScript, via its connectivity to the Document Object Model, or DOM, is parsed. (Part 4, in this series, explains the DOM-tree and how JavaScript interacts with HTML and CSS.)
 

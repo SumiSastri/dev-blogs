@@ -31,9 +31,9 @@ Using the request header extensibility, HTTP cookies, like bearer tokens are add
 
 It is in this transport layer that the bearer token sent in the HTTP header request is intercepted, again by middleware that encrypts sensitive data before it is passed on to databases on the server.
 
-Encrypted passwords are now stored server side and even those with access to server side databases have no access to the real password as it has been encrypted.
+Encrypted passwords are now stored server-side and even those with access to server-side databases have no access to the real password as it has been encrypted.
 
-The password now is decrypted in the response cycle server side where the encryptation process is reversed, the details matched and checked for authentication and if authenticated, the authorisation token is sent back in the HTTP response body.
+The password now is decrypted in the response cycle server-side where the encryptation process is reversed, the details matched and checked for authentication and if authenticated, the authorisation token is sent back in the HTTP response body.
 
 This tamper-proof system of encryptation and decryptation that occurs allows the token to carry an authenticated digital signature and authorises the user to access the documents that are written into the scope of the authorisation token.
 
