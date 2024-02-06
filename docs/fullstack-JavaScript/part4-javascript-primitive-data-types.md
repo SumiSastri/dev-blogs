@@ -2,11 +2,11 @@
 layout: default
 parent:  Fullstack JavaScript
 nav_order: 14
-title: Data types in JavaScript
+title: Primitive data types in JavaScript
 last_updated: Feb 2024
 ---
 
-#  Data types in JavaScript
+# Primitive data types in JavaScript
 
 Like all programming languagues JavaScript has data types and methods (or functions) that can alter the behaviour (state) of this data.
 
@@ -77,13 +77,13 @@ If you use ```let x = 10``` or ```const x = 10``` with the code block above you 
 
 This means x has to be intiatiated in the scope of the code block as well to be recognised by JavaScript engines as cached information. To make these variable available to a block of code they need to be hoisted (moved) right to the top of the code block so that the scope is recognised across all lines of code following the instantiation of the variable name and value.
 
-Read more on [https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75]
+- Read more on [https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75]
 
 
 ## Strings in JavaScript
 
-Documentation W3 schools [https://www.w3schools.com/jsref/jsref_obj_string.asp]
-WDN [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String]
+- Documentation W3 schools [https://www.w3schools.com/jsref/jsref_obj_string.asp]
+- WDN [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String]
 
 ### What are strings?
 
@@ -147,6 +147,8 @@ As they are strictly typed the value is immutable - which means `MY_SECRET_PASSW
 
 Template literals are often used in separate folders called <constants> in a code base.
 
+Read [more about template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+
 ## Numbers in JavaScript
 
 ### What are numbers?
@@ -189,7 +191,7 @@ console.log(add2)
 
 ``` 
 
-Documentation [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN]
+Documentation on [NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)
 
 ### Null vs. NaN
 
@@ -197,7 +199,7 @@ Null, NaN and Infinity are separate data-types from numbers. Null does not repre
 
 eg: `let x = null || 1` this means x can will either be 1 or can be reassigned to a new number. Null means this variable is assigned to nothing as a data type and it may be 1 which, as a data type is a number. It is not an undefined data type, it is defined as nothing or a null type.
 
-Documentation[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null]
+Documentation on [null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
 
 ### The concept of undefined
 
@@ -205,11 +207,11 @@ Undefined is a default error message in JavaScript.
 
 When the parser does not know how to read the script, it throws an error message of undefined. It is also a property of the window object therefore non-configurable, non-enumberable and non-writable.
 
-Documentation [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined]
+Documentation on [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 
 ### The concept of Infinity
 
-Infinity is also a property of the window object and is also non-configurable and non-writable more documenation [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity]
+Infinity is also a property of the window object and is also non-configurable and non-writable more documentation on i[nfinity ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity)
 
 
 ### Some quirks with numbers that are not strictly mathematics
@@ -259,11 +261,11 @@ let c = c * 5;
 let c *= 5;
 ```
 
-Documentation[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number]
+Documentation on [numbers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
 
 ### Booleans
 
-In programming languages you need a data type that will take only one of 2 answers - yes or no/ true or false / on or off. A great video on booleans [https://scrimba.com/p/pPPeCy/caJVKfv]
+In programming languages you need a data type that will take only one of 2 answers - yes or no/ true or false / on or off. A great video on [booleans](https://scrimba.com/p/pPPeCy/caJVKfv)
 These help execute functions in programming. Everything with a value returns true.
 There are certain default boolean values - anything without a value returns false. 
 
@@ -278,7 +280,7 @@ null
 false
  ```
 
-Documentation [https://www.w3schools.com/jsref/jsref_obj_boolean.asp]
+[Documentation on booleans](https://www.w3schools.com/jsref/jsref_obj_boolean.asp)
 
 Booleans are essential for more complex JavaScript design patterns such as conditional statements in functions to work.
 
@@ -307,7 +309,9 @@ But JavaScript being loosely typed returns interesting results when the two type
 
 ### Truthy and Falsey
 
-The video by Dylan Israel has a good excercise to explore variables that can't strictly be defined as true or false but they are somewhat true and somewhat false [https://scrimba.com/p/pPPeCy/caJVKfv]
+The video by Dylan Israel has a good excercise to explore variables that can't strictly be defined as true or false but they are[ somewhat true and somewhat false](https://scrimba.com/p/pPPeCy/caJVKfv)
+
+For eg:
 ```''``` an empty string is false but an empty string with a ```' '```space is falsey.
 
 #### References
@@ -316,6 +320,6 @@ See [Demo of this section in CodePen](https://codepen.io/sumisastri/pen/rNRKEYq)
 
 [Java Script dotcom by PluralSight - free tutorial](https://www.javascript.com/learn)
 
-[Free code camp tutorial](https://www.dofactory.com/tutorial/what-is-javascript) Freecode camp vide 27:00 TO 30:00 CHECK AGAIN NOT CLEAR
+[Free code camp tutorial](https://www.dofactory.com/tutorial/what-is-javascript) 
 
-
+<!-- Freecode camp vide 27:00 TO 30:00 CHECK AGAIN NOT CLEAR -->

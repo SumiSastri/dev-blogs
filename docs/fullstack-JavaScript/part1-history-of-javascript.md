@@ -26,6 +26,9 @@ JavaScript is invisible to the user until it is injected into the the HTML-DOM t
 
 JavaScript is therefore considered DOM and node dependent in the front end.
 
+Known as JS as well as Vanilla JavaScript - refering to JS without frameworks or libraries, JavaScript is now one of the most popular scripting languages.
+
+
 ## Why is JavaScript considered a non-blocking, single-threaded language?
 
 JavaScript has no concept of input or output. To enforce structure on JavaScript, Typescript, a JavaScript superscript defines types as inputs or outputs. This is why JavaScript is considered a script versus a traditional software engineering programme.
@@ -99,10 +102,14 @@ __Further reading__
 
 - [History of JavaScript](https://auth0.com/blog/a-brief-history-of-javascript/)
 
-- JavaScript tutorial & Style Guide [W3 Schools](https://www.w3schools.com/js/default.asp] [https://www.w3schools.com/js/js_conventions.asp)
-
-- I[mprove the readability of your code ](https://dzone.com/articles/10-tips-how-to-improve-the-readability-of-your-sof)
+- [Improve the readability of your code ](https://dzone.com/articles/10-tips-how-to-improve-the-readability-of-your-sof)
 
 - [MDN Tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
 
 - [The modern JavaScript Tutorial](http://javascript.info)
+
+- [JavaScript tutorial W3 Schools](https://www.w3schools.com/js/default.asp) 
+
+- [JavaScript Syntax - W3 Schools](https://www.w3schools.com/js/js_conventions.asp)
+
+- [What is JavaScript](https://www.dofactory.com/tutorial/what-is-javascript)
