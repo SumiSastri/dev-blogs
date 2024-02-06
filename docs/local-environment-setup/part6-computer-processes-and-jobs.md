@@ -15,7 +15,7 @@ A process is the execution of a compute process in the processor. The CPU and co
 
 Compute power - or the speed with which your computer can run programs depends on how may processes you may want to execute and the compute power of the processors to deal with them. 
 
- ## Types of processing
+## Types of processing
 
 Serial processing:  The processor would work on each process in turn, fully completing one before moving onto another. Good for small number of programs, but it makes a computer pretty unusable when you want to do multiple things at once. 
 

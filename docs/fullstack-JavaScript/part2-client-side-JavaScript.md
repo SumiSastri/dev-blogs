@@ -47,7 +47,7 @@ That much said, SSGs take some of the grunt work out of building static sites. S
 
 SPAs offer the next level of complexity and if your use case is a complex app with many users, SPAs like React and Vue may be good to consider and measure up against frameworks like NextJS and Angular.
 
-## What is the difference between a library and a framework
+## What is the difference between a library and a framework?
 
 The key difference between a library and a framework is the amount of control a developer has over features and functionality.
 

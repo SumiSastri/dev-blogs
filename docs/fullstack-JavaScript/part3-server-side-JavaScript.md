@@ -30,7 +30,7 @@ How much JavaScript do you need to know to use Node is a useful resource on the 
 ]
 Java, dotNet, PHP-Symphony, Ruby/Rails and Python are some options that are available as alternatives, server-side.
 
-# NodeJs more than just a server-side runtime environment
+## NodeJs more than just a server-side runtime environment
 
 Node is often used in microservices and APIs (application protocol interfaces). The `createServer()` method allows you to create a quick server that will listen to HTTP calls. 
 

@@ -23,7 +23,9 @@ The repo may contain several projects with different teams working on each submo
 
 A monorepo often has one single package manager - like [lerna](https://github.com/lerna/lerna?utm_source=monorepo.tools) or `pnpm` - that updates all the packages in each repo with a single command in the root repository. 
 
-There are other tools - Bazel from google, Gradle, Nx by Nrwl and Turborepo by Vercel. I personally have used both `lerna` and `pnpm` and have found them effective in managing related code bases in my side projects as well as at work on an enterprise level.
+There are other tools - Bazel from google, Gradle, Nx by Nrwl and Turborepo by Vercel.
+
+I personally have used both `lerna` and `pnpm` and have found them effective in managing related code bases with my side projects as well as at work on an enterprise level. [Here is a link to my dev blogs home page](https://sumisastri.github.io/dev-blogs/)
 
 A multirepo (or a polyrepo) code bases distributed across different code repositories.
 
@@ -35,7 +37,7 @@ A monolith can be broken up into microservices, but a monorepo can only be broke
 
 However, it would be a mistake to apply the use of the monorepo concept simply to colocate code. It goes back to the problem above, which is no well-defined relationship between projects in a repo.
 
-Another way to understand a monorepo versus a monolith is to define each but what it is not. 
+Another way to understand a monorepo versus a monolith is to define each by what it is not. 
 
 The opposite of a monorepo is a multirepo (or a polyrepo) and the opposite of a monolith is distributed microservices. 
 
@@ -51,9 +53,9 @@ The section on what [monorepo tools should provide](https://monorepo.tools/) is 
 
 A monorepo has constraints just as does a monolith, it is not a silver bullet. 
 
-Version control systems like Git and repo hubs like GitHub do not scale multiple repos in a monorepo particularly well. 
+Version control systems like Git, and code repo hubs like GitHub, do not scale multiple repos in a monorepo particularly well. 
 
-It is also hard for DevOps to move work along from local hosts to integration and production environments. Some of this is attitude to change rather than a true release constraint, colocated code with clear relationships between the code bases do not mean co-dependency of the code. Each repo can have its own DevOps workflow.
+It is also hard for DevOps to move work along from local hosts to integration and production environments. Some of this is attitude to change rather than a true release constraint. Colocated code with clear relationships between the code bases do not mean co-dependency of the code. Each repo can have its own DevOps workflow.
 
 A combination of monorepos and microservices could solve the challenges of monorepos as monorepos are expensive in terms of data storage. Microservices for the distribution of these data sets across microservices may be one available solution.
 
