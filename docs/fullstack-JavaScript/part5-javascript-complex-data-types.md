@@ -281,8 +281,8 @@ Dog {}
 
 #### Classes and constructors what is the difference?
 
-- Objects encapsulate and intantiate one object
-- Constructors encapsulate one object with the power to intantiate many objects and create a blueprint
+- Objects encapsulate and instantiate one object
+- Constructors encapsulate one object with the power to instantiate many objects and create a blueprint
 - Classes are superpowered objects and constructors. They are functions with custom constructors using the `this` key word to bind the arguments of the function to the class.
 
 eg:
@@ -297,14 +297,18 @@ class Vehicle {
 		this.fullTank = fullTank;
 		this.distanceOnFullTank = distanceOnFullTank;
 	}
-
 	fuelConsumption() {
-		return this.fullTank / this.distanceOnFullTank;
+		return this.fullTank/this.distanceOnFullTank;
 	}
 }
 
 const fastCar1 = new Vehicle('Maserati', 'GranCabrio A6 1500', 'red', 2, 20, 125);
+const fastCar2 = new Vehicle ('Ferrari', 'SF90-Stradale', 'white', 4, 100, 22);
+console.log(fastCar1)
+console.log(fastCar2)
 ```
+On logging the constructor, you will see how it replicates the information with fastCar1 and fastCar2
+
 
 [A blog outlining the differences between classes and constructors](https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e)
 
@@ -327,11 +331,11 @@ Arrays are readable, writable and enumerable (iterable).
 
 Under the hood, and Array is a constructor with all the constructor methods. 
 
-If you type ```Array.isArray(Array.prototype);``` the return is true in the console.
+If you type `Array.isArray(Array.prototype);` the return is true in the console.
 
 To find a method like key or value
-```Array.prototype.keys()```
-```Array.prototype.values()```
+- `Array.prototype.keys()`
+- `Array.prototype.values()`
 
 You will get the prototype form and all its methods
 
@@ -344,16 +348,50 @@ __proto__: Array Iterator
 
 As the key and value are tightly coupled, arrays literals are iterable and offer a true-false answer when you loop through them. The Array constructor under the hood is invoking the ```.next``` method to find whether the key and value strictly match.
 
-When you use the ```array.values()``` method you are actually invoking the prototype method of the Array constructor ```Array.prototype.values()```
+When you use the `array.values()` method you are actually invoking the prototype method of the Array constructor `Array.prototype.values()`
 
 ```
 var beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 console.log(beasts.values())
+
+<!-- Output -->
+
+Array Iterator {}
+[[Prototype]]
+: 
+Array Iterator
+next
+: 
+ƒ next()
+length
+: 
+0
+name
+: 
+"next"
+arguments
+: 
+(...)
+caller
+: 
+(...)
+[[Prototype]]
+: 
+ƒ ()
+[[Scopes]]
+: 
+Scopes[0]
+Symbol(Symbol.toStringTag)
+: 
+"Array Iterator"
+[[Prototype]]
+: 
+Object
 ```
 The array iterator constructor is using the ```.next``` method in the prototype to loop through all the values in the array and find if the value exists(is true) or does not exist and therefore (is false)
 
-```(iterator.next().value)```
-```(iterator.next().key)```
+- `(iterator.next().value)`
+- `(iterator.next().key)`
 
 ### Array as a constructor vs. array literal
 
@@ -363,35 +401,60 @@ var arrayData = new Array(30);
 ```
 This  will initialise an array with 30 empty elements
 
-Creating a custom constructor for an array - this will create a new object
-```var myArray = newArray('Joe', 0, true, 'Blog');```
+```
+<!-- OUTPUT -->
+
+console.log(arrayData)
+[empty × 30]
+```
+
+Creating a custom constructor for an array - this will create a new array with 4 elements
+
+```JavaScript
+let myArray = new Array('Joe', 0, true, 'Blog');
+console.log(myArray)
+// OUTPUT
+(4) ['Joe', 0, true, 'Blog']
+```
 
 If you assign the array to a variable with bracket notation as above this makes the array prototype object into an array literal.
 
-When you assign an array to a variable, you are initialising the array this array literal has been initialised to a shopping list.
+When you assign an array to a variable, you are initialising the array this array literal has been initialised to joeBlogs.
 
 ```
-var shoppingList1 = [ 'bread', 'milk', 'bacon', 'eggs', 'coffee' ];
-```
-Change the items of the array by access the key and change the value
-shoppingList1[0] = 'onions';
-shoppingList1[3] = 'garlic';
+var joeBlogs  = ['Joe', 0, true, 'Blog'];
+console.log(joeBlogs)
 
-You can reassign the value of the data in an array as follows - the array in the variable arrayData now has a value of 30.
+// OUTPUT - same as above
+(4) ['Joe', 0, true, 'Blog']
+```
+Change the items of the array by access the key or index and change the value
 
+```JavaScript
+joeBlogs[0] = 'Jane';
+joeBlogs[3]  = 'garlic';
+console.log(joeBlogs)
+// OUTPUT
+(4) ['Jane', 0, true, 'garlic']
 ```
-let myArray = [ 6, 15, 30, 40 ];
-let arrayData = myArray[(0, 2)];
-console.log(arrayData);
+
+You can reassign the value of the data in an array as follows 
+
+```JavaScript
+let myArray2 = [ 6, 15, 30, 40 ];
+let arrayData2 = myArray2[(0, 2)];
+console.log(myArray2)
+console.log(arrayData2);
+// OUTPUT
+(4) [6, 15, 30, 40]
+30
 ```
-MDN quick reference [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype]
-w3 quick reference [https://www.w3schools.com/jsref/jsref_obj_array.asp]
-Another useful reference [https://www.dyn-web.com/javascript/arrays/]
+[MDN quick reference ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype)
+[w3 quick reference](https://www.w3schools.com/jsref/jsref_obj_array.asp)
+[Another useful reference ](https://www.dyn-web.com/javascript/arrays/)
 
 ### What are array methods?
 
-Array methods are functions performed on an array. They are in-built into the language. Higher order functions are call-back functions performed on an array. Simple array methods either mutate the array, or keep the original array in tact. ```array.reverse()```, for example mutates the array.
+Array methods are functions performed on an array. They are in-built into the language. Higher order functions are call-back functions performed on an array. Simple array methods either mutate the array, or keep the original array in tact. `array.reverse()`, for example mutates the array.
 
 Methods on arrays can be used by factory functions to change data accessed from API's that are in arrays. The data may be in a format that is required in another format in the front end - for example a number may need to be spelt out, therefore an array of numbers will need the ```array.map()``` method to go through each array, and then the ```.toString()``` method to convert it into words and this may then be used as a param in a factory function.
-
-The section on functional programming explores this in greater details. In this section, array methods I have organised array methos as those that access & find data/ add or copy data/ deconstruct the array/ evaluate the array/ remove or delete elements/ sort and organise elements.
