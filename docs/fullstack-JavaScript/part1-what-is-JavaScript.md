@@ -10,7 +10,7 @@ last_updated: Feb 2024
 
 Created by Brenden Eich in 1996, JavaScript was written for Netscape under the name Mocha, then changed to  "LiveScript". 
 
-Microsoft renamed LiveScript for Explorer calling it JScript, or JavaScript. Standardising JavaScript fell to the hands of ECMA and JavaScript is also known as ECMA Script or ES5, ES6, ES7, ES8 and ES9 which are are updated versions of JavaScript. 
+Microsoft renamed LiveScript for Explorer calling it JScript, or JavaScript. Standardising JavaScript fell to the hands of ECMA (The European Computer Manufacturers Association) and JavaScript is also known as ECMA Script or ES5, ES6, ES7, ES8 and ES9 which are are updated versions of JavaScript. 
 
 "JavaScript" is a trademark of Oracle Corporation in the United States. It is used under license from Mozilla and in JS-engines in browsers - V8 (Google Chrome and Microsoft Edge) and SpiderMonkey(Firefox).
 
@@ -108,10 +108,17 @@ Node is largely used to limit the languages that a team uses to JavaScript, henc
 
 This is why many developers like Node because it's lightweight and you can write your frontend and backend in the same language and share libraries, reduce code write times and tech stack adoption efforts.
 
+## Package management and JavaScript versioning
+
+Unlike other software packages, JavaScript has no major versions and package updates. ECMA as we have seen in the beginning of this section, releases annual updates of JavaScript.
+
+ES6 was the first major update and other updates (currently now ES10) can be checked for browser compatibility on the [frontend](www.canIuse.com) and the [backend](www.node.green). Most releases are backwards compatible, unlike many other packages which when they release major changes result in breaking changes.
+
+The other ways that JavaScript natively supports backward compatibility is with shims and polyfills which are used by JavaScript builders, compilers and transpilers like webpack, Babel and ES-Build.
+
 ## Is JavaScript still just a scripting language?
 
 With the use of JavaScript through the stack, it no longer can be considered just a scripting language for browsers, but the name has stuck even if the behaviour and language has evolved.
-
 
 
 __Further reading__

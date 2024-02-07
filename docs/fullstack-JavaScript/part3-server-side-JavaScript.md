@@ -20,7 +20,11 @@ Full stack JavaScript apps may use a server, such as ExpressJS or Express, to li
 
 To do this, Dahl took the JavaScript code on the browser (Chrome's V8 engine) and repackaged it to make it work server-side with Libuv, which is a mutli-platform support library primarily built for Node focusing on asynchronous input/output (I/O).
 
-As a result, Node is not a great solution where CPU (central processor unit) tasks are required. CPUs require the standard-input to standard-outpul flow where jobs are processed. 
+Ryan Dahl, added APIs (Application Protocol Interfaces) for things JavaScript couldn't do in the browser. 
+
+This includes reading and writing files, making and receiving network requests, as well as encrypting and decrypting data. Node executes JavaScript code inside of the V8 JavaScript engine so it still is a script and interpreted languages even if the behaviour has changed to include server-side network jobs and processes.
+
+As a result, Node is not a great solution where CPU (central processor unit) tasks are required as it still works on an event-driven design pattern that relies on running callback functions to handle events. CPUs require the standard-input to return standard-outputs when jobs are processed. 
 
 Node on the other hand quickly "handles" an event with a callback function. Node, requires JavaScript as a programming language to function. As JavaScript is loosely typed, you may need [TypeScript to transform JavaScript in the Node environment](https://nodejs.org/en/learn/getting-started/nodejs-with-typescript) to a more strictly typed language. 
 
@@ -32,7 +36,7 @@ Java, dotNet, PHP-Symphony, Ruby/Rails and Python are some options that are avai
 
 ## NodeJs more than just a server-side runtime environment
 
-Node is often used in microservices and APIs (application protocol interfaces). The `createServer()` method allows you to create a quick server that will listen to HTTP calls. 
+Node is often used in microservices and APIs. The `createServer()` method allows you to create a quick server that will listen to HTTP calls. 
 
 In the section [anatomy of an HTTP call in the Node official docs](https://nodejs.org/en/learn/modules/anatomy-of-an-http-transaction), you can see how requests and responses are handled with this simple set up.
 
