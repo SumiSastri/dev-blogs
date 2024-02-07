@@ -20,9 +20,11 @@ JavaScript is officially managed by Mozilla Foundation, and new language feature
 
 JavaScript has some unique features. As a programming language, JavaScript is a dynamic and loosely typed script. It is opposite of a dynamic language is a strongly typed language. The characteristics of a loosely typed language are information, typically stored temporarily in a variable can be mutated. In a strongly typed language once a variable is declared with a value that value can not be changed or reassigned to any other value. This is not true of JavaScript, to enforce strict typing a superscript of JavaScript, or TypeScript can enforce strict typing.
 
-## Why is JavaScript considered an interpreted language?
+## Why is JavaScript considered an interpreted language or script?
 
-The second characteristic of JavaScript is that it is read (parsed or interpreted) by JavaScript engines in browsers (Chakra, V8 and SpiderMonkey). Other languages are compiled by processors. As it is parsed by the JavaScript engines in browsers. JavaScript needs pre-processors to build and translate code back into a parseable form by JavaScript transpilers, compilers and code package builders. This is why JavaScript is considered an interpreted language.
+The second characteristic of JavaScript is that it is read (parsed or interpreted) by JavaScript engines in browsers (Chakra, V8 and SpiderMonkey). Other languages are compiled by processors. As it is parsed by the JavaScript engines in browsers. JavaScript needs pre-processors to build and translate code back into a parseable form by JavaScript transpilers, compilers and code package builders. 
+
+This is why JavaScript is considered an interpreted language.  It is also considered a language that scripts the behavior of the browser, hence the name JavaScript. Eich added the word Script to the end of Java - a popular language at the time - but that is where the ressemblance between the two languages starts and stops.
 
 JavaScript, as a language may evolve with newer versions, but browsers do not always upgrade versions as quickly. Therefore compiletime code builders like webpack, Babel and ESBuild are used to compile and transpile code back into the older versions of JavaScript that browsers may use.
 
@@ -105,6 +107,12 @@ Node therefore, as you can see is used in runtime - the time it takes for the da
 Node is largely used to limit the languages that a team uses to JavaScript, hence making teams cross-functional - this is not possible if the backend is run on PHP, Scala, Java and other non-JavaScript languages.
 
 This is why many developers like Node because it's lightweight and you can write your frontend and backend in the same language and share libraries, reduce code write times and tech stack adoption efforts.
+
+## Is JavaScript still just a scripting language?
+
+With the use of JavaScript through the stack, it no longer can be considered just a scripting language for browsers, but the name has stuck even if the behaviour and language has evolved.
+
+
 
 __Further reading__
 
