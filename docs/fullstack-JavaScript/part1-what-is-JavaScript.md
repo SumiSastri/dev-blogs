@@ -2,38 +2,51 @@
 layout: default
 parent:  Fullstack JavaScript
 nav_order: 14
-title: A short history of JavaScript
+title: What is JavaScript?
 last_updated: Feb 2024
 ---
 
-# A short history of JavaScript
+# What is JavaScript?
 
 Created by Brenden Eich in 1996, JavaScript was written for Netscape under the name Mocha, then changed to  "LiveScript". 
 
 Microsoft renamed LiveScript for Explorer calling it JScript, or JavaScript. Standardising JavaScript fell to the hands of ECMA and JavaScript is also known as ECMA Script or ES5, ES6, ES7, ES8 and ES9 which are are updated versions of JavaScript. 
 
-## What is JavaScript
+"JavaScript" is a trademark of Oracle Corporation in the United States. It is used under license from Mozilla and in JS-engines in browsers - V8 (Google), Chakra(Microsoft), SpiderMonkey(Firefox).
 
-"JavaScript" is a trademark of Oracle Corporation in the United States. It is used under licenseby Mozilla and in JS-engines in browsers - V8 (Google), Chakra(Microsoft), SpiderMonkey(Firefox).
+JavaScript is officially managed by Mozilla Foundation, and new language features are added periodically. However, only some JavaScript engines support these new features. Known as JS as well as Vanilla JavaScript - refering to JS without frameworks or libraries, JavaScript is now one of the most popular scripting languages.
 
-JavaScript is officially managed by Mozilla Foundation, and new language features are added periodically. However, only some JavaScript engines support these new features.
+## Why is JavaScript considered a loosely-typed script?
 
-As a programming language, JavaScript is a dynamic and loosely typed script. It is read (parsed) by JavaScript engines in browsers (Chakra, V8 and SpiderMonkey) and the NodeJS run-time environment in the backend.
+JavaScript has some unique features. As a programming language, JavaScript is a dynamic and loosely typed script. It is opposite of a dynamic language is a strongly typed language. The characteristics of a loosely typed language are information, typically stored temporarily in a variable can be mutated. In a strongly typed language once a variable is declared with a value that value can not be changed or reassigned to any other value. This is not true of JavaScript, to enforce strict typing a superscript of JavaScript, or TypeScript can enforce strict typing.
 
-JavaScript needs the HTML-DOM tree to operate in. 
+## Why is JavaScript considered an interpreted language?
 
-The Document Object Model (DOM), which is an API, queries Hyper Text Markup Language (HTML) and CSS (Cascading Style Sheets) and returns an object, of all the HTML elements on a page in a tree-like structure.  JavaScript accesses this DOM-tree and then is run on each node (the individual HTML elements on a page) and then mutates or changes the node's behaviour. The DOM-tree is mutated or morphed, node by node (or HTML element by HTML element) in this process of hydration.
+The second characteristic of JavaScript is that it is read (parsed or interpreted) by JavaScript engines in browsers (Chakra, V8 and SpiderMonkey). Other languages are compiled by processors. As it is parsed by the JavaScript engines in browsers. JavaScript needs pre-processors to build and translate code back into a parseable form by JavaScript transpilers, compilers and code package builders. This is why JavaScript is considered an interpreted language.
 
-JavaScript is therefore considered DOM and node dependent in the front end.
+JavaScript, as a language may evolve with newer versions, but browsers do not always upgrade versions as quickly. Therefore compiletime code builders like webpack, Babel and ESBuild are used to compile and transpile code back into the older versions of JavaScript that browsers may use.
 
-Known as JS as well as Vanilla JavaScript - refering to JS without frameworks or libraries, JavaScript is now one of the most popular scripting languages.
+The frontend is therefore more dependent on the browser environment while JavaScript server-side is updated with every NodeJS long-term-support (LTS) update.
 
+The browser and JavaScript incompatibility issues, have led to a series of shims and polyfills used to patch up the discrepancies in build, compile and runtime code environments.
+
+This mutation of JavaScript results in runtime, buildtime and compiletime code with errors that could be different in each stage of the code mutation.
+
+It makes the debugging of code annoying to many and the avoidance or dislike of JavaScript by some developers.
+
+## Why is JavaScript considered DOM and node dependent?
+
+A third characteristic of JavaScript, on the frontend is that it needs the HTML-DOM tree to operate in and is considered DOM and node dependent. 
+
+The Document Object Model (DOM) is an API (Application Protocol Interface) that  queries Hyper Text Markup Language (HTML) and CSS (Cascading Style Sheets). It takes these files and abstracts out an object, which is the DOM-tree which represents of all the HTML elements on a page in a tree-like structure.  
+
+JavaScript accesses this DOM-tree and then is run on each node (the individual HTML elements on a page) and then mutates or changes the node's behaviour. The DOM-tree is mutated or morphed, node by node (or HTML element by HTML element) in this process of hydration. To hydrate the tree, JavaScript has to go through a process of tree-thrashing or layout-thrashing, where it scans the tree to see which nodes require changes. It applies these changes through the hydration process, and is only then visible to the user.
 
 ## Why is JavaScript considered a non-blocking, single-threaded language?
 
-JavaScript has no concept of input or output. To enforce structure on JavaScript, Typescript, a JavaScript superscript defines types as inputs or outputs. This is why JavaScript is considered a script versus a traditional software engineering programme.
+A fourth, and unique characteristic of JavaScript is that it has no concept of input or output. To enforce structure on JavaScript, Typescript, a JavaScript superscript defines types as inputs or outputs. This is why JavaScript is considered a script versus a traditional software engineering programme.
 
-Software programmes, are defined by processes that are parsed by a processor. The compute process of a processor reads a standard input and a standard output. The output can be a success message or an error.
+Software programmes, are defined by processes that are compiled by a processor. The compute process of a processor takes a standard input and returns a standard output. The output can be a success message or an error.
 
 Processes are processed serially, concurrently or parallely to produce an output. Several threads, or queues or spawns of a parent job are created by the processing of jobs.
 
@@ -51,16 +64,13 @@ The asynchronous nature of these callback functions means that several inputs ca
 
 ## How does the event loop work in the frontend?
 
-In the frontend where users interact with an application, inputs such as clicks, mouse movements, keypad movements are "listened" to and "handled" by callback functions. 
+A fifth characteristic of JavaScript, is that it is event-driven through the stack. As we have seen above, JavaScript does not have a concept of processing jobs. Instead, in the frontend where users interact with an application, inputs such as clicks, mouse movements, keypad movements - these are termed as events in JavaScript.
 
-JavaScript, as a language may evolve with newer versions, but browsers do not always upgrade versions as quickly. Therefore compile time code builders like webpack, Babel and ESBuild are used to compile and transpile code back into the older versions of JavaScript that browsers may use.
+JavaScript "listens" to these events and "handles" them using asynchronous callback functions.
 
-The frontend is therefore more dependent on the browser environment while JavaScript server-side is updated with every NodeJS long-term-support (LTS) update.
+For example an `onClick` event is emitted and listened to, once this event occurs, the developer can write a `handleClick` call back function - which can direct the user to another page, send form information to the backend, reveal a hidden part of the page that can only be revealed if the button is clicked.
 
-The browser and JavaScript incompatibility issues, have led to a series of shims and polyfills used to patch up the discrepancies in build, compile and runtime code environments.
-
-See the section on computer code for more information.
-
+This process of listening to an event, responding to an event with a call back function, and the call back function returning a result asynchronously, is called the event-loop.
 
 ## How does the event loop work server-side?
 

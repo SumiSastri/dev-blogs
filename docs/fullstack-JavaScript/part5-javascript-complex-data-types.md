@@ -2,11 +2,11 @@
 layout: default
 parent:  Fullstack JavaScript
 nav_order: 14
-title: Complex data types in JavaScript
+title: Objects and Arrays - complex data types in JavaScript
 last_updated: Feb 2024
 ---
 
-# Complex data types in JavaScript 
+# Objects and Arrays - complex data types in JavaScript
 
 In JavaScript, everything is considered an object with prototypal inheritance. As we have seen strings, numbers and booleans are also literals - which are methods by which the global JavaScript Object creates or constructs primitive data.
 
@@ -14,7 +14,7 @@ Therefore, the object is the only main complex data type and all other data type
 
 That much said, objects, arrays and functions are considered complex data types.
 
-####  Objects as unordered lists
+##  What is an object in JavaScript?
 
 In JavaScript, an object is an associative array, augmented with a prototype using classes & constructors for inheritance of the values, properties and methods associated with the class.
 
@@ -23,7 +23,7 @@ JavaScript uses prototypes where other programming languages use classes.
 Classes were introduced in ES5. The European Computer Manufacturers Association or ECMA update and standardize JavaScript introducing new features that are cross-browser friendly. ES-5 is the last version of JavaScript that is cross-browser friendly. The new features from ES-6 onwards need Babel and other libraries to transpile code into ES-5.
 
 
-#### What is prototypal inheritance and the prototype chain?
+## What is prototypal inheritance and the prototype chain?
  
 Prototypal inheritance means you can base the functionality of an object based on another object. At the top of the prototype-chain is the object prototype. 
 
@@ -58,7 +58,7 @@ true || false  (as booleans)
 
 `Math()` is not on the list, it is a global object and is formed by a global Math constructor. You can assign `new Object()` to a variable `var car = new Object()` . You can not assign `Math()` with the `new` key word to a variable.  They inherit all the properties and methods in the `Math()` constructor. To access these properties, for example, `Math.round()` this refers to the constructor state.
 
-#### What are objects created by the `object.prototype` method?
+## What are objects created by the `object.prototype` method?
 
 Objects are a collection of data - strings, booleans, numbers (properties) and functions (methods) that are created by the object prototype. Everything in JavaScript is an object as we have seen above. Each object prototype is a function that creates the other complex data-types - Arrays, Functions, Dates, Errors.
 
@@ -137,7 +137,7 @@ let dog = {
 
 ```
 
-####  What does the `this` keyword mean?
+##  What does the `this` keyword mean?
 
 The `this` key word is important in an object because it is an unordered list, with an array, as we will see later in this section, the element index provides specific reference. This is a number and therefore, an array is an ordered list, not an unordered list as is an object.
 
@@ -175,7 +175,7 @@ Jack logs dog-owner first name - implicit binding of THIS DOG.OWNER
 Harry logs musician first name - implicit binding of THIS.MUSICITEM
 ```
 
-####  The utility value of assigning your data to an object
+##  The utility value of assigning your data to an object
 
 Objects are readable and writable, which means you can add, update and delete props in an object. 
 
@@ -195,7 +195,7 @@ Like all other methods, it simply requires you to use the delete key word and do
 
 This is especially useful for API (Application Protcol Interface) data calls in the network layer.
 
-####  How to check the properties of an object
+## How to check the properties of an object
 
 The ```hasOwnProperty``` method checks the props of the object in a strict boolean check returning the value only if one exists. The param checkProp must be passed a string.
 
@@ -222,7 +222,7 @@ boolean check checkDog(checkProp) LOGGED TRUE phyllum cordata
 boolean check checkDog(checkProp) LOGGED FALSE Not a valid property for your dog object
 ```
 
-#### Constructors as a blueprint of an object
+## Constructors as a blueprint of an object
 
 You can create duplicates of an object with the constructor method. The constructor method is a function that creates a blueprint of an object making it reusable. This is executed with the reserved JavaScript keyword ```new```.
 
@@ -279,7 +279,7 @@ Dog {}
 Dog {}
 ```
 
-#### Classes and constructors what is the difference?
+## Classes and constructors what is the difference?
 
 - Objects encapsulate and instantiate one object
 - Constructors encapsulate one object with the power to instantiate many objects and create a blueprint
@@ -313,7 +313,7 @@ On logging the constructor, you will see how it replicates the information with 
 [A blog outlining the differences between classes and constructors](https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e)
 
 
-## What are arrays?
+## What is an arrays in JavaScript?
 
 Arrays are an ordered list rather. They are also known as indexed collections. The index is the key starting from zero and the value is the item in the array that corresponds to the key. The key and value are tightly coupled.
 
@@ -344,7 +344,7 @@ Array Iterator {}
 __proto__: Array Iterator
 ```
 
-### Looping through items in an array
+## Looking under the hood of an array and it component parts
 
 As the key and value are tightly coupled, arrays literals are iterable and offer a true-false answer when you loop through them. The Array constructor under the hood is invoking the ```.next``` method to find whether the key and value strictly match.
 
