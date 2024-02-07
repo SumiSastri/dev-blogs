@@ -1,11 +1,12 @@
 ---
 layout: default
-title: What is a code module?
+title: What is the difference between a computer code and a code module?
 parent: What is computer code
 nav_order: 6
+last_updated: Feb 2024
 ---
 
-# What is a code module?
+# What is the difference between a computer code and a code module?
 
 Computer code is a series of instructions written in a computer programming language that tells the computer what to do. How to execute these instructions written by code writers, computer programmers, software engineers and developers.
 

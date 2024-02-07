@@ -18,7 +18,7 @@ JavaScript also has more complex data structures and design patterns such as arr
 
 ## Variables
 
-A variable is declared or instantiated, with the `var` key word.  `var a = 5;`
+A variable is declared or instantiated (make a new instance of), with the `var` key word.  `var a = 5;`
 
 If it is not instantiated, it will default to undefined. A statement is a variable that has been declared or instantiated.
 

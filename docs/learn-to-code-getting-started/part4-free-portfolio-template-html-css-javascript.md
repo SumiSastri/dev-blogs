@@ -51,7 +51,7 @@ Only when you are happy with how the page looks for you progress to the JavaScri
 
 JavaScript can target each HTML tag and CSS selector. It can target these tags and selectors because browsers read HTML and CSS and converts these files into a Document Object Model (DOM).
 
-The DOM, is like a tree is representing every branch of the HTML document and its CSS styling. This DOM-tree is stored in memory or the cache of the computer.
+The DOM, is like a tree is representing every branch of the HTML document and its CSS styling. This DOM-tree is stored in memory or the cache of the computer. The DOM is an API, that queries HTML and CSS and returns an object, of all the HTML elements on a page in a tree-like structure.JavaScript accesses this DOM-tree and then is run on each node (the individual HTML elements on a page) and then mutates or changes the node's behaviour. The DOM-tree is mutated or morphed, node by node (or HTML element by HTML element) in this process of hydration.
 
 This illustration from FreeCodeCamp [https://www.freecodecamp.org/]shows how the tree cascades from the head (and the meta-data in the boiler plate) to the body and all the elements within the body tags.
 

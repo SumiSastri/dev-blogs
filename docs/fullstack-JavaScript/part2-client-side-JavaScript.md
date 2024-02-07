@@ -11,7 +11,7 @@ last_updated: Feb 2024
 
 JavaScript was originally used for client-side scripting making HTML (Hyper Text Markup Language) nodes, or HTML tags. HTML tags cluster up into a tree shape called the DOM(Document Object Model) Tree. The DOM-tree has the root-HTML - the trunk. 
 
-The branches areother HTML pages that feed into the root-HTML and each individual HTML tag is a node in the DOM-tree. Tags can contain within them attributes which you can access to inject CSS (Cascading Style Sheets) or JavaScript. A process that is referred to as hydration.
+The branches are other HTML pages that feed into the root-HTML and each individual HTML tag is a node in the DOM-tree. Tags can contain within them attributes which you can access to inject CSS (Cascading Style Sheets) or JavaScript. A process that is referred to as hydration.
 
 On the client-side, JavaScript can be used directly by accessing the nodes of a DOM-tree. J-query an early JavaScript library did this by abstracting some functions and making the process of hydration quicker. Static sites are made more dynamic in the hydration process as code blocks can change the way the elements on a page (or tags) are rendered (made visible) to the user.
 

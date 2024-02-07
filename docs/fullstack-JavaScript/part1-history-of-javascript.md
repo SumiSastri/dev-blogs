@@ -20,9 +20,9 @@ JavaScript is officially managed by Mozilla Foundation, and new language feature
 
 As a programming language, JavaScript is a dynamic and loosely typed script. It is read (parsed) by JavaScript engines in browsers (Chakra, V8 and SpiderMonkey) and the NodeJS run-time environment in the backend.
 
-JavaScript needs the HTML-DOM structure to operate in. The Hyper Text Markup Language (HTML) creates documents on a page, each HTML element is considered a node in the Document Object Model (DOM). The DOM has a tree structure, with branches, leaves and nodes. 
+JavaScript needs the HTML-DOM tree to operate in. 
 
-JavaScript is invisible to the user until it is injected into the the HTML-DOM tree node. This process is known as hydration.
+The Document Object Model (DOM), which is an API, queries Hyper Text Markup Language (HTML) and CSS (Cascading Style Sheets) and returns an object, of all the HTML elements on a page in a tree-like structure.  JavaScript accesses this DOM-tree and then is run on each node (the individual HTML elements on a page) and then mutates or changes the node's behaviour. The DOM-tree is mutated or morphed, node by node (or HTML element by HTML element) in this process of hydration.
 
 JavaScript is therefore considered DOM and node dependent in the front end.
 
@@ -113,3 +113,5 @@ __Further reading__
 - [JavaScript Syntax - W3 Schools](https://www.w3schools.com/js/js_conventions.asp)
 
 - [What is JavaScript](https://www.dofactory.com/tutorial/what-is-javascript)
+
+- [JavaScript the Big Picture - Premium PluralSight Course](https://app.pluralsight.com/library/courses/javascript-big-picture/table-of-contents)

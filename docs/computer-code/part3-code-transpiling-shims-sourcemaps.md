@@ -3,6 +3,7 @@ layout: default
 title: What is the difference between code transpiling, compiling and code bundling?
 parent: What is computer code
 nav_order: 6
+last_updated: Feb 2024
 ---
 
 # What is the difference between code transpiling, compiling and code bundling?

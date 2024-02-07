@@ -3,6 +3,7 @@ layout: default
 title: What is computer code
 nav_order: 6
 has_children: true
+last_updated: Feb 2024
 ---
 
 # What is computer code
