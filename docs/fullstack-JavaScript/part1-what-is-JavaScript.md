@@ -12,7 +12,7 @@ Created by Brenden Eich in 1996, JavaScript was written for Netscape under the n
 
 Microsoft renamed LiveScript for Explorer calling it JScript, or JavaScript. Standardising JavaScript fell to the hands of ECMA and JavaScript is also known as ECMA Script or ES5, ES6, ES7, ES8 and ES9 which are are updated versions of JavaScript. 
 
-"JavaScript" is a trademark of Oracle Corporation in the United States. It is used under license from Mozilla and in JS-engines in browsers - V8 (Google), Chakra(Microsoft), SpiderMonkey(Firefox).
+"JavaScript" is a trademark of Oracle Corporation in the United States. It is used under license from Mozilla and in JS-engines in browsers - V8 (Google Chrome and Microsoft Edge) and SpiderMonkey(Firefox).
 
 JavaScript is officially managed by Mozilla Foundation, and new language features are added periodically. However, only some JavaScript engines support these new features. Known as JS as well as Vanilla JavaScript - refering to JS without frameworks or libraries, JavaScript is now one of the most popular scripting languages.
 
@@ -22,7 +22,7 @@ JavaScript has some unique features. As a programming language, JavaScript is a 
 
 ## Why is JavaScript considered an interpreted language or script?
 
-The second characteristic of JavaScript is that it is read (parsed or interpreted) by JavaScript engines in browsers (Chakra, V8 and SpiderMonkey). Other languages are compiled by processors. As it is parsed by the JavaScript engines in browsers. JavaScript needs pre-processors to build and translate code back into a parseable form by JavaScript transpilers, compilers and code package builders. 
+The second characteristic of JavaScript is that it is read (parsed or interpreted) by JavaScript engines, primarily V8 in browsers. Other languages are compiled by processors. As it is parsed by the JavaScript engines in browsers. JavaScript needs pre-processors to build and translate code back into a parseable form by JavaScript transpilers, compilers and code package builders. 
 
 This is why JavaScript is considered an interpreted language.  It is also considered a language that scripts the behavior of the browser, hence the name JavaScript. Eich added the word Script to the end of Java - a popular language at the time - but that is where the ressemblance between the two languages starts and stops.
 

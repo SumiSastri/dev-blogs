@@ -7,7 +7,7 @@ title: Enter the browser with the JavaScript dragon
 
 # Enter the browser with the JavaScript dragon
 
-With the introduction of JavaScript to the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, [Brenden Eich](https://brendaneich.com/) its creator and co-founder of [Mozilla](https://www.mozilla.org/en-GB/firefox/), did not anticipate the browser wars and the host of controversy that JavaScript brought to the rapid growth of the Web and mobile apps.  
+With the introduction of JavaScript to the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, [Brenden Eich](https://brendaneich.com/) its creator and co-founder of [Mozilla](https://www.mozilla.org/en-GB/firefox/), did not anticipate the  and the host of controversy that JavaScript brought to the rapid growth of the Web and mobile apps.  
 
 At a 2-day full-stack conference hosted by [Stack Skills](https://stackskills.com/), speakers reflected on the good-old-days of Web 1.0 and the risks that the introduction of JavaScript created, if you are interested in this section read [Part 1 - A love letter to the personal website](https://sumisastri.github.io/dev-blogs/history-of-the-web/part1-web1.0/)
 
@@ -31,7 +31,11 @@ Given this shift from web applications to mobile applications, Bruce Lawson’s 
 
 While the browser wars raged in the 1990s, today Safari has been taken to task for not using Chrome, Internet Explorer, Firefox, or any other browser on its mobile devices, he said.
 
-Apple phones and i-pads mask these browsers and use Safari, which users see and interact with. However, the UX with Safari is so poor that users often prefer Android mobile devices. A plurality of browsers perform so much better on speed and efficiency, Lawson said. As of 2025, Apple in Europe under the Digital Act will be obliged to change this anti-competitive behaviour, he added.
+Since 2020, Microsoft's Edge uses Google's V8 engine. Firefox continues to use SpiderMonkey and Apple uses Safari, even when you use Bing, or google as search engines.
+
+Apple phones and i-pads mask these browsers and use Safari, which users see and interact with. However, the UX with Safari is so poor that users often prefer Android mobile devices. 
+
+A plurality of browsers perform so much better on speed and efficiency, Lawson said. As of 2025, Apple in Europe under the Digital Act will be obliged to change this anti-competitive behaviour, he added.
 
 ## I'm going to the garden to eat bugs - big ones, fat ones, round ones, curly ones
 

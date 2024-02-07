@@ -17,7 +17,7 @@ A software development kit (SDK), is a downloadable software package which bundl
 
 Firebase SDKs supports web-apps and Android/IoS mmobile apps as well as run on several languages - Java, JavaScript, Python, etc., If you wish to build a web-app you need the JavaScript SDK and if you need a mobile app you work with the Android/IoS SDK, depending on what you want to build. The FireBase Admin SDK to access privileged info from the Google Servers, the language specific SDKs are required eg: Firebase Admin Python SDK or Firebase Admin NodeJS SDK.
 
-SDKs come with minimum access requirements eg: NodeJS v8 or higher needs to be installed to get the Firebase Admin NodeJS SDK to function as intended and with no side-effects.
+SDKs come with minimum access requirements eg: NodeJS-v8 or higher needs to be installed to get the Firebase Admin NodeJS SDK to function as intended and with no side-effects.
 
 SDKs are updated and latest versions of the SDK should be used wherever possible versions should be updated as they fix code challenges and security issues that may have been raised as issues in previous versions of the SDK.
 

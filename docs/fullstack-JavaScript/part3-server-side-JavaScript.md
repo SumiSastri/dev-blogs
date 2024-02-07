@@ -46,6 +46,6 @@ Many desktop applications use Node, with [ElectronJs](https://www.electronjs.org
 
 __Further reading__
 
-- The [v8 engine docs](https://v8.dev/docs)
+- The [V8 engine docs](https://v8.dev/docs)
 
 - More on [Libuv](https://docs.libuv.org/en/v1.x/)
