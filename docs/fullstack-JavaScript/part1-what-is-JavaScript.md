@@ -68,11 +68,15 @@ The asynchronous nature of these callback functions means that several inputs ca
 
 A fifth characteristic of JavaScript, is that it is event-driven through the stack. As we have seen above, JavaScript does not have a concept of processing jobs. Instead, in the frontend where users interact with an application, inputs such as clicks, mouse movements, keypad movements - these are termed as events in JavaScript.
 
-JavaScript "listens" to these events and "handles" them using asynchronous callback functions.
+Events build up in a task queue, as JavaScript is a single-threaded non-blocking programming lanugage, it is able to deal with multiple tasks on the task queue driven by "listening" to these events and "handling" them using asynchronous callback functions.
 
 For example an `onClick` event is emitted and listened to, once this event occurs, the developer can write a `handleClick` call back function - which can direct the user to another page, send form information to the backend, reveal a hidden part of the page that can only be revealed if the button is clicked.
 
 This process of listening to an event, responding to an event with a call back function, and the call back function returning a result asynchronously, is called the event-loop.
+
+
+
+For more detail on the event-loop, MDN documentation [https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop]
 
 ## How does the event loop work server-side?
 
