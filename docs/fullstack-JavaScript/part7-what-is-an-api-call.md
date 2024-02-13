@@ -1,3 +1,11 @@
+---
+layout: default
+parent:  Fullstack JavaScript
+nav_order: 14
+title: What is an API?
+last_updated: Feb 2024
+---
+
 # What is an API?
 
 The frontend (client-side) of an application (app) is based on three key languages - HTML (Hyper Text Markup Language) CSS (Cascading Style Sheets) and JavaScript.  It mainly refers to the user interface with desktops, mobile and wearable apps. 
@@ -57,5 +65,3 @@ There is no choice between using SOAP or REST as it is already pre-defined as an
 Some sites, like Amazon, support both.
 
 A good blog to read [https://smartbear.com/blog/test-and-monitor/understanding-soap-and-rest-basics/] and a little more technical version [https://www.soapui.org/learn/api/soap-vs-rest-api.html]
-
-

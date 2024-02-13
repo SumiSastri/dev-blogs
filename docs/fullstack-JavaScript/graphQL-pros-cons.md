@@ -1,4 +1,4 @@
-- Aggregated queries in one query
+<!-- - Aggregated queries in one query
 - Exact requirements met - language agnostic
 - Strongly-typed - predictability of query - error-handling with the schema validation with resolver functions
 - Eco-system and tooling - server libraries batch resolving
@@ -16,4 +16,4 @@ CONS
 
 - One of the cons is developers can do anything against schema - aliases of the same query to return different bits of information
 - Caching not embedded as in HTTP
-- Error handling and schema validation require client-server libraries as add-ons
+- Error handling and schema validation require client-server libraries as add-ons -->

@@ -1,4 +1,12 @@
-# How JavaScript handles API calls?
+---
+layout: default
+parent:  Fullstack JavaScript
+nav_order: 14
+title: How JavaScript handles API calls
+last_updated: Feb 2024
+---
+
+# How JavaScript handles API calls
 
 To send and receive API calls from clients to servers, JavaScript's native middleware, the Fetch API can be used out of the box with no setup, since NodeJS v18 as it can be read by browsers and runs in the node environment server-side.
 
@@ -16,7 +24,7 @@ AJAX allows web pages to be updated asynchronously by exchanging data with a web
 
 [See W3 Schools Docs](https://www.w3schools.com/whatis/whatis_ajax.asp)
 
-#### What is the difference between Axios and Superagent?
+## What is the difference between Axios and Superagent?
 
 The two most popular options outside the Fetch API are the libraries Axios and Superagent.
 [SuperAgent Documentation](https://visionmedia.github.io/superagent/)
@@ -130,15 +138,6 @@ Asynchronous JavaScript layered on top of promises simulates synchronous code. T
 
 The pending state is the time taken for the data to be fetched and loading spinners in the front end are used to show that the server is taking time to find the data.
 
-__Resources__
-
-- [MDN Docs on Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-- [W3 Schools Docs on Fetch](https://www.w3schools.com/js/js_api_fetch.asp)
-- [JavaScript Info Tutorial](https://javascript.info/fetch-api)
-- [Webdev blog](https://web.dev/articles/introduction-to-fetch)
-- [Freecodecamp blog](https://www.freecodecamp.org/news/how-to-fetch-data-from-an-api-using-the-fetch-api-in-javascript/)
-- [David Walsh](https://davidwalsh.name/fetch)
--[Digital Ocean Blog](https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
 
 ## APIs and protecting server-side information
  
@@ -189,7 +188,12 @@ Run the set up again till successful
 - Create a utility function to call your API & test utility function with mocks/ spies/ matchers
 - The purpose of testing an API with a mock is not to test the internal functions of the call but what data is returned so the object is mocked and matchers like `toBeCalled()/ toBeCalledWith()` test the return statement to check the right data has been returned by the server
 
+__Resources__
 
-
-
-
+- [MDN Docs on Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+- [W3 Schools Docs on Fetch](https://www.w3schools.com/js/js_api_fetch.asp)
+- [JavaScript Info Tutorial](https://javascript.info/fetch-api)
+- [Webdev blog](https://web.dev/articles/introduction-to-fetch)
+- [Freecodecamp blog](https://www.freecodecamp.org/news/how-to-fetch-data-from-an-api-using-the-fetch-api-in-javascript/)
+- [David Walsh](https://davidwalsh.name/fetch)
+-[Digital Ocean Blog](https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)

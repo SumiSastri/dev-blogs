@@ -1,4 +1,12 @@
-# A brief history of the REST API
+---
+layout: default
+parent:  Fullstack JavaScript
+nav_order: 14
+title: What is the REST-API?
+last_updated: Feb 2024
+---
+
+# What is the REST-API?
 
 The early history of the web began in the early 1980s in Switzerland at the CERN physics lab.  Tim Berners‑Lee wrote a system called Enquire to help him keep track of different people, projects, and computers that were being used.
 
@@ -11,8 +19,6 @@ Sequentially, the URL came first then HTTP and finally HTML. Even then, the adop
 REST, an acryonynm for Representational State Transfer, was coined by Roy Fielding as a part of his PhD dissertation. Fielding conceived of REST as a way of describing system architecture of the web.as part of his remit to develop formal standards around the transfer of information with URLs, HTTP, and HTML across the web at CERN.
 
 There are several protocols- HTTP & HTTPS (secureHTTP)/ File Transfer Protocol & SFTP(secure FTP)/ SSH (secure shell)- which can be used over the internet/ FTMP (SFTMP - secure FTMP)/etc.
-
-## What is the REST-API?
 
 REST, is an architectural style described by Fielding to set up a framework for evaluating networking and transfer of data from one point to another. The destination for this data is also known as an API-endpoint. The start is with the request made by the browser.
 
@@ -222,7 +228,7 @@ __The component parts of the response__
 
 2. Response body - once again the response body then gives you more information on the type of document that is being returned - the content-type as well as the content-length. The response then has an empty line and the body of the response is a JSON object with the information requested returned.
 
-* More resources:
+_Resources_
 
-MDN documentation[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work] 
-A good YouTube Video:  [https://www.youtube.com/watch?v=7_LPdttKXPc]
+[MDN documentation](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
+[A good YouTube Video on REST APIs](https://www.youtube.com/watch?v=7_LPdttKXPc)
