@@ -31,11 +31,15 @@ The two most popular options outside the Fetch API are the libraries Axios and S
 
 __The advantages of Axios__
 
+- in the npm registry can be easily downloaded and used
+- can be used in the `script` tag in vanilla JavaScript as well
 - the response body JSON is pre-parsed with the Fetch API
 - has a `setTimeOut()` which can in some instances be helpful (loading and checking errors)
 - good cross-browser support
 - can be used with TypeScript
-[Axios Documentation](https://github.com/axios/axios)
+[Axios on GitHub](https://github.com/axios/axios)
+[Axios Docs](https://axios-http.com/docs/intro)
+[Latest v.0.28.0 release notes](https://github.com/axios/axios/releases/tag/v0.28.0)
 
 eg: of what you can see once you use the `axios.get()` method
 
@@ -49,6 +53,8 @@ axios.get('url')
     console.log(response.config);
   });
 ```
+
+[CRUD methods with Axios from Docs](https://axios-http.com/docs/example)
 
 ## What is middleware?
 
@@ -107,15 +113,18 @@ From the documentation, the full syntax of the Fetch API for reference is here a
 
 ```JavaScript
 fetch(url, {
-method: "GET",
-body: JSON.stringify(data),
+method: "GET", //=> Strings - POST, PUT and DELETE in upper case
 headers: {
 "Content-Type": "application/json"
 // "Content-Type": "text/xml"
 },
+// body should come after the headers
+body: JSON.stringify(data),
+// manages cross origin scripting (CORs)
 credentials: "same-origin"
 }).then(function async (response) {
 await	
+// these can be logged to the console to debug
 response.status //=> number 100–599
 response.statusText //=> String
 response.headers //=> Headers
@@ -130,14 +139,21 @@ error.message //=> String
 
 Resolved arguments result in 200 codes in the response header or a success message, and rejected arguments throw errors.
 
-The fetch API then takes the response body and parses it with the `response.json()` method
+The Fetch API then takes the response body and parses it with the `response.json()` method
 
-The method has 2 params url and options,
+The method has 2 params url and options, these options can be existing options like `signal` from the Fetch-API or other arguments you may want to add.
 
 Asynchronous JavaScript layered on top of promises simulates synchronous code. The key words `async` and `await` can be used as syntactical sugar over promises and the corresponding `try-catch` blocks to pinpoint errors for promises that are rejected.
 
 The pending state is the time taken for the data to be fetched and loading spinners in the front end are used to show that the server is taking time to find the data.
 
+<!-- ## What is CORS?
+
+## What are signals and the abort control method?
+
+## The promise based request-response methods
+
+`Async-await` and `try-catch` blocks are in ECMA-2017 and may not be compatible with older browsers. However compilers/ transpilers of code may do the necessary work to make these code blocks backwards compatible. -->
 
 ## APIs and protecting server-side information
  

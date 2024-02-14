@@ -180,8 +180,11 @@ Hypermedia‑driven workflows work with HTML and its hypermedia controls like an
 4. Querystring is the parameters sent to the server typically starts with a question mark. The querystring parameters are composed of key-value pairs
 5. The hash/fragment - the URI fragment is generally used by the client to identify some portion of the content in the response.
 
-    http://www.example.org/hello/world/abc.html?foo=bar&baz=bat#footer
-    \___/  \_____________/ \__________________/ \_____________/ \____/
+   ```
+   http://www.example.org/hello/world/abc.html?foo=bar&baz=bat#footer
+    \___/  \_____________/ \__________________/ \_____________/ \____/`
+
+   ```
 
 protocol/host/domain name/ path/ querystring/ hash/fragment
 
