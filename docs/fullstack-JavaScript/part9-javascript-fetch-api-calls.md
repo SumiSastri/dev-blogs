@@ -56,6 +56,12 @@ axios.get('url')
 
 [CRUD methods with Axios from Docs](https://axios-http.com/docs/example)
 
+__Axios trade-offs__
+
+Axios does have some advantages over using the Fetch API, however, there are no significant code execution benefits compared to the `fetch()` method because an additional package has to be added to your app and this means package maitainence and managing any issues arising out of package management.
+
+The Fetch API on the other hand is native to JavaScript and needs limited set up. It is also not significantly more verbose compared with Axios.
+
 ## What is middleware?
 
 Middleware can be as simple as a config file that handles the request-response cycle.

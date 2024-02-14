@@ -119,3 +119,16 @@ or if you are using oh-my-zsh
 <!-- export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 ```
+
+## Pinning the version of node to your repo
+
+1. Add a `.nvmrc` file in the root of your project paste the version of Node here eg: `18.17.0`
+2. Add a `.npmrc` file in the root of your project paste `engine-strict=true` in this file
+3. In GitHub Actions paste this code to switch automatically to the version of note in your setup
+```
+- name: Setup Node
+        uses: actions/setup-node@v4.0.2
+        with:
+          node-version-file: ".nvmrc"
+```          
+4. If you choose not to use GitHub actions, you can switch to the version of Node in your repo by running `nvm use` in terminal when you change directories into your project.
