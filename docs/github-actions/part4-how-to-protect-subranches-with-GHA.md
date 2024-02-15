@@ -12,7 +12,7 @@ Each branch or sub-branch (from an integration or development branch head) also 
 Some best practices:
 
 - Commit history - clean messages and description of reason for change
-- PR (peer-review) required before branch can be merged - to discuss and make changes
+- PR required before branch can be merged - to discuss and make changes
 - Tests written must pass in the PR environment
 - A minimum number of people required to review code before merging
 - Named people review code
@@ -22,8 +22,9 @@ Some best practices:
 - A PR format
 - An issues format
 
-
 ## The difference between issues and PRs
 
-An issue is a discussion topic that does not change the code base. A PR or peer-review reviews change and santise the code base making it cleaner, more efficient and maintainable.
+An issue is a discussion topic that does not change the code base. 
+
+A pull request triggers the peer-review process, where other developers review the PR making suggestions to change and sanitise the code base making it cleaner, more efficient and maintainable.
 
