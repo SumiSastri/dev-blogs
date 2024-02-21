@@ -24,6 +24,8 @@ AJAX allows web pages to be updated asynchronously by exchanging data with a web
 
 [See W3 Schools Docs](https://www.w3schools.com/whatis/whatis_ajax.asp)
 
+AJAX has mainly been replaced by the Fetch API in modern web development.
+
 ## What is the difference between Axios and Superagent?
 
 The two most popular options outside the Fetch API are the libraries Axios and Superagent.

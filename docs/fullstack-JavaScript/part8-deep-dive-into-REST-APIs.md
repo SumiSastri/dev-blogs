@@ -18,7 +18,7 @@ Sequentially, the URL came first then HTTP and finally HTML. Even then, the adop
 
 REST, an acryonynm for Representational State Transfer, was coined by Roy Fielding as a part of his PhD dissertation. Fielding conceived of REST as a way of describing system architecture of the web.as part of his remit to develop formal standards around the transfer of information with URLs, HTTP, and HTML across the web at CERN.
 
-There are several protocols- HTTP & HTTPS (secureHTTP)/ File Transfer Protocol & SFTP(secure FTP)/ SSH (secure shell)- which can be used over the internet/ FTMP (SFTMP - secure FTMP)/etc.
+There are several protocols- HTTP & HTTPS (secureHTTP)/ File Transfer Protocol & SFTP(secure FTP)/ SSH (secure shell)- which can be used over the internet, TPM (Trusted Platform Module) is a secure cryptoprocessor in the developed in the early 2000s, to create a "chain of trust".
 
 REST, is an architectural style described by Fielding to set up a framework for evaluating networking and transfer of data from one point to another. The destination for this data is also known as an API-endpoint. The start is with the request made by the browser.
 

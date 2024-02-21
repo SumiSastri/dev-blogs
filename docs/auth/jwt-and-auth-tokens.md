@@ -15,7 +15,7 @@ Between the user posting the request from a device, is the browser that sends th
 
 The browser, once again, is in the middle of the server and the user. It performs the function on the return trip, or the HTTP response, of compiling the page from different documents fetched - the user interface (UI) text and images, the data from databases like the user passwords, in this case and the authentication token with a digital signature.
 
-To connect the user, browser and servers is a transport layer - that transports the data with its own encryptation services and protocols. A TCP (Transport Control Protocol) connection, connects two hosts connect and makes the exchange data possible. During the transport of the data an encrypted TLS (Transport Layer Security - formerly known as a Secure Sockets Layer SSL) is enabled to prevent data leaks.
+To connect the user, browser and servers is a transport layer - that transports the data with its own encryptation services and protocols. A Transport Connection Protocol/ Internet Protocol (TCP/IP) connection, connects two hosts connect and makes the exchange data possible. During the transport of the data an encrypted TLS (Transport Layer Security - formerly known as a Secure Sockets Layer SSL) is enabled to prevent data leaks.
 
 Between the browser and the server is this transport layer with several proxys - its routers, modems and other networking systems that connect user devices, browsers and servers.
 

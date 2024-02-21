@@ -24,7 +24,7 @@ The request-response pattern (which is based on a set of rules, standards or pro
 
 HTTP refers to the standards, rules or protocols for these API calls. The secure encrypted way that data is transfered, is referred to as HTTPS (Hyper Text Transfer Protocol - Secure). 
 
-This protocol is completed in the encryptation layer of the network layer using the SSL (Secure Sockets Layer) during the transportation of the data in the TLS (Transport Layer Security).
+This protocol is completed in the the TCP/IP (Transport Connection Protocol/ Internet Protocol) network layer. The network layer in itself is a layered system. The encryptation layer of the network layer TLS (Transport Layer Security - formerly known as a Secure Sockets Layer SSL) encrypts the data making an HTTPS request more secure from malicious actors compared with an HTTP request.
 
 HTTP & HTTPS enable documents to be transported to and from browsers and back-end databases. It is the basis of data-exchange on the web.
 
