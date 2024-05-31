@@ -3,6 +3,7 @@ layout: default
 title: How the internet works
 parent: Learn to code - getting started
 nav_order: 2
+last_updated: May 2024
 ---
 
 # How the internet works
