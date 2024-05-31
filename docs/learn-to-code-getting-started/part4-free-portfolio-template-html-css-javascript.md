@@ -3,6 +3,7 @@ layout: default
 title: A free portfolio or website template with HTML, CSS and JavaScript
 parent: Learn to code - getting started
 nav_order: 2
+last_updated: May 2024
 ---
 
 # A free portfolio or website template with HTML, CSS and JavaScript
@@ -47,19 +48,48 @@ In the CSS, I have marked the sections with CSS-Grid and CSS-FlexBox, these help
 
 Only when you are happy with how the page looks for you progress to the JavaScript section.
 
-## How JavaScript uses the DOM-tree to change behaviour of HTML and CSS tags and selectors
+## JavaScript fundamentals - a reductionist view
 
-JavaScript can target each HTML tag and CSS selector. It can target these tags and selectors because browsers read HTML and CSS and converts these files into a Document Object Model (DOM).
+The key characteristics of JavaScript as a programming language are:-
 
-The DOM, is like a tree is representing every branch of the HTML document and its CSS styling. This DOM-tree is stored in memory or the cache of the computer. The DOM is an API, that queries HTML and CSS and returns an object, of all the HTML elements on a page in a tree-like structure.JavaScript accesses this DOM-tree and then is run on each node (the individual HTML elements on a page) and then mutates or changes the node's behaviour. The DOM-tree is mutated or morphed, node by node (or HTML element by HTML element) in this process of hydration.
+1) JavaScript needs an environment in which it operates, in the frontend this is the browser in the backend, it is the Node environment which uses JavaScript outside the browser
 
-This illustration from FreeCodeCamp [https://www.freecodecamp.org/]shows how the tree cascades from the head (and the meta-data in the boiler plate) to the body and all the elements within the body tags.
+2) It is a script that is compiled by the browser's JavaScript Engine
 
-JavaScript accesses these elements and uses functions - or blocks of code, a set of rules or instructions - to change the behaviour of these elements.
+3) The JavaScript engine then reads or parses the code and executes the commands that are written in the body of the code
 
-Go back to the Traffic Light Pen [https://codepen.io/sumisastri/pen/zyzPZm]
+4) JavaScript is dependent on an "event" or a user interaction and uses this event to run a block of commands or code. For example the `onClick` event will be triggered and a code block or set of commands run when a user clicks on a button, link or a part of the website. There are several other events like `onMouseOver` that is when the mouse is moved over an HTML element or part of a page or `onSubmit` when a button is clicked to submit form data, are some other examples.
 
-Go to this function written on Line 15
+5) JavaScript can use the DOM-tree to change the behaviour of HTML and CSS. JavaScript can target each HTML tag and CSS selector. It can target these tags and selectors because browsers read HTML and CSS and programs that run inside the browser engine, converts these files into a Document Object Model (DOM).
+
+There is [a more detailed section on fullstack JavaScript](https://sumisastri.github.io/dev-blogs/fullstack-JavaScript/) in this blog.
+
+
+## How JavaScript changes the behaviour of HTML and CSS tags and selectors
+
+To understand the power of JavaScript and how it can change HTML and CSS tags and selectors, it is useful to understand a little more about how browsers parse information on a web page.
+
+Once a browser sees a JavaScript `<script>` tag injected into a `.html` page, it will parse the JavaScript first and only then read the HTML and CSS files. This injection of JavaScript into HTML is known as "hydration" of the DOM-tree.
+
+The DOM, is like a tree is representing every branch of the HTML document and its CSS styling. 
+
+This DOM-tree is stored in memory or the cache of the computer. The DOM is an API, that queries HTML and CSS and returns an object, of all the HTML elements on a page in a tree-like structure.
+
+JavaScript accesses this DOM-tree and then is run on each node (the individual HTML elements on a page) and then mutates or changes the node, or the HTML element or CSS attribute's behaviour. 
+
+JavaScript can therefore mutate or morph the DOM-tree node by node (or HTML element by HTML element/ CSS attribute by CSS attribute). This process of injecting JavaScript into each node, element and attribute is therefore called the process of hydration.
+
+Interpreting how the change is created is called "diffing" or checking how one version differs from the other, the differential. Algorithmns, or code blocks written to check the "diff" or differential, perform an operation that is known as "tree-shaking".
+
+Hydration is performed to change the behaviour of an HTML element or CSS selector, while tree-shaking is performed to understand how this change has been created.
+
+This illustration from [FreeCodeCamp](https://www.freecodecamp.org/)shows how the tree cascades from the head (and the meta-data in the boiler plate) to the body and all the elements within the body tags.
+
+JavaScript accesses these elements and uses functions - or algorithms,or blocks of code, or a set of rules or instructions which are all synonmns - to change the behaviour of HTML element and CSS attributes.
+
+With this broad overview, you can now go back to the Traffic Light Pen [https://codepen.io/sumisastri/pen/zyzPZm]
+
+Go to this function written on Line 15 to deconstruct it:-
 
 ```JavaScript
 function illuminateGreen() {
@@ -147,8 +177,8 @@ The index in an array is notated square brackets or [index] as in the code in th
 
 [W3](https://www.w3schools.com/js/js_if_else.asp)
 
-[Moz](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+[Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
 The images change every 2000 milliseconds or 2 seconds, you can speed up the change or slow it down and see how you want the slide-show to function.
 
-If you are happy with your portfolio site and want to host it on an URL (Unique Resource Locator) Part 5 of Learning to Code concludes this series with instructions of how to deploy your project with [Netifly](https://www.netlify.com/).
+If you are happy with your portfolio site and want to host it on an URL (Unique Resource Locator) [Part 5 of Learning to Code](https://sumisastri.github.io/dev-blogs/learn-to-code-getting-started/part5-how-the-internet-works/) concludes this series with instructions of how to deploy your project with [Netifly](https://www.netlify.com/) and a quick understanding of internet, the environment  and framework, within which web development works.
