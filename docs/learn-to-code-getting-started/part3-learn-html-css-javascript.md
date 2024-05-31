@@ -3,6 +3,7 @@ layout: default
 title:  Have fun learning to code HTML, CSS and JavaScript
 parent: Learn to code - getting started
 nav_order: 2
+last_updated: May 2024
 ---
 
 # Have fun learning to code HTML, CSS and JavaScript
@@ -15,7 +16,9 @@ You can create your own pens by copying the code and playing with it. Don't worr
 
 I demo the basics of how HTML [with this super fast HTML crash course on CodePen](https://codepen.io/sumisastri/pen/yLgRpZN)
 
-As a brief guide to understanding this pen, HTML was designed in 1990 to share documents over the world wide web. The current version in use is HTML5 with several enhancements to the original text-mark-up language.
+A brief guide to understanding this pen. 
+
+HTML was designed in 1990 to share documents over the world wide web. The current version in use is HTML5 with several enhancements to the original text-mark-up language.
 
 As it is a programming language, identifying HTML on a browser starts with meta-tags, or data invisible to the reader but read by a browser that is enclosed in `<> </>` known as opening and closing tags.
 
@@ -41,9 +44,16 @@ To create your own HTML pen in CodePen, copy and paste the boiler plate and you 
 </html>
 ```
 
-If you have not read **Part 2 of Learning to Code**, I briefly outline the difference between learning to code for frontend web and mobile applications is vs. learning to code for the backend of an app.
+## What does the boiler plate mean?
 
-This boiler plate that you copy into your workspace, or pen, is parsed - or read - by the web browsers. If the syntax is wrong and you miss an opening or closing tag, the program breaks and will not run. Each browser has its own JavaScript engine that parses HTML, CSS and JavaScript in a different way.
+The boiler plate that you copy into your workspace, or pen, is parsed - or read - by the web browsers. If the syntax is wrong and you miss an opening or closing tag, the program breaks and will not run. Each browser has its own JavaScript engine that parses HTML, CSS and JavaScript in a different way.
+
+- lang - tells the browser which "human" language the page is written in - here it is english or eng
+- dir - is the direction the language is written in, ltr being left to right
+- meta - is the meta data that the browser reads or parses to transform the `.html` file into binary code
+- utf - is the unicode text format, or how a "human" language's text format is converted into binary code or a "computer" readable language
+- viewport, device-width, and 1 - all refer to the amount of space on the device the user is viewing or the "viewport" for a desktop, tablet or mobile device. This is well explained in the [W3 docs on viewports](https://www.w3schools.com/css/css_rwd_viewport.asp)
+
 
 The reason why computer code is written according to strict rules (the syntax of the code) or protocols is to ensure that there is a uniform, consistent way of writing code that can be read or parsed by different browsers.
 
@@ -51,7 +61,11 @@ This is the right moment to talk about clean code. Clean code is important as a 
 
 Typos will make the difference between code working or breaking. So ensure your code is clean and consistent when you are working in your pen.
 
-There are thousands of HTML tags - the key ones are 6 h-tags for headings. Search engines will rank a `h1` tag the highest in terms of importance and `h6` the lowest. The semantic tags lare self-explanatory.
+There are thousands of HTML tags - the key ones are 6 h-tags for headings. Search engines will rank a `h1` tag the highest in terms of importance and `h6` the lowest and they are a fundamental part of coding for the frontend of a web application. 
+
+If you have not read [Part 2 of Learning to Code](https://sumisastri.github.io/dev-blogs/learn-to-code-getting-started/part2-what-coding-languages-to-learn/), I briefly outline the difference between learning to code for frontend web and mobile applications is vs. learning to code for the backend of an app.
+
+The semantic tags listed below are self-explanatory. A more detailed understanding can be found in the [Mozilla docs on semantic HTML](https://developer.mozilla.org/en-US/curriculum/core/semantic-html/).
 
 ```HTML
 <body></body>
@@ -62,7 +76,9 @@ There are thousands of HTML tags - the key ones are 6 h-tags for headings. Searc
 <footer></footer>
 ```
 
-Always check the [documentation](https://www.w3schools.com/html/) from W3 schools. I have used different HTML tags for forms and the W3 tutorial was one of the first that I did before I made the decision to go to bootcamp.
+As a developer it is good practice to search for [documentation](https://www.w3schools.com/html/) for code and familiarise yourself with the way documentation is written.  
+
+I have used different HTML tags for forms and the W3 tutorial was one of the first that I did before I made the decision to go to bootcamp.
 
 Work on the examples in CodePen and repeat the same examples many times to feel comfortable with HTML as a language and its syntax.
 
@@ -108,7 +124,7 @@ The property selected is the body HTML attribute, and the background color is gr
 
 Once again, clean-code and being mindful of the small syntax errors that you make can result in coding running or you having to go back and fix the typo in the syntax.
 
-It happens all the time, to experienced coders as well so don't feel bad about it! In the early stages of coding, it is so easy to blame yourself and feel bad. Stay calm as they say and keep coding :-).
+It happens all the time, to experienced coders as well so don't feel bad about it!  In the early stages of coding, we tend to give ourselves a hardtime as newbies. Stay calm as they say and keep coding :-).
 
 In the pen, see how we use a linear gradient and a background image.
 
