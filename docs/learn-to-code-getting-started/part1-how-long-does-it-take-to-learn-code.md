@@ -3,6 +3,7 @@ layout: default
 title: Questions to ask yourself
 parent: Learn to code - getting started
 nav_order: 2
+last_updated: May 2024
 ---
 
 # Questions to ask yourself
@@ -41,7 +42,7 @@ This happened occasionally when people were off sick, or devs more interested in
 
 I was fortunate to work in technology for 10 years and talk to a lot of developers.
 
-I began to notice a pattern, there were the engineers and the CS (computer Science) guys. But there were a lot of devs that were neither. One was a waiter before he became a programmer. Another was in an advertising agency and retrained. Yet another deciding that he would never become a professional drummer - though he liked to jam on weekends - taught himself with various online video courses.
+I began to notice a pattern, there were the engineers and the CS (computer science) guys. But there were a lot of devs that were neither. One was a waiter before he became a programmer. Another was in an advertising agency and retrained. Yet another deciding that he would never become a professional drummer - though he liked to jam on weekends - taught himself with various online video courses.
 
 It got me thinking.
 
@@ -87,12 +88,12 @@ For me, it was always a question of finding out - albeit an expensive, high-risk
 
 For me the answer was a resounding yes. I came away from bootcamp learning more that I thought that I would. We rapidly raced through the fundamentals of some "real" programming languages
 
-- JavaScript - a front-to-backend language
-- Python - a scripting backend language
+- JavaScript - used both in the frontend and backend
+- Python - another scripting language good for data science
 - PostgreSQL - a relational database language
 - ReactJS - a JavaScript component Library
 - NodeJS - a JavaScript backend framework (more commonly known as Node)
-- MongoDB - a document-based language
+- MongoDB - a document-based database that uses JavaScript under the hood
 
 ## Can you make a living after you have learnt to code?
 
@@ -128,10 +129,10 @@ The quality of the candidates has improved too, there are so many online courses
 
 And then there is knowledge obsolescence. 
 
-ReactJS is now in version 18, Node in version 20. Some of the older versions like Node version 12 which I learnt are no longer supported. There are breaking changes you need to keep upto date with.
+ReactJS is now in version 19, Node in version 20, (at the time of writing - 2024). Some of the older versions like Node version 12 which I learnt are no longer supported. There are breaking changes you need to keep upto date with.
 
 Bootcamps can no longer teach React without updating their course materials to include React Hooks and perhaps a framework like NextJS which is now in version 14 and was in its early stages of adoption in 2019.
 
-Despite all of this would I do anything else - absolutely not. It is a great profession and a great skill to learn. It changes the way you look at things and the world.
+Despite all of this would I do anything else ? Absolutely not. It is a great profession and a great skill to learn. It changes the way you look at things and the world.
 
-I would still heartily recommend you pursue your dreams, if this is your dream, knowing the pros and the cons, and for me the pros of keeping mentally engaged, interested and continously learning outweight the cons.
+I would still heartily recommend you pursue your dreams, if this is your dream, knowing the pros and the cons. For me, the pros of keeping mentally engaged, interested and continously learning outweigh the cons.
