@@ -47,8 +47,7 @@ CLI (command line services) use Node, which are not server-side applications. We
 Many desktop applications use Node, with [ElectronJs](https://www.electronjs.org/), such as Teams and even code editors like Visual Studio Code and Atom.
 
 
-
-__Further reading__
+### Further reading
 
 - The [V8 engine docs](https://v8.dev/docs)
 

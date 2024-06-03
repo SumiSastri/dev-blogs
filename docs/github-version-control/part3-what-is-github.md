@@ -19,14 +19,13 @@ Git isn't the only version control tool around, even though it's the most popula
 
 GitHub is the hub where all code is stored, reviewed. It is a public hosting site that is free for developers to host versions of their code. Repositories are created in GitHub for personal side projects and for commercial organisations to maintain their code base.
 
-_Further Reading_
+### Further Resources
 
 As these two workflows are different, it is useful to see how Git and GitHub work so fully understand the differences between Git and GitHub.
 
 - [Understanding the Git workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) Git works on a tree-structure which GitHub follows.
 
 - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/) the difference is that GitHub is a distributed version control system and the workflow reflects the multiple branches and how they work up to the main trunk of the Git tree structure.
-
 
   __Official Git Tutorials__
 

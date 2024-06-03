@@ -65,7 +65,7 @@ Colocating these packages in a monorepo may make sense in some use cases.
 
 In general, there are no solutions without trade offs. These articles may be useful in determining how and when your use case fits a monorepo, polyrepo or monolith structure.
 
-_Further Reading_
+### Further Reading 
 
 - [What is a monorepo](https://www.perforce.com/blog/vcs/what-monorepo)
 

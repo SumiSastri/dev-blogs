@@ -48,7 +48,7 @@ The File Transfer Protocol is a client-server protocol that was introduced in th
 
 This provides control and precision in the data exchange process as specific files can be accessed and modified.
 
-Further reading [Tech Target Blog](https://www.techtarget.com/searchnetworking/definition/File-Transfer-Protocol-FTP)
+_Further reading_ [Tech Target Blog](https://www.techtarget.com/searchnetworking/definition/File-Transfer-Protocol-FTP)
 
 FTP is not encrypted and therefore vulnerable to security threats where confidential data can be hijacked and misused by malicious actors.
 
@@ -70,7 +70,7 @@ and both are used for for email retrieval. IMAP enables synchronization between 
 
 The current version is POP3, which improves email retrieval and error handling.
 
-Further reading 
+_Further reading_
 - [What is POP](https://lifewire.com/what-is-pop-post-office-protocol-1171121)
 - [Everything you need to know about POP](https://alore.io/blog/pop-protocol)
 
@@ -92,7 +92,7 @@ The MSA, Mail Submission Agent, which receives emails and MDA, Mail Delivery Age
 
 Extended Simple Mail Transfer Protocol (ESMTP) is a version of the protocol that expands upon its original capabilities, enabling the sending of email attachments, the use of TLS, and other capabilities. Almost all email clients and email services use ESMTP, not basic SMTP.
 
-- Further reading
+_Further reading_
 - [Cloudflare](https://www.cloudflare.com/en-gb/learning/email-security/what-is-smtp/)
 - [Everything you want to know about STMP](https://postmarkapp.com/guides/everything-you-need-to-know-about-smtp)
 

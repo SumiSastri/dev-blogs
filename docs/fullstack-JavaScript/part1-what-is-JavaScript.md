@@ -125,7 +125,7 @@ The other ways that JavaScript natively supports backward compatibility is with 
 With the use of JavaScript through the stack, it no longer can be considered just a scripting language for browsers, but the name has stuck even if the behaviour and language has evolved.
 
 
-__Further reading__
+### Further reading 
 
 - More about [JavaScript on Wikipedia](https://en.wikipedia.org/wiki/JavaScript)
 

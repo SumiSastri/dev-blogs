@@ -90,7 +90,7 @@ _With Windows go to the window icon_
 - Type Terminal in the search bar and hit enter
 - You will get your Windows's default Terminal
 
-Further reading on the [Unix CLI](https://www.cs.dartmouth.edu/~campbell/cs50/shellcontinued.html)
+_Further reading_ on the [Unix CLI](https://www.cs.dartmouth.edu/~campbell/cs50/shellcontinued.html)
 
 Some useful terminal commands (the dollar symbol indicates you must start at terminal leaving no spaces between the first character you type and the terminal file path end)
 

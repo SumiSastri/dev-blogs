@@ -56,7 +56,7 @@ Close and reopen your terminal application. This will enable `zsh` by default. Y
 
 Type `echo $SHELL`. This should return `/usr/local/bin/zsh`
 
-Further Reading:
+_Further Reading_
 
 - [How to install Zish](https://linuxhandbook.com/install-zsh/)
   
@@ -129,7 +129,7 @@ zstyle ':vcs_info:git:*' actionformats '(%b|%a%u%c)'
 
 Ensure there are no trailing spaces at the end of the file
 
-Further reading and to debug your `.zshrc file` if you get errors:
+_Further reading_ and to debug your `.zshrc file` if you get errors:
 
 - [1 - Official ](https://zsh.sourceforge.io/Doc/Release/User-Contributions.html#Version-Control-Information)
 - [2 - The Modern Coder](https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/)
@@ -248,7 +248,7 @@ You might want to switch from Bash to Zish and vice-versa. To use %zsh - if you 
 
 In some code editors like VS Code, you can select a Zish or Bash shell by clicking the chevron to the right of the terminal.
 
-Further Reading:
+### Further Reading
 
 - [Sourbhajaj's set up guides](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
 - [Premium access PluralSight](https://app.pluralsight.com/course-player?courseId=29e8d875-9af9-4018-9362-1b94d3e1e049)

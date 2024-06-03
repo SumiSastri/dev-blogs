@@ -16,7 +16,7 @@ I have only been a web developer for a few years and there are many people bette
 
 My tech blogs, are aimed at readers with no experience or knowledge of tech to demystify a profession that is so full of jargon and obfuscation. 
 
-The blogs are written in plain English, free of jargon, or where jargon used it is explained in simple terms for business leaders, non-tech professionals who work with developers, to clear the fog and create a common understanding of the key drivers in the software development process.
+The blogs are written in plain English, free of jargon. Where jargon used, it is explained in simple terms for business leaders, non-tech professionals who work with developers, to clear the fog and create a common understanding of the key drivers in the software development process.
 
 These blogs do not cover mobile app development as it is not in the scope of my expertise or knowledge base.
 
@@ -31,3 +31,5 @@ If there are errors they are entirely my fault so please do your own research if
 Connect with me on Linked-in or GitHub and raise and issue if you would like me to fix anything - always happy to collaborate and be corrected :-).
 
 [Site terms of use, copyright, IP and second rights](https://concentriccirclesdigital.com/site-terms-of-use/)
+
+_References for research are noted by hyperlinks within the text body, or in sections on further reading & resources at the end of a blog_
