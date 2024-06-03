@@ -18,7 +18,7 @@ Most computer languages are designed by programmers as a set of rules that are e
 
 You do not need to know advanced maths, be a "techie" or a "geek" to learn coding. Follow the rules, the syntax of a language or the protocol as the rules are strict but fairly simple especially with HTML and CSS.
 
-In _Part 1_ I explore what motivates people to code and how to go about learning to code. 
+In [Part 1](https://sumisastri.github.io/dev-blogs/learn-to-code-getting-started/part1-how-long-does-it-take-to-learn-code/) I explore what motivates people to code and how to go about learning to code. 
 
 If you are a little more interested now, you may ask yourself new questions to see if you want to pursue this career path.
 
@@ -133,7 +133,7 @@ If you want to build a JAM-stack app hang-on for Part 3,4 and 5 of Learning to C
 
 It's a risk-free and cost-free way of checking whether coding is for you or not. Or to understand the basic principles of coding with the building block languages HTML, JavaScript and CSS.
 
-In Part 3 of Learning to Code, I will run through three pens or links from [CodePen](https://codepen.io/), a free sandbox that allows you to play with code and see how it works.
+In [Part 3 of Learning to Code](https://sumisastri.github.io/dev-blogs/learn-to-code-getting-started/part3-learn-html-css-javascript/), I will run through three pens or links from [CodePen](https://codepen.io/), a free sandbox that allows you to play with code and see how it works.
 
 ### Useful links
 

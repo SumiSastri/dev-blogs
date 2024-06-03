@@ -13,44 +13,50 @@ To take advantage of the content in this section, you need to
 - create an account with [Netifly](https://www.netlify.com/)
 - download a code editor - [Sublime Text is good for beginners](https://www.sublimetext.com/)
 - set up a [GitHub account](https://github.com/)
-- have read the parts 1–4 in this series
 
-As we are going to deploy our portfolio site to the Web, it is useful to know how the internet works and how your files are read, stored and received by your users and viewers.
+As we are going to deploy our portfolio site to the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, it is useful to know how the internet works and how your files are read, stored and received by your users and viewers.
 
 The internet, is just a network of computers that talk to each other over a computer network. A network can be made up of 2 or more computers.
 
-The internet connects trillions of computers and mobile devices over the world, using the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web. The internet itself is a data-layer over the Web that shares all of this information.
-This information is collected via web-browsers, from websites.
+The internet connects trillions of computers and mobile devices over the world, using the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web. The internet itself is a data-layer over the Web that shares all of this information. This information is collected via web-browsers, from websites.
 
 Web-browsers are software-engines that read and interpret the computer code from web or mobile apps and transmits this information via URLs (Unique Resource Locators) to a server. A server hosts billions of URLs and "serves" them back to any other user who is interested in this information.
 
-All of this information is written in code on 1 computer (client) sent to a server via an IP address - a series of numbers that uniquely identifies a computer - and then the server sends this information back to a user. This process is often called the client-server model.
+All of this information is written in code on a computer (client) sent to a server via an IP address - a series of numbers that uniquely identifies a computer - and then the server sends this information back to a user. This process is often called the client-server model.
 
 If you are a buyer and are looking for a product to buy, your laptop is the client, your request for a URL goes via interconnected servers managed by the DNS (Domain Name System) to the seller's computer (another client) and serves back the content hosted on an URL once again through this network of servers back to your laptop or mobile device all in a matter of micro-seconds.
 
 ## How HTML, CSS and JavaScript are parsed on the Web
 
-When a request comes in to the client - your computer with your  HTML (Hyper Text Markup Language), CSS (Cascading Style Sheets) and JavaScript files - via your computer's operating system allows the files on your system to be read by or parsed by the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, browser.
+When a request comes in to the client - your computer with your  HTML (Hyper Text Markup Language), CSS (Cascading Style Sheets) and JavaScript files - via your computer's operating system allows the files on your system to be read by or parsed by a browser, which is a software interface that connects users to the Web.
 
-The first files that are fetched are HTML and CSS. Then JavaScript, via its connectivity to the Document Object Model, or DOM, is parsed. (Part 4, in this series, explains the DOM-tree and how JavaScript interacts with HTML and CSS.)
+In the 1990s, there were several browsers competing with each other as interfaces between end-users and servers that connect the Web. In that phase, Netscape, Microsoft's Internet Explorer were dominant players. Google, came in as a late entrant. Investing significant engineering resources to make source code written by web developers easy for computers to read and decode, google made giant strides grabbing market share. Its V8 JavaScript engine, along with the Chrome browser, became a dominant player ousting Netscape, Explorer and to a signficant extent, even Safari.
 
-What Netifly does is a pre-rendering, pre-reading, or a pre-parsing of these files, before the file is actually transferred to the URL where it is hosted.
+Browsers under the hood, all work to the same task, converting source code into machine-readable code. The source files - your HTML, CSS and JavaScript files -  are injested by the browser and then the browser engine reads the HTML files first to understand the page structure.
 
-Traditional websites need the client-server model to run. Running sites this way needlessly slows things down, provides way too many opportunities for attack, and is expensive to scale.
+ CSS files are read next to understand how the page is "painted" or how it looks. Read [Part 3](https://sumisastri.github.io/dev-blogs/learn-to-code-getting-started/part3-learn-html-css-javascript/) in this series if you want to get the context of this process.
+ 
+ Then JavaScript, via its connectivity to the Document Object Model, or DOM, is parsed. Read [Part 4](https://sumisastri.github.io/dev-blogs/learn-to-code-getting-started/part4-free-portfolio-template-html-css-javascript/), in this series, to get a quick overview on how JavaScript interacts with HTML and CSS.
 
-Unlike the large legacy apps, JAM-stack projects neatly separate the frontend pages and UI (User Interface) from the backend apps and databases. JAM refers to JavaScript, Application Programming Interfaces (APIs) and Markup (HTML and CSS). APIs are application protocol interfaces, or a way of getting data from the backend to the frontend, without relying on a server.
+Once the code is transferred to machine readable code, it is then sent via the network layer in the browser to a server. The server then sends the data via the DNS.
 
-Part 2, in this series, outlines the benefits of the JAM stack.
+The DNS is a directory of the names of all registered web domains.The DNS matches the URLs of a web page, the name of the website to the IP (internet protocol) associated with the webpage.
+
+The network of servers are connected by underground pipes/ cables that send packets of information from the client to the servers to the DNS that can be located anywhere in the world.
+
+Traditional websites need the client-server model to run. The data is then sent back to the browser and by a process of reverse engineering, the information is sent to the "rendering" engine in the browser. 
+
+The page's HTML nodes set out the page structure, the CSS is "painted" in and the each node in the DOM-tree is "hydrated" with the JavaScript, this is the task of the rendering engine.
+
+However, this is not the only way the rendering engine can render pages. A quick way is to by-pass servers by using Application Programming Interfaces (APIs). Web-APIs, can use pre-configured and pre-rendered pages giving the browser engine less work to do. These pre-configured pages render faster.
+
+The hosting service Netifly, we are using for this project, performs this pre-rendering or pre-parsing of these files, before the file is actually transferred to the URL where it is hosted.
 
 Freed from backend servers, websites run faster with automated deployments of the code you have written.
 
-Rather than building content at runtime for each request, content is prebuilt and optimised during a build setup using a site generator and other build tools.
+Rather than building content, brick-by-brick or codeline-by-codeline, where the HTML is set up, then the CSS painted and then the JavaScript injected for for each request, content is prebuilt and optimised during a build setup using a site generator and other build tools created by Netifly, and other pre-rendering software services and options.
 
-Decoupling the frontend from the backend allows for more modular development.
-
-Read Part 1, 2 in the series if you have missed them to understand the difference between frontend and backend code bases.
-
-## File Set-up on Sublime Text
+## Source code file set-up on Sublime Text
 
 In Sublime text create a folder and give it a name, for example, _'My porfolio folder'_. If you have not created your own portfolio site go back to Part 4 in this series. Once you have your site, continue with this section.
 
@@ -72,24 +78,23 @@ Note if you are not already familiar with the Terminal or it gets too much to le
 
 ## Optional reading - using the terminal and CLI tools
 
-The Terminal is a CLI that allows you to interact directly with your laptop's operating system.
-You can use it to run programmes, manage files and folders and install software.
+The Terminal is a command line interface (CLI) that allows you to interact directly with your laptop's operating system. You can use it to run programmes, manage files and folders and install software.
 
-- With a Mac cmd + space - you will get spotlight search
+_With a Mac cmd + space - you will get spotlight search_
+
 - Type Terminal in the search bar and hit enter
 - You will get your mac's default Terminal
 
-With Windows window icon
+_With Windows go to the window icon_
 
 - Type Terminal in the search bar and hit enter
 - You will get your Windows's default Terminal
 
-Further reading on the CLI
-[Unix CLI](https://www.cs.dartmouth.edu/~campbell/cs50/shellcontinued.html)
+Further reading on the [Unix CLI](https://www.cs.dartmouth.edu/~campbell/cs50/shellcontinued.html)
 
 Some useful terminal commands (the dollar symbol indicates you must start at terminal leaving no spaces between the first character you type and the terminal file path end)
 
-- $ls - (this will list all the files in your computer drive\_
+- $ls - (this will list all the files in your computer drive)
 - $ls -a - (lists all including hidden files)
 - $pwd - (prints the working directory file path)
 - $cd -(helps you change directories)
@@ -126,9 +131,9 @@ Do not be disheartened if you did not succeed.
 
 This is the last hurdle and it takes a whole team in an organisation to deploy websites, set-up version control work flows and clean up code with peer-reviews in the real world.
 
-Just by attempting to set these steps up and familiarising yourself with these tools gives you the destination you are headed for.
+Just by attempting to set these steps up and familiarising yourself with these tools gives you the destination you are headed for. This series is just to give you a flavour of all the tasks a developer has to perform and you will learn more in a bootcamp or if you choose to teach yourself with all the available online tools and courses in the market.
 
-It takes 3–4 months of learning everything else to deploy a site successfully.
+It takes 3–4 months of learning everything else - the basics of HTML, CSS and JavaScript - even before you get to the stage where you need to deploy a site successfully.
 
 If you got it done after several tries, amazing and good job. It all will get done in due course - stay calm and keep coding!
 
@@ -138,4 +143,4 @@ If you want to look at [the source files for the Spinning Snakes Project](https:
 
 Go to my GitHub repo link and download the zip-files. You can try and see how this project works on CodePen, with Sublime Text and see if you can push these files to your own GitHub repo. Try to deploy your version of the project on Netifly. Check out CSS animations as the snakes spin not because of JavaScript but because of CSS. And above all have fun!
 
-Thanks for your time and for making it to the end of this series :-).
+Thanks for your time and for making it to the end of this series :-). If you decide coding is for your all the very best you are in for a wonderful ride. If you think it isn't, at least you have a portfolio site that you can update and deploy like a true pro!

@@ -8,17 +8,19 @@ last_updated: May 2024
 
 # A free portfolio or website template with HTML, CSS and JavaScript
 
-In this section, you can continue with CodePen, an open source sandbox. You will need to have completed Part 3 in this series to feel comfortable with this section.
+In this section, you can continue with CodePen, an open source sandbox. You will need to have completed [Part 3](https://sumisastri.github.io/dev-blogs/learn-to-code-getting-started/part3-learn-html-css-javascript/) in this series, which takes you through the basics of HTML and CSS, to feel comfortable with this section.
 
-Use [this free portfolio website template on CodePen](https://codepen.io/sumisastri/pen/oNBadVp) to work on this section
+Use [this free portfolio website template on CodePen](https://codepen.io/sumisastri/pen/oNBadVp) to work on this section. Remember this series only aims to give you a helicopter view of the building blocks of a code base. This should provide you with the information you need to consider taking the plunge and learning to code. You can do this a bootcamp that offers web development courses or teaching yourself to code via other online platforms like YouTube that has several easy and free courses on offer.
 
-A word of advice, invest your time learning JavaScript. If this project interests you, do read the documentation and try more stuff from W3 Schools and Mozilla. Google, read and research!
+A word of advice, invest your time learning JavaScript. If this project interests you, do read the documentation and try more stuff from W3 Schools and Mozilla. Google, read and research! Some bootcamps will give you a pre-entry project and having a small portfolio website is one way of demonstrating you are keen to take your learning further.
+
+## JavaScript the basics for beginners
 
 JavaScript was originally written and designed in 10 days by [Brenden Eich](https://en.wikipedia.org/wiki/Brendan_Eich) in the 1990s. It has as many exceptions as it has rules. It failed to gain popularity until the early 2000s and now it is the fastest growing language by popularity and adoption.
 
 The European Computer Manufacturers' Association, [ECMA](https://en.wikipedia.org/wiki/Ecma_International), acts as a standards body for JavaScript and updates JavaScript design patterns. [ECMA-6, or ES6](https://www.w3schools.com/Js/js_es6.asp), was the first major update to JavaScript. Each year since new updates have been added, part of a developers' job is to keep abreast of these changes, a list of the revisions up to 2020 are on [this link](https://en.wikipedia.org/wiki/ECMAScript).
 
-Like CSS (Cascading Style Sheets) ,the basics of vanilla JavaScript or JS, is easy to learn but difficult to master. There are no short-cuts except to practice, practice, practice and learn, learn, learn.
+Like CSS (Cascading Style Sheets), the basics of vanilla JavaScript or JS, are easy to learn but difficult to master. There are no short-cuts except to practice, practice, practice and learn, learn, learn.
 
 Google new terms and research everything you read to layer and improve your knowledge. Wherever I have been able to I have added links to make this process easier for you.
 

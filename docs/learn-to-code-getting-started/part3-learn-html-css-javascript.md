@@ -54,7 +54,6 @@ The boiler plate that you copy into your workspace, or pen, is parsed - or read 
 - utf - is the unicode text format, or how a "human" language's text format is converted into binary code or a "computer" readable language
 - viewport, device-width, and 1 - all refer to the amount of space on the device the user is viewing or the "viewport" for a desktop, tablet or mobile device. This is well explained in the [W3 docs on viewports](https://www.w3schools.com/css/css_rwd_viewport.asp)
 
-
 The reason why computer code is written according to strict rules (the syntax of the code) or protocols is to ensure that there is a uniform, consistent way of writing code that can be read or parsed by different browsers.
 
 This is the right moment to talk about clean code. Clean code is important as a browser will parse `id`, `iD`, `ID` differently as all computer languages are case-sensitive.
@@ -63,7 +62,7 @@ Typos will make the difference between code working or breaking. So ensure your 
 
 There are thousands of HTML tags - the key ones are 6 h-tags for headings. Search engines will rank a `h1` tag the highest in terms of importance and `h6` the lowest and they are a fundamental part of coding for the frontend of a web application. 
 
-If you have not read [Part 2 of Learning to Code](https://sumisastri.github.io/dev-blogs/learn-to-code-getting-started/part2-what-coding-languages-to-learn/), I briefly outline the difference between learning to code for frontend web and mobile applications is vs. learning to code for the backend of an app.
+If you have not read [Part 2 of Learning to Code](https://sumisastri.github.io/dev-blogs/learn-to-code-getting-started/part2-what-coding-languages-to-learn/), I briefly outline the difference between learning to code for frontend web applications is vs. learning to code for the backend of an app.
 
 The semantic tags listed below are self-explanatory. A more detailed understanding can be found in the [Mozilla docs on semantic HTML](https://developer.mozilla.org/en-US/curriculum/core/semantic-html/).
 
@@ -158,4 +157,6 @@ Note that this change is triggered by the `onClick` of the button - an action 
 
 Note that the JavaScript files are imported just above the `</body>` closing tag and not in the meta-data in the HTML boiler plate.
 
-Don't worry too much about how this works, have fun and read the next section if you want to delve into some of the fundamental concepts of JavaScript.
+Don't worry too much about how this works, have fun and read the next section if you want to delve into some of the fundamental concepts of JavaScript, and where you can[build an easy portfolio website](https://sumisastri.github.io/dev-blogs/learn-to-code-getting-started/part4-free-portfolio-template-html-css-javascript/).
+
+This series is aimed at giving you a flavour of what it entails to become a web developer and if this career path is for you. Bootcamps or other online learning platforms, should you choose to teach yourself to code, will give you a deeper dive and more practical experience working with a code base.
