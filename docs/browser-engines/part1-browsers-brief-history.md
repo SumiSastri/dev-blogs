@@ -2,11 +2,11 @@
 layout: default
 parent:  Browser Engines
 nav_order: 14
-title: A brief history of browsers
+title: A brief history of browsers from document display to AI integration
 last_updated: June 2024
 ---
 
-# A brief history of browsers
+# A brief history of browsers from document display to AI integration
 
 A browser is a gateway to the internet. Initially browsers were software programs but in today's multi-device world, they have evolved almost to become operating-systems in their own right.
 
@@ -38,9 +38,22 @@ Browser wars continued with Chrome rapidly becoming the market favourite, while 
 
 In 2024, new entrants like DuckDuckGo, favoured for privacy, Brave noted for its web security and Ecosia a browser with green credentials are some of the options in the browser market still largely dominated by Chrome, Safari and Firefox. Opera and the others operating with very small market shares.
 
+In 2024, Google Chrome launched Gemini, its answer to how to use Artificial Intelligence (AI) in its Chrome browser.
+
+AI is used to analyse information that google collects and indexes from its search engine. Users are able to interrogate this information with natural language and voice commands in multiple languages.
+
+Browsers today have come a long way with Chrome, Safari, Firefox and to a lesser extend Edge still dominating the browser markets.
+
 ### Further Resources
+
 - [Lifewire - top 20 browsers in 2024](https://www.lifewire.com/top-internet-browsers-4589106)
+
 - [PC Mag - history of browsers](https://uk.pcmag.com/browsers/131974/30-years-of-browsers-a-quick-history)
+
 - [Internet browser market share](https://www.visualcapitalist.com/internet-browser-market-share/)
+
 - [History of browsers - blog](https://smartbear.com/blog/history-of-web-browsers/)
+
 - [Sundar Pichai launching Chrome](https://www.youtube.com/watch?v=LRmrMiOWdfc)
+
+- [Sundar Pichai and the Chrome team launching Gemini - AI in Chrome]((https://www.youtube.com/watch?v=D7dA5KY5FEo))
