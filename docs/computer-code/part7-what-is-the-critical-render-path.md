@@ -28,3 +28,5 @@ The browser complies code first by looking at the syntax (lexical compliation)
 - by default all code is in the window scope therefore window.alert() can be called anywhere. (go to console type window to check root scope)
 - Since the DOM is an internal API you have the traditional API calls
 ```get``` which is the ```getElement``` function. Once the data has been fetched by the DOM API, you can perform other methods available from the DOM-API ```setAttribute = post``` or ```removeElement = delete``` For example, ```-getElementsByTagName() - setAttribute() - removeElementById();``` are all the DOM-API methods.
+
+[For a deep dive into how browsers work, you can go to this section, in the blog](https://sumisastri.github.io/dev-blogs/browser-engines/).

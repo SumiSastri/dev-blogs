@@ -56,6 +56,8 @@ Freed from backend servers, websites run faster with automated deployments of th
 
 Rather than building content, brick-by-brick or codeline-by-codeline, where the HTML is set up, then the CSS painted and then the JavaScript injected for for each request, content is prebuilt and optimised during a build setup using a site generator and other build tools created by Netifly, and other pre-rendering software services and options.
 
+[For a deep dive into how browsers work, you can go to this section, in the blog](https://sumisastri.github.io/dev-blogs/browser-engines/).
+
 ## Source code file set-up on Sublime Text
 
 In Sublime text create a folder and give it a name, for example, _'My porfolio folder'_. If you have not created your own portfolio site go back to Part 4 in this series. Once you have your site, continue with this section.

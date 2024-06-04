@@ -99,4 +99,3 @@ Copy the chosen app it into your Applications folder and add it to your dock.
 6. Refer to HTML and CSS documentation
 - [W3Schools](https://www.w3schools.com/html/)
 - [Mozilla](https://developer.mozilla.org/en-US/docs/Learn/CSS)
-

@@ -233,5 +233,6 @@ __The component parts of the response__
 
 _Resources_
 
-[MDN documentation](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
-[A good YouTube Video on REST APIs](https://www.youtube.com/watch?v=7_LPdttKXPc)
+- [MDN documentation](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
+
+- [A good YouTube Video on REST APIs](https://www.youtube.com/watch?v=7_LPdttKXPc)

@@ -20,6 +20,8 @@ The browsers' JavaScript engines are used to send these requests via the network
 
 The request-response pattern (which is based on a set of rules, standards or protocols) is the language of communicaton between client (browser, front-end) and server (back-end, databases).
 
+[For a deep dive into how browsers work, you can go to this section, in the blog](https://sumisastri.github.io/dev-blogs/browser-engines/).
+
 ## What is the difference between HTTP and HTTPS requests?
 
 HTTP refers to the standards, rules or protocols for these API calls. The secure encrypted way that data is transfered, is referred to as HTTPS (Hyper Text Transfer Protocol - Secure). 

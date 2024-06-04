@@ -215,9 +215,17 @@ Run the set up again till successful
 __Resources__
 
 - [MDN Docs on Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+
 - [W3 Schools Docs on Fetch](https://www.w3schools.com/js/js_api_fetch.asp)
+
 - [JavaScript Info Tutorial](https://javascript.info/fetch-api)
+
 - [Webdev blog](https://web.dev/articles/introduction-to-fetch)
+
 - [Freecodecamp blog](https://www.freecodecamp.org/news/how-to-fetch-data-from-an-api-using-the-fetch-api-in-javascript/)
+
 - [David Walsh](https://davidwalsh.name/fetch)
+
 -[Digital Ocean Blog](https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
+
+- [For a deep dive into how browsers work, you can go to this section, in the blog](https://sumisastri.github.io/dev-blogs/browser-engines/).

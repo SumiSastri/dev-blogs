@@ -31,5 +31,9 @@ Techniques of partial or progressive hydration are used by some software package
 
 The Document Object Model (DOM), which is an API, queries HTML and CSS and returns an object, of all the HTML elements on a page in a tree-like structure.  JavaScript accesses this DOM-tree and then is run on each node (the individual HTML elements on a page) and then mutates or changes the node's behaviour. The DOM-tree is mutated or morphed, node by node (or HTML element by HTML element) in this process of hydration.
 
-[Hydration on Wikipedia](https://en.wikipedia.org/wiki/Hydration_(web_development))
-[The technical details of hydration](https://web.dev/articles/rendering-on-the-web)
+### Further Reading 
+- [Hydration on Wikipedia](https://en.wikipedia.org/wiki/Hydration_(web_development))
+
+- [The technical details of hydration](https://web.dev/articles/rendering-on-the-web)
+
+- [For a deep dive into how browsers work, you can go to this section, in the blog](https://sumisastri.github.io/dev-blogs/browser-engines/).

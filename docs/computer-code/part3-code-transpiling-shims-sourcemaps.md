@@ -56,6 +56,8 @@ A polyfill, is a type of shim, that transpiles modern HTML/ CSS (Cascading Style
 
 Babel is a polyfill that uses CoreJS and babel-regenerator-runtime to polyfill (made backwards compatible) older browsers to newer language syntax.
 
-CoreJS is an ECMA script polyfill library. There are several such libraries. CoreJS is the most flexible/ trusted polyfill.
+CoreJS is an ECMA Script polyfill library. There are several such libraries. CoreJS is the most flexible/ trusted polyfill.
 
 Other shims have a more focused scope. For example, only ES5/ ES6  versions of JavaScript use a dated JavaScript design pattern called Global Variables - discussed in Part2 of this series - to transpile code back to even older versions of JavaScript that browsers read.
+
+[For a deep dive into how browsers work, you can go to this section, in the blog](https://sumisastri.github.io/dev-blogs/browser-engines/).

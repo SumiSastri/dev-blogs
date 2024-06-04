@@ -22,7 +22,9 @@ JavaScript has some unique features. As a programming language, JavaScript is a 
 
 ## Why is JavaScript considered an interpreted language or script?
 
-The second characteristic of JavaScript is that it is read (parsed or interpreted) by JavaScript engines, primarily V8 in browsers. Other languages are compiled by processors. As it is parsed by the JavaScript engines in browsers. JavaScript needs pre-processors to build and translate code back into a parseable form by JavaScript transpilers, compilers and code package builders. 
+The second characteristic of JavaScript is that it is read (parsed or interpreted) by JavaScript engines, primarily V8 in browsers. Other languages are compiled by processors. As it is parsed by the JavaScript engines in browsers. JavaScript needs pre-processors to build and translate code back into a parseable form by JavaScript transpilers, compilers and code package builders.
+
+[For a deep dive into how browsers work, you can go to this section, in the blog](https://sumisastri.github.io/dev-blogs/browser-engines/).
 
 This is why JavaScript is considered an interpreted language.  It is also considered a language that scripts the behavior of the browser, hence the name JavaScript. Eich added the word Script to the end of Java - a popular language at the time - but that is where the ressemblance between the two languages starts and stops.
 
@@ -73,8 +75,6 @@ Events build up in a task queue, as JavaScript is a single-threaded non-blocking
 For example an `onClick` event is emitted and listened to, once this event occurs, the developer can write a `handleClick` call back function - which can direct the user to another page, send form information to the backend, reveal a hidden part of the page that can only be revealed if the button is clicked.
 
 This process of listening to an event, responding to an event with a call back function, and the call back function returning a result asynchronously, is called the event-loop.
-
-
 
 For more detail on the event-loop, MDN documentation [https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop]
 

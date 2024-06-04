@@ -135,4 +135,3 @@ Webpack and Babel, reduce JavaScript files to the base CommonJS for browsers to 
 Code is bundled in 3 phases - parsing, linking, and code generation. The linking happens by hooking into code modules with the import-export key words without transpiling them. Only in the third phase is the code transpiled.
 
 This makes the build process more performant.
-

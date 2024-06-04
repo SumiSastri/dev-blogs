@@ -116,3 +116,5 @@ As a total aside, [fun-fun functions](https://www.youtube.com/channel/UCO1cgjhGz
 - [What are PWAs (Progressive Web Apps)](https://www.codecademy.com/resources/blog/what-is-a-progressive-web-application/)
 
 - [What are assistive technologies](https://www.who.int/news-room/fact-sheets/detail/assistive-technology)
+
+- [For a deep dive into how browsers work, you can go to this section, in the blog](https://sumisastri.github.io/dev-blogs/browser-engines/).

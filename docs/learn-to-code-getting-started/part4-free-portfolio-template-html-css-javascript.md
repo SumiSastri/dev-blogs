@@ -62,9 +62,11 @@ The key characteristics of JavaScript as a programming language are:-
 
 4) JavaScript is dependent on an "event" or a user interaction and uses this event to run a block of commands or code. For example the `onClick` event will be triggered and a code block or set of commands run when a user clicks on a button, link or a part of the website. There are several other events like `onMouseOver` that is when the mouse is moved over an HTML element or part of a page or `onSubmit` when a button is clicked to submit form data, are some other examples.
 
-5) JavaScript can use the DOM-tree to change the behaviour of HTML and CSS. JavaScript can target each HTML tag and CSS selector. It can target these tags and selectors because browsers read HTML and CSS and programs that run inside the browser engine, converts these files into a Document Object Model (DOM).
+5) JavaScript can use the DOM-tree to change the behaviour of HTML and CSS. JavaScript can target each HTML tag and CSS selector. It can target these tags and selectors because browsers read HTML and CSS and programs that run inside the browser rendering engine, converts these files into a Document Object Model (DOM).
 
-There is [a more detailed section on fullstack JavaScript](https://sumisastri.github.io/dev-blogs/fullstack-JavaScript/) in this blog.
+- There is [a more detailed section on fullstack JavaScript](https://sumisastri.github.io/dev-blogs/fullstack-JavaScript/) in this blog.
+
+- [For a deep dive into how browsers work, you can go to this section, in the blog](https://sumisastri.github.io/dev-blogs/browser-engines/).
 
 
 ## How JavaScript changes the behaviour of HTML and CSS tags and selectors

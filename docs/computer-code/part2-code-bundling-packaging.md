@@ -8,7 +8,9 @@ last_updated: Feb 2024
 
 # What is code bundling?
 
-Code, as we have seen in Part1, is a list of instructions written in a coding language by code writers. This code is bundled for usage for browsers to understand in small chunks. Under the hood, bundling is a function that takes some files and emits others. I write about JavaScript specifically, but in general all code behaves in the same way - the syntax and grammar of the function that is written depends on the language the code is running in.
+Code, as we have seen in [Part1](https://sumisastri.github.io/dev-blogs/computer-code/part1-code-modules/), is a list of instructions written in a coding language by code writers. 
+
+This code is bundled for usage for browsers to understand in small chunks. Under the hood, bundling is a function that takes some files and emits others. I write about JavaScript specifically, but in general all code behaves in the same way - the syntax and grammar of the function that is written depends on the language the code is running in.
 
 While this is a simple explanation, there are several scripts that are run between input and output. Bundlers examine code modules, entry points, code chunks, code chunk groups, and perform several tasks.
 
@@ -42,7 +44,7 @@ Some of the functions that bundlers under take are:
 
 - lint code and throw errors making incorrect code easy to correct and debug
 
-- handle the expensive task of DOM-tree shaking. The DOM-tree is a tree of elements is created with every application with a root element and several branches and branches of branches. It represents the complex set of relationships between an apps pages and component parts. As a user, only one small part of the app may be requested for by the user. Tree-shaking is the process by which a program is run through the DOM tree to clean up and remove unused parts of the tree so that when a user asks to see a specific element (branch/ page/ component/ module) in the tree, the response is quick and the code performance is efficient. This is specifically important with mobile/ wearable requests as they have less compute power than a computer or a laptop.
+- handle the expensive task of DOM-tree shaking. The DOM-tree is a tree of elements is created with every application with a root element and several branches and branches of branches. It represents the complex set of relationships between an apps pages and component parts. As a user, only one small part of the app may be requested for by the user. Tree-shaking is the process by which a program is run through the DOM tree to clean up and remove unused parts of the tree so that when a user asks to see a specific element (branch/ page/ component/ module) in the tree, the response is quick and the code performance is efficient. This is specifically important with mobile/ wearable requests as they have less compute power than a computer or a laptop
 
 - split and chunk code into smaller, more easily loadable parcels containing - code, images and other assets - bundlers must have the ability to bundle different modules/ packages/ code together efficiently
 
@@ -109,4 +111,3 @@ Gulp/ Grunt/ Webpack are all front-end build tools that have more specialised sc
 Webpack and Browserify are bundlers and module loaders.
 
 The build can be done manually but a combination of these pre-packaged tools make it so much easier to create a production-ready/ deployment-ready package for servers like Heroku/ AWS/ Azure/ Google Cloud to parse and display content on the browser. 
-

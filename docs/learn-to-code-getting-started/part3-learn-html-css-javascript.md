@@ -58,6 +58,8 @@ The reason why computer code is written according to strict rules (the syntax of
 
 This is the right moment to talk about clean code. Clean code is important as a browser will parse `id`, `iD`, `ID` differently as all computer languages are case-sensitive.
 
+[For a deep dive into how browsers work, you can go to this section, in the blog](https://sumisastri.github.io/dev-blogs/browser-engines/).
+
 Typos will make the difference between code working or breaking. So ensure your code is clean and consistent when you are working in your pen.
 
 There are thousands of HTML tags - the key ones are 6 h-tags for headings. Search engines will rank a `h1` tag the highest in terms of importance and `h6` the lowest and they are a fundamental part of coding for the frontend of a web application. 
