@@ -24,7 +24,7 @@ The static page structure - headings, paragraphs, images and multi-media element
 
 ## CSS and the CSSOM - painting
 
-The browser engine also deconstructs the CSS (cascading-style-sheets)  code written and transforms it into a data-model that is an object which computers can read. This structure is called the CSS Object Model, or the CSS-OM.
+The browser engine also deconstructs the CSS (Cascading Style Sheets) code written and transforms it into a data-model that is an object which computers can read. This structure is called the CSS Object Model, or the CSS-OM.
 
 The layout of the page, all the font styles, colours and relative placement of the elements are painted on to the page structure.
 
@@ -55,7 +55,7 @@ JavaScript is also parsed separately in the JavaScript engine, rather than the b
 
 ## The critical render path and the call stack
 
-The critical render path is how browser engine reads HTML, CSS and JavaScript. The call stack is the order in which the languages are read - with HTML first, CSS next and the JavaScript.
+The critical render path is how browser engine reads  HTML (Hyper Text Markup Language), CSS and JavaScript. The call stack is the order in which the languages are read - with HTML first, CSS next and the JavaScript.
 
 That said, the rendering engine parses the language in the most convenient order in the call stack, and therefore JavaScript is often parsed first.
 
@@ -64,6 +64,8 @@ When using vanilla JavaScript, it is required to put the scripts in the HTML met
 JavaScript component libraries, like Web Components, jQuery, React, Next and Node access the DOM in different ways. For example, libraries like React and Next that use the MVC (model-view-control) method access the DOM in the root-HTML via a single node, abstracting out the DOM-tree and creating a virtual DOM. 
 
 This can make the process of rendering a page both simple and complex. Simple as the virtual-DOM handles all the changes rather than the changes occuring on each node of the DOM-tree, complex as much of the work is abstracted out by alogrithms written by these libraries to perform, essentially the tasks of the browser's rendering engine, almost like a pre-processor.
+
+[Part 3 of the inside a browser from Chrome is really worth a read](https://developer.chrome.com/blog/inside-browser-part3)
 
 ## Modern rendering - gaming and streaming
 

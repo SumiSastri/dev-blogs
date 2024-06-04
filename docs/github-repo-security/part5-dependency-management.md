@@ -22,7 +22,7 @@ severity, but also business impact and the availability of a fix.
 5. Actioning: Keep a checklist and rota of people who will update the dependencies
 6. Regularizing- Norming: Decide frequency of updates by importance -> Evaluate importance on a time-effort -> result scale
 
-7. Automating: Application security testing (AST) tools that detect vulnerabilities automatically - The shift left practice moves software testing to earlier in the process and automates it.
+7. Automating: Application Security Testing (AST) tools that detect vulnerabilities automatically - The shift left practice moves software testing to earlier in the process and automates it.
 
 **_ASTs types_**
 
@@ -75,13 +75,19 @@ _Do's_
 
 6. Consider automation of the process with CI-CD (continous integration-continous deployment) Application security scanning tools (ASTs).
 
-Review GitHub docs/ advice and pick out key options that work for the team [https://github.blog/2020-06-01-keep-all-your-packages-up-to-date-with-dependabot/]
-Circle CI + GitHub Actions [https://www.linkedin.com/pulse/how-keep-your-npm-dependencies-up-to-date-without-wasting-gorej]
-Gaps in automation can be addressed with fastify [https://github.com/fastify/github-action-merge-dependabot]
-Fossa: [https://fossa.com/]
-CodeClimate: [https://codeclimate.com/]
-Freshli [https://github.com/corgibytes/freshli-lib]
-Libyear [https://libyear.com/]
+- [Review GitHub docs/ advice and pick out key options that work for the team ](https://github.blog/2020-06-01-keep-all-your-packages-up-to-date-with-dependabot/)
+
+-[Circle CI + GitHub Actions](https://www.linkedin.com/pulse/how-keep-your-npm-dependencies-up-to-date-without-wasting-gorej)
+
+- [Gaps in automation can be addressed with fastify](https://github.com/fastify/github-action-merge-dependabot)
+
+- [Fossa](https://fossa.com/)
+
+- [CodeClimate](https://codeclimate.com/)
+
+- [Freshli](https://github.com/corgibytes/freshli-lib)
+
+- [Libyear](https://libyear.com/)
 
 7. Have a dependency policy/ strategy that is reviewed at least 1ce a year
 
@@ -112,22 +118,20 @@ _Don'ts_
 3. Rely only on one tool in one phase of the development process for security testing. Check runtime protection tools like a web application firewall (WAF), bot management, and
    runtime application self-protection (RASP).
 
-Reading list and references:
+### Further readig
 
-Crowdbiotics blog:
-[https://www.crowdbotics.com/blog/how-to-ensure-that-your-dependencies-are-up-to-date]
-Better programming blog:
-[https://betterprogramming.pub/how-to-keep-your-app-dependencies-up-to-date-833fc45dae4?gi=24c22c1e3f18]
-Renovatebot - dependency pinning
-[https://docs.renovatebot.com/dependency-pinning/]
-Near form blog
-[https://www.nearform.com/blog/automatic-dependency-bump/]
-Netcetera blog
-[https://www.netcetera.com/home/stories/expertise/20170406-software-updates-inside-it.html]
+- [Crowdbiotics blog](https://www.crowdbotics.com/blog/how-to-ensure-that-your-dependencies-are-up-to-date)
 
-White source white paper:
-[https://www.whitesourcesoftware.com/wp-content/media/2021/07/The-Complete-Guide-to-Open-Source-Security-2021-1.pdf]
+- [Better programming blog](https://betterprogramming.pub/how-to-keep-your-app-dependencies-up-to-date-833fc45dae4?gi=24c22c1e3f18)
 
-https://www.codurance.com/publications/2019/02/24/taming-dependabot
+- [Renovatebot - dependency pinning](https://docs.renovatebot.com/dependency-pinning/)
 
-https://www.nearform.com/blog/github-dependabot-automation/
+- [Near form blog](https://www.nearform.com/blog/automatic-dependency-bump/)
+
+- [Netcetera blog](https://www.netcetera.com/home/stories/expertise/20170406-software-updates-inside-it.html)
+
+- [White source white paper](https://www.whitesourcesoftware.com/wp-content/media/2021/07/The-Complete-Guide-to-Open-Source-Security-2021-1.pdf)
+
+- [Taming Dependabot blog](https://www.codurance.com/publications/2019/02/24/taming-dependabot)
+
+- [Dependabot automation - Nearform blog]https://www.nearform.com/blog/github-dependabot-automation/

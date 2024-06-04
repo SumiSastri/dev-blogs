@@ -42,6 +42,8 @@ This GitHub repo for the [Babel transpiler](https://github.com/jamiebuilds/babel
 
 The manual also has a part2 which is excellent as a reference to understand how transpiling works and more details on [the steps above](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/en/plugin-handbook.md)
 
+_Further Reading_ [Twilio blog on ASTs](https://www.twilio.com/en-us/blog/abstract-syntax-trees)
+
 ## Code source maps, debuggers, shims and polyfills
 
 When code is transpiled, compiled, bundled and modularised for the browsers to read a source map is from the original source code written in a project. Many bundlers and transpilers perform the function of producing this source map into a version that developers can read in a browser by opening up developer tools in their browser and the console.

@@ -14,9 +14,9 @@ The first part of the infrastructure is data that persists across every layer of
 
 Cookies are a form of data that captures browsing behaviour when a user enters a site - an action known as a session. Persistent data can be stored in a cache which may need to be cleared to remove this data from the browser.
 
-The first layer of the web is the __user interface__ (UI) or the design layer. It is dependent on good UXD (user experience design), which is the art of helping the user navigate through pages and find the information they need quickly.
+The first layer of the web is the __user interface__ (UI) or the design layer. The UI is the fixed space that the user has to view information - the viewport of a desktop, laptop, mobile phone, gaming console or wearable device. A browser interacts with the device screens to render pixels of information to be viewed. A good user experience (UX) is dependent on good UXD (user experience design), which is the art of helping the user navigate through pages and find the information they need quickly.
 
-To display this information to the user, the browser has a __rendering engine__ which displays the page structure - the HTML (hyper-text-markdown-language) and then paints on the colours and layout from the CSS (cascading-style-sheets) files.
+To display this information to the user, the browser has a __rendering engine__ which displays the page structure - the  HTML (Hyper Text Markup Language) and then paints on the colours and layout from the CSS (Cascading Style Sheets) files. 
 
 Sandwiched between the UI and the rendering engine, is the __browser engine__ that decontructs the information in the UI and ensures the rendering engine does its job of structuring and painting the page.
 
