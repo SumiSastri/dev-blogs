@@ -46,7 +46,7 @@ However, with JavaScript, its ability to interact with the DOM and change the DO
 
 JavaScript is now given priority as it can change the page dynamics and structure.
 
-If these JavaScript files have to be fetched server-side via Application Programming Interfaces (APIs) then this becomes a major performance issue as 
+If these JavaScript files have to be fetched server-side via application programming interfaces (APIs) then this becomes a major performance issue as 
 the page could take several seconds to load as this action is completed.
 
 Therefore much of the JavaScript actions are run with asynchronous code blocks.
@@ -67,15 +67,20 @@ This can make the process of rendering a page both simple and complex. Simple as
 
 [Part 3 of the inside a browser from Chrome is really worth a read](https://developer.chrome.com/blog/inside-browser-part3)
 
-## Modern rendering - gaming and streaming
+## Modern rendering - gaming, streaming, voice-to-text
 
 Since the explosion of gaming and mobile devices, rendering engines have been separated into web and mobile rendering engine upgrades.
 
 Browsers for web developers are vastly different from mobile browsers. This is largely because there are so many more actions users perform and expect these actions to be executed quickly - scrolling, multi-tab viewing, listening to audio data and viewing videos that can be stopped, fastforwarded or rewound.
 
-While we take all of these actions for granted, browser developers like Chrome, Safari, Firefox and Edge have had to invest vast resources to constantly upgrade their browser rendering engines.
+While we take all of these actions for granted, browser developers like Chrome, Safari, Firefox and Edge have had to invest vast resources to constantly upgrade their browser rendering engines for the web. They also have a separation of concerns where browsers for other devices are developed specifically to work with the device operating systems.
+
+Another disrupter in the rendering of information is the use of voice and biometrics. Both of these forms of data send information and requests via devices with users expecting to get accurate information back.
+
+Once again, this is more a feature of mobile devices and wearables rather than web development, it is a trend to watch as it is rapidly disrupting traditional ways of searching for information.
 
 A good example is next generation rendering, or[RenderingNG](https://www.youtube.com/watch?v=sUbJPHYKZkU), rolled out by Chrome.
+
 
 ## AI and the rendering engine
 
@@ -84,6 +89,8 @@ A good example is next generation rendering, or[RenderingNG](https://www.youtube
 As the browser has become more complex, google now calls its browser an operating system - or Chrome-OS. 
 
 A really good video to watch to see [the progression of Chrome's browser architecture](https://www.youtube.com/watch?v=PzzNuCk-e0Y) is on YouTube, it is little more difficult to find.
+
+Apple has also announced [updates to the Safari browser](https://blog.logrocket.com/understanding-latest-webkit-features-safari-17-4/?utm_source=newsletter&utm_medium=em&utm_campaign=24Q2_EM_TheReplay_240604&mkt_tok=NzQwLUxLTS0yNjMAAAGTgsDXUMUVBPSyDviyQrCH26K74CLjJKkdDmM2_mSupg_Hi6l46L9EaYzZrnmbiziM9T6RbxH4COtwLJnI1V8YfuiZSIbtT8KdLLUrl6OGU7M#utm_source%3Dnewsletter%26utm_medium%3Dem%26utm_campaign%3D24Q2_EM_TheReplay_240604%26mkt_tok%3DNzQwLUxLTS0yNjMAAAGTgsDXUMUVBPSyDviyQrCH26K74CLjJKkdDmM2_mSupg_Hi6l46L9EaYzZrnmbiziM9T6RbxH4COtwLJnI1V8YfuiZSIbtT8KdLLUrl6OGU7M) with 46 new features and 145 bug fixes, however its rendering engine still has a long way to go. 
 
 
 ### Further reading and resources
@@ -111,3 +118,5 @@ A really good video to watch to see [the progression of Chrome's browser archite
 - [Microsofts Trident rendering engine](https://www.youtube.com/watch?v=tPKiCu37VmY)
 
 - [Updates to Trident 2021](https://www.youtube.com/watch?v=sU0WRZ0kkNo)
+
+- [Updates to Apple's Safari 17.4 release notes](https://developer.apple.com/documentation/safari-release-notes/safari-17_4-release-notes)

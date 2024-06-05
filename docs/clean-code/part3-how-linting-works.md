@@ -65,7 +65,7 @@ Style guides can be opinionated and vary - this is an example of an opionated gu
 
 Many organisations will write in some overrides or make tweaks to prefab style-guides like airbnb. Some style guides can be very strict and some packages methods may fail linting. For example, with the `Formik` form library for React, the use of the spread operator, essential to run some methods in the package, fail the airbnb style guide rules.
 
-Another point worth bearing in mind is your repo structure. Monoliths and monorepos have different ways of configuring ES Lint. A monolith, is a repo that refers to packages and Application Programming Interfaces (APIs) outside the repo for its functioning. A monorepo hosts all packages that it depends on within the same repo. An uber-package manager like `pnpm` or `lerna` are popular package managers for JavaScript monorepos that use [npm packages](https://www.npmjs.com/).
+Another point worth bearing in mind is your repo structure. Monoliths and monorepos have different ways of configuring ES Lint. A monolith, is a repo that refers to packages and application programming interfaces (APIs) outside the repo for its functioning. A monorepo hosts all packages that it depends on within the same repo. An uber-package manager like `pnpm` or `lerna` are popular package managers for JavaScript monorepos that use [npm packages](https://www.npmjs.com/).
 
 Whether you are working on a side-project, or an enterprise level app, you will add several `npm` packages to help you with the task you hope to complete. Each of these packages are written by different code writers, to different rules.
 

@@ -7,7 +7,7 @@ nav_order: 5
 
 # What is the difference between monoliths, microservices, monorepos and multirepos?
 
-A monolith is a single program that runs the whole application. The program is responsible for maintaining authentication and authorisation (auth), access to Application Programming Interfaces (APIs), UI (User Interface) and even messaging systems like emails, notifications and alarms. All of these services are tightly coupled.
+A monolith is a single program that runs the whole application. The program is responsible for maintaining authentication and authorisation (auth), access to application programming interfaces(APIs), UI (User Interface) and even messaging systems like emails, notifications and alarms. All of these services are tightly coupled.
 
 A microservice has distributed services for different components of the application. This modularises the application and your auth services could be run by one program, while UI run by another. If you have several APIs, each API could have a separate program to run the API calls. This separation of concerns could make the app more performant.
 

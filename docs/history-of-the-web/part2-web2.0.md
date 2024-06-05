@@ -17,7 +17,7 @@ JavaScript allows the user to interact with every HTML element and change its be
 
 Web 1.0 from static sites, with text and some styling but with limited user interaction, transformed and JavaScript allowed users to now interact with pages - click buttons, see sliders and animated picture galleries, play interactive games.
 
-However Web 2.0 is not just about JavaScript that the user can interact with, it also about JavaScript accessing DBs (databases) with Application Programming Interfaces (APIs).
+However Web 2.0 is not just about JavaScript that the user can interact with, it also about JavaScript accessing DBs (databases) with application programming interfaces (APIs).
 
 Every hardware developer wanted a JavaScript engine to parse the Web documents so that users who were adopting personal computers and interacting with the Web could have a better user-experience (UX).
 

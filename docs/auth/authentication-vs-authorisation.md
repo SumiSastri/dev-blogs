@@ -23,7 +23,7 @@ Some of the requirements for authentication are:-
 - device recognition - where is the user signing in from - phone, watch - is a tool that can check id
 - operating system recognition - windows, mac, linux, android - is another way to check if the users identity is authentic
 - bio-metrics are another way for access to high-risk access by non-auth users
-- once users are authenticated they may access certain internal platform Application Programming Interfaces (APIs), further authentication may be required to complete this process
+- once users are authenticated they may access certain internal platform application programming interfaces (APIs), further authentication may be required to complete this process
 
 ## What is federated authentication is it better?
 

@@ -33,6 +33,6 @@ You can add machine learning (ML) but this feature is only available for mobile 
 - text and image recognition
 - object detection
 - custom models which can be tested with A/B or multi-variate testing using Tensorflow Lite
-- prebuilt Application Programming Interfaces (APIs)
+- prebuilt application programming interfaces (APIs)
 
 As they can run on devices, ML is fast and provides quick feedback to servers. They also run offliine and sync with the device when the device is online.

@@ -21,7 +21,7 @@ If you are creating user-generated-content (UGC), the Firebase file storage syst
 
 You can store static files - text, markdown and images. Images are cached on Firebase (Solid State Drives) SSDs, with the view to pre-optimising images and to fast rendering on frontend services.
 
-Often, you have to find image hosts like Imgur, or Pixabay, to host your images and then import these again via these services Application Programming Interfaces (APIs) to use to build your app.
+Often, you have to find image hosts like Imgur, or Pixabay, to host your images and then import these again via these services application programming interfaces (APIs) to use to build your app.
 
 Similarly you can store dynamic content - videos, animated gifs.
 

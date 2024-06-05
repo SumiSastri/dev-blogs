@@ -58,3 +58,5 @@ The rendering engine then displays this information on the UI and the viewport i
 - [WICG Github docs](https://wicg.github.io/aom/explainer.html#introduction)
 
 - [Twilio blog on ASTs](https://www.twilio.com/en-us/blog/abstract-syntax-trees)
+
+- [JavaScript parser generators](https://blog.logrocket.com/guide-javascript-parser-generators/)

@@ -32,7 +32,7 @@ The resource provider - sometimes, confusingly called the client, this is digita
 
 OAuth is designed to work with HTTP (Hyper Text Transfer Protocol) and HTTPS (the S stands for secure - now a more required format compared with HTTP) protocols.
 
-The Protocol requires 2 Application Programming Interfaces (API) endpoints and both endpoints require transport layer security
+The Protocol requires 2 application programming interfaces (API) endpoints and both endpoints require transport layer security
 
 Auth endpoint - get request via the user scripted into the API header via the browser
 

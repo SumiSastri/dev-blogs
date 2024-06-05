@@ -48,7 +48,7 @@ Traditional websites need the client-server model to run. The data is then sent 
 
 The page's HTML nodes set out the page structure, the CSS is "painted" in and the each node in the DOM-tree is "hydrated" with the JavaScript, this is the task of the rendering engine.
 
-However, this is not the only way the rendering engine can render pages. A quick way is to by-pass servers by using Application Programming Interfaces (APIs). Web-APIs, can use pre-configured and pre-rendered pages giving the browser engine less work to do. These pre-configured pages render faster.
+However, this is not the only way the rendering engine can render pages. A quick way is to by-pass servers by using application programming interfaces (APIs). Web-APIs, can use pre-configured and pre-rendered pages giving the browser engine less work to do. These pre-configured pages render faster.
 
 The hosting service Netifly, we are using for this project, performs this pre-rendering or pre-parsing of these files, before the file is actually transferred to the URL where it is hosted.
 
