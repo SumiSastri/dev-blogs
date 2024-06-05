@@ -26,6 +26,10 @@ The multiplicity of devices from wearables like smart watches to large smart TVs
 
 Users are dependent on source code writers and UI designers to write and design good interfaces - this is not the job of the browser's UI layer.
 
+The browser, on the other hand, is responsible for sending the right information to the Open Graphics Library's (OpenGL) stack of APIs.
+
+OpenGL, is a cross-platform library that enables browsers to render graphic designs.
+
 ### Further reading and resources
 
 - [UI design](https://aloa.co/blog/web-ui)
@@ -35,3 +39,7 @@ Users are dependent on source code writers and UI designers to write and design 
 - [UI design - types of design interfaces](https://www.geeksforgeeks.org/user-interface-ui/)
 
 - [Chromium University - Life of a pixel](https://www.youtube.com/watch?v=K2QHdgAKP-s)
+
+- [OpenGL blog](https://www.geeksforgeeks.org/getting-started-with-opengl/)
+
+- [OpenGL - about](https://www.khronos.org/opengl/)
