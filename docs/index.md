@@ -6,7 +6,7 @@ nav_order: 1
 
 # Tech blogs
 
-Hi I am Sumi, I am a JavaScript & TypeScript web-developer in tech-for-good.
+Hi I am Sumi, I am a JavaScript & TypeScript web-developer in tech-for-good, currently studing part-time at Westminster University - a conversion MSc, Computer Science (2024-2026).
 
 From 2009 to 2019, I worked as a tech project delivery manager and product owner for demanding clients like S&P Global Ratings, Private Equity International, the British Standards Institute in London and Middle East Business Intelligence(MEED) in Dubai. There were consumer tech projects with Hearst Magazines UK to put the first digital publications on the Apple Newsstand. At the other end of the spectrum, were tiny startups in edutech with Third Space Learning a maths tutorial platform, amongst other small to medium size business and charitable organisations that I consulted with.
 
@@ -20,11 +20,15 @@ The blogs are written in plain English, free of jargon. Where jargon used, it is
 
 These blogs do not cover mobile app development as it is not in the scope of my expertise or knowledge base.
 
+As part of my MSc, I am learning how to cite authors and sources for academic work - class work submissions, projects and exams.
+
+
+
 ### Disclaimer
 
-My only excuse for being here is I love what I do. I hope some part of this content helps you understand a day in the life of a web developer and code writer... at least, that's the way I define myself to my friends and family.
+My only excuse for being here is I love what I do. I hope some part of this content helps you understand a day in the life of a web developer and code writer.
 
-My dev blogs are for guidance only, and a part of my self-education. 
+I am using these blogs as a experimental environment for adding citations to these blogs, this is a work in progress My dev blogs are for guidance only, and a part of my self-education. 
 
 If there are errors they are entirely my fault so please do your own research if you find any information incomplete or incorrect.
 
@@ -32,4 +36,4 @@ Connect with me on Linked-in or GitHub and raise and issue if you would like me 
 
 [Site terms of use, copyright, IP and second rights](https://concentriccirclesdigital.com/site-terms-of-use/)
 
-_References for research are noted by hyperlinks within the text body, or in sections on further reading & resources at the end of a blog_
+_NOTE: References for research are noted by hyperlinks within the text body, or in sections on further reading & resources at the end of a blog, I am compiling a master reading list of texts as part of my masters' education which can be found in the file `RESOURCES.md`_
