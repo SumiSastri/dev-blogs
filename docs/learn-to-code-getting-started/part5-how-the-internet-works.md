@@ -8,14 +8,6 @@ last_updated: May 2024
 
 # How the internet works
 
-To take advantage of the content in this section, you need to
-
-- create an account with [Netifly](https://www.netlify.com/)
-- download a code editor - [Sublime Text is good for beginners](https://www.sublimetext.com/)
-- set up a [GitHub account](https://github.com/)
-
-As we are going to deploy our portfolio site to the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, it is useful to know how the internet works and how your files are read, stored and received by your users and viewers.
-
 The internet, is just a network of computers that talk to each other over a computer network. A network can be made up of 2 or more computers.
 
 The internet connects trillions of computers and mobile devices over the world, using the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web. The internet itself is a data-layer over the Web that shares all of this information. This information is collected via web-browsers, from websites.
@@ -25,6 +17,16 @@ Web-browsers are software-engines that read and interpret the computer code from
 All of this information is written in code on a computer (client) sent to a server via an IP address - a series of numbers that uniquely identifies a computer - and then the server sends this information back to a user. This process is often called the client-server model.
 
 If you are a buyer and are looking for a product to buy, your laptop is the client, your request for a URL goes via interconnected servers managed by the DNS (Domain Name System) to the seller's computer (another client) and serves back the content hosted on an URL once again through this network of servers back to your laptop or mobile device all in a matter of micro-seconds.
+
+World_Wide_Web), or the Web, it is useful to know how the internet works and how your files are read, stored and received by your users and viewers.
+
+To take advantage of the content in this section, you need to:
+
+- create an account with [Netifly](https://www.netlify.com/)
+- download a code editor - [Sublime Text is good for beginners](https://www.sublimetext.com/)
+- set up a [GitHub account](https://github.com/)
+
+As we are going to deploy our portfolio site to the [World Wide Web](https://en.wikipedia.org/wiki/
 
 ## How HTML, CSS and JavaScript are parsed on the Web
 
