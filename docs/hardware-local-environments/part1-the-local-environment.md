@@ -15,3 +15,8 @@ Cloud storage, hosts version control systems such as GitHub, as well as data-inf
 
 For a quick overview of [cloud environments check this link](https://sumisastri.github.io/dev-blogs/data-infrastructures/part2-cloud-computing/)
 
+# What is an operating system?
+
+Linux, one of the key operating systems, defines
+
+https://www.linux.com/what-is-linux/
