@@ -1,14 +1,6 @@
----
-layout: default
-title: Resources and additional reading
-parent: The developer environment
-nav_order: 7
----
-# Resources and additional reading
 
+# BIBLIOGRAPHY
 
-- Bash Cookbook: Ron Brash, Ganesh Naik, Packt Publishing, July 2018
+- [1]  __University of Wolongong Australia__ "Understanding operating systems", Accessed: Sep. 22, 2024. [Available](https://www.uow.edu.au/student/support-services/academic-skills/online-resources/technology-and-software/operating-systems/)
 
-- In text citation: Brash, Ron & Naik, Ganesh (July 2018): __Bash Cookbook__, Packt Publishing - (DOI)
-
-Citation style: Author/editor, Initial. (Year of publication). Title. Publisher. URL or https://doi.org/
+- [2] __Linux__ "What is Linux", Accessed: Sep. 22, 20224. [Available](https://www.linux.com/what-is-linux/)

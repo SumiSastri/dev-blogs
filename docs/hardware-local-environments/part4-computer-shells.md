@@ -9,7 +9,7 @@ title: Computer shells - Bash vs Zish
 
 A shell a peice of software that is a basic user interface for accessing an operating system's (OS)service via the computer terminal's command line interface (CLI). Shells can be used to write a range of programming scripts from the simple to more complex operations.
 
-Read Part-2: Navigating your computer terminal in this series to familiarise yourself with your computer terminal and its CLI.
+To familiarise yourself with the terminal go to [part 2](https://sumisastri.github.io/dev-blogs/hardware-local-environments/part2-the-terminal/) in this series
 
 In the early 1960s, French computer scientist [Louis Pouzin](https://en.wikipedia.org/wiki/Louis_Pouzin) was credited for writing the first software that ressembles a modern computer shell.
 
