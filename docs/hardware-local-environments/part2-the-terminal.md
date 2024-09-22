@@ -23,22 +23,6 @@ Your local device, when it needs to connect to a client (on a remote server or c
 
 A curl is encoded and therefore different from a general URL where you can access web or mobile pages and data. The code is then decoded at your local device making the data from software development kits (SDKs) available for developers to use.
 
-_Further reading_
-
-- [What is c-url and when to use it](https://blog.pair.com/2018/01/26/curl-description-basic-use-cases/)
-  
-- [curl Documentation](https://curl.se/docs/manpage.html)
-  
-- [curl and APIs](https://developer.ibm.com/articles/what-is-curl-command/)
-
-- [What are source or dot files](https://en.wikipedia.org/wiki/Dot_(command)#Source)
-  
-- [Customising your terminal](https://towardsdatascience.com/the-ultimate-guide-to-your-terminal-makeover-e11f9b87ac99) 
-  
-- [Unix CLI](https://www.cs.dartmouth.edu/~campbell/cs50/shellcontinued.html)
-  
-- [Concatinating paths](https://www.cyberciti.biz/faq/linux-unix-appleosx-bsd-cat-command-examples/)
-
 ## My CLI cheat sheet
 
 In your terminal you can type the following most used commands to navigate through your files. The terminal has command arguments and options. A combination of arguments and their options give you the power to list, create or navigate effectively through your filing system. eg: `ls` is an argument and `-a` is an option of the argument. This is my CLI cheat sheet of commands I most frequently use.
@@ -115,7 +99,8 @@ _Read_
 _Checking_
 
 - `[package_name] -v` list version/ sometimes $[packagename] --version
-
+- `[whoami] - user
+- `[pwd]` - print working directory
 _Delete_
 
 - `rm [file_name]` remove file - destructive you won't get the file back again
@@ -131,3 +116,21 @@ _`sudo`` or Super user rights_
 - ` sudo chmod` change mode - changes user rights
 
 [Credit for content in this section - A premium Plural Sight course on shells](https://app.pluralsight.com/library/courses/bash-zshell-getting-started/table-of-contents)
+
+#### REFERENCES
+
+_Further reading_
+
+- [What is c-url and when to use it](https://blog.pair.com/2018/01/26/curl-description-basic-use-cases/)
+  
+- [curl Documentation](https://curl.se/docs/manpage.html)
+  
+- [curl and APIs](https://developer.ibm.com/articles/what-is-curl-command/)
+
+- [What are source or dot files](https://en.wikipedia.org/wiki/Dot_(command)#Source)
+  
+- [Customising your terminal](https://towardsdatascience.com/the-ultimate-guide-to-your-terminal-makeover-e11f9b87ac99) 
+  
+- [Unix CLI](https://www.cs.dartmouth.edu/~campbell/cs50/shellcontinued.html)
+  
+- [Concatinating paths](https://www.cyberciti.biz/faq/linux-unix-appleosx-bsd-cat-command-examples/)

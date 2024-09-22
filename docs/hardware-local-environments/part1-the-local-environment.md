@@ -36,7 +36,7 @@ However, PC users with the Windows OS, also use their PCs and the choice, or bia
 The Linux operating system, however, is not preloaded on many computers. It is an open-source OS that can be loaded on by programmers, or in the case of Apple, may be preloaded with the Ubuntu distribution system. A better understanding of how Linux is different from the MacOS or Windows OS, the article __What is Linux__ on [the official Linux site](https://www.linux.com/what-is-linux/), is worth a read.
 
 
-*REFERENCES*
+#### REFERENCES
 
 - [1]  __University of Wolongong Australia__ "Understanding operating systems", Accessed: Sep. 22, 2024. [Available](https://www.uow.edu.au/student/support-services/academic-skills/online-resources/technology-and-software/operating-systems/)
 

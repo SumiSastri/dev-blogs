@@ -1,5 +1,8 @@
 # READING AND REFERENCE LIST
 
+## Blogs
+
+- S. Bajaj "zsh", Sourabh Bajaj, https://sourabhbajaj.com/ (Accessed: Sep. 22, 2024). [Available](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
 
 ## E-books
 

@@ -7,20 +7,27 @@ title: Computer shells - Bash vs Zish
 
 # Computer shells - Bash vs Zish
 
-A shell a peice of software that is a basic user interface for accessing an operating system's (OS)service via the computer terminal's command line interface (CLI). Shells can be used to write a range of programming scripts from the simple to more complex operations.
+A shell a peice of software that is a basic user interface for accessing an operating system's (OS) service via the computer terminal's command line interface (CLI). Shells can be used to write a range of programming scripts from the simple to more complex operations.
 
-To familiarise yourself with the terminal go to [part 2](https://sumisastri.github.io/dev-blogs/hardware-local-environments/part2-the-terminal/) in this series
+A system adminstrator is the root user while the owner of the computer who writes scripts into the shell is not a super adminstrator but the regular user of the computer.
+
+Root users can access all files in the OS, Brash and Naik (2018, ch1, "Getting started with Bash and CLI fundamentals"), advise caution for users with root privileges as these users can delte any or all critical files in an OS and "could render the system unusable or broken".[1]
+
+Developers are regular users. To familiarise yourself with the terminal go to [part 2](https://sumisastri.github.io/dev-blogs/hardware-local-environments/part2-the-terminal/) in this series.
+
+The section will give a series of commands you can run to navigate around your computer's filing system using the terminal and CLI.
 
 In the early 1960s, French computer scientist [Louis Pouzin](https://en.wikipedia.org/wiki/Louis_Pouzin) was credited for writing the first software that ressembles a modern computer shell.
 
 Two of the most popular shells, Bash and Zish both are mostly used across the Linux/Unix ecosystems - including the Ubuntu environment, a common Linux distribution environment. In the Unix world, and that includes the Mac operating system (MacOS) and Linux, many shell implementations have been popular in the past, like Bash, the Korn shell, the C shell (seashell).
 
+Read more about [OSs](https://sumisastri.github.io/dev-blogs/hardware-local-environments/part1-the-local-environment/) for a contextual reference.
+
 Shell scripts allow you to, with minimal installation write scripts to automate repetitive tasks. 
 
+In the mid‑nineties, the Unix world has been dominated by Bash, which is the default shell on almost every Linux and BSD system. There are exceptions, though, and one of them is the MacOS, which used to have Bash as the default shell but recently switched to the Z (zee in American English) shell with the introduction of MacOS Catalina. 
 
-[Read Part 5 for the difference between shells and secure shells](https://sumisastri.github.io/dev-blogs/local-environment-setup/part5-secure-shells/)
-
-In the mid‑nineties, the Unix world has been dominated by Bash, which is the default shell on almost every Linux and BSD system. There are exceptions, though, and one of them is the MacOS, which used to have Bash as the default shell but recently switched to the Z (zee in American English) shell with the introduction of MacOS Catalina. Zish was the login of the original developer Paul Falstad's, Yale professor Zhong Shao. Zee-shell as it rhymes with C-shell is also referrred to as the Zish to avoid confusion.
+Zish was the login of the original developer Paul Falstad's, Yale professor Zhong Shao. Zee-shell as it rhymes with C-shell is also referrred to as the Zish to avoid confusion.
 
 Microsoft Windows has its own shells, which are very different from Unix shells. You can use the Linux for (WSL) Windows Subsystem for Linux and run either Bash or the Zish on your Windows system.
 
@@ -35,7 +42,7 @@ By default, the Mac CLI is considered difficult to use.
 Type `echo $0` or `which zsh`
 If you get the answer `/bin/zsh` then you are in the Zish shell and if you get `/bin/bash` you are in the Bash shell.
 
-Another way to identify which shell you are in  is, you should see a `%` instead of a `$` at the terminal prompt with Zish. 
+Another way to identify which shell you are in  is, you should see a `%` instead of a `$` at the terminal prompt with Zish. A root user, however, will see `#` in their terminal as a prompt.
 
 - First check if you have a  `.bashrc` or a `.zshrc` file these are the files that you can use to customise your personal commands to customise your shell
 
@@ -43,6 +50,9 @@ Another way to identify which shell you are in  is, you should see a `%` instead
 
 If you do not have these files you can create them depending on which shell you would like to use.
 I will start with Zish as it is my preferred shell.
+
+You may find it useful to read the section on [the difference between shells and secure shells](https://sumisastri.github.io/dev-blogs/local-environment-setup/part5-secure-shells/).
+
 
 ## Zish
 
@@ -59,12 +69,6 @@ Type `chsh -s /usr/local/bin/zsh`, and enter your password (laptop) - you will g
 Close and reopen your terminal application. This will enable `zsh` by default. You should see the `%` symbol at the prompt.
 
 Type `echo $SHELL`. This should return `/usr/local/bin/zsh`
-
-_Further Reading_
-
-- [How to install Zish](https://linuxhandbook.com/install-zsh/)
-  
-- [How zsh files are sourced](http://zsh.sourceforge.net/Intro/intro_3.html)
 
 __The `.zshrc` file__
 
@@ -132,14 +136,6 @@ zstyle ':vcs_info:git:*' actionformats '(%b|%a%u%c)'
 ```
 
 Ensure there are no trailing spaces at the end of the file
-
-_Further reading_ and to debug your `.zshrc file` if you get errors:
-
-- [1 - Official ](https://zsh.sourceforge.io/Doc/Release/User-Contributions.html#Version-Control-Information)
-- [2 - The Modern Coder](https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/)
-- [3 - Araaj van der Garg](https://arjanvandergaag.nl/blog/customize-zsh-prompt-with-vcs-info.html)
-- [4 - Sal Ferrarello blog](https://salferrarello.com/zsh-git-status-prompt/)
-
 
 __Zish customisation with Oh My Zsh (optional)__
 
@@ -258,7 +254,22 @@ You might want to switch from Bash to Zish and vice-versa. To use %zsh - if you 
 
 In some code editors like VS Code, you can select a Zish or Bash shell by clicking the chevron to the right of the terminal.
 
-### Further Reading
+#### REFERENCES
 
-- [Sourbhajaj's set up guides](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
-- [Premium access PluralSight](https://app.pluralsight.com/course-player?courseId=29e8d875-9af9-4018-9362-1b94d3e1e049)
+- [1] Brash Ron & Naik Ganesh, __Bash Cookbook__, 1st edn (Packt Publishing, July 2018), chap.1, pg3 - (URL or https://doi.org/)
+
+- [2] [How to install Zish](https://linuxhandbook.com/install-zsh/)
+  
+- [3] [How zsh files are sourced](http://zsh.sourceforge.net/Intro/intro_3.html)
+
+_Further reading_ and to debug your `.zshrc file` if you get errors:
+
+- [4 - Official docs ](https://zsh.sourceforge.io/Doc/Release/User-Contributions.html#Version-Control-Information)
+
+- [5 - The Modern Coder](https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/)
+
+- [6 - Araaj van der Garg](https://arjanvandergaag.nl/blog/customize-zsh-prompt-with-vcs-info.html)
+
+- [7 - Sal Ferrarello blog](https://salferrarello.com/zsh-git-status-prompt/)
+
+- [8 - Sourbhajaj's set up guides](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
