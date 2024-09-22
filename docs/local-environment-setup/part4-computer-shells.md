@@ -7,25 +7,30 @@ title: Computer shells - Bash vs Zish
 
 # Computer shells - Bash vs Zish
 
-A shell a peice of software that is a basic user interface for accessing an operating system's (OS)service. 
+A shell a peice of software that is a basic user interface for accessing an operating system's (OS)service via the computer terminal's command line interface (CLI). Shells can be used to write a range of programming scripts from the simple to more complex operations.
+
+Read Part-2: Navigating your computer terminal in this series to familiarise yourself with your computer terminal and its CLI.
 
 In the early 1960s, French computer scientist [Louis Pouzin](https://en.wikipedia.org/wiki/Louis_Pouzin) was credited for writing the first software that ressembles a modern computer shell.
 
-Two of the most popular shells, Bash and Zish both are mostly used on UNIX and Linux systems. In the UNIX world, and that includes macOS and Linux, many shell implementations have been popular in the past, like Bash, the Korn shell, the C shell (seashell).
+Two of the most popular shells, Bash and Zish both are mostly used across the Linux/Unix ecosystems - including the Ubuntu environment, a common Linux distribution environment. In the Unix world, and that includes the Mac operating system (MacOS) and Linux, many shell implementations have been popular in the past, like Bash, the Korn shell, the C shell (seashell).
+
+Shell scripts allow you to, with minimal installation write scripts to automate repetitive tasks. 
+
 
 [Read Part 5 for the difference between shells and secure shells](https://sumisastri.github.io/dev-blogs/local-environment-setup/part5-secure-shells/)
 
-In the mid‑nineties, the UNIX world has been dominated by Bash, which is the default shell on almost every Linux and BSD system. There are exceptions, though, and one of them is macOS, which used to have Bash as the default shell but recently switched to the Zee (S) shell with the introduction of macOS Catalina.
+In the mid‑nineties, the Unix world has been dominated by Bash, which is the default shell on almost every Linux and BSD system. There are exceptions, though, and one of them is the MacOS, which used to have Bash as the default shell but recently switched to the Z (zee in American English) shell with the introduction of MacOS Catalina. Zish was the login of the original developer Paul Falstad's, Yale professor Zhong Shao. Zee-shell as it rhymes with C-shell is also referrred to as the Zish to avoid confusion.
 
-Microsoft Windows has its own shells, which are very different from UNIX shells. You can use the Linux for (WSL) Windows Subsystem for Linux and run either Bash or the Z shell on your Windows system.
+Microsoft Windows has its own shells, which are very different from Unix shells. You can use the Linux for (WSL) Windows Subsystem for Linux and run either Bash or the Zish on your Windows system.
 
-Zish is now the default terminal for Macs replacing Bash, with the M1 chips. The Zish or `` shell is considered by some Mac users to be more user friendly as it has some extra features. The American English pronunciation of Z is "zee", so Z shell rhymes with C shell, which sounds like seashell. `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao.
+Zish is now the default terminal for Macs replacing Bash, with the M1 chips. 
 
-The Z shell is very similar to Bash. The Z shell as a more configurable version of Bash with some extra features.
+Zish is considered by some Mac users to be more user-friendly as it has some extra configuration features.
 
-The main difference between Bash and the Z shell is not so much what you can do with them, because they are both very powerful tools that can accomplish the same things, but Zish is easier to customize and tweak, and there's a large community of people who write extensions and themes for it.
+The main difference between Bash and the Zish is not so much what you can do with them, because they are both very powerful tools that can accomplish the same things, but Zish is easier to customize and tweak. There is a large community of people who write extensions and themes for Zish.
 
-By default the command line on a Mac is fairly unhelpful and not nearly as pleasent to work on as it can be with a few tweaks.
+By default, the Mac CLI is considered difficult to use.
 
 Type `echo $0` or `which zsh`
 If you get the answer `/bin/zsh` then you are in the Zish shell and if you get `/bin/bash` you are in the Bash shell.
@@ -33,14 +38,13 @@ If you get the answer `/bin/zsh` then you are in the Zish shell and if you get `
 Another way to identify which shell you are in  is, you should see a `%` instead of a `$` at the terminal prompt with Zish. 
 
 - First check if you have a  `.bashrc` or a `.zshrc` file these are the files that you can use to customise your personal commands to customise your shell
-- In terminal type `open .bashrc` or `open .zshrc`
+
+- Using your CLI type `open .bashrc` or `open .zshrc`
 
 If you do not have these files you can create them depending on which shell you would like to use.
 I will start with Zish as it is my preferred shell.
 
 ## Zish
-
-Zish or `zsh` (Zish) has some extra features to make web-development easier. The American English pronunciation of Z is "zee", so Zee shell which can get confused with C shell (or seashell) so Zish is sometimes used instead of Zee Shell. The alphabets `zsh` was also the login of the original developer Paul Falstad's Yale professor Zhong Shao. 
 
 __Installing Zish__
 
@@ -159,7 +163,7 @@ Type `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-z
 
 Older Macs with the Intel Chip, ship with Bash by default. Bash stands for **'Bourne-again shell'**, referring to its objective as a free replacement for the Bourne shell which was developed by [Steven Bourne](https://en.wikipedia.org/wiki/Stephen_R._Bourne).
 
-Bash is still by far the most‑used shell in the UNIX world and unlikely to change.
+Bash is still by far the most‑used shell in the Unix world and unlikely to change.
 
 Modern Macs may have both Zish and Bash Shells installed.
 
@@ -175,7 +179,13 @@ If you do not have Bash installed you can use HomeBrew to install the shell pack
 $ brew install bash-completion
 ```
 
-Now `open .bash_profile ` and copy and paste this code into the file
+Using the CLI type `ls -a` which is the command to list all files including dot and hidden files in your computer
+if you have a `.bash_profile` type `open .bash_profile` if you do not
+
+ `open .bash_profile` - if you do not have a `.bash_profile`
+
+
+and copy and paste this code into the file
 
 ```
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion

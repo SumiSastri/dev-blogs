@@ -11,7 +11,7 @@ You computer is a synonym for a developer's local environment. Setting up  your 
 
 ## Ten pre-install checks for Mac users
 
-1. Identify which version of your Mac's Operating System you're using - ideally you should have Mojave or higher - click the apple icon on the left nav bar and check the "About this Mac" tab to find which OS you are on
+1. Identify which version of your Mac's Operating System (MacOS) you're using. Ideally you should have Mojave or higher - click the apple icon on the left nav bar and check the "About this Mac" tab to find which OS you are on.
 
 2. Ensure that you've uninstalled any anti-virus software you may have, as it can prevent some of the tools from installing properly - if you are working in a team, ask your tech lead if you are unsure. You can reinstall you anti-virus after you have installed all the tools you require.
 
