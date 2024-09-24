@@ -70,7 +70,7 @@ These architectural and organisational differences in a computer are what makes 
 
 The processor performs the most critical role in a computer. Intel, AMD, and Nvidia are all chip makers, and the race to make a processor perform better has reached a new level of competitive energy with chips required to tackle machine learning (ML) and artificial intelligence (AI) processing requirements.
 
-In a recent article, PC World [5] said deep learning requires big data that can be processed at a high speed. 
+In a recent article, PC Guide [5] said deep learning requires big data that can be processed at a high speed. 
 
 Computers need a high memory bandwidth, and data needs to be transferred at speed between the processor and the main memory.
 

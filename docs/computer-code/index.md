@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What is computer code
+title: Programming languages, computer code, bits and bytes - what's the difference?
 nav_order: 6
 has_children: true
 last_updated: Feb 2024
@@ -8,6 +8,6 @@ last_updated: Feb 2024
 
 # What is computer code
 
-I know it is a fairly basic question to ask, but when you write code there is a whole raft of computer science terms and this section deals with some basic concepts I struggled to understand in code reviews and meetings.
+I know it is a fairly basic question to ask, but when you write code there are different ways of interpreting a single word in the world of computer science.
 
-I hope this section helps you out of a confused state to an informed state when you are working with a team of computer scientists or software engineers, or you are in a demo with your engineering team and some of the information seems like pure jargon.
+This section aims to outline the architecture and hierarchy of different types of computer code from programming languages down to the last byte.
