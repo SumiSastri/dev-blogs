@@ -86,7 +86,7 @@ Nvidia has developed processors for the highly demanding workloads that ML and A
 
 Understanding your local environment and customising your hardware for the requirements of your job will vary according to the programming languages you are using and the servers your organisation interact with.
 
-Familiarise yourself with the computer terminal, this series’ next article, and the command line interface (CLI). Follow that up with the section on computer shells to understand the role shells play in customising your local environment.
+Familiarise yourself with the computer terminal, this series’ [next article](https://sumisastri.github.io/dev-blogs/local-environment/part2-the-terminal/), and the command line interface (CLI). Follow that up with the section on computer shells to understand the role shells play in customising your local environment.
 
 Once you are familiar with the CLI and computer shells, you can write your first scripts and look at the tooling checklist for guidance.
 
