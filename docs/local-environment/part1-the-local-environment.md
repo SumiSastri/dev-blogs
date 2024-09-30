@@ -13,7 +13,7 @@ The internet enables this 2-way communication. Check [how the internet works](ht
 
 Cloud storage hosts version control systems such as GitHub and data infrastructures that host your software packages and distribute them to end-users.
 
-For [a quick overview of cloud environments](https://sumisastri.github.io/dev-blogs/data-infrastructures/part2-cloud-computing/), this link gives you a contextual background.
+For [a quick overview of cloud environments](https://sumisastri.github.io/dev-blogs/server-environment/part1-types-of-data-infrastructures/), this link gives you a contextual background.
 
 ## What is the main function of a computer?
 
@@ -74,13 +74,13 @@ In a recent article, PC Guide [5] said deep learning requires big data that can 
 
 Computers need a high memory bandwidth, and data needs to be transferred at speed between the processor and the main memory.
 
-Intel i-9 and i-7, AMD Ryzen 7950 and 7900 are reviewed in [this link to the article](https://www.pcguide.com/cpu/best-cpus-for-deep-learning/) and is worth reading to reflect on how demands on a processor have changed.
+Intel i-9 and i-7, AMD Ryzen 7950 and 7900 are reviewed in [an article about processors for deep learning](https://www.pcguide.com/cpu/best-cpus-for-deep-learning/) and is worth reading to reflect on how demands on a processor have changed.
 
 Puget Systems, custom computer builders based in Seattle, in the United States, in an article on hardware recommendations [6], says not only does CPU performance matter, but GPU (Graphics Processing Unit) performance that Nvidia dominates. GPU matters as it works with the CPU, and the CPU's computing power must keep up with the demanding workloads of ML and AI.
 
 The number of cores has also significantly jumped from 16 cores to 64 cores to manage the workload of these compute requirements faced by ML and AI. 
 
-Nvidia has developed processors for the highly demanding workloads that ML and AI require, largely from its gaming processors. [Read the article](https://www.pugetsystems.com/solutions/ai-and-hpc-workstations/machine-learning-ai/hardware-recommendations/) for a more in-depth view of processors for AI and ML.
+Nvidia has developed processors for the highly demanding workloads that ML and AI require, largely from its gaming processors. [In an article on system requirements for ML and AI, pugest systems](https://www.pugetsystems.com/solutions/ai-and-hpc-workstations/machine-learning-ai/hardware-recommendations/) offers some recommendations for what may be required from processors for AI and ML.
 
 ## Customising your local environment as a developer
 
