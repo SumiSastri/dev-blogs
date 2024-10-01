@@ -7,7 +7,7 @@ title: Git, Git 'heads' and branch management
 
 # Git, Git 'heads' and branch management
 
-When [Linus Torvalds](https://www.internethalloffame.org/inductee/linus-torvalds/) created Git (and the Linux OS just for fun), he considered it nothing but a "stupid content tracker" and named it Git which in British slang means an annoying and infuriating person.
+When [Linus Torvalds](https://www.internethalloffame.org/inductee/linus-torvalds/) created Git (and the Linux Operating System just for fun at the age of 21), he considered it nothing but a "stupid content tracker" and named it Git which in British slang means an annoying and infuriating person.
 
 Git, to its reputation has some infuriating and annoying terminology, and performs certain content tracking tasks in its own way. 
 

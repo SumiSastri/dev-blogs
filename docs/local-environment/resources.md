@@ -1,5 +1,11 @@
+---
+layout: default
+title: Your computer - the local environment
+parent: The developer environment - Bibliography
+nav_order: 7
+---
 
-# DEVELOPER ENVIRONMENT - BIBLIOGRAPHY
+# The developer environment - Bibliography
 
 This is a complete bibliography of references for this section
 

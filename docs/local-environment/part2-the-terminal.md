@@ -41,6 +41,8 @@ Windows/ Mac / Linux have different terminals. WSL, or Windows System for Linux 
 
 The command line interface(CLI) is yet another bit of software that sits outside the FS. Using a CLI you can write simple commands that will be executed on the terminal, via a shell to the kernel of the computer and its internal systems.
 
+Text editors like vi - visual editor, or nano may be inbuilt into the terminal and allow you to execute CLI operations. This is a great guide on  [how to use the nano editor](https://www.geeksforgeeks.org/nano-text-editor-in-linux/).
+
 There are no "universal" CLI commands. Each shell, or even software packages like Node Package Manager, etc., may have their own CLIs to download with their own CLI commands.
 
 The terminal has command. Each command has a main argument and options to the arguement which are denoted by either a single or double dash `-`, or `--`, this is also known as a flag.

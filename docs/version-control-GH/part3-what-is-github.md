@@ -7,7 +7,7 @@ title: What is the difference between Git and GitHub?
 
 # What is the difference between Git and GitHub?
 
-GitHub a version-control system authored by Finnish-American, software developer, [Linus Torvalds] (https://www.internethalloffame.org/inductee/linus-torvalds/), was created for Linux (also created by Torvalds when he was 21 and living with his mother in Helsinki). GitHub, the system which was created to manage all the variations and updates of a codebase, has now been purchased by Microsoft. 
+GitHub a version-control system authored by Finnish-American, software developer, [Linus Torvalds] (https://www.internethalloffame.org/inductee/linus-torvalds/), was created for Linux. The Linux operating system was also created by Torvalds when he was 21 and living with his mother in Helsinki. GitHub, the system which was created to manage all the variations and updates of a codebase, has now been purchased by Microsoft. 
 
 Git is a tool that tracks changes to source code, and it's very basic. That's what it does. It tracks changes to any file actually, but it's mostly used for source code files. GitHub is where Git versions are stored - a hub for Git.
 
