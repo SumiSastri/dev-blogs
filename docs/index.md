@@ -22,8 +22,6 @@ These blogs do not cover mobile app development as it is not in the scope of my 
 
 As part of my MSc, I am learning how to cite authors and sources for academic work - class work submissions, projects and exams.
 
-
-
 ### Disclaimer
 
 My only excuse for being here is I love what I do. I hope some part of this content helps you understand a day in the life of a web developer and code writer.
@@ -37,3 +35,48 @@ Connect with me on Linked-in or GitHub and raise and issue if you would like me 
 [Site terms of use, copyright, IP and second rights](https://concentriccirclesdigital.com/site-terms-of-use/)
 
 _NOTE: References for research are noted by hyperlinks within the text body, or in sections on further reading & resources at the end of a blog, I am compiling a master reading list of texts as part of my masters' education which can be found in the file `RESOURCES.md`_
+
+# IEEE citation guidelines
+
+Each section has a reading and reference list
+
+__Citation styles examples - Institute of Electrical and Electronics Engineers guidelines__
+
+#### Blogs
+_Citation order_
+
+- Reference number (in square brackets)
+- Author’s initial(s) followed by surname, if available
+- Title of blog post (in double quotation marks)
+- Title of website
+- URL (accessed date).
+
+[1] S. Bajaj "zsh", Sourabh Bajaj, https://sourabhbajaj.com/mac-setup/iTerm/zsh.html (Accessed: Sep. 22, 2024)
+
+#### Ebooks
+_Citation order_
+- Author
+- Title (in italics)
+- Edition (only include the edition number if it is not the first edition)
+- Publisher, year of publication (all in round brackets)
+- DOI or <URL> [accessed date]
+
+*eg: Bash Cookbook: Ron Brash, Ganesh Naik, Packt Publishing, July 2018*
+
+- Footnotes:
+
+1. Brash Ron & Naik Ganesh, __Bash Cookbook__, 1st edn (Packt Publishing, July 2018), chap.1, pg3 - (URL or https://doi.org/)
+
+- Bibliography
+Brash, Ron & Naik, Ganesh __Bash Cookbook__, 1st edn (Packt Publishing, July 2018) - (DOI https://doi.org/) or [Accessed](Accessed: Sep. 22, 2024)
+
+
+#### Websites
+_Citation order_
+- Reference number (in square brackets)
+- Author’s given names initial(s) then surname, or organisation, if available
+- Title of web page (in double quotation marks)
+- Title of website (in italics)
+- Accessed: date. [Online]. Available: URL
+
+- [1]  __University of Wolongong Australia__ "Understanding operating systems", Accessed: Sep. 22, 2024. [Available](https://www.uow.edu.au/student/support-services/academic-skills/online-resources/technology-and-software/operating-systems/)
