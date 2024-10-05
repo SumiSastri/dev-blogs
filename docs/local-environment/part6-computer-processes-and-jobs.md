@@ -84,4 +84,4 @@ Interrupts also stop execution for some other action to be taken.
 
 However, interrupts are a method for the CPU. They occur with instances of memory page faults, and accepting hardware input, for example. 
 
-[Premium PluralSight content informs this section on computer processes and jobs](https://app.pluralsight.com/library/courses/managing-jobs-processes-bash-z-shell/table-of-contents)
+- [Premium PluralSight content informs this section on computer processes and jobs](https://app.pluralsight.com/library/courses/managing-jobs-processes-bash-z-shell/table-of-contents)
