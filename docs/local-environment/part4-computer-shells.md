@@ -13,15 +13,13 @@ A system adminstrator is the root user while the owner of the computer who write
 
 Root users can access all files in the OS, Brash and Naik (2018, ch1, "Getting started with Bash and CLI fundamentals"), advise caution for users with root privileges as these users can delte any or all critical files in an OS and "could render the system unusable or broken".[1]
 
-Developers are regular users. To familiarise yourself with the terminal go to [part 2](https://sumisastri.github.io/dev-blogs/hardware-local-environments/part2-the-terminal/) in this series.
-
-The section will give a series of commands you can run to navigate around your computer's filing system using the terminal and CLI.
+Developers are regular users. [To familiarise yourself with the terminal read the previous section](https://sumisastri.github.io/dev-blogs/hardware-local-environments/part2-the-terminal/) in this series.
 
 In the early 1960s, French computer scientist [Louis Pouzin](https://en.wikipedia.org/wiki/Louis_Pouzin) was credited for writing the first software that ressembles a modern computer shell.
 
 Two of the most popular shells, Bash and Zish both are mostly used across the Linux/Unix ecosystems - including the Ubuntu environment, a common Linux distribution environment. In the Unix world, and that includes the Mac operating system (MacOS) and Linux, many shell implementations have been popular in the past, like Bash, the Korn shell, the C shell (seashell).
 
-Read more about [OSs](https://sumisastri.github.io/dev-blogs/hardware-local-environments/part1-the-local-environment/) for a contextual reference.
+Read more about [OSs](https://sumisastri.github.io/dev-blogs/local-environment/part1-the-local-environment/) for a contextual reference.
 
 Shell scripts allow you to, with minimal installation write scripts to automate repetitive tasks. 
 
