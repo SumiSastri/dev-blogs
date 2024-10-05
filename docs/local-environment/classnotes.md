@@ -28,3 +28,13 @@ cp - copy
 chmod - change mode - change permissions
 chown - change user ownership change file owner
 cksum - check sum - number of bytes in the file
+
+Nano
+!/bin/bash
+
+
+the .sh colorises the text editor
+save control s
+exit control x
+escape control c if you escape editor
+change mode to get the executable on file so `chmod 700`

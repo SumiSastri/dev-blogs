@@ -1,3 +1,13 @@
+---
+layout: default
+parent: The developer environment
+nav_order: 7
+title: My CLI cheat sheet
+---
+
+# My CLI cheat sheet
+
+This is my CLI cheat sheet of the commands I most frequently use
 
   _List_
 
@@ -21,10 +31,9 @@ _Print and list_
 
 _Sort_
 
-- b - ignore blancks
+- `b`- ignore blanks
 `ls -s -r` - list sort reverse order
 
-`tee`
 
 _Create_
 
@@ -33,7 +42,7 @@ _Create_
 - `touch <filename>` make a new file in the directory if you have spaces between file names you will have as many files as there are spaces eg: `touch this is my file` - will create this/is/my/file as separate files.
 - `cat this \ is \ my \file` concatinates files into one file - you will get a file with <thisismyfile> as the file name
 - `echo ` prints to console
-- `nano create_report`
+- `nano create_report` for nano editors
 
 _Copy_
 
@@ -70,7 +79,7 @@ _Navigate or move files/directories/shells_
 - `date +%d` gives you the day of the date eg: 30
 - `df` how much of your disc is free
 - `df -i` how much of you diss fee used - info
-- ` df -h` - in a table how much of disc free
+- `df -h` - in a table how much of disc free
 
 
 _Read_
@@ -99,8 +108,7 @@ _Delete Destructive_
 - `rmdir -p` remove directory and path - will remove only when empty
 - `rmdir <dir>` removes directory if empty
 
-
-_`sudo`` or Super user rights_
+_`sudo or Super user rights_
 
 `sudo` is the short version of super-user-do and is usually used to install packages - you will find many examples in the [Installfest section](https://sumisastri.github.io/dev-blogs/installfest/) 
 
@@ -155,12 +163,3 @@ _Further reading_
 
 
 
-Nano
-!/bin/bash
-
-
-the .sh colorises the text editor
-save control s
-exit control x
-escape control c if you escape editor
-change mode to get the executable on file so `chmod 700`
