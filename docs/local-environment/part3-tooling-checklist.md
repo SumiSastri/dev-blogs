@@ -29,7 +29,7 @@ You will need to be familiar with your computer terminal, [read Part 2 for a mor
 
 3. The terminal is a Command Line Interface (CLI) that allows you to interact directly with your laptop's operating system. You can use it to run programmes, manage files and folders and install software. To open the terminal use <kbd>cmd</kbd> + <kbd>space</kbd>, then type Terminal and <kbd>enter</kbd>
 
-  You can [read Part 2 for a more detailed view of how your terminal works](https://sumisastri.github.io/dev-blogs/local-environment-setup/part2-the-terminal/)
+ [Check how to navigate through your computer terminal] read the previous section and [the CLI cheat sheet](https://sumisastri.github.io/dev-blogs/local-environment/part7-my-cli-cheat-sheet/)
 
 4. Speed up your cursor - By default, the speed of the cursor on a Mac is a little too slow. In an older Mac you need to go to 
 
@@ -62,7 +62,7 @@ You will need to be familiar with your computer terminal, [read Part 2 for a mor
 
   _NOTE_Save this to add new packages from the app store or from online downloads. Note if you lose this Apple now takes about 5-6 days to reset your password after MFA kicks in.
 
-10. Reduce the number of times you require the use of your password - go to your terminal and paste this code
+10. Reduce the number of times you require the use of your password - go to your terminal and paste this code, to understand the code go through the CLI cheat sheet at the end of this series.
 
   `echo $(whoami)" ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/$(whoami)`
   
@@ -72,7 +72,7 @@ The password is your screen password that unlocks your Mac. You will not see it 
 
 You are now ready for the next steps in getting your local environment ready. Follow set up in the order given below.
 
-1. For Mac users
+1. For Mac users 
 
 HomeBrew is a package manager which helps you install external software packages on your Mac.
 
@@ -93,15 +93,19 @@ A more detailed guide in the Installfest section will help you trouble shooting 
 
 Neither HomeBrew nor Xcode are essential, installing Xcode CLI should be sufficient for starters. [GUIs or graphical user interfaces](https://www.computerhope.com/jargon/g/gui.htm) are often easier to install with versions for both Macs and PCs.
 
+Note the ARM chip has different download instructions
+
 2. Familiarise yourself with computer shells and install Bash or Zish and customise them to suit your needs.
 
-[In Part 4 - Computer shells the difference between Bash and Zish there is a quick guide and more details to understand shells and shell switching ](https://sumisastri.github.io/dev-blogs/local-environment-setup/part4-computer-shells/)
+You can check h[ow to switch between bash and zish] (https://sumisastri.github.io/dev-blogs/local-environment/part4-computer-shells/) in this section.
 
 Once you have familiarised yourself with your computer shell and your terminal you can install a version control system.
 
 3. Install a code editor or IDE (integrated development environment) - Atom, Visual Studio Code, Sublime Text (See section on clean code for [a quick guide to code editors and IDEs](https://sumisastri.github.io/dev-blogs/clean-code/part2-code-editors-and-how-to-setup-eslint/)
 
 This will help you write HTML (Hyper Text Markup Language), CSS (Cascading Style Sheets), JavaScript and get started on learning the fundamentals of web development.
+
+For Java and Python developers IntelliJ is considered a better IDE.
 
 4. Git, the main version control system used by developers, should be preinstalled on both Mac and Windows. The set up requires secure hash keys and requires you to have a basic knowledge of how to set up your local environment, be comfortable with using the terminal and computer shells. Once you are confident in your terminal run ```git --version``` to check if it is pre-installed.
 

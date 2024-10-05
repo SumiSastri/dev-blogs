@@ -58,6 +58,7 @@ Stallings [3] defines the core functions of a computer as data movement, process
 The processing and storage of data are combined with the movement of the data from the local machine to the external environment. The external environment could be servers. These servers could be on-premise or virtual servers in the cloud. Data can also be communicated to peripherals, such as printers.
 
 Controlling all these 3 functions is vital and is performed by the I/O drivers.
+
 These component parts do not live in isolation but are connected by a system bus. A system bus is an interconnection point between the processor, the memory and the I/O drivers via several conducting and connecting wires.
 
 Stallings makes a further distinction between computer architecture and organisation. To explain this, Stallings says architectural design is those features that a user interacts with - if a computer offers the user the ability to perform arithmetical operations such as adding, subtracting, multiplying and dividing, that is an architectural decision. 

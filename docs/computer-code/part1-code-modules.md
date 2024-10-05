@@ -67,9 +67,6 @@ The inbound data is fetch from the input driver, decoded with byte code instruct
 Through this data journey, the data moves from input driver, processor and memory via a system bus. A system bus is an interconnection point between the processor, the memory and the input/output, or IO drivers via several conducting and connecting wires.
 
 
-
-
-
 John Von Neumann
 
 
