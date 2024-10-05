@@ -2,34 +2,33 @@
 layout: default
 parent: The developer environment
 nav_order: 7
-title: Basic tooling when you are learning to code
+title: Basic tooling for web developers
 ---
 
-# Basic tooling when you are learning to code
+# Tooling checklist for web developers
 
-When I started out the dev journey, it was hard to figure out what the very basic tooling I needed in my local environment - versus in my first job where the business needs were different and my work laptop had tonnes of stuff I had to download to get my environment set up.
+When I started out as a web developer it was hard to figure out how to set up my local environment.
 
-This is a basic list for beginner devs in their first few jobs to help you set up your personal laptop with the basics that you require and separate that from the long list of requirements that an organisation may have to get your local environment working.
+This is a quick tooling checklist for web developers starting your first job or working on side projects.
 
-Please read the section [Installfest](https://sumisastri.github.io/dev-blogs/installfest/) - which is a longer list of the various packages I have had to install in different jobs - it may be helpful but is an optional read for beginners. I refer to this section often to pick and mix what I need to install on my local computer depending on what I am learning and the tools required to do the job.
+As an optional read for developers is the longer list in [Installfest](https://sumisastri.github.io/dev-blogs/installfest/) which is a quick installation guide for JavaScript developers.
 
-Installfest has some simple set up instructions resources that I hope will help troubleshoot when you are stuck.
+Installfest has simple set up instructions resources that I hope will help troubleshoot when you are stuck.
 
 ## A beginner's checklist to setting up your local environment
 
 During the development process you will need these basic tools. 
 
-You will need to be familiar with your computer terminal, [read Part 2 for a more detailed view of how your terminal works](https://sumisastri.github.io/dev-blogs/local-environment-setup/part2-the-terminal/) and use the cheatsheet to check out the terminal commands and familiarise yourself navigating your computer with the terminal.
+A good understanding of [how the terminal works](https://sumisastri.github.io/dev-blogs/local-environment/part2-the-terminal/). You may find [my terminal cheat sheet](https://sumisastri.github.io/dev-blogs/local-environment/part7-my-cli-cheat-sheet/) useful.
 
 ## Ten pre-install checks for Mac users
 
-1. Identify which version of your Mac's Operating System (MacOS) you're using. Ideally you should have Mojave or higher - click the apple icon on the left nav bar and check the "About this Mac" tab to find which OS you are on.
+1. Identify which version of your Mac's Operating System (MacOS) you're using. Ideally you should have Mojave or higher - click the apple icon on the left nav bar and check the "About this Mac" tab to find which OS you are on. 
 
 2. Ensure that you've uninstalled any anti-virus software you may have, as it can prevent some of the tools from installing properly - if you are working in a team, ask your tech lead if you are unsure. You can reinstall you anti-virus after you have installed all the tools you require.
 
 3. The terminal is a Command Line Interface (CLI) that allows you to interact directly with your laptop's operating system. You can use it to run programmes, manage files and folders and install software. To open the terminal use <kbd>cmd</kbd> + <kbd>space</kbd>, then type Terminal and <kbd>enter</kbd>
 
- [Check how to navigate through your computer terminal] read the previous section and [the CLI cheat sheet](https://sumisastri.github.io/dev-blogs/local-environment/part7-my-cli-cheat-sheet/)
 
 4. Speed up your cursor - By default, the speed of the cursor on a Mac is a little too slow. In an older Mac you need to go to 
 
@@ -42,7 +41,6 @@ You will need to be familiar with your computer terminal, [read Part 2 for a mor
 - Set Delay Util Repeat to `Short`
 
 5. Vim in the default text editor in a Mac, many developers prefer to use Vim instead of code editors and integrated development environments (IDE's) - bookmark [Vim CheatSheet](https://vimsheet.com/) you will find it useful when you are using a Mac terminal
-
 
 6. Speed up your mouse clicks on a Mac
 
@@ -139,4 +137,3 @@ _Cheatsheet to install Chrome_
     - [Download Postman](https://www.postman.com/downloads/) Postman now has 2 downloads for the older intelchip as well as the m1-m2 chips. To check which chip go to the apple icon. You will need to create a free account.
 
 Copy the chosen app it into your Applications folder and add it to your dock.
-
