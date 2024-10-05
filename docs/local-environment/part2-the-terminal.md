@@ -88,7 +88,8 @@ _Sort_
 
 _Create_
 
-- `mkdir <directory name>` make a directory
+- `mkdir <directory names space delineated>` make directories with a space inbetween
+- `mkdir -p <path/directories>` make directories and subdirectories in a single path
 - `touch <filename>` make a new file in the directory if you have spaces between file names you will have as many files as there are spaces eg: `touch this is my file` - will create this/is/my/file as separate files.
 - `cat this \ is \ my \file` concatinates files into one file - you will get a file with <thisismyfile> as the file name
 - `echo ` prints to console
@@ -104,6 +105,7 @@ _Navigate or move files/directories/shells_
 
 - `cd` change directory
 - `cd..` move one directory up
+- `cd ../../` move up 2 directories - 2 dots for one level up
 - `mv [~/filepathfrom ~/filepathto]` move file from one directory to another
 - `mv [~/*.file-extension ~/filepathto]` move all files with the file extension (eg: .doc/.jpg) from one directory to another
 - `open [file_name]`
@@ -141,6 +143,7 @@ _Read_
 - `b` move up a page
 - `spacebar` move down a page
 - `q` quit
+- `tree` - folder structure graphic equivalent of `du`
 
 _Checking_
 
@@ -149,11 +152,13 @@ _Checking_
 - `ps` - processes
 - `ps -l` - process long version
 
-_Delete_
+_Delete Destructive_
 
 - `rm <file_name>` remove file - destructive you won't get the file back again
 - `rm -rf <file_name>` remove file force remove recursively - NO RECYCLE BIN IMPOSS TO RECOVER USE ADVISEDLY
 - `rmdir -p` remove directory and path - will remove only when empty
+- `rmdir <dir>` removes directory if empty
+
 
 _`sudo`` or Super user rights_
 
@@ -208,3 +213,14 @@ _Further reading_
 
 
 
+
+
+Nano
+!/bin/bash
+
+
+the .sh colorises the text editor
+save control s
+exit control x
+escape control c if you escape editor
+change mode to get the executable on file so `chmod 700`
