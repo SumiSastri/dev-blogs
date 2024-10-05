@@ -2,7 +2,7 @@
 
 Each section has a reading and reference list
 
-## __Citation styles examples - Institute of Electrical and Electronics Engineers guidelines__
+__Citation styles examples - Institute of Electrical and Electronics Engineers guidelines__
 
 #### Blogs
 _Citation order_
