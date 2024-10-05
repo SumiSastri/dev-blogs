@@ -148,3 +148,15 @@ If you want to look at [the source files for the Spinning Snakes Project](https:
 Go to my GitHub repo link and download the zip-files. You can try and see how this project works on CodePen, with Sublime Text and see if you can push these files to your own GitHub repo. Try to deploy your version of the project on Netifly. Check out CSS animations as the snakes spin not because of JavaScript but because of CSS. And above all have fun!
 
 Thanks for your time and for making it to the end of this series :-). If you decide coding is for your all the very best you are in for a wonderful ride. If you think it isn't, at least you have a portfolio site that you can update and deploy like a true pro!
+
+If you want to take this further some of these sites will help you pursue continuous learning.
+
+  - [StackSkills](https://stackskills.com),
+  - [Udemy](https://www.udemy.com/)
+  - [Linked-in Learning](https://www.linkedin.com/learning/)
+  - [FreeCodeCamp](https://www.freecodecamp.org/)
+  - [Udacity](https://www.udacity.com/)
+  - [W3Schools](https://www.w3schools.com/html/)
+  - [Mozilla](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+  - [Plural Sight](https://www.pluralsight.com/)
+
