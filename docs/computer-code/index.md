@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Programming languages, computer code, bits and bytes - what's the difference?
+title: What is the difference between computer code and computer programming?
 nav_order: 6
 has_children: true
 last_updated: Feb 2024

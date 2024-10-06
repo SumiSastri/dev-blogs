@@ -1,7 +1,7 @@
 ---
 layout: default
 title: What is the difference between code transpiling, compiling and code bundling?
-parent: Programming languages, computer code, bits and bytes - what's the difference?
+parent: What is the difference between computer code and computer programming?
 nav_order: 6
 last_updated: Feb 2024
 ---

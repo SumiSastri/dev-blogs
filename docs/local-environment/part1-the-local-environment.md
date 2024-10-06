@@ -53,7 +53,7 @@ The overview in the last section is reductive, as it merely provides a structure
 
 Computers have millions of electronic components performing specialised tasks, which I will briefly outline in this section.
 
-Stallings [3] defines the core functions of a computer as data movement, processing and storage and the control of these functions.
+Stallings, defines the core functions of a computer as data movement, processing and storage and the control of these functions.
 
 The processing and storage of data are combined with the movement of the data from the local machine to the external environment. The external environment could be servers. These servers could be on-premise or virtual servers in the cloud. Data can also be communicated to peripherals, such as printers.
 
@@ -81,7 +81,7 @@ Puget Systems, custom computer builders based in Seattle, in the United States, 
 
 The number of cores has also significantly jumped from 16 cores to 64 cores to manage the workload of these compute requirements faced by ML and AI. 
 
-Nvidia has developed processors for the highly demanding workloads that ML and AI require, largely from its gaming processors. [In an article on system requirements for ML and AI, pugest systems](https://www.pugetsystems.com/solutions/ai-and-hpc-workstations/machine-learning-ai/hardware-recommendations/) offers some recommendations for what may be required from processors for AI and ML.
+Nvidia has developed processors for the highly demanding workloads that ML and AI require, largely from its gaming processors. [In an article on system requirements for ML and AI, Pugest systems](https://www.pugetsystems.com/solutions/ai-and-hpc-workstations/machine-learning-ai/hardware-recommendations/) offers some recommendations for what may be required from processors for AI and ML.
 
 ## Customising your local environment as a developer
 
@@ -91,12 +91,12 @@ Familiarise yourself with the computer terminal, this series’ [next article](h
 
 Once you are familiar with the CLI and computer shells, you can write your first scripts and look at the tooling checklist for guidance.
 
-The series Installfest then takes you into customising your local environment if you are using the JavaScript programming language.
+The series [Installfest](https://sumisastri.github.io/dev-blogs/installfest/) then takes you into customising your local environment if you are using the JavaScript programming language.
 
 With every organisation you join customising of your work laptop will be an important first step to controlling your workflow, and investing time in learning these fundamentals is time well spent!
 
 
-#### REFERENCES
+#### EXTERNAL REFERENCES
 
 - [1]  __University of Wollongong Australia__ "Understanding operating systems", Accessed: Sep. 22, 2024. [Available](https://www.uow.edu.au/student/support-services/academic-skills/online-resources/technology-and-software/operating-systems/)
 
