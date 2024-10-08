@@ -12,7 +12,7 @@ All programming languagues share one thing in common. They have different data t
 
 This section looks at data-types common to most programming languages. And the data-life-cycle.
 
-As we have seen in the [last section](https://sumisastri.github.io/dev-blogs/computer-code/part1-code-modules/), programming lanugages are considered top-level or "source" code. 
+As we have seen in the [last section](https://sumisastri.github.io/dev-blogs/computer-code/part1-programming-vs-machine-code/), programming lanugages are considered top-level or "source" code. 
 
 
 ## Primitive data types
