@@ -132,5 +132,3 @@ The impact of von Neumann's architecture in the organisation of both machine cod
 - [8] __Learn computer science online__ "Von Neumann Architecture: Complete Beginners Guide to Computer Science", https://www.learncomputerscienceonline.com, (Accessed: Sep. 30, 2024) [Available] (https://www.learncomputerscienceonline.com/von-neumann-architecture/)
 
 - [9]__Just IT Hardware__ "What are computer chips and how do they work", https://www.justithardware.com(Accessed: Oct. 8, 2024) [Available](https://www.justithardware.com/blog/what-are-computer-chips-and-how-do-they-work/)
-
-- [How to geek](https://www.howtogeek.com/44052/htg-explains-what-are-computer-algorithms-and-how-do-they-work/)
