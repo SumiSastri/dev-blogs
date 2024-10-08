@@ -3,7 +3,7 @@ layout: default
 title: What are the different data types in a programming language?
 parent: Computer programming fundamental principles
 nav_order: 6
-last_updated: Feb 2024
+last_updated: Oct 2024
 ---
 
 # What are the different data types in a programming language?
@@ -59,8 +59,18 @@ Other operators and operands are used, and while learning the syntax of a partic
 
 These primitive data types have no programming logic and merely represent the type of data and how it is stored. The initial state of data is "initialised" by a program.
 
+In this initialisation process, when a data type is initialised as a string, for example, the minus sign is read, or parsed by code compilers, as a hyphen. If it is initialised as data it is interpreted as an arithmetic plus sign an an arithmetic operation is processed.
+
 Instructions provided after initialisation by logical statements, blocks of code and alogrithms are what transform data into programs that are executable. 
 
 The execution of these instructions change or mutate the behaviour of the underlying data in some way.
 
 This changing of the initial state of data is called mutation and the process that the cycle of data mutation is managed is called data state management, often abbreviated to state management.
+
+The parsing, interpretation, compiling and bundling of this code into a software package are all processes that are handled by individual software packages or software libraries.
+
+In today's world, a developer has to deal with packages within packages (nested packages). 
+
+The source code that they are writing is dependent on the performance of these nested packages, resulting in nested dependencies. While this may increase performance, they may also decrease transparency.
+
+Debugging can be either more performant - as they are caught through automation processes in these packages, or more difficult due to the lack of transparency of these nested dependencies.

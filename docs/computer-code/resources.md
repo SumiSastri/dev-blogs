@@ -2,7 +2,8 @@
 layout: default
 title: Computer code and computer programming - Bibliography
 parent:  What is the difference between computer code and computer programming?
-nav_order: 7
+nav_order: 6
+last_updated: Oct 2024
 ---
 
 # Computer code and computer programming - Bibliography

@@ -3,7 +3,7 @@ layout: default
 title: What is the difference between a programming language and machine code?
 parent: Computer programming fundamental principles
 nav_order: 6
-last_updated: Feb 2024
+last_updated: Oct 2024
 ---
 
 # What is the difference between a programming language and machine code?

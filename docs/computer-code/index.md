@@ -3,7 +3,7 @@ layout: default
 title: Computer programming fundamental principles
 nav_order: 6
 has_children: true
-last_updated: Feb 2024
+last_updated: Oct 2024
 ---
 
 # Computer programming fundamental principles
