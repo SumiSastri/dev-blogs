@@ -1,15 +1,14 @@
 ---
 layout: default
-title: Computer code and computer programming - Bibliography
-parent:  What is the difference between computer code and computer programming?
+title: BIBLIOGRAPHY - The developer environment 
+parent:  Computer programming fundamental principles
 nav_order: 6
 last_updated: Oct 2024
 ---
 
-# Computer code and computer programming - Bibliography
+# BIBLIOGRAPHY - The developer environment 
 
-This is a complete bibliography of references for this section
-
+This is a complete bibliography of external references used in the Computer programming fundamental principles section.
 
 ## Blogs
 
