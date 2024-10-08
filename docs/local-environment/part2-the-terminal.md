@@ -58,3 +58,9 @@ eg: `ls` is an argument and `-a` is an option of the argument. This is my CLI ch
 There are some files in the filing system that are invisble to the user. These are often termed as `dot files`. The command `ls -a` refers to listing these dot files, or invisible files.
 
 Configuration files, for example, are dotfiles and to find and open a dot file, you may want to type `ls -a` to find the file, then to open the file you require you can type `open .bashrc` to open the hidden file and view and edit its contents.
+
+#### EXTERNAL REFERENCES
+
+- [1] __Geek for geeks__, "The difference between a terminal, the console, a shell and the command-line-interface", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)
+
+- [2] __Geek for geeks__,"Nano text editor in Linux", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/nano-text-editor-in-linux/).

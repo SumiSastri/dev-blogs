@@ -70,13 +70,13 @@ Code modules are similar to modular frameworks. It is not unlike Ikea furniture 
 
 Bundling modules is the first step in code compilation. Modules are parsed by code readers, either in browsers or other software programs. In the case of hardware, there are compilers and interpretors that read source code and interpret them back into byte code, which is compiled down into machine-readable code. 
 
-During the compilation of code in a module, if an error occurs, the errors are called compile-time errors. 
+Tua, observes [3] that in today's world the lines between compiling code and interpreting have become blurred.
 
-Once the application is read by a browser or any other code parser, it is called a run-time error because further errors may be discovered when the code runs on the environment that the end-user consumes the code.
+Strictly speaking, interpreting happens first with an intepreter. Once the code is interpreted, it is compiled into a package called a module. If an error occurs at this stage the errors are called compile-time errors. If an error occurs when the code actually runs it is called a run-time error.
 
-Computer code programmers and software programmers have different skill sets and work within different software environments, hardware environments and with a variety of on premise or cloud data-infrastructures.
+Run-time errors occur futher down the process chain because errors may be discovered when the code runs in a new environment - a browser for example, or in a virtual cloud-based environment. 
 
-Both runtime and compile-time errors occur in all of these environments.
+Programmers have different skill sets and work within different software languages, environments and with a variety of on premise or cloud data-infrastructures. Both runtime and compile-time errors occur in all of these environments.
 
 Within the hardware data flows from the input driver to the processor. The processor transfers the data to memory.
 
@@ -86,8 +86,8 @@ The inbound data is fetch from the input driver, decoded with byte code instruct
 
 Through this data journey, the data moves from input driver, processor and memory via a system bus. A system bus is an interconnection point between the processor, the memory and the input/output, or IO drivers via several conducting and connecting wires.
 
-
-John Von Neumann
+## What is the von Neumann architecture and how does it work?
+The mathematician, John von Neumann, described the architecture of a computer as a cycle where data is fetched, interpreted, stored and retrieved. 
 
 
 
@@ -106,7 +106,7 @@ John Von Neumann
 
 -[6] __Tech target__"What is Byte code", Robert Sheldon, Accessed: Oct. 6, 2024, [Available](https://www.techtarget.com/whatis/definition/bytecode)
 
-- Geek for geeks, "The difference between a terminal, the console, a shell and the command-line-interface", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)
+- [7] __Geek for geeks__, "The difference between a terminal, the console, a shell and the command-line-interface", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)
 
 
 - [Learn computer science](https://www.learncomputerscienceonline.com/von-neumann-architecture/)

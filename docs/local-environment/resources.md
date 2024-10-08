@@ -9,11 +9,10 @@ nav_order: 7
 
 This is a complete bibliography of external references used in the developer environment section
 
-## Blogs
+## Blogs 
 
 - S. Bajaj "zsh", Sourabh Bajaj, https://sourabhbajaj.com/ (Accessed: Sep. 22, 2024). [Available](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
 
-- Geek for geeks, "The difference between a terminal, the console, a shell and the command-line-interface", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)
 
 - [What is c-url and when to use it](https://blog.pair.com/2018/01/26/curl-description-basic-use-cases/)
 
@@ -39,6 +38,11 @@ This is a complete bibliography of external references used in the developer env
 __Dartmouth College Department of Computer Science__"Getting Started" https://web.cs.dartmouth.edu/  (Accessed: Sept 30, 2024) [Available](https://www.cs.dartmouth.edu/~campbell/cs50/started.html)
 
 - __Towards datascience__"The ultimate guide to your terminal makeover" https://towardsdatascience.com/ (Accessed: Sep. 30, 2024) [Available on Medium](https://towardsdatascience.com/the-ultimate-guide-to-your-terminal-makeover-e11f9b87ac99)
+
+- __Geek for geeks__, "The difference between a terminal, the console, a shell and the command-line-interface", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)
+
+- __Geek for geeks__,"Nano text editor in Linux", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/nano-text-editor-in-linux/).
+
 
 - [What are source or dot files](https://en.wikipedia.org/wiki/Dot_(command)#Source)
 

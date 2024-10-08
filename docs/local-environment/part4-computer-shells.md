@@ -252,13 +252,19 @@ You might want to switch from Bash to Zish and vice-versa. To use %zsh - if you 
 
 In some code editors like VS Code, you can select a Zish or Bash shell by clicking the chevron to the right of the terminal.
 
-#### REFERENCES
+
+#### EXTERNAL REFERENCES
 
 - [1] Brash Ron & Naik Ganesh, __Bash Cookbook__, 1st edn (Packt Publishing, July 2018), chap.1, pg3 - (URL or https://doi.org/)
 
 - [2] [How to install Zish](https://linuxhandbook.com/install-zsh/)
   
 - [3] [How zsh files are sourced](http://zsh.sourceforge.net/Intro/intro_3.html)
+
+- __Geek for geeks__, "The difference between a terminal, the console, a shell and the command-line-interface", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)
+
+- __Geek for geeks__,"Nano text editor in Linux", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/nano-text-editor-in-linux/).
+
 
 _Further reading_ and to debug your `.zshrc file` if you get errors:
 

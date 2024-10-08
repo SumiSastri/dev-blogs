@@ -29,7 +29,7 @@ Resources on a computer are finite, and we can only start to manage our processe
 
  The process ID, or PID: This is a number by which the process can be referred to. This is unique at any given time, but not unique over longer periods. The process ID will be reused by another process eventually, after the original has ended. We can represent the process code and data as one because by the time code is being executed in a process, it can be thought of as data itself. Any good method for inspecting processes will show us the program or command used to start the process, which should give us a clue about what the process is trying to achieve. 
  
- Compute time of the CPU in executing the process: This is often expressed in absolute terms as the number of seconds, minutes, or hours that processes have spent executing the process. [A good article to read - to understand how a CPU processes information]https://www.lifewire.com/what-is-a-cpu-2618150
+ Compute time of the CPU in executing the process: This is often expressed in absolute terms as the number of seconds, minutes, or hours that processes have spent executing the process. [A good article to read - to understand [how a CPU processes information](https://www.lifewire.com/what-is-a-cpu-2618150)
 
  Random Access Memory or RAM:  Fast storage where the processor can keep the parts of the process's data that aren't currently being executed. [Understanding RAM](https://www.crucial.com/articles/about-memory/support-what-does-computer-memory-do) as different from computer storage is important. Computer storage capacity refers to the hard drive or disk on a computer. 
  
@@ -84,4 +84,11 @@ Interrupts also stop execution for some other action to be taken.
 
 However, interrupts are a method for the CPU. They occur with instances of memory page faults, and accepting hardware input, for example. 
 
+
+#### EXTERNAL REFERENCES
+
 - [Premium PluralSight content informs this section on computer processes and jobs](https://app.pluralsight.com/library/courses/managing-jobs-processes-bash-z-shell/table-of-contents)
+
+-  [how a CPU processes information](https://www.lifewire.com/what-is-a-cpu-2618150)
+
+[Understanding RAM](https://www.crucial.com/articles/about-memory/support-what-does-computer-memory-do) 
