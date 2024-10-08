@@ -1,12 +1,12 @@
 ---
 layout: default
-title: BIBLIOGRAPHY - The developer environment 
+title: BIBLIOGRAPHY - Computer programming fundamental principles
 parent:  Computer programming fundamental principles
 nav_order: 6
 last_updated: Oct 2024
 ---
 
-# BIBLIOGRAPHY - The developer environment 
+# BIBLIOGRAPHY - Computer programming fundamental principles 
 
 This is a complete bibliography of external references used in the Computer programming fundamental principles section.
 
