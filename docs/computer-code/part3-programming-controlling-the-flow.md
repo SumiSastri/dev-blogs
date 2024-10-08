@@ -27,5 +27,3 @@ default else
 
 
 loops and iterations
-
-
