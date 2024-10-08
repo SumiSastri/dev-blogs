@@ -1,6 +1,6 @@
 ---
 layout: default
-title: What is the difference between computer code and computer programming?
+title: Computer programming fundamental principles
 nav_order: 6
 has_children: true
 last_updated: Feb 2024

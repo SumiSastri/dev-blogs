@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: What is the difference between code transpiling, compiling and code bundling?
 parent: Computer programming fundamental principles
@@ -54,4 +54,4 @@ Code in the packages a developer writes will have to be rewritten to the new syn
 Often, packages that are out of date offer no long-term support and issues that you face will not be addressed by the package publisher.
 
 This constant updating of packages with new features takes a significant amount of time for developers but is a core part of writing and maintaining code bases.
-
+ -->
