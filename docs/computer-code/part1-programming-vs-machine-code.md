@@ -1,12 +1,12 @@
 ---
 layout: default
-title: What is a programming language?
-parent:What is the difference between computer code and computer programming?
+title: What is the difference between a programming language and machine code?
+parent: Computer programming fundamental principles
 nav_order: 6
 last_updated: Feb 2024
 ---
 
-# What is the difference between a programming language and a computer programming language?
+# What is the difference between a programming language and machine code?
 
 Programming languages are written by programmers for software packages for web, mobile and gaming applications.
 

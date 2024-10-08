@@ -1,7 +1,7 @@
----
+<!-- ---
 layout: default
 title: What is the difference between webpack, Babel and ES-Build?
-parent: What is the difference between computer code and computer programming?
+parent: Computer programming fundamental principles
 nav_order: 6
 last_updated: Feb 2024
 ---
@@ -134,4 +134,4 @@ Webpack and Babel, reduce JavaScript files to the base CommonJS for browsers to 
 
 Code is bundled in 3 phases - parsing, linking, and code generation. The linking happens by hooking into code modules with the import-export key words without transpiling them. Only in the third phase is the code transpiled.
 
-This makes the build process more performant.
+This makes the build process more performant. -->

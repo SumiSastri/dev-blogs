@@ -1,7 +1,7 @@
----
+<!-- ---
 layout: default
 title: What does hydration mean?
-parent: What is the difference between computer code and computer programming?
+parent: Computer programming fundamental principles
 nav_order: 6
 last_updated: Feb 2024
 ---
@@ -36,4 +36,4 @@ The Document Object Model (DOM), which is an API, queries HTML and CSS and retur
 
 - [The technical details of hydration](https://web.dev/articles/rendering-on-the-web)
 
-- [For a deep dive into how browsers work, you can go to this section, in the blog](https://sumisastri.github.io/dev-blogs/browser-engines/).
+- [For a deep dive into how browsers work, you can go to this section, in the blog](https://sumisastri.github.io/dev-blogs/browser-engines/). -->
