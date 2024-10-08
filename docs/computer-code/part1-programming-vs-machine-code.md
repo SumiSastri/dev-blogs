@@ -113,7 +113,7 @@ The impact of von Neumann's architecture in the organisation of both machine cod
 
 #### EXTERNAL REFERENCES
 
-- [1] __Make Use of It__ "What is coding", https://www.makeuseof.com (Acessed Oct 6, 2024)[Available]((https://www.makeuseof.com/tag/what-is-coding/)
+- [1] __Make Use of It__ "What is coding", https://www.makeuseof.com (Acessed Oct 6, 2024)[Available](https://www.makeuseof.com/tag/what-is-coding/)
 
 - [2]  __Stanford University__ "Bits and Bytes", Accessed: Oct. 6, 2024. [Available](https://web.stanford.edu/class/cs101/bits-bytes.html) 
 
@@ -124,11 +124,11 @@ The impact of von Neumann's architecture in the organisation of both machine cod
 
 - [5] __Stack overflow__, in answer to the question what is the difference between binary code and byte code, authors - several, Accessed: Oct. 6, 2024, [Available](https://stackoverflow.com/questions/67467615/what-is-the-difference-between-binary-code-and-byte-code)
 
--[6] __Tech target__"What is Byte code", Robert Sheldon, Accessed: Oct. 6, 2024, [Available](https://www.techtarget.com/whatis/definition/bytecode)
+- [6] __Tech target__"What is Byte code", Robert Sheldon, Accessed: Oct. 6, 2024, [Available](https://www.techtarget.com/whatis/definition/bytecode)
 
 - [7] __Geek for geeks__, "The difference between a terminal, the console, a shell and the command-line-interface", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)
 
 
-- [8] __Learn computer science online__ "Von Neumann Architecture: Complete Beginners Guide to Computer Science", https://www.learncomputerscienceonline.com, (Accessed: Sep. 30, 2024) [Available] (https://www.learncomputerscienceonline.com/von-neumann-architecture/)
+- [8] __Learn computer science online__ "Von Neumann Architecture: Complete Beginners Guide to Computer Science", https://www.learncomputerscienceonline.com, (Accessed: Sep. 30, 2024) [Available](https://www.learncomputerscienceonline.com/von-neumann-architecture/)
 
 - [9]__Just IT Hardware__ "What are computer chips and how do they work", https://www.justithardware.com(Accessed: Oct. 8, 2024) [Available](https://www.justithardware.com/blog/what-are-computer-chips-and-how-do-they-work/)
