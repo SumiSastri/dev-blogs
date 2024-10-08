@@ -57,6 +57,8 @@ As a software package may require several lines of code to be interpreted and ex
 
 A code compiler takes information from the interpreter like peices of a jigsaw to put the bigger picture together. In this case all the features of the code that enable the package to deliver the end user the service required.
 
+Once again, compilers are language specific. Java uses compilers like Javac, while JavaScript uses compilers like Babel, Webpack and ESBuild.
+
 ## What is code transpiling?
 
 Transpiling is a further process once code has been compiled to re-compiling the code from one language or code format into another code format or language. You can think of it as a translation service of one code format to another.
@@ -90,10 +92,14 @@ Multiple code interpreters, compilers, transpilers and bundlers are used in the 
 
 Software developers rely on compilers and interpretors to do the heavy lifting when it comes to boiling down code to its most efficient format for storage in a processor.
 
-
 ## What is a code package?
 
+A code package any code that is bundled together and that can be used efficiently.
+
+Code libraries like React, written in JavaScript or the Java Class Library (JCL) use pre-compiled code and features that can be used by software developers writing source code.
+
 ## What is code package management?
+
 Code package management is a part of maintaining your code base and ensuring code packages used are updated on a regular basis.
 
 When code packages are updated, they may or may not be backwards compatible and may generate breaking changes.
@@ -106,9 +112,16 @@ Often, packages that are out of date offer no long-term support and issues that 
 
 This constant updating of packages with new features takes a significant amount of time for developers but is a core part of writing and maintaining code bases. 
 
+Version changes can be major or minor.
+
 
 ## What is code patching?
 
+Part of code package management for code libraries is introducing patches or small chunks of code that update a package to improve functionality.
+
+Patches are smaller than minor version changes or updates. Version 2.1.11 denotes the major version is 2, which will significantly vary from Version 1.0.0 of the package. The next decimal places denotes a minor updates to the package with 2.1.12, perhaps a patch update to 2.1.11.
+
+These are not strict rules, with each package manager providing package release notes for developers to follow and update code when they are maintaining a code base.
 
 #### EXTERNAL REFERENCES
 
@@ -118,8 +131,10 @@ This constant updating of packages with new features takes a significant amount 
 
 - [3] __Medium__ "JavaScript ES6+: var, let, or const?" Elliot, Eric (Accessed: Oct. 8, 2024) [Available](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75)
 
+- [4] __Scotch io tutorials__  "JavaScript Transpilers: What They Are And Why We Need Them" Peleke Sengstacke (Accessed: Oct. 8, 2024) [Available](https://www.digitalocean.com/community/tutorials/javascript-transpilers-what-they-are-why-we-need-them)
 
-[the tutorial by Digital Ocean](https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them#:~:text=Transpilers%2C%20or%20source%2Dto%2D,are%20said%20to%20target%20JavaScript.)
+
+
 
 Interpreters then take the data store it in memory and retrieve it based on programmatic commands.
 
