@@ -8,6 +8,9 @@ last_updated: Feb 2024
  -->
 
 
+<!-- 
+FIX ME
+
 # How data is stored and retreived?
 
 Once data has been created in a program, it needs to be allocated to memory in a computer or in a cloud-based storage system.
@@ -109,5 +112,5 @@ Code in the packages a developer writes will have to be rewritten to the new syn
 
 Often, packages that are out of date offer no long-term support and issues that you face will not be addressed by the package publisher.
 
-This constant updating of packages with new features takes a significant amount of time for developers but is a core part of writing and maintaining code bases.
+This constant updating of packages with new features takes a significant amount of time for developers but is a core part of writing and maintaining code bases. -->
 
