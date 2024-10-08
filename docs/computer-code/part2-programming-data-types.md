@@ -54,3 +54,13 @@ Java and C++, will have their own compilers, interpreters and processors.
 Each of these logical operators may have a slightly different meaning in the language they are written in - but the key operators are greater than and less than are represented by the horizontal carats `>` and `<` respectively. The double amperestand `&&` evaluates 2 statements both of which have to be true for the program to execute, `||` the double pipe symbol evaluates 2 statements and executes if one of the statements is true.
 
 Other operators and operands are used, and while learning the syntax of a particular language, it is useful to look at the specific meaning of these operators and operands and how they execute the instructions of the program according to the documentation and syntax prescribed.
+
+## Initialisation of data and data state management
+
+These primitive data types have no programming logic and merely represent the type of data and how it is stored. The initial state of data is "initialised" by a program.
+
+Instructions provided after initialisation by logical statements, blocks of code and alogrithms are what transform data into programs that are executable. 
+
+The execution of these instructions change or mutate the behaviour of the underlying data in some way.
+
+This changing of the initial state of data is called mutation and the process that the cycle of data mutation is managed is called data state management, often abbreviated to state management.
