@@ -85,6 +85,3 @@ In some code editors like VS Code, you can select a Zish or Bash shell by clicki
 - [2] __Geek for geeks__, "The difference between a terminal, the console, a shell and the command-line-interface", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)
 
 - [3] __Geek for geeks__,"Nano text editor in Linux", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/nano-text-editor-in-linux/).
-
-
-https://linuxconfig.org/bash-scripting-vs-shell-scripting

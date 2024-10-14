@@ -32,7 +32,7 @@ _Print and list_
 _Sort_
 
 - `b`- ignore blanks
-`ls -s -r` - list sort reverse order
+- `ls -s -r` - list sort reverse order
 
 
 _Create_
@@ -72,13 +72,13 @@ _Navigate or move files/directories/shells_
 - `wqa` quit all
 - `cmp` - compare
 - `cmp -b` - compare bytes
--`cp` files or folders
+- `cp` copy files or folders
 - `cp -i` 
 - `date`
 - `date -r <filename>`
 - `date +%d` gives you the day of the date eg: 30
 - `df` how much of your disc is free
-- `df -i` how much of you diss fee used - info
+- `df -i` how much of you disc is free/used - info
 - `df -h` - in a table how much of disc free
 
 

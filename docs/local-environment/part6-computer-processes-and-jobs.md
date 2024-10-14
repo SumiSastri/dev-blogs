@@ -2,10 +2,10 @@
 layout: default
 parent: The developer environment
 nav_order: 7
-title: How computers process information
+title: How computers process information?
 ---
 
-# How computers process information
+# How computers process information?
 
 A computer's behavior is expressed in code and data that is contained within programs that run in your computer hardware - or local environment, or operating system (OS).
  
@@ -91,4 +91,4 @@ However, interrupts are a method for the CPU. They occur with instances of memor
 
 -  [how a CPU processes information](https://www.lifewire.com/what-is-a-cpu-2618150)
 
-[Understanding RAM](https://www.crucial.com/articles/about-memory/support-what-does-computer-memory-do) 
+- [Understanding RAM](https://www.crucial.com/articles/about-memory/support-what-does-computer-memory-do) 

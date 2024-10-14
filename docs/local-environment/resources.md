@@ -52,6 +52,7 @@ __Dartmouth College Department of Computer Science__"Getting Started"  (Accessed
 - __WhatIsMyBrowser__ "Update Chrome Web Browser", (Accessed: Oct. 14, 2024) [Available](https://www.whatismybrowser.com/guides/how-to-update-your-browser/chrome)
 
 
+<!-- FIX 
 - [What are source or dot files](https://en.wikipedia.org/wiki/Dot_(command)#Source)
 
 - [curl Documentation](https://curl.se/docs/manpage.html)
@@ -63,5 +64,5 @@ __Dartmouth College Department of Computer Science__"Getting Started"  (Accessed
 
 - [4 - Official docs ](https://zsh.sourceforge.io/Doc/Release/User-Contributions.html#Version-Control-Information)
 
-- [5 - The Modern Coder](https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/)
+- [5 - The Modern Coder](https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/) -->
 

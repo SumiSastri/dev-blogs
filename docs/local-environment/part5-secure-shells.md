@@ -70,5 +70,3 @@ Once the host key has been stored in the known_hosts file, the client system can
 SSH keys are a way to identify trusted computers, without involving passwords. This is how, for example, GitHub works.
 
 #### EXTERNAL REFERENCES
-
-[
