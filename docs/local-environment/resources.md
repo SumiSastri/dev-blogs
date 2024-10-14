@@ -13,6 +13,10 @@ This is a complete bibliography of external references used in the developer env
 
 - S. Bajaj "zsh", Sourabh Bajaj, https://sourabhbajaj.com/ (Accessed: Sep. 22, 2024). [Available](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
 
+- [6 - Araaj van der Garg](https://arjanvandergaag.nl/blog/customize-zsh-prompt-with-vcs-info.html)
+
+- [7 - Sal Ferrarello blog](https://salferrarello.com/zsh-git-status-prompt/)
+
 
 
 ## E-books
@@ -41,7 +45,6 @@ __Dartmouth College Department of Computer Science__"Getting Started"  (Accessed
 
 - __Geek for geeks__ "Nano text editor in Linux", (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/nano-text-editor-in-linux/).
 
-
 - __Computer Hope__ "GUI", (Accessed: Oct. 14, 2024) [Available](https://www.computerhope.com/jargon/g/gui.htm)
 
 -  __Digital Citizen__ "What version of Chrome do I have? 6 ways to find out", (Accessed: Oct. 14, 2024) [Available](https://www.digitalcitizen.life/version-google-chrome/)
@@ -56,4 +59,9 @@ __Dartmouth College Department of Computer Science__"Getting Started"  (Accessed
 - [curl and APIs](https://developer.ibm.com/articles/what-is-curl-command/)
 
 - [What is c-url and when to use it](https://blog.pair.com/2018/01/26/curl-description-basic-use-cases/)
+
+
+- [4 - Official docs ](https://zsh.sourceforge.io/Doc/Release/User-Contributions.html#Version-Control-Information)
+
+- [5 - The Modern Coder](https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/)
 

@@ -71,4 +71,4 @@ SSH keys are a way to identify trusted computers, without involving passwords. T
 
 #### EXTERNAL REFERENCES
 
-[graphical user interfaces (GUIs)](https://www.computerhope.com/jargon/g/gui.htm).
+[
