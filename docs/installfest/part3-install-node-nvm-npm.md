@@ -132,3 +132,7 @@ or if you are using oh-my-zsh
           node-version-file: ".nvmrc"
 ```          
 4. If you choose not to use GitHub actions, you can switch to the version of Node in your repo by running `nvm use` in terminal when you change directories into your project.
+
+5. A good chrome extension 
+
+    - [Node Inspector Monitor - Docs](https://chrome.google.com/webstore/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj?hl=en)

@@ -19,7 +19,7 @@ Installfest has some simple set up instructions resources that I hope will help 
 
 During the development process you will need these basic tools. 
 
-You will need to be familiar with your computer terminal, [read Part 2 for a more detailed view of how your terminal works](https://sumisastri.github.io/dev-blogs/local-environment-setup/part2-the-terminal/) and use the cheatsheet to check out the terminal commands and familiarise yourself navigating your computer with the terminal.
+You will need to be familiar with your computer terminal, [check the section on how your terminal works](https://sumisastri.github.io/dev-blogs/local-environment/part2-the-terminal/) and the [the CLI cheat sheet](https://sumisastri.github.io/dev-blogs/local-environment/part7-my-cli-cheat-sheet/)
 
 ## Ten pre-install checks for Mac users
 
@@ -29,7 +29,6 @@ You will need to be familiar with your computer terminal, [read Part 2 for a mor
 
 3. The terminal is a Command Line Interface (CLI) that allows you to interact directly with your laptop's operating system. You can use it to run programmes, manage files and folders and install software. To open the terminal use <kbd>cmd</kbd> + <kbd>space</kbd>, then type Terminal and <kbd>enter</kbd>
 
- [Check how to navigate through your computer terminal] read the previous section and [the CLI cheat sheet](https://sumisastri.github.io/dev-blogs/local-environment/part7-my-cli-cheat-sheet/)
 
 4. Speed up your cursor - By default, the speed of the cursor on a Mac is a little too slow. In an older Mac you need to go to 
 
@@ -62,7 +61,7 @@ You will need to be familiar with your computer terminal, [read Part 2 for a mor
 
   _NOTE_Save this to add new packages from the app store or from online downloads. Note if you lose this Apple now takes about 5-6 days to reset your password after MFA kicks in.
 
-10. Reduce the number of times you require the use of your password - go to your terminal and paste this code, to understand the code go through the CLI cheat sheet at the end of this series.
+10. Reduce the number of times you require the use of your password - go to your terminal and paste this bash script. Check the CLI cheatsheet to understand the script. In summary, the script checks who the user is and gives you super user powers to remove the need to typein a password to identify you as the key user.
 
   `echo $(whoami)" ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/$(whoami)`
   
@@ -97,19 +96,19 @@ Note the ARM chip has different download instructions
 
 2. Familiarise yourself with computer shells and install Bash or Zish and customise them to suit your needs.
 
-You can check h[ow to switch between bash and zish] (https://sumisastri.github.io/dev-blogs/local-environment/part4-computer-shells/) in this section.
+You can check [how to switch between bash and zish](https://sumisastri.github.io/dev-blogs/local-environment/part4-computer-shells/) in this section.
 
 Once you have familiarised yourself with your computer shell and your terminal you can install a version control system.
 
-3. Install a code editor or IDE (integrated development environment) - Atom, Visual Studio Code, Sublime Text (See section on clean code for [a quick guide to code editors and IDEs](https://sumisastri.github.io/dev-blogs/clean-code/part2-code-editors-and-how-to-setup-eslint/)
+3. Install a code editor or IDE (integrated development environment) - Atom, Visual Studio Code, Sublime Text. See the section on clean code for [a quick guide to code editors and IDEs](https://sumisastri.github.io/dev-blogs/clean-code/part2-code-editors-and-how-to-setup-eslint/)
 
 This will help you write HTML (Hyper Text Markup Language), CSS (Cascading Style Sheets), JavaScript and get started on learning the fundamentals of web development.
 
 For Java and Python developers IntelliJ is considered a better IDE.
 
-4. Git, the main version control system used by developers, should be preinstalled on both Mac and Windows. The set up requires secure hash keys and requires you to have a basic knowledge of how to set up your local environment, be comfortable with using the terminal and computer shells. Once you are confident in your terminal run ```git --version``` to check if it is pre-installed.
+4. Git, the main version control system used by developers, should be preinstalled on both Mac and Windows. The set up requires secure hash keys and requires you to have a basic knowledge of how to set up your local environment, be comfortable with using the terminal and computer shells. Once you are confident in your terminal run `git --version` to check if it is pre-installed.
 
-Then proceed to the section [how GitHub works as a version control system](https://sumisastri.github.io/dev-blogs/version-control-systems/) and to set up a Git, GitHub and set up your first GitHub repository to store versions of your code.
+Then proceed to the section [how GitHub works as a version control system](https://sumisastri.github.io/dev-blogs/version-control-GH/) and to set up a Git, GitHub and set up your first GitHub repository to store versions of your code.
 
 ## Useful apps and GUIs
 
@@ -118,16 +117,13 @@ Then proceed to the section [how GitHub works as a version control system](https
 You will need to have a gmail account to install Chrome and its extensions. One of the advantages of Chrome once you install it is when you change computers you can sync the bookmarks and extensions of your choice. This immediately makes the other tasks of connecting your local to Github, AWS, GCS and all your other go-to developer bookmarked sites so easy.
 
 _Cheatsheet to install Chrome_
-    - [Check your Chrome version ](https://www.whatismybrowser.com/detect/
-      what-version-of-chrome-do-i-have). If you have an older version [update it ](https://www.whatismybrowser.com/guides/how-to-update-your-browser/chrome). This is useful as the installed version on a laptop may not be the latest Chrome version, which means your bookmarks may not sync effectively.
+    - [Check your Chrome version ](https://www.digitalcitizen.life/version-google-chrome/). If you have an older version [update it ](https://www.whatismybrowser.com/guides/how-to-update-your-browser/chrome). This is useful as the installed version on a laptop may not be the latest Chrome version, which means your bookmarks may not sync effectively.
     -  [To download Chrome - go to](https://google.com/chrome)
     -  Click on `Download Chrome`
     -  Go to the Downloads folder and run the `googlechrome.dmg` package
     -  Drag the icon into the Applications folder
     -  Add Chrome to your dock and open it
     -  Select `set Chrome as my default browser`
-
-    - [Node Inspector Monitor - Docs](https://chrome.google.com/webstore/detail/nodejs-v8-inspector-manag/gnhhdgbaldcilmgcpfddgdbkhjohddkj?hl=en)
 
 
 2. [Sign up to Slack](https://www.slack.com/) a popular developer messaging service. Slack has a native app available on the App store. It's the first thing I install, if you haven't already,  online, and install the OS app. Once it has downloaded you'll find it your the Applications folder. Drag it into the dock and launch the app.
@@ -140,3 +136,10 @@ _Cheatsheet to install Chrome_
 
 Copy the chosen app it into your Applications folder and add it to your dock.
 
+#### EXTERNAL REFERENCES
+
+- [1] __Computer Hope__, "GUI", https://www.computerhope.com/ (Accessed: Oct. 14, 2024) [Available](https://www.computerhope.com/jargon/g/gui.htm)
+
+- [2] __Digital Citizen__,"What version of Chrome do I have? 6 ways to find out", https://www.digitalcitizen (Accessed: Oct. 14, 2024) [Available](https://www.digitalcitizen.life/version-google-chrome/)
+
+-[3] __WhatIsMyBrowser__, "Update Chrome Web Browser", https://www.whatismybrowser.com/ (Accessed: Oct. 14, 2024) [Available](https://www.whatismybrowser.com/guides/how-to-update-your-browser/chrome)
