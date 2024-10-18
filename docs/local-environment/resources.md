@@ -13,9 +13,9 @@ This is a complete bibliography of external references used in the developer env
 
 - S. Bajaj "zsh", Sourabh Bajaj, https://sourabhbajaj.com/ (Accessed: Sep. 22, 2024). [Available](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
 
-- [6 - Araaj van der Garg](https://arjanvandergaag.nl/blog/customize-zsh-prompt-with-vcs-info.html)
+- [Araaj van der Garg](https://arjanvandergaag.nl/blog/customize-zsh-prompt-with-vcs-info.html)
 
-- [7 - Sal Ferrarello blog](https://salferrarello.com/zsh-git-status-prompt/)
+- [Sal Ferrarello blog](https://salferrarello.com/zsh-git-status-prompt/)
 
 
 
@@ -37,9 +37,9 @@ This is a complete bibliography of external references used in the developer env
 
 - __Ionos__  "What is a Kernel",(Accessed: Sep. 30, 2024) [Available](https://www.ionos.com/digitalguide/server/know-how/what-is-a-kernel/)
 
-__Dartmouth College Department of Computer Science__"Getting Started"  (Accessed: Sept 30, 2024) [Available](https://www.cs.dartmouth.edu/~campbell/cs50/started.html)
+- __Dartmouth College Department of Computer Science__"Getting Started"  (Accessed: Sept 30, 2024) [Available](https://www.cs.dartmouth.edu/~campbell/cs50/started.html)
 
-- __Towards datascience__"The ultimate guide to your terminal makeover"(Accessed: Sep. 30, 2024) [Available on Medium](https://towardsdatascience.com/the-ultimate-guide-to-your-terminal-makeover-e11f9b87ac99)
+- __Towards datascience__ "The ultimate guide to your terminal makeover"(Accessed: Sep. 30, 2024) [Available on Medium](https://towardsdatascience.com/the-ultimate-guide-to-your-terminal-makeover-e11f9b87ac99)
 
 - __Geek for geeks__ "The difference between a terminal, the console, a shell and the command-line-interface", (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)
 

@@ -74,3 +74,5 @@ In today's world, a developer has to deal with packages within packages (nested 
 The source code that they are writing is dependent on the performance of these nested packages, resulting in nested dependencies. While this may increase performance, they may also decrease transparency.
 
 Debugging can be either more performant - as they are caught through automation processes in these packages, or more difficult due to the lack of transparency of these nested dependencies.
+
+## Efficiency and memory management
