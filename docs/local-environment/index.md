@@ -12,3 +12,9 @@ To code, the software developer needs the right environment and tools to set up 
 It covers laptops and desktops. The depth of coverage is with Unix and Linux operating system with limited references to other operating systems - Windows or Macs.
 
 To note, gaming and mobile applications are written in high level programming languages on laptops and desktops and are installed and used across several devices. Many Macs are preinstalled with Linux or Unix. Linux is an open source system that can be downloaded and used on Windows operating systems.
+
+_Note_ 
+
+This section is currently being re-written.
+
+Please bear with some of the errors and delays in publishing as I am combining the rewrite with my part-time Masters studies in Computer Science.

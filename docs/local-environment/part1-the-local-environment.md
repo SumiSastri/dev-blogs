@@ -41,7 +41,7 @@ Accessing information for all these different needs must also be controlled by a
 
 A better understanding of how Linux is different from the MacOS or Windows OS [3], the article __What is Linux__ on [the official Linux site](https://www.linux.com/what-is-linux/) is worth a read.
 
-OS's can be DTOS, RTOS or embedded systems. DTOS or a distributed operating system manages a group of independent computers and makes them appear like a single computer, Kothari, et al, differentiate this from an RTOS, or real-time operating system. The RTOS has a quick, predictable response to real-time events - mouse clicks, clock interrupts and other such processes that allow an OS to multi-task. There are OSs that only execute a single program at a time and are referred to as single-tasking OSs vs multi-tasking OSs. Embedded systems are designed to operate with a limited number of resources, are compact and efficient in design and are mainly for use on small machines.
+OS's can be DTOS, RTOS or embedded systems. DTOS or a distributed operating system manages a group of independent computers and makes them appear like a single computer, Kothari, et al., differentiate this from an RTOS, or real-time operating system. The RTOS has a quick, predictable response to real-time events - mouse clicks, clock interrupts and other such processes that allow an OS to multi-task. There are OSs that only execute a single program at a time and are referred to as single-tasking OSs vs multi-tasking OSs. Embedded systems are designed to operate with a limited number of resources, are compact and efficient in design and are mainly for use on small machines.
 
 ## Why Linux and not Unix?
 
@@ -51,7 +51,7 @@ Because both Unix and Linux offer easy interoperability between systems, they ma
 
 If Linux is not preloaded on many computers, through the computer terminal simple commands allow system operators to install Linux. Depending on the need, different versions of distribution systems are offered by Debian, Ubutu, Fedora, with [the site Distrowatch](https://distrowatch.com/) providing the whole list.
 
-Kothari et al. observe that Linux, a clone of the Unix OS, can be installed on computers easily as it is open-source software. Unix is mainly loaded on servers rather than computers and requires a commercial installation license.
+Kothari, et al., observe that Linux, a clone of the Unix OS, can be installed on computers easily as it is open-source software. Unix is mainly loaded on servers rather than computers and requires a commercial installation license.
 
 The advantage of having Linux on your computer is that it offers a consistent application interface between computers and servers.
 
@@ -61,7 +61,7 @@ The FS, or filing system, is a tree of directories or folders, within which file
 
 Files are partitioned to enable recovery and repair of a system, with the boot file holding some of the key files relating to starting and restoring (booting and rebooting) the computer.
 
-Kothari, et al, provide a handy list of files and how they are partitioned
+Kothari, eet al.,  provide a handy list of files and how they are partitioned
 
 - bin for binary files
 - boot for files relating to the boot folder, this allows the computer to be "booted" or "rebooted" referring to the operations in the root files to mount other file systems on the computer, essential start-up data
@@ -77,7 +77,7 @@ While the overarching word to encapsulate everything under the hood of a compute
 
 Computers have an input/output I/O driver for user input and output back to the user. A central processing unit (CPU) referred to just as the processor which processes all the commands sent via compilers and interpreters. Interpreters interpret code and compilers boil them down back to machine-readable code. The data from the input driver that has been transferred to an interpreter and compiler is processed and stored in memory. Memory is a shortened version of random-access memory or D-RAM, which is dynamic RAM, which is the capacity of the computer to hold this information.
 
-In the article __What is Linux__, the OS is further divided into the bootloader, which starts all the computer systems up and shuts them down. The bootloader communicates with the initial booting process, or the "init system". The init system controls background services like printing, and scheduling via "daemons". The kernel is the core of the OS, managing the processor, memory and peripherals.
+In the article __What is Linux__, the OS is further divided into the bootloader, which starts all the computer systems up and shuts them down. The bootloader communicates with the initial booting process, or the "init system". The init system controls background services like printing, and scheduling via "daemons". The kernel is the core of the OS, managing the processor, memory and peripherals. Daemons, can be considered system "helpers" or "runners" as they run to and from internal systems to handle mail, network communications, data to printers etc.,
 
 The user-facing graphical server is a subsystem with an x-y axis that displays graphics on your monitor, which is also referred to as the x-server or X. The main user-facing component is the desktop environment, where you see web browsers, pre-loaded applications or access to an application management store (app-store), where you can download applications that work with the OS.
 
@@ -128,7 +128,7 @@ Follow that up with the section on computer shells to understand the role shells
 
 The Unix scripting language - Bash scripting, is called a low-level scripting language because it interacts directly with the kernel via a series of scripts, or commands, that execute and perform certain tasks within an OS. The terminal is the gateway to the kernel and the Linux OS.
 
-Once you are familiar with the CLI and computer shells, you can write your first scripts and look at the tooling checklist for guidance. Stallings, et al, [7] provide a detailed insight into Bash scripting and its use cases.
+Once you are familiar with the CLI and computer shells, you can write your first scripts and look at the tooling checklist for guidance. Stallings, et al.,  [7] provide a detailed insight into Bash scripting and its use cases.
 
 With every organisation you join customising of your work laptop will be an important first step to controlling your workflow, and investing time in learning these fundamentals is time well spent!
 
