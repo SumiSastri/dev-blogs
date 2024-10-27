@@ -61,6 +61,9 @@ Logical operators
 ! - logical not - can only be operated on 1
 || - logical or - only one needs to be true
 
+Single | pipe switches from one program to another - changes stream
+eg:
+who | wc -l pipes the who command (who is the user) to the wc or word count program
 
 Selection statements - only one block executed if true, or default printed
 if
@@ -69,3 +72,7 @@ default else
 
 
 loops and iterations
+
+
+The commands in bash are system level commands - these are in the reserved words
+eg: date, cat

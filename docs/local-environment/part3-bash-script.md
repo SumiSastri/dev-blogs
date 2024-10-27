@@ -9,6 +9,10 @@ title: What is the difference between Bash and Bash Script?
 
 Bash, is a shell and refers to the specific Bourne again shell. The Bash script is a scripting language that allows you to write a script to automate processes.
 
+Scripts are interpreted language. What that means is that each line of the code is interpreted, executed and then the interpretation moves to the next line. 
+
+Code compilers do not scan through the whole script as a block, instead they look at the code line-by-line.
+
 There are as many scripting languages as they are shells. For example, the Bash Script takes the file extension `.sh` whereas the `.ksh` files are for Korn shells and `.csh` for c-shells. The syntax for these scripting languages also differ. The environments and how to set up these environments also differ - in part 8 and part 9 - you see that setting up the environments for Bash and Zish differ substantially.
 
 Shell scripts help system operators to manipulate files in the file system (FS) and set user read, write and execute levels to files and folders.
@@ -30,6 +34,8 @@ This means the languages are interpreted and not compiled. An interpreter reads 
 
 Examples of scripting languages are JavaScript, Python, PHP. JavaScript, started as a scripting language to add simple scripts to user events - clicks, mouse and keyboard inputs. However with the rapid advancement of the popularity of JavaScript, it has turned into a compiled language rather than a scripting language with its own set of specialised compilers and interpreters.
 
+One of the downsides of scripting languages is that error messages are not very detailed as scripts are lightweight applications. The error might point to the line that the interpreter has stopped working but the actual error could be a few lines above the actual error message.
+
 [Read more](https://www.geeksforgeeks.org/whats-the-difference-between-scripting-and-programming-languages/)
 
 
@@ -43,6 +49,21 @@ __Primitive data types__
 
 - Integers - Bash does not support decimal places or floating point numbers
 
+
+__Nullish types__
+
+- Ideally not recommended as any empty type may be considered a string - spaces represent ASCII char 32 and is an empty string. Another reason is that there are no user inputs like clicks, scrolling that are recognised by bash as it is a direct relationship between the keyboard and the computer kernel. Zero is not considered a nullish type but an integer.
+
+__Variable storage__
+
+- immutable named variables and the `let` key word with an assignment operator `=` for mutable variables.
+
+- value of one variable can be assigned to another variable with a different name eg: 
+```.sh
+num_1 = 10 
+num_2 = num_1
+```
+
 __Basic arithmetic operators__
 
 - Addition `+` , subtraction `-`, multiplication `*` , division `\` and modulus `%`
@@ -53,34 +74,26 @@ __Logical operators__
 
 - The greater than and less than are `gt` and `lt` not carats
 
-__Variable storage__
-
-- immutable named variables and the `let` key word with an assignment operator `=` for mutable variables
-
-- value of one variable can be assigned to another variable with a different name eg: 
-```.sh
-num_1 = 10 
-num_2 = num_1
-```
-
-__Nullish types__
-
-- Ideally not recommended as any empty type may be considered a string - spaces represent ASCII char 32 and is an empty string
 
 __Control flow conditional statements__
 
-- There are data control flows with `if-then` blocks as well as nested conditions.
+- There are data control flows with `if-then`, `if-then-else-then` as well as `if-then-elif-then-else-then` blocks as well as nested conditions.
+- The key loop structures are `for-do`,`until-do` and `while-do` as well as the `switch statement` for complex looping.
 
 
-__Accessing and looping through data__
+__Lists__
 
-Bash also has a small set of loop statements that allow you to access data sets, iterate over them and perform either logical statements or arithmetic operations.
+Bash. like other programming languages, has ordered lists or arrays that allow you to access data and loop through the data performing logical and arithmetical operations.
 
 __Where data is stored__
 
 In the terminal, data moves from the inputs of the user into 3 streams - a standard input, standard output and standard error.
 
 The `$#!/bin/bash` is the file entry point and instructions are picked up by the hardware's interpreter, sent into the standard input stream, where it is stored with the instructions in memory. The data is processed and returned in the standard output stream or standard error stream.
+
+__Positional variables__
+
+Another feature of bash is the ability to initialise nine variables directly on the terminal. These variables are called positional variables.
 
 ## Pros and cons of Bash
 

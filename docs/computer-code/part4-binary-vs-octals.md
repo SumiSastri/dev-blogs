@@ -17,7 +17,7 @@ Check ls -l 7 (all have read/write/execute)
 0700 - r/w/execute base 8 (421)
 0100 - read only
 
-
+1.11.27
 Hexadecimal - base 16 which is 0-9 and??
 
 Decimal - base 10, 10 to the power of 0 is 1, 10 to the power of 2 is 10 multiplied by 10 is 100, thousand is 10 to the power of 3. Base ten 0-9 is the range

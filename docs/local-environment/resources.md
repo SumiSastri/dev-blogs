@@ -21,11 +21,13 @@ This is a complete bibliography of external references used in the developer env
 
 ## E-books
 
-- _Bash Cookbook:_ Ron Brash, Ganesh Naik, Packt Publishing, July 2018
+- _Bash Cookbook:_ Ron Brash, Ganesh Naik, Packt Publishing, July 2018, Available from: ProQuest Ebook Central
 
-- _Computer organization and architecture: designing for performance:_  William Stallings,9th ed., International ed., Pearson Education, March 2013
+- _Computer organization and architecture: designing for performance:_  William Stallings,9th ed., International ed., Pearson Education, March 2013, Available from: ProQuest Ebook Central
 
-- _Linux:_ Kothari, D, Shriram, K, & Sundaram, R 2011, New Age International Ltd, Daryaganj. Available from: ProQuest Ebook Central. Accessed: [23 September 2024].
+- _Linux:_ Kothari, D, Shriram, K, & Sundaram, R 2011, New Age International Ltd, Daryaganj, Available from: ProQuest Ebook Central
+
+- _Unix Power Tools_ Shelley, Peek, Jerry D, 3rd edition, O'Reilly Learning, Beijing, 2003, Available from: ProQuest Ebook Central
 
 ## Websites
 
