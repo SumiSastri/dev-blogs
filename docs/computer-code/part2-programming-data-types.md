@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: What are the different data types in a programming language?
 parent: Computer programming fundamental principles
@@ -75,4 +75,4 @@ The source code that they are writing is dependent on the performance of these n
 
 Debugging can be either more performant - as they are caught through automation processes in these packages, or more difficult due to the lack of transparency of these nested dependencies.
 
-## Efficiency and memory management
+## Efficiency and memory management -->

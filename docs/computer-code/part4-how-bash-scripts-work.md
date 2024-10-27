@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: How do Bash scripts work?
 parent: Computer programming fundamental principles
@@ -7,4 +7,4 @@ last_updated: Feb 2024
 ---
 
 
-# How do Bash scripts work?
+# How do Bash scripts work? -->

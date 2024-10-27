@@ -1,4 +1,4 @@
-Unary 1 - base one
+<!-- Unary 1 - base one
 
 Time stamp: around 50-56 mins
 
@@ -23,4 +23,4 @@ Hexadecimal - base 16 which is 0-9 and??
 Decimal - base 10, 10 to the power of 0 is 1, 10 to the power of 2 is 10 multiplied by 10 is 100, thousand is 10 to the power of 3. Base ten 0-9 is the range
 
 cd on its own goes into home directory
-man tar - manual
+man tar - manual -->

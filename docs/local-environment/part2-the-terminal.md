@@ -97,6 +97,9 @@ __Run commands or rc files__
 While setting up bash or zish shells, you will be asked to create run command files or rc files - `bashrc` or `zshrc`. Run command files and tell the computer how to run the programs installed - in this case the bash scripting files and the zish scripting files.
 
 
+__Creating aliases__
+
+
 
 #### EXTERNAL REFERENCES
 
