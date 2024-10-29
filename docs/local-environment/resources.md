@@ -18,7 +18,6 @@ This is a complete bibliography of external references used in the developer env
 - [Sal Ferrarello blog](https://salferrarello.com/zsh-git-status-prompt/)
 
 
-
 ## E-books
 
 - _Bash Cookbook:_ Ron Brash, Ganesh Naik, Packt Publishing, July 2018, Available from: ProQuest Ebook Central
@@ -28,6 +27,12 @@ This is a complete bibliography of external references used in the developer env
 - _Linux:_ Kothari, D, Shriram, K, & Sundaram, R 2011, New Age International Ltd, Daryaganj, Available from: ProQuest Ebook Central
 
 - _Unix Power Tools_ Shelley, Peek, Jerry D, 3rd edition, O'Reilly Learning, Beijing, 2003, Available from: ProQuest Ebook Central
+
+
+## Videos
+
+- Scott Simpson, _Learning Bash Scripting_, (Linked-in Learning, Sept, 2022), Accessed: Oct. 29, 2024)[https://www.linkedin.com/learning/learning-bash-scripting-17063287/what-s-bash?resume=false&u=42314660]
+
 
 ## Websites
 

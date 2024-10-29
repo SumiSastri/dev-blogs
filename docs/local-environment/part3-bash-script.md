@@ -2,18 +2,18 @@
 layout: default
 parent: The developer environment
 nav_order: 7
-title: What is the difference between Bash and Bash Script?
+title: What is the difference between Bash shells and the Bash Script?
 ---
 
-# What is the difference between Bash and Bash Script?
+# What is the difference between Bash shells and the Bash Script?
 
-Bash, is a shell and refers to the specific Bourne again shell. The Bash script is a scripting language that allows you to write a script to automate processes.
+Bash, is a shell and refers to the specific Bourne again shell. The Bash script is a scripting language that allows you to write a script to automate processes using the Bash shell. 
 
 Scripts are interpreted language. What that means is that each line of the code is interpreted, executed and then the interpretation moves to the next line. 
 
 Code compilers do not scan through the whole script as a block, instead they look at the code line-by-line.
 
-There are as many scripting languages as they are shells. For example, the Bash Script takes the file extension `.sh` whereas the `.ksh` files are for Korn shells and `.csh` for c-shells. The syntax for these scripting languages also differ. The environments and how to set up these environments also differ - in part 8 and part 9 - you see that setting up the environments for Bash and Zish differ substantially.
+There are as many scripting languages as they are shells. There are different scripts for Korn, C and Zee shells. For example, the Bash Script takes the file extension `.sh` whereas the `.ksh` files are for Korn shells and `.csh` for c-shells. The syntax for these scripting languages also differ. The environments and how to set up these environments also differ - in part 8 and part 9 - you see that setting up the environments for Bash and Zish differ substantially.
 
 Shell scripts help system operators to manipulate files in the file system (FS) and set user read, write and execute levels to files and folders.
 
@@ -49,7 +49,6 @@ __Primitive data types__
 
 - Integers - Bash does not support decimal places or floating point numbers
 
-
 __Nullish types__
 
 - Ideally not recommended as any empty type may be considered a string - spaces represent ASCII char 32 and is an empty string. Another reason is that there are no user inputs like clicks, scrolling that are recognised by bash as it is a direct relationship between the keyboard and the computer kernel. Zero is not considered a nullish type but an integer.
@@ -72,7 +71,7 @@ __Logical operators__
 
 - Both statements evaluate to true `&&`, the or `|` operator where 1 or more evaluate as true
 
-- The greater than and less than are `gt` and `lt` not carats
+- The greater than and less than are `gt` and `lt` not carats are used for numerical evaluations
 
 
 __Control flow conditional statements__
@@ -93,7 +92,7 @@ The `$#!/bin/bash` is the file entry point and instructions are picked up by the
 
 __Positional variables__
 
-Another feature of bash is the ability to initialise nine variables directly on the terminal. These variables are called positional variables.
+Another feature of bash is the ability to initialise variables directly on the terminal. These variables are called positional or script variables.
 
 ## Pros and cons of Bash
 
@@ -110,3 +109,5 @@ Editors like nano and vim are basic and code is clunky - not an ideal developer 
 - [1] _Bash Cookbook:_ Ron Brash, Ganesh Naik, Packt Publishing, July 2018
 
 - [2] Stallings W & Mohan R, __Computer organization and architecture: designing for performance__ , 1st edn (Packt Publishing, July 2018), 9th ed., International ed., (Pearson Education, March 2013) chap.1, pg 35
+
+- [3] Scott Simpson, _Learning Bash Scripting_, (Linked-in Learning, Sept, 2022), [Accessed: Oct. 29, 2024](https://www.linkedin.com/learning/learning-bash-scripting-17063287/what-s-bash?resume=false&u=42314660)

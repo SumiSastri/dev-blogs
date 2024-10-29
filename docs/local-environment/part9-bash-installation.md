@@ -80,16 +80,3 @@ GIT_PS1_SHOWDIRTYSTATE=true
 reset=$(tput sgr0)
 export PS1='\w \[\033[01;32m\]$(__git_ps1)\[$reset\] \$ '
 ```
-_Further reading_ and to debug your `.zshrc file` if you get errors:
-
-- [4 - Official docs ](https://zsh.sourceforge.io/Doc/Release/User-Contributions.html#Version-Control-Information)
-
-- [5 - The Modern Coder](https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/)
-
-- [6 - Araaj van der Garg](https://arjanvandergaag.nl/blog/customize-zsh-prompt-with-vcs-info.html)
-
-- [7 - Sal Ferrarello blog](https://salferrarello.com/zsh-git-status-prompt/)
-
-- [8 S. Bajaj "zsh"](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html))
-
-- [9 Geek for geeks, "The difference between a terminal, the console, a shell and the command-line-interface"](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)

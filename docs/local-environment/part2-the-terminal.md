@@ -15,11 +15,11 @@ The shell is a computer program that is a command interpreter, as defined by Sta
 
 The shell sits next to the computer kernel. The kernel is an additional layer between the shell and the computer control panel. It is a layered system, which allows the system to communicate efficiently.
 
-A shell a piece of software that is a basic user interface for accessing an operating system's (OS) service via the computer terminal's command line interface (CLI). Shells can be used to write a range of programming scripts from simple to more complex operations.
+A shell a piece of software that is a basic user interface for accessing an operating system's (OS) service via the computer terminal's command line interface (CLI). Shells can be used to write a range of programming scripts from simple to more complex operations. A good article[2] to read on the differences between the shell, terminal and CLI, from Geek for Geeks, provides an easy to compare table which gives you the differences at a glance.
 
-When you type `tty`, the command on a shell, it calls on the kernel to display the serial number and path where the `tty` is located and display it back to the user on the command line.
+When you type `tty`, the command on a shell, it calls on the kernel to display the serial number and path where the `tty` is located and display it back to the user on the command line. 
 
-Shell programming works due to several packages of free software from GNU, [1] which the organisation describes as a collection of many programs, applications, developer tools and even games.
+Shell programming works due to several packages of free software from GNU, [3] which the organisation describes as a collection of many programs, applications, developer tools and even games. 
 
 The kernel communicates via this layered system to the deepest layer - the interface with processors, network controllers, memory and other key components of the computer hardware.
 
@@ -99,15 +99,17 @@ While setting up bash or zish shells, you will be asked to create run command fi
 
 __Creating aliases__
 
+An easy way to remember these commands is to alias them for your own use, you can set up a list of aliases in your `bashrc` file and check the list updating the commands with new aliases or removing aliases that you may no longer use.
+
 
 
 #### EXTERNAL REFERENCES
 
 - [1]__GNU__(Accessed: Oct. 27, 2024) [Available]https://www.gnu.org/
 
-- [2] Shelley, Peek, Jerry D, __Unix Power Tools__ 3rd edition, (O'Reilly Learning, Beijing, 2003) 
+- [2] __Geek for geeks__, "The difference between a terminal, the console, a shell and the command-line-interface", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)
 
-- [3] __Geek for geeks__, "The difference between a terminal, the console, a shell and the command-line-interface", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)
+- [3] Shelley, Peek, Jerry D, __Unix Power Tools__ 3rd edition, (O'Reilly Learning, Beijing, 2003) 
 
 - [4] __Geek for geeks__,"Nano text editor in Linux", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/nano-text-editor-in-linux/).
 

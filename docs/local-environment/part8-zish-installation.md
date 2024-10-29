@@ -102,6 +102,7 @@ The `PATH` environment variable is a colon-delimited list of directories that yo
 Type `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`.
 
 
+#### EXTERNAL REFERENCES
 
 _Further reading_ and to debug your `.zshrc file` if you get errors:
 
@@ -120,5 +121,3 @@ _Further reading_ and to debug your `.zshrc file` if you get errors:
 - [7 - Sal Ferrarello blog](https://salferrarello.com/zsh-git-status-prompt/)
 
 - [8 S. Bajaj "zsh"](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html))
-
-- [9 Geek for geeks, "The difference between a terminal, the console, a shell and the command-line-interface"](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)

@@ -89,6 +89,6 @@ However, interrupts are a method for the CPU. They occur with instances of memor
 
 - [Premium PluralSight content informs this section on computer processes and jobs](https://app.pluralsight.com/library/courses/managing-jobs-processes-bash-z-shell/table-of-contents)
 
--  [how a CPU processes information](https://www.lifewire.com/what-is-a-cpu-2618150)
+- [How a CPU processes information](https://www.lifewire.com/what-is-a-cpu-2618150)
 
 - [Understanding RAM](https://www.crucial.com/articles/about-memory/support-what-does-computer-memory-do) 

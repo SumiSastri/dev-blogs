@@ -141,9 +141,8 @@ __Search with grep__
 - `grep <searchkeywords>*` - search all matches - if key word is NodeJS matches and returns files
 
 
-#### REFERENCES
+#### EXTERNAL REFERENCES
 
-_Further reading_
 
 - [Unix CLI](https://www.cs.dartmouth.edu/~campbell/cs50/shellcontinued.html)
 
