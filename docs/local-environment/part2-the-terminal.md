@@ -49,7 +49,7 @@ The command line interface (CLI) is yet another bit of software that sits outsid
 
 ## Text editors for the terminal and shell commands
 
-Text editors like emac, vi - -visual editor, or nano may be built into the terminal and allow you to execute CLI operations. This is a great guide on  [how to use the nano editor](https://www.geeksforgeeks.org/nano-text-editor-in-linux/).
+Text editors like emac, vi - visual editor, or nano may be built into the terminal and allow you to execute CLI operations. This is a great guide on  [how to use the nano editor](https://www.geeksforgeeks.org/nano-text-editor-in-linux/).
 
 It is to be noted, by Stallings, et al., that text editors are separate pieces of software from the shell. There are no "universal" CLI commands. Each shell, or even software packages like Node Package Manager, etc., may have their CLIs to download with their own CLI commands.
 

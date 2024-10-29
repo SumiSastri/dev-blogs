@@ -9,6 +9,8 @@ title: Computer shells - Bash vs Zish
 
 A shell a peice of software that is a basic user interface for accessing an operating system's (OS) service via the computer terminal's command line interface (CLI). Shells can be used to write a range of programming scripts from the simple to more complex operations.
 
+In simple terms, the shell gives you access to "installed programs, hardware resources, and files stored on the system", according to Simpson[1], in the section of his tutorial, _What is Bash_.
+
 A system adminstrator is the root user while the owner of the computer who writes scripts into the shell is not a super adminstrator but the regular user of the computer.
 
 Root users can access all files in the OS, Brash and Naik (2018, ch1, "Getting started with Bash and CLI fundamentals"), advise users who have root file privileges to run bash scripts with caution: "Running some scripts can delete any or all critical files in an OS and could render the system unusable or broken."
@@ -80,8 +82,10 @@ In some code editors like VS Code, you can select a Zish or Bash shell by clicki
 
 #### EXTERNAL REFERENCES
 
-- [1] Brash Ron & Naik Ganesh, __Bash Cookbook__, 1st edn (Packt Publishing, July 2018), chap.1, pg3 - (URL or https://doi.org/)
+- [1] Scott Simpson, _Learning Bash Scripting_, (Linked-in Learning, Sept, 2022), Accessed: Oct. 29, 2024)[https://www.linkedin.com/learning/learning-bash-scripting-17063287/what-s-bash?resume=false&u=42314660]
 
-- [2] __Geek for geeks__, "The difference between a terminal, the console, a shell and the command-line-interface", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)
+- [2] Brash Ron & Naik Ganesh, __Bash Cookbook__, 1st edn (Packt Publishing, July 2018), chap.1, pg3 - (URL or https://doi.org/)
 
-- [3] __Geek for geeks__,"Nano text editor in Linux", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/nano-text-editor-in-linux/).
+- [3] __Geek for geeks__, "The difference between a terminal, the console, a shell and the command-line-interface", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)
+
+- [4] __Geek for geeks__,"Nano text editor in Linux", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/nano-text-editor-in-linux/).

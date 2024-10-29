@@ -57,3 +57,14 @@ _Citation order_
 
 - Bibliography
 Brash, Ron & Naik, Ganesh __Bash Cookbook__, 1st edn (Packt Publishing, July 2018) - (DOI https://doi.org/) or [Accessed](Accessed: Sep. 22, 2024)
+
+#### Videos
+_Citation order_
+- Video Owner/Creator, 
+- Location (if available). 
+- Title of Video
+- (Release date)
+- Accessed:[Online Video]. Available: http://URL.onlinevideo.org
+
+
+Scott Simpson, _Learning Bash Scripting_, (Linked-in Learning, Sept, 2022), _What is Bash_[Accessed: Oct. 29, 2024)[https://www.linkedin.com/learning/learning-bash-scripting-17063287/what-s-bash?resume=false&u=42314660]
