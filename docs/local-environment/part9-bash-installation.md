@@ -11,6 +11,9 @@ Check if you have bash type the command to find out ```bash --version`, to find 
 
 Note that Bash may be removed from MacOS's in the future and runs a very old version of Bash if installed even on the latest ARM-chips. My computer which has the M1 chip, has `GNU bash, version 3.2.57(1)-release (arm64-apple-darwin23)` although Bash is now on version 5.
 
+Shell programming works due GNU's collection of programs, applications, developer tools and even games that are embedded in the Bash script.
+
+
 If you do not have Bash installed you can use HomeBrew to install the shell package with a Mac and WSL (Windows subsystem for Linux) for the Windows OS.
 
 ```bash

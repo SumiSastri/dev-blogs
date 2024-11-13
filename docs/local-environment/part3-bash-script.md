@@ -79,7 +79,6 @@ __Control flow conditional statements__
 - There are data control flows with `if-then`, `if-then-else-then` as well as `if-then-elif-then-else-then` blocks as well as nested conditions.
 - The key loop structures are `for-do`,`until-do` and `while-do` as well as the `switch statement` for complex looping.
 
-
 __Lists__
 
 Bash. like other programming languages, has ordered lists or arrays that allow you to access data and loop through the data performing logical and arithmetical operations.
@@ -96,7 +95,9 @@ Another feature of bash is the ability to initialise variables directly on the t
 
 ## Pros and cons of Bash
 
-Bash isn't the right choice for complex arithmetic operations or computing challenges.
+Bash isn't the right choice for complex arithmetic operations or computing challenges as it has only 2 primitive types of data - strings and numbers. Numbers, are not decimal floating points but inttegers.
+
+Shell programming works due to several packages of free software from GNU, allowing piping and diverting of code via sempahores to run parallelly. Natively however, bash is programmed to run serially. GNU offers a collection of programs, applications, developer tools and even games that are embedded in the Bash script.
 
 It is a low-level script that is good for system operators to manage read-write-execute operations on files in the filing system for internal groups and individuals as well as external groups or individuals wishing to access server-based data.
 
@@ -111,3 +112,8 @@ Editors like nano and vim are basic and code is clunky - not an ideal developer 
 - [2] Stallings W & Mohan R, __Computer organization and architecture: designing for performance__ , 1st edn (Packt Publishing, July 2018), 9th ed., International ed., (Pearson Education, March 2013) chap.1, pg 35
 
 - [3] Scott Simpson, _Learning Bash Scripting_, (Linked-in Learning, Sept, 2022), [Accessed: Oct. 29, 2024](https://www.linkedin.com/learning/learning-bash-scripting-17063287/what-s-bash?resume=false&u=42314660)
+
+- [4] __GNU__(Accessed: Oct. 27, 2024) [Available]https://www.gnu.org/
+
+- [5] George Charalambous (2024), __BASH part 1__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5330159_1)
+
