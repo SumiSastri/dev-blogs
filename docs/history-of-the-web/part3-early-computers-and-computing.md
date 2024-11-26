@@ -23,7 +23,7 @@ Therefore, while it was a precursor to the ENIAC, the Analytical Engine is not c
 
 The ENIAC, as an assembly of units wired together to solve mathematical problems is the first electronic version of a computing engine. Data control in the ENIAC is distributed and the machine could run processes in parallel. However, these processes were difficult and time-consuming. The execution of instructions was from read-only-memory or ROM. A simple mathematical calculation could take a minimum of nearly an hour to compute and complete execution.
 
-Several scientists, Alan Turing, John Mauchly, Presper Eckert and John von Neumann were researching how a program could be stored in memory.  They were also developing methods to retrieve these instructions from memory. This concept of stored programs in memory was incorporated in the design of the Princeton Institute of Advanced Studies EDVAC - the Electronic Discrete Variable Computer, or the IAS computer.
+Several scientists, Alan Turing, John Mauchly, Presper Eckert and John von Neumann were researching how a program could be stored in memory.  They were also developing methods to retrieve these instructions from memory. This concept of stored programs in memory was incorporated in the design of the Princeton Institute of Advanced Studies model the Electronic Discrete Variable Computer (EDVAC), or the IAS computer.
 
 The fundamental architecture of the IAS computer persists in modern computer design. Computers today are more compact than the historical computers which used vacuum tubes to operate the on-off switches in the computer circuit board, but the basic architectural decisions have not changed significantly, Stallings et al observe.
 
