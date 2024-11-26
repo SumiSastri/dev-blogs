@@ -133,7 +133,7 @@ Once you are familiar with the CLI and computer shells, you can write your first
 With every organisation you join customising of your work laptop will be an important first step to controlling your workflow, and investing time in learning these fundamentals is time well spent!
 
 
-#### EXTERNAL REFERENCES
+#### EXTERNAL REFERENCES Your computer - the local environment
 
 - [1]  __University of Wollongong Australia__ "Understanding operating systems", Accessed: Sep. 22, 2024. [Available](https://www.uow.edu.au/student/support-services/academic-skills/online-resources/technology-and-software/operating-systems/)
 

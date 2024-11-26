@@ -2,10 +2,10 @@
 layout: default
 parent: The developer environment
 nav_order: 7
-title: How computers process information?
+title: How computers process information
 ---
 
-# How computers process information?
+# How computers process information
 
 A computer's behavior is expressed in code and data that is contained within programs that run in your computer hardware - or local environment, or operating system (OS).
  
@@ -85,7 +85,7 @@ Interrupts also stop execution for some other action to be taken.
 However, interrupts are a method for the CPU. They occur with instances of memory page faults, and accepting hardware input, for example. 
 
 
-#### EXTERNAL REFERENCES
+#### EXTERNAL REFERENCES - How computers process information
 
 - [Premium PluralSight content informs this section on computer processes and jobs](https://app.pluralsight.com/library/courses/managing-jobs-processes-bash-z-shell/table-of-contents)
 

@@ -103,7 +103,7 @@ An easy way to remember these commands is to alias them for your own use, you ca
 
 
 
-#### EXTERNAL REFERENCES
+#### EXTERNAL REFERENCES - Navigating your computer terminal using the shell
 
 - [1]__GNU__(Accessed: Oct. 27, 2024) [Available]https://www.gnu.org/
 

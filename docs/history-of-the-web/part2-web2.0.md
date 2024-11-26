@@ -7,9 +7,9 @@ title: Enter the browser with the JavaScript dragon
 
 # Enter the browser with the JavaScript dragon
 
-With the introduction of JavaScript to the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, [Brenden Eich](https://brendaneich.com/) its creator and co-founder of [Mozilla](https://www.mozilla.org/en-GB/firefox/), did not anticipate the  and the host of controversy that JavaScript brought to the rapid growth of the Web and mobile apps.  
+With the introduction of JavaScript to the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web, [Brenden Eich](https://brendaneich.com/) its creator and co-founder of [Mozilla](https://www.mozilla.org/en-GB/firefox/), did not anticipate the and the host of controversy that JavaScript brought to the rapid growth of the Web and mobile apps.  
 
-At a 2-day full-stack conference hosted by [Stack Skills](https://stackskills.com/), speakers reflected on the good-old-days of Web 1.0 and the risks that the introduction of JavaScript created, if you are interested in this section read [Part 1 - A love letter to the personal website](https://sumisastri.github.io/dev-blogs/history-of-the-web/part1-web1.0/)
+At a 2-day full-stack conference hosted by [Stack Skills](https://stackskills.com/), speakers reflected on the good old days of Web 1.0 and the risks that the introduction of JavaScript created, if you are interested in this section read [Part 1 - A love letter to the personal website](https://sumisastri.github.io/dev-blogs/history-of-the-web/part1-web1.0/)
 
 While HTML (Hyper Text Markup Language) is just text and CSS (Cascading Style Sheets) enhanced a web page with HTML attributes for layouts, design, colour and animations, JavaScript took web-development to another level of interactivity.
 
@@ -17,25 +17,25 @@ JavaScript allows the user to interact with every HTML element and change its be
 
 Web 1.0 from static sites, with text and some styling but with limited user interaction, transformed and JavaScript allowed users to now interact with pages - click buttons, see sliders and animated picture galleries, play interactive games.
 
-However Web 2.0 is not just about JavaScript that the user can interact with, it also about JavaScript accessing DBs (databases) with application programming interfaces (APIs).
+However, Web 2.0 is not just about JavaScript that the user can interact with, it is also about JavaScript accessing DBs (databases) with application programming interfaces (APIs).
 
-Every hardware developer wanted a JavaScript engine to parse the Web documents so that users who were adopting personal computers and interacting with the Web could have a better user-experience (UX).
+Every hardware developer wanted a JavaScript engine to parse the Web documents so that users who were adopting personal computers and interacting with the Web could have a better user experience (UX).
 
-Microsoft kicked the ball into play with Internet Explorer, google followed with Chrome, Apple with Safari and Mozilla with Firefox. Many other niche market players emerged, made inroads into the market, many got burnt and/ or suffered decay.
+Microsoft kicked the ball into play with Internet Explorer, Google followed with Chrome, Apple with Safari and Mozilla with Firefox. Many other niche market players emerged, and made inroads into the market, but many got burnt and/ or suffered decay.
 
-UX design became more important and JavaScript frameworks like google's AngularJS, or Facebook's user interface library called ReactJS,  burgeoned and grew to enhance the developer experience.
+UX design became more important and JavaScript frameworks like Google’s AngularJS, or Facebook's user interface library called ReactJS,  burgeoned and grew to enhance the developer experience.
 
-The real disruptor was mobile technologies with the emphasis on technologies that supported mobile-app development.
+The real disruptor was mobile technologies with an emphasis on technologies that supported mobile app development.
 
-Given this shift from web applications to mobile applications, Bruce Lawson’s look under the hood of the browser wars with a talk called _"Internet Explorer - Rest in Peace (RIP) or Be Right Back (BRB)?"_, explored the history of the browser in the evolution of the world wide web.
+Given this shift from web applications to mobile applications, Bruce Lawson’s look under the hood of the browser wars with a talk called _"Internet Explorer - Rest in Peace (RIP) or Be Right Back (BRB)?"_, explored the history of the browser in the evolution of the World Wide Web.
 
 While the browser wars raged in the 1990s, today Safari has been taken to task for not using Chrome, Internet Explorer, Firefox, or any other browser on its mobile devices, he said.
 
 Since 2020, Microsoft's Edge uses Google's V8 engine. Firefox continues to use SpiderMonkey and Apple uses Safari, even when you use Bing, or google as search engines.
 
-Apple phones and i-pads mask these browsers and use Safari, which users see and interact with. However, the UX with Safari is so poor that users often prefer Android mobile devices. 
+Apple phones and iPads mask these browsers and use Safari, which users see and interact with. However, the UX with Safari is so poor that users often prefer Android mobile devices. 
 
-A plurality of browsers perform so much better on speed and efficiency, Lawson said. As of 2025, Apple in Europe under the Digital Act will be obliged to change this anti-competitive behaviour, he added.
+A plurality of browsers performs so much better on speed and efficiency, Lawson said. As of 2025, Apple in Europe under the Digital Act will be obliged to change this anti-competitive behaviour, he added.
 
 ## I'm going to the garden to eat bugs - big ones, fat ones, round ones, curly ones
 
@@ -43,9 +43,9 @@ Browsers, and JavaScript with all its avatars, also bring with them the joy of b
 
 Gabriel Manor-Leichtman’s in-depth look at browser developer tools to help debugging code and network performance issues was worth reviewing once again for its rich content and useful guidelines on the online playback of Stack Skills conference package.
 
-Loosely typed JavaScript, and its bug-ridden code, can partially be tackled with the stricter TypeScript superscript.
+Loosely typed JavaScript, and its bug-ridden code can partially be tackled with the stricter TypeScript superscript.
 
-TypeScript, has uses well beyond the frontend, as Ryan Cormack from the online card and gifts site, Moonpig, pointed out. Using Amazon Web Services (AWS) which compiles down to Cloud Formation, you can move JavaScript code and embedded data from the frontend to the backend of apps with TypeScript lambda functions.
+TypeScript, has uses well beyond the front end, as Ryan Cormack from the online card and gifts site, Moonpig, pointed out. Using Amazon Web Services (AWS) which compiles down to Cloud Formation, you can move JavaScript code and embedded data from the frontend to the backend of apps with TypeScript lambda functions.
 
 This does not come without its trade-offs, Cormack said, you need to write imperative (versus declarative) code if you use YAML (Yet Another Markup Language - also known as YML) compilation, deal with constant code updates and have at least a foundational knowledge of AWS, which has its own learning curve.
 
@@ -79,15 +79,15 @@ DWAs require debugging with source maps for multiple branches of code as well as
 
 All this makes for a poor customer experience (CX), as well as developer experience (DX). Background jobs like cron jobs are clunky and infrastructure as code may solve some of these challenges, but not all.
 
-The JAM-stack which relies on HTML, CSS & JavaScript mashed-up into one artefact has its own trade-offs, McDonald said.These are slow builds, not really a full-stack - the rehydration from API calls to the frontend is slow and not always secure.
+The JAM-stack which relies on HTML, CSS & JavaScript mashed-up into one artefact has its own trade-offs, McDonald said. These are slow builds, not really a full-stack - the rehydration from API calls to the front end is slow and not always secure.
 
-PWAs are built on HTML, CSS and JavaScript rather than traditional mobile-app languages like Swift or Kotlin. They are accessed through a browser. To enhance the speed of dowloading PWAs use pre-processors to format and minify code. A pre-processor, takes out all the empty spaces in a code block (minification) and formats newer versions of JavaScript to a version that browsers recognise.
+PWAs are built on HTML, CSS and JavaScript rather than traditional mobile apps languages like Swift or Kotlin. They are accessed through a browser. To enhance the speed of downloading PWAs use pre-processors to format and minify code. A pre-processor takes out all the empty spaces in a code block (minification) and formats newer versions of JavaScript to a version that browsers recognise.
 
-When a website is created a tree of all the elements called the DOM (Document Object Model) is built. To shake out the fluff from every branch of this DOM-tree, pre-processors have to delve into a complex mesh of HTML elements. A process called layout-thrashing or DOM-tree shaking. With complex nested DOMs - as more pages and complex layouts, API calls are made, this process of layout-thrashing and DOM-tree shaking can become a headache.
+When a website is created a tree of all the elements called the DOM (Document Object Model) is built. To shake out the fluff from every branch of this DOM tree, pre-processors must delve into a complex mesh of HTML elements. A process called layout-thrashing or DOM-tree shaking. With complex nested DOMs - as more pages complex layouts, and API calls are made, this process of layout-thrashing and DOM-tree shaking can become a headache.
 
-FWAs, on the other hand, with their HTML first approach offers dynamic personalisation and assistive technologies built in by default.
+FWAs, on the other hand, with their HTML-first approach offer dynamic personalisation and assistive technologies built in by default.
 
-FWAs are built using functions as code, programmed on the server using managed DBs making deployments more efficient.
+FWAs are built using functions as code, and programmed on the server using managed DBs making deployments more efficient.
 
 With this enhanced control comes a better CX, inclusivity, speed and even a better DX with less maintenance and breaking changes from versions of code updates.
 
@@ -97,11 +97,11 @@ Emergent DBs - Cosmos (Azure), DynamoDB (AWS), PlanetScale, a relational DB or F
 
 Another challenge with FWAs is infrastructure as code is complex, as Cormack highlighted earlier in the day. DBs are often linked to a cloud-based service you must decide on the cloud service provider you are going to use and go all in with AWS/ Google/ Azure.
 
-This all is may not be the optimal option for some organisations. The BBC has gone down this route and for more inspiration, McDonald pointed to resources [Begin](https://begin.com/) to explore the option of FWA suitability.
+This may not be the optimal option for some organisations. The BBC has gone down this route and for more inspiration, McDonald pointed to resources [Begin](https://begin.com/) to explore the option of FWA suitability.
 
-As a total aside, [fun-fun functions](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q) is a great YouTuber - sadly taking a sabbatical but a great Web 2.0 site to checkout and total inspiration for the subhead I chose for this section...he will be more sadly missed than Web 1.0 imho :-).
+As a total aside, [fun-fun functions](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q) is a great YouTuber - sadly taking a sabbatical but a great Web 2.0 site to check out and total inspiration for the subhead I chose for this section...he will be more sadly missed than Web 1.0 imho :-).
 
-### Additional Resources
+#### EXTERNAL REFERENCES - Enter the browser with the JavaScript dragon
 
 - [Fossbytes - Who is Brenden Eich](https://fossbytes.com/who-is-brendan-eich/)
 
@@ -118,3 +118,4 @@ As a total aside, [fun-fun functions](https://www.youtube.com/channel/UCO1cgjhGz
 - [What are assistive technologies](https://www.who.int/news-room/fact-sheets/detail/assistive-technology)
 
 - [For a deep dive into how browsers work, you can go to this section, in the blog](https://sumisastri.github.io/dev-blogs/browser-engines/).
+

@@ -80,7 +80,7 @@ You might want to switch from Bash to Zish and vice-versa. To use %zsh - if you 
 In some code editors like VS Code, you can select a Zish or Bash shell by clicking the chevron to the right of the terminal.
 
 
-#### EXTERNAL REFERENCES
+#### EXTERNAL REFERENCES - Computer shells - Bash vs Zish
 
 - [1] Scott Simpson, _Learning Bash Scripting_, (Linked-in Learning, Sept, 2022), [Accessed: Oct. 29, 2024](https://www.linkedin.com/learning/learning-bash-scripting-17063287/what-s-bash?resume=false&u=42314660)
 

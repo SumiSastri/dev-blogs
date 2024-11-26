@@ -141,7 +141,7 @@ __Search with grep__
 - `grep <searchkeywords>*` - search all matches - if key word is NodeJS matches and returns files
 
 
-#### EXTERNAL REFERENCES
+#### EXTERNAL REFERENCES - My CLI cheat sheet
 
 
 - [Unix CLI](https://www.cs.dartmouth.edu/~campbell/cs50/shellcontinued.html)
@@ -157,9 +157,3 @@ __Search with grep__
 - [curl and APIs](https://developer.ibm.com/articles/what-is-curl-command/)
 
 - [Concatinating paths](https://www.cyberciti.biz/faq/linux-unix-appleosx-bsd-cat-command-examples/)
-
-
-
-
-
-

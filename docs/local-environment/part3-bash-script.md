@@ -105,7 +105,7 @@ It is powerful and quick, interacting with the key processes in a computer. It i
 
 Editors like nano and vim are basic and code is clunky - not an ideal developer experience.
 
-#### EXTERNAL REFERENCES
+#### EXTERNAL REFERENCES - What is the difference between Bash shells and the Bash Script?
 
 - [1] _Bash Cookbook:_ Ron Brash, Ganesh Naik, Packt Publishing, July 2018
 

@@ -68,5 +68,3 @@ This is a hidden file, stored by default in a hidden directory, called `/.ssh/kn
 Once the host key has been stored in the known_hosts file, the client system can connect directly to that server again without need for any approvals; the host key authenticates the connection.
 
 SSH keys are a way to identify trusted computers, without involving passwords. This is how, for example, GitHub works.
-
-#### EXTERNAL REFERENCES

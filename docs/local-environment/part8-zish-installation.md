@@ -102,7 +102,7 @@ The `PATH` environment variable is a colon-delimited list of directories that yo
 Type `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`.
 
 
-#### EXTERNAL REFERENCES
+#### EXTERNAL REFERENCES - Installing Zish
 
 _Further reading_ and to debug your `.zshrc file` if you get errors:
 
