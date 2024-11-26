@@ -31,7 +31,7 @@ The ENIAC memory consisted of 20 accumulators, each capable of holding a 10-digi
 
 ## The EDVAC and separation of compute, control and memory operations
 
-The EDVAC, separated the planning and set up stages, the compute operation and the storage of the instructions in memory. This meant data flow and control were programmed by circuits responsible for triggering operations at the correct time, Haigh observes. Programming now referred to programming instructions before operations stared and coding to the tasks of looking up numerical codes corresponding to the programming instructions.
+The EDVAC, separated the planning and set up stages, the compute operation and the storage of the instructions in memory. This meant data flow and control were programmed by circuits responsible for triggering operations at the correct time, Haigh observes. Programming now referred to programming instructions before operations started and coding to the tasks of looking up numerical codes corresponding to the programming instructions.
 
 von Neumann[4], in his _First draft of a report on the EDVAC_ discusses the need for the separation of concerns into the central arithmetic part, a central control part, various forms of memory required, the input and output drivers in the second section of the paper which details the main subdivisions of a computer system.
 
@@ -45,32 +45,28 @@ The relationship between the ALU, or the arithmetic logical unit that performs b
 
 Stallings et al, note that with very few exceptions, modern-day computers are built on the foundations of the von Neumann model. While von Neumann is credited as the founding father of this architecture, his draft paper is a collective intelligence report from several scientists and mathematicians who remain unattributed in the paper and were working on solutions to the limitations of the ENIAC, according to Shustek.
 
-## Life before PCs
+## Life before personal computers
 
-Transiterisation of the EDVAC was the next step in the progression of the early 20th century computers, Stalling et al note. Transistors replaced the vacuum tubes significantly reducing the heat generated and the footprint of the computer in terms of space occupied and energy consumption. 
+Transisterisation of the EDVAC was the next step in the progression of the early 20th century computers, Stalling et al note. Transistors replaced the vacuum tubes significantly reducing the heat generated and the footprint of the computer in terms of space occupied and energy consumption. 
 
 Circuit boards with transistors represent the second generation of computers in the 1950s and 1960s. Transistors are semiconductors that amplify electronic signals and electrical power. Their importance in modern electronics in shrinking the size of computers cannot be overstated, says Moraes [5]. Transistors required less power and had a longer lifespan than vacuum tubes making them ideal for a wide use of electronic devices, Moraes adds. With the introduction of silicon in the manufacture of transistors, heat reduction in the compute process increased helping in the development of integrated circuits and microprocessors, which are the third generation of computers. 
 
-In a single chip, today billions of transistors are embedded to amplify electronic signals, the mid-20th century computers started with a few thousand transistors. Transistors increase the voltage and current of the signal, converting een a small input to a significantly larger output.  Acting as a valve, the transistor creates a magnified copy of the input signal.
+In a single chip, today billions of transistors are embedded to amplify electronic signals, the mid-20th century computers started with a few thousand transistors. Transistors increase the voltage and current of the signal, converting even a small input to a significantly larger output.  Acting as a valve, the transistor creates a magnified copy of the input signal.
 
-The second big change in this generation of computers was the introduction of a multiplexor to transmit a larger data set of information units over a smaller bandwidth of processing queues to the CPU. When a multiplexor is used in an electronic circuit which involves high-speed switching and data transfers, input has to be selected from many available options based on the signal provided to them, Raj explains. The control signal channels information to input pins and output pins. Control and selection pins are used to select the input and output pin signals.
+The second big change in this generation of computers was the introduction of a multiplexor to transmit a larger data set of information units over a smaller bandwidth of processing queues to the CPU. When a multiplexor is used in an electronic circuit which involves high-speed switching and data transfers, input has to be selected from many available options based on the signal provided to them, Raj [6] explains. The control signal channels information to input pins and output pins. Control and selection pins are used to select the input and output pin signals.
 
 This combination of applications of these components transformed the ability of these expensive and large machines to be scaled down to size and up in speed and adoption of new users.
 
 #### EXTERNAL REFERENCES - Computers and computing
 
-## Blogs 
+- [1]  Stallings W & Mohan R, __Computer organization and architecture: designing for performance__ , 9th ed., International ed., Pearson Education, March 2013, Available from: ProQuest Ebook Central
 
 - [2] L.J. Shustek,  "Programming the ENIAC: an example of why computer history is hard", Leonard J Shustek, https://computerhistory.org/ (Accessed: Nov. 25, 2024). [Available](https://computerhistory.org/blog/programming-the-eniac-an-example-of-why-computer-history-is-hard/)  
 
 - [3] T. Haigh, "Where code comes from", Tomas Haigh,  https://cacm.acm.org/  (Accessed: Nov. 25, 2024). [Available](https://cacm.acm.org/opinion/where-code-comes-from/ )
 
--[4] J. von Neumann,  "First draft of a report on the EDVAC" https://web.mit.edu, John von Neuman, edited by Michael D. Godfrey, IEE Annals of the History of Computing , Vol. 15 No.4, 1993, Pg 27 (Accessed: Nov. 25, 2024). [Available](https://web.mit.edu/STS.035/www/PDFs/edvac.pdf)
+- [4] J. von Neumann,  "First draft of a report on the EDVAC" https://web.mit.edu, John von Neuman, edited by Michael D. Godfrey, IEE Annals of the History of Computing , Vol. 15 No.4, 1993, Pg 27 (Accessed: Nov. 25, 2024). [Available](https://web.mit.edu/STS.035/www/PDFs/edvac.pdf)
 
 - [5] C. F. Moraes, "Understanding Transistors: What They Are and How They Work:A deep dive into the world of transistors and their application in modern electronics" https://www.wevolver.com/ Cassiano Ferro Moraes,  (Accessed: Nov. 25, 2024) [Available](https://www.wevolver.com/article/understanding-transistors-what-they-are-and-how-they-work )
 
 - [6] A. Raj "What is a multiplexer circuit and how it works", Aswinth Raj https://circuitdigest.com/ (Accessed: Nov. 25, 2024) [Available](https://circuitdigest.com/tutorial/what-is-multiplexer-circuit-and-how-it-works)
-
-## E-books
-
--  Stallings W & Mohan R, __Computer organization and architecture: designing for performance__ , 9th ed., International ed., Pearson Education, March 2013, Available from: ProQuest Ebook Central
