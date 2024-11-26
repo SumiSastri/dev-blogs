@@ -11,7 +11,7 @@ The world's first electronic digital computer was the ENIAC - the Electronic Num
 
 The machine weighed 30 tonnes and occupied over 100 square meters of floor space - the size of a small warehouse. 
 
-Stallings, et al [1] note that it was developed as a decimal rather than a binary machines to create a ballistic report in the form of tables. The firing tables were to be used by gunners in World War II in the 1940s. It provided the range and trajectory of weapons. By the time it was completed, the War had ended. It was therefore used to perform a series of complex calculation to determine the feasibility of the hydrogen bomb. It was dismantled in the 1950s.
+Stallings, et al [1] note that it was developed as a decimal calculation rather than binary code to create a ballistic report in the form of tables. The firing tables were to be used by gunners in World War II in the 1940s. It provided the range and trajectory of weapons. By the time it was completed, the War had ended. It was therefore used to perform a series of complex calculation to determine the feasibility of the hydrogen bomb. It was dismantled in the 1950s.
 
 ## From Lovelace to the ENIAC
 
