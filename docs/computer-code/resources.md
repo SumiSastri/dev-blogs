@@ -17,6 +17,8 @@ This is a complete bibliography of external references used in the Computer prog
 
 - R. Sheldon, "What is Byte code", Robert Sheldon, https://www.techtarget.com/ (Accessed: Oct. 6, 2024) [Available](https://www.techtarget.com/whatis/definition/bytecode)
 
+- F. Tusa, "An Overview of Classes and Objects", Francesco Tusa, https://thinkobjectoriented.hashnode.dev/,(Accessed: Dec. 7, 2024), [Available](https://thinkobjectoriented.hashnode.dev/overview-of-objects-and-classes)
+
 
 ## E-books
 
