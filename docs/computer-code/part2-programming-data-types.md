@@ -14,7 +14,6 @@ This section looks at data-types common to most programming languages. And the d
 
 As we have seen in the [last section](https://sumisastri.github.io/dev-blogs/computer-code/part1-programming-vs-machine-code/), programming lanugages are considered top-level or "source" code. 
 
-
 ## Primitive data types
 
 A primitive data type is also known as a literal. It is literally what it says on the tin.
@@ -42,7 +41,6 @@ For arithmetic operations, the operators `+`, `-` are used for addition and subt
 When characters are defined as a primitive type of a string, the minus sign is read as a hyphen and when the data is defined as a number as an arithmetic operator.
 
 The same is true of the multiplication and division operators, which are respectively `*` and `/`.
-
 
 ## Logical operators
 

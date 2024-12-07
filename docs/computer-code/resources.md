@@ -1,7 +1,7 @@
 ---
 layout: default
 title: BIBLIOGRAPHY - Computer programming fundamental principles
-parent:  Computer programming fundamental principles
+parent: Computer programming fundamental principles
 nav_order: 6
 last_updated: Oct 2024
 ---
@@ -25,6 +25,11 @@ This is a complete bibliography of external references used in the Computer prog
  - _Beginning Programming with Java For Dummies:_, Barry Burd, 6th edn (O'Reilly, Sept 2021)
 
 - _Bash Cookbook:_ Ron Brash, Ganesh Naik, Packt Publishing, July 2018
+
+
+## Research papers
+
+- [1] __Central Electronics Engineering Research Institute__ "Object Oriented Programming", Bhanu Prasad Pokkunuri, an abstract from the file "oop_paper.pdf"
 
 
 ## Websites

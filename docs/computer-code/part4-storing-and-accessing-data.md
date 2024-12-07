@@ -6,7 +6,6 @@ nav_order: 6
 last_updated: Feb 2024
 ---
 
-
 # How is data stored and retrieved?
 
 Once data has been created or initialised in a program, it needs to be stored for future state modifications.
@@ -137,7 +136,6 @@ Data from videos and images need more storage and compute power. The volume of d
 Text and simple arithmetical data used in calculators are now minimal, although they still the foundation stones of primitive data types.
 
 
-
 #### EXTERNAL REFERENCES
 
 - [1] __Think Object Oriented__, "Introduction to the Java Language", Tusa, Francesco (Accessed: Oct. 6), 2024, [Available](https://thinkobjectoriented.hashnode.dev/introduction-to-the-java-language)
@@ -147,4 +145,3 @@ Text and simple arithmetical data used in calculators are now minimal, although 
 - [3] __Medium__ "JavaScript ES6+: var, let, or const?" Elliot, Eric (Accessed: Oct. 8, 2024) [Available](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75)
 
 - [4] __Scotch io tutorials__  "JavaScript Transpilers: What They Are And Why We Need Them" Peleke Sengstacke (Accessed: Oct. 8, 2024) [Available](https://www.digitalocean.com/community/tutorials/javascript-transpilers-what-they-are-why-we-need-them)
-

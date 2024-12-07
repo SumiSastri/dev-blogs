@@ -3,7 +3,7 @@ layout: default
 title: What are the core principles of object oriented programming?
 parent: Computer programming fundamental principles
 nav_order: 6
-last_updated: Oct 2024
+last_updated: Dec 2024
 ---
 
 # What are the core principles of object oriented programming?
