@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: default
 title: What are the different data types in a programming language?
 parent: Computer programming fundamental principles
@@ -21,18 +21,19 @@ A primitive data type is also known as a literal. It is literally what it says o
 
 Examples of a primitive types are numbers and characters. Numbers if they are round numbers are called integers and if there are decimal places they are known as floating types.
 
-A character is an alphabet of language and refers to a single character in the alphabet. In programming terms this type of primitive data is called a string.
+A character is an alphabet of language and refers to a single character in the alphabet.
+
+Characters and integers are actually the only data types and the starting point of the data life cycle as we will see in this article.
 
 ## Lists of data
 
-Lists are multiple sets of data. A word, for example is a list of primitive characters. As the words must be in a particular order to make sense, words are ordered lists.
+Lists are multiple sets of data. A word, for example is a list of primitive characters. As the words must be in a particular order to make sense, words are ordered lists. Sentences are ordered lists where the space is a delimiter.
 
 If a list does not need to be stored in a strict order, it may be stored in an unordered list.
 
 Different programming languages have different names for lists. In JavaScript, for example an ordered list is an array. An unordered list is an object. In Python a set is an unordered list. 
 
 Descriptions such as collections, sort lists, indexed lists are all variations to the names given to ordered and unordered lists in a programming language.
-
 
 ## Arithmetic operators
 
@@ -57,9 +58,13 @@ Other operators and operands are used, and while learning the syntax of a partic
 
 ## Initialisation of data and data state management
 
-These primitive data types have no programming logic and merely represent the type of data and how it is stored. The initial state of data is "initialised" by a program.
+These primitive data types have no programming logic and merely represent the type of data and how it is stored. The initial state of data is "initialised" by a program. The initialisation process gives the data type a location in memory. 
 
-In this initialisation process, when a data type is initialised as a string, for example, the minus sign is read, or parsed by code compilers, as a hyphen. If it is initialised as data it is interpreted as an arithmetic plus sign an an arithmetic operation is processed.
+The native types of data - characters and numbers - have an immutable space in memory as they are the smallest storage unit.
+
+A word is actually a list of characters. Numbers are converted from octals, decimals back to binary. 
+
+Data that require more storage space are referenced by an address in memory - a string, or list of characters.
 
 Instructions provided after initialisation by logical statements, blocks of code and alogrithms are what transform data into programs that are executable. 
 
@@ -75,4 +80,3 @@ The source code that they are writing is dependent on the performance of these n
 
 Debugging can be either more performant - as they are caught through automation processes in these packages, or more difficult due to the lack of transparency of these nested dependencies.
 
-## Efficiency and memory management -->
