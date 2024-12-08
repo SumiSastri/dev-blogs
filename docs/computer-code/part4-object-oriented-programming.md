@@ -16,7 +16,13 @@ It is different from the functional and procedural approach used in the past. Fu
 
 Object oriented programming, places its attention on objects and their behaviour or interaction with other objects, the Pokkunuri paper states.
 
-__What is the difference between attributes and methods in a class?__
+Object oriented programming shares four key principles
+1. Abstraction
+2. Encapsulation
+3. Polymorphism
+4. Inheritance
+
+which we will cover in this article. A key concept to outline is the difference between attributes and methods in a class and briefly touch on the concept of state.
 
 Objects have attributes that describe them and methods that enable code execution.
 
@@ -41,7 +47,9 @@ const person = {
 
 While the code above is in JavaScript, a completely different language Java has a the same concept of an object written in different syntax. Java is strongly typed, meaning every variable has a data type and can not be executed unless there is a type associated with an object.
 
-To create an object in Java, a class is required. 
+To create an object in Java, a class is required. In JavaScript, objects are created by following the inherited prototypes of other objects. As such, JavaScript therefore mimics object oriented programming by creating classes from factory functions but the underlying language does not inheritly support the creation of classes out of the box.
+
+Let's look at a Java class to see how a class has attributes and methods in the example below.
 
 ```Java
 class Person {
@@ -274,6 +282,8 @@ The JVM compiles the code by parsing the `public static` key word and making it 
 Staying with our Java example, of the Person class, we can demonstrate how a class can have a method with the same name and different parameters. As the signature of the method is different, the name can be "overloaded" with parameters as the method is called when the code is run and not when it is compiled. This is what is referred to as dynamic binding.
 
 ```Java
+package bmicalculator;
+
 class Person {
 {
 private String name;
@@ -317,8 +327,48 @@ Because the method has the same name with different signatures, method overloadi
 
 The principle of inheritance in object oriented programming depends on the method hierarchy and in Java, the key word `super` is used when a super class is created.
 
-The sub classes of this class will inherit the attributes and methods of the super class.
+The sub-classes of this class will inherit the attributes and methods of the super class. The classes "extend" the main classes features.
 
+In our example, if the hypothesis in real life that we want to check is whether young adults, mid-life adults and seniors change with age, we can extend the person class into 3 sub-classes
+
+```Java
+package bmicalculator;
+
+public class YoungAdult extends Person {
+
+// constructor
+public YoungAdult (Double age)
+// access attributes of the parent class with the super key word and inherits them
+{
+ super (name, surname);
+ this.age = age;
+
+}
+
+}
+```
+The second sub-class also inherits all the attributes of the parent class with  the super key word. You can also add specificity, if you want to for example check if gender is a factor for BMI.
+```Java
+package bmicalculator;
+
+public class Senior extends Person {
+
+// constructor
+public Senior (String name, String surname, Double age, String gender)
+// add additional attributes that are not shared by YoungAdult sibling class
+{
+ super (name, surname);
+ this.age = age;
+ this.gender = gender;
+}
+
+public void getGender(){
+  return gender;
+}
+}
+```
+
+With the examples above, we have explored the core concepts that underly object oriented programming - abstraction, encapsulation, polymorphism and inheritance.
 
 
 
@@ -337,3 +387,4 @@ The sub classes of this class will inherit the attributes and methods of the sup
 - [5] __Think Object Oriented__, "Understanding Static Attributes and Methods", Tusa, Francesco (Accessed: Dec. 7, 2024) [Available](https://thinkobjectoriented.hashnode.dev/understanding-static-attributes-and-methods)
 
 - [6] __More on Memory Management, Static Attributes and Static Methods__, Francesco Tusa (2024), PDF slides  [Available to MSc Computer Science Students MODULE: (2024) 7SENG011W Object Oriented Programming](https://learning.westminster.ac.uk/ultra/courses/_98802_1/outline/file/_5052469_1) and [Lecture 8 Pantopo recordings for the module](https://westminster.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=52932e3e-4774-4e02-ab70-b227009d73e8)
+
