@@ -29,7 +29,7 @@ Objects have attributes that describe them and methods that enable code executio
 
 State - or the data held in an object is managed and either read or updated. To read state, objects have getter methods and to mutate or update state they have setter methods. The methods or functions defined in an object define the behaviours of the object.
 
-For example, an object in JavaScript contains the state or data of the person Jack Jones. To calculate his Body Mass Index, a method or function is used. A method, according to Tusa, is an operation that can be executed on an object.
+For example, an object in JavaScript contains the state or data of the person Jack Jones. To calculate his Body Mass Index, a method or function is used. A method, according to Tusa[2], is an operation that can be executed on an object.
 
 ```JavaScript
 const person = {
@@ -108,7 +108,7 @@ As you will see in both the JavaScript and Java code blocks, the use of the `thi
 
 JavaScript, unlike Java, has no concept of classes and uses prototypal inheritance from the Window Object to define classes.
 
-In reality, the JavaScript object is created using the global Object class that is inherited from the Window Object like so: `const person = new Object();` as you will see from the Mozilla documentation. 
+In reality, the JavaScript object is created using the global Object class that is inherited from the Window Object like so: `const person = new Object();` as you will see from the Mozilla documentation[3]. 
 
 ## What is the hierarchy of methods in a Java class?
 
@@ -241,7 +241,7 @@ public class Program {
 
 __Static methods that call on classes not objects__
 
-Static methods, Tusa elaborates [6], are called at run time and not at compile time. They are methods that are written without attributes as they are methods that invoke classes not objects.
+Static methods, Tusa elaborates [5], are called at run time and not at compile time. They are methods that are written without attributes as they are methods that invoke classes not objects.
 
 The advantage of these methods is that they are invoked on a class and therefore, in this example, you can calculate the BMI of several individuals by invoking the Person class, not the p1, p2 objects that have been created by the class.
 
@@ -320,7 +320,9 @@ public int calcBMI (String name, String surname, Double weight, int height) {
 ```
 Therefore, the first method in runtime will return the BMI of a person, while the second method will print the name of the person and their BMI.
 
-Because the method has the same name with different signatures, method overloading is an indication of the principle of polymorphism. Derived from the Greek word meaning many forms - poly (many) and morph (form) - polymorphism in object-oriented programming refers to the ability of methods to adopt several forms, method overloading being one example.
+Because the method has the same name with different signatures, method overloading is an indication of the principle of polymorphism, adds Tusa[6]. 
+
+Derived from the Greek word meaning many forms - poly (many) and morph (form) - polymorphism in object-oriented programming refers to the ability of methods to adopt several forms, method overloading being one example.
 
 ## What is inheritance in object-oriented programming?
 
@@ -343,10 +345,9 @@ public YoungAdult (Double age)
  this.age = age;
 
 }
-
 }
 ```
-The second sub-class also inherits all the attributes of the parent class with  the super key word. You can also add specificity, if you want to for example check if gender is a factor for BMI.
+The second sub-class also inherits all the attributes of the parent class with the `super` key word. You can also add specificity, if you want to, for example, check if gender is a factor for BMI.
 ```Java
 package bmicalculator;
 
