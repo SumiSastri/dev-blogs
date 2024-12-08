@@ -120,7 +120,7 @@ A disambiguation note, Java bears no relationship with or to JavaScript. The lan
 
 In a Class, not all methods are equal. There is a hierarchy of classes and depending on the programming language and the program architecture the hierarchy of classes may vary.
 
-Java is a compiled language. For a better understanding of code packages and code compiling, [the article on storing and accessing programming data](https://sumisastri.github.io/dev-blogs/computer-code/part4-storing-and-accessing-data/) in this section will provide some context.
+Java is a compiled language. For a better understanding of code packages and code compiling, [the article on storing and accessing programming data](https://sumisastri.github.io/dev-blogs/computer-code/part3-storing-and-accessing-data/) in this section will provide some context.
 
 For this article we will focus, from now onwards on the Java programming language and demonstrate the hierarchy of methods in the code compilation process in the Java language.
 
