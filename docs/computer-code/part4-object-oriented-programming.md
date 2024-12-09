@@ -53,19 +53,30 @@ To create an object in Java, a class is required. In JavaScript, objects are cre
 Let's look at a Java class to see how a class has attributes and methods in the example below.
 
 ```Java
-class Person {
-// attributes information hiding and encapsulation
-{
-private String name;
-private String surname;
-private Double weight;
-private int height;
-}
-// public methods that can be invoked by other classes and objects
-public int calcBMI (Double weight, int height) {
-   return this.weight / this.height
-}
-}
+package bmicalculator;
+
+public class Person {
+
+    private String name;
+    private String surname;
+    private Double weight;  // weight in kilograms
+    private Double height;  // height in meters
+    private Double bmi;
+
+    public Person(String name, String surname, Double weight, Double height) {
+        this.name = name;
+        this.surname = surname;
+        this.weight = weight;
+        this.height = height;
+        this.bmi = calculateBMI();  // Calculate BMI when the object is created
+    }
+
+    public Double calculateBMI() {
+        if (weight != null && height != null && height > 0) {
+            return weight / (height * height);
+        }
+        return 0.0; // Return 0.0 if input values are invalid
+    }
 ```
 
 ## What is the value of classes in creating new object instances?
@@ -75,11 +86,26 @@ Object-oriented programming relies on classes that are blueprints creating new o
 Each object must be initialised or instantiated. Take the example above. If we want different people, with different names and to calculate the BMI this is what we would do
 
 ```Java
-Person p1 = new Person("John", "Doe", 80, 1.7);
-p1.calcBMI(58,1.7)
+package bmicalculator;
 
-Person p2 = new Person("Jane", "Doe", 65, 2.0);
-p2.calcBMI(58,2)
+public class Program {
+
+    public static void main(String[] args) {
+              
+        Person p1 = new Person("John", "Doe", 90.4, 1.7);
+        p1.getName();
+        System.out.println("P1's name is: " + p1.getName());
+        System.out.println("BMI p1: " + p1.getBMI());
+        
+        Person p2 = new Person("Jane", "Doe", 55.0, 1.7);
+        System.out.println("P2's name is: " + p2.getName());
+        System.out.println("P2's full name is: " + p2.getFullName());
+        System.out.println("P2's name is now set to : " + p2.setName("Maria"));
+        System.out.println("BMI p2: " + p2.getBMI());
+        
+                
+    }
+}
 ```
 
 Now the class Person has performed its job of creating 2 new objects, which are abstractions of the real-life people Jane and John Doe, one with a weight of 80 kilos and height of 1.7 meters and the other with a weight of 65 kilos and 2.0 meters. 
@@ -136,14 +162,16 @@ package bmicalculator;
 public class Program {
 
     public static void main(String[] args) {
-
-      Person p1 = new Person("John", "Doe", 80, 1.7);
-      p1.calcBMI(58,1.7)
-
-      Person p2 = new Person("Jane", "Doe", 65, 2.0);
-      p2.calcBMI(58,2)
+              
+        Person p1 = new Person("John", "Doe", 90.4, 1.7);
+        p1.getName();
+        Person p2 = new Person("Jane", "Doe", 55.0, 1.7);
+        System.out.println("P2's name is: " + p2.getName());
+        System.out.println("BMI p2: " + p2.getBMI());
+                      
     }
 }
+
 ```
 
 It contains the core code on how the whole application will be run. There is only 1 main program in a package.
@@ -153,68 +181,66 @@ __The constructor method__
 The constructor method refers to all the classes in the package that create new objects. 
 
 ```Java
-class Person {
+package bmicalculator;
+
 // attributes information hiding and encapsulation
-{
-private String name;
-private String surname;
-private Double weight;
-private int height;
-}
-// constructor
-  public class Person (String name, String surname) {
-   this.name = name;
-   this.surname = surname;
+public class Person {
+
+    private String name;
+    private String surname;
+    private Double weight;  // weight in kilograms
+    private Double height;  // height in meters
+    private Double bmi;
+
+//instantiation with constructor
+    public Person(String name, String surname, Double weight, Double height) {
+        this.name = name;
+        this.surname = surname;
+        this.weight = weight;
+        this.height = height;
+        this.bmi = calculateBMI();  // Calculate BMI when the object is created
+    }
 }
 }
 ```
-A second class may create many address objects like so. Note the name of the class and the public method that access the private encapsulated methods use the same naming convention. The JVM recognises and compiles the code using the `public` key word in run time.
-
-```Java
-class Address {
-{
-private String firstLine;
-private String secondLine;
-private String postcode;
-}
-// constructor
-  public class Address (String firstLine, String secondLine, String postcode) {
-   this.firstLine = firstLine;
-   this.secondLine = secondLine;
-   this.postCode = postcode;
-}
-```
-
-The method, initialises the private attributes, making them public with a method so that they can be invoked in the main method. 
 
 __The getter and setter methods__
 
 To get the data in the class, getters return the state of the object while setters allow programmers to update or mutate the initial state of that data.
 
 ```Java
-class Person {
-// attributes information hiding and encapsulation
-{
-private String name;
-private String surname;
-private Double weight;
-private int height;
-}
-// constructor with all attributes
-  public class Person (String name, String surname, Double weight, int height) {
-   this.name = name;
-   this.surname = surname;
-   this.weight = weight;
-   this.height = height;
-}
+package bmicalculator;
 
+// attributes information hiding and encapsulation
+public class Person {
+
+    private String name;
+    private String surname;
+    private Double weight;  // weight in kilograms
+    private Double height;  // height in meters
+    private Double bmi;
+
+//instantiation with constructor
+    public Person(String name, String surname, Double weight, Double height) {
+        this.name = name;
+        this.surname = surname;
+        this.weight = weight;
+        this.height = height;
+        this.bmi = calculateBMI();  // Calculate BMI when the object is created
+    }
+
+//methods getters - read data
     public String getName() {
         return name;
     }
-      public String setName() {
-        return name;
+
+    //mutate state - setter methods change params
+    public String setName(String updatedName) {
+        return updatedName;
+    }
     }
 }
+
 ```
 
 In this approach an object behaves like a primitive element, combining attributes and procedures. Data is transmitted by the method's signature - which is the function name, its parameters and procedures. The function is then "called" or invoked and the program set in the class runs.
@@ -223,23 +249,17 @@ This, Pokkunuri says is in contrast with a data-structure-oriented-programming. 
 
 In object-oriented programming, each object is a modular and autonomous entity. It has attributes and methods that send messages through callable functions to corresponding objects.
 
-So, in the main program, we can now access the name of the p1 abstraction of John Doe and update the name to Johnathan.
+So, in the main program, we can now access the name of the p2 abstraction of Jane Doe and update the name to Maria.
 
 ```Java
-package bmicalculator;
-
-public class Program {
-
-    public static void main(String[] args) {
-
-      Person p1 = new Person("John", "Doe", 80, 1.7);
-      p1.getName()
-      p1.setName("Johnathan")
-    }
-}
+  Person p2 = new Person("Jane", "Doe", 55.0, 1.7);
+        System.out.println("P2's name is: " + p2.getName());
+        System.out.println("P2's full name is: " + p2.getFullName());
+        System.out.println("P2's name is now set to : " + p2.setName("Maria"));
+        System.out.println("BMI p2: " + p2.getBMI());
 ```
 
-__Static methods that call on classes not objects__
+<!-- __Static methods that call on classes not objects__
 
 Static methods, Tusa elaborates [5], are called at run time and not at compile time. They are methods that are written without attributes as they are methods that invoke classes not objects.
 
@@ -275,7 +295,7 @@ public class Program {
 }
 ```
 
-The JVM compiles the code by parsing the `public static` key word and making it available to be called on all instances of the class and the objects created by that class as we see above.
+The JVM compiles the code by parsing the `public static` key word and making it available to be called on all instances of the class and the objects created by that class as we see above. -->
 
 ## What is dynamic binding, polymorphism or method overloading?
 
@@ -285,38 +305,91 @@ Staying with our Java example, of the Person class, we can demonstrate how a cla
 package bmicalculator;
 
 class Person {
-{
-private String name;
-private String surname;
-private Double weight;
-private int height;
+
+    private String name;
+    private String surname;
+    private Double weight;
+    private Double height;
+
+    // Constructor for initializing name and surname
+    public Person(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
+    }
+
+    // Constructor for initializing weight and height
+    public Person(Double weight, Double height) {
+        this.weight = weight;
+        this.height = height;
+    }
+
+    // Method to calculate BMI based on the instance's weight and height
+    public Double calcBMI() {
+        if (height != null && weight != null && height > 0) {
+            // Convert height to meters if it is in cm
+            double heightInMeters = this.height / 100.0;
+            return this.weight / (heightInMeters * heightInMeters);
+        }
+        return 0.0; // Return 0 if input is invalid
+    }
+
+    // Overloaded method to calculate BMI and print information about the person
+    public void calcBMI(String name, String surname, Double weight, Double height) {
+        System.out.println("This is the BMI of " + name + " " + surname);
+        double heightInMeters = height / 100.0;  // Convert height to meters
+        double bmi = weight / (heightInMeters * heightInMeters);
+        System.out.println("Calculated BMI: " + bmi);
+    }
+
+    // Getter and Setter methods
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public Double getWeight() {
+        return weight;
+    }
+
+    public Double getHeight() {
+        return height;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public void setWeight(Double weight) {
+        this.weight = weight;
+    }
+
+    public void setHeight(Double height) {
+        this.height = height;
+    }
+
+    // Main method for testing
+    public static void main(String[] args) {
+        // Create a person with name and surname
+        Person person1 = new Person("John", "Doe");
+        
+        // Create another person with weight and height
+        Person person2 = new Person(70.0, 175.0); // weight in kg, height in cm
+
+        // Test the BMI calculation using the instance method
+        System.out.println(person2.getName() + " " + person2.getSurname() + "'s BMI: " + person2.calcBMI());
+
+        // Test the overloaded BMI calculation method
+        person2.calcBMI(person2.getName(), person2.getSurname(), person2.getWeight(), person2.getHeight());
+    }
 }
 
-// constructor is a method that can be overloaded
-  public Person (String name, String surname) {
-   this.name = name;
-   this.surname = surname;
-   this.weight = weight;
-   this.height = height;
-}
-
-// constructor is a method that can be overloaded
-  public Person (Double weight, Double height) {
-   this.name = name;
-   this.surname = surname;
-   this.weight = weight;
-   this.height = height;
-}
-
-// dynamic binding and method overloading
-public int calcBMI (Double weight, int height) {
-   return this.weight / this.height;
-}
-
-public int calcBMI (String name, String surname, Double weight, int height) {
-   return System.out.println("This is the BMI of " + this.name + this.surname) && this.weight / this.height
-}
-}
 ```
 Therefore, the first method in runtime will return the BMI of a person, while the second method will print the name of the person and their BMI.
 
@@ -336,36 +409,86 @@ In our example, if the hypothesis in real life that we want to check is whether 
 package bmicalculator;
 
 public class YoungAdult extends Person {
+    private int age;  // Instance variable for age
 
-// constructor
-public YoungAdult (Double age)
-// access attributes of the parent class with the super keyword and inherits them
-{
- super (name, surname);
- this.age = age;
+//initialise attributes
+    public YoungAdult(String name, 
+            String surname, 
+            Double weight, 
+            Double height, 
+            int age) {
+//`call super from parent
+        super(name, surname, weight, height);
+        this.age = age;  // Initialize age specific to the YoungAdult class
+    }
 
+    // Getter for age
+    public int getAge() {
+        return age;
+    }
+
+    // Other methods related to YoungAdult class can go here...
 }
-}
+
+//  test main method
+ 
+            // Create a YoungAdult object - add age 
+        YoungAdult ya1 = new YoungAdult("Tom", "Jones", 59.2, 1.5, 18);
+        // Access attributes via getter methods
+        System.out.println("Name: " + ya1.getName() + " " + ya1.getSurname());
+       System.out.println("BMI p2: " + ya1.getBMI());
+        System.out.println("Age: " + ya1.getAge());
+        
 ```
 The second sub-class also inherits all the attributes of the parent class with the `super` key word. You can also add specificity, if you want to, for example, check if gender is a factor for BMI.
 ```Java
 package bmicalculator;
 
-public class Senior extends Person {
+package bmicalculator;
 
-// constructor
-public Senior (String name, String surname, Double age, String gender)
-// add additional attributes that are not shared by YoungAdult sibling class
-{
- super (name, surname);
- this.age = age;
- this.gender = gender;
+public class Seniors extends Person {
+
+    private int age;    // Additional attribute for Senior
+    private String gender; // Additional attribute for Senior
+
+    // Constructor for Senior class
+    public Seniors(String name, 
+            String surname, 
+            Double weight, 
+            Double height, 
+            int age, 
+            String gender) {
+        // Call the parent constructor to initialize name, surname, weight, and height
+        super(name, surname, weight, height); 
+        this.age = age;         // Initialize age specific to Senior
+        this.gender = gender;   // Initialize gender specific to Senior
+    }
+
+    // Getter method for gender
+    public String getGender() {
+        return gender;
+    }
+
+    // Getter method for age (optional, if needed)
+    public int getAge() {
+        return age;
+    }
+
+    // You can also add additional methods relevant to seniors here...
 }
 
-public void getGender(){
-  return gender;
-}
-}
+// check main method
+
+       // Create a Senior object - add gender
+        Seniors s1 = new Seniors("Janice", "Jones", 49.9, 1.2, 82, "Female");
+
+        // Access attributes via getter methods
+        System.out.println("Name: " + s1.getName() + " " + s1.getSurname());
+        System.out.println("BMI: " + s1.getBMI());
+        System.out.println("Age: " + s1.getAge());
+        System.out.println("Gender: " + s1.getGender());
+
+
 ```
 
 With the examples above, we have explored the core concepts that underly object-oriented programming - abstraction, encapsulation, polymorphism and inheritance.
