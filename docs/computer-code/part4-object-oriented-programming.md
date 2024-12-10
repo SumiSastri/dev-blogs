@@ -259,11 +259,13 @@ So, in the main program, we can now access the name of the p2 abstraction of Jan
         System.out.println("BMI p2: " + p2.getBMI());
 ```
 
-<!-- __Static methods that call on classes not objects__
+__Static methods that call on classes not objects__
 
 Static methods, Tusa elaborates [5], are called at run time and not at compile time. They are methods that are written without attributes as they are methods that invoke classes not objects.
 
 The advantage of these methods is that they are invoked on a class and therefore, in this example, you can calculate the BMI of several individuals by invoking the Person class, not the p1, p2 objects that have been created by the class.
+
+This section uses PSEUDO code
 
 ```Java
 public class BMIcalculator {
@@ -295,7 +297,7 @@ public class Program {
 }
 ```
 
-The JVM compiles the code by parsing the `public static` key word and making it available to be called on all instances of the class and the objects created by that class as we see above. -->
+The JVM compiles the code by parsing the `public static` key word and making it available to be called on all instances of the class and the objects created by that class as we see above.
 
 ## What is dynamic binding, polymorphism or method overloading?
 
