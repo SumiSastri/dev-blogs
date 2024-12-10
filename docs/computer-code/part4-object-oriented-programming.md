@@ -204,6 +204,42 @@ public class Person {
 }
 ```
 
+__The difference between public and private methods__
+
+A class can have both public and private methods. Public methods are available to other classes when called. A private method is applied only on the objects in the class it is created in. 
+
+```Java
+package bmicalculator;
+
+// attributes information hiding and encapsulation
+public class Person {
+
+    private String name;
+    private String surname;
+    private Double weight;  // weight in kilograms
+    private Double height;  // height in meters
+    private Double bmi;
+
+//instantiation with constructor
+    public Person(String name, String surname, Double weight, Double height) {
+        this.name = name;
+        this.surname = surname;
+        this.weight = weight;
+        this.height = height;
+        this.bmi = calculateBMI();  // Calculate BMI when the object is created
+    }
+//method made private as only this class requires it
+    private Double calculateBMI() {
+        if (weight != null && height != null && height > 0) {
+            return weight / (height * height);
+        }
+        return 0.0; // Return 0.0 if input values are invalid
+    }
+
+}
+```
+
+
 __The getter and setter methods__
 
 To get the data in the class, getters return the state of the object while setters allow programmers to update or mutate the initial state of that data.
@@ -343,38 +379,9 @@ class Person {
         System.out.println("Calculated BMI: " + bmi);
     }
 
-    // Getter and Setter methods
-    public String getName() {
-        return name;
-    }
+    // Other methods of the class
 
-    public String getSurname() {
-        return surname;
-    }
-
-    public Double getWeight() {
-        return weight;
-    }
-
-    public Double getHeight() {
-        return height;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
-    public void setWeight(Double weight) {
-        this.weight = weight;
-    }
-
-    public void setHeight(Double height) {
-        this.height = height;
-    }
+}
 
     // Main method for testing
     public static void main(String[] args) {
@@ -494,6 +501,106 @@ public class Seniors extends Person {
 ```
 
 With the examples above, we have explored the core concepts that underly object-oriented programming - abstraction, encapsulation, polymorphism and inheritance.
+
+## Demonstrating the advantages of object oriented programming
+
+In the final code we can check the BMI of several categories of people in one instance. The main method now  allows us to print the values of the BMI of all of these people.
+
+```Java
+package bmicalculator;
+
+public class Program {
+
+    public static void main(String[] args) {
+
+        Person p1 = new Person("John", "Doe", 90.4, 1.7);
+        System.out.println("BMI p1: " + p1.getBMI());
+        
+        Person p2 = new Person("Jane", "Doe", 55.0, 1.7);   
+        System.out.println("BMI p2: " + p2.getBMI());
+        
+        YoungAdult ya1 = new YoungAdult("Tom", "Jones", 55.2, 1.5, 18);
+        System.out.println("BMI ya1: " + ya1.getBMI());
+        
+        Seniors s1 = new Seniors("Janice", "Jones", 49.9, 1.5, 82, "Female");
+        System.out.println("BMI s1: " + s1.getBMI());
+
+    }
+
+}
+```
+
+In the Person class, the code is modular and repeatable. This allows us now to change names and heights and weights and we will get an accurate BMI each time.
+
+```Java
+package bmicalculator;
+
+public class Person {
+
+    private String name;
+    private String surname;
+    private Double weight;  // weight in kilograms
+    private Double height;  // height in meters
+    private Double bmi;
+
+    public Person(String name, String surname, Double weight, Double height) {
+        this.name = name;
+        this.surname = surname;
+        this.weight = weight;
+        this.height = height;
+        this.bmi = calculateBMI();  // Calculate BMI when the object is created
+    }
+
+    private Double calculateBMI() {
+        if (weight != null && height != null && height > 0) {
+            return weight / (height * height);
+        }
+        return 0.0; // Return 0.0 if input values are invalid
+    }
+
+//methods getters - read data
+    public String getName() {
+        return name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    //additional getter methods 
+    public String getFullName() {
+        return name + " " + surname;
+    }
+
+    public Double getBMI() {
+        return bmi;
+    }
+
+    //mutate state - setter methods change params
+    public String setName(String updatedName) {
+        return updatedName;
+    }
+
+    public String setSurname(String updatedSurname) {
+        return updatedSurname;
+    }
+
+    public String setFullName(String updatedName, String updatedSurname) {
+        return updatedName + " " + updatedSurname;
+    }
+
+    public Double setWeight(Double updatedWeight) {
+    return updatedWeight;
+       
+    }
+
+    public Double setHeight(Double updatedHeight) {
+     return updatedHeight;
+    }
+
+}
+```
+The code is extensible to new demographics of people we want to test BMIs for seniors and young adults. With the exception of the Psuedo code section, I have run the code on NetBeans to ensure the code executes as expected.
 
 
 #### EXTERNAL REFERENCES
