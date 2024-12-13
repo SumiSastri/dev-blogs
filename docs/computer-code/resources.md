@@ -45,7 +45,9 @@ Francesco Tusa (2024), __More on Memory Management, Static Attributes and Static
 
 ## Research papers
 
-- [1] __Central Electronics Engineering Research Institute__ "Object Oriented Programming", Bhanu Prasad Pokkunuri, an abstract from the file "oop_paper.pdf"
+-  __Central Electronics Engineering Research Institute__ "Object Oriented Programming", Bhanu Prasad Pokkunuri, an abstract from the file "oop_paper.pdf"
+
+-  George Charalambous (2024), __Software Development (1)__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5365890_1)
 
 
 ## Websites
@@ -66,3 +68,21 @@ Francesco Tusa (2024), __More on Memory Management, Static Attributes and Static
 - __Just IT Hardware__ "What are computer chips and how do they work", https://www.justithardware.com(Accessed: Oct. 8, 2024) [Available](https://www.justithardware.com/blog/what-are-computer-chips-and-how-do-they-work/)
 
 - __Cincomsmalltalk__, "What is the Smalltalk Programming Language?",(Accessed: Dec. 7, 2024) [Available](https://www.cincomsmalltalk.com/main/info/quick-start/what-is-the-smalltalk-programming-language/)
+
+ __Medium__ Accessed Dec 13, 2024 [Available](https://medium.com/@tim.herden ai-series-5-from-abacus-to-ai-a-brief-history-of-software-development-482d25903392)
+
+ __Liquid Search__ Accessed Dec 13, 2024 [Available](https://www.liquisearch.com/history_of_software_engineering/overview)
+
+ __Medium__ Accessed Dec 13, 2024 [Available](https://medium.com/@mitzijackson/history-of-software-development-from-punched-cards-to-artificial-intelligence-6dc779d1d784)
+
+ __Software testing stuff__ Accessed Dec 13, 2024 [Available](https://www.softwaretestingstuff.com/2007/09/brief-history-of-software-engineering.html)
+ 
+ __Wikipedia - Margaret Hamilton__ Accessed Dec 13, 2024 [Available](https://en.wikipedia.org/wiki/Margaret_Hamilton_software_engineer)
+
+ __Praxent__ Accessed Dec 13, 2024 [Available](https://praxent.com/blog/history-of-software-development-innovation)
+
+ __XRNord__ Accessed Dec 13, 2024 [Available](https://www.xrnord.com/post/the-history-of-software-development-from-early-days-to-modern-times)
+
+ __NandBox__ Accessed Dec 13, 2024 [Available](https://nandbox.com/the-history-of-software-development-over-70-years-of-innovation/)
+
+ __Ada computer science__ Accessed Dec 13, 2024 [Available](https://adacomputerscience.org/concepts/trans_bnf)

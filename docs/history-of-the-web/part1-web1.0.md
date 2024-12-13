@@ -111,8 +111,22 @@ Music and sound, Aniglo said, bring tech to a wider audience and are a great int
 
 In [Part2 - Enter the browser with the JavaScript dragon](https://sumisastri.github.io/dev-blogs/history-of-the-web/part2-web2.0/), I have aggregated the talks on JavaScript together to tell a story. The theme of this next section questions if JavaScript really the big, bad wolf of the Web or just another coding language, a tool at our disposal.
 
-### Additional Resources - A love letter to the personal website
+#### EXTERNAL REFERENCES -  A love letter to the personal website
 
+- [Stack Skills](https://stackskills.com/)
+- [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/)
+- [Robert Cailliau](https://www.cailliau.org/Welcome.html)
 - [Wikipedia Robert Cailliau](https://en.wikipedia.org/wiki/Robert_Cailliau)
-
+- [Håkon Wium Lie](https://www.wiumlie.no/en)
+- [Bert Bos](https://www.w3.org/People/Bos/)
+- [Sadgrl](https://sadgrl.online/)
+- [Carol](https://carol.gg/) 
+- [Ghost](https://ghost.computer/) 
+- [Lynn](https://lynnandtonic.com/)
+- [Darn](https://darn.es/)
+- [CERN](https://home.cern/)
 - [CSS Tricks and Preprocessors](https://css-tricks.com/comparing-html-preprocessor-features/)
+- [My Space](https://myspace.com/)
+- [Indie Web](https://indieweb.org/)
+- [Yester Web](https://yesterweb.org/)
+- [POSSE](https://indieweb.org/POSSE) 

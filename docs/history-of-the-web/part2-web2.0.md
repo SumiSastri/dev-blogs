@@ -103,19 +103,12 @@ As a total aside, [fun-fun functions](https://www.youtube.com/channel/UCO1cgjhGz
 
 #### EXTERNAL REFERENCES - Enter the browser with the JavaScript dragon
 
+- [Begin](https://begin.com/)
 - [Fossbytes - Who is Brenden Eich](https://fossbytes.com/who-is-brendan-eich/)
-
 - [What are FWAs (Functional Web Apps)](https://fwa.dev/)
-
 - [What are web components](https://coherent-labs.com/posts/web-components/)
-
 - [What are DWAs (Dynamic Web Apps)](https://www.ramotion.com/blog/dynamic-web-application-development/)
-
 - [What is the JAM-Stack](https://jamstack.org/what-is-jamstack/)
-
 - [What are PWAs (Progressive Web Apps)](https://www.codecademy.com/resources/blog/what-is-a-progressive-web-application/)
-
 - [What are assistive technologies](https://www.who.int/news-room/fact-sheets/detail/assistive-technology)
-
-- [For a deep dive into how browsers work, you can go to this section, in the blog](https://sumisastri.github.io/dev-blogs/browser-engines/).
-
+- [Fun-fun functions](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)

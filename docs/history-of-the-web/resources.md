@@ -29,3 +29,31 @@ This is a complete bibliography of external references used in the history of th
 -  Stallings W & Mohan R, __Computer organization and architecture: designing for performance__ , th ed., International ed., Pearson Education, March 2013, Available from: ProQuest Ebook Central
 
 
+## Links
+
+- [Stack Skills](https://stackskills.com/)
+- [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/)
+- [Robert Cailliau](https://www.cailliau.org/Welcome.html)
+- [Wikipedia Robert Cailliau](https://en.wikipedia.org/wiki/Robert_Cailliau)
+- [Håkon Wium Lie](https://www.wiumlie.no/en)
+- [Bert Bos](https://www.w3.org/People/Bos/)
+- [Sadgrl](https://sadgrl.online/)
+- [Carol](https://carol.gg/) 
+- [Ghost](https://ghost.computer/) 
+- [Lynn](https://lynnandtonic.com/)
+- [Darn](https://darn.es/)
+- [CERN](https://home.cern/)
+- [CSS Tricks and Preprocessors](https://css-tricks.com/comparing-html-preprocessor-features/)
+- [My Space](https://myspace.com/)
+- [Indie Web](https://indieweb.org/)
+- [Yester Web](https://yesterweb.org/)
+- [POSSE](https://indieweb.org/POSSE)
+- [Begin](https://begin.com/)
+- [Fossbytes - Who is Brenden Eich](https://fossbytes.com/who-is-brendan-eich/)
+- [What are FWAs (Functional Web Apps)](https://fwa.dev/)
+- [What are web components](https://coherent-labs.com/posts/web-components/)
+- [What are DWAs (Dynamic Web Apps)](https://www.ramotion.com/blog/dynamic-web-application-development/)
+- [What is the JAM-Stack](https://jamstack.org/what-is-jamstack/)
+- [What are PWAs (Progressive Web Apps)](https://www.codecademy.com/resources/blog/what-is-a-progressive-web-application/)
+- [What are assistive technologies](https://www.who.int/news-room/fact-sheets/detail/assistive-technology)
+- [Fun-fun functions](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
