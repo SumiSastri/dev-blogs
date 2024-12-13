@@ -453,8 +453,6 @@ The second sub-class also inherits all the attributes of the parent class with t
 ```Java
 package bmicalculator;
 
-package bmicalculator;
-
 public class Seniors extends Person {
 
     private int age;    // Additional attribute for Senior
@@ -478,9 +476,12 @@ public class Seniors extends Person {
         return gender;
     }
 
-    // Getter method for age (optional, if needed)
-    public int getAge() {
-        return age;
+    // Getter method for age (optional, if needed) - or can be overriden
+   public int getAge(int age) {
+        if (age >60 ) {
+     System.out.println("Caught an exception - age must be above 60");
+        }
+    return age;
     }
 
     // You can also add additional methods relevant to seniors here...
@@ -489,13 +490,15 @@ public class Seniors extends Person {
 // check main method
 
        // Create a Senior object - add gender
-        Seniors s1 = new Seniors("Janice", "Jones", 49.9, 1.2, 82, "Female");
+        Seniors s1 = new Seniors("Janice", "Jones", 49.9, 1.2, "Female");
 
         // Access attributes via getter methods
         System.out.println("Name: " + s1.getName() + " " + s1.getSurname());
         System.out.println("BMI: " + s1.getBMI());
         System.out.println("Age: " + s1.getAge());
         System.out.println("Gender: " + s1.getGender());
+        // as it is overrriden the value must be explicitly provided
+       System.out.println("Gender: " + s1.getAge(55));
 
 
 ```
