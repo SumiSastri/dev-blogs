@@ -29,9 +29,13 @@ This is a complete bibliography of external references used in the developer env
 - _Unix Power Tools_ Shelley, Peek, Jerry D, 3rd edition, O'Reilly Learning, Beijing, 2003, Available from: ProQuest Ebook Central
 
 
-## Course Packs
+## Lecture notes and recordings
 
 - George Charalambous (2024), __BASH part 1__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5330159_1)
+
+-  George Charalambous (2024), __Software Development (1)__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5365890_1)
+
+-  George Charalambous (2024), __Computer Hardware (1)__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5377599_1)
 
 
 ## Videos
