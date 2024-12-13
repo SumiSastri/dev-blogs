@@ -101,8 +101,6 @@ __Creating aliases__
 
 An easy way to remember these commands is to alias them for your own use, you can set up a list of aliases in your `bashrc` file and check the list updating the commands with new aliases or removing aliases that you may no longer use.
 
-
-
 #### EXTERNAL REFERENCES - Navigating your computer terminal using the shell
 
 - [1]__GNU__(Accessed: Oct. 27, 2024) [Available]https://www.gnu.org/
@@ -112,4 +110,3 @@ An easy way to remember these commands is to alias them for your own use, you ca
 - [3] Shelley, Peek, Jerry D, __Unix Power Tools__ 3rd edition, (O'Reilly Learning, Beijing, 2003) 
 
 - [4] __Geek for geeks__,"Nano text editor in Linux", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/nano-text-editor-in-linux/).
-

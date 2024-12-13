@@ -172,7 +172,7 @@ With the use of JavaScript through the stack, it no longer can be considered jus
 
 ### Further reading 
 
-- More about [JavaScript on Wikipedia](https://en.wikipedia.org/wiki/JavaScript)
+- [JavaScript on Wikipedia](https://en.wikipedia.org/wiki/JavaScript)
 
 - [History of JavaScript](https://auth0.com/blog/a-brief-history-of-javascript/)
 

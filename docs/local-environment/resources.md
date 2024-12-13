@@ -63,6 +63,13 @@ This is a complete bibliography of external references used in the developer env
 
 - __WhatIsMyBrowser__ "Update Chrome Web Browser", (Accessed: Oct. 14, 2024) [Available](https://www.whatismybrowser.com/guides/how-to-update-your-browser/chrome)
 
+-   __Computer Hope__ , Dictionary of computer jargon, https://www.computerhope.com/ (Accessed: Dec. 13, 20224) [Available](https://www.computerhope.com/jargon/g/gui.htm)
+
+
+-  __Educative__ "Declarative vs imperative programming: 5 key differences", https://www.educative.io (Accessed: Dec. 13, 20224) [Available](https://www.educative.io/blog/declarative-vs-imperative-programming)
+
+-  __Tech Target__, "What is SSH (Secure Shell) and How Does It Work?", https://www.techtarget.co (Accessed: Dec. 13, 20224) [Available] (https://www.techtarget.com/searchsecurity/definition/Secure-Shell)
+
 
 <!-- FIX 
 - [What are source or dot files](https://en.wikipedia.org/wiki/Dot_(command)#Source)

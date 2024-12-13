@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Wahat are the different data types in a programming language?
+title: What are the different data types in a programming language?
 parent: Computer programming fundamental principles
 nav_order: 6
 last_updated: Oct 2024

@@ -116,4 +116,3 @@ Editors like nano and vim are basic and code is clunky - not an ideal developer 
 - [4] __GNU__(Accessed: Oct. 27, 2024) [Available]https://www.gnu.org/
 
 - [5] George Charalambous (2024), __BASH part 1__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5330159_1)
-
