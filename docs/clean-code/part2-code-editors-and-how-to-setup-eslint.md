@@ -60,7 +60,7 @@ I use Vim, when I have to - for adding configs and some other tasks, but it is n
 
 ## Atom set up and linting for JavaScript
 
-If you are using Atom as our text editor of choice. It's similar in many ways to Sublime Text, but it has a nice user interface and a lot of 3rd-party plugins and packages that we can use to help us code more efficiently, and hopefully make fewer typos along the way.
+If you are using Atom as our text editor of choice. It's similar in many ways to Sublime Text, but it has a better user interface and a lot of 3rd-party plugins and packages that we can use to help us code more efficiently, and hopefully make fewer typos along the way.
 
 To use and install:-
 

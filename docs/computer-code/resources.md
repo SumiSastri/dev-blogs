@@ -46,6 +46,8 @@ Francesco Tusa (2024), __More on Memory Management, Static Attributes and Static
 
 -  George Charalambous (2024), __Computer Hardware (1)__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5377599_1)
 
+-  George Charalambous (2024), __Operating Systems Processes & Resource management (1)__ , PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5377599_1)
+
 ## Research papers
 
 -  __Central Electronics Engineering Research Institute__ "Object Oriented Programming", Bhanu Prasad Pokkunuri, an abstract from the file "oop_paper.pdf"

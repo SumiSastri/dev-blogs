@@ -490,7 +490,7 @@ public class Seniors extends Person {
 // check main method
 
        // Create a Senior object - add gender
-        Seniors s1 = new Seniors("Janice", "Jones", 49.9, 1.2, "Female");
+        Seniors s1 = new Seniors("Janet", "Jones", 49.9, 1.2, "Female");
 
         // Access attributes via getter methods
         System.out.println("Name: " + s1.getName() + " " + s1.getSurname());
@@ -525,7 +525,7 @@ public class Program {
         YoungAdult ya1 = new YoungAdult("Tom", "Jones", 55.2, 1.5, 18);
         System.out.println("BMI ya1: " + ya1.getBMI());
         
-        Seniors s1 = new Seniors("Janice", "Jones", 49.9, 1.5, 82, "Female");
+        Seniors s1 = new Seniors("Janet", "Jones", 49.9, 1.5, 82, "Female");
         System.out.println("BMI s1: " + s1.getBMI());
 
     }
