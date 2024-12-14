@@ -40,13 +40,16 @@ This is a complete bibliography of external references used in the Computer prog
 
 ## Lecture notes and recordings
 
-Francesco Tusa (2024), __More on Memory Management, Static Attributes and Static Methods__, PDF slides  [Available to MSc Computer Science Students MODULE: (2024) 7SENG011W Object Oriented Programming](https://learning.westminster.ac.uk/ultra/courses/_98802_1/outline/file/_5052469_1) and [Lecture 8 Pantopo recordings for the module](https://westminster.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=52932e3e-4774-4e02-ab70-b227009d73e8)
+-  __Plural Sight__ Premium PluralSight [Tutorial](https://app.pluralsight.com/library/courses/managing-jobs-processes-bash-z-shell/table-of-contents)
+
+- Francesco Tusa (2024), __More on Memory Management, Static Attributes and Static Methods__, PDF slides  [Available to MSc Computer Science Students MODULE: (2024) 7SENG011W Object Oriented Programming](https://learning.westminster.ac.uk/ultra/courses/_98802_1/outline/file/_5052469_1) and [Lecture 8 Pantopo recordings for the module](https://westminster.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=52932e3e-4774-4e02-ab70-b227009d73e8)
 
 -  George Charalambous (2024), __Software Development (1)__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5365890_1)
 
 -  George Charalambous (2024), __Computer Hardware (1)__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5377599_1)
 
 -  George Charalambous (2024), __Operating Systems Processes & Resource management (1)__ , PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5377599_1)
+
 
 ## Research papers
 
@@ -72,20 +75,28 @@ Francesco Tusa (2024), __More on Memory Management, Static Attributes and Static
 
 - __Cincomsmalltalk__, "What is the Smalltalk Programming Language?",(Accessed: Dec. 7, 2024) [Available](https://www.cincomsmalltalk.com/main/info/quick-start/what-is-the-smalltalk-programming-language/)
 
- __Medium__ Accessed Dec 13, 2024 [Available](https://medium.com/@tim.herden ai-series-5-from-abacus-to-ai-a-brief-history-of-software-development-482d25903392)
+- __Medium__ Accessed Dec 13, 2024 [Available](https://medium.com/@tim.herden ai-series-5-from-abacus-to-ai-a-brief-history-of-software-development-482d25903392)
 
- __Liquid Search__ Accessed Dec 13, 2024 [Available](https://www.liquisearch.com/history_of_software_engineering/overview)
+-  __Liquid Search__ Accessed Dec 13, 2024 [Available](https://www.liquisearch.com/history_of_software_engineering/overview)
 
- __Medium__ Accessed Dec 13, 2024 [Available](https://medium.com/@mitzijackson/history-of-software-development-from-punched-cards-to-artificial-intelligence-6dc779d1d784)
+-  __Medium__ Accessed Dec 13, 2024 [Available](https://medium.com/@mitzijackson/history-of-software-development-from-punched-cards-to-artificial-intelligence-6dc779d1d784)
 
- __Software testing stuff__ Accessed Dec 13, 2024 [Available](https://www.softwaretestingstuff.com/2007/09/brief-history-of-software-engineering.html)
+-  __Software testing stuff__ Accessed Dec 13, 2024 [Available](https://www.softwaretestingstuff.com/2007/09/brief-history-of-software-engineering.html)
  
- __Wikipedia - Margaret Hamilton__ Accessed Dec 13, 2024 [Available](https://en.wikipedia.org/wiki/Margaret_Hamilton_software_engineer)
+-  __Wikipedia - Margaret Hamilton__ Accessed Dec 13, 2024 [Available](https://en.wikipedia.org/wiki/Margaret_Hamilton_software_engineer)
 
- __Praxent__ Accessed Dec 13, 2024 [Available](https://praxent.com/blog/history-of-software-development-innovation)
+-  __Praxent__ Accessed Dec 13, 2024 [Available](https://praxent.com/blog/history-of-software-development-innovation)
 
- __XRNord__ Accessed Dec 13, 2024 [Available](https://www.xrnord.com/post/the-history-of-software-development-from-early-days-to-modern-times)
+-  __XRNord__ Accessed Dec 13, 2024 [Available](https://www.xrnord.com/post/the-history-of-software-development-from-early-days-to-modern-times)
 
- __NandBox__ Accessed Dec 13, 2024 [Available](https://nandbox.com/the-history-of-software-development-over-70-years-of-innovation/)
+-  __NandBox__ Accessed Dec 13, 2024 [Available](https://nandbox.com/the-history-of-software-development-over-70-years-of-innovation/)
 
- __Ada computer science__ Accessed Dec 13, 2024 [Available](https://adacomputerscience.org/concepts/trans_bnf)
+-  __Ada computer science__ Accessed Dec 13, 2024 [Available](https://adacomputerscience.org/concepts/trans_bnf)
+
+- __Tech terms__ (Accessed: Dec. 14, 2022) [Available](https://techterms.com/definition/gigahertz)
+
+-  __Crucial__ Understanding RAM (Accessed: Dec. 14, 2022) [Available](https://www.crucial.com/articles/about-memory/support-what-does-computer-memory-do) 
+
+-  __Life Wire__ How a CPU processes information (Accessed: Dec. 14, 2022) [Available](https://www.lifewire.com/what-is-a-cpu-2618150)
+
+-  __Baeldung__ "What is a semaphore?" (Accessed: Dec. 14, 2022) [Available](https://www.baeldung.com/cs/semaphore)

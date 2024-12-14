@@ -88,7 +88,7 @@ This cycle is repeated in I/O drivers both on the inbound and outbound journeys.
 
 By separating storage from the fetching and interpretation operations each of these units can perform specialised functions more efficiently. 
 
-Processing, in the CPU or Central Processing Unit, is now sub-divided into arithmetical processing and control. The ALU, or the Arithmetic and Logic Unit, performs the logical and arithmetical processing.  The CU, or the Control Unit, controls the data flows directing the data to the interconnecting data buses or memory for storage.
+Processing, in the CPU or Central Processing Unit, houses the memory storage registers. It is further sub-divided into the ALU, or the Arithmetic and Logic Unit, performs the logical and arithmetical processing and the CU, or the Control Unit, controls the data flows directing the data to the interconnecting data buses or memory for storage.
 
 Similarly, memory can also store data in categories that are identified easily during the retrieval process. Additional memory, like RAM & DRAM or (Dynamic) Random Access Memory, can be called only when they are needed. The program counter in memory determines the source of the data selecting from an instruction register, memory address register or accumulator register.
 
@@ -98,7 +98,7 @@ By defining this separation of concerns and assigning specific functions to each
 
 Not only do computers, but embedded systems - such as vending machines, point of sales devices, mobile phones, and chips embedded in consumer electronics like TVs and home refrigerators - all employ the same architecture.
 
-In the Harvard Architecture, a cache is also added to the RAM or DRAM in memory and shows how the fundamental architecture can be scalable by the simple separation of concerns outlined by von Neumann. This architecture also improves reliability and maintainability of the device.
+In the Harvard Architecture, a cache is also added to the RAM or DRAM in memory and shows how the fundamental architecture can be scalable by the simple separation of concerns outlined by von Neumann. This architecture also improves reliability and maintainability of the device as different data paths and memory registers are used to process data.c[10] 
 
 ## The modularisation and bundling of code a side product of von Neumann architecture
 
@@ -132,3 +132,6 @@ The impact of von Neumann's architecture in the organisation of both machine cod
 - [8] __Learn computer science online__ "Von Neumann Architecture: Complete Beginners Guide to Computer Science", https://www.learncomputerscienceonline.com, (Accessed: Sep. 30, 2024) [Available](https://www.learncomputerscienceonline.com/von-neumann-architecture/)
 
 - [9]__Just IT Hardware__ "What are computer chips and how do they work", https://www.justithardware.com(Accessed: Oct. 8, 2024) [Available](https://www.justithardware.com/blog/what-are-computer-chips-and-how-do-they-work/)
+
+
+- [10] George Charalambous (2024), __Computer Hardware (1)__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5377599_1)

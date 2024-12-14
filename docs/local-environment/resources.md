@@ -17,6 +17,10 @@ This is a complete bibliography of external references used in the developer env
 
 - [Sal Ferrarello blog](https://salferrarello.com/zsh-git-status-prompt/)
 
+## Documentation
+
+- [Zish](https://zsh.sourceforge.io/Doc/Release/User-Contributions.html#Version-Control-Information)
+- [curl](https://curl.se/docs/manpage.html)
 
 ## E-books
 
@@ -74,18 +78,11 @@ This is a complete bibliography of external references used in the developer env
 
 -  __Tech Target__, "What is SSH (Secure Shell) and How Does It Work?", https://www.techtarget.co (Accessed: Dec. 13, 20224) [Available] (https://www.techtarget.com/searchsecurity/definition/Secure-Shell)
 
+- __The Modern Coder__ https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/
 
-<!-- FIX 
-- [What are source or dot files](https://en.wikipedia.org/wiki/Dot_(command)#Source)
+-  __Wikipedia__ "Dot files" (https://en.wikipedia.org/wiki/Dot_(command)#Source)
 
-- [curl Documentation](https://curl.se/docs/manpage.html)
+- __IBM__ "What is the curl command" (https://developer.ibm.com/articles/what-is-curl-command/)
 
-- [curl and APIs](https://developer.ibm.com/articles/what-is-curl-command/)
-
-- [What is c-url and when to use it](https://blog.pair.com/2018/01/26/curl-description-basic-use-cases/)
-
-
-- [4 - Official docs ](https://zsh.sourceforge.io/Doc/Release/User-Contributions.html#Version-Control-Information)
-
-- [5 - The Modern Coder](https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/) -->
+- __Pair__ "What is c-url and when to use it" (https://blog.pair.com/2018/01/26/curl-description-basic-use-cases/)
 

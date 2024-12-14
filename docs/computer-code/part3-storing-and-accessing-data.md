@@ -22,7 +22,9 @@ Not all programming languages allow data to mutate. Such data is also considered
 
 Java, Python, C and other programming languages will have their own keywords that define a variable, and ways of mutating the initialised data. As Francesco Tusa, in his "Introduction to the Java Language", states, "Using variables is a way to reserve specific areas of the memory and make them accessible throughout the execution of a program."
 
-Once data has been created, initialised and stored, this data must be retrieved.  Different programming languages have different methods to retrieve data.
+Once data has been created, initialised and stored, this data must be retrieved.  Different programming languages have different methods to retrieve data. 
+
+Once higher language code has been compiled and run, it is executed in memory via a series of processes in the computer hardware.
 
 ## What is a code interpreter?
 
@@ -133,7 +135,9 @@ Cloud storage services are also an expense, in the consumer world, Apple, Google
 
 Data from videos and images need more storage and compute power. The volume of data being consumed by end users from social media, integrated media platforms that offer video, audio and text content has grown exponentially.
 
-Text and simple arithmetical data used in calculators are now minimal, although they still the foundation stones of primitive data types.
+If you explore your computer filing system by typing `cd` into the terminal, you will see application software is stored in `.app` files in the Applications folder; binary files in the bin folder; the library or lib folder when you `cd` into it will open up a new set of folders - peripherals and printer plugins and commands being one of them.
+
+The organisation of the filing system, enables storage on the hard drive. When the program is executed, this data from the program is retrieved, compiled and then is processed in memory using RAM and DRAM.
 
 
 #### EXTERNAL REFERENCES
