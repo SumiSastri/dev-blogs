@@ -77,6 +77,16 @@ The V model allows linear progression up and down the scale as well as at vertic
 
 The aim of the software development cycle, which is constantly evolving is to release software as quickly, efficiently and accurately as possible because of the growing demand for software to solve problems in an abstract format and relieve the tedium of monotonous jobs and routines.
 
+## What constitutes a program
+
+A software package or program, today is a compiled or pre-compiled package of code blocks known as the source code. Source code is compiled into an object file and object files are linked with libraries to make the program run. This packaged file is executable and can be run on a computer, mobile application, gaming application or embedded system.
+
+Source code can be written in one or several languages called the tech-stack. Code is constantly maintained and updated with packages labelled into major versions, minor updates and patches with a numbering system. For example, Word Word 14.90.2 describes 14 as the major update, 90 the minor updates and 2 as the patches. 
+
+Software, if it is not open-source allowing free access to the licence to use it, will describe terms of use.
+
+Linux, is often used as the base for studying operating systems because the systems that run operating systems that use Linux are open source. Unix, Windows, Android and Apple all have their own commercial software. This makes understanding their operating systems less transparent.
+
 
 #### EXTERNAL REFERENCES - Software development an adjunct to hardware development
 

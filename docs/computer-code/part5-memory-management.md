@@ -8,48 +8,42 @@ last_updated: Dec 2024
 
 # Memory management - key alogrithms
 
+The computer memory is used to store and recall data in a series of units or bits. Instructions from processes could be fetched one bit at a time, but the chunking of code means a group of bits is fetched at any given moment. Though, not what we would describe as a word a group of bits is termed as a word and the number of bits in a word as word length of the computer. Words flow into virtual memory on a page. Pages flow into frames.
 
+The processor looks for an address that is associated with each word. The address is stored in RAM units, the fastest and smallest is RAM and largest is the main memory. Secondary storage devices like SSDs, CD-ROMs, the cloud all store data but the further away the data is from the processor, the slower the job takes to get processed.
 
+Latency, or the speed of processing and the cost of a memory unit depends on its access time. The costs are higher when more time is taken to access the memory location. This is why you would pay over and above disc storage for an SSD, external drives or cloud storage.
 
-## Process management, images, memory and bit maps, linked lists
+Programs access the virtual memory on a page as they supports processes larger than physical memory. Paging algorithms are used to manage page space and memory map tables map virtual to physical pages. The map is made up of link lists that represent blocks used by a process and free blocks.
 
-The first processes 0 starts with the start of the hardware, process 0 forks and starts process 1 which is a copy of the the first process. This "spawn" receives the parent PID for processing data. If an error occurs at this stage the process reverts to 0 and the program exits.
-
-The spawned processes is placed into a process queue and allocated a memory register. Processes are then allocated pages. A memory page is a virtual block of memory with a fixed length. A frame is a paging system, also with a fixed length but with a physical space, rather than a virtual space in memory.
-
-Programs access the virtual memory on a page. Pages supports processes larger than physical memory.
-
-Memory is divided into bit, bit maps keep track of which pages are allocated and which are free
-
-Memory allocation algorithm to link lists  - 2 lists allocated list and free list to represent blocks used by a process and free blockes
-
-First fit
-Next fit
-Best fit
-Worst fit
-Quick fit
-
-
-Memory map tables map virtual to physical pages
-
-Paging algorithms are used to manage page space
+__Paging algorithms__
 
 - FIFO first in, first out
 - LRU least recently used
 - NFU not frequently used
 - FIFO first in, first out
 
+__Memory allocation algorithms__
+
+- First fit
+- Next fit
+- Best fit
+- Worst fit
+- Quick fit
 
 
-## Process deadlocks and deadlock management -->
+## Process deadlocks and deadlock management
+
+
+
+## An overview of the calculations behind the algorithms
+
 
 <!-- Unary 1 - base one
 
 Time stamp: around 50-56 mins
 
 Binary 2 - base 2, range is 0-1
-
-
 
 
 Octal - base 8, is used because binary is difficult to read. Range 0-7 ideal to define permissions as only 9 options required.

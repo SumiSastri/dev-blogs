@@ -52,7 +52,7 @@ Resources on a computer are finite, and we can only start to manage our processe
 
  Processes are then loaded to a register, registers form blocks of memory which are loaded on pages and a group of pages are called a frame. Identified by their PIDs, processes are then executed according to a set of rules depending on where the process is being executed or completed.
 
- ## Hierarchy of processes
+## Hierarchy of processes
 
  There is a hierarchy of processes (called Nice) where the lower the quotient, the quicker the job is processed.
 
