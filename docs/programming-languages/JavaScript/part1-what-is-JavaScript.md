@@ -8,7 +8,7 @@ last_updated: Feb 2024
 
 # What is JavaScript?
 
-Created by Brenden Eich in 1996, JavaScript was written for Netscape under the name Mocha, then changed to  "LiveScript". 
+Created by Brenden Eich in 1996, JavaScript, is a programming language, written for Netscape under the name Mocha, then changed to  "LiveScript". 
 
 Microsoft renamed LiveScript for Explorer calling it JScript, or JavaScript. Standardising JavaScript fell to the hands of ECMA (The European Computer Manufacturers Association) and JavaScript is also known as ECMA Script or ES5, ES6, ES7, ES8 and ES9 which are are updated versions of JavaScript. 
 

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 parent:  Fullstack JavaScript
 nav_order: 14
@@ -147,5 +147,5 @@ The native websockets method can be used or libraries like Socket.IO, that use n
 <!-- 
 FIX ME: CLEAN UP DOCS
 
-An [HTTP response with a 101 header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/101) 
+An [HTTP response with a 101 header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/101)  -->
  -->
