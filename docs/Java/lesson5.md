@@ -1,4 +1,4 @@
-# Lesson 5 Notes
+<!-- # Lesson 5 Notes -->
 
 ## What is method overloading
 
@@ -28,6 +28,8 @@ EXAM QUESTION - What is valid overloading?
 - All private attributes and methods are modified within the class with utility functions or setter methods
 - All methods are validated and error checked within the class - setters update and validate information
 - The public interface of a class attributes and methods are via public methods accessing private and hidden methods
+- The implementation of these methods are not visible or accessible for modification by other classes
+- The implementation (method body changes) can be controlled within the class so long as the signature is the same
 
 ## Why encapsulation?
 
@@ -37,6 +39,8 @@ EXAM QUESTION - What is valid overloading?
 - Modularised code is written once and used many times
 - Errors are handled within the class keeping code clean and free of anomalies
 - Objects interact with each other via messages - the calling of the methods of public methods
+- With implementation hiding changes can be made to the methods of the class
+- Changes will be applied wherever the class is used if the signature of the class is unchanged
 
 ## What is the concept of interfaces between objects
 
@@ -61,6 +65,7 @@ EXAM QUESTION - What is valid overloading?
 
 __Implementation hiding__
 
+- The implementation of these methods are not visible to other classes
 - Getters - getters return information of the class
 - Setters update, validate and return information of the class after validation and error handling
 - Utility functions are those that enhance modularity of the class methods

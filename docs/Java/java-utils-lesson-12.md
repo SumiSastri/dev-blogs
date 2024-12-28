@@ -1,7 +1,6 @@
-# Lesson 12 Notes
+<!-- # Lesson 12 Notes -->
 
-# Java Utils are a collection of types of classes
-
+- Java Utils are a collection of types of classes
 - Collections and data structures of different types can be used to solve particular use case challenges
 
 ## What is a List how is it different from an Array
