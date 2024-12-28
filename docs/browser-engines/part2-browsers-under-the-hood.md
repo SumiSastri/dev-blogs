@@ -1,7 +1,7 @@
 ---
 layout: default
 parent:  Browser Engines
-nav_order: 14
+nav_order: 13
 title: Browsers under the hood
 last_updated: June 2024
 ---

@@ -12,7 +12,7 @@ All programming languagues share one thing in common. They have different data t
 
 This section looks at data-types common to most programming languages. And the data-life-cycle.
 
-As we have seen in the [last section](https://sumisastri.github.io/dev-blogs/computer-code/part1-programming-vs-machine-code/), programming lanugages are considered top-level or "source" code. 
+As we have seen in the [last section](https://sumisastri.github.io/dev-blogs/computer-code/part1-programming-vs-machine-code/), programming lanugages are considered top-level or "source" code.
 
 ## Primitive data types
 
@@ -30,7 +30,7 @@ Lists are multiple sets of data. A word, for example is a list of primitive char
 
 If a list does not need to be stored in a strict order, it may be stored in an unordered list.
 
-Different programming languages have different names for lists. In JavaScript, for example an ordered list is an array. An unordered list is an object. In Python a set is an unordered list. 
+Different programming languages have different names for lists. In JavaScript, for example an ordered list is an array. An unordered list is an object. In Python a set is an unordered list.
 
 Descriptions such as collections, sort lists, indexed lists are all variations to the names given to ordered and unordered lists in a programming language.
 
@@ -44,9 +44,9 @@ The same is true of the multiplication and division operators, which are respect
 
 ## Logical operators
 
-Code blocks are recognised by the syntax of the language they are written in and the file extensions. 
+Code blocks are recognised by the syntax of the language they are written in and the file extensions.
 
-For example, a `.js` file or a `.tsx` file - JavaScript and TypeScript compilers for the JavaScript Library React - are recognised by JavaScript and TypeScript compilers and processors. 
+For example, a `.js` file or a `.tsx` file - JavaScript and TypeScript compilers for the JavaScript Library React - are recognised by JavaScript and TypeScript compilers and processors.
 
 Java and C++, will have their own compilers, interpreters and processors.
 
@@ -56,15 +56,15 @@ Other operators and operands are used, and while learning the syntax of a partic
 
 ## Initialisation of data and data state management
 
-These primitive data types have no programming logic and merely represent the type of data and how it is stored. The initial state of data is "initialised" by a program. The initialisation process gives the data type a location in memory. 
+These primitive data types have no programming logic and merely represent the type of data and how it is stored. The initial state of data is "initialised" by a program. The initialisation process gives the data type a location in memory.
 
 The native types of data - characters and numbers - have an immutable space in memory as they are the smallest storage unit.
 
-A word is actually a list of characters. Numbers are converted from octals, decimals back to binary. 
+A word is actually a list of characters. Numbers are converted from octals, decimals back to binary.
 
 Data that require more storage space are referenced by an address in memory - a string, or list of characters.
 
-Instructions provided after initialisation by logical statements, blocks of code and alogrithms are what transform data into programs that are executable. 
+Instructions provided after initialisation by logical statements, blocks of code and alogrithms are what transform data into programs that are executable.
 
 The execution of these instructions change or mutate the behaviour of the underlying data in some way.
 
@@ -72,13 +72,11 @@ This changing of the initial state of data is called mutation and the process th
 
 The parsing, interpretation, compiling and bundling of this code into a software package are all processes that are handled by individual software packages or software libraries.
 
-In today's world, a developer has to deal with packages within packages (nested packages). 
+In today's world, a developer has to deal with packages within packages (nested packages).
 
 The source code that they are writing is dependent on the performance of these nested packages, resulting in nested dependencies. While this may increase performance, they may also decrease transparency.
 
 Debugging can be either more performant - as they are caught through automation processes in these packages, or more difficult due to the lack of transparency of these nested dependencies.
-
-
 
 #### EXTERNAL REFERENCES
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 parent:  Browser Engines
-nav_order: 14
+nav_order: 13
 title: User interface - the life of a pixel
 last_updated: June 2024
 ---
