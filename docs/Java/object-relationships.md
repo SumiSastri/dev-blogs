@@ -122,8 +122,8 @@ Methods are not seeking the same resources but are implementing the methods of t
 No rigid and formal inheritance structure, one or more interfaces can be added to any class
 Method called in run time - Late/ dynamic binding, no compile time issues
 
-
 Lists and manipulating lists
+
 - show and sort
 - add
 - delete

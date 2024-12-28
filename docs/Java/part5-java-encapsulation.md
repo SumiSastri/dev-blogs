@@ -1,4 +1,4 @@
-<!-- # Lesson 5 Notes -->
+__Lesson 5 Notes__
 
 ## What is method overloading
 
@@ -41,6 +41,14 @@ EXAM QUESTION - What is valid overloading?
 - Objects interact with each other via messages - the calling of the methods of public methods
 - With implementation hiding changes can be made to the methods of the class
 - Changes will be applied wherever the class is used if the signature of the class is unchanged
+
+- These core principles of encapsulation help to
+  - maintain code
+  - keep programs flexible and easy to extend
+  - promote usage and adoption
+  - keep costs of code production down
+  - enhance speed and delivery
+  - promote code reliability
 
 ## What is the concept of interfaces between objects
 

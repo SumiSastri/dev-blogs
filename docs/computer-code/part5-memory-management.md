@@ -62,4 +62,25 @@ Hexadecimal - base 16 which is 0-9 and??
 Decimal - base 10, 10 to the power of 0 is 1, 10 to the power of 2 is 10 multiplied by 10 is 100, thousand is 10 to the power of 3. Base ten 0-9 is the range
 
 cd on its own goes into home directory
-man tar - manual  -->
+man tar - manual  
+
+## What is stack and heap memory and how do they work
+
+Size of the stack is small megabytes or less - very limited space
+
+- LIFO last in first out
+- Stack is like a pile of data (dishes)
+- Data is added serially
+- Stack pointer points to the last peice of data on the top of the stack
+- Accessing element is the last one added
+- Stack data is popped and the stack pointer is updated to the next data set
+
+## Heap memory is larger 100s of megabytes
+
+- Random and dynamic way of allocating data
+- Data is allocated based on the available data where and when there is space
+- Random way of accessing and removing the data
+- Small gaps in the heap garbage will defrag if possible and clean up the mess
+- Data storage and access is fragmented and slow
+
+-->

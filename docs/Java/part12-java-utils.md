@@ -1,4 +1,4 @@
-<!-- # Lesson 12 Notes -->
+__Lesson 12 notes__
 
 - Java Utils are a collection of types of classes
 - Collections and data structures of different types can be used to solve particular use case challenges
@@ -156,6 +156,7 @@ System.out.println(s.getBookingId()); // calls getter for bookingId on each valu
 ```
 
 ## Algorithm data structures - evaluate performance of data structures
+Refer to memory management
 
 - Linear search executed in linear time
 - Best fit
@@ -163,16 +164,15 @@ System.out.println(s.getBookingId()); // calls getter for bookingId on each valu
 - Buddy system
 - Shift and sort
 
-
    // Static map to track all room bookings by room number
-    private static final Map<Integer, Set<OverlapCheck>> roomBookings = new HashMap<>();
+    private static final `Map<Integer, Set<OverlapCheck>> roomBookings = new HashMap<>();`
 Change this to a map?
 
 // My notes for ref - delete in clean up
 // Here a list is created using the booking class as a generic type
 // Several bookings can be created and stored in the list of Booking type
 // the diamond notation for array is used in the reassignment 
-// private static List<Booking> bookings = new ArrayList<>();
+// `private static List<Booking> bookings = new ArrayList<>();`
 // this does not work if there are many bookings so the interface of Map needs to be used
 // Booking class is imported and morphed by Map or List
 
