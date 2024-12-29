@@ -3,6 +3,17 @@ __Lesson 12 notes__
 - Java Utils are a collection of types of classes
 - Collections and data structures of different types can be used to solve particular use case challenges
 
+<!-- Lists and manipulating lists
+
+- show and sort
+- add
+- delete
+- update
+
+Name logger is like shape drawer ?
+(application to project) -->
+
+
 ## What is a List how is it different from an Array
 
 - An array specifies the number of elements, the array when allocated in memory has a fixed set that can not be modified
@@ -156,6 +167,7 @@ System.out.println(s.getBookingId()); // calls getter for bookingId on each valu
 ```
 
 ## Algorithm data structures - evaluate performance of data structures
+
 Refer to memory management
 
 - Linear search executed in linear time

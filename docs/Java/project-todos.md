@@ -1,0 +1,1 @@
+- Check why the display method for all the rooms not workiing - in shapes demo
