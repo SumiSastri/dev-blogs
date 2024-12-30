@@ -117,7 +117,9 @@ the stack pointer now shifts to the data on the top of Method A
 Method A then executes, if Method C requires Method A, Method C data goes to the top of the stack frame
 If in Method C there is a reference type, the data is not allocated but an address is allocated to the top of the stack
 
-Wrapper types
+## Traversing the Java Object tree - Wrapper classes
+
+- Done by interfaces under the hood (Lesson 11 and Lesson 12)
 
 - Stack pointer points to null when there is a reference type without data (void methods)
 - String constructor holds a null reference by default (same as undefined in JavaScript)
@@ -146,4 +148,4 @@ Data of the attributes is passed into meta which lies outside the heap
 
 ## Process deadlocks and deadlock management
 
-- Done by interfaces under the hood (Lesson 12)
+- Done by interfaces under the hood (Lesson 11 and Lesson 12)

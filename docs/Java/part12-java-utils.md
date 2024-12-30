@@ -1,8 +1,5 @@
 __Lesson 12 notes__
 
-- Java Utils are a collection of types of classes
-- Collections and data structures of different types can be used to solve particular use case challenges
-
 <!-- Lists and manipulating lists
 
 - show and sort
@@ -13,6 +10,7 @@ __Lesson 12 notes__
 Name logger is like shape drawer ?
 (application to project) -->
 
+- Java Utils are a collection of Wrapper classes which are constructors for specific features
 
 ## What is a List how is it different from an Array
 

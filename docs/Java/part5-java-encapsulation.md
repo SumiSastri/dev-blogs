@@ -70,6 +70,11 @@ EXAM QUESTION - What is valid overloading?
 - Public methods can call public methods
 - Public methods within a class can call the private methods of that class but not of other classes
 - Public methods can not call private methods of another class
+- Main method
+- Extends
+- Implements
+- Extends and Implements
+- Static methods
 
 __Implementation hiding__
 

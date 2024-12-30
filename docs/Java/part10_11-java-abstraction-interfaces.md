@@ -24,6 +24,9 @@ __Polymorphism of classes__
 __Abstract Classes a form of runtime polymorphism__
 
 - Enforces the contract between super class and subclasses
+
+__It can not be the blue print for a new class as it is the master blue print__
+
 - Implementation of the subclass is based on fulfilling the contract set out by the super class
 - The subclass `extends` the data and behaviours of the superclass
 - A class creates several new objects, and an abstract class creates several new classes
@@ -76,12 +79,15 @@ SuiteeRoom.displayDetails()
 - All of these methods are called at runtime, then super called and therefore late binding takes place
 - This is the reason it is called late binding or runtime polymorphish
 
+Abstract classes enforce strick inheritance from the abstract class and all its parents
+If you need to use different data and behaviours from different classes, Java compiler will throw an error
 However it is still dependent on inheritance and Java does not allow multiple inheritance
-Inheritance in Java works only one way - from parent or super class down to subclasses
+Inheritance in Java works only one way - from parent or super class down to subclasses in abstract classes
 The super class knows nothing about its subclasses
-Access control - who sees what
+Access control - who sees what is controlled with the `abstract` key word
 An abstract super class can not be instantiated - not allowed byc ompiler
-An abstract class makes new classes but can not be the blue print for a new class as it is the master blue print
+An abstract class enforces design contracts between classes
+
 It is a way of locking down the master blue print so that it serves its purpose of being the single source of truth
 Calling a method with a Wrapper class - array or object you are calling the global wrapper class Object that is
 the uber class for super classes -> Arrays/ Objects which are reference types therefore you are referencing the hashcode
@@ -93,25 +99,34 @@ The methods of the global object are
 - hashCode()
 - toString()
 
-__An interface inheritance as a form of multiple inheritance without weakened encapsulation__
+__An interface provides a design contract for multiple inheritance without weakened encapsulation__
 
 READING LIST - have a look at the pre-reads again
 Effective Java
 Object Oriented JavaScript - Chapter 11
 
-- Interfaces make all methods abstract
-- Abstract is true by default when you use the `interface` key word
+- interface design contracts allow the classes to "behave like" the interface
+- It identifies common methods and lifts them out of a class so that they can be reused
+- It ensures single responsibility of the code block by decoupling code blocks
+- The reuse of the methods rather than instances of the class resolve the fight for resources in memory
+- Allows a class to fulfil multiple design contracts with specifically identified methods for reuse
+- Interfaces make all methods abstract and segregates code exclusively to methods we need
+- Abstract is true by default when you use the `interface` key word when you pick the methods you want to abstract out
+- Interfaces add specificity to methods by this abstraction
+- It has no rigid and formal inheritance structure
+- Related classes can use the common methods, unrelated classes may need their own interface definitions
 - An interface only has methods no attributes - subclasses inherit method signature
 - All methods are abstract and public and only have signatures - no attributes/constructors
 - Subclasses must implement the methods of the abstract class but can have own attributes/ methods
-- A class inherits from the interface and all its parents
+- A class inherits from the interface only the methods identified to be used (and all its parents)
 - The first concrete subclass must implement interface methods to avoid compile time confusion
-- An interface provides interface inheritance via implementation of these void methods
+- An interface provides interface inheritance via implementation of only the specific void methods identified
 - Interfaces allow classes to interact with methods in a more flexible manner - modularisation of methods
-- Used when classes have a different way to implement a method
+- Used when classes have a different way to implement specific methods identified for reusew
 
 ```Java
 public interface Bookable {
+    // abstract by default but types need to be declared
     Customer getCustomer();
     String getCustomerID();
 }
@@ -135,7 +150,58 @@ HOW?
 Methods are not seeking the same resources but are implementing the methods of the classes
 No rigid and formal inheritance structure, one or more interfaces can be added to any class
 Method called in run time - Late/ dynamic binding, no compile time issues
+Decoupling of the code and inheritance rather than strict coupling like in abstract inheritance
 
-__Interface Classes an extended implementation of abstract classes and polymorphism__
+Benefits of Inheritance
 
-- public methods that a class uses to access the attributes of the class
+- Multiple inheritance
+- Allows for consistency in data and behaviours of classes
+- Interface inheritance - multiple interfaces can be inherited - Planet in class work
+
+EXAM QUESTION
+What instructions will generate a compiler error in the program and why
+
+__Traversing the object tree__
+
+Object of Java
+
+- Objects -> Classes -> Superclasses -> Wrapper global Object which is a constructor
+- The wrapper Object a constructor that creates a new object
+- Creates Strings, Arrays,Integers as constructors
+
+- The String constructor example (the super implementation)
+`getClass()`
+`getName()`
+concats `Integer.toHexString(hashCode())`
+- Collections and data structures of different types can be used to solve particular use case challenges
+ Address of reference types is stored as a HashString and Hash codes?
+Hashcodes are integers created to univocally express the address of the object, it is then converted into a HexString
+As it is an abstract class we override the .toString() method to define how we want to express this hash string to the user
+
+Object can be reassigned to any type of object in Java...(See part 7 for an exam question on this subject)
+
+Java Object Methods
+
+```Java
+.equals()
+.getClass()
+.hashCode()
+.toString()
+```
+
+Wrapper methods implicity call the super method on the global object - so traversing the tree you can override equals to compare 2 objects by an unique id or this o vs that o
+if account1 equals account2 - here we are checking hashCodes which are address strings
+To compare the content of the object you override the equals method of the Java Object
+
+You can also use Java utils Comparators and Comparables
+Overriding equals method
+Casting to compare objects - research casting
+Casting the Object back to the Bank Account
+To access the attributes of the Bank Account instance not the Object address reference
+Reverse engineering - traversing down the tree by casting
+
+Exception handling by overwriting the Exception class
+
+Java follows classical inheritance where all the subclasses are tightly coupled in the inheritance tree with the top of the inheritance tree being the super class
+
+To traverse down the tree all the main methods of the Java Object class and other constructor classes have to be overwritten.
