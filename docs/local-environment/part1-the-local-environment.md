@@ -7,7 +7,7 @@ nav_order: 7
 
 # Your computer - the local environment
 
-Your computer is a synonym for a software developer's local environment. As a developer, you are required to set up your computer with the right tools. Familiarity with your hardware is fundamental as the code you write on your computer communicates to servers in cloud-based environments. 
+Your computer is a synonym for a software developer's local environment. As a developer, you are required to set up your computer with the right tools. Familiarity with your hardware is fundamental as the code you write on your computer communicates to servers in cloud-based environments.
 
 This client-server interaction is the basis of how the internet works. As a developer, high level programming languages - like Java, Python, JavaScript - that you write is interpreted and compiled first on your local environment and then sent to a server which can either be on premise (on-prem), or on the cloud or a hybrid of on-prem and cloud.
 
@@ -33,7 +33,7 @@ In their book, _Linux_, provided by Kothari, et al., [2] observe that the main f
 - provide an easy interaction so that users do not need to know the complicated processes under the hood
 - enable smooth messaging and interaction between these complex processes promptly
 
-All of these needs must be met by designers of an operating system (OS). A quick overview of how OSs work from [UWA](https://www.uow.edu.au/student/support-services/academic-skills/online-resources/technology-and-software/operating-systems/) shows you how an OS sits between hardware and your computer's software. Computers have different system software to manage various aspects of your hardware. There are printer drivers so you may print, a methodology for handling files you write and store on the laptop, or access to read and edit them. 
+All of these needs must be met by designers of an operating system (OS). A quick overview of how OSs work from [UWA](https://www.uow.edu.au/student/support-services/academic-skills/online-resources/technology-and-software/operating-systems/) shows you how an OS sits between hardware and your computer's software. Computers have different system software to manage various aspects of your hardware. There are printer drivers so you may print, a methodology for handling files you write and store on the laptop, or access to read and edit them.
 
 Computers may be used by individuals (single users) or organisations that have groups of people with similar computing needs (multi-user OS). A multi-user OS may also have people outside the immediate organisation who need to access information that the organisation provides from computers that log in to the servers of the organisation. A multi-user OS, Kothari, et al., point out, are systems that allow two or more people to log in to the servers simultaneously, not two or more people to use the system with a single network operator. The latter must be considered a single-user OS where the user is the super-user or the network operator.
 
@@ -57,7 +57,7 @@ The advantage of having Linux on your computer is that it offers a consistent ap
 
 ## What is the FS and how does it differ from an OS?
 
-The FS, or filing system, is a tree of directories or folders, within which files are stored. Each of these folders is given specific names in the FS to store specific types of files. 
+The FS, or filing system, is a tree of directories or folders, within which files are stored. Each of these folders is given specific names in the FS to store specific types of files.
 
 Files are partitioned to enable recovery and repair of a system, with the boot file holding some of the key files relating to starting and restoring (booting and rebooting) the computer.
 
@@ -79,6 +79,8 @@ Computers have an input/output I/O driver for user input and output back to the 
 
 Interpreters interpret code and compilers boil them down back to machine-readable code. The data from the input driver that has been transferred to an interpreter and compiler is processed and stored in memory. Memory is a shortened version of random-access memory or D-RAM, which is dynamic RAM, which is the capacity of the computer to hold this information.
 
+RAM memory is divided into 3 separate blocks of memory standard input/ standard output and standard error. RAM is the quickest to process information, but capacity is limited. The hard drive and external hard drives process information next and finally, the slowest to process data is cloud based servers as they represent the longest distance between where the code is compiled and computed and the source code.
+
 In the article __What is Linux__, the OS is further divided into the bootloader, which starts all the computer systems up and shuts them down. The bootloader communicates with the initial booting process, or the "init system". The init system controls background services like printing, and scheduling via "daemons". The kernel is the core of the OS, managing the processor, memory and peripherals. Daemons, can be considered system "helpers" or "runners" as they run to and from internal systems to handle mail, network communications, data to printers etc.,
 
 The user-facing graphical server is a subsystem with an x-y axis that displays graphics on your monitor, which is also referred to as the x-server or X. The main user-facing component is the desktop environment, where you see web browsers, pre-loaded applications or access to an application management store (app-store), where you can download applications that work with the OS.
@@ -97,7 +99,7 @@ Controlling all these 3 functions is vital and is performed by the I/O drivers.
 
 These parts do not live in isolation but are connected by a system bus. A system bus is an interconnection point between the processor, the memory and the I/O drivers via several conducting and connecting wires.
 
-Stallings makes a further distinction between computer architecture and organisation. To explain this, Stallings says architectural design is those features that a user interacts with - if a computer offers the user the ability to perform arithmetical operations such as adding, subtracting, multiplying and dividing, that is an architectural decision. 
+Stallings makes a further distinction between computer architecture and organisation. To explain this, Stallings says architectural design is those features that a user interacts with - if a computer offers the user the ability to perform arithmetical operations such as adding, subtracting, multiplying and dividing, that is an architectural decision.
 
 However, how these architectural features are designed is an organisational decision - the engineer here is making design decisions based on assumptions of how often the arithmetical operations will be performed, the cost and physical size of the unit, and the efficiency of the operation of the unit.
 
@@ -115,7 +117,7 @@ Intel i-9 and i-7, AMD Ryzen 7950 and 7900 are reviewed in [an article about pro
 
 Puget Systems, custom computer builders based in Seattle, in the United States, in an article on hardware recommendations [6], says not only does CPU performance matter, but GPU (Graphics Processing Unit) performance that Nvidia dominates. GPU matters as it works with the CPU, and the CPU's computing power must keep up with the demanding workloads of ML and AI.
 
-The number of cores has also significantly jumped from 16 cores to 64 cores to manage the workload of these compute requirements faced by ML and AI. 
+The number of cores has also significantly jumped from 16 cores to 64 cores to manage the workload of these compute requirements faced by ML and AI.
 
 Nvidia has developed processors for the highly demanding workloads that ML and AI require, largely from its gaming processors. [In an article on system requirements for ML and AI, Pugest systems](https://www.pugetsystems.com/solutions/ai-and-hpc-workstations/machine-learning-ai/hardware-recommendations/) offers some recommendations for what may be required from processors for AI and ML.
 
@@ -123,17 +125,15 @@ Nvidia has developed processors for the highly demanding workloads that ML and A
 
 Understanding your local environment and customising your hardware for the requirements of your job will vary according to the programming languages you are using and the servers your organisation interact with.
 
-What is important to note, as observed in the __What is Linux__ article, is that the kernel is the lowest level of the OS. To interact with the OS, you need to
-familiarise yourself with the computer terminal, this series’ [next article](https://sumisastri.github.io/dev-blogs/local-environment/part2-the-terminal/), and the command line interface (CLI). 
+What is important to note, as observed in the __What is Linux__ article, is that the kernel is the lowest level of the OS. To interact with the OS, you need to familiarise yourself with the computer terminal, this series’ [next article](https://sumisastri.github.io/dev-blogs/local-environment/part2-the-terminal/), and the command line interface (CLI).
 
-Follow that up with the section on computer shells to understand the role shells play in customising your local environment. 
+Follow that up with the section on computer shells to understand the role shells play in customising your local environment.
 
 The Unix scripting language - Bash scripting, is called a low-level scripting language because it interacts directly with the kernel via a series of scripts, or commands, that execute and perform certain tasks within an OS. The terminal is the gateway to the kernel and the Linux OS.
 
 Once you are familiar with the CLI and computer shells, you can write your first scripts and look at the tooling checklist for guidance. Stallings, et al.,  [7] provide a detailed insight into Bash scripting and its use cases.
 
 With every organisation you join customising of your work laptop will be an important first step to controlling your workflow, and investing time in learning these fundamentals is time well spent!
-
 
 #### EXTERNAL REFERENCES Your computer - the local environment
 
@@ -148,6 +148,5 @@ With every organisation you join customising of your work laptop will be an impo
 - [5] PC Guide - "CPUs for Deep Learning" (Accessed: Sep 23, 2024) [Available](https://www.pcguide.com/cpu/best-cpus-for-deep-learning/)
 
 - [6] Puget Systems - "Hardware Recommendations for Machine Learning/AI" (Accessed: Sep 23, 2024) [Available](https://www.pugetsystems.com/solutions/ai-and-hpc-workstations/machine-learning-ai/hardware-recommendations/)
-
 
 - [7] Shelley, Peek, Jerry D, __Unix Power Tools__ 3rd edition, (O'Reilly Learning, Beijing, 2003) 

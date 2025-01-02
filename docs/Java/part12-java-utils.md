@@ -164,7 +164,7 @@ System.out.println(s.getBookingId()); // calls getter for bookingId on each valu
 }
 ```
 
-## Algorithm data structures - evaluate performance of data structures
+<!-- ## Algorithm data structures - evaluate performance of data structures
 
 Refer to memory management
 
@@ -187,3 +187,84 @@ Change this to a map?
 // Booking class is imported and morphed by Map or List
 
 // Source in planning: https://www.geeksforgeeks.org/difference-between-list-set-and-map-in-java/
+ -->
+
+__The Scanner Object - handling i/o in Java__
+
+Standard streams and files
+
+RAM memory has 3 separate blocks of memory standard input/ standard output and standard error 
+Shell and CLI - helps you redirect file streams
+
+On shell `>` redirection symbol redirect to out1 - redirects it it from the screen to a file
+The pipes `||` is also a redirect symbol in bash
+
+The streams move into processes and these processes are given jobs and job numbers to run the program data 
+This could be any program from word to Java programming language
+
+Bash - cal in the bin directory eg: $`cal 05 2025` is a GUI program that displays the calendar by month and year
+
+The information is stored in RAM in a buffer not on the hard drive unless specifically redirected to a file path
+
+In the bin or binary files directory, there are several of these simple programs that you can access and run from your computer terminal
+
+- Program data is allocated in memory - the stack and heap where primitive and reference types are stored
+- They are stored in bits and bytes
+
+On start of the Java programming language the language and syntax communicates with the environment sharing data.
+The key interface points are the keyboard and the display of hardware (computers), to see text the programming language
+is coded in standard character encoding - UTF 8 a modern version of ASCII.
+
+ASCII - 1 byte and 8 bits, UTF 8 allows us to represent an exended list of characters with diacriticals and symbols to represent the inputs of non-Roman language alphabets.
+
+The JVM uses an abastraction of a string to provide communication between files/ networks/ computers/ hardware. It is provided by the hardware via standard streams.
+
+Standard streams - input/ out and error streams - Java communicates to the hardware via the keyboard (standard input) and the display (monitors) provides standard output.
+
+Printing to these streams happens via the standard i/o and errors.
+
+JVM provides a wrapper utility - Scanner to access the i/o
+
+If you want to get input from the keyboard you use the Scanner utility which comes with its own methods.
+
+```Java
+System.in()
+System.out()
+System.err()
+```
+
+Are the methods for encoding and decoding data into UTF-8 or whatever the devices defacult encoding is
+The Scanner ensures that data is read from or written to these hardware i/o streams and interpreted correctly by the hardware
+
+It is a public static object of the PrintStream class
+Public attribute - exception to the rule of encapsulation because we need it to access the i/o
+
+The method encodes the String object into bytes using the device's default encoding (which could be UTF-8 for text)
+
+Std in reads raw bytes from the keyboard into the System class and decodes it from UTF-8  parsing this as text data
+It can then call
+
+```Java
+nextLine()
+nextInt()
+nextDouble()
+```
+
+Javac is the CLI that complies code and translates it into byte code,
+
+Redirecting Standard input with the greater symbol >stdout the  2> is to standard error
+
+Streams and network abstraction
+Program data is stored on the stack or head, abstracts access to the network, accesses the network and exchanges data via the std input/st output and std error streams
+Instead of seeing the data on the o/s we can abstract the data and send it to a storage site
+We do this through the process of composition
+
+From print stream we send the information to the fileoutput stream object
+
+The FileOutputStream util or PrintWriter util
+
+Checked exceptions - write a try-catch or the program will not compile it is a system error which may impact the i/o and the compiling of the program
+
+finally block - close the writer - flush the buffer and release resources
+
+Reading from files

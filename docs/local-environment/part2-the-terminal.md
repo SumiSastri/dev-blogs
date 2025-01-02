@@ -11,15 +11,15 @@ The terminal, also known as a terminal emulator, is a graphical user interface (
 
 Commands are typed through a `tty` or a teletypewriter device in the terminal. If you type the command `tty` in your terminal, it will give you your device tty number and the file path `/dev`.
 
-The shell is a computer program that is a command interpreter, as defined by Stallings, et al., [1]. The shell interprets the computer control panel commands, translates or interprets the commands feeds these commands via the terminal in a simple text format. 
+The shell is a computer program that is a command interpreter, as defined by Stallings, et al., [1]. The shell interprets the computer control panel commands, translates or interprets the commands feeds these commands via the terminal in a simple text format.
 
 The shell sits next to the computer kernel. The kernel is an additional layer between the shell and the computer control panel. It is a layered system, which allows the system to communicate efficiently.
 
 A shell a piece of software that is a basic user interface for accessing an operating system's (OS) service via the computer terminal's command line interface (CLI). Shells can be used to write a range of programming scripts from simple to more complex operations. A good article[2] to read on the differences between the shell, terminal and CLI, from Geek for Geeks, provides an easy to compare table which gives you the differences at a glance.
 
-When you type `tty`, the command on a shell, it calls on the kernel to display the serial number and path where the `tty` is located and display it back to the user on the command line. 
+When you type `tty`, the command on a shell, it calls on the kernel to display the serial number and path where the `tty` is located and display it back to the user on the command line.
 
-Shell programming works due to several packages of free software from GNU, [3] which the organisation describes as a collection of many programs, applications, developer tools and even games. 
+Shell programming works due to several packages of free software from GNU, [3] which the organisation describes as a collection of many programs, applications, developer tools and even games. This is where, if you run the command `cal` that a calendar will be displayed.
 
 The kernel communicates via this layered system to the deepest layer - the interface with processors, network controllers, memory and other key components of the computer hardware.
 
@@ -27,11 +27,11 @@ The next layer is the management and distribution of memory, including random ac
 
 As the computer is fed with various requests from the terminal, via the shell to the kernel. These processes have to be managed efficiently, in the kernel. Another layer in the kernel is the process scheduler, which takes care of input-output (I/O) management and schedules what processes will be managed in what order and in what order the output will be processed and delivered.
 
-The next layer is device management, which may look after interaction with peripherals, screens, keyboards etc. 
+The next layer is device management, which may look after interaction with peripherals, screens, keyboards etc.
 
-The top layer of a kernel is FS, where the processes that are scheduled by the scheduler are assigned to memory or RAM, using the files in the FS.
+The top layer of a kernel is FS, where the processes that are scheduled by the scheduler are assigned to memory or RAM, using the files in the FS. Files are protected with permissions in bin or binary files. These bin files, store information in 0s and 1s, the binary 100, represents read-only permission, 110-read and write permission and 111 read, write and executable. Binary is a code representing a command, therefore 100 is not the number one-hundred.  Leading to the binary joke - there are only 10 types of people in the world, those who understand binary and those who don't - as 10 in binary actually represents the number 2 when it is "translated" into binary.[5]
 
-The terminal in your computer is your main access point to all of these operations that are being run in the background. 
+The terminal in your computer is your main access point to all of these operations that are being run in the background.
 
 The terminal allows you to interact with the programs on your computer and navigate through the FS.
 
@@ -71,7 +71,7 @@ Now run `fsck` you will find out if you have shut down your computer and if any 
 
 ## Fast file creation, navigation and permission setting
 
-The most powerful use case for bash scripting in the terminal shell, is managing the FS. 
+The most powerful use case for bash scripting in the terminal shell, is managing the FS.
 
 From the terminal, you can create files and directories. In one command you can set up a directory with multiple files. In the example below, you can make the directory test2, with the command `mkdir` under the file path of Desktop. Using the double ampersand `&&` you can also create a range of files - file1.txt to file5.txt - as defined by the command `touch` to create the files and the file expansion command `{1...5}` to define the number of files you want with the `.txt` extension.
 
@@ -87,7 +87,7 @@ In the FS, the etc folder is used to define groups of users `etc/passwd` or `etc
 
 ## The Unix manual of commands
 
-It is virtually impossible to remember all the commands and is not even very useful to, however one command `whatis <nameofcommand>` is a real get-out-of-jail card. If you type the command `whatis` followed by the name of the command you want to understand - for example if it is `chmod`, type `whatis chmod` in the terminal and the list of use cases and meaning of the command is displayed. 
+It is virtually impossible to remember all the commands and is not even very useful to, however one command `whatis <nameofcommand>` is a real get-out-of-jail card. If you type the command `whatis` followed by the name of the command you want to understand - for example if it is `chmod`, type `whatis chmod` in the terminal and the list of use cases and meaning of the command is displayed.
 
 Another very useful command is `whereis <nameofcommand>` - for example if you want to know where in the filing system the listing commands are stored `whereis ls` 
 you should get the answer `ls: /bin/ls /usr/share/man/man1/ls.1` will tell you where the file is stored.
@@ -95,7 +95,6 @@ you should get the answer `ls: /bin/ls /usr/share/man/man1/ls.1` will tell you w
 __Run commands or rc files__
 
 While setting up bash or zish shells, you will be asked to create run command files or rc files - `bashrc` or `zshrc`. Run command files and tell the computer how to run the programs installed - in this case the bash scripting files and the zish scripting files.
-
 
 __Creating aliases__
 
@@ -110,3 +109,5 @@ An easy way to remember these commands is to alias them for your own use, you ca
 - [3] Shelley, Peek, Jerry D, __Unix Power Tools__ 3rd edition, (O'Reilly Learning, Beijing, 2003) 
 
 - [4] __Geek for geeks__,"Nano text editor in Linux", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/nano-text-editor-in-linux/).
+
+- [5] __Computer Hope__, "Binary", https://www.computerhope.com [Available](https://www.computerhope.com/jargon/b/binary.htm#work)
