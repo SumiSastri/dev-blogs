@@ -2,9 +2,19 @@ __Java memory management__
 
 Summary:
 
-When a method is invoked a local variable frame (stack frame) is created at the top of a stack
+When Java is written and run, the JVM uses javac to compile the program. The code is compiled and linted before it is transformed into byte code, which is then converted into binary. This makes the system slower. Java is written in such a way that when it is running it is running via the Java application, so the app creates a sandbox protecting the system.
+
+It makes it safer to use. It was not developed as an everyday programming language, it was written as code for hardware. The i/o for Java you have run through various levels to run print statements.
+
+It was designed for dealing with hardware. C was developped for writing operating systems, it has not changed at all. The design of the kernel and the heart of the kernel is built on C and nothing else.
+
+Can't used objects as they are expensive. Kernel is pure C. Because C is so basic, it gives it extra power and speed. C and Fotran are very old languages like Cobol and Visual basic.
+
+OS' have the same form - backend which is the kernel, the front end where the GUIs are used to interact with the users and peripherals written to interact with users via the terminal. CLIs and shells are used to interact with the shell which interacts with the kernel.
+
+In Java, when a method is invoked a local variable frame (stack frame) is created at the top of a stack
 All the method arguments and variables are allocated in that frame
-Variables in a local variable frame have the same liftime as the method they belong to
+Variables in a local variable frame have the same lifetime as the method they belong to
 Methods are called and data is passed by value - a copy of the data passed
 Methods terminates and the space is deallocated
 Data stored on the heap that are passed by reference have a longer lifetime than local variable

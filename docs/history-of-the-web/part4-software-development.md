@@ -38,7 +38,7 @@ All this led to a proliferation of "big data" and the need to manage this with m
 
 Given the initial need for computers to compute mathematical tasks, computer languages developed a language structure of their own - a small vocabulary, limited room for ambiguity in the instructions and the ability to logically flow through a binary - yes-no - lexical tree.
 
-Computer languages use a context-free grammar called the Backus-Naur Form (BNF)[9]. 
+Computer languages use a context-free grammar called the Backus-Naur Form (BNF)[9].
 
 BNF uses numbers and symbols as a form of pattern matching rather than words and syllables. This lexical tree is parsed to validate its instructions. Lexical parsing uses recursion - or restating the base case problem statement over and over again until the solution is reached. The restatement narrows down the options till the base statement is proven correct. 
 
@@ -86,7 +86,6 @@ Source code can be written in one or several languages called the tech-stack. Co
 Software, if it is not open-source allowing free access to the licence to use it, will describe terms of use.
 
 Linux, is often used as the base for studying operating systems because the systems that run operating systems that use Linux are open source. Unix, Windows, Android and Apple all have their own commercial software. This makes understanding their operating systems less transparent.
-
 
 #### EXTERNAL REFERENCES - Software development an adjunct to hardware development
 

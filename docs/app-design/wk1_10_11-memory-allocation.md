@@ -47,3 +47,11 @@ Till you get to 0 to ensure that the file can be run
 
 Polynomials
 <https://www.cuemath.com/algebra/polynomials/>
+
+
+Scheduling algos
+
+- Single CPU
+- Extended to be mapped to multiple architectures for load balancing
+- Randomisation of allocation of jobs of the processes
+- Priority factors to add
