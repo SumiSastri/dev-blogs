@@ -54,6 +54,18 @@ Each of these logical operators may have a slightly different meaning in the lan
 
 Other operators and operands are used. While learning the syntax of a particular language, it is useful to look at the specific meaning of these operators and operands and how they execute the program instructions. The documentation will outline the syntax prescribed and what compilers will check against for errors.
 
+## Program instructions and functions
+
+A function is a set of instructions that accompanies data and provides behaviours to the data. The function may require the program to add 2 numbers, where the 2 numbers are the data and the behaviour required from the 2 numbers are that they perform a simple arithmetic addition.
+
+Most programming languages also include functions as part of their lexicon and functions occupy a space in memory. Therefore, from a memory allocation perspective, the data and its behaviours are an important part of a program.
+
+Functions have a return statement - the return of the addition would be to add the 2 numbers with the variable names a and b. The function body would be the instruction block, and the function call would be when the function is used to add 2 numbers replacing the variables a and b with real numbers.
+
+The function using Backus-Naur Form [BNF](9), would look something like this `function add(a, b){ return a + b}` and the function call could look like this `add(1, 2)`, where the a and b variable are replaced with any number and an arithmetic operation is performed.
+
+Deriving from both algebra and natural languages, like English, computer languages use lexical structures derived from BNF. This was largely due to the fact that initial programming languages focused on solving mathematical challenges.,
+
 ## Initialisation of data and data state management
 
 Programming data consists of data and instructions. Instructions is the set of programming logic that transforms base data.
@@ -80,9 +92,18 @@ Each byte is allocated an address, the most significant bytes (MSbytes) are stor
 
 ## Data and memory allocation - efficiency quotient
 
+The computer memory is used to store and recall data in a series of units or bits. Instructions from processes could be fetched one bit at a time, but the chunking of code means a group of bits is fetched at any given moment. Though, not what we would describe as a word a group of bits is termed as a word and the number of bits in a word as word length of the computer. Words flow into virtual memory on a page. Pages flow into page-frames.
+
 The smaller the data, the quicker it is processed, this data is stored on RAM. The larger the data the slower it is processed. Data then may be stored on ROMs, read-only-machines, hard drives, external hard drives, on-premise servers or cloud servers. The further away the data is to the CPU the longer it will take to process.
 
 The efficiency quotient, or latency is the reference of how and where programming languages store, retrieve and process data.
+Latency, or the speed of processing and the cost of a memory unit depends on its access time. The costs are higher when more time is taken to access the memory location. This is why you would pay over and above disc storage for an SSD, external drives or cloud storage.
+
+The processor looks for an address that is associated with each word. The address is stored in RAM units, the fastest and smallest is RAM and largest is the main memory. Secondary storage devices like SSDs, CD-ROMs, the cloud all store data but the further away the data is from the processor, the slower the job takes to get processed.
+
+Programs access the virtual memory on a page as they supports processes larger than physical memory. Paging algorithms are used to manage page space and memory map tables map virtual to physical pages. The map is made up of link lists that represent blocks used by a process and free blocks.
+
+Algorithms are used to allocate space for programming languages that need to be converted from their program data types to intermediatory code - byte code - which then compiles down to bit code that target machines understand.
 
 #### EXTERNAL REFERENCES
 
@@ -94,4 +115,4 @@ The efficiency quotient, or latency is the reference of how and where programmin
 - [Scrimba - boolean logic](https://scrimba.com/p/pPPeCy/caJVKfv)
 - [Endianism - Wikipedia](https://en.wikipedia.org/wiki/Endianness)
 - [Endianism - Freecodecamp](https://www.freecodecamp.org/news/what-is-endianness-big-endian-vs-little-endian/)
-
+- [9] __Ada computer science__ Accessed Dec 13, 2024 [Available](https://adacomputerscience.org/concepts/trans_bnf)

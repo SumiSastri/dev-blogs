@@ -139,8 +139,6 @@ A binary semaphore has the binary values of 0 and 1 but a counting semaphore can
 
  RAM does not store data between reboots so it is referred to as volatile. [6] And normally, only the OS has a choice over what is put here. For processes, it is generally measured in megabytes, gigabytes, or as a percentage of all the memory available and this is where the confusion can arise. When someone describes a laptop as having 32 GB of memory, this storage is what they're referring to. RAM is additional "fast" storage.
 
-#### EXTERNAL REFERENCES - How computers process data
-
 - [1] George Charalambous (2024), __Operating Systems Processes & Resource management (1)__ , PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5377599_1)
 
 - [2] __Tech terms__ (Accessed: Dec. 14, 2022) [Available](https://techterms.com/definition/gigahertz)

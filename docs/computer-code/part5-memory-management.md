@@ -8,13 +8,80 @@ last_updated: Dec 2024
 
 # Memory management - key alogrithms
 
-The computer memory is used to store and recall data in a series of units or bits. Instructions from processes could be fetched one bit at a time, but the chunking of code means a group of bits is fetched at any given moment. Though, not what we would describe as a word a group of bits is termed as a word and the number of bits in a word as word length of the computer. Words flow into virtual memory on a page. Pages flow into frames.
+__Memory scheduling allocation alogrithms__
 
-The processor looks for an address that is associated with each word. The address is stored in RAM units, the fastest and smallest is RAM and largest is the main memory. Secondary storage devices like SSDs, CD-ROMs, the cloud all store data but the further away the data is from the processor, the slower the job takes to get processed.
+Allows bare sharing of the CPU based on given processes running. The algos are based on a single CPU not on multicore - this can be mapped to multicore using load balancing so that you can assign values to separate qs and randomise allocation of jobs to the processes based on how busy they are and other priority factors you can add on NICE is used to give access to the CPU.
 
-Latency, or the speed of processing and the cost of a memory unit depends on its access time. The costs are higher when more time is taken to access the memory location. This is why you would pay over and above disc storage for an SSD, external drives or cloud storage.
+If it is a kernel - high priority, user based lower value. The NICE value changes as a process sits in the q, increases selfish round robin - priority of jobs waiting in the new q so that they get accepted and run on the system
 
-Programs access the virtual memory on a page as they supports processes larger than physical memory. Paging algorithms are used to manage page space and memory map tables map virtual to physical pages. The map is made up of link lists that represent blocks used by a process and free blocks.
+- First fit - where the first space availble is used to store data, this is fast but may not be efficient
+- Next fit - where the allocation continues where the last allocation spot was determined and the next first fit found
+- Best fit - all available space in memory is searched and the closest match in terms of available space is found - while this looks like the best option, best fit is slow and leaves small fragments of unused memory space that have to be cleaned up by softwared packages like garbage collectors or defragmenters
+- Worst fit - like best fit, a complete scan of memory space is run and then the largest available space is used, this may look like a bad option but what it allows for is many processes to run uninterupted, it is also slow as all the space is searched
+- Quick fit - algorithms checking quickly for the best fit option allows for speed while minimising the amount of memory fragmentation
+
+A process is dynamic depending on where it sits on the system - does not remain on a particualr site on the memory map, it can be moved based on the OS requirements. It can be allcoated and deallocated and moved. Deals with the image of the process when there is an OS, we ensure that we map our memory structures to the physcial structures - ie the RAM - a mechanism to protect process, sharing multiple instances of process running, so image of process needs to be shared when a process is created memory needs to be allocated according to page structure
+
+Pages are swapped to and from the disc. A process called thrashing. A frame is a block of physical memory but a frame is virtual memory. There are 1-2-1 mapping of pages and frames.
+
+Page frames need to have limited wastage of memory. 50% of wasteage of space allocation happens 0 small processes can't just create smaller paging  internal fragmentation happens.
+
+Swap pages in and out easily because 121 mapping.
+
+protection is hard to do - sticky bit to one change???
+Swap space on hard drive - swap places in and out of memory - more time spent on thrashing rather than executing the program.
+
+__Memory map tables__ 
+
+It is a table that maps virtual pages to the physical frames - they are of the same size so this is used by the operating system to map where the process will be. The user will only see page addresses but they never see the frame addresses.
+
+If a page is in memory, the table extracts the the information and map the info based on the offset. If it is on the hard drive a page fault is created then the page is swapped from the swap space in the hard drive into the RAM space. Then the disc is updated and all the data structures updated with info for the new page. All of this is done dynamically.
+
+RAM increased - reduces the amount of swap space on the hard drive - when buying a computer higher the RAM better the performance.
+
+Mapping pages of a fixed size - which pages are occupied and used and which are free for allocation.
+
+A bit map is used to keep track of pages allocated. If it is allocated 1 and if not 0.
+
+__Link lists__
+
+Useful to order, remove elements, restructure and keep the nodes connected to each other - it is an extra layer of complication to code this.
+
+Used for creating qs and scheduling for the dispatcher and mapping of memory
+
+Why want this list - so that when you deallocate you free up memory space, you have adjacent frames to allocate to so that addressing will be easy, otherwise you will have to jump from one location to another for your memory
+
+The physical memory is not searched but the location is searched so that you can see which process is removed what space is freed up to create more space for other processes to be executed
+
+For C++ for some class definitions, created and methods to use so you don't need to worry - like the Vector classes ??? to allow you to create dynamic arrays, all the various are hidden so the list can expand and contract giving a dynamic array the ability to flex
+
+A strut is a key word that allows you to identify a number of variables under one label - it is a precursor to class creation in Java
+
+- strut - what you call it - eg: characters/ integers/ strings - you provide the fields or elements to your struts
+
+- It is a definition that does not exist in memory. You use your definition of a strut to create it you used the definition of the strut to create the variable that has the same structure of your data that you load on memroy
+
+It was the precursor to objects (C) it was the start of creating a class definition - variables + plus methods in a class are just a definition, then you create an object, you use your class as a blue print to create objects, it is the objects that are stored in memory, while the class is only a definition of how you want the object to be shaped and used. 
+
+Data structure of the link list - you can order and remove and keep the nodes all connected to each other
+Label 2 values and a pointer that point to the next value
+Definition - H or P/ Hole or process 1st is character H P occupied
+Base address - second field
+Length - number of blocks used - number
+Pointer to the next node - x is the pointer
+
+Address look up is a high overhead
+
+Page-frame allocation algorithms include:- 
+
+- FIFO first in, first out
+- LRU least recently used
+- NFU not frequently used
+- FIFO first in, first out
+
+Resource management memory allocation alogrithms manage resource deadlock and are also referred to as the bankers alogrithm.
+
+#### EXTERNAL REFERENCES - How computers process data
 
 __Paging algorithms__
 
