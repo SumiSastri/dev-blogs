@@ -34,11 +34,11 @@ With near-field communication, embedded systems and programs written for these s
 
 All this led to a proliferation of "big data" and the need to manage this with machine learning and in today's world, AI that builds models to allow computers to learn to pattern match and develop algorithms that are based on the underlying data.[8]
 
-## Software languages versus natural languages
+## What do software programming languages share with natural languages and how do they differ?
 
 Given the initial need for computers to compute mathematical tasks, computer languages developed a language structure of their own - a small vocabulary, limited room for ambiguity in the instructions and the ability to logically flow through a binary - yes-no - lexical tree.
 
-Computer languages use a context-free grammar called the Backus-Naur Form (BNF)[9].
+Computer languages use a context-free grammar called the Backus-Naur Form (BNF)[9]. Deriving from both algebra and natural languages, like English, computer languages use lexical structures derived from BNF. This was largely due to the fact that initial programming languages focused on solving mathematical challenges.
 
 BNF uses numbers and symbols as a form of pattern matching rather than words and syllables. This lexical tree is parsed to validate its instructions. Lexical parsing uses recursion - or restating the base case problem statement over and over again until the solution is reached. The restatement narrows down the options till the base statement is proven correct.
 
@@ -48,21 +48,41 @@ This form of parsing uses the recursive algorithm which must eventually stop cal
 
 Early languages, like Pascal, merely assembled code to be parsed and read and then executed in memory. In today's world, all of these are abstracted away from the end user.
 
-Higher-level languages are created in different phases to make syntactical analysis easier.
+Many processes outlined below were either missing or done manually.
 
-- Code creation before code gets executed, a high-level language can be written in an integrated development environment (IDE) or a text editor. IDEs come with runtime overheads but save time as they can perform many pre-compiling tasks and debug code before it has run. Syntax is to be adhered to, for example, keywords of the language have to be used correctly, symbols and puncutation like semicolons and colons used in the way described by the code manuals, tabs and parenthesis/ curly braces or square brackets used so that the code can be compiled using BNF, a semi-mathematical way of parsing or reading source code
+Higher-level languages are created in different phases to make syntactical analysis easier. The phases of how a computer programming language is created is described below:-
 
-- Pre-compiling, lexical analysis in BNF is done to scan streams of characters, discard white spaces and comments, linting and tokenization of characters to form a single unit by the source language, while this code is running errors are handled and a runtime error generated
+__Code packaging or code creation__
 
-- Code compiling (including debugging and code optimising) where syntax is analysed again looking for clauses and sentences according to the grammar rules set by the language and accepting the syntax tree or creating it if it has not been created at the pre-compile stage
+ A high-level language can be written in an integrated development environment (IDE) or a text editor. IDEs come with runtime overheads but save time as they can perform many pre-compiling tasks and debug code before it has run. Syntax is to be adhered to, for example, keywords of the language have to be used correctly, symbols and puncutation like semicolons and colons used in the way described by the code manuals, tabs and parenthesis/ curly braces or square brackets used so that the code can be compiled using BNF, a semi-mathematical way of parsing or reading source code. Code is packages into bundles that send messages to each other via a process called state-management. State management, refers to the data lifecycle management process, where  data that is created is initialised and stored, retrieved and updated and then removed from the processing queue to release memory space and allocation for other processing jobs in the program.
 
-- Code is then chunked and bundled together to be processed in streams. In this stage symbol tables are used to resolve issues, relative addresses of variables are generated, and the code is prepared for assembly
+__Pre-compiling__
 
-- At the assembly stage code is boiled down to binary where linking and loading of the process starts to generate executable code
+This is where the lexical analysis in BNF is done to scan streams of characters, discard white spaces and comments, linting and tokenization of characters to form a single unit by the source language, while this code is running errors are handled. Code is run to check for errors and runtime errors are caught and fixed.
 
-- At this stage when the code is being compiled errors are handled and reported back as compile-time errors
+__Code compiling__
 
-## The software development cycle
+Compiling code, includes debugging and code optimisation processes, where syntax is analysed again looking for clauses and sentences according to the grammar rules set by the language and accepting the syntax tree or creating it if it has not been created at the pre-compile stage. Code is then chunked and bundled together to be processed in streams.
+
+__Symbol Tables__
+
+Once data is chunked, the next stage is when symbol tables are used to resolve issues, relative addresses of variables are generated, and the code is prepared for assembly.
+
+__Assembly__
+
+At the assembly stage code is boiled down to byte code where linking and loading of the program to the machine it is going to run on starts. Executable code is prepared for parsing and execution on the machine it will run on - computers, mainframes, smart, gaming and mobile devices. At this stage when the code is being compiled errors are handled and reported back as compile-time errors, these need to be fixed before the linking and loading process when memory allocation starts.
+
+__Loading and linking__
+
+Memory allocation uses alogrithms to match the use case. Last in first out (LIFO) is used for memory that is on the stack, while other allocation algorithms are used for solving resource deadlocks and referencing data on the memory heap.
+
+__Instruction transfer to registers__
+
+Once the link tables are used to link data to the program running the instructions for state management, the data is loaded on to memory registers on the hardware that the program will run on.
+
+Because software development has grown exponentially from the 1990s to the 2020s, in 30 years there have been new ways to manage the process by which software developers create shippable software programs that can be utilised by end-users.
+
+## What is  the software development cycle?
 
 Using core concepts from the Hamilton model, the software development cycle is organised into the stages of
 
@@ -77,11 +97,11 @@ The V model allows linear progression up and down the scale as well as at vertic
 
 The aim of the software development cycle, which is constantly evolving is to release software as quickly, efficiently and accurately as possible because of the growing demand for software to solve problems in an abstract format and relieve the tedium of monotonous jobs and routines.
 
-## What constitutes a program
+## What constitutes a software program?
 
 A software package or program, today is a compiled or pre-compiled package of code blocks known as the source code. Source code is compiled into an object file and object files are linked with libraries to make the program run. This packaged file is executable and can be run on a computer, mobile application, gaming application or embedded system.
 
-Source code can be written in one or several languages called the tech-stack. Code is constantly maintained and updated with packages labelled into major versions, minor updates and patches with a numbering system. For example, Word Word 14.90.2 describes 14 as the major update, 90 the minor updates and 2 as the patches. 
+Source code can be written in one or several languages called the tech-stack. Code is constantly maintained and updated with packages labelled into major versions, minor updates and patches with a numbering system. For example, Word Word 14.90.2 describes 14 as the major update, 90 the minor updates and 2 as the patches.
 
 Software, if it is not open-source allowing free access to the licence to use it, will describe terms of use.
 
