@@ -21,7 +21,7 @@ In the early 1960s, French computer scientist [Louis Pouzin](https://en.wikipedi
 
 In the Unix world, and that includes the Mac operating system (MacOS) and Linux, many shell implementations have been popular in the past, like Bash, the Korn shell, the C shell (seashell).
 
-Two of the most popular shells, Bash and Zish both are mostly used across the Linux/Unix ecosystems - including the Ubuntu environment, a common Linux distribution environment. 
+Two of the most popular shells, Bash and Zish both are mostly used across the Linux/Unix ecosystems - including the Ubuntu environment, a common Linux distribution environment.
 
 Read more about [OSs](https://sumisastri.github.io/dev-blogs/local-environment/part1-the-local-environment/) for a contextual reference.
 
@@ -33,17 +33,17 @@ Bash is still by far the most‑used shell in the Unix world and unlikely to cha
 
 Modern Macs may have both Zish and Bash Shells installed.
 
-Run `nano ~/.bash_profile` and it should open up  `.bash_profile`. 
+Run `nano ~/.bash_profile` and it should open up  `.bash_profile`.
 
 Most customisation happens by running commands inside this file which is parsed or read every time you open a new terminal window.
 
-The MacOS, which used to have Bash as the default shell but recently switched to the Z (zee in American English) shell with the introduction of MacOS Catalina. 
+The MacOS, which used to have Bash as the default shell but recently switched to the Z (zee in American English) shell with the introduction of MacOS Catalina.
 
 Zish was the login of the original developer Paul Falstad's, Yale professor Zhong Shao. Zee-shell as it rhymes with C-shell is also referrred to as the Zish to avoid confusion.
 
 Microsoft Windows has its own shells, which are very different from Unix shells. You can use the Linux for (WSL) Windows Subsystem for Linux and run either Bash or the Zish on your Windows system.
 
-Zish is now the default terminal for Macs replacing Bash, with the M1 chips. 
+Zish is now the default terminal for Macs replacing Bash, with the M1 chips.
 
 Zish is considered by some Mac users to be more user-friendly as it has some extra configuration features.
 
@@ -68,26 +68,25 @@ See the installation guides for bash and zish. Both shells need to be installed 
 
 You can check which shell you are using by type `echo $SHELL` in your terminal.
 
-By default, since the upgrade to Catalina, MacOS uses Zish [see this announcement](https://support.apple.com/en-ca/HT208050). 
+By default, since the upgrade to Catalina, MacOS uses Zish [see this announcement](https://support.apple.com/en-ca/HT208050).
 
 You can, however, change the default login shell through `chsh -s /bin/bash` or any other shells listed by running  `< /etc/shells` this lists the shell paths: /etc/shells, such as /bin/zsh, /bin/bash, /bin/csh, /bin/dash, /bin/ksh, /bin/sh, or /bin/tcsh..
 
 You might want to switch from Bash to Zish and vice-versa. To use %zsh - if you wish to switch to any of the other paths listed replace with the file path.
 
-``` chsh -s /bin/zsh```
-``` chsh -s /bin/bash```
+```chsh -s /bin/zsh```
+```chsh -s /bin/bash```
 
-In some code editors like VS Code, you can select a Zish or Bash shell by clicking the chevron to the right of the terminal.
-
+In some code editors like Visual Studio (VS) Code, you can select a Zish or Bash shell by clicking the chevron to the right of the terminal.
 
 #### EXTERNAL REFERENCES - Computer shells - Bash vs Zish
 
 - [1] Scott Simpson, _Learning Bash Scripting_, (Linked-in Learning, Sept, 2022), [Accessed: Oct. 29, 2024](https://www.linkedin.com/learning/learning-bash-scripting-17063287/what-s-bash?resume=false&u=42314660)
 
-- [2] Brash Ron & Naik Ganesh, __Bash Cookbook__, 1st edn (Packt Publishing, July 2018), chap.1, pg3 - (URL or https://doi.org/)
+- [2] Brash Ron & Naik Ganesh, **Bash Cookbook**, 1st edn (Packt Publishing, July 2018), chap.1, pg3 - (URL or <https://doi.org/>)
 
-- [3] __Geek for geeks__, "The difference between a terminal, the console, a shell and the command-line-interface", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)
+- [3] **Geek for geeks**, "The difference between a terminal, the console, a shell and the command-line-interface", <https://www.geeksforgeeks.org/> (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line/)
 
-- [4] __Geek for geeks__,"Nano text editor in Linux", https://www.geeksforgeeks.org/ (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/nano-text-editor-in-linux/)
+- [4] **Geek for geeks**,"Nano text editor in Linux", <https://www.geeksforgeeks.org/> (Accessed: Sep. 30, 2024) [Available](https://www.geeksforgeeks.org/nano-text-editor-in-linux/)
 
-- [5] George Charalambous (2024), __BASH part 1__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5330159_1)
+- [5] George Charalambous (2024), **BASH part 1**, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5330159_1)

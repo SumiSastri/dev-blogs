@@ -84,7 +84,7 @@ Python - a scripting language used in data science is taught as it also is a pop
 
 PHP, C and C++ and Ruby-on-Rails once again are not taught at all bootcamps. PHP is a server side rendering language, while Ruby-on-Rails, is the back end framework for Ruby. PHP can be used, like JavaScript both on the frontend and backend. C is a backend language used for kernel development, while C++, an extension of C is used in gaming.
 
-Which of course does not mean you should not learn these languages. It means they are harder to access in short-courses by accredited bootcamps. 
+Which of course does not mean you should not learn these languages. It means they are harder to access in short-courses by accredited bootcamps.
 
 The older languages like Fortran, used for high performance computing, COBOL (Common Business Oriented Language) which has been around since the late 1950s, and Visual Basic used for  mathematical programming, are not popular. They are not taught although they are still used in many legacy systems. Visual Basic is an object oriented language developed by Microsoft for `.net` applications is no longer supported. COBOL, is still used in many ATM-machines, while Fortran remains, even today the language for high-performance and scientific computing.
 

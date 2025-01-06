@@ -6,167 +6,107 @@ nav_order: 6
 last_updated: Feb 2024
 ---
 
-# How is data stored and retrieved?
+## How is data stored and retrieved?
 
-Once data has been created or initialised in a program, it needs to be stored for future state modifications.
+Once data has been created or initialized in a program, it needs to be stored for future state modifications.
 
-All programming languages therefore have a storage type called a variable. The variable is allocated to memory for future use.
+All programming languages, therefore, have a storage type called a variable. The variable is allocated to memory for future use.
 
-State holds immutable data if data that does not change. Variables on initialisation are immutable.
+State holds immutable data—data that does not change. Variables on initialization are immutable.
 
-If the data is likely to change - for example, if a name is spelt incorrectly and needs to be changed or updated, then this data must have mutability - or the ability of a programmer to change its initial state.
+If the data is likely to change—for example, if a name is spelled incorrectly and needs to be updated—then this data must have mutability, or the ability for a programmer to change its initial state.
 
-To differentiate between these variables, JavaScript has two types of variables the `let` variable and the `const` variable. The `let` variable allows the data to be mutated or changed, while the `const` holds a constant state of data. [Read more on variables in JavaScript](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75) in this article by Elliot, on the Medium blog site.
+To differentiate between these variables, JavaScript has two types of variables: the let variable and the const variable. The let variable allows the data to be mutated or changed, while the const holds a constant state of data. Read more about variables in JavaScript in this article by Eric Elliott on Medium[3]
 
 Not all programming languages allow data to mutate. Such data is also considered static, versus dynamic data that could frequently change.
 
-Java, Python, C and other programming languages will have their own keywords that define a variable, and ways of mutating the initialised data. As Francesco Tusa, in his "Introduction to the Java Language", states, "Using variables is a way to reserve specific areas of the memory and make them accessible throughout the execution of a program."
+Java, Python, C, and other programming languages have their own keywords for defining variables and ways of mutating initialized data. As Westminster University's, Francesco Tusa states in his _Introduction to the Java Language_: "Using variables is a way to reserve specific areas of the memory and make them accessible throughout the execution of a program." [1]
 
-Once data has been created, initialised and stored, this data must be retrieved.  Different programming languages have different methods to retrieve data.
+Once data has been created, initialized, and stored, it must be retrieved. Different programming languages have different methods of retrieving data.
 
-Once higher language code has been compiled and run, it is executed in memory via a series of processes in the computer hardware.
+After high-level code has been compiled and run, it is executed in memory via a series of processes within the computer hardware.
 
 ## What is a code interpreter?
 
-In the [first article](https://sumisastri.github.io/dev-blogs/computer-code/part1-programming-vs-machine-code/) in this series, we looked at how source code is compiled and translated into machine-readable code.
+In the first article in this series, we explored how source code is compiled and translated into machine-readable code.
 
-Depending on the source code, each programming language will have its own syntax and code interpreters.
+Depending on the source code, each programming language has its own syntax and code interpreters.
 
-Code blocks use the keywords and symbols that are interpreted by interpreters to execute the code block.
+Code blocks use keywords and symbols that interpreters read to execute the code block.
 
-Data is created in a computer program, or a piece of software and stored in a file. The first piece of information that an interpreter looks at is the file extension to read or parse the file correctly.
+Data is created in a computer program or piece of software and stored in a file. The first piece of information an interpreter examines is the file extension to read or parse the file correctly.
 
-The next set of information that the interpreter looks at is the code entry point. In the case of the Java language, Tusa points out the `class` keyword provides the program it is running with a prototype of the code block.
+Next, the interpreter identifies the code entry point. In Java, for instance, Tusa notes that the class keyword provides the program with a prototype of the code block.[1]
 
-The code block is contained at the beginning and the end by curly braces `{}` and the set of instructions or the code block is written within this block for execution.
+The code block is contained within curly braces {} at the beginning and end, with the set of instructions written inside for execution.
 
-Within the code block, the interpreter then looks at the data type and the conditional programming statements.
+Within the block, the interpreter evaluates data types and conditional programming statements.
 
-The instructions are then executed successfully, if the execution is unsuccessful an error is recorded.
+The instructions are executed if successful. If execution fails, an error is recorded.
 
-This process of interpretation differs from language to language. As the syntax and structure of programming languages differ, interpreters are also packages of software that are encoded to meet these differing needs.
+This process varies from language to language. Since the syntax and structure of programming languages differ, interpreters are software packages designed to meet those needs.
 
-The basic function of an interpreter is to read code and catch errors early before the code is compiled by a compiler.
+An interpreter's basic function is to read code and catch errors early, before the code is compiled by a compiler.
 
-Python is a purely interpreted code - so the code runs right to the end before an error is detected. Java is a compiled language and code errors are caught by the javac compiler used in the JVM.
+Python, for example, is purely interpreted—errors are detected only after the code is run. Java, a compiled language, catches errors through the javac compiler used in the JVM.
 
 ## What is code compiling?
 
-A compiler is software that provides a mechanism for source code in your software application to work efficiently with the target machine it is intended to run on.
+A compiler is software that translates source code into instructions that the target machine can execute efficiently.
 
-A software package's source code may require several lines of code to be interpreted and executed. The role of the compiler is to take these data chunks and compile them in the order they need to be executed on the stack frame in the memory (RAM) of the computer by providing the computer an instruction set that the CPU can execute.
+A software package's source code may consist of numerous lines. The compiler organizes and compiles these data chunks in the proper execution order for the computer’s memory (RAM). This creates an instruction set that the CPU can process.
 
-A code compiler takes information from the interpreter like pieces of a jigsaw to put the bigger picture together. In this case, all the features of the code enable the package to deliver an instruction set to the machine it is run on - a computer, mainframe, mobile device.
+A compiler takes information from the interpreter, like pieces of a jigsaw puzzle, to assemble the bigger picture. It ultimately enables the program to deliver a functional instruction set to a computer, mainframe, or mobile device.
 
-Once again, compilers are language-specific. Java uses compilers like Javac, while JavaScript uses compilers like Babel, Webpack and ESBuild.
+Compilers are language-specific. For example, Java uses compilers like javac, while JavaScript uses tools like Babel, Webpack, and ESBuild.
 
-Compilers can run once or several times performing several key tasks to compile code. They are called single pass and multi-pass compilers, respectively.
+Compilers may perform single-pass or multi-pass operations, depending on their tasks. Key responsibilities include:
 
-The key jobs that compilers fulfil are to:
-
-- to provide lexical, syntactical and contextual analysis of source code
-- evaluate preprocessor instructions first
-- to scan and review source code to synthesise and optimise code
-- run redundancy checks
-- provide debuggers to "set traps" for code and review exact points of failure
-- run further linting and optimising checks to remove empty spaces and commented out code
-- highlight compile-time errors fixing them before runtime
-- create a Symbol Tables - of variables, loop structures, identify the positions of the data
-- create a construct target, or an executable program from intermediate representation of source code to byte code
-- the construct target is called an "executable" and is an object
-
-The compiler finally provides the machines it runs on an object file and turns it into byte code that the machine can use and run.
-Compilers targets the O/S, memory structure, the data-buses and map the architecture mapping code that is fit for purpose to execute and run. Creates a standard process image. Initialisation process all other processes come from the parent process. It creates a clone of the initial process and uses the clone of the object created by the compiler also known as the "executable"
-
-Compilers will also link and run the libraries in your software program and then load your program on the memory registers.
-
-- convert
-- optimise code
-- object file is linked to libraries
-- create the executable - right form as a standard process image
-- final version of the code that is loaded on registers
+- Providing lexical, syntactical, and contextual analysis of source code.
+- Evaluating preprocessor instructions first.
+- Scanning, reviewing, and optimizing code.
+- Performing redundancy checks.
+- Debugging code to locate and resolve exact points of failure.
+- Running linting checks to remove unnecessary spaces or commented-out code.
+- Highlighting compile-time errors to resolve issues before runtime.
+- Creating symbol tables to map variables, loop structures, and data positions.
+- Generating a construct target or executable program by converting intermediate code into bytecode.
+- Finally, the compiler links libraries and loads the program into memory registers for execution.
 
 ## What is code transpiling?
 
-Transpiling is a further process once code has been compiled to re-compiling the code from one language or code format into another code format or language. You can think of it as a translation service of one code format to another.
+Transpiling is a process that re-compiles code from one format or language into another, serving as a form of translation.
 
-When Byte code is compiled down to machine-readable code, for example, a process of compiling and transpiling is taking place.
+For example, when bytecode is compiled into machine-readable code, transpiling is involved. Most modern compilers now act as both compilers and transpilers, but these tools are often language-specific, Tusa explains[2]
 
-Compilation from source code and transpilation into machine-readable code.
-
- Most code compilers now are also transpilers, but these compilers are language-specific. While Tusa, also shares the view that the lines between interpreters and compilers are blurring, he refers to a Java software environment.
-
- JavaScript, has a completely different language syntax and structure. Reading [the tutorial by Digital Ocean](https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them#:~:text=Transpilers%2C%20or%20source%2Dto%2D,are%20said%20to%20target%20JavaScript.)"JavaScript Transpilers: What they are and why we need them", you will witness for yourself the differences in the language and structure.
-
- The idea behind selecting these 2 articles is not to provide the reader with an in-depth view of how Java and JavaScript are syntactically different, but simply to demonstrate that they are.
+JavaScript transpilers like Babel focus on translating newer syntax into older, compatible JavaScript formats. For more details, see this tutorial by Digital Ocean[4].
 
 ## What is code bundling?
 
-Code bundlers automate certain processes required for the code to be interpreted by code interpreters.
+Code bundlers automate processes to optimize code for interpretation. Their functions include:
 
-Some of the functions the bundlers undertake are
+- Standardizing code.
+- Cleaning traceable errors.
+- Reducing computational load by splitting code into smaller, loadable chunks.
+- Creating source maps for debugging during development.
+- Removing unnecessary code and spaces (minification) and combining files for performance (concatenation).
 
-- to standardise code
-- clean up traceable errors
-- handle any expensive and inefficient tasks reducing the compute load on hardware
-- split and chunk code into smaller, more easily loadable parcels containing - code, images and other assets - bundlers must have the ability to bundle different modules/ packages/ code together efficiently
-- trace code back to the source files and provide source maps - this helps in the development environment with root-cause analysis and debugging
-- extend basic functionality through plugins
-- bundle code for development, integration and production environments.  In the development environment, source-code mapping is more important while in the production environment minification and concatenation are more important.
-
-Minification is the process by which a code bundler removes all white spaces, as well as unnecessary code to make the file size smaller/lighter and more performant. Concatenation is the process where one or more files are combined once again to make the code more performant.
-
-Multiple code interpreters, compilers, transpilers and bundlers are used in the development process. It is not always possible to know the features or functionality of each of these pieces of software.
-
-Software developers rely on compilers and interpreters to do the heavy lifting when it comes to boiling down code to its most efficient format for storage in a processor.
+Examples of popular bundlers include Webpack and Parcel.
 
 ## What is a code package?
 
-A code package is any code that is bundled together and that can be used efficiently.
+A code package is a collection of code that is bundled together for efficient use. For example, JavaScript libraries like React or the Java Class Library (JCL) contain precompiled code for developers to leverage.
 
-Code libraries like React, written in JavaScript or the Java Class Library (JCL) use pre-compiled code and features that can be used by software developers writing source code.
-
-## What is code package management?
-
-Code package management is a part of maintaining your code base and ensuring code packages used are updated regularly.
-
-When code packages are updated, they may or may not be backwards compatible and may generate breaking changes.
-
-These changes must be managed to ensure code failures are stopped before they are published or released.
-
-Code in the packages a developer writes will have to be rewritten to the new syntax and norms of the new version of the upgraded package.
-
-Often, packages that are out of date offer no long-term support and issues that you face will not be addressed by the package publisher.
-
-This constant updating of packages with new features takes a significant amount of time for developers but is a core part of writing and maintaining code bases.
-
-Version changes can be major or minor.
+What is code package management?
+Code package management ensures that libraries and dependencies are up-to-date, preventing issues from outdated code. Updates can introduce breaking changes, requiring developers to rewrite or adapt their code. Packages are often versioned, and maintaining compatibility is a core part of managing a codebase.
 
 ## What is code patching?
 
-Part of code package management for code libraries is introducing patches or small chunks of code that update a package to improve functionality.
+Patches are small updates to improve functionality or address issues in code packages. Versioning typically uses a semantic system (e.g., 2.1.11, where the last number reflects a patch). Developers monitor release notes to implement necessary changes.
 
-Patches are smaller than minor version changes or updates. Version 2.1.11 denotes the major version is 2, which will significantly vary from Version 1.0.0 of the package. The next decimal place denotes a minor update to the package with 2.1.12, perhaps a patch update to 2.1.11.
+## Conclusion
 
-These are not strict rules, with each package manager providing package release notes for developers to follow and update code when they are maintaining a code base.
-
-## How these processes enable code storage
-
-All these processes - interpreting, compiling and transpiling - are part of business owners' goal to keep data storage costs down.
-
-Data storage on-premise, or in cloud storage systems is expensive. Data processed on hardware and embedded systems is a cost, if programs take time to run, in terms of productivity.
-
-If a significant load of processing can happen outside this infrastructure, the code stored in the local environment or hardware can be minimal and the instruction cycle - as outlined in [the first article in this series](https://sumisastri.github.io/dev-blogs/computer-code/part1-programming-vs-machine-code/) is shortened.
-
-This race to process more data efficiently requires expensive chips and integrated circuits. Chips used for generative artificial intelligence (genAI) programming at the top end of the scale.
-
-Cloud storage services are also an expense, in the consumer world, Apple, Google and Microsoft offer additional storage space at a cost.
-
-Data from videos and images need more storage and compute power. The volume of data being consumed by end users from social media, integrated media platforms that offer video, audio and text content has grown exponentially.
-
-If you explore your computer filing system by typing `cd` into the terminal, you will see application software is stored in `.app` files in the Applications folder; binary files in the bin folder; the library or lib folder when you `cd` into it will open up a new set of folders - peripherals and printer plugins and commands being one of them.
-
-The organisation of the filing system, enables storage on the hard drive. When the program is executed, this data from the program is retrieved, compiled and then is processed in memory using RAM and DRAM.
+All these processes—interpreting, compiling, transpiling, and bundling—play a role in reducing storage and computation costs. Efficiently processed data leads to lower costs for both on-premise and cloud storage solutions, making it vital for business operations. Data organization in memory and storage systems ensures programs execute seamlessly, balancing cost and performance.
 
 #### EXTERNAL REFERENCES
 

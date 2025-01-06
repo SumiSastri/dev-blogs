@@ -8,19 +8,23 @@ last_updated: Dec 2024
 
 # How computers process data
 
-A computer's behavior is expressed in code and data that is contained within programs, or processes.  Program processes, typically run on a computer, or operating system (OS) of a machine. Resources that manage processes are finite, and we can only start to manage our processes when we know what they're doing to the machine.
+A computer's behaviour is expressed in code and data contained within programs, or processes.  Program processes, typically run on a computer or a machine's operating system (OS). Resources that manage processes are finite, and we can only start to manage our processes when we know what they're doing to the machine.
 
-Every action an OS undertakes must be executed in a processor nested in the CPU (Central Processing Unit) to produce the desired output. A  CPU may be housed in a core, a computer may have one or more cores. It is the location where memory addresses and data are stored in registers.
+Every action an OS undertakes must be executed in a processor nested in the CPU (Central Processing Unit) to produce the desired output. A CPU may be housed in a core, a computer may have one or more cores. It is the location where memory addresses and data are stored in registers.
 
 A process is the execution of a compute process in the processor. The CPU and cores manage these processes and the speed of their execution, based on a clock rate, which is 1 second of a clock. Some processes are executed in less than a second - milliseconds or even nanoseconds.
 
-For any process to be executed a set of predetermined steps need to be followed as processes are part of the binary units of dispatching information consuming competing resources.[1] A process has to create necessary data structures, find the executable code on the disk, load it on to memory and start execution of the program.
+For any process to be executed a set of predetermined steps need to be followed as processes are part of the binary units of dispatching information and competing for resource access.[1] A process has to create necessary data structures, and find the executable code, the standard executable object created by a high-level software language's compiler. The object needs to be located on the target machine and loaded into memory registers to start the execution of the program.
 
-To ensure efficient and effective processes, each process has unique identity number allocated.  The PID (process identity) numbers need to be converted into binary where the binary processes are PID 0 and PID 1. PID 0 is called the swapper process, it runs when hardware is turned on and swaps the processes it contains to PID 1. The PID 1 process is considered the ancestor to all processes as it initialises all further processes. The initialisation or "init" process are run and PID 1 is referred to as the init process.
+The kernel creates a clone of the existing program, and the data is initialisation. This clone is the initial process that is given a unique identity number, or process ID.  
 
-Compute power - or the speed with which your computer can run programs depends on how may processes you may want to execute and the compute power of the processors to deal with them.
+The PID (process identity) numbers need to be converted into binary where the binary processes are PID 0 and PID 1. PID 0 is called the swapper process, it runs when hardware is turned on and swaps the processes it contains to PID 1. The PID 1 process is considered the ancestor to all processes as it initialises all further processes. The initialisation or "init" process is run and PID 1 is referred to as the init process.
 
-This enables resource management for competing and limited space in RAM (random access memory), disc space, CPUs (central processing units), external peripherals like printers, etc., The binary system is used as it is a lightweight method to transport data and information. Additionally, it is ideally equipped to trasmit data to a computer is because a computer is a series of switches, or transistors and wires that run programs stored in memory switching the processes on and off.
+Compute power - or the speed with which your computer can run programs depends on how many processes you may want to execute and the computing power of the processors to deal with them.
+
+This enables resource management for competing and limited space in RAM (random access memory), disc space, CPUs (central processing units), external peripherals like printers, etc., The binary system is used as it is a lightweight method to transport data and information. Additionally, it is ideally equipped to transmit data to a computer because a computer is a series of switches, or transistors and wires that run programs stored in memory switching the processes on and off.
+
+The CPU is a finite state machine that drives the instructions of the data lifecycle - from creation to storage, to access and mutation and then finally to deallocation from the memory registers. Intermediate code activates different bits of the memory to ensure a code block's executable object runs effectively on the target machine.
 
 Resource management has become both more complex and simple. Complex because there are several more processes to complete, simpler because hardware has adapted to processing more data more efficiently.
 
@@ -28,15 +32,19 @@ For decades, the clock speed of a computer's CPU was measured in MHz, with highe
 
 These processes now are measured in gigahertz. A gigahertz (GHz) is a unit of measurement for frequency, equal to 1,000,000,000 hertz (Hz) or 1,000 megahertz (MHz). Since one hertz means that something cycles at a frequency of once per second, one gigahertz means that whatever is being measured cycles one billion times per second. While it can measure anything that repeats within that range, in the context of computers and electronics it often refers to the speed of a computer's processor or the radio frequency of Wi-Fi and other wireless communication. [2]
 
-Additionally, the number of cores have increased to 16 cores each processing information up from single cores not that many years ago.
+Additionally, the number of cores has increased to 16 cores each processing information up from single cores not that many years ago.
 
-## Types of processing
+## Tokenization of code for processing and processors
 
-Processing, as well has evolved with several different types of processing of data accommodating the new needs of processors and resource allocation [3]
+Code is broken down into smaller units or tokens making it easier for target machines to analyse and synthesise code. It is a sequence of smaller parts of code for compilers to process them into byte code. Each code block with its statements is broken into tokens, or flags that point to a sequence of characters that can be treated as a single unit by source language. An instance of a token is created for variable names, functions and classes, according to the source code's compiler. These tokens are entered into the compiler's symbol table.
 
-Serial processing:  The processor would work on each process in turn, fully completing one before moving onto another. Good for small number of programs, but it makes a computer pretty unusable when you want to do multiple things at once.
+These tokens provide structure to the programming language for the target machine to use.
 
-Concurrent processing: A processor executing one process at a time by switching between each process, completing them in smaller steps. This masks the time it actually takes to do the job - with which a single processor is the same amount of time to process the job, the difference is by switching between processes results in all the jobs being completed at the same time. For example - 3 jobs taking 30 seconds run concurrently finish in 30 seconds, even though each job takes 30 seconds. Run serially the job finishes the first in 30 seconds, then the next and finally the third taking 90 seconds to complete.
+Processing as well has evolved with several different types of processing of data accommodating the new needs of processors and resource allocation [3]
+
+Serial processing:  The processor would work on each process in turn, fully completing one before moving on to another. Good for a small number of programs, but it makes a computer pretty unusable when you want to do multiple things at once.
+
+Concurrent processing: A processor executes one process at a time by switching between each process, completing them in smaller steps. This masks the time it takes to do the job - with which a single processor takes the same amount of time to process the job, the difference is that switching between processes results in all the jobs being completed at the same time. For example - 3 jobs taking 30 seconds run concurrently and finish in 30 seconds, even though each job takes 30 seconds. Run serially the job finishes the first in 30 seconds, then the next and finally the third taking 90 seconds to complete.
 
 Parallel processing: Using more than one processor with an OS using a combination of parallel and concurrent processing.  
 
@@ -44,9 +52,9 @@ Resources on a computer are finite, and we can only start to manage our processe
 
 ## The component parts of a computer process
 
- The  PID, is a number by which the process can be referred to. This is unique at any given time, but not unique over longer periods. The PID will be reused by another process eventually, after the original has ended. We can represent the process code and data as one because by the time code is being executed in a process, it can be thought of as data itself. Any good method for inspecting processes will show us the program or command used to start the process, which should give us a clue about what the process is trying to achieve.
+ The PID, is a number by which the process can be referred to. This is unique at any given time, but not unique over longer periods. The PID will be reused by another process eventually, after the original has ended. We can represent the process code and data as one because by the time code is being executed in a process, it can be thought of as data itself. Any good method for inspecting processes will show us the program or command used to start the process, which should give us a clue about what the process is trying to achieve.
 
- The first processes 0 starts with the start of the hardware, process 0 forks and starts process 1 which is a copy of the the first process. This "spawn" receives the parent PID for processing data. If an error occurs at this stage the process reverts to 0 and the program exits.
+ The first process 0 starts with the start of the hardware, process 0 forks and starts process 1 which is a copy of the first process. This "spawn" receives the parent PID for processing data. If an error occurs at this stage the process reverts to 0 and the program exits.
 
  Compute time of the CPU in executing the process: This is often expressed in absolute terms as the number of seconds, minutes, or hours that processes have spent executing the process [1].
 
@@ -58,9 +66,9 @@ Resources on a computer are finite, and we can only start to manage our processe
 
  Spawned processes or threads: A spawned process from an individual process creates a thread. Threads come with less overhead than all other processes. Threads are a way of having one process achieve separate tasks while sharing memory and other resources.
 
-Individual processes: Process groups will have a parent PID, which are spawns of PID 1. From PID 1 processes are batched into sub-groups of PIDs. These sub-process that are initiated (also known as a spawned process as it is a child of the parent) in batches or chunks of data - often referred to batching or chunking. Individual chunks of data have lower latency than process groups
+Individual processes: Process groups will have a parent PID, which are spawns of PID 1. From PID 1 processes are batched into sub-groups of PIDs. This sub-process is initiated (also known as a spawned process as it is a child of the parent) in batches or chunks of data - often referred to as batching or chunking. Individual chunks of data have lower latency than process groups
 
-Process groups: Related processes that are executed together are called process groups. Signals are used to across all the processes in a process group so that the group receives the same communication from the OS. Files with their extensions - `.txt` `.html` - could be batched for processing and routed to their binary or bin folders. Signals are transported on "data buses" between processes on a register.
+Process groups: Related processes that are executed together are called process groups. Signals are used across all the processes in a process group so that the group receives the same communication from the OS. Files with their extensions - `.txt` `.html` - could be batched for processing and routed to their binary or bin folders. Signals are transported on "data buses" between processes on a register.
 
 Sessions: Used to manage all of the execution that a user may start through running programs. When a user session ends, this means the OS can easily end all of the related execution. A session usually relates to the processing of a page of processes.
 
@@ -68,7 +76,7 @@ Processes closest to the CPU, come with the least overhead (fastest to process) 
 
 ## Process states and the process control block or PCB
 
- All processes require a PCB, or a process control block to execute. A PCB is the information associated with each process that describes its exectuion and process state. It includes the PID, the process state, the program counter, the registers, the list of open files and the memory limit of the register. The PCB stores all the information so that execution can be resumed later if the process execution is interupted.
+ All processes require a PCB, or a process control block to execute. A PCB is the information associated with each process that describes its execution and process state. It includes the PID, the process state, the program counter, the registers, the list of open files and the memory limit of the register. The PCB stores all the information so that execution can be resumed later if the process execution is interrupted.
 
  As a process executes, it changes state during the process life cycle from:
 
@@ -76,7 +84,7 @@ Processes closest to the CPU, come with the least overhead (fastest to process) 
 - waiting when the process is dependent on some event to occur before it can be processed
 - new the state where the process is being created
 - running when the process instructions are invoked and running
-- terminated when the process is interuppted and fails or successfully runs and completes
+- terminated when the process is interrupted and fails or successfully runs and completes
 
  As each process has its own memory space and area of RAM, the state of one process, therefore, does not affect another. Equally, each process has a virtual CPU so that different processing methodologies can be used in the execution of the process.
 
@@ -84,9 +92,9 @@ Processes closest to the CPU, come with the least overhead (fastest to process) 
 
 A job is equivalent to a process group. Jobs are process groups in action during a user session. There are different types of jobs.
 
-Foreground job - a single parent job submitted with a command(standard input) on the command line interface (CLI). Standard input is often shortened to `stdin`
+Foreground job - a single parent job submitted with a command (standard input) on the command line interface (CLI). Standard input is often shortened to `stdin`
 
-Background jobs  - created or spawned from the foregroup, the job will get executed successfully (produce a standard output shortened to `stdout`) or when it runs into a processing problem will echo out (print) an error (standard error).
+Background jobs - created or spawned from the fore group, the job will get executed successfully (produce a standard output shortened to `stdout`) or when it runs into a processing problem will echo out (print) an error (standard error).
 
 Suspended jobs - run in the foreground to tell the background job to stop or suspend the process. This is done via a signal that tells the job to pause or completely abandon execution.
 
@@ -98,20 +106,20 @@ The QUIT signal is sent to terminate a process and dump its memory, which can be
 
 KILL is a signal most often used when we're terminating a stubborn, otherwise frozen process. Any process receiving a KILL signal must end immediately and will not get a chance to perform cleanup operations. KILL sends a wide variety of signals eg: p-KILL is to kill a process, if a Node process is running and you want to terminate all Node processes that are running you can run p-KILL Node. NodeJS or Node, is a JavaScript runtime environment.
 
-STOP is used to suspend a running process. Stop spelled S‑T‑P is the same as Control+Z on a foreground job, and it is possible for a process to ignore it. Ctrl+Z will suspend the foreground job, this is useful if you want to switch from one long-running job to a job that has a shorter execution time and return to the longer one without losing the information that has already been processed.
+STOP is used to suspend a running process. Stop spelled S T P is the same as Control+Z on a foreground job, and a process can ignore it. Ctrl+Z will suspend the foreground job; this is useful if you want to switch from one long-running job to a job that has a shorter execution time and return to the longer one without losing the information that has already been processed.
 
 CONTINUE is the signal sent to a suspended process informing it to continue execution.
 
 ## What is the difference between a signal and a process
 
-When processes are running, the way to communicate within a process is done with a signals.
-Signals offer processes a form of inter‑process communication using a signal number as an identifier of the signal sent. Signals are usually sent asynchronously.
+When processes are running, the way to communicate within a process is done with a signal.
+Signals offer processes a form of inter-process communication using a signal number as an identifier of the signal sent. Signals are usually sent asynchronously.
 
-Processes can register their own signal handlers to react to different types of signal, or they can take a blanket default signal for the process.
+Processes can register their signal handlers to react to different types of signal, or they can take a blanket default signal for the process.
 
-Signals can also stop, terminate or suspend execution of a process in order to take some other action. While they ressemble an interuption, signals are slightly different.
+Signals can also stop, terminate or suspend the execution of a process to take some other action. While they reassemble an interruption, signals are slightly different.
 
-## What is the difference between a signal and an interupt?
+## What is the difference between a signal and an interrupt?
 
 Interrupts also stop execution for some other action to be taken.
 
@@ -119,7 +127,7 @@ However, interrupts are a method for the CPU. They occur with instances of memor
 
 ## What is the difference between a signal and a semaphore
 
-A semaphore has 2 operations up and down, in an OS, a semaphore contains both a signal and an interupt. Therefore a semaphore can operate both on system buses as well as on the CPU or kernel level.[5]
+A semaphore has 2 operations up and down, in an OS, a semaphore contains both a signal and an interrupt. Therefore, a semaphore can operate both on system buses as well as on the CPU or kernel level.[5]
 
 A binary semaphore has the binary values of 0 and 1 but a counting semaphore can use multiplexors signals like wait, block and wakeup can be used - a traditional red-amber-green signalling, seen on traffic lights.
 
@@ -127,9 +135,9 @@ A binary semaphore has the binary values of 0 and 1 but a counting semaphore can
 
  RAM is used a fast storage location where the processor can keep the parts of the process's data that aren't currently being executed.
 
- Hardrive is the computer disc's storage capacity.
+ Hard drive is the computer disc's storage capacity.
 
- RAM does not store data between reboot so it is referred to as volatile. [6] And normally, only the OS has a choice over what is put here. For processes, it is generally measured in megabytes, gigabytes, or as a percentage of all the memory available and this is where the confusion can arise. When someone describes a laptop as having 32 GB of memory, this storage is what they're referring to. RAM is additional "fast" storage.
+ RAM does not store data between reboots so it is referred to as volatile. [6] And normally, only the OS has a choice over what is put here. For processes, it is generally measured in megabytes, gigabytes, or as a percentage of all the memory available and this is where the confusion can arise. When someone describes a laptop as having 32 GB of memory, this storage is what they're referring to. RAM is additional "fast" storage.
 
 #### EXTERNAL REFERENCES - How computers process data
 

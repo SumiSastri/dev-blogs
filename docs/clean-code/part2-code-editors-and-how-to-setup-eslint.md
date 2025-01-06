@@ -19,7 +19,7 @@ An IDE - Integrated Development Environment - is a code editor on speed.
 
 Like all things, choosing a code editor is a matter or personal preference and what you are using the code editor for. Code sandboxes provide a good first step to working on code if all you need is to check syntax, errors and if the code works.
 
-Language specific code editors - like PyCharm - are great for Python. IDE's like Vim and Visual Studio Code, which is what I have migrated to after using Vim, Sublime Text, Scribd and Atom, suits my needs as it has several great extensions and integrates with GitHub seamlessly.
+Language specific code editors - like PyCharm - are great for Python. IDE's like Vim and Visual Studio (VS) Code, which is what I have migrated to after using Vim, Sublime Text, Scribd and Atom, suits my needs as it has several great extensions and integrates with GitHub seamlessly. Visual Studio comes with a lot of expensive overhead - to create a simple file VS Code code is pre-processed and compiled and therefore bundles more code into the package and is expensive to run in terms of memory allocation on a target machine.
 
 Sublime Text although good for beginners, is annoying as it interupts your code flow with regular prompts to upgrade to a paid version - which you can ignore when you are using it infrequently, but becomes intrusive when you want to code in peace. For a beginner who has gone beyond the useful functions of CodePen, code sandboxes and Sublime Text, Atom is a good free option to set up shop with and start projects in HTML (Hyper Text Markup Language), CSS and JavaScript.
 

@@ -6,9 +6,9 @@ nav_order: 6
 last_updated: Dec 2024
 ---
 
-#  What is procedural or functional programming?
+# What is procedural or functional programming?
 
-Procedural programming is another coding methodology in which the program code is divided into blocks, or functions, that carry out a task at a time. It is a series of computational steps to be carried out in a specific order [1]. 
+Procedural programming is another coding methodology in which the program code is divided into blocks, or functions, that carry out a task at a time. It is a series of computational steps to be carried out in a specific order [1].
 
 Procedural programming differentiates itself as a coding paradigm from object-oriented programming, where classes create objects, and the program is driven by the functions contained within the object-oriented paradigm.
 
@@ -17,7 +17,6 @@ Object-oriented programming today uses functional programming as well. The prima
 Procedural programming is also known as structured programming, but it goes one step further by focusing on both subroutines and the controlled structure of the sequence in which the programs run.
 
 If you look at the Bash scripting language, a single procedure may have many lines of code. The code is broken into the sequence that the statements are executed in; a selection of a statement if the results of a logical test are true; and iterations with repetitions of a block of code if a statement is true, exiting only if the statement is false.
-
 
 ```Bash
 #!/bin/bash
@@ -55,7 +54,6 @@ It also shares the ability to declare global or local variables, can be designed
 The key challenges with pure procedural programming languages like Bash are they are difficult to scale. The tight coupling of a code block with its procedures and subroutines makes the code inflexible and difficult to maintain.
 
 Look at the bash code below - all it does is look at a table of students' marks, calculate scores and update the table with the final marks.
-
 
 ```Bash
 #!/bin/bash

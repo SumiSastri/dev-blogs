@@ -8,15 +8,13 @@ last_updated: Oct 2024
 
 # What is the difference between a programming language and machine code?
 
-Programming languages are written by programmers for software packages for web, mobile and gaming applications.
+Programmers write programming languages for software packages for web, mobile and gaming applications.
 
 These are examples of software code written in programming languages for different end users.
 
-Computer code is code that is embedded in the hardware of an application, usually in the computer chip. A chip, as defined in the Just IT Hardware blog site, is "a miniature electronic circuit or integrated circuit".
+Computer code is a computer program or set of instructions, that is embedded in an application's hardware, usually in the computer chip. The Just IT Hardware  article, defines a chip is "a miniature electronic circuit or integrated circuit."
 
-Code in chips is written in binary (zeros and 1s) and is usually found in a "bin" folder of a computer, where bin is the shortened version of binary code.
-
-It is the series of instructions in binary to machines and is also called machine code as chips are now in several electronic devices both in the industrial and consumer electronics markets.
+Code in chips is written in binary (zeros and 1s) and is usually found in a computer's "bin" folder, where bin is the shortened version of binary code. It is a series of binary instructions for machines and is also called machine code.  Chips are now used on several target machines in the industrial and consumer electronics markets – phones, smart devices, gaming as well as home computers and industrial mainframes.
 
 Machine code provides the chip with instructions to execute external programs within the device's programming environment, also known as the local environment for programmers.
 
