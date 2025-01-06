@@ -1,0 +1,18 @@
+#!/bin/bash
+if test $# -ne 2
+then 
+  echo "need two parameters"
+  echo "Paramter 1 string to be matched  with paramter 2"
+  echo "Parameter 2 regular expression in single quotes"
+  exit 1
+fi 
+#read -p "enter String " str1
+echo "String entered $2"
+echo "matched with regex $1 :"
+if [[ $1 =~ $2 ]]
+then
+   echo "match"
+else
+   echo "No match"
+fi
+exit

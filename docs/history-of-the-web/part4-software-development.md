@@ -40,7 +40,7 @@ Given the initial need for computers to compute mathematical tasks, computer lan
 
 Computer languages use a context-free grammar called the Backus-Naur Form (BNF)[9].
 
-BNF uses numbers and symbols as a form of pattern matching rather than words and syllables. This lexical tree is parsed to validate its instructions. Lexical parsing uses recursion - or restating the base case problem statement over and over again until the solution is reached. The restatement narrows down the options till the base statement is proven correct. 
+BNF uses numbers and symbols as a form of pattern matching rather than words and syllables. This lexical tree is parsed to validate its instructions. Lexical parsing uses recursion - or restating the base case problem statement over and over again until the solution is reached. The restatement narrows down the options till the base statement is proven correct.
 
 This form of parsing uses the recursive algorithm which must eventually stop calling itself; otherwise, it will only stop when it has used up all of the available memory. Finally, the call runs out of road on the stack leading to “stack overflow".
 
@@ -48,11 +48,11 @@ This form of parsing uses the recursive algorithm which must eventually stop cal
 
 Early languages, like Pascal, merely assembled code to be parsed and read and then executed in memory. In today's world, all of these are abstracted away from the end user.
 
-Higher-level languages have several parts
+Higher-level languages are created in different phases to make syntactical analysis easier.
 
-- Code creation before code gets executed, a high-level language can be written in an integrated development environment (IDE) or a text editor. IDEs come with runtime overheads but save time as they can perform many pre-compiling tasks and debug code before it has run
+- Code creation before code gets executed, a high-level language can be written in an integrated development environment (IDE) or a text editor. IDEs come with runtime overheads but save time as they can perform many pre-compiling tasks and debug code before it has run. Syntax is to be adhered to, for example, keywords of the language have to be used correctly, symbols and puncutation like semicolons and colons used in the way described by the code manuals, tabs and parenthesis/ curly braces or square brackets used so that the code can be compiled using BNF, a semi-mathematical way of parsing or reading source code
 
-- Pre-compiling, lexical analysis to scan streams of characters, discard white spaces and comments, linting and tokenization of characters to form a single unit by the source language, while this code is running errors are handled and a runtime error generated
+- Pre-compiling, lexical analysis in BNF is done to scan streams of characters, discard white spaces and comments, linting and tokenization of characters to form a single unit by the source language, while this code is running errors are handled and a runtime error generated
 
 - Code compiling (including debugging and code optimising) where syntax is analysed again looking for clauses and sentences according to the grammar rules set by the language and accepting the syntax tree or creating it if it has not been created at the pre-compile stage
 

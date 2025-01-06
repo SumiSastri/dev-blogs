@@ -48,10 +48,48 @@ Till you get to 0 to ensure that the file can be run
 Polynomials
 <https://www.cuemath.com/algebra/polynomials/>
 
-
 Scheduling algos
 
 - Single CPU
 - Extended to be mapped to multiple architectures for load balancing
 - Randomisation of allocation of jobs of the processes
 - Priority factors to add
+
+BNF _ Backus Naur Form
+
+Source code is written so that it can be parsed by the semi-mathematical BNF system in compilers and interpreters
+Eg:
+For loop
+For - key word use
+scope of variable - limited to running of forloop and it has to be removed so that you can not use the index of the loop outside the scope of its lifetime
+
+__Stackframe structure__
+
+- Stack structure of the system - place values one on top of the other
+- Recursive programming - Can't evaluate the first function call - build the stack structure recursively
+- Not efficient - an important structure used for the runtime stack
+- Process or program is stored in memory in RAM
+- Image of process - program is live is called a process with instruction code all the way to the top of the stack
+- Loads libraries at the top of the stack
+- Kernel based libraries - does i/o process will switch from user mode to kernel mode and run the kernel
+
+- You have 2 main structures - the kernel and the program you are running
+- When the program runs it grows the stack and become part of the structure
+- Function is the location of code in memory
+- Params are stored on the stack frame as value type
+- Objects and complex data stored as addresses/ or reference types
+- Main program runs and data is pushed on the stack
+- The stack pointer points to the top of the stack
+- Function call pushes the function and the stack pointer moves depending on the size - called a stack frame
+- Data value type is "Popped" off the stack frame once the program run
+- Garbage collector cleans up the heap where reference data is stored
+- Stack pointer can grow or shrink depending on the number of functions and the efficiency of the code written
+- Exit code function 1 valuated first and data popped or removed form stack and shifts to the next structure or frame
+
+- Runtime stack - uses the structure to evaluate what is on the stack and how to process it
+- Compiletime stack (?)
+- The data is not removed from the it is "popped" and moved into a memory register for the process to continue via a bus to the CPU
+- It is popped when the conditions of the function written are met, else an error is thrown
+- Functions were developed much later in software programming history
+- Assemblers did not have functions but go-to statements where the code moves to and the conditions are executed - the old way of writing a function that calls itself - this is a recursive functions
+- Now a function is an address with params that are used within the function rather than on the assembler

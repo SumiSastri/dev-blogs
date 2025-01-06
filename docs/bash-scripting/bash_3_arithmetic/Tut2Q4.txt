@@ -1,0 +1,24 @@
+#!/bin/bash
+Nnumb=$# #pick up number of positional parameters
+data=($@) #store all positional prarmeters into an array starting from $1 ..$n (( Dlimt = $Nnumb - 1 ))
+i=0
+#echo "limt = $Dlimt i = $i" 
+while test $i -lt $Dlimt
+do
+  j=0
+  while test $j -lt $Dlimt 
+  do
+     ((k = $j + 1)) # k index for adjacent element (j + 1) 
+     #echo "$j ${data[$j]} $k ${data[$k]}"
+     if [ ${data[$j]} -gt ${data[$k]} ] 
+     then
+        #swap elements as element j larger than element k 
+        (( temp = ${data[$j]} ))
+        (( data[$j] = data[$k] ))
+        (( data[$k] = $temp ))
+     fi
+     ((j = $j + 1 )) # incrementing j 
+  done
+  ((i = $i + 1)) #increementing counter 
+done # outer loop
+echo "ordered elements ${data[*]}" #print out all elements in array exit 0

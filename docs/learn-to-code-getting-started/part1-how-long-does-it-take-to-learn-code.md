@@ -136,3 +136,5 @@ Bootcamps can no longer teach React without updating their course materials to i
 Despite all of this would I do anything else ? Absolutely not. It is a great profession and a great skill to learn. It changes the way you look at things and the world.
 
 I would still heartily recommend you pursue your dreams, if this is your dream, knowing the pros and the cons. For me, the pros of keeping mentally engaged, interested and continously learning outweigh the cons.
+
+## The path to continuous learning

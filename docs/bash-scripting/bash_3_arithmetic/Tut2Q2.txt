@@ -1,0 +1,29 @@
+#!/bin/bash
+#  evaluates simple expressions on the command line with + and -  operators
+#  limit based on the 9 positional parameters 
+#  usage: ./Tut2Q1.sh  <value> <operator> <value> ...
+#
+#  Author: George	 Version: 1.0          Date created: 16/10/24
+#
+nterm=$#
+#((nterm = nterm / 2))
+sum=$1
+shift
+echo -e "$sum \c"
+i=1
+while test $i -lt $nterm
+do
+    op=$1
+    shift
+    val=$1
+    shift
+    #echo "$i $op $val"
+    case $op in
+       '+') echo -e "$op $val \c"
+            ((sum += $val));;
+       '-') echo -e "$op $val \c"
+            ((sum -= $val));;
+    esac
+   ((i += 2))
+done
+echo "= $sum"

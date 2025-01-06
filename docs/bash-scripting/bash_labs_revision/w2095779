@@ -1,0 +1,31 @@
+#!/bin/bash
+# Invoke bash
+
+# id: w2095779
+# author: Sumitra Sastri
+# file:  w2095779.sh
+# date: 3 Nov 2024
+
+# Transfer program to copy script to Dr C's acount
+
+echo "Take user input - file and string"
+read -p "Enter 2 variables a local file name and a string" file string
+
+echo "Test input 2 params"
+params=$#
+if [ $params -eq 2] ; then echo "Proceed"; else echo "You need both a file name and a string"; fi
+
+echo "Test 1st param is the name of file" 
+if [ -f $file ]; then echo "OK"; else echo "Check file"; fi
+
+echo "Test string match"
+if [ string -eq string ]; then echo "match"; else echo "check string"; fi
+
+echo "Print instances of the file - and line numbers"
+stringOutput=`string | wc -l`
+
+cat -n $stringOutput
+echo "Make an array of this output"
+set $stringOutput
+
+echo "Append file with the data"

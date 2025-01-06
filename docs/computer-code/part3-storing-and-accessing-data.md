@@ -22,7 +22,7 @@ Not all programming languages allow data to mutate. Such data is also considered
 
 Java, Python, C and other programming languages will have their own keywords that define a variable, and ways of mutating the initialised data. As Francesco Tusa, in his "Introduction to the Java Language", states, "Using variables is a way to reserve specific areas of the memory and make them accessible throughout the execution of a program."
 
-Once data has been created, initialised and stored, this data must be retrieved.  Different programming languages have different methods to retrieve data. 
+Once data has been created, initialised and stored, this data must be retrieved.  Different programming languages have different methods to retrieve data.
 
 Once higher language code has been compiled and run, it is executed in memory via a series of processes in the computer hardware.
 
@@ -44,19 +44,47 @@ Within the code block, the interpreter then looks at the data type and the condi
 
 The instructions are then executed successfully, if the execution is unsuccessful an error is recorded.
 
-The code is executed in the Java Virtual Machine (JVM).
-
 This process of interpretation differs from language to language. As the syntax and structure of programming languages differ, interpreters are also packages of software that are encoded to meet these differing needs.
 
 The basic function of an interpreter is to read code and catch errors early before the code is compiled by a compiler.
 
+Python is a purely interpreted code - so the code runs right to the end before an error is detected. Java is a compiled language and code errors are caught by the javac compiler used in the JVM.
+
 ## What is code compiling?
 
-As a software package may require several lines of code to be interpreted and executed, the role of the compiler is to take these data chunks and compile them in the order they need to be executed.
+A compiler is software that provides a mechanism for source code in your software application to work efficiently with the target machine it is intended to run on.
 
-A code compiler takes information from the interpreter like pieces of a jigsaw to put the bigger picture together. In this case, all the features of the code enable the package to deliver the end user the service required.
+A software package's source code may require several lines of code to be interpreted and executed. The role of the compiler is to take these data chunks and compile them in the order they need to be executed on the stack frame in the memory (RAM) of the computer by providing the computer an instruction set that the CPU can execute.
+
+A code compiler takes information from the interpreter like pieces of a jigsaw to put the bigger picture together. In this case, all the features of the code enable the package to deliver an instruction set to the machine it is run on - a computer, mainframe, mobile device.
 
 Once again, compilers are language-specific. Java uses compilers like Javac, while JavaScript uses compilers like Babel, Webpack and ESBuild.
+
+Compilers can run once or several times performing several key tasks to compile code. They are called single pass and multi-pass compilers, respectively.
+
+The key jobs that compilers fulfil are to:
+
+- to provide lexical, syntactical and contextual analysis of source code
+- evaluate preprocessor instructions first
+- to scan and review source code to synthesise and optimise code
+- run redundancy checks
+- provide debuggers to "set traps" for code and review exact points of failure
+- run further linting and optimising checks to remove empty spaces and commented out code
+- highlight compile-time errors fixing them before runtime
+- create a Symbol Tables - of variables, loop structures, identify the positions of the data
+- create a construct target, or an executable program from intermediate representation of source code to byte code
+- the construct target is called an "executable" and is an object
+
+The compiler finally provides the machines it runs on an object file and turns it into byte code that the machine can use and run.
+Compilers targets the O/S, memory structure, the data-buses and map the architecture mapping code that is fit for purpose to execute and run. Creates a standard process image. Initialisation process all other processes come from the parent process. It creates a clone of the initial process and uses the clone of the object created by the compiler also known as the "executable"
+
+Compilers will also link and run the libraries in your software program and then load your program on the memory registers.
+
+- convert
+- optimise code
+- object file is linked to libraries
+- create the executable - right form as a standard process image
+- final version of the code that is loaded on registers
 
 ## What is code transpiling?
 
@@ -66,8 +94,8 @@ When Byte code is compiled down to machine-readable code, for example, a process
 
 Compilation from source code and transpilation into machine-readable code.
 
- Most code compilers now are also transpilers, but these compilers are language-specific. While Tusa, also shares the view that the lines between interpreters and compilers are blurring, he refers to a Java software environment. 
- 
+ Most code compilers now are also transpilers, but these compilers are language-specific. While Tusa, also shares the view that the lines between interpreters and compilers are blurring, he refers to a Java software environment.
+
  JavaScript, has a completely different language syntax and structure. Reading [the tutorial by Digital Ocean](https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them#:~:text=Transpilers%2C%20or%20source%2Dto%2D,are%20said%20to%20target%20JavaScript.)"JavaScript Transpilers: What they are and why we need them", you will witness for yourself the differences in the language and structure.
 
  The idea behind selecting these 2 articles is not to provide the reader with an in-depth view of how Java and JavaScript are syntactically different, but simply to demonstrate that they are.
@@ -76,14 +104,15 @@ Compilation from source code and transpilation into machine-readable code.
 
 Code bundlers automate certain processes required for the code to be interpreted by code interpreters.
 
-Some of the functions the bundlers undertake are 
-- to standardise code 
+Some of the functions the bundlers undertake are
+
+- to standardise code
 - clean up traceable errors
 - handle any expensive and inefficient tasks reducing the compute load on hardware
 - split and chunk code into smaller, more easily loadable parcels containing - code, images and other assets - bundlers must have the ability to bundle different modules/ packages/ code together efficiently
 - trace code back to the source files and provide source maps - this helps in the development environment with root-cause analysis and debugging
 - extend basic functionality through plugins
-- bundle code for development, integration and production environments.  In the development environment, source-code mapping is more important while in the production environment minification and concatenation are more important. 
+- bundle code for development, integration and production environments.  In the development environment, source-code mapping is more important while in the production environment minification and concatenation are more important.
 
 Minification is the process by which a code bundler removes all white spaces, as well as unnecessary code to make the file size smaller/lighter and more performant. Concatenation is the process where one or more files are combined once again to make the code more performant.
 
@@ -109,7 +138,7 @@ Code in the packages a developer writes will have to be rewritten to the new syn
 
 Often, packages that are out of date offer no long-term support and issues that you face will not be addressed by the package publisher.
 
-This constant updating of packages with new features takes a significant amount of time for developers but is a core part of writing and maintaining code bases. 
+This constant updating of packages with new features takes a significant amount of time for developers but is a core part of writing and maintaining code bases.
 
 Version changes can be major or minor.
 
@@ -125,11 +154,11 @@ These are not strict rules, with each package manager providing package release 
 
 All these processes - interpreting, compiling and transpiling - are part of business owners' goal to keep data storage costs down.
 
-Data storage on-premise, or in cloud storage systems is expensive. Data processed on hardware and embedded systems is a cost, if programs take time to run, in terms of productivity. 
+Data storage on-premise, or in cloud storage systems is expensive. Data processed on hardware and embedded systems is a cost, if programs take time to run, in terms of productivity.
 
 If a significant load of processing can happen outside this infrastructure, the code stored in the local environment or hardware can be minimal and the instruction cycle - as outlined in [the first article in this series](https://sumisastri.github.io/dev-blogs/computer-code/part1-programming-vs-machine-code/) is shortened.
 
-This race to process more data efficiently requires expensive chips and integrated circuits. Chips used for generative artificial intelligence (genAI) programming at the top end of the scale. 
+This race to process more data efficiently requires expensive chips and integrated circuits. Chips used for generative artificial intelligence (genAI) programming at the top end of the scale.
 
 Cloud storage services are also an expense, in the consumer world, Apple, Google and Microsoft offer additional storage space at a cost.
 
@@ -138,7 +167,6 @@ Data from videos and images need more storage and compute power. The volume of d
 If you explore your computer filing system by typing `cd` into the terminal, you will see application software is stored in `.app` files in the Applications folder; binary files in the bin folder; the library or lib folder when you `cd` into it will open up a new set of folders - peripherals and printer plugins and commands being one of them.
 
 The organisation of the filing system, enables storage on the hard drive. When the program is executed, this data from the program is retrieved, compiled and then is processed in memory using RAM and DRAM.
-
 
 #### EXTERNAL REFERENCES
 

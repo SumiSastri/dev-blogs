@@ -1,0 +1,11 @@
+#!/bin/bash
+read -p "enter String " str1
+echo -e "Strin entered $str1\n"
+echo "mahched with regex $1"
+if [[ $str1 =~ $1 ]]
+then
+   echo "match"
+else
+   echo "No match"
+fi
+exit
