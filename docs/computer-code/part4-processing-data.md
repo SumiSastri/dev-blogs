@@ -17,8 +17,6 @@ Every action an OS undertakes must be executed in a processor nested in the CPU 
 Registers are small, fast memory locations inside the CPU that temporarily hold data and instructions during execution.
 The OS loads data from RAM (Random Access Memory) onto CPU registers. RAM serves as fast, volatile storage, enabling quick access to active processes and data. However, when you compare RAM to a register has a larger capacity but is slower to access, the registers are the closest to the CPU, therefore process data faster.
 
-A program process is the execution of a series of instructions in the CPU, guided by (OS). The CPU contains one or more cores, which are independent processing units capable of executing instructions concurrently. Each core contains registers and the OS manages memory, processor time, and peripherals to ensure smooth execution of processes.
-
 ## How processes are executed
 
 __Code Compilation__
@@ -93,48 +91,15 @@ When managing and executing processes, the system can use different processing t
 
 1. Serial Processing
 
-Serial processing involves the processor working on each process sequentially, fully completing one process before moving on to another.
-
-Example Scenario:
-Suppose a computer is running three tasks:
-
-Task 1: A word processing program (10 seconds)
-Task 2: A web browser loading a webpage (15 seconds)
-Task 3: A file download (30 seconds)
-In serial processing, Task 1 will finish in 10 seconds, Task 2 will finish in 25 seconds (10 + 15), and Task 3 will finish in 55 seconds (10 + 15 + 30). This approach can make the computer feel unresponsive when trying to multitask.
-
-When to Use:
-Serial processing is suitable for systems running a small number of non-overlapping tasks or when tasks must be executed in strict order.
+Serial processing involves the processor working on each process sequentially, fully completing one process before moving on to another. Serial processing is suitable for systems running a small number of non-overlapping tasks or when tasks must be executed in strict order.
 
 2. Concurrent Processing
 
-In concurrent processing, the CPU switches between multiple processes, allocating small time slices to each. Although only one process runs at a time, the rapid switching creates the illusion of parallelism.
-
-Example Scenario:
-Imagine the same three tasks (word processing, web browsing, file downloading) being executed concurrently. Each task is broken into smaller units:
-
-Task 1: Processes for 2 seconds, then switches.
-Task 2: Processes for 2 seconds, then switches.
-Task 3: Processes for 2 seconds, then switches.
-By the time 30 seconds have passed, all tasks appear to have completed simultaneously because the CPU constantly alternates between them.
-
-When to Use:
-Concurrent processing is ideal for multitasking environments where tasks are independent, and the goal is to maximize resource utilization and improve responsiveness.
+In concurrent processing, the CPU switches between multiple processes, allocating small time slices to each. Although only one process runs at a time, the rapid switching creates the illusion of parallelism. Concurrent processing is ideal for multitasking environments where tasks are independent, and the goal is to maximize resource utilization and improve responsiveness.
 
 3. Parallel Processing
 
-Parallel processing utilizes multiple processors (or cores) to execute multiple processes simultaneously. This allows true parallelism, where different tasks or parts of a single task are executed at the same time.
-
-Example Scenario:
-Suppose the system has four processors, and the tasks are distributed as follows:
-
-Task 1 runs entirely on Processor 1.
-Task 2 runs entirely on Processor 2.
-Task 3 is split across Processors 3 and 4 for faster execution.
-If Task 1 takes 10 seconds, Task 2 takes 15 seconds, and Task 3 takes 30 seconds, the entire workload will be completed in 30 seconds, as all processors work simultaneously.
-
-When to Use:
-Parallel processing is best suited for systems with multiple processors and workloads that can be divided into smaller, independent tasks.
+Parallel processing utilizes multiple processors (or cores) to execute multiple processes simultaneously. This allows true parallelism, where different tasks or parts of a single task are executed at the same time.Parallel processing is best suited for systems with multiple processors and workloads that can be divided into smaller, independent tasks.
 
 ## What role does the CPU play in process management
 
@@ -153,13 +118,7 @@ Compute power - or the speed with which your computer can run programs depends o
 
 The speed at which the CPU executes instructions is governed by its clock rate. The CPU executes processes based on its clock rate, measured in hertz (Hz), which determines how many instructions it can execute per second.
 
-For decades, the clock speed of a computer's CPU was measured in MHz, with higher clock speeds generally indicating a faster processor. In the early 2000s, Intel, AMD, and IBM all released processors with clock speeds over 1000 megahertz (MHz), so they began measuring clock speeds in gigahertz (GHz) rather than MHz. Within several years of the first 1 GHz processors, new processors have clock speeds over 4 GHz meaning 4-billion of cycles per second. CPUs can perform tasks in nanoseconds due to this rapid clock rate. 
-
-Resource management has become both more complex and simple. Complex because there are several more processes to complete, simpler because hardware has adapted to processing more data more efficiently.
-
-Modern CPUs include up to 16 cores or more, enabling parallel processing. Each core can execute instructions independently, allowing for greater multitasking and performance. Advances in hardware and software have made it easier to manage increasing data loads, balancing efficiency and complexity.
-
-The combination of fast memory registers, efficient instruction execution by CPUs, and intelligent OS resource management ensures that processes run smoothly. Advances in clock speeds, core counts, and resource allocation algorithms have made modern computing systems vastly more capable than their predecessors.
+For decades, the clock speed of a computer's CPU was measured in MHz, with higher clock speeds generally indicating a faster processor. In the early 2000s, Intel, AMD, and IBM all released processors with clock speeds over 1000 megahertz (MHz), so they began measuring clock speeds in gigahertz (GHz) rather than MHz. Within several years of the first 1 GHz processors, new processors have clock speeds over 4 GHz meaning 4-billion of cycles per second. CPUs can perform tasks in nanoseconds due to this rapid clock rate.
 
 ## Hierarchy of Processes
 
@@ -169,8 +128,7 @@ Processes in a computer system operate in a structured hierarchy, enabling effic
 
 The "Nice" value determines the priority of a process. Processes with a lower Nice value have higher priority and are allocated more CPU time, enabling them to complete faster. Conversely, processes with a higher Nice value are considered less urgent and are allocated less CPU time. The Nice value ranges from -20 (highest priority) to 19 (lowest priority).
 
-Example:
-A real-time video processing application may have a Nice value of -5 to ensure smooth performance, while a background file indexing process may have a Nice value of 10 to minimize its impact on other tasks.
+Example:A real-time video processing application may have a Nice value of -5 to ensure smooth performance, while a background file indexing process may have a Nice value of 10 to minimize its impact on other tasks.
 
 *Spawned Processes and Threads*
 
@@ -178,8 +136,7 @@ A spawned process is a child process created by a parent process. When a process
 
 Within a spawned process, threads can be created. Threads are lightweight sub-processes that allow a single process to perform multiple tasks concurrently while sharing the same memory and resources. Threads have less overhead compared to processes, making them more efficient for tasks that require parallelism.
 
-Example:
-A web browser may use one thread to render the page's layout, another thread to handle user input, and additional threads to load images and scripts—all within a single parent process.
+Example: A web browser may use one thread to render the page's layout, another thread to handle user input, and additional threads to load images and scripts—all within a single parent process.
 
 *Individual Processes*
 
@@ -193,15 +150,13 @@ Processes that share a common purpose or function are grouped into process group
 
 When processing large datasets, individual processes may work on batches or chunks of data. These smaller chunks reduce latency and improve processing efficiency.
 
-Example:
-A file compression tool may divide a large file into smaller chunks, compress each chunk in parallel, and then combine the results into a single compressed file.
+Example: A file compression tool may divide a large file into smaller chunks, compress each chunk in parallel, and then combine the results into a single compressed file.
 
 *Process Groups*
 
 A process group consists of related processes that work together to achieve a shared goal. Process groups are managed collectively, allowing the OS to send signals (e.g., terminate or suspend) to all processes in the group simultaneously.
 
-File Processing Example:
-Files with specific extensions (e.g., .txt, .html) may be grouped for batch processing. The processes responsible for these files could be routed to their respective directories or binary folders (e.g., /bin), enabling streamlined management.
+File Processing Example: Files with specific extensions (e.g., .txt, .html) may be grouped for batch processing. The processes responsible for these files could be routed to their respective directories or binary folders (e.g., /bin), enabling streamlined management.
 
 __Signals__
 
@@ -211,8 +166,7 @@ __Sessions__
 
 A session is a higher-level grouping that encompasses all processes initiated by a user during their login session. Sessions provide an organized way to manage the execution of multiple processes and ensure that they are terminated when the session ends.
 
-Example:
-When a user logs into a Linux terminal, the shell (e.g., Bash) starts a session. All commands and programs executed during that session belong to the same session group. If the user logs out, the session ends, and the OS terminates all associated processes.
+Example: When a user logs into a Linux terminal, the shell (e.g., Bash) starts a session. All commands and programs executed during that session belong to the same session group. If the user logs out, the session ends, and the OS terminates all associated processes.
 
 __Proximity to the CPU and Latency__
 
@@ -221,7 +175,7 @@ Registers: Processes in the CPU registers are executed with the least latency du
 RAM: Processes in memory are slightly slower but still efficient due to the fast access speed of RAM.
 Hard Drive: Processes that rely on disk I/O (e.g., reading or writing data to storage) have the highest latency because of the slower access speed of hard drives or SSDs.
 
-Example Hierarchy in Action
+__Process hierarchy in action__
 Consider a web server handling multiple requests:
 
 - Threads: Each request spawns a thread within the same parent process, allowing concurrent handling of multiple users.
@@ -251,6 +205,7 @@ A job is equivalent to a process group, which is a collection of related process
 - Suspended Job: A job that is paused (but not terminated) by the user or OS until it is explicitly resumed.
 
 Examples of Job States:
+
 - Foreground Job: Running a text editor like vim directly in the terminal.
 - Background Job: Running a backup script using &, e.g., backup.sh &.
 - Suspended Job: Pressing Ctrl+Z to pause a running process and using fg or bg to resume it.
@@ -266,19 +221,19 @@ What Signals Do:
 - Trigger Handlers: Processes can register custom signal handlers to react to specific signals or use default behaviors.
 
 Common Signals:
-Ctrl+C (Interrupt): Sends the SIGINT signal to terminate the foreground process.
-Ctrl+Z (Stop): Sends the SIGTSTP signal to suspend the foreground job.
-KILL: Sends the SIGKILL signal to forcefully terminate a process without cleanup.
-Example: kill -9 <PID> forcefully kills a process.
-pkill Node terminates all Node.js processes.
-QUIT: Sends SIGQUIT, which terminates a process and creates a memory dump for debugging.
-CONTINUE: Sends SIGCONT, resuming a suspended process.
+
+- Ctrl+C (Interrupt): Sends the SIGINT signal to terminate the foreground process.
+- Ctrl+Z (Stop): Sends the SIGTSTP signal to suspend the foreground job.
+- KILL: Sends the SIGKILL signal to forcefully terminate a process without cleanup. Example: kill -9 <PID> forcefully kills a process/ pkill Node terminates all Node.js processes.
+- QUIT: Sends SIGQUIT, which terminates a process and creates a memory dump for debugging.
+- CONTINUE: Sends SIGCONT, resuming a suspended process.
 
 3. Interrupts
 
 Interrupts differ from signals in that they are low-level mechanisms used by the CPU to handle external events or system needs. Interrupts temporarily stop the current execution to allow the CPU to handle a higher-priority task.
 
 Types of Interrupts:
+
 - Hardware Interrupts: Triggered by hardware events like keyboard input, mouse clicks, or network activity.
 - Example: A keypress triggers an interrupt that the CPU processes to display the typed character.
 - Software Interrupts: Triggered by system calls or errors (e.g., a division by zero error).
@@ -286,41 +241,37 @@ Types of Interrupts:
 
 4. Difference Between Signals and Interrupts
 
-| **Aspect**     | **Signal**                               | **Interrupt**                           |
+| __Aspect__     | __Signal__                               | __Interrupt__                           |
 |-----------------|------------------------------------------|------------------------------------------|
-| **Purpose**     | Notify processes of system or user events. | Notify the CPU of hardware or system events. |
-| **Triggered By**| OS or processes.                        | Hardware or software.                   |
-| **Scope**       | Process-level communication.            | CPU-level execution handling.           |
-| **Examples**    | `SIGKILL`, `SIGINT`, `SIGTSTP`.         | Keypress, network packet arrival, page faults. |
-
+| __Purpose__     | Notify processes of system or user events. | Notify the CPU of hardware or system events. |
+| __Triggered By__| OS or processes.                        | Hardware or software.                   |
+| __Scope__       | Process-level communication.            | CPU-level execution handling.           |
+| __Examples__    | `SIGKILL`, `SIGINT`, `SIGTSTP`.         | Keypress, network packet arrival, page faults. |
 
 5. Semaphores
 A semaphore is a synchronization mechanism used to manage access to shared resources among multiple processes or threads. It differs from signals and interrupts in its function and usage.
 
 Types of Semaphores:
-- Binary Semaphore: Acts like a flag with two states—0 (locked) or 1 (unlocked). It is used to ensure mutual exclusion for a critical section.
-Example: Controlling access to a shared printer so that only one process can print at a time.
 
-- Counting Semaphore: Allows multiple threads or processes to access a resource up to a defined limit.
-Example: Limiting the number of threads accessing a database connection pool.
+- Binary Semaphore: Acts like a flag with two states—0 (locked) or 1 (unlocked). It is used to ensure mutual exclusion for a critical section. Example: Controlling access to a shared printer so that only one process can print at a time.
 
-Semaphores in Action:
+- Counting Semaphore: Allows multiple threads or processes to access a resource up to a defined limit. Example: Limiting the number of threads accessing a database connection pool.
+
+__Semaphores in Action__
+
 Semaphores can manage both:
-
 - System Buses: Control access to shared resources like memory or I/O devices.
 - Kernel-Level Operations: Ensure orderly execution of processes or threads in multitasking environments.
 
-Semaphore Operations:
-
+Semaphore Operations
 - Wait (Down): Decrements the semaphore's value, blocking a process if the value is zero.
 - Signal (Up): Increments the semaphore's value, allowing blocked processes to proceed.
 
-| **Aspect**          | **Semaphore**                                   | **Signal**                      | **Interrupt**                            |
+| __Aspect__          | __Semaphore__                                   | __Signal__                      | __Interrupt__                            |
 |----------------------|------------------------------------------------|----------------------------------|------------------------------------------|
-| **Function**         | Synchronization of shared resources.           | Process communication.          | Handling CPU events or hardware input.   |
-| **Triggering Entity**| OS or processes accessing shared resources.     | OS or user.                     | Hardware or system-level operations.     |
-| **Example Use Case** | Controlling access to shared memory or devices. | Sending `SIGTERM` to stop a process. | Keypress interrupt handling by the CPU.  |
-
+| __Function__         | Synchronization of shared resources.           | Process communication.          | Handling CPU events or hardware input.   |
+| __Triggering Entity__| OS or processes accessing shared resources.     | OS or user.                     | Hardware or system-level operations.     |
+| __Example Use Case__ | Controlling access to shared memory or devices. | Sending `SIGTERM` to stop a process. | Keypress interrupt handling by the CPU.  |
 
 6. Hierarchy of Processes in Architecture
 In system architecture, the hierarchy reflects the relationship between jobs, processes, and their underlying management:
@@ -331,14 +282,15 @@ Jobs: Process groups within user sessions.
 Sessions: Group of jobs associated with a user session.
 Signals, Interrupts, and Semaphores: Tools for communication, synchronization, and execution control across processes and hardware.
 
+## Process Scheduling Algorithms
 
-Process Scheduling Algorithms
 The operating system (OS) uses various process scheduling algorithms to manage the execution of processes. These algorithms are crucial for allocating CPU time and resources to processes in a fair and efficient manner, ensuring that all processes receive adequate attention, while avoiding starvation and maximizing system throughput. Here’s a breakdown of some common scheduling algorithms:
 
-1. First-Come, First-Served (FCFS)
+1. First-Come, First-Served (FCFS)/ FIFO (First in first out)
+
 FCFS is one of the simplest scheduling algorithms. In this method, processes are executed in the order in which they arrive in the ready queue.
 
-How it works: When the CPU is free, the process that has been in the queue the longest is executed first. Once it finishes, the next process in line gets CPU time, and so on.
+<!-- How it works: When the CPU is free, the process that has been in the queue the longest is executed first. Once it finishes, the next process in line gets CPU time, and so on.
 Pros:
 Simple to implement and understand.
 Fair in terms of order of arrival.
@@ -348,11 +300,12 @@ No consideration of process priority or burst time.
 Example:
 
 Process A (arrives at time 0), Process B (arrives at time 1), and Process C (arrives at time 2).
-Process A runs from 0 to 4 (4 seconds), then Process B runs from 4 to 6 (2 seconds), and Process C runs from 6 to 10 (4 seconds).
+Process A runs from 0 to 4 (4 seconds), then Process B runs from 4 to 6 (2 seconds), and Process C runs from 6 to 10 (4 seconds). -->
 2. Round Robin (RR)
+
 The Round Robin (RR) algorithm is a preemptive version of First-Come, First-Served (FCFS). It divides CPU time into fixed-sized time slices (or quantum) and assigns each process a time slice to run. If a process does not finish in its assigned time slice, it is put back into the ready queue for the next round.
 
-How it works: Each process in the ready queue is assigned a fixed time slice, which it can use to execute. If the process does not finish in the time slice, it is preempted, and the CPU is given to the next process in line.
+<!-- How it works: Each process in the ready queue is assigned a fixed time slice, which it can use to execute. If the process does not finish in the time slice, it is preempted, and the CPU is given to the next process in line.
 Pros:
 Time-sharing system, ideal for multi-user systems.
 Fair for processes that require similar amounts of time.
@@ -363,11 +316,13 @@ Example:
 
 Process A, B, and C arrive at time 0.
 Time slice = 2 seconds.
-Process A runs for 2 seconds, then Process B runs for 2 seconds, then Process C runs for 2 seconds. If any process is not completed, it gets another 2 seconds in the next round.
+Process A runs for 2 seconds, then Process B runs for 2 seconds, then Process C runs for 2 seconds. If any process is not completed, it gets another 2 seconds in the next round. -->
+
 3. Priority Scheduling
+
 Priority Scheduling assigns a priority value to each process, and processes with higher priority are executed before those with lower priority. This algorithm can be either preemptive or non-preemptive, depending on whether or not a running process can be preempted in favor of a higher-priority process.
 
-How it works: In preemptive priority scheduling, if a process with a higher priority arrives while a lower-priority process is running, the lower-priority process is preempted and placed back in the ready queue. In non-preemptive priority scheduling, once a process starts running, it will continue until it finishes or voluntarily yields the CPU.
+<!-- How it works: In preemptive priority scheduling, if a process with a higher priority arrives while a lower-priority process is running, the lower-priority process is preempted and placed back in the ready queue. In non-preemptive priority scheduling, once a process starts running, it will continue until it finishes or voluntarily yields the CPU.
 Pros:
 Allows more critical processes to get CPU time earlier.
 Can prioritize real-time systems or time-sensitive tasks.
@@ -378,11 +333,13 @@ Example:
 
 Processes A, B, and C have priorities 1, 2, and 3, respectively (with 1 being the highest priority).
 Process A will execute first, then Process B, and finally Process C.
-In case Process D arrives with a higher priority (priority 1), Process A will be preempted, and Process D will execute first.
+In case Process D arrives with a higher priority (priority 1), Process A will be preempted, and Process D will execute first. -->
+
 4. Shortest Job Next (SJN)
+
 Shortest Job Next (SJN), also known as Shortest Job First (SJF), is a non-preemptive algorithm that selects the process with the shortest burst time to execute next. The burst time is the amount of time a process will need to run before it completes.
 
-How it works: The process that has the smallest estimated run time is chosen first. This method minimizes the average waiting time, but it requires knowledge of the execution time of processes, which is often difficult to predict.
+<!-- How it works: The process that has the smallest estimated run time is chosen first. This method minimizes the average waiting time, but it requires knowledge of the execution time of processes, which is often difficult to predict.
 Pros:
 Optimizes the average waiting time and turnaround time.
 Cons:
@@ -391,11 +348,13 @@ Requires prior knowledge of process burst time.
 Example:
 
 Process A needs 5 seconds, Process B needs 2 seconds, and Process C needs 4 seconds.
-Process B will execute first, then Process C, and finally Process A.
+Process B will execute first, then Process C, and finally Process A. -->
+
 5. Multilevel Queue Scheduling
+
 Multilevel Queue Scheduling is a scheduling strategy where processes are divided into different queues based on their priority or type (interactive processes, CPU-bound processes, etc.). Each queue has its own scheduling algorithm, and processes are selected from the highest priority queue.
 
-How it works: Processes are assigned to different queues based on their characteristics, and each queue has its own scheduling algorithm (such as FCFS, RR, etc.). The OS selects processes based on priority, with higher-priority queues being selected first.
+<!-- How it works: Processes are assigned to different queues based on their characteristics, and each queue has its own scheduling algorithm (such as FCFS, RR, etc.). The OS selects processes based on priority, with higher-priority queues being selected first.
 Pros:
 More flexible and dynamic compared to simpler algorithms.
 Can prioritize interactive processes over CPU-bound ones.
@@ -405,11 +364,13 @@ Processes in lower-priority queues may experience starvation.
 Example:
 
 Queue 1 (high priority) uses Round Robin, Queue 2 (medium priority) uses FCFS, and Queue 3 (low priority) uses SJF.
-Process A goes to Queue 1 (interactive), Process B goes to Queue 2 (CPU-bound), and Process C goes to Queue 3 (long-running job).
+Process A goes to Queue 1 (interactive), Process B goes to Queue 2 (CPU-bound), and Process C goes to Queue 3 (long-running job). -->
+
 6. Multilevel Feedback Queue Scheduling
+
 Multilevel Feedback Queue Scheduling is a more advanced version of multilevel queue scheduling. In this algorithm, processes can move between queues based on their behavior and CPU usage. If a process uses too much CPU time, it might be moved to a lower-priority queue. If a process is interactive and requires less CPU time, it may be moved to a higher-priority queue.
 
-How it works: Processes are initially assigned to the highest priority queue and can be moved to lower priority queues based on their execution time. The algorithm dynamically adjusts the priority of processes to balance responsiveness and throughput.
+<!-- How it works: Processes are initially assigned to the highest priority queue and can be moved to lower priority queues based on their execution time. The algorithm dynamically adjusts the priority of processes to balance responsiveness and throughput.
 Pros:
 Adaptable and efficient for a wide range of process types.
 Prevents starvation by dynamically adjusting process priorities.
@@ -418,9 +379,23 @@ Complex to implement and manage.
 Might result in higher overhead due to frequent process re-prioritization.
 Example:
 
-Process A is initially in Queue 1 (interactive), but if it starts to use excessive CPU, it is moved to Queue 2 (CPU-bound). If it becomes interactive again, it may be moved back to Queue 1.
-Conclusion
+Process A is initially in Queue 1 (interactive), but if it starts to use excessive CPU, it is moved to Queue 2 (CPU-bound). If it becomes interactive again, it may be moved back to Queue 1. -->
+
+## How modern CPUs cope with increasing data-processing demands of Gen AI
+
+Resource management has become both more complex and simple. Complex because there are several more processes to complete, simpler because hardware has adapted to processing more data more efficiently.
+
+Processing jobs through the process life cycle is complex with many steps executed in nanoseconds. A program process is the execution of a series of instructions in the CPU, guided by (OS). The CPU contains one or more cores, which are independent processing units capable of executing instructions concurrently. Each core contains registers and the OS manages memory, processor time, and peripherals to ensure smooth execution of processes.
+
+Modern CPUs include up to 16 cores or more, enabling parallel processing. Each core can execute instructions independently, allowing for greater multitasking and performance. Advances in chip manufacturing and design, hardware and software have made it easier to manage increasing data loads, balancing efficiency and complexity.
+
+The combination of fast memory registers, efficient instruction execution by CPUs, and intelligent OS resource management ensures that processes run smoothly. Advances in clock speeds, core counts, and resource allocation algorithms have made modern computing systems vastly more capable than their predecessors.
+
 By using these scheduling algorithms, the OS efficiently manages CPU time and ensures that processes are executed in an optimal order. The choice of scheduling algorithm is influenced by the type of system and the types of processes being handled. Some algorithms prioritize fairness, while others optimize for throughput or response time. The OS may even combine these algorithms for different types of tasks to achieve a balanced approach to process management.
+
+As we move into the era of next-level processing, challenges presented by technologies like generative AI (gen-AI) are reshaping the landscape of resource management. Gen-AI models, such as large language models and neural networks, require immense computational power, vast datasets, and high-performance hardware. Training these models involves processing terabytes of data and executing billions of operations, all of which place significant demands on CPU cores, memory, storage, and networking.
+
+To meet these challenges, resource management must evolve to handle these massive loads more efficiently. Traditional scheduling algorithms and CPU architectures are being tested by the sheer scale of AI workloads. Multi-core and distributed processing will be critical to ensure that AI tasks are processed in parallel, minimizing latency and maximizing throughput. Furthermore, the integration of GPUs and specialized hardware accelerators is increasingly important for AI tasks. The future of processing must balance performance, energy efficiency, and scalability to support the ongoing rise of AI technologies.
 
 #### EXTERNAL RESOURCES
 
