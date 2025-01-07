@@ -93,3 +93,8 @@ __Stackframe structure__
 - Functions were developed much later in software programming history
 - Assemblers did not have functions but go-to statements where the code moves to and the conditions are executed - the old way of writing a function that calls itself - this is a recursive functions
 - Now a function is an address with params that are used within the function rather than on the assembler
+
+
+- Apparent and true concurrency
+- Load a new process, previous process is saved on PCB before you can do the next
+- Overlap creates a delay

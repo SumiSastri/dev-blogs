@@ -97,6 +97,8 @@ Serial processing involves the processor working on each process sequentially, f
 
 In concurrent processing, the CPU switches between multiple processes, allocating small time slices to each. Although only one process runs at a time, the rapid switching creates the illusion of parallelism. Concurrent processing is ideal for multitasking environments where tasks are independent, and the goal is to maximize resource utilization and improve responsiveness.
 
+THE APPEARANCE OF CONCURRENCE
+
 3. Parallel Processing
 
 Parallel processing utilizes multiple processors (or cores) to execute multiple processes simultaneously. This allows true parallelism, where different tasks or parts of a single task are executed at the same time.Parallel processing is best suited for systems with multiple processors and workloads that can be divided into smaller, independent tasks.

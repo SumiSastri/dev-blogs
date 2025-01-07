@@ -106,8 +106,6 @@ __Paging algorithms__
 - NFU not frequently used
 - FIFO first in, first out
 
-
-
 ## Process deadlocks and deadlock management
 
 

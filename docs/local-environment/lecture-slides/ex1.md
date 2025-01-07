@@ -1,4 +1,4 @@
-
+<!-- 
 # Software Development Environments Base Representation and basic binary operations Tutorial
 
 ### Resources
@@ -235,4 +235,4 @@ b. 23 | 45 where | bitwise OR
 c. 23 ^ 45 where ^ bitwise XOR
 d. ~67 where ~ bitwise NOT
 e. 115 >> 2 where >> right bit shift
-f. 16 << 3 where << left bit shift
+f. 16 << 3 where << left bit shift -->
