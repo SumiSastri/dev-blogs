@@ -8,17 +8,9 @@ last_updated: Dec 2024
 
 # Memory management - key alogrithms
 
-__Memory scheduling allocation alogrithms__
-
 Allows bare sharing of the CPU based on given processes running. The algos are based on a single CPU not on multicore - this can be mapped to multicore using load balancing so that you can assign values to separate qs and randomise allocation of jobs to the processes based on how busy they are and other priority factors you can add on NICE is used to give access to the CPU.
 
 If it is a kernel - high priority, user based lower value. The NICE value changes as a process sits in the q, increases selfish round robin - priority of jobs waiting in the new q so that they get accepted and run on the system
-
-- First fit - where the first space availble is used to store data, this is fast but may not be efficient
-- Next fit - where the allocation continues where the last allocation spot was determined and the next first fit found
-- Best fit - all available space in memory is searched and the closest match in terms of available space is found - while this looks like the best option, best fit is slow and leaves small fragments of unused memory space that have to be cleaned up by softwared packages like garbage collectors or defragmenters
-- Worst fit - like best fit, a complete scan of memory space is run and then the largest available space is used, this may look like a bad option but what it allows for is many processes to run uninterupted, it is also slow as all the space is searched
-- Quick fit - algorithms checking quickly for the best fit option allows for speed while minimising the amount of memory fragmentation
 
 A process is dynamic depending on where it sits on the system - does not remain on a particualr site on the memory map, it can be moved based on the OS requirements. It can be allcoated and deallocated and moved. Deals with the image of the process when there is an OS, we ensure that we map our memory structures to the physcial structures - ie the RAM - a mechanism to protect process, sharing multiple instances of process running, so image of process needs to be shared when a process is created memory needs to be allocated according to page structure
 
@@ -70,7 +62,31 @@ Base address - second field
 Length - number of blocks used - number
 Pointer to the next node - x is the pointer
 
-Address look up is a high overhead
+There are 2 lists  the occupied and freed list
+Addresses are redirected from the used to the other - swap the spaces in the nodes
+
+Address look up is a high overhead so link lists help to avoid address look up by linking the lists.
+
+Addresses are not looked up but redirected - makes life easier to manage.
+
+EXAM - IDENTIFY
+__Memory scheduling allocation alogrithms__
+
+- First fit - where the first space availble is used to store data, this is fast but may not be efficient, cluster of tiny blocks in the front
+- Next fit - where the allocation continues where the last allocation spot was determined and the next first fit found
+- Best fit - all available space in memory is searched and the closest match in terms of available space is found - while this looks like the best option, best fit is slow and leaves small fragments of unused memory space that have to be cleaned up by softwared packages like garbage collectors or defragmenters
+- Worst fit - like best fit, a complete scan of memory space is run and then the largest available space is used, this may look like a bad option but what it allows for is many processes to run uninterupted, it is also slow as all the space is searched
+- Quick fit - algorithms checking quickly for the best fit option allows for speed while minimising the amount of memory fragmentation, maintains 2 lists of common sizes and is sorted by sizes
+
+Garbage collection - all the small blocks are put together and resused
+If you can not allocate you can reallocate processes and create a space or merge 2 blocks of adjacent free spaces - compaction. compaction is expensive and difficult
+
+If there is no space to allocate then the memory is found on the hard drive. Hard drive may run out of space so it has to be defragged. 
+
+All of these fit algos have the same problem, at some time you are going to run out of space and have all sorts of wasted fragments of unused space.
+
+__Buddy system and the binary search tree__
+Fast but inefficient utilitsation of memroy - suffers from internal fragmentation - wasted internal blocks
 
 Page-frame allocation algorithms include:- 
 
@@ -90,13 +106,6 @@ __Paging algorithms__
 - NFU not frequently used
 - FIFO first in, first out
 
-__Memory allocation algorithms__
-
-- First fit
-- Next fit
-- Best fit
-- Worst fit
-- Quick fit
 
 
 ## Process deadlocks and deadlock management

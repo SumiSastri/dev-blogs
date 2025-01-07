@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Questions to ask yourself
+title: Questions to ask yourself if are considering a career change into web development
 parent: Learn to code - getting started
 nav_order: 2
 last_updated: May 2024
 ---
 
-# Questions to ask yourself
+# Questions to ask yourself if are considering a career change into web development
 
 Learning to code is an investment in time, to go down this route here are some of the questions I asked myself as I had already spent a few years as a certified Agile Scrum Master.
 
@@ -137,4 +137,10 @@ Despite all of this would I do anything else ? Absolutely not. It is a great pro
 
 I would still heartily recommend you pursue your dreams, if this is your dream, knowing the pros and the cons. For me, the pros of keeping mentally engaged, interested and continously learning outweigh the cons.
 
-## The path to continuous learning
+### Conclusion: The path to continuous learning
+
+Once you are in the industry, is useful to know that bootcamp is the start of the journey, not the end. Having worked in the industry for five years, you realise that this is such a vast field and it is impossible to know everything.
+
+Programs and development styles get outdated. I have just enrolled on a 2-year part-time Masters in Computer Science as I think the grounding from working as a developer has given me an insight into what I know, what I don't know and what I want to know going forward.
+
+This is a journey - bootcamp is a great start.

@@ -10,33 +10,27 @@ last_updated: May 2024
 
 In this article we expore what code is and isn't and what are the "real" coding languages you should learn when you are starting from ground zero. There is a view that HTML (Hyper Text Markup Language) and CSS (Cascading Style Sheets) are not "real" computer languages. They are text and styling mark-up. However, they are computer coding languages - just with simpler and more easy to understand rules.
 
-Computer code is the set of rules, or the syntax, of a particular computer language. Most computer languages are designed by programmers as a set of rules that are easy to learn and interpret for humans.
+A software program is data and a set of instructions that changes the behaviour of that data. As HTML does not have any functional programming it is not considered a software program. CSS does have a set of instructions that changes static HTML into a user-interface design, so it does have some features of a programming language and may use pre-processors to compile animations, like other coding languages.
+
+JavaScript, is a scripting language, like Bash Script, that has programming statements and functions.
 
 ## What features do programming languages share?
 
-- A language that can be mapped to what computers can compile and interpret
-- Early machines carried out calculations, from Babbage to ENIAC
-- The machines were unreliable, large and energy inefficient
-- They would heat up and cool down and burn out very quickly, the electric circuitry was unreliable
-- The Enigma machine - the Bomb, a complete computer that was mechanical to decipher the Engima code
-- It was a matched search that only recently the code has been released
-- Programming languges have a limited number of reserved words, many have no more than 100-350 key words
-- Programming languages - known as "high level languages" are mapped down to binary - known as low level languages
-- Languages have strict rules concering the scope and lifetime of the variables
-- Binary allows very small chunks of data to be processed at a time 8 bits make a byte
-- Most programming languages are compiled, interpreted and mapped into byte code
+Given the initial need for computers to compute mathematical tasks, computer languages developed a language structure of their own - a small vocabulary, limited room for ambiguity in the instructions and the ability to logically flow through a binary - yes-no - lexical tree.
 
-You do not need to know advanced maths, be a "techie" or a "geek" to learn web development. Follow the rules, the syntax of a language or the protocol as the rules are strict but fairly simple especially with HTML and CSS.
+Computer languages use a context-free grammar called the Backus-Naur Form [BNF](9). Deriving from both algebra and natural languages, like English, computer languages use lexical structures derived from BNF. This was largely due to the fact that initial programming languages focused on solving mathematical challenges.
 
-In [Part 1](https://sumisastri.github.io/dev-blogs/learn-to-code-getting-started/part1-how-long-does-it-take-to-learn-code/) I explore what motivates people to code and how to go about learning to code. If you are a little more interested now, you may ask yourself new questions to see if you want to pursue this career path.
+BNF uses numbers and symbols as a form of pattern matching rather than words and syllables. This lexical tree is parsed to validate its instructions. Lexical parsing uses recursion - or restating the base case problem statement over and over again until the solution is reached. The restatement narrows down the options till the base statement is proven correct.
 
-Languages wax and wane in favour. The most popular languages are not the same as the most adopted languages on the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), or the Web.
+Early programming languages were C, Java with JavaScript written in the 1990s.
+
+Languages wax and wane in favour. The most popular languages are not the same as the most adopted languages. JavaScript, was not adopted with any great vigor and fell out of favour, with PHP being a popular early language for web development.
+
+## Which language should I learn if I want to code?
 
 It does help to have a computer science or software engineering degree, however, it is not mandatory if you want to get a foot in the door and learn to code on the job.
 
-This may lead you to explore learning languages like Java, originally written to program hardware, as was C, which is the heart of the kernel of the computer and is written in C and what is referred to as assembly code.
-
-## Which language should I learn if I want to code?
+This may lead you to explore learning languages like Java, originally written to program hardware, as was C, which is the heart of the kernel of the computer and is written in C in what is referred to as "assembly code" as it transforms programming languages like JavaScript into machine readable byte code.
 
 JavaScript, often abbreviated to JS, maybe the most popular frontend language taught in bootcamps. PHP, is the core language that content-management-systems (CMS) like Wordpress and Drupal are built on. So, despite bootcamps failing to teach PHP anymore, PHP continues to be the most used language in web development.
 
@@ -60,7 +54,7 @@ What about Ruby? Some bootcamps still offer Ruby and Ruby-on-Rails (the backend 
 
 It is worth remembering that while JavaScript is incredibily popular as a language to learn today, when JavaScript was introduced as a programming language for web-browsers in the 1990s, it failed to gain popularity. Similarly Ruby was extremely popular in the early 2000s but has fallen out of favour as React and Vue have replaced frontend code initially written in Ruby and backend code with other languages, frameworks or libraries.
 
-In just five years since the initial writing of this post, React has also fallen out of favour as NextJs replaces it by a new generation of tech advocates.
+In just five years since the initial writing of this post (updated in 2025). React has also fallen out of favour as NextJs replaces it by a new generation of tech advocates.
 
 As you can see there are choices not answers, and these choices can be made knowing what the languages can do, what you want to learn and what is easily accessible to learn.
 
@@ -162,7 +156,7 @@ In [Part 3 of Learning to Code](https://sumisastri.github.io/dev-blogs/learn-to-
 
 ## What about more serious study?
 
-Conversion masters, online learning once you have a job is an important consideration for those who want to take the profession more seriously.
+Looking at  a conversion Masters program in computer science or online learning once you have a job is an important consideration for those who want to take the profession more seriously.
 
 A maths or physics degree, helps because early computer scientists were mathematicians or physics professionals.
 
@@ -171,3 +165,4 @@ The curriculum of computer science is based on advanced alogrithms that are used
 Understanding the architecture of hardware becomes important and the design of programs for efficient memory management are all taught at degree level courses.
 
 This could be a choice you can make further down your career path once you have had that crucial break into the industry.
+It's the path that I have taken and its an incredible leap forward.

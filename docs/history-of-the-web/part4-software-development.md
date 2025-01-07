@@ -44,6 +44,25 @@ BNF uses numbers and symbols as a form of pattern matching rather than words and
 
 This form of parsing uses the recursive algorithm which must eventually stop calling itself; otherwise, it will only stop when it has used up all of the available memory. Finally, the call runs out of road on the stack leading to “stack overflow".
 
+
+
+- A language that can be mapped to what computers can compile and interpret
+- Early machines carried out calculations, from Babbage to ENIAC
+- The machines were unreliable, large and energy inefficient
+- They would heat up and cool down and burn out very quickly, the electric circuitry was unreliable
+- The Enigma machine - the Bomb, a complete computer that was mechanical to decipher the Engima code
+- It was a matched search that only recently the code has been released
+- Programming languges have a limited number of reserved words, many have no more than 100-350 key words
+- Programming languages - known as "high level languages" are mapped down to binary - known as low level languages
+- Languages have strict rules concering the scope and lifetime of the variables
+- Binary allows very small chunks of data to be processed at a time 8 bits make a byte
+- Most programming languages are compiled, interpreted and mapped into byte code
+
+You do not need to know advanced maths, be a "techie" or a "geek" to learn web development. Follow the rules, the syntax of a language or the protocol as the rules are strict but fairly simple especially with HTML and CSS.
+
+
+
+
 ## From simple assembly to complex packaging, bundling and compiling
 
 Early languages, like Pascal, merely assembled code to be parsed and read and then executed in memory. In today's world, all of these are abstracted away from the end user.
