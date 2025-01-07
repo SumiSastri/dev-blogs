@@ -6,138 +6,423 @@ nav_order: 6
 last_updated: Dec 2024
 ---
 
-# How computers process data
+# How computers process data once they are loaded on to memory registers
 
-A computer's behaviour is expressed in code and data contained within programs, or processes.  Program processes, typically run on a computer or a machine's operating system (OS). Resources that manage processes are finite, and we can only start to manage our processes when we know what they're doing to the machine.
+A computer's behavior is determined by code and data contained within programs, also known as processes. These processes run on the computer's or target machine's operating system (OS), which manages the finite resources required for execution. Understanding how processes work is key to managing them effectively.
+
+*The role of the CPU, cores, and registers*
 
 Every action an OS undertakes must be executed in a processor nested in the CPU (Central Processing Unit) to produce the desired output. A CPU may be housed in a core, a computer may have one or more cores. It is the location where memory addresses and data are stored in registers.
 
-A process is the execution of a compute process in the processor. The CPU and cores manage these processes and the speed of their execution, based on a clock rate, which is 1 second of a clock. Some processes are executed in less than a second - milliseconds or even nanoseconds.
+Registers are small, fast memory locations inside the CPU that temporarily hold data and instructions during execution.
+The OS loads data from RAM (Random Access Memory) onto CPU registers. RAM serves as fast, volatile storage, enabling quick access to active processes and data. However, when you compare RAM to a register has a larger capacity but is slower to access, the registers are the closest to the CPU, therefore process data faster.
 
-For any process to be executed a set of predetermined steps need to be followed as processes are part of the binary units of dispatching information and competing for resource access.[1] A process has to create necessary data structures, and find the executable code, the standard executable object created by a high-level software language's compiler. The object needs to be located on the target machine and loaded into memory registers to start the execution of the program.
+A program process is the execution of a series of instructions in the CPU, guided by (OS). The CPU contains one or more cores, which are independent processing units capable of executing instructions concurrently. Each core contains registers and the OS manages memory, processor time, and peripherals to ensure smooth execution of processes.
 
-The kernel creates a clone of the existing program, and the data is initialisation. This clone is the initial process that is given a unique identity number, or process ID.  
+## How processes are executed
 
-The PID (process identity) numbers need to be converted into binary where the binary processes are PID 0 and PID 1. PID 0 is called the swapper process, it runs when hardware is turned on and swaps the processes it contains to PID 1. The PID 1 process is considered the ancestor to all processes as it initialises all further processes. The initialisation or "init" process is run and PID 1 is referred to as the init process.
+__Code Compilation__
+
+Source code written in a high-level programming language is translated into intermediate code or bytecode by a compiler. This intermediate representation ensures compatibility across different hardware platforms and facilitates further optimization. This intermediate or byte-code activates different parts of the memory to ensure a code block's executable object runs effectively on the target machine, converting it into binary or bit-code.
+
+*Intermediate Code and Memory Activation*
+
+The intermediate code produced during compilation plays a vital role in process execution.
+
+It serves as an abstraction layer between high-level source code and machine-specific binary instructions. It also activates specific areas of memory and hardware resources to ensure the program runs effectively on the target machine. This approach enables efficient resource utilization and allows the same code to be executed on different hardware architectures with minimal changes.
+
+__Preparation for Execution__
+
+The OS allocates memory and creates necessary data structures for the process. The compiled executable code (binary format) is located on the target machine and loaded into memory registers.
+
+For a process to execute, the CPU has to create necessary data structures, and find the executable code, the standard executable object created by a high-level software language's compiler. The object needs to be located on the target machine and loaded into memory registers to start the execution of the program. The executable is then converted into binary as part of the process of executing a process during the process lifecycle.
+
+__Execution and the instruction cycle__
+
+During execution, the compiled executable is already in binary format or converted to binary before execution.
+These binary instructions activate specific circuits within the CPU to perform operations such as arithmetic calculations, data transfers, and logic evaluations.
+
+The instruction cycle starts as the CPU fetches the instructions and data from the memory registers.The fetched instructions are decoded and executed by the CPU. The process continues until the program completes or terminates.
+
+## What is the process lifecycle
+
+When a computer starts, the CPU executes instructions stored in the bootloader, which initializes the OS kernel. The kernel creates a special process known as PID 1, often called the init process. This is the ancestor of all subsequent processes in the system. It starts the process lifecycle at initialisation and ends at process execution.
+
+__Process Initialization__
+
+The starting-up or booting process of the computer results in the OS creating the first process (PID 0).  Known as the swapper process, it uniquely indentifies the parent of all processes. This is an internal kernel process responsible for initializing hardware, managing memory, and scheduling the CPU.
+
+The swapper process (PID 0) runs during hardware initialization. It performs essential tasks during hardware initialization and system startup. Once its tasks are complete, PID 0 forks a copy of itself to create PID 1, also known as the init process.
+
+Init Process (PID 1): The init process is the first user-space process. It is responsible for setting up the environment for user and system programs by spawning other processes. These processes handle various tasks, such as loading and executing programs, managing peripherals, and initializing user-space services.  The PID 1 process is considered the ancestor to all processes as it initialises all further processes. The initialisation or "init" process is run and PID 1 is referred to as the init process.
+
+The first process 0 starts with the start of the hardware, process 0 forks and starts process 1 which is a copy of the first process. This "spawn" receives the parent PID for processing data. If an error occurs at this stage the process reverts to 0 and the program exits.
+
+__Process Execution and the Role of the Process Control Block (PCB)__
+
+Every process in a computer system requires a Process Control Block (PCB) for execution. The PCB is a data structure that contains essential information about the process, enabling the OS to manage and execute it effectively. Key elements stored in the PCB include:
+
+- Process ID (PID): A unique identifier for the process.
+- Process State: The current state of the process (e.g., ready, running, waiting, etc.).
+- Program Counter: Indicates the address of the next instruction to be executed.
+- Registers: Stores intermediate data and instructions for execution.
+- Memory Limits: Defines the memory allocated for the process.
+- Open File List: Tracks files the process is using.
+
+The PCB ensures that a process can be paused and later resumed without losing its execution context.
+
+__Process States During Execution__
+
+As a process moves through its lifecycle, it transitions through various states:
+
+- New: The process is being created.
+- Ready: The process is prepared and waiting to be assigned to the CPU.
+- Running: The CPU is actively executing the process instructions.
+- Waiting: The process is paused, waiting for an event (e.g., I/O completion).
+- Terminated: The process has completed execution or has been interrupted.
+
+Each process has its own memory space and virtual CPU, ensuring isolation and independence from other processes.
+
+__The Role of Binary in Process Execution__
+
+At the heart of process execution is the binary system, which efficiently represents data as 0s and 1s. Computers are composed of transistors and switches that rely on binary signals to operate. During execution, the binary instructions activate specific circuits within the CPU to perform tasks such as data manipulation, arithmetic, and logic operations.
+
+## Types of Processing
+
+When managing and executing processes, the system can use different processing techniques depending on the hardware capabilities and the nature of the tasks.
+
+1. Serial Processing
+
+Serial processing involves the processor working on each process sequentially, fully completing one process before moving on to another.
+
+Example Scenario:
+Suppose a computer is running three tasks:
+
+Task 1: A word processing program (10 seconds)
+Task 2: A web browser loading a webpage (15 seconds)
+Task 3: A file download (30 seconds)
+In serial processing, Task 1 will finish in 10 seconds, Task 2 will finish in 25 seconds (10 + 15), and Task 3 will finish in 55 seconds (10 + 15 + 30). This approach can make the computer feel unresponsive when trying to multitask.
+
+When to Use:
+Serial processing is suitable for systems running a small number of non-overlapping tasks or when tasks must be executed in strict order.
+
+2. Concurrent Processing
+
+In concurrent processing, the CPU switches between multiple processes, allocating small time slices to each. Although only one process runs at a time, the rapid switching creates the illusion of parallelism.
+
+Example Scenario:
+Imagine the same three tasks (word processing, web browsing, file downloading) being executed concurrently. Each task is broken into smaller units:
+
+Task 1: Processes for 2 seconds, then switches.
+Task 2: Processes for 2 seconds, then switches.
+Task 3: Processes for 2 seconds, then switches.
+By the time 30 seconds have passed, all tasks appear to have completed simultaneously because the CPU constantly alternates between them.
+
+When to Use:
+Concurrent processing is ideal for multitasking environments where tasks are independent, and the goal is to maximize resource utilization and improve responsiveness.
+
+3. Parallel Processing
+
+Parallel processing utilizes multiple processors (or cores) to execute multiple processes simultaneously. This allows true parallelism, where different tasks or parts of a single task are executed at the same time.
+
+Example Scenario:
+Suppose the system has four processors, and the tasks are distributed as follows:
+
+Task 1 runs entirely on Processor 1.
+Task 2 runs entirely on Processor 2.
+Task 3 is split across Processors 3 and 4 for faster execution.
+If Task 1 takes 10 seconds, Task 2 takes 15 seconds, and Task 3 takes 30 seconds, the entire workload will be completed in 30 seconds, as all processors work simultaneously.
+
+When to Use:
+Parallel processing is best suited for systems with multiple processors and workloads that can be divided into smaller, independent tasks.
+
+## What role does the CPU play in process management
+
+The CPU drives the instructions of the data lifecycle - from creation to storage, to access and mutation and then finally to deallocation from the memory registers. These states define how instructions are processed and how memory is accessed, modified, and released.
+
+The CPU operates as a finite state machine, executing instructions in the following cycle:
+
+- Fetch: Retrieve the next instruction from memory.
+- Decode: Interpret the instruction to determine the required operation.
+- Execute: Perform the operation, which could involve arithmetic calculations, data movement, or I/O operations.
+- Store: Write results back to memory or registers.
+
+This process, known as the instruction cycle, repeats billions of times per second.
 
 Compute power - or the speed with which your computer can run programs depends on how many processes you may want to execute and the computing power of the processors to deal with them.
 
-This enables resource management for competing and limited space in RAM (random access memory), disc space, CPUs (central processing units), external peripherals like printers, etc., The binary system is used as it is a lightweight method to transport data and information. Additionally, it is ideally equipped to transmit data to a computer because a computer is a series of switches, or transistors and wires that run programs stored in memory switching the processes on and off.
+The speed at which the CPU executes instructions is governed by its clock rate. The CPU executes processes based on its clock rate, measured in hertz (Hz), which determines how many instructions it can execute per second.
 
-The CPU is a finite state machine that drives the instructions of the data lifecycle - from creation to storage, to access and mutation and then finally to deallocation from the memory registers. Intermediate code activates different bits of the memory to ensure a code block's executable object runs effectively on the target machine.
+For decades, the clock speed of a computer's CPU was measured in MHz, with higher clock speeds generally indicating a faster processor. In the early 2000s, Intel, AMD, and IBM all released processors with clock speeds over 1000 megahertz (MHz), so they began measuring clock speeds in gigahertz (GHz) rather than MHz. Within several years of the first 1 GHz processors, new processors have clock speeds over 4 GHz meaning 4-billion of cycles per second. CPUs can perform tasks in nanoseconds due to this rapid clock rate. 
 
 Resource management has become both more complex and simple. Complex because there are several more processes to complete, simpler because hardware has adapted to processing more data more efficiently.
 
-For decades, the clock speed of a computer's CPU was measured in MHz, with higher clock speeds generally indicating a faster processor. In the early 2000s, Intel, AMD, and IBM all released processors with clock speeds over 1,000 MHz, so they began measuring clock speeds in GHz rather than MHz. Within several years of the first 1 GHz processors, new processors had clock speeds over 4 GHz.
+Modern CPUs include up to 16 cores or more, enabling parallel processing. Each core can execute instructions independently, allowing for greater multitasking and performance. Advances in hardware and software have made it easier to manage increasing data loads, balancing efficiency and complexity.
 
-These processes now are measured in gigahertz. A gigahertz (GHz) is a unit of measurement for frequency, equal to 1,000,000,000 hertz (Hz) or 1,000 megahertz (MHz). Since one hertz means that something cycles at a frequency of once per second, one gigahertz means that whatever is being measured cycles one billion times per second. While it can measure anything that repeats within that range, in the context of computers and electronics it often refers to the speed of a computer's processor or the radio frequency of Wi-Fi and other wireless communication. [2]
+The combination of fast memory registers, efficient instruction execution by CPUs, and intelligent OS resource management ensures that processes run smoothly. Advances in clock speeds, core counts, and resource allocation algorithms have made modern computing systems vastly more capable than their predecessors.
 
-Additionally, the number of cores has increased to 16 cores each processing information up from single cores not that many years ago.
+## Hierarchy of Processes
 
-## Tokenization of code for processing and processors
+Processes in a computer system operate in a structured hierarchy, enabling efficient management and execution. This hierarchy is influenced by factors like priority (determined by the "Nice" value), resource allocation, and process relationships.
 
-Code is broken down into smaller units or tokens making it easier for target machines to analyse and synthesise code. It is a sequence of smaller parts of code for compilers to process them into byte code. Each code block with its statements is broken into tokens, or flags that point to a sequence of characters that can be treated as a single unit by source language. An instance of a token is created for variable names, functions and classes, according to the source code's compiler. These tokens are entered into the compiler's symbol table.
+*Priority and the "Nice" Value*
 
-These tokens provide structure to the programming language for the target machine to use.
+The "Nice" value determines the priority of a process. Processes with a lower Nice value have higher priority and are allocated more CPU time, enabling them to complete faster. Conversely, processes with a higher Nice value are considered less urgent and are allocated less CPU time. The Nice value ranges from -20 (highest priority) to 19 (lowest priority).
 
-Processing as well has evolved with several different types of processing of data accommodating the new needs of processors and resource allocation [3]
+Example:
+A real-time video processing application may have a Nice value of -5 to ensure smooth performance, while a background file indexing process may have a Nice value of 10 to minimize its impact on other tasks.
 
-Serial processing:  The processor would work on each process in turn, fully completing one before moving on to another. Good for a small number of programs, but it makes a computer pretty unusable when you want to do multiple things at once.
+*Spawned Processes and Threads*
 
-Concurrent processing: A processor executes one process at a time by switching between each process, completing them in smaller steps. This masks the time it takes to do the job - with which a single processor takes the same amount of time to process the job, the difference is that switching between processes results in all the jobs being completed at the same time. For example - 3 jobs taking 30 seconds run concurrently and finish in 30 seconds, even though each job takes 30 seconds. Run serially the job finishes the first in 30 seconds, then the next and finally the third taking 90 seconds to complete.
+A spawned process is a child process created by a parent process. When a process spawns another process, it shares a hierarchical relationship, where the parent oversees and manages the child.
 
-Parallel processing: Using more than one processor with an OS using a combination of parallel and concurrent processing.  
+Within a spawned process, threads can be created. Threads are lightweight sub-processes that allow a single process to perform multiple tasks concurrently while sharing the same memory and resources. Threads have less overhead compared to processes, making them more efficient for tasks that require parallelism.
 
-Resources on a computer are finite, and we can only start to manage our processes when we know what they're doing to the machine.
+Example:
+A web browser may use one thread to render the page's layout, another thread to handle user input, and additional threads to load images and scripts—all within a single parent process.
 
-## The component parts of a computer process
+*Individual Processes*
 
- The PID, is a number by which the process can be referred to. This is unique at any given time, but not unique over longer periods. The PID will be reused by another process eventually, after the original has ended. We can represent the process code and data as one because by the time code is being executed in a process, it can be thought of as data itself. Any good method for inspecting processes will show us the program or command used to start the process, which should give us a clue about what the process is trying to achieve.
+Processes are often grouped into parent and child relationships. Each parent process can spawn one or more child processes, which inherit certain attributes from the parent. These processes are identified by unique process IDs (PIDs).
 
- The first process 0 starts with the start of the hardware, process 0 forks and starts process 1 which is a copy of the first process. This "spawn" receives the parent PID for processing data. If an error occurs at this stage the process reverts to 0 and the program exits.
+*Process Groups*
 
- Compute time of the CPU in executing the process: This is often expressed in absolute terms as the number of seconds, minutes, or hours that processes have spent executing the process [1].
+Processes that share a common purpose or function are grouped into process groups, which are identified by a Group ID (GID). Signals sent by the OS can be broadcast to all processes within a group, ensuring synchronized communication and execution.
 
- Processes are then loaded to a register, registers form blocks of memory which are loaded on pages and a group of pages are called a frame. Identified by their PIDs, processes are then executed according to a set of rules depending on where the process is being executed or completed.
+*Batching and Chunking*
 
-## Hierarchy of processes
+When processing large datasets, individual processes may work on batches or chunks of data. These smaller chunks reduce latency and improve processing efficiency.
 
- There is a hierarchy of processes (called Nice) where the lower the quotient, the quicker the job is processed.
+Example:
+A file compression tool may divide a large file into smaller chunks, compress each chunk in parallel, and then combine the results into a single compressed file.
 
- Spawned processes or threads: A spawned process from an individual process creates a thread. Threads come with less overhead than all other processes. Threads are a way of having one process achieve separate tasks while sharing memory and other resources.
+*Process Groups*
 
-Individual processes: Process groups will have a parent PID, which are spawns of PID 1. From PID 1 processes are batched into sub-groups of PIDs. This sub-process is initiated (also known as a spawned process as it is a child of the parent) in batches or chunks of data - often referred to as batching or chunking. Individual chunks of data have lower latency than process groups
+A process group consists of related processes that work together to achieve a shared goal. Process groups are managed collectively, allowing the OS to send signals (e.g., terminate or suspend) to all processes in the group simultaneously.
 
-Process groups: Related processes that are executed together are called process groups. Signals are used across all the processes in a process group so that the group receives the same communication from the OS. Files with their extensions - `.txt` `.html` - could be batched for processing and routed to their binary or bin folders. Signals are transported on "data buses" between processes on a register.
+File Processing Example:
+Files with specific extensions (e.g., .txt, .html) may be grouped for batch processing. The processes responsible for these files could be routed to their respective directories or binary folders (e.g., /bin), enabling streamlined management.
 
-Sessions: Used to manage all of the execution that a user may start through running programs. When a user session ends, this means the OS can easily end all of the related execution. A session usually relates to the processing of a page of processes.
+__Signals__
 
-Processes closest to the CPU, come with the least overhead (fastest to process) and have the lowest number in the memory quotient or Nice, while the hard drive has the highest latency.
+Signals and data are transported between processes via data buses, ensuring coordinated execution. These buses enable fast communication, particularly when processes share the same memory space.
 
-## Process states and the process control block or PCB
+__Sessions__
 
- All processes require a PCB, or a process control block to execute. A PCB is the information associated with each process that describes its execution and process state. It includes the PID, the process state, the program counter, the registers, the list of open files and the memory limit of the register. The PCB stores all the information so that execution can be resumed later if the process execution is interrupted.
+A session is a higher-level grouping that encompasses all processes initiated by a user during their login session. Sessions provide an organized way to manage the execution of multiple processes and ensure that they are terminated when the session ends.
 
- As a process executes, it changes state during the process life cycle from:
+Example:
+When a user logs into a Linux terminal, the shell (e.g., Bash) starts a session. All commands and programs executed during that session belong to the same session group. If the user logs out, the session ends, and the OS terminates all associated processes.
 
-- ready when the process is waiting to be assigned to a process
-- waiting when the process is dependent on some event to occur before it can be processed
-- new the state where the process is being created
-- running when the process instructions are invoked and running
-- terminated when the process is interrupted and fails or successfully runs and completes
+__Proximity to the CPU and Latency__
 
- As each process has its own memory space and area of RAM, the state of one process, therefore, does not affect another. Equally, each process has a virtual CPU so that different processing methodologies can be used in the execution of the process.
+Processes closer to the CPU are executed faster because they require less overhead. The hierarchy of execution is as follows:
+Registers: Processes in the CPU registers are executed with the least latency due to their proximity to the CPU cores.
+RAM: Processes in memory are slightly slower but still efficient due to the fast access speed of RAM.
+Hard Drive: Processes that rely on disk I/O (e.g., reading or writing data to storage) have the highest latency because of the slower access speed of hard drives or SSDs.
 
-## What is the difference between a process and a job?
+Example Hierarchy in Action
+Consider a web server handling multiple requests:
 
-A job is equivalent to a process group. Jobs are process groups in action during a user session. There are different types of jobs.
+- Threads: Each request spawns a thread within the same parent process, allowing concurrent handling of multiple users.
+- Process Groups: The server groups related processes, such as database queries and web page rendering, into a process group for coordinated execution.
+- Sessions: Each user session (e.g., logging into an account) creates a unique session, ensuring that user-specific processes terminate when the session ends.
+- Priority: Real-time tasks, like serving dynamic content, are assigned a lower Nice value for higher priority, while background maintenance tasks (e.g., log rotation) are assigned higher Nice values.
 
-Foreground job - a single parent job submitted with a command (standard input) on the command line interface (CLI). Standard input is often shortened to `stdin`
+By leveraging this hierarchy, the OS ensures efficient management of system resources, prioritizing tasks that require immediate attention while handling background operations with minimal disruption.
 
-Background jobs - created or spawned from the fore group, the job will get executed successfully (produce a standard output shortened to `stdout`) or when it runs into a processing problem will echo out (print) an error (standard error).
+## Processes, Jobs, Signals, Interrupts, and Semaphores in System Architecture
 
-Suspended jobs - run in the foreground to tell the background job to stop or suspend the process. This is done via a signal that tells the job to pause or completely abandon execution.
+To understand the internal hardware architecture and how different system components work together, it is important to differentiate between processes, jobs, signals, interrupts, and semaphores. Below is an ordered explanation:
 
-__Some examples of suspend signals__
+1. Processes and Jobs
 
-CLEAR or keyboard interrupt is sent to a process when Ctrl+C is used
+Process:
+A process is a program in execution. It is a fundamental unit of work within an operating system (OS) and includes the program code, its execution state, memory, and resources like open files and registers. Processes can be:
 
-The QUIT signal is sent to terminate a process and dump its memory, which can be useful for debugging. In Vim this command can be `q` - quit, `qa` quit all processes and `wqa` write and quit all processes. The write function saves the information in the file before quitting, while quit and quit all exit without saving.
+- Foreground processes: Interact directly with the user (e.g., a command-line program running in the terminal).
+- Background processes: Run without user interaction, often performing tasks like backups or monitoring.
 
-KILL is a signal most often used when we're terminating a stubborn, otherwise frozen process. Any process receiving a KILL signal must end immediately and will not get a chance to perform cleanup operations. KILL sends a wide variety of signals eg: p-KILL is to kill a process, if a Node process is running and you want to terminate all Node processes that are running you can run p-KILL Node. NodeJS or Node, is a JavaScript runtime environment.
+Job:
+A job is equivalent to a process group, which is a collection of related processes. Jobs operate within a user session and can be in different states:
 
-STOP is used to suspend a running process. Stop spelled S T P is the same as Control+Z on a foreground job, and a process can ignore it. Ctrl+Z will suspend the foreground job; this is useful if you want to switch from one long-running job to a job that has a shorter execution time and return to the longer one without losing the information that has already been processed.
+- Foreground Job: A single job executed via a command in the command-line interface (CLI) that accepts user input (stdin).
+- Background Job: A job running without user interaction, producing output (stdout) or errors (stderr) asynchronously.
+- Suspended Job: A job that is paused (but not terminated) by the user or OS until it is explicitly resumed.
 
-CONTINUE is the signal sent to a suspended process informing it to continue execution.
+Examples of Job States:
+- Foreground Job: Running a text editor like vim directly in the terminal.
+- Background Job: Running a backup script using &, e.g., backup.sh &.
+- Suspended Job: Pressing Ctrl+Z to pause a running process and using fg or bg to resume it.
 
-## What is the difference between a signal and a process
+2. Signals
 
-When processes are running, the way to communicate within a process is done with a signal.
-Signals offer processes a form of inter-process communication using a signal number as an identifier of the signal sent. Signals are usually sent asynchronously.
+Signals are a mechanism for communication between processes or between the OS and a process. They are identifiers (numbers) sent asynchronously to notify processes of specific events, allowing them to take action or change behavior.
 
-Processes can register their signal handlers to react to different types of signal, or they can take a blanket default signal for the process.
+What Signals Do:
 
-Signals can also stop, terminate or suspend the execution of a process to take some other action. While they reassemble an interruption, signals are slightly different.
+- Terminate or Stop a Process: Signals can stop, pause, or terminate processes.
+- Inform Processes: Signals notify processes of important system events, such as interrupts or errors.
+- Trigger Handlers: Processes can register custom signal handlers to react to specific signals or use default behaviors.
 
-## What is the difference between a signal and an interrupt?
+Common Signals:
+Ctrl+C (Interrupt): Sends the SIGINT signal to terminate the foreground process.
+Ctrl+Z (Stop): Sends the SIGTSTP signal to suspend the foreground job.
+KILL: Sends the SIGKILL signal to forcefully terminate a process without cleanup.
+Example: kill -9 <PID> forcefully kills a process.
+pkill Node terminates all Node.js processes.
+QUIT: Sends SIGQUIT, which terminates a process and creates a memory dump for debugging.
+CONTINUE: Sends SIGCONT, resuming a suspended process.
 
-Interrupts also stop execution for some other action to be taken.
+3. Interrupts
 
-However, interrupts are a method for the CPU. They occur with instances of memory page faults, and accepting hardware input, for example.
+Interrupts differ from signals in that they are low-level mechanisms used by the CPU to handle external events or system needs. Interrupts temporarily stop the current execution to allow the CPU to handle a higher-priority task.
 
-## What is the difference between a signal and a semaphore
+Types of Interrupts:
+- Hardware Interrupts: Triggered by hardware events like keyboard input, mouse clicks, or network activity.
+- Example: A keypress triggers an interrupt that the CPU processes to display the typed character.
+- Software Interrupts: Triggered by system calls or errors (e.g., a division by zero error).
+- Memory Page Faults: Triggered when a program attempts to access a memory page not currently in physical RAM.
 
-A semaphore has 2 operations up and down, in an OS, a semaphore contains both a signal and an interrupt. Therefore, a semaphore can operate both on system buses as well as on the CPU or kernel level.[5]
+4. Difference Between Signals and Interrupts
 
-A binary semaphore has the binary values of 0 and 1 but a counting semaphore can use multiplexors signals like wait, block and wakeup can be used - a traditional red-amber-green signalling, seen on traffic lights.
+| **Aspect**     | **Signal**                               | **Interrupt**                           |
+|-----------------|------------------------------------------|------------------------------------------|
+| **Purpose**     | Notify processes of system or user events. | Notify the CPU of hardware or system events. |
+| **Triggered By**| OS or processes.                        | Hardware or software.                   |
+| **Scope**       | Process-level communication.            | CPU-level execution handling.           |
+| **Examples**    | `SIGKILL`, `SIGINT`, `SIGTSTP`.         | Keypress, network packet arrival, page faults. |
 
-## Loading processes as units of memory
 
- RAM is used a fast storage location where the processor can keep the parts of the process's data that aren't currently being executed.
+5. Semaphores
+A semaphore is a synchronization mechanism used to manage access to shared resources among multiple processes or threads. It differs from signals and interrupts in its function and usage.
 
- Hard drive is the computer disc's storage capacity.
+Types of Semaphores:
+- Binary Semaphore: Acts like a flag with two states—0 (locked) or 1 (unlocked). It is used to ensure mutual exclusion for a critical section.
+Example: Controlling access to a shared printer so that only one process can print at a time.
 
- RAM does not store data between reboots so it is referred to as volatile. [6] And normally, only the OS has a choice over what is put here. For processes, it is generally measured in megabytes, gigabytes, or as a percentage of all the memory available and this is where the confusion can arise. When someone describes a laptop as having 32 GB of memory, this storage is what they're referring to. RAM is additional "fast" storage.
+- Counting Semaphore: Allows multiple threads or processes to access a resource up to a defined limit.
+Example: Limiting the number of threads accessing a database connection pool.
+
+Semaphores in Action:
+Semaphores can manage both:
+
+- System Buses: Control access to shared resources like memory or I/O devices.
+- Kernel-Level Operations: Ensure orderly execution of processes or threads in multitasking environments.
+
+Semaphore Operations:
+
+- Wait (Down): Decrements the semaphore's value, blocking a process if the value is zero.
+- Signal (Up): Increments the semaphore's value, allowing blocked processes to proceed.
+
+| **Aspect**          | **Semaphore**                                   | **Signal**                      | **Interrupt**                            |
+|----------------------|------------------------------------------------|----------------------------------|------------------------------------------|
+| **Function**         | Synchronization of shared resources.           | Process communication.          | Handling CPU events or hardware input.   |
+| **Triggering Entity**| OS or processes accessing shared resources.     | OS or user.                     | Hardware or system-level operations.     |
+| **Example Use Case** | Controlling access to shared memory or devices. | Sending `SIGTERM` to stop a process. | Keypress interrupt handling by the CPU.  |
+
+
+6. Hierarchy of Processes in Architecture
+In system architecture, the hierarchy reflects the relationship between jobs, processes, and their underlying management:
+
+Processes: Basic units of execution.
+Threads: Lightweight sub-processes within a parent process.
+Jobs: Process groups within user sessions.
+Sessions: Group of jobs associated with a user session.
+Signals, Interrupts, and Semaphores: Tools for communication, synchronization, and execution control across processes and hardware.
+
+
+Process Scheduling Algorithms
+The operating system (OS) uses various process scheduling algorithms to manage the execution of processes. These algorithms are crucial for allocating CPU time and resources to processes in a fair and efficient manner, ensuring that all processes receive adequate attention, while avoiding starvation and maximizing system throughput. Here’s a breakdown of some common scheduling algorithms:
+
+1. First-Come, First-Served (FCFS)
+FCFS is one of the simplest scheduling algorithms. In this method, processes are executed in the order in which they arrive in the ready queue.
+
+How it works: When the CPU is free, the process that has been in the queue the longest is executed first. Once it finishes, the next process in line gets CPU time, and so on.
+Pros:
+Simple to implement and understand.
+Fair in terms of order of arrival.
+Cons:
+Convoy Effect: If a long process arrives before a shorter one, the shorter process will have to wait, which can lead to inefficiency.
+No consideration of process priority or burst time.
+Example:
+
+Process A (arrives at time 0), Process B (arrives at time 1), and Process C (arrives at time 2).
+Process A runs from 0 to 4 (4 seconds), then Process B runs from 4 to 6 (2 seconds), and Process C runs from 6 to 10 (4 seconds).
+2. Round Robin (RR)
+The Round Robin (RR) algorithm is a preemptive version of First-Come, First-Served (FCFS). It divides CPU time into fixed-sized time slices (or quantum) and assigns each process a time slice to run. If a process does not finish in its assigned time slice, it is put back into the ready queue for the next round.
+
+How it works: Each process in the ready queue is assigned a fixed time slice, which it can use to execute. If the process does not finish in the time slice, it is preempted, and the CPU is given to the next process in line.
+Pros:
+Time-sharing system, ideal for multi-user systems.
+Fair for processes that require similar amounts of time.
+Cons:
+If the time slice is too large, it behaves like FCFS.
+If the time slice is too small, it increases the context-switching overhead.
+Example:
+
+Process A, B, and C arrive at time 0.
+Time slice = 2 seconds.
+Process A runs for 2 seconds, then Process B runs for 2 seconds, then Process C runs for 2 seconds. If any process is not completed, it gets another 2 seconds in the next round.
+3. Priority Scheduling
+Priority Scheduling assigns a priority value to each process, and processes with higher priority are executed before those with lower priority. This algorithm can be either preemptive or non-preemptive, depending on whether or not a running process can be preempted in favor of a higher-priority process.
+
+How it works: In preemptive priority scheduling, if a process with a higher priority arrives while a lower-priority process is running, the lower-priority process is preempted and placed back in the ready queue. In non-preemptive priority scheduling, once a process starts running, it will continue until it finishes or voluntarily yields the CPU.
+Pros:
+Allows more critical processes to get CPU time earlier.
+Can prioritize real-time systems or time-sensitive tasks.
+Cons:
+Starvation: Lower priority processes may never get a chance to execute if higher priority processes continuously arrive.
+Can be difficult to manage priorities dynamically.
+Example:
+
+Processes A, B, and C have priorities 1, 2, and 3, respectively (with 1 being the highest priority).
+Process A will execute first, then Process B, and finally Process C.
+In case Process D arrives with a higher priority (priority 1), Process A will be preempted, and Process D will execute first.
+4. Shortest Job Next (SJN)
+Shortest Job Next (SJN), also known as Shortest Job First (SJF), is a non-preemptive algorithm that selects the process with the shortest burst time to execute next. The burst time is the amount of time a process will need to run before it completes.
+
+How it works: The process that has the smallest estimated run time is chosen first. This method minimizes the average waiting time, but it requires knowledge of the execution time of processes, which is often difficult to predict.
+Pros:
+Optimizes the average waiting time and turnaround time.
+Cons:
+Starvation: Longer processes may never get executed if shorter processes keep arriving.
+Requires prior knowledge of process burst time.
+Example:
+
+Process A needs 5 seconds, Process B needs 2 seconds, and Process C needs 4 seconds.
+Process B will execute first, then Process C, and finally Process A.
+5. Multilevel Queue Scheduling
+Multilevel Queue Scheduling is a scheduling strategy where processes are divided into different queues based on their priority or type (interactive processes, CPU-bound processes, etc.). Each queue has its own scheduling algorithm, and processes are selected from the highest priority queue.
+
+How it works: Processes are assigned to different queues based on their characteristics, and each queue has its own scheduling algorithm (such as FCFS, RR, etc.). The OS selects processes based on priority, with higher-priority queues being selected first.
+Pros:
+More flexible and dynamic compared to simpler algorithms.
+Can prioritize interactive processes over CPU-bound ones.
+Cons:
+Can become complex to manage multiple queues.
+Processes in lower-priority queues may experience starvation.
+Example:
+
+Queue 1 (high priority) uses Round Robin, Queue 2 (medium priority) uses FCFS, and Queue 3 (low priority) uses SJF.
+Process A goes to Queue 1 (interactive), Process B goes to Queue 2 (CPU-bound), and Process C goes to Queue 3 (long-running job).
+6. Multilevel Feedback Queue Scheduling
+Multilevel Feedback Queue Scheduling is a more advanced version of multilevel queue scheduling. In this algorithm, processes can move between queues based on their behavior and CPU usage. If a process uses too much CPU time, it might be moved to a lower-priority queue. If a process is interactive and requires less CPU time, it may be moved to a higher-priority queue.
+
+How it works: Processes are initially assigned to the highest priority queue and can be moved to lower priority queues based on their execution time. The algorithm dynamically adjusts the priority of processes to balance responsiveness and throughput.
+Pros:
+Adaptable and efficient for a wide range of process types.
+Prevents starvation by dynamically adjusting process priorities.
+Cons:
+Complex to implement and manage.
+Might result in higher overhead due to frequent process re-prioritization.
+Example:
+
+Process A is initially in Queue 1 (interactive), but if it starts to use excessive CPU, it is moved to Queue 2 (CPU-bound). If it becomes interactive again, it may be moved back to Queue 1.
+Conclusion
+By using these scheduling algorithms, the OS efficiently manages CPU time and ensures that processes are executed in an optimal order. The choice of scheduling algorithm is influenced by the type of system and the types of processes being handled. Some algorithms prioritize fairness, while others optimize for throughput or response time. The OS may even combine these algorithms for different types of tasks to achieve a balanced approach to process management.
+
+#### EXTERNAL RESOURCES
 
 - [1] George Charalambous (2024), __Operating Systems Processes & Resource management (1)__ , PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5377599_1)
 
