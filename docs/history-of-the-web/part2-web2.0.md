@@ -103,7 +103,6 @@ As a total aside, [fun-fun functions](https://www.youtube.com/channel/UCO1cgjhGz
 
 #### EXTERNAL REFERENCES - Enter the browser with the JavaScript dragon
 
-- [Begin](https://begin.com/)
 - [Fossbytes - Who is Brenden Eich](https://fossbytes.com/who-is-brendan-eich/)
 - [What are FWAs (Functional Web Apps)](https://fwa.dev/)
 - [What are web components](https://coherent-labs.com/posts/web-components/)

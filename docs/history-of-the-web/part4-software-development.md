@@ -8,6 +8,12 @@ title: A history of software development as an adjunct to hardware development
 
 # A history of software development as an adjunct to hardware development
 
+Early computing machines, such as Babbage’s Analytical Engine and ENIAC, were groundbreaking but faced significant limitations in size, reliability, and energy efficiency. 
+
+These machines marked the beginning of the journey toward modern programming languages. Early machines used unreliable electrical circuits prone to overheating and burnout. Mechanical computing devices like the Bombe (used to break the Enigma code) laid the groundwork for the first programmable computers.
+
+The Enigma machine was a cipher device used during WWII. The Bombe, created by Alan Turing and his team, was a mechanical computing device used to decode Enigma’s encrypted messages. This device played a key role in the development of modern computers.
+
 While the first computers of the mid-20th century all had elements of software development with computer code and algorithms that solved complex problems, the development of software initially was more of an adjunct to developing computer hardware.
 
 Software programs were rigid and akin to scripting languages like Bash.[1] Programs were written in binary for mainframe computers to be stored in memory, started and stopped.
@@ -34,151 +40,132 @@ With near-field communication, embedded systems and programs written for these s
 
 All this led to a proliferation of "big data" and the need to manage this with machine learning and in today's world, AI that builds models to allow computers to learn to pattern match and develop algorithms that are based on the underlying data.[8]
 
-## What do software programming languages share with natural languages and how do they differ?
+## What are the common features of programming languages?
 
 Given the initial need for computers to compute mathematical tasks, computer languages developed a language structure of their own - a small vocabulary, limited room for ambiguity in the instructions and the ability to logically flow through a binary - yes-no - lexical tree.
+
+- Written the Backus-Naur Form
 
 Computer languages use a context-free grammar called the Backus-Naur Form [BNF](9). Deriving from both algebra and natural languages, like English, computer languages use lexical structures derived from BNF. This was largely due to the fact that initial programming languages focused on solving mathematical challenges.
 
 BNF uses numbers and symbols as a form of pattern matching rather than words and syllables. This lexical tree is parsed to validate its instructions. Lexical parsing uses recursion - or restating the base case problem statement over and over again until the solution is reached. The restatement narrows down the options till the base statement is proven correct.
 
-This form of parsing uses the recursive algorithm which must eventually stop calling itself; otherwise, it will only stop when it has used up all of the available memory. Finally, the call runs out of road on the stack leading to “stack overflow".
+- Reserved Keywords
+Programming languages have a limited number of reserved words, often ranging between 100 and 350, depending on the language. These keywords are part of the language syntax and cannot be used as variable names.
 
+- Syntax and Rules
 
+Programming languages enforce strict rules for syntax, variable scope, and lifetime. Variables must often be defined within a specific context (scope) and follow specific lifetimes (e.g., local or global variables).
 
-- A language that can be mapped to what computers can compile and interpret
-- Early machines carried out calculations, from Babbage to ENIAC
-- The machines were unreliable, large and energy inefficient
-- They would heat up and cool down and burn out very quickly, the electric circuitry was unreliable
-- The Enigma machine - the Bomb, a complete computer that was mechanical to decipher the Engima code
-- It was a matched search that only recently the code has been released
-- Programming languges have a limited number of reserved words, many have no more than 100-350 key words
-- Programming languages - known as "high level languages" are mapped down to binary - known as low level languages
-- Languages have strict rules concering the scope and lifetime of the variables
-- Binary allows very small chunks of data to be processed at a time 8 bits make a byte
-- Most programming languages are compiled, interpreted and mapped into byte code
+- Data Representation
 
-You do not need to know advanced maths, be a "techie" or a "geek" to learn web development. Follow the rules, the syntax of a language or the protocol as the rules are strict but fairly simple especially with HTML and CSS.
+At the machine level, binary is the foundation. Data is processed in small chunks, typically 8 bits per byte.
+This binary processing is what allows computers to handle and store data efficiently.
 
+- Compilation and Interpretation 
+Most programming languages are either compiled (e.g., C, C++) or interpreted (e.g., Python, JavaScript). Some languages (e.g., Java) are translated into bytecode, which is then executed by a virtual machine
 
+- Distinction between high-level and low-level programming languages
 
+High-level programming languages (like Python, Java, and C++) are closer to human languages and abstracted from machine code.
+These high-level instructions are eventually translated (compiled or interpreted) into low-level languages, such as binary, for execution by the computer.
 
-## From simple assembly to complex packaging, bundling and compiling
+## From Simple Assembly in Low-Level Languages to Complex Packaging, Bundling, and Compiling
 
-Early languages, like Pascal, merely assembled code to be parsed and read and then executed in memory. In today's world, all of these are abstracted away from the end user.
+Early programming languages, such as Pascal, primarily focused on assembling code to be parsed, read, and executed directly in memory. At that time, many processes we now take for granted were either nonexistent or performed manually by programmers.
 
-Many processes outlined below were either missing or done manually.[10]
+In the modern era, much of the complexity of these tasks has been abstracted away from the end user, thanks to advancements in compilers, memory management, and higher-level programming constructs.
 
-Higher-level languages are created in different phases to make syntactical analysis easier. The phases of how a computer programming language is created is related to the fact that high-level software programming language, need to be translated back into byte code that target machines and their operating systems can read and execute, Westminster University's George Charalambous says. Target machines could be computers, mainframes, smart, gaming or mobile devices. It is any machine that has a chip and needs to translate source code into byte code.
+__Phases of High-Level Programming Language Creation__
 
-As software development has rapidly evolved in the last 50 years, compilers have played an important role in analysing and synthesing code before it reaches the target machine's memory allocation system. Earlier, programmers like Charalambous had to manually create an executable object, a standard processing image, for target machines to read. Memory in hardware is limited and the source code of high level languages need to be managed, he adds. The key steps pre-processing and compiling code, have changed with compilers taking on the tasks that programmers used to.
+Higher-level programming languages are developed in phases to facilitate syntactical analysis and ensure seamless translation into bytecode or machine code. George Charalambous of Westminster University explains that high-level programming languages must be translated into bytecode that target machines can interpret and execute.
 
-## Software analysis and processing
+Target machines include a variety of devices, such as:
 
-The key steps in the analysis and synthesis of code by programmers provided by Charalambous are:
+Personal computers
+Mainframes
+Smartphones
+Gaming consoles
+Other devices with embedded chips
+In essence, any machine that requires source code to be executed must translate it into a readable form, such as bytecode.
 
-__Code packaging or code creation__
+__The Evolution of Compilers__
 
- A high-level language can be written in an integrated development environment (IDE) or a text editor. IDEs come with runtime overheads but save time as they can perform many pre-compiling tasks and debug code before it has run. Syntax is to be adhered to, for example, keywords of the language have to be used correctly, symbols and puncutation like semicolons and colons used in the way described by the code manuals, tabs and parenthesis/ curly braces or square brackets used so that the code can be compiled using BNF, a semi-mathematical way of parsing or reading source code. Code is packages into bundles that send messages to each other via a process called state-management. State management, refers to the data lifecycle management process, where  data that is created is initialised and stored, retrieved and updated and then removed from the processing queue to release memory space and allocation for other processing jobs in the program.
+Over the past 50 years, software development has evolved significantly, with compilers playing a central role in the process. Compilers are responsible for analyzing, optimizing, and synthesizing source code before it is loaded into the target machine's memory allocation system.
 
-__Pre-compiling or pre-processing__
+In the early days of computing, Charalambous [10]adds, programmers had to manually create an executable object from source code.
+They had to build a standard processing image for the target machine to execute. This manual process was labor-intensive and error-prone, especially given the limited memory capacity of early hardware systems. High-level source code had to be carefully managed to fit within the available resources.
 
-Pre-processors produce inputs for compilers dealing with several processing tasks like lexical analysis, character streaming, macro processing, file inclusion are executed. [11] This analysis and synthesis of code becomes an input for code interpretation for interpreters or code compiling for compilers. Tutorials Point, an online software programming academy, has a detailed phase-by-phase walk through of the process of compiling.
+__Automation of Pre-Processing and Compilation__
 
-__Code interpretation__
+Today, compilers have taken over many tasks that were once handled manually by programmers. Key steps such as:
 
-A code interpreter, works as part of the code compiling process, translating software programming languages into target machine langauges - byte code. Compilers scan through the whole source code creating tokens, checking language syntax and creating an executable object for the target machine it will be run on.
+- Pre-processing (e.g., resolving macros and include files).
+- Compiling (e.g., translating high-level source code into an intermediate form, such as assembly or bytecode).
+- Linking and Packaging (e.g., generating a single executable or bundled application).
 
-An interpreter will read code line-by-line, translate it into byte code, creating an executable and then processes the next statement on a first-in-first-out basis (FIFO). Code stops running when an interpreter finds an error - a runtime error. While a compiler will pass through all the errors providing errors at the end - compile-time errors which need to be remedied, error-by-error after the code has been checked, run and failed.
+These processes ensure that modern programs are more efficient, portable, and reliable across various platforms and operating systems.
 
-__Code compiling__
+The abstraction provided by modern compilers has enabled developers to focus on writing higher-level, user-friendly code rather than worrying about low-level details like memory allocation or manual executable creation. This evolution has been a critical factor in the rapid development of modern software and the expansion of computing into devices of all types and sizes.
 
-This is where the lexical analysis in BNF is done to scan streams of characters, discard white spaces and comments, linting and tokenization of characters to form a single unit by the source language, while this code is running errors are handled. Code is run to check for errors and compiletime errors are caught and fixed.
+## What is the Software Development Cycle?
+Based on core concepts from the Hamilton model, the software development cycle is organized into the following stages:
 
-Compiling code, includes debugging and code optimisation processes, where syntax is analysed again looking for clauses and sentences according to the grammar rules set by the language and accepting the syntax tree or creating it if it has not been created at the pre-compile stage.
+- Requirements Mapping: Understanding and documenting the needs and goals of the software.
 
-Code is then chunked and bundled together to be processed in streams. This is the point where code blocks are tokenized, serving as flags that identifies the structure of the code for the symbol table entry.
+- High-Level Design and Architecture: Defining the overall structure and systems, often overlapping with detailed design.
 
-__Symbol tables__
+- Detailed Design and Implementation: Specifying finer details of the design, implementing the code, and making adjustments as needed.
 
-Once data is chunked and tokenised, the next stage is when symbol tables are used to resolve issues, relative addresses of variables are generated, and the code is prepared for assembly. A symbol table is a list of variables, loop structures, identify the positions of the data when they get stored in memory.
+- Testing: Ensuring the software meets requirements and functions correctly.
 
-Symbol tables could be structured in a linear list format, a hash table or a binary search tree. They allocate space on the target machines register, almost like a reservation process. This ensures the block of code has a free register and the resources in that block of code can be linked and loaded when ready for that process to start.
+- Release and Maintenance: Deploying the software and providing ongoing support, updates, and fixes.
 
-On the table, the status of linking and loading is identified. The virtual address provided is associated with the information that the process is waiting for the linker or loader to use the resource from the virtual address that it has reserved in advance on the table.
+These stages can be executed sequentially, as in the Waterfall model, or iteratively, as in Agile methodology. The V-model introduces a linear progression with additional flexibility for validating and verifying processes at various stages or "vertical nodes."
 
-Tokenisation and allocating tokens to virtual addresses in memory, help with masking the real address of the data on the target machine making it more difficult for malicious actors to access program data.
+The ultimate goal of the software development cycle, which continues to evolve, is to release software quickly, efficiently, and accurately to meet growing demands. Software increasingly solves abstract problems and automates tedious tasks, enhancing productivity.
 
-Tables tokenise words, words are mapped on to a page, pages are mapped to a fixed size called a frame. The symbol table deals with data at the word tokenisation level, ensuring BNF syntactical structures and programming structures are met - it can not generate the logic, which is what is written by the programmer at the code packaging and code creation stage. A symbol table assumes the logic is correct and checks the language and syntactical structure of the tokenised version of the language.
+## What Constitutes a Software Program?
 
-The scope of variable and functions is checked and mapped using BNF creating structures that will be used to create the abstract syntax tree. For example, the convention is that an underscore is for system based variables. File names are an example of the use of the underscore, as are some defined types of the system.
+A software program today is a compiled or pre-compiled package of code blocks (referred to as source code). The process of creating a software program involves:
 
-Checking and matching is executed based on what the language syntax allowed, any syntax that is not allowed throws an error. Scanning checks left to right and right to left - mapping the matching of brackets and other syntactical checkpoints. IDE's help catch these errors early and allows the compilers to do more of the heavy lifting in tracing and finding errors.
+- Writing Source Code: Code written in one or more programming languages, known as the tech stack.
 
-__The AST or abstract syntax tree__
+- Compiling: Converting source code into an object file.
 
-The compilation process is time consuming and expensive and is often done by compilers when you run your program - javac is a compiler for Java, while Babel, Vite and webpack are compilers for JavaScript.
+- Linking: Combining object files with libraries to create a runnable, executable file. The resulting executable file can run on various platforms, including computers, mobile applications, gaming systems, or embedded devices.
 
-Compilers all perform the same steps with different languages. Once the syntax is verified and a symbol table created, compilers will create an AST, or an abstract syntax tree, for the target machine.
+- Loading: Mounting the object file on memory registers to ensure they are in a queue for processing
 
-__Linkers and linking__
+- Code Maintenance and Versioning
 
-A linker is a software program, that helps in the programming process of linking and merging various object files together to make a file executable on a target machine.
+Code is regularly updated and maintained using a versioning system. Updates are labeled with:
 
-The linkers search and locate code modules, program routines in a code package and determine the memory location where these code blocks will be stored. It provides the absolute path, or reference for the storage unit allocated in memory.
+-- Major versions (e.g., Word 14.x.x): Significant new features or changes.
+-- Minor updates (e.g., Word x.90.x): Incremental improvements or minor features.
+-- Patches (e.g., Word x.x.2): Bug fixes or small updates to address specific issues.
 
-It links libraries that the code package may use and resolves any link errors.
+For example, "Word 14.90.2" indicates the 14th major version, the 90th minor update, and the 2nd patch.
 
-__Loaders and loading__
+## Licencing and use - open Source vs. closed Source
 
-Memory allocation uses alogrithms to match the use case. Last in first out (LIFO) is used for memory that is on the stack, while other allocation algorithms are used for solving resource deadlocks and referencing data on the memory heap.
+Software licenses vary:
 
-Loading happens on the operating systems (OS) of target machines. Loaders initialise memory registers by calculating the size of the process in the executable files. The process is a combination of data and instructions to read, store or modify the data.
+Open-Source Software: Allows free access to the source code (e.g., Linux), making it widely used for studying operating systems.
+Closed-Source Software: Proprietary and restricted (e.g., Windows, macOS, Android, iOS), making their inner workings less transparent.
 
-The link tables are read and the struts (structures) of languages reviewed before the program is loaded on to registers. This done via code assembly.
+## Into the era of AI
 
-__Assemblers and code assembly__
+While Babbage’s Analytical Engine and ENIAC are considered historical firsts  hardware was unweildy and unreliable and software development initially acting as an adjunct to hardware design.
 
-At the assembly stage code is boiled down to intermediate code.
+Early programming languages, such as Fortran and Lisp, emerged to address rudimentary needs, leading to later innovations like C, Pascal, and object-oriented programming. The 1990s marked the rise of modern languages like Python, Java, and JavaScript, alongside methodologies like Agile and the advent of cloud computing.
 
-Assemblers are complex programming code packages, that are progammed by engineers who check assembly program components, operation code, operators and operands, taking data off the register and reserving memory on chips based on memory directives like block 256, the next level of chip design.
+Software programs today are compiled packages of source code, translated into executable files through processes like compiling, linking, and pre-processing. Modern software relies on robust versioning systems for updates.
 
-It gives binary representation of other data formats converting hexadecimals or octals into binary, code is verbose and hard to write at the assembly stage. Some of this code can be machine generated, but some of the code has to be designed and programmed by highly skilled engineers and mathematicians who use mathematical alogrithms to solve the memory allocation challenges presented at this stage of the code compilation process.
+The software development cycle has evolved to prioritize efficiency, accuracy, and rapid deployment, while the rise of AI and machine learning further expands the scope of software to manage complex systems and big data.
 
-There is a 1-to-1 mapping of this code to the instruction code required for the CPU to process. Assembly code targets the hardware of the OS of the target machine. Assemblers are used for input-output management of large systems and other embedded systems. An assembler in an embedded system has its own chip, memory, RAM and is a complete and contained computing system.
+This field is in explosion mode, Turing's __The Bomb__ comes to mind !
 
-Lower level languages like C and C++ are better for embedded systems. Embedded processors are found in mobile phones, they can be both simple and cost effective. These chips can be programmed for simple activities in smart machines like home thermostats and other chip-based home-use kits.
-
-__Instruction transfer to registers__
-
-Once the link tables are used to link data to the program running the instructions for state management, the data is loaded on to memory registers on the hardware that the program will run on.
-
-Because software development has grown exponentially from the 1990s to the 2020s, in 30 years there have been new ways to manage the process by which software developers create shippable software programs that can be utilised by end-users.
-
-## What is  the software development cycle?
-
-Using core concepts from the Hamilton model, the software development cycle is organised into the stages of
-
-1. Requirements mapping
-2. High-level design and architecture (may overlap with detailed design)
-3. Detailed design and implementation (some overlap with the design phase in the detail of implementation and any adjustments to be made)
-4. Testing
-5. Release and maintenance
-
-These may be executed one after the other - in what is known as the waterfall model, or iteratively in the Agile methodology.
-The V model allows linear progression up and down the scale as well as at vertical nodes if required[10].
-
-The aim of the software development cycle, which is constantly evolving is to release software as quickly, efficiently and accurately as possible because of the growing demand for software to solve problems in an abstract format and relieve the tedium of monotonous jobs and routines.
-
-## What constitutes a software program?
-
-A software package or program, today is a compiled or pre-compiled package of code blocks known as the source code. Source code is compiled into an object file and object files are linked with libraries to make the program run. This packaged file is executable and can be run on a computer, mobile application, gaming application or embedded system.
-
-Source code can be written in one or several languages called the tech-stack. Code is constantly maintained and updated with packages labelled into major versions, minor updates and patches with a numbering system. For example, Word Word 14.90.2 describes 14 as the major update, 90 the minor updates and 2 as the patches.
-
-Software, if it is not open-source allowing free access to the licence to use it, will describe terms of use.
-
-Linux, is often used as the base for studying OS because the Linux OS is open source. Unix, Windows, Android and Apple all have their own commercial, closed source, software. This makes understanding their OS less transparent.
 
 #### EXTERNAL REFERENCES - Software development an adjunct to hardware development
 
