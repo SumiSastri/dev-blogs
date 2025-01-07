@@ -6,104 +6,119 @@ nav_order: 6
 last_updated: Oct 2024
 ---
 
-# What are the different data types in a programming language?
+# What Are the Different Data Types in a Programming Language?
+All programming languages share one core principle: they rely on data types to store, retrieve, and manipulate data. Understanding data types and how they interact with memory is fundamental to programming.
 
-All programming languages share one thing in common. They have different data types. These types are stored, retrieved and mutated.
+This section explores common data types across programming languages, their roles in memory allocation, and the lifecycle of data.
 
-This section looks at data types common to most programming languages. And the data life cycle.
+_Primitive Data Types_
+Primitive data types, also known as literals, are the simplest data forms. They directly represent data and are immutable. Examples include:
 
-As we have seen in the [last section](https://sumisastri.github.io/dev-blogs/computer-code/part1-programming-vs-machine-code/), programming languages are considered top-level or "source" code.
+_Numbers_
+Integers (int): Whole numbers (e.g., 1, 42, -7).
+Floating-Point Numbers (float): Numbers with decimal points (e.g., 3.14, -0.001).
+Characters (char): Single letters, digits, or symbols (e.g., 'a', '7', '@').
+Booleans (bool): Represent truth values (e.g., true or false).
+Primitive types form the foundation of all data structures and operations in programming.
 
-## Primitive data types
+_Lists and Collections_
+A list is a collection of multiple data items, often grouped and manipulated together. Lists can be:
 
-A primitive data type is also known as a literal. It is literally what it says on the tin.
+Ordered Lists: Data items are arranged sequentially (e.g., arrays in JavaScript, lists in Python).
+Unordered Lists: Data items have no specific order (e.g., objects in JavaScript, sets in Python).
+Examples:
 
-Examples of primitive types are numbers and characters. Numbers if they are round numbers are called integers and if there are decimal places they are known as floating types.
+A word is an ordered list of characters.
+A set of unique items, such as {1, 3, 5}, is an unordered list.
+Different programming languages use various names for lists, such as arrays, collections, sets, or dictionaries, depending on their specific features (e.g., ordering, mutability, indexing).
 
-A character is an alphabet of language and refers to a single character in the alphabet.
+_Arithmetic Operators_
+Arithmetic operators allow calculations between numbers:
 
-Characters and integers are the only data types and the starting point of the data life cycle as we will see in this article.
+Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
+Note: Characters like - may have multiple meanings depending on context—for example, as a hyphen in strings versus subtraction in numeric data.
 
-## Lists of data
+_Logical Operators_
+Logical operators evaluate relationships or conditions. Common operators include:
 
-Lists are multiple sets of data. A word, for example, is a list of primitive characters. As the words must be in a particular order to make sense, words are ordered lists. Sentences are ordered lists where the space is a delimiter.
+Greater Than (>): Checks if the left operand is larger than the right.
+Less Than (<): Checks if the left operand is smaller than the right.
+AND (&&): Ensures both conditions are true.
+OR (||): Ensures at least one condition is true.
+Each programming language may have unique syntactical rules for using these operators, so consulting language-specific documentation is essential.
 
-If a list does not need to be stored in a strict order, it may be stored in an unordered list.
+_Functions: Adding Behavior to Data_
+Functions encapsulate logic and provide reusable behaviors. For example:
 
-Different programming languages have different names for lists. In JavaScript, for example, an ordered list is an array. An unordered list is an object. In Python, a set is an unordered list.
+```javascript
+function add(a, b) {
+  return a + b;
+}
 
-Descriptions such as collections, sort lists, and indexed lists are all variations of the names given to ordered and unordered lists in a programming language.
+add(1, 2); // Outputs: 3
+Key components of functions:
+```
 
-## Arithmetic operators
+Parameters: Input variables (e.g., a, b).
+Return Values: Output of the function (e.g., a + b).
+Function Body: Instructions executed when the function is called.
+Functions occupy memory and manipulate data, integrating behavior with data for program execution.
 
-For arithmetic operations, the operators `+`, and `-` are used for addition and subtraction. The minus sign is also a dash as a character. This can be confusing as strings which make up words maybe hyphenated.
+Data Initialization and State Management
+Data Initialization
+Data is "initialized" by assigning a data type and a memory location. For example:
 
-When characters are defined as a primitive type of a string, the minus sign is read as a hyphen and when the data is defined as a number as an arithmetic operator.
+```javascript
+let x = 10; // Integer
+let name = "Alice"; // String
+Primitive data types (e.g., integers, characters) are stored in fixed-size memory spaces. More complex data (e.g., lists or objects) requires additional memory allocation.
+```
 
-The same is true of the multiplication and division operators, that are respectively `*` and `/`.
+## State Management - the data lifecycle
 
-## Logical operators
+State management refers to the lifecycle of data:
 
-Code blocks are recognised by the syntax of the language they are written in and the file extensions.
+Creation: Data is initialized.
+Mutation: Data is transformed by program instructions.
+Deallocation: Data is removed from memory when no longer needed.
+Efficient state management ensures programs run smoothly without excessive memory use.
 
-For example, a `.js` file or a `.tsx` file - JavaScript and TypeScript compilers for the JavaScript Library React - are recognised by JavaScript and TypeScript compilers and processors.
+## Data Storage: Little Endian vs. Big Endian
 
-Java and C++, will have their compilers, interpreters and processors.
+When data is stored in memory, it is broken into bytes (8 bits per byte). How these bytes are arranged depends on the system architecture:
 
-Each of these logical operators may have a slightly different meaning in the language they are written in - but the key operators are greater than and less than are represented by the horizontal carats `>` and `<` respectively. The double ampersand `&&` evaluates 2 statements both of which have to be true for the program to execute, `||` the double pipe symbol evaluates 2 statements and executes if one of the statements is true.
+Little Endian: Stores the least significant byte (LSB) at the smallest memory address.
+Big Endian: Stores the most significant byte (MSB) at the smallest memory address.
+For example: The hexadecimal number 0x1234 would be stored as:
 
-Other operators and operands are used. While learning the syntax of a particular language, it is useful to look at the specific meaning of these operators and operands and how they execute the program instructions. The documentation will outline the syntax prescribed and what compilers will check against for errors.
+Little Endian: 34 12
+Big Endian: 12 34
+Endianism is crucial for compatibility between systems with different architectures.
 
-## Program instructions and functions
+## Memory Allocation and Efficiency
 
-A function is a set of instructions that accompanies data and provides behaviours to the data. The function may require the program to add 2 numbers, where the 2 numbers are the data and the behaviour required from the 2 numbers are that they perform a simple arithmetic addition.
+Data storage efficiency depends on:
 
-Most programming languages also include functions as part of their lexicon and functions occupy a space in memory. Therefore, from a memory allocation perspective, the data and its behaviours are an important part of a program.
+Memory Proximity:
 
-Functions have a return statement - the return of the addition would be to add the 2 numbers with the variable names a and b. The function body would be the instruction block, and the function call would be when the function is used to add 2 numbers replacing the variables a and b with real numbers.
+RAM: Fastest but limited. Ideal for frequently accessed data.
+Secondary Storage (e.g., SSD, cloud): Slower but larger capacity.
+Chunking: Data is fetched in groups ("words") for efficiency. Larger programs may use virtual memory to handle processes that exceed physical memory limits.
 
-The function using Backus-Naur Form [BNF](9), would look something like this `function add(a, b){ return a + b}` and the function call could look like this `add(1, 2)`, where the a and b variable are replaced with any number and an arithmetic operation is performed.
+Paging Algorithms: Manage virtual-to-physical memory mappings for optimal performance.
 
-Deriving from both algebra and natural languages, like English, computer languages use lexical structures derived from BNF. This was largely due to the fact that initial programming languages focused on solving mathematical challenges.,
+Latency and Cost
+The further data is from the processor, the slower and costlier the access. For example, SSDs are faster (and more expensive) than traditional hard drives due to lower latency.
 
-## Initialisation of data and data state management
+Nested Dependencies
+Modern programs often rely on nested packages and external libraries. While these dependencies enhance functionality, they also:
 
-Programming data consists of data and instructions. Instructions is the set of programming logic that transforms base data.
-
-Primitive data types have no programming logic and merely represent the data type and how it is stored. The initial state of data is "initialised" by a program. The initialisation process gives the data type and a location in memory on the memory stack.
-
-The native types of data - characters and numbers - have an immutable space in memory as they are the smallest storage unit. A word is a list of characters. Numbers are converted from octals and decimals back to binary. Data that require more storage space are referenced by an address in memory on the memory heap. These tend to be the instructions that transform the data.
-
-Instructions provided after initialisation by logical statements, blocks of code and algorithms are what transform data into executable programs. Program instructions change or mutate the behaviour of the underlying data. Mutation is the process by which data changes of data. The cycle of data creation, mutation and deallocation from memory registers on target machines  is known as data state management, often abbreviated as state management.
-
-The parsing, interpretation, compiling and bundling of this code into a software package are all processes that are handled by individual software packages or software libraries. In today's world, a developer has to deal with packages within packages (nested packages) as well as packages that are dependent on external libraries to perform the program instructions.
-
-The source code that they are writing is dependent on the performance of these nested packages and libraries, resulting in nested dependencies. While this may increase the features that a software package offers the end user it decreases the transparency and efficiency of the code at execution time.
-
-## Data storage - Little Endian and Big Endian
-
-All programs have to be compiled down into the language that target machines can understand - bits and bytes. Compilers and assemblers are programs that facilitate this process and each programming language will have its own set of compilers that will automate this process.
-
-The data then is ready to be loaded onto a target machine for execution in the form of an "executable" or an object that contains the data and instructions in byte code - intermediate code - which can then be loaded onto memory registers and get processed as bits. There are 8 bits to a byte.
-
-The bigger the data bytes and processing needs, the more memory space the program execution needs. Larger byte size data is stored in what is known as the Big Endian (BE) or the left side registers on a memory block and the smaller byte on the Little Endian (LE) on the right-hand side of the memory registers. This "Endianism" in computer science derives its source from Gulliver’s Travels where the Lilliputians ate eggs in different ways - either from the larger side of the egg or the smaller end of the egg.
-
-Each byte is allocated an address, the most significant bytes (MSbytes) are stored on the BE side while the smaller, least significant bytes (LSbytes) on LE side and everything else in between in the ME or Middle-Endian, also known as the Mixed-Endian.
-
-## Data and memory allocation - efficiency quotient
-
-The computer memory is used to store and recall data in a series of units or bits. Instructions from processes could be fetched one bit at a time, but the chunking of code means a group of bits is fetched at any given moment. Though, not what we would describe as a word a group of bits is termed as a word and the number of bits in a word as word length of the computer. Words flow into virtual memory on a page. Pages flow into page-frames.
-
-The smaller the data, the quicker it is processed, this data is stored on RAM. The larger the data the slower it is processed. Data then may be stored on ROMs, read-only-machines, hard drives, external hard drives, on-premise servers or cloud servers. The further away the data is to the CPU the longer it will take to process.
-
-The efficiency quotient, or latency is the reference of how and where programming languages store, retrieve and process data.
-Latency, or the speed of processing and the cost of a memory unit depends on its access time. The costs are higher when more time is taken to access the memory location. This is why you would pay over and above disc storage for an SSD, external drives or cloud storage.
-
-The processor looks for an address that is associated with each word. The address is stored in RAM units, the fastest and smallest is RAM and largest is the main memory. Secondary storage devices like SSDs, CD-ROMs, the cloud all store data but the further away the data is from the processor, the slower the job takes to get processed.
-
-Programs access the virtual memory on a page as they supports processes larger than physical memory. Paging algorithms are used to manage page space and memory map tables map virtual to physical pages. The map is made up of link lists that represent blocks used by a process and free blocks.
-
-Algorithms are used to allocate space for programming languages that need to be converted from their program data types to intermediatory code - byte code - which then compiles down to bit code that target machines understand.
+Introduce performance overhead.
+Reduce transparency.
+Managing dependencies effectively is critical for ensuring program efficiency and reliability.
 
 #### EXTERNAL REFERENCES
 
