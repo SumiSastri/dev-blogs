@@ -8,6 +8,12 @@ last_updated: Dec 2024
 
 # Memory management - key alogrithms
 
+Words
+Pages
+Frames
+Images
+
+
 Allows bare sharing of the CPU based on given processes running. The algos are based on a single CPU not on multicore - this can be mapped to multicore using load balancing so that you can assign values to separate qs and randomise allocation of jobs to the processes based on how busy they are and other priority factors you can add on NICE is used to give access to the CPU.
 
 If it is a kernel - high priority, user based lower value. The NICE value changes as a process sits in the q, increases selfish round robin - priority of jobs waiting in the new q so that they get accepted and run on the system
