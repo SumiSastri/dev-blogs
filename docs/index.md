@@ -26,3 +26,9 @@ If there are errors, they are entirely my fault so please do your research. If y
 [Site terms of use, copyright, IP and second rights](https://concentriccirclesdigital.com/site-terms-of-use/)
 
 _NOTE: References for research are noted by hyperlinks within the text body, or in sections on further reading & resources at the end of a blog, I am compiling a master reading list of texts as part of my master's education which can be found in the file `rsources.md`_ at the end of every section. Not all sections have been updated with a bibliography.
+
+MIT Disclaimer:
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
