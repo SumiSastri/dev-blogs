@@ -17,8 +17,10 @@ __Methods, methods methods - but which method?__
 - Implements - with interfaces
 - Extends and Implements - with an abstract class and an interface
 - Static methods static - private and belongs to the class not instance of the class / private by default
-    -- A way to ensure early binding within a class - not generally considered good practice (weakens encapsulation)
-    -- Good for utility methods
+    -- A way to ensure early binding within a class - static methods are loaded when the class is loaded on JVM
+    -- Good for utility methods - static variables are loaded first - int weight/ height will be loaded on registers first
+    -- Variables default is null/ zero no need to provide default values
+    -- Attributes marked as final so that they NEVER change `STATIC_HEIGHT` for example would be a way to initalise a variable
 
 ```java
 public class BmiCalcExample {

@@ -60,8 +60,6 @@ Invalid overloading
 - Interfaces can be via the public methods or the class interface using the `interface` key word
 - Interfaces allow modularisation and interaction of classes while encapsulation preserves the integrity of data of the class
 
-
-
 __Implementation hiding__
 
 - The implementation of these methods are not visible to other classes

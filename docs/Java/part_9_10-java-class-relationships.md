@@ -37,6 +37,8 @@ Overriding can be used with behaviours, where subclasses call the super class.
 
 __The concept of multiple inheritance__
 
+An interface, like an abstract method, only has a signature - it has no method body, no functionality, no attributes.
+
 If a class needs to use methods and attributes from multiple sources, it may need to implement some methods or extend the inheritance of the class. Therefore there is no super class, but several classes where attributes and methods need to be picked and mixed.
 
 Interfaces allow for this kind of multiple inheritance. Interfaces have no method body, no functionality, no attributes. It is a signature of a contract between 2 classes - the class that implements the Interface, represents a capability that is used not inherited.
@@ -47,41 +49,50 @@ Asteroids and Stars are both moving in space, you may `getSpeed()` from an inter
 
 __The role of an interface__
 
-It has no method body, no functionality, no attributes. It is a signature of a contract between 2 classes - the class that implements the Interface, represents a capability that is used not inherited. It is an abstract class by nature, but abstraction purely for abstraction sake. There are no cookie-cutter objects or classes that are created from an interface.
+It is a contract that obliges the adherance to the rules of the design contract.
 
-A class can inherit from one or more Interfaces, when designing an interface it may be important to look at the principle of single responsiblity. Let the interface do one thing as the signature method - let it not be a "god class" makes it difficult to implement multiple methods unless a class needs all those multiple methods.
+Interface contract - abstract methods are enforced by using the interface
+
+Capability is enforced by useage not by inheritance - nothing is defined in an interface
+
+ It is an abstract class by nature, but abstraction purely for abstraction sake. There are no cookie-cutter objects or classes that are created from an interface.
+
+A class can inherit from one or more Interfaces, when designing an interface it may be important to look at the principle of single responsiblity.
+
+Let the interface do one thing as the signature method - let it not be a "god class" makes it difficult to implement multiple methods unless a class needs all those multiple methods.
 
 __The concept of association__
 
 The association of relationship can be uni directional or bi-directional.  
+Terms _has a_ and _owns a_
 
 eg: Bidirectional relationship
-The booking class has a relationship with a customer calss and a customer the relationship the booking class
-Terms - own and have
 
-A customer class owns the room booking class and can have can have 0 bookings to many bookings
-Room booking class can have 0 to many customers and belongs to the customers
+A bank has a customer, a customer owns a bank account
 Association is of peers - neither is more important than the other.
 Life cycle of the objects both are as important as the other - and can not exist without the other.
 
-It can be multi-associations as well.
+Multi-directional associations are also possible
 
 __The concept of aggregation__
 
 When the whole picture is made up of an aggregate of its parts. (Has a or has many/ uses a or uses many - is not a is-a of inheritance)
+Terms _has a_ _has many_ or  _uses a_ or _uses many_
+
+A car has a steering wheel a car has many parts
+
 Unidirectional relationship
 Interfaces support aggregation
-
 Unilateral relationship - the whole it is more import than what it is connected to
 The parts can exist without the whole
-The parts can be repurposed and used somewhere else
 The lifecycle of the parts do not depend on the whole for creation or destruction
 
 __The concept of composition__
 
 Unilateral relationship - the whole it is more import than what it is connected to
+Terms _has a_ and _owns a_
+
 The whole cannot exist without its parts
 The whole is made up of a composition of the parts
-
 If the parts decompose the whole decomposes - (Has a ? or Owns a? Composition shows ownership)
 Related to the lifecycle of the class - the class ceases to have importance and decomposes
