@@ -268,3 +268,6 @@ Checked exceptions - write a try-catch or the program will not compile it is a s
 finally block - close the writer - flush the buffer and release resources
 
 Reading from files
+
+Buffered reader - storing in the memory buffer or register buffer - accessing disc is further away from RAM - so access is milliseconds/ vs RAM nanoseconds
+
