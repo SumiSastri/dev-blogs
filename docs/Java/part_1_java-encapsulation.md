@@ -20,6 +20,10 @@ EXAM QUESTION - What is valid overloading?
 - args length are the same but types are different
 - args are different lengths
 
+Invalid overloading
+
+- args the same length and type - will not compile, error will be thrown
+
 ## What is encapsulation information hiding and data integrity
 
 - The logic/ attributes and methods (data and behaviours) is self contained and controlled by the class
@@ -56,25 +60,7 @@ EXAM QUESTION - What is valid overloading?
 - Interfaces can be via the public methods or the class interface using the `interface` key word
 - Interfaces allow modularisation and interaction of classes while encapsulation preserves the integrity of data of the class
 
-### Methods, methods methods - but which method?
 
-- Methods have access key words which define how other objects may interact with them
-- Private, public and protected
-- A private method can only be called within the class
-- A public method can be called by other objects accessing the class
-- Methods can be void - these have a method signature but no return method or method body
-- The void methods are called at run time and the body is overriden at runtime
-- A protected method is what?
-
-- Private methods can call public methods within the class and outside the class
-- Public methods can call public methods
-- Public methods within a class can call the private methods of that class but not of other classes
-- Public methods can not call private methods of another class
-- Main method
-- Extends
-- Implements
-- Extends and Implements
-- Static methods
 
 __Implementation hiding__
 

@@ -70,12 +70,14 @@ Size of the stack is small megabytes or less - very limited space
 
 ## How methods are called - EXAM QUESTION
 
-- Main calls methods of the classes
-- Attributes of the of class are stored on the stack
-- Attributes therefore will be stored on a LIFO basis
+- Javac compiler runs
+- Memory - stack, heap and meta
 
+- When a program runs, the main (static) method calls methods of the classes
+- Attributes of the of class are stored on a local variable frame
 - Base pointer is first data in
 - Stack pointer is where the last data is stored
+- Stack processes data on a LIFO basis
 
 What is stored?
 Params and local variables of a method
@@ -84,25 +86,27 @@ Local variables next
 Each method with its params and variables are stacked one on top of each other
 
 Where is it stored - both on stack and heap
-Data or attributes of methods are stored on the stack frame or local variable frame (JVM)
+Data or attributes of methods are stored on the stack frame or local variable frame (JVM) similar to hardware PCB
 Each method has a stack frame or local variable frame
 
-- Methods are stored on the heap and therefore are accessed when needed in runtime or compile time
-- On the heap the methods are stored randomly when there is space
-  - Method A (only has access to its own privat attributes - not to the attributes of the other methods)
+- Methods are stored on the heap as addresses randomly when there is space available/ accessed runtime-compile time
+  - Method A
   - Method B
   - Method C
 
-  Each of these methods has their own local variable frame
+  - Each of these methods has their own local variable frame with data on stack and heap
+  - Encapsulation means, a method has access to its own privat attributes - not to the attributes of the other methods
 
 In what order are methods called and how is data popped off the stack?
 
 - Methods will call other methods - what happens then?
-- Figure out what method is called first and what next
 
+- Mutual exclusion/ Hold and wait
+
+- Figure out what method is called first and what next
 - If Method B calls Method A, Method B gets executed
 - This will be because Method B calls Method A
-- It is reliant on the data of Method A to run
+- It is reliant on the data (resources) of Method A to run
 - Method A then is completed once method B is completed
 
 On the stack the params and attributes of method A will be stored first
@@ -146,7 +150,7 @@ Objects have different addresses
 When the assignment operator is used `=` the address is reallocated and redirected with an object
 In this case both variables and objects values can be reassigned
 With objects a comparison has to be done at the wrapper Object level with the `equals` method
-The comparison happens in a method eg: `checkEquals (ob1 ob2){}`
+The comparison happens in a method eg: `checkEquals (ob1 ob2){}` checksums - CRCs
 Once the object is reallocated, the space in the heap is freed and available for garbage collection
 In JVM the release of the space in the data is cleaned up by garbage collector
 Not the case in C or JavaScript - clean up has to be done manually like `setTimeOut()` this has to be closed
@@ -158,4 +162,5 @@ Data of the attributes is passed into meta which lies outside the heap
 
 ## Process deadlocks and deadlock management
 
-- Done by interfaces under the hood (Lesson 11 and Lesson 12)
+- Done by interfaces under the hood (Lesson 11 and Lesson 12) 
+
