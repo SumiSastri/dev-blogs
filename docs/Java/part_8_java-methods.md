@@ -33,3 +33,6 @@ public class BmiCalcExample {
     }
 }
 ```
+
+- Public static - `PrintStream` - one exception to encapsulation to interact with i/o
+- Character encoding utf-8 update on ASCII

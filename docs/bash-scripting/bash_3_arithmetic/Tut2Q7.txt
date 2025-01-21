@@ -1,8 +1,0 @@
-#!/bin/bash
-if test $# -ne 1 
-then
-   echo "You need 1 parameter a filename" exit 1
-fi
-read -p "Type string to be appeneded to file $1 : " strinput
-echo $strinput >> $1
-exit 0
