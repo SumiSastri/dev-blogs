@@ -9,7 +9,7 @@ nav_order: 7
 
 This is a complete bibliography of external references used in the developer environment section
 
-## Blogs 
+## Blogs
 
 - S. Bajaj "zsh", Sourabh Bajaj, https://sourabhbajaj.com/ (Accessed: Sep. 22, 2024). [Available](https://sourabhbajaj.com/mac-setup/iTerm/zsh.html)
 
@@ -32,24 +32,21 @@ This is a complete bibliography of external references used in the developer env
 
 - _Unix Power Tools_ Shelley, Peek, Jerry D, 3rd edition, O'Reilly Learning, Beijing, 2003, Available from: ProQuest Ebook Central
 
-
 ## Lecture notes and recordings
 
 - George Charalambous (2024), __BASH part 1__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5330159_1)
 
--  George Charalambous (2024), __Software Development (1)__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5365890_1)
+- George Charalambous (2024), __Software Development (1)__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5365890_1)
 
--  George Charalambous (2024), __Computer Hardware (1)__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5377599_1)
-
+- George Charalambous (2024), __Computer Hardware (1)__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5377599_1)
 
 ## Videos
 
 - Scott Simpson, _Learning Bash Scripting_, (Linked-in Learning, Sept, 2022), Accessed: Oct. 29, 2024)[https://www.linkedin.com/learning/learning-bash-scripting-17063287/what-s-bash?resume=false&u=42314660]
 
-
 ## Websites
 
--  __University of Wolongong Australia__ "Understanding operating systems", (Accessed: Sep. 22, 20224) [Available](https://www.uow.edu.au/student/support-services/academic-skills/online-resources/technology-and-software/operating-systems/)
+- __University of Wolongong Australia__ "Understanding operating systems", (Accessed: Sep. 22, 20224) [Available](https://www.uow.edu.au/student/support-services/academic-skills/online-resources/technology-and-software/operating-systems/)
 
 - __Puget Systems__ "Hardware Recommendations for Machine Learning/AI" (Accessed: Sep 23, 2024) [Available](https://www.pugetsystems.com/solutions/ai-and-hpc-workstations/machine-learning-ai/hardware-recommendations/)
 
@@ -67,22 +64,20 @@ This is a complete bibliography of external references used in the developer env
 
 - __Computer Hope__ "GUI", (Accessed: Oct. 14, 2024) [Available](https://www.computerhope.com/jargon/g/gui.htm)
 
--  __Digital Citizen__ "What version of Chrome do I have? 6 ways to find out", (Accessed: Oct. 14, 2024) [Available](https://www.digitalcitizen.life/version-google-chrome/)
+- __Digital Citizen__ "What version of Chrome do I have? 6 ways to find out", (Accessed: Oct. 14, 2024) [Available](https://www.digitalcitizen.life/version-google-chrome/)
 
 - __WhatIsMyBrowser__ "Update Chrome Web Browser", (Accessed: Oct. 14, 2024) [Available](https://www.whatismybrowser.com/guides/how-to-update-your-browser/chrome)
 
--   __Computer Hope__ , Dictionary of computer jargon, https://www.computerhope.com/ (Accessed: Dec. 13, 20224) [Available](https://www.computerhope.com/jargon/g/gui.htm)
+- __Computer Hope__ , Dictionary of computer jargon, https://www.computerhope.com/ (Accessed: Dec. 13, 20224) [Available](https://www.computerhope.com/jargon/g/gui.htm)
 
+- __Educative__ "Declarative vs imperative programming: 5 key differences", https://www.educative.io (Accessed: Dec. 13, 20224) [Available](https://www.educative.io/blog/declarative-vs-imperative-programming)
 
--  __Educative__ "Declarative vs imperative programming: 5 key differences", https://www.educative.io (Accessed: Dec. 13, 20224) [Available](https://www.educative.io/blog/declarative-vs-imperative-programming)
-
--  __Tech Target__, "What is SSH (Secure Shell) and How Does It Work?", https://www.techtarget.co (Accessed: Dec. 13, 20224) [Available] (https://www.techtarget.com/searchsecurity/definition/Secure-Shell)
+- __Tech Target__, "What is SSH (Secure Shell) and How Does It Work?", https://www.techtarget.co (Accessed: Dec. 13, 20224) [Available] (https://www.techtarget.com/searchsecurity/definition/Secure-Shell)
 
 - __The Modern Coder__ https://www.themoderncoder.com/add-git-branch-information-to-your-zsh-prompt/
 
--  __Wikipedia__ "Dot files" (https://en.wikipedia.org/wiki/Dot_(command)#Source)
+- __Wikipedia__ "Dot files" (https://en.wikipedia.org/wiki/Dot_(command)#Source)
 
 - __IBM__ "What is the curl command" (https://developer.ibm.com/articles/what-is-curl-command/)
 
 - __Pair__ "What is c-url and when to use it" (https://blog.pair.com/2018/01/26/curl-description-basic-use-cases/)
-

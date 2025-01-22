@@ -8,7 +8,7 @@ last_updated: Oct 2024
 
 # BIBLIOGRAPHY - Computer programming fundamental principles
 
-This is a complete bibliography of external references used in the Computer programming fundamental principles section.
+This is a complete bibliography of external references used in the computer programming fundamental principles section.
 
 ## Blogs
 
