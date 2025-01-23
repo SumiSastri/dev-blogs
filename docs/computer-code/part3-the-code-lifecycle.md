@@ -12,12 +12,12 @@ Code creation involves writing source code in a high-level language, using an In
 
 Once code is ready, it is packaged into bundles. These bundles allow communication between different sections of the program through state management. State management refers to the process of handling the data lifecycle—initializing, storing, modifying, retrieving, and eventually removing data to free up memory for other tasks. Proper state management ensures smooth program operation by efficiently managing memory allocation and deallocation.
 
-__Data Initialization, Storage, and Mutability__
+__Data Initialization, storage, and mutability__
 Data in a program is stored in variables, which are allocated specific areas of memory for future use. These variables can hold either immutable or mutable data. Immutable data does not change once initialized, while mutable data can be altered during execution. For example, in JavaScript, let variables allow for mutability, while const variables maintain a constant value once initialized. Other programming languages, such as Java, Python, and C, have similar mechanisms for defining variables and managing mutability.
 
 Variables reserve areas in memory, making data accessible throughout the program’s execution. Once data is initialized and stored, it can be retrieved and modified as needed. Each programming language provides specific mechanisms for retrieving and modifying data, ensuring the efficient use of memory and maintaining program stability.
 
-__Execution in Memory__
+__Execution in memory__
 After high-level code is compiled, it is executed in memory. The compiled code is processed by the computer’s hardware, where instructions are carried out based on the program’s logic. These operations take place in memory, and state management ensures that variables are accessed, updated, and removed as required, allowing for efficient memory usage and smooth program execution.
 
 Code creation, packaging, bundling, and management are all interrelated processes that enable developers to build efficient, reusable, and scalable software applications. Code bundling optimizes code for faster execution, while code packaging and management ensure that libraries and dependencies are properly organized and updated. By efficiently managing variables and memory allocation, developers can ensure smooth execution, minimizing errors and performance issues. These processes collectively contribute to the successful development, maintenance, and execution of software.
@@ -36,9 +36,9 @@ Popular bundlers include Webpack and Parcel, which help automate these processes
 
 Code Packaging involves bundling code together for efficiency and reusability. A code package is a collection of code—often precompiled code—that can be reused by developers. JavaScript libraries like React and the Java Class Library (JCL) are examples of precompiled code packages designed for developers to integrate into their own projects without having to write the underlying functionality from scratch.
 
-_Code Package Management_ ensures that dependencies and libraries within a codebase are up-to-date and compatible. As libraries are versioned, updates often introduce new features, security fixes, or changes that could break compatibility with older versions. Code package management helps to prevent issues that arise from outdated code by ensuring libraries and dependencies are correctly updated and compatible with each other.
+_Code package management_ ensures that dependencies and libraries within a codebase are up-to-date and compatible. As libraries are versioned, updates often introduce new features, security fixes, or changes that could break compatibility with older versions. Code package management helps to prevent issues that arise from outdated code by ensuring libraries and dependencies are correctly updated and compatible with each other.
 
-_Code Patching_ is a part of package management and involves smaller updates to fix bugs, improve functionality, or address security issues in code packages. These patches are typically identified using semantic versioning (e.g., 2.1.11, where the last number indicates a patch). Developers monitor release notes for patches and implement the necessary changes to keep their codebase functioning properly.
+_Code patching_ is a part of package management and involves smaller updates to fix bugs, improve functionality, or address security issues in code packages. These patches are typically identified using semantic versioning (e.g., 2.1.11, where the last number indicates a patch). Developers monitor release notes for patches and implement the necessary changes to keep their codebase functioning properly.
 
 ## What is code pre-compiling or pre-processing ?
 
@@ -114,7 +114,7 @@ __How does a compiler work__
 
 Compilers are language-specific tools that perform a multi-stage process to turn human-readable code into executable machine instructions. Compilers perform these tasks in sequential order:- 
 
-__Lexical Analysis__
+__Lexical analysis__
 
 This is the first step in the compiler process, where the raw source code (written by the programmer) is scanned to remove unnecessary characters like whitespace and comments. The stream of characters is divided into "tokens," which are the smallest units of meaningful data, such as keywords, operators, and identifiers.
 
@@ -122,7 +122,7 @@ __Tokenization__
 
 This happens during lexical analysis. The tokenizer (lexical analyzer) takes the character stream and breaks it down into tokens, which are stored in a symbol table. The tokens represent the basic building blocks of the code that will be used for further analysis.
 
-__Syntax Analysis__
+__Syntax analysis__
 
 After tokenization, the compiler performs syntax analysis, where it checks if the sequence of tokens follows the correct grammatical structure according to the programming language's syntax rules (typically described in Backus-Naur Form (BNF)). This phase generates a syntax tree (often called an Abstract Syntax Tree (AST)), which represents the structure of the program in a tree-like format.
 
@@ -252,7 +252,7 @@ At the assembly stage, the source code is translated into assembly code, which i
 
 Assemblers are specialized software tools that take this intermediate or low-level code and convert it into a binary format (machine code) that the CPU can execute directly. These tools map assembly code instructions to machine instructions and allocate memory space, ensuring that the program can run efficiently on the target machine.
 
-__Key Functions of Assemblers__
+__Key functions of assemblers__
 
 - Assembly Code Generation: The assembler translates higher-level instructions (like those in a high-level language) into assembly code. This code includes human-readable mnemonics that correspond to machine-level operations (such as MOV for move or ADD for addition).
 

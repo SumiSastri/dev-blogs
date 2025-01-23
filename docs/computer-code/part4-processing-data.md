@@ -19,17 +19,17 @@ The OS loads data from RAM (Random Access Memory) onto CPU registers. RAM serves
 
 ## How processes are executed
 
-__Code Compilation__
+__Code compilation__
 
 Source code written in a high-level programming language is translated into intermediate code or bytecode by a compiler. This intermediate representation ensures compatibility across different hardware platforms and facilitates further optimization. This intermediate or byte-code activates different parts of the memory to ensure a code block's executable object runs effectively on the target machine, converting it into binary or bit-code.
 
-*Intermediate Code and Memory Activation*
+*Intermediate code and memory activation*
 
 The intermediate code produced during compilation plays a vital role in process execution.
 
 It serves as an abstraction layer between high-level source code and machine-specific binary instructions. It also activates specific areas of memory and hardware resources to ensure the program runs effectively on the target machine. This approach enables efficient resource utilization and allows the same code to be executed on different hardware architectures with minimal changes.
 
-__Preparation for Execution__
+__Preparation for execution__
 
 The OS allocates memory and creates necessary data structures for the process. The compiled executable code (binary format) is located on the target machine and loaded into memory registers.
 
@@ -46,7 +46,7 @@ The instruction cycle starts as the CPU fetches the instructions and data from t
 
 When a computer starts, the CPU executes instructions stored in the bootloader, which initializes the OS kernel. The kernel creates a special process known as PID 1, often called the init process. This is the ancestor of all subsequent processes in the system. It starts the process lifecycle at initialisation and ends at process execution.
 
-__Process Initialization__
+__Process initialization__
 
 The starting-up or booting process of the computer results in the OS creating the first process (PID 0).  Known as the swapper process, it uniquely indentifies the parent of all processes. This is an internal kernel process responsible for initializing hardware, managing memory, and scheduling the CPU.
 
@@ -56,7 +56,7 @@ Init Process (PID 1): The init process is the first user-space process. It is re
 
 The first process 0 starts with the start of the hardware, process 0 forks and starts process 1 which is a copy of the first process. This "spawn" receives the parent PID for processing data. If an error occurs at this stage the process reverts to 0 and the program exits.
 
-__Process Execution and the Role of the Process Control Block (PCB)__
+__Process execution and the role of the process control block (PCB)__
 
 Every process in a computer system requires a Process Control Block (PCB) for execution. The PCB is a data structure that contains essential information about the process, enabling the OS to manage and execute it effectively. Key elements stored in the PCB include:
 
@@ -69,7 +69,7 @@ Every process in a computer system requires a Process Control Block (PCB) for ex
 
 The PCB ensures that a process can be paused and later resumed without losing its execution context.
 
-__Process States During Execution__
+__Process states during execution__
 
 As a process moves through its lifecycle, it transitions through various states:
 
@@ -81,7 +81,7 @@ As a process moves through its lifecycle, it transitions through various states:
 
 Each process has its own memory space and virtual CPU, ensuring isolation and independence from other processes.
 
-__The Role of Binary in Process Execution__
+__The role of binary in process execution__
 
 At the heart of process execution is the binary system, which efficiently represents data as 0s and 1s. Computers are composed of transistors and switches that rely on binary signals to operate. During execution, the binary instructions activate specific circuits within the CPU to perform tasks such as data manipulation, arithmetic, and logic operations.
 
@@ -126,13 +126,13 @@ For decades, the clock speed of a computer's CPU was measured in MHz, with highe
 
 Processes in a computer system operate in a structured hierarchy, enabling efficient management and execution. This hierarchy is influenced by factors like priority (determined by the "Nice" value), resource allocation, and process relationships.
 
-*Priority and the "Nice" Value*
+*Priority and the "Nice" value*
 
 The "Nice" value determines the priority of a process. Processes with a lower Nice value have higher priority and are allocated more CPU time, enabling them to complete faster. Conversely, processes with a higher Nice value are considered less urgent and are allocated less CPU time. The Nice value ranges from -20 (highest priority) to 19 (lowest priority).
 
 Example:A real-time video processing application may have a Nice value of -5 to ensure smooth performance, while a background file indexing process may have a Nice value of 10 to minimize its impact on other tasks.
 
-*Spawned Processes and Threads*
+*Spawned processes and threads*
 
 A spawned process is a child process created by a parent process. When a process spawns another process, it shares a hierarchical relationship, where the parent oversees and manages the child.
 
@@ -140,21 +140,21 @@ Within a spawned process, threads can be created. Threads are lightweight sub-pr
 
 Example: A web browser may use one thread to render the page's layout, another thread to handle user input, and additional threads to load images and scripts—all within a single parent process.
 
-*Individual Processes*
+*Individual processes*
 
 Processes are often grouped into parent and child relationships. Each parent process can spawn one or more child processes, which inherit certain attributes from the parent. These processes are identified by unique process IDs (PIDs).
 
-*Process Groups*
+*Process groups*
 
 Processes that share a common purpose or function are grouped into process groups, which are identified by a Group ID (GID). Signals sent by the OS can be broadcast to all processes within a group, ensuring synchronized communication and execution.
 
-*Batching and Chunking*
+*Batching and chunking*
 
 When processing large datasets, individual processes may work on batches or chunks of data. These smaller chunks reduce latency and improve processing efficiency.
 
 Example: A file compression tool may divide a large file into smaller chunks, compress each chunk in parallel, and then combine the results into a single compressed file.
 
-*Process Groups*
+*Process groups*
 
 A process group consists of related processes that work together to achieve a shared goal. Process groups are managed collectively, allowing the OS to send signals (e.g., terminate or suspend) to all processes in the group simultaneously.
 
@@ -170,7 +170,7 @@ A session is a higher-level grouping that encompasses all processes initiated by
 
 Example: When a user logs into a Linux terminal, the shell (e.g., Bash) starts a session. All commands and programs executed during that session belong to the same session group. If the user logs out, the session ends, and the OS terminates all associated processes.
 
-__Proximity to the CPU and Latency__
+__Proximity to the CPU and latency__
 
 Processes closer to the CPU are executed faster because they require less overhead. The hierarchy of execution is as follows:
 Registers: Processes in the CPU registers are executed with the least latency due to their proximity to the CPU cores.
@@ -259,13 +259,15 @@ Types of Semaphores:
 
 - Counting Semaphore: Allows multiple threads or processes to access a resource up to a defined limit. Example: Limiting the number of threads accessing a database connection pool.
 
-__Semaphores in Action__
+__Semaphores in action__
 
 Semaphores can manage both:
+
 - System Buses: Control access to shared resources like memory or I/O devices.
 - Kernel-Level Operations: Ensure orderly execution of processes or threads in multitasking environments.
 
 Semaphore Operations
+
 - Wait (Down): Decrements the semaphore's value, blocking a process if the value is zero.
 - Signal (Up): Increments the semaphore's value, allowing blocked processes to proceed.
 
@@ -275,7 +277,7 @@ Semaphore Operations
 | __Triggering Entity__| OS or processes accessing shared resources.     | OS or user.                     | Hardware or system-level operations.     |
 | __Example Use Case__ | Controlling access to shared memory or devices. | Sending `SIGTERM` to stop a process. | Keypress interrupt handling by the CPU.  |
 
-6. Hierarchy of Processes in Architecture
+1. Hierarchy of Processes in Architecture
 In system architecture, the hierarchy reflects the relationship between jobs, processes, and their underlying management:
 
 Processes: Basic units of execution.
@@ -292,33 +294,28 @@ The operating system (OS) uses various process scheduling algorithms to manage t
 
 FCFS is one of the simplest scheduling algorithms. In this method, processes are executed in the order in which they arrive in the ready queue.
 
-<!-- How it works: When the CPU is free, the process that has been in the queue the longest is executed first. Once it finishes, the next process in line gets CPU time, and so on.
-Pros:
+<!-- _How it works_ 
+
+When the CPU is free, the process that has been in the queue the longest is executed first. Once it finishes, the next process in line gets CPU time, and so on.
+    - Pros:
 Simple to implement and understand.
 Fair in terms of order of arrival.
-Cons:
-Convoy Effect: If a long process arrives before a shorter one, the shorter process will have to wait, which can lead to inefficiency.
-No consideration of process priority or burst time.
-Example:
+    - Cons:
+Convoy Effect: If a long process arrives before a shorter one, the shorter process will have to wait, which can lead to inefficiency.No consideration of process priority or burst time. -->
 
-Process A (arrives at time 0), Process B (arrives at time 1), and Process C (arrives at time 2).
-Process A runs from 0 to 4 (4 seconds), then Process B runs from 4 to 6 (2 seconds), and Process C runs from 6 to 10 (4 seconds). -->
 2. Round Robin (RR)
 
 The Round Robin (RR) algorithm is a preemptive version of First-Come, First-Served (FCFS). It divides CPU time into fixed-sized time slices (or quantum) and assigns each process a time slice to run. If a process does not finish in its assigned time slice, it is put back into the ready queue for the next round.
 
-<!-- How it works: Each process in the ready queue is assigned a fixed time slice, which it can use to execute. If the process does not finish in the time slice, it is preempted, and the CPU is given to the next process in line.
-Pros:
+<!-- _How it works_
+
+Each process in the ready queue is assigned a fixed time slice, which it can use to execute. If the process does not finish in the time slice, it is preempted, and the CPU is given to the next process in line.
+    - Pros:
 Time-sharing system, ideal for multi-user systems.
 Fair for processes that require similar amounts of time.
-Cons:
+    - Cons:
 If the time slice is too large, it behaves like FCFS.
-If the time slice is too small, it increases the context-switching overhead.
-Example:
-
-Process A, B, and C arrive at time 0.
-Time slice = 2 seconds.
-Process A runs for 2 seconds, then Process B runs for 2 seconds, then Process C runs for 2 seconds. If any process is not completed, it gets another 2 seconds in the next round. -->
+If the time slice is too small, it increases the context-switching overhead. -->
 
 3. Priority Scheduling
 

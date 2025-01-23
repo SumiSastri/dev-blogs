@@ -89,3 +89,5 @@ Queue FIFO
 - Divide and conquer (break up and solve in steps)
 Divide and conquer is a tree - top of the tree
 Segment the tree
+
+Tutorial:
