@@ -10,12 +10,12 @@ last_updated: Dec 2024
 
 A computer's behavior is determined by code and data contained within programs, also known as processes. These processes run on the computer's or target machine's operating system (OS), which manages the finite resources required for execution. Understanding how processes work is key to managing them effectively.
 
-*The role of the CPU, cores, and registers*
+## The role of the CPU, cores, and registers
 
 Every action an OS undertakes must be executed in a processor nested in the CPU (Central Processing Unit) to produce the desired output. A CPU may be housed in a core, a computer may have one or more cores. It is the location where memory addresses and data are stored in registers.
 
 Registers are small, fast memory locations inside the CPU that temporarily hold data and instructions during execution.
-The OS loads data from RAM (Random Access Memory) onto CPU registers. RAM serves as fast, volatile storage, enabling quick access to active processes and data. However, when you compare RAM to a register has a larger capacity but is slower to access, the registers are the closest to the CPU, therefore process data faster.
+The OS loads data from RAM (Random Access Memory) onto CPU registers. RAM serves as fast, volatile storage, enabling quick access to active processes and data. However, when you compare RAM to a register has a larger capacity but is slower to access, the registers are the closest to the CPU, therefore process data faster, says Westminster's George Charalambous[1].
 
 ## How processes are executed
 
@@ -42,7 +42,7 @@ These binary instructions activate specific circuits within the CPU to perform o
 
 The instruction cycle starts as the CPU fetches the instructions and data from the memory registers.The fetched instructions are decoded and executed by the CPU. The process continues until the program completes or terminates.
 
-## What is the process lifecycle
+### What is the process lifecycle
 
 When a computer starts, the CPU executes instructions stored in the bootloader, which initializes the OS kernel. The kernel creates a special process known as PID 1, often called the init process. This is the ancestor of all subsequent processes in the system. It starts the process lifecycle at initialisation and ends at process execution.
 
@@ -52,7 +52,7 @@ The starting-up or booting process of the computer results in the OS creating th
 
 The swapper process (PID 0) runs during hardware initialization. It performs essential tasks during hardware initialization and system startup. Once its tasks are complete, PID 0 forks a copy of itself to create PID 1, also known as the init process.
 
-Init Process (PID 1): The init process is the first user-space process. It is responsible for setting up the environment for user and system programs by spawning other processes. These processes handle various tasks, such as loading and executing programs, managing peripherals, and initializing user-space services.  The PID 1 process is considered the ancestor to all processes as it initialises all further processes. The initialisation or "init" process is run and PID 1 is referred to as the init process.
+Init Process (PID 1): The init process is the first user-space process[2]. It is responsible for setting up the environment for user and system programs by spawning other processes. These processes handle various tasks, such as loading and executing programs, managing peripherals, and initializing user-space services.  The PID 1 process is considered the ancestor to all processes as it initialises all further processes. The initialisation or "init" process is run and PID 1 is referred to as the init process.
 
 The first process 0 starts with the start of the hardware, process 0 forks and starts process 1 which is a copy of the first process. This "spawn" receives the parent PID for processing data. If an error occurs at this stage the process reverts to 0 and the program exits.
 
@@ -67,7 +67,8 @@ Every process in a computer system requires a Process Control Block (PCB) for ex
 - Memory Limits: Defines the memory allocated for the process.
 - Open File List: Tracks files the process is using.
 
-The PCB ensures that a process can be paused and later resumed without losing its execution context.
+The PCB ensures that a process can be paused and later resumed without losing its execution context, to paraphrase Charalambous'
+lecture notes [3].
 
 __Process states during execution__
 
@@ -83,29 +84,27 @@ Each process has its own memory space and virtual CPU, ensuring isolation and in
 
 __The role of binary in process execution__
 
-At the heart of process execution is the binary system, which efficiently represents data as 0s and 1s. Computers are composed of transistors and switches that rely on binary signals to operate. During execution, the binary instructions activate specific circuits within the CPU to perform tasks such as data manipulation, arithmetic, and logic operations.
+At the heart of process execution is the binary system, which efficiently represents data as 0s and 1s. Computers are composed of transistors and switches that rely on binary signals to operate. During execution, the binary instructions activate specific circuits within the CPU to perform tasks such as data manipulation, arithmetic, and logic operations. Stallings et al, outline the types of processing in the next section [4].
 
-## Types of Processing
+### Types of processing
 
 When managing and executing processes, the system can use different processing techniques depending on the hardware capabilities and the nature of the tasks.
 
-1. Serial Processing
+__Serial processing__
 
 Serial processing involves the processor working on each process sequentially, fully completing one process before moving on to another. Serial processing is suitable for systems running a small number of non-overlapping tasks or when tasks must be executed in strict order.
 
-2. Concurrent Processing
+__Concurrent processing the illusion of parallelism__
 
 In concurrent processing, the CPU switches between multiple processes, allocating small time slices to each. Although only one process runs at a time, the rapid switching creates the illusion of parallelism. Concurrent processing is ideal for multitasking environments where tasks are independent, and the goal is to maximize resource utilization and improve responsiveness.
 
-THE APPEARANCE OF CONCURRENCE
-
-3. Parallel Processing
+__Parallel processing__
 
 Parallel processing utilizes multiple processors (or cores) to execute multiple processes simultaneously. This allows true parallelism, where different tasks or parts of a single task are executed at the same time.Parallel processing is best suited for systems with multiple processors and workloads that can be divided into smaller, independent tasks.
 
-## What role does the CPU play in process management
+### What role does the CPU play in process management
 
-The CPU drives the instructions of the data lifecycle - from creation to storage, to access and mutation and then finally to deallocation from the memory registers. These states define how instructions are processed and how memory is accessed, modified, and released.
+The CPU drives the instructions of the data lifecycle - from creation to storage, to access and mutation and then finally to deallocation from the memory registers. These states define how instructions are processed and how memory is accessed, modified, and released [5].
 
 The CPU operates as a finite state machine, executing instructions in the following cycle:
 
@@ -120,9 +119,9 @@ Compute power - or the speed with which your computer can run programs depends o
 
 The speed at which the CPU executes instructions is governed by its clock rate. The CPU executes processes based on its clock rate, measured in hertz (Hz), which determines how many instructions it can execute per second.
 
-For decades, the clock speed of a computer's CPU was measured in MHz, with higher clock speeds generally indicating a faster processor. In the early 2000s, Intel, AMD, and IBM all released processors with clock speeds over 1000 megahertz (MHz), so they began measuring clock speeds in gigahertz (GHz) rather than MHz. Within several years of the first 1 GHz processors, new processors have clock speeds over 4 GHz meaning 4-billion of cycles per second. CPUs can perform tasks in nanoseconds due to this rapid clock rate.
+For decades, the clock speed of a computer's CPU was measured in MHz, with higher clock speeds generally indicating a faster processor. In the early 2000s, Intel, AMD, and IBM all released processors with clock speeds over 1000 megahertz (MHz), so they began measuring clock speeds in gigahertz (GHz) rather than MHz [7]. Within several years of the first 1 GHz processors, new processors have clock speeds over 4 GHz meaning 4-billion of cycles per second. CPUs can perform tasks in nanoseconds due to this rapid clock rate.
 
-## Hierarchy of Processes
+### Hierarchy of processes
 
 Processes in a computer system operate in a structured hierarchy, enabling efficient management and execution. This hierarchy is influenced by factors like priority (determined by the "Nice" value), resource allocation, and process relationships.
 
@@ -191,16 +190,14 @@ By leveraging this hierarchy, the OS ensures efficient management of system reso
 
 To understand the internal hardware architecture and how different system components work together, it is important to differentiate between processes, jobs, signals, interrupts, and semaphores. Below is an ordered explanation:
 
-1. Processes and Jobs
+__Processes and Jobs__
 
-Process:
-A process is a program in execution. It is a fundamental unit of work within an operating system (OS) and includes the program code, its execution state, memory, and resources like open files and registers. Processes can be:
+A *process* is a program in execution. It is a fundamental unit of work within an operating system (OS) and includes the program code, its execution state, memory, and resources like open files and registers. Processes can be:
 
 - Foreground processes: Interact directly with the user (e.g., a command-line program running in the terminal).
 - Background processes: Run without user interaction, often performing tasks like backups or monitoring.
 
-Job:
-A job is equivalent to a process group, which is a collection of related processes. Jobs operate within a user session and can be in different states:
+A *job* is equivalent to a process group, which is a collection of related processes. Jobs operate within a user session and can be in different states:
 
 - Foreground Job: A single job executed via a command in the command-line interface (CLI) that accepts user input (stdin).
 - Background Job: A job running without user interaction, producing output (stdout) or errors (stderr) asynchronously.
@@ -212,36 +209,36 @@ Examples of Job States:
 - Background Job: Running a backup script using &, e.g., backup.sh &.
 - Suspended Job: Pressing Ctrl+Z to pause a running process and using fg or bg to resume it.
 
-2. Signals
+__Signals__
 
 Signals are a mechanism for communication between processes or between the OS and a process. They are identifiers (numbers) sent asynchronously to notify processes of specific events, allowing them to take action or change behavior.
 
-What Signals Do:
+*What signals do*
 
 - Terminate or Stop a Process: Signals can stop, pause, or terminate processes.
 - Inform Processes: Signals notify processes of important system events, such as interrupts or errors.
 - Trigger Handlers: Processes can register custom signal handlers to react to specific signals or use default behaviors.
 
-Common Signals:
+*Common signals*
 
-- Ctrl+C (Interrupt): Sends the SIGINT signal to terminate the foreground process.
-- Ctrl+Z (Stop): Sends the SIGTSTP signal to suspend the foreground job.
-- KILL: Sends the SIGKILL signal to forcefully terminate a process without cleanup. Example: kill -9 <PID> forcefully kills a process/ pkill Node terminates all Node.js processes.
-- QUIT: Sends SIGQUIT, which terminates a process and creates a memory dump for debugging.
-- CONTINUE: Sends SIGCONT, resuming a suspended process.
+- `Ctrl+C` (Interrupt): Sends the SIGINT signal to terminate the foreground process.
+- `Ctrl+Z` (Stop): Sends the SIGTSTP signal to suspend the foreground job.
+- `p -kill` Sends the SIGKILL signal to forcefully terminate a process without cleanup. Example: kill -9 <PID> forcefully kills a process/ pkill Node terminates all Node.js processes.
+- `q` Sends SIGQUIT, which terminates a process and creates a memory dump for debugging.
+- `continue` Sends SIGCONT, resuming a suspended process.
 
-3. Interrupts
+__Interrupts__
 
 Interrupts differ from signals in that they are low-level mechanisms used by the CPU to handle external events or system needs. Interrupts temporarily stop the current execution to allow the CPU to handle a higher-priority task.
 
-Types of Interrupts:
+*Types of interrupts*
 
 - Hardware Interrupts: Triggered by hardware events like keyboard input, mouse clicks, or network activity.
 - Example: A keypress triggers an interrupt that the CPU processes to display the typed character.
 - Software Interrupts: Triggered by system calls or errors (e.g., a division by zero error).
 - Memory Page Faults: Triggered when a program attempts to access a memory page not currently in physical RAM.
 
-4. Difference Between Signals and Interrupts
+### The difference between signals and interrupts
 
 | __Aspect__     | __Signal__                               | __Interrupt__                           |
 |-----------------|------------------------------------------|------------------------------------------|
@@ -250,23 +247,25 @@ Types of Interrupts:
 | __Scope__       | Process-level communication.            | CPU-level execution handling.           |
 | __Examples__    | `SIGKILL`, `SIGINT`, `SIGTSTP`.         | Keypress, network packet arrival, page faults. |
 
-5. Semaphores
-A semaphore is a synchronization mechanism used to manage access to shared resources among multiple processes or threads. It differs from signals and interrupts in its function and usage.
 
-Types of Semaphores:
+__Semaphores__
+
+A semaphore is a synchronization mechanism used to manage access to shared resources among multiple processes or threads. It differs from signals and interrupts in its function and usage.[8]
+
+*Types of semaphores*
 
 - Binary Semaphore: Acts like a flag with two states—0 (locked) or 1 (unlocked). It is used to ensure mutual exclusion for a critical section. Example: Controlling access to a shared printer so that only one process can print at a time.
 
 - Counting Semaphore: Allows multiple threads or processes to access a resource up to a defined limit. Example: Limiting the number of threads accessing a database connection pool.
 
-__Semaphores in action__
+*Semaphores in action*
 
 Semaphores can manage both:
 
 - System Buses: Control access to shared resources like memory or I/O devices.
 - Kernel-Level Operations: Ensure orderly execution of processes or threads in multitasking environments.
 
-Semaphore Operations
+*Semaphore operations*
 
 - Wait (Down): Decrements the semaphore's value, blocking a process if the value is zero.
 - Signal (Up): Increments the semaphore's value, allowing blocked processes to proceed.
@@ -277,7 +276,8 @@ Semaphore Operations
 | __Triggering Entity__| OS or processes accessing shared resources.     | OS or user.                     | Hardware or system-level operations.     |
 | __Example Use Case__ | Controlling access to shared memory or devices. | Sending `SIGTERM` to stop a process. | Keypress interrupt handling by the CPU.  |
 
-1. Hierarchy of Processes in Architecture
+### Hierarchy of Processes in Architecture
+
 In system architecture, the hierarchy reflects the relationship between jobs, processes, and their underlying management:
 
 Processes: Basic units of execution.
@@ -290,7 +290,7 @@ Signals, Interrupts, and Semaphores: Tools for communication, synchronization, a
 
 The operating system (OS) uses various process scheduling algorithms to manage the execution of processes. These algorithms are crucial for allocating CPU time and resources to processes in a fair and efficient manner, ensuring that all processes receive adequate attention, while avoiding starvation and maximizing system throughput. Here’s a breakdown of some common scheduling algorithms:
 
-1. First-Come, First-Served (FCFS)/ FIFO (First in first out)
+__First-Come, First-Served (FCFS)/ FIFO (First in first out)__
 
 FCFS is one of the simplest scheduling algorithms. In this method, processes are executed in the order in which they arrive in the ready queue.
 
@@ -303,7 +303,7 @@ Fair in terms of order of arrival.
     - Cons:
 Convoy Effect: If a long process arrives before a shorter one, the shorter process will have to wait, which can lead to inefficiency.No consideration of process priority or burst time. -->
 
-2. Round Robin (RR)
+__Round Robin (RR)__
 
 The Round Robin (RR) algorithm is a preemptive version of First-Come, First-Served (FCFS). It divides CPU time into fixed-sized time slices (or quantum) and assigns each process a time slice to run. If a process does not finish in its assigned time slice, it is put back into the ready queue for the next round.
 
@@ -317,7 +317,7 @@ Fair for processes that require similar amounts of time.
 If the time slice is too large, it behaves like FCFS.
 If the time slice is too small, it increases the context-switching overhead. -->
 
-3. Priority Scheduling
+__Priority Scheduling__
 
 Priority Scheduling assigns a priority value to each process, and processes with higher priority are executed before those with lower priority. This algorithm can be either preemptive or non-preemptive, depending on whether or not a running process can be preempted in favor of a higher-priority process.
 
@@ -334,7 +334,7 @@ Processes A, B, and C have priorities 1, 2, and 3, respectively (with 1 being th
 Process A will execute first, then Process B, and finally Process C.
 In case Process D arrives with a higher priority (priority 1), Process A will be preempted, and Process D will execute first. -->
 
-4. Shortest Job Next (SJN)
+__Shortest Job Next (SJN)__
 
 Shortest Job Next (SJN), also known as Shortest Job First (SJF), is a non-preemptive algorithm that selects the process with the shortest burst time to execute next. The burst time is the amount of time a process will need to run before it completes.
 
@@ -349,7 +349,7 @@ Example:
 Process A needs 5 seconds, Process B needs 2 seconds, and Process C needs 4 seconds.
 Process B will execute first, then Process C, and finally Process A. -->
 
-5. Multilevel Queue Scheduling
+__Multilevel Queue Scheduling__
 
 Multilevel Queue Scheduling is a scheduling strategy where processes are divided into different queues based on their priority or type (interactive processes, CPU-bound processes, etc.). Each queue has its own scheduling algorithm, and processes are selected from the highest priority queue.
 
@@ -365,7 +365,7 @@ Example:
 Queue 1 (high priority) uses Round Robin, Queue 2 (medium priority) uses FCFS, and Queue 3 (low priority) uses SJF.
 Process A goes to Queue 1 (interactive), Process B goes to Queue 2 (CPU-bound), and Process C goes to Queue 3 (long-running job). -->
 
-6. Multilevel Feedback Queue Scheduling
+__Multilevel Feedback Queue Scheduling__
 
 Multilevel Feedback Queue Scheduling is a more advanced version of multilevel queue scheduling. In this algorithm, processes can move between queues based on their behavior and CPU usage. If a process uses too much CPU time, it might be moved to a lower-priority queue. If a process is interactive and requires less CPU time, it may be moved to a higher-priority queue.
 
@@ -402,10 +402,14 @@ To meet these challenges, resource management must evolve to handle these massiv
 
 - [2] __Tech terms__ (Accessed: Dec. 14, 2022) [Available](https://techterms.com/definition/gigahertz)
 
-- [3] __Plural Sight__ Premium PluralSight [Tutorial](https://app.pluralsight.com/library/courses/managing-jobs-processes-bash-z-shell/table-of-contents)
+- [3] George Charalambous (2024), __Computer Hardware (1)__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG012W.1](https://learning.westminster.ac.uk/ultra/courses/_98804_1/outline/file/_5377599_1)
 
-- [4] __Crucial__ Understanding RAM (Accessed: Dec. 14, 2022) [Available](https://www.crucial.com/articles/about-memory/support-what-does-computer-memory-do)
+- [4] William Stallings (2013), __Computer organization and architecture: designing for performance__ 9th ed., International ed., Pearson Education, March 2013, Available from: ProQuest Ebook Central
 
 - [5] __Life Wire__ How a CPU processes information (Accessed: Dec. 14, 2022) [Available](https://www.lifewire.com/what-is-a-cpu-2618150)
 
-- [6] __Baeldung__ "What is a semaphore?" (Accessed: Dec. 14, 2022) [Available](https://www.baeldung.com/cs/semaphore)
+- [6] __Plural Sight__ Premium PluralSight [Tutorial](https://app.pluralsight.com/library/courses/managing-jobs-processes-bash-z-shell/table-of-contents)
+
+- [7] __Crucial__ Understanding RAM (Accessed: Dec. 14, 2022) [Available](https://www.crucial.com/articles/about-memory/support-what-does-computer-memory-do)
+
+- [8] __Baeldung__ "What is a semaphore?" (Accessed: Dec. 14, 2022) [Available](https://www.baeldung.com/cs/semaphore)

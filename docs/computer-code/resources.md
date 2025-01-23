@@ -31,7 +31,9 @@ This is a complete bibliography of external references used in the computer prog
 
 - _Beginning Programming with Java For Dummies:_, Barry Burd, 6th edn (O'Reilly, Sept 2021)
 
-- _Bash Cookbook:_ Ron Brash, Ganesh Naik, Packt Publishing, July 2018
+- _Bash Cookbook:_ Ron Brash, Ganesh Naik, Packt Publishing, July 2018, Available from: ProQuest Ebook Central
+
+- _Computer organization and architecture: designing for performance:_  William Stallings,9th ed., International ed., Pearson Education, March 2013, Available from: ProQuest Ebook Central
 
 ## Lecture notes and recordings
 
