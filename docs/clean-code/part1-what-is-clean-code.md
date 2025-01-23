@@ -63,7 +63,7 @@ Code smells appear when code rots. Every line of code that you write should be r
 - Write better variable names - 'n' - finally what is 'n' ? Any number of things if you come back and try to decipher it or someone else needs to decipher it - waste of cognitive energy isn't it easier to understand a variable that is `let number = () => {}` Instead of `n` which could mean infinity as well
 - Think about the packages/ libraries you add - are they performant, well-maintained, do they compile well, are issues reported and fixed
 
-## Uncle Bob says ...
+## Uncle Bob says
 
 Much of this blog is inspired by watching Uncle Bob's, [also known as Robert C Martin](<(https://en.wikipedia.org/wiki/Robert_C._Martin)>), YouTube videos when I need inspiration. Here are some of my key take outs from what he says in simple terms.
 
