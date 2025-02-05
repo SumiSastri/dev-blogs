@@ -7,6 +7,9 @@ __Why data structures__
 __What is a data structure__
 
 - Difference between structured data and data structures
+- Connecting data - accurate data
+- permananent data has a static structure that is stable (int) vs an address
+- Smaller 4 bytes of data
 
 Search is an algorithm
 Manage data
@@ -90,4 +93,82 @@ Queue FIFO
 Divide and conquer is a tree - top of the tree
 Segment the tree
 
-Tutorial:
+__BInary tree__
+
+2 nodes max
+right side data is always smaller than left side
+Data divided right register first
+Easy to sort difficult to allocate
+
+__Graph structure__
+Vertices and edges 
+
+Space in the cache - dynamic memory/ place for swap pages
+
+Abstract data class - objects/ interfaces/ classes/ functions
+
+ADT - DONT KNOW THE DATA type yet
+Unknown and unclear but expect for future for discovery and implementation
+
+__Brute force__
+
+Try as many times as you require to break open - phone/ email password/ 
+Not about efficiency about getting through
+3 digits
+1/10 or 10 to the pow of 3 - 1,000 attempts 
+Add alphabets
+26 to the power of 3
+10 to the power of 3
+
+Quantum computers bec of vectors unlock patterns quicker than others - quantum chip (why?)
+
+If you know vectors with brute force - then cracking the code is easy
+Slow - time not efficient
+
+__Divide and conquer__
+
+Break down into subtasks a big task
+Disadvantage is difficult to order
+Binary tree is divide and conquer but restricted to 2 elements
+Divide and conquer is with divide by 2 in the beginning but n elements on either side - binary have to reduce down to 2
+
+
+__Merge sort__
+
+Start from the middle and divide and merge incorrect answers then only deal with the unmerged data
+Subgroups are sorted and merged
+
+__Greedy algo__
+
+50 pound change to 15 is 20/10/5 
+Many choices - choose the biggest and sort to the smallest
+Greedy - sees first choice and easiest
+Does not see the whole picture
+Shortest - is greedy choice 
+
+__Big O__
+Type of complexity
+Time is constant
+
+Linear search - n times
+o(n) - complexity goes o = n (the number of times of the data)
+nested loops
+quadratic o(n2)
+cubic - 3 loops
+o(n3)
+Increase in data - increase in time
+Small data - no significatnt different
+
+n = 2xn
+
+__Divide Conquer__
+
+Binary search tree
+log2(n)
+Best case logarathim
+
+What is the difference between big o and worst case?
+
+Complexity table and the o vs n
+
+7 types of big o
