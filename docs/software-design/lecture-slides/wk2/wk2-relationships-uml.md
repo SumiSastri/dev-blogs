@@ -80,3 +80,6 @@ Multiplicity 0..* is of one to many...
 Dependency - some relationship exists weak - don't know how
 
 [Further reading](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/)
+
+
+Use case driven development (research)
