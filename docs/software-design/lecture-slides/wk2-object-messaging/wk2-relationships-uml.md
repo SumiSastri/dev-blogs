@@ -1,7 +1,7 @@
-__Relationship between objects and classes__
+__Relationship between objects and classes - message passing__
 
 For objects to work together there must be a relationship between objects
-The relationship is defined by links between objects
+The relationship is defined by links between objects (stereotypes)
 The link relationship lets you know that the objects are connected and "know" about each others methods and attributes
 The links are either uni or bi-directional - a uni-directional only one object knows about the methods of the other
 The link could be unknown and therefore unspecified
@@ -80,6 +80,5 @@ Multiplicity 0..* is of one to many...
 Dependency - some relationship exists weak - don't know how
 
 [Further reading](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/)
-
 
 Use case driven development (research)
