@@ -52,3 +52,38 @@ eg:
 - Right - secondary actor
 
 __Tutorial__
+
+- Energy customer user options
+- Booking of a boiler engineer
+- Sunday park run
+
+
+Exercise 1
+
+Customers of an energy company typically do things such as enter meter readings (for example, the latest reading from their electricity meter), book appointments for an engineer to service their boiler and so on.
+
+Draw a use case diagram to describe a system that allows customers of an energy company to perform tasks relating to their account.
+
+
+[Sample solution](https://gist.github.com/simoncourtenage/ac6c7f2f040313c7aabbd5a8971ef893)
+
+Exercise 2
+
+Write a scenario for the use case for a customer booking an appointment for an engineer to service their boiler. Use a text editor or Word to do this. Try to write it without mentioning any specific implementation detail (such as menus, buttons, etc.) but still using descriptive words. You might try asking what kinds of things would be used to achieve this task if an IT system was not involved in making the appointment.
+[Sample solution](https://gist.github.com/simoncourtenage/917d9edb1082b5af0da3a2701de9a766)
+
+
+Exercise 3
+
+Actors in use case diagrams represent roles and these roles are fully described by the goals they have. In the following exercise, think carefully about the actors in terms of their goals. In particular, whether a person can play more than one role (be more than one actor) over the course of their interaction with a system.
+
+A local Sunday running club would like to develop an application that allows people to :-
+
+see results of past races
+view the current leaderboard
+book a place on an upcoming race
+However, only logged-in users can books places, although anyone can register for an account. Places on upcoming races are limited and are first-come, first-served. Administrators can create new races in the calendar, and are also responsible for entering results of races.
+
+Create a use case diagram for this application. Write a scenario for booking a place on an upcoming race.
+
+[Sample solution](https://gist.github.com/simoncourtenage/7b4d2cde1510a3c557dc2028f3a8e819)

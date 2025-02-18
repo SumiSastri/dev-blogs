@@ -1,6 +1,6 @@
 __Communication diagrams__
 
-How objects know about each other 
+How objects know about each other
 Structural links
 Not really clear what the sequence is
 
@@ -14,12 +14,9 @@ Relative time not the time clock
 Activation bars - object is active and executing op code
 Messages or methods are triggers for the object to become active (op code to be run)
 
-
 getTableDetails(tablen, seatn, isAvail){
     return
     tablen
     isavila
     seatn
 }
-
-Booking 
