@@ -93,7 +93,7 @@ Queue FIFO
 Divide and conquer is a tree - top of the tree
 Segment the tree
 
-__BInary tree__
+__Binary tree__
 
 2 nodes max
 right side data is always smaller than left side
@@ -172,3 +172,9 @@ What is the difference between big o and worst case?
 Complexity table and the o vs n
 
 7 types of big o
+
+__Asymptotics__ 
+
+A method of describing limiting behavior - checks upper and lower bounds for efficiency
+
+[MIT link](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&ab_channel=MITOpenCourseWare)

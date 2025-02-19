@@ -20,3 +20,10 @@ getTableDetails(tablen, seatn, isAvail){
     isavila
     seatn
 }
+
+__Loops and conditionals__
+
+- UML syntax not great
+- No code behaviour - only contextual information
+- Some idea of what the intention is
+- 2 loop frames with a conditional statement to share - even this is only one part of the frame
