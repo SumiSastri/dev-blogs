@@ -21,7 +21,7 @@ o(n) - jagged array - no clue of other arrays to loop
 o(n3) - 3d array
 o(n2) 2d array
 
-Brutal force - left to right - o(n)
+Brute force - left to right - o(n)
 Divide conquer - binary search has to be sorted in ascending or descending order
 eg: Dictionary
 segments

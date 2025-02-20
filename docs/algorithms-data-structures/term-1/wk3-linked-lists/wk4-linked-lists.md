@@ -5,7 +5,6 @@ Then sort
 Time efficiency o log(n)
 Space efficiency terrible as you need an array same number of elements to copy the array and operate
 
-
 __Insert sort__
 
 Insert is anywhere close to the middle for efficiency but does not need to be the middle
@@ -13,7 +12,6 @@ Slightly arb choice- Split due to memory space constraints
 Sort both sides first
 What is the problem that you are solving - make use of limited space and sort in order efficiently
 not a0 to b0 but 2 numbers and swap so the order of the elements are not compared linear 
-
 
 __Linked lists__
 
@@ -46,3 +44,5 @@ double args are prev/ next
 Construction provides the memory space - constructor has beg/ mid/ end
 delete the 2 old
 Create 2 new for double link list
+
+
