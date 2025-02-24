@@ -8,11 +8,16 @@ _E-books_
 
 _Lecture notes and recordings_
 
-- Simon Courtenage (2025), __Classes and objects in Java and UML__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG003W Advanced Software Design](https://learning.westminster.ac.uk/ultra/courses/_101049_1/outline/edit/document/_5278210_1?courseId=_101049_1&view=content) and [Lecture 1 Pantopo recordings for the module]
+- Simon Courtenage (2025), __Classes and objects in Java and UML__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG003W Advanced Software Design](https://learning.westminster.ac.uk/ultra/courses/_101049_1/outline/edit/document/_5278210_1?courseId=_101049_1&view=content)
+
+- Simon Courtenage (2025), __Classes, Objects and Messages__, PDF slides [Available to MSc Computer Science Students MODULE: (2024) 7SENG003W Advanced Software Design](https://learning.westminster.ac.uk/ultra/courses/_101049_1/outline/edit/document/_5278210_1?courseId=_101049_1&view=content)
 
 __Other useful resources__
 
-[Object Management Group website](www.omg.org)
+- [Object Management Group website](www.omg.org)
 
-[Youtube](https://www.youtube.com/watch?v=zid-MVo7M-E&ab_channel=LucidSoftware)
-[Lucid charts](https://lucid.app/pricing/lucidchart?referer=https%3A%2F%2Fwww.youtube.com%2F#/pricing/chart)
+- [Youtube](https://www.youtube.com/watch?v=zid-MVo7M-E&ab_channel=LucidSoftware)
+
+- [Lucid charts](https://lucid.app/pricing/lucidchart?referer=https%3A%2F%2Fwww.youtube.com%2F#/pricing/chart)
+
+- [UML Association vs Aggregation vs Composition](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/)
