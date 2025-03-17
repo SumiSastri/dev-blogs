@@ -132,7 +132,6 @@ Disadvantage is difficult to order
 Binary tree is divide and conquer but restricted to 2 elements
 Divide and conquer is with divide by 2 in the beginning but n elements on either side - binary have to reduce down to 2
 
-
 __Merge sort__
 
 Start from the middle and divide and merge incorrect answers then only deal with the unmerged data
