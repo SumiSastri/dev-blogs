@@ -58,7 +58,7 @@ Store these two numbers in two different variables. Print out their sum.
 
 Change the program so that the code for printing out the message, reading the numbers into two variables and printing the sum is put into a separate function. Call that function from main so that it executes.
 
-Exercise 1 
+__Exercise 1__
 
 For the remaining exercises, you can either use the same Java project or create new projects for each exercise.
 
@@ -66,13 +66,13 @@ Write a function called maxOfFour, which takes 4 integer arguments and returns t
 
 In your main function, ask the user to type in 4 numbers. Read them into 4 integer variables and then call maxOfFour with these values and store the result of calling the function. Print out the result.         
 
-Exercise 2 
+__Exercise 2__
 
 This is known as the 'fizzbuzz' problem.
 
 Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
 
-Exercise 3 
+__Exercise 3__
 
 Write a program that asks the user to type in integers.
 
@@ -84,7 +84,7 @@ Output the result of calling each of the three functions on the array of integer
 
 Compile and test your code.
 
-Exercise 4 (this might take longer than the tutorial)
+__Exercise 4__ (this might take longer than the tutorial)
 
 The aim of this exercise is to emphasis the distinction between the public interface of a class (its logical properties) and the implementation of a class (what the class needs privately and internally to support those logical properties).
 

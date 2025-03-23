@@ -41,10 +41,10 @@ eg:
 - Is this only one or 2/ 3 scenarios? What are the subroutines
 - What happens if things go wrong - can you matching details - of customer to payment
 - What happens in the no shows scenario?
-- How does the use case terminate? 
+- How does the use case terminate?
 - How are you handling and showing error messages?
 - How does user get back into the system?
-- Log fault - large enough amount of work
+- Log fault - large enough amount of work then add to diagram
 - Any interactions with the system - actors
 - Goals and expectations of what the system has to perform - interactions
 - System boundary
@@ -57,8 +57,7 @@ __Tutorial__
 - Booking of a boiler engineer
 - Sunday park run
 
-
-Exercise 1
+__Exercise 1__
 
 Customers of an energy company typically do things such as enter meter readings (for example, the latest reading from their electricity meter), book appointments for an engineer to service their boiler and so on.
 
@@ -67,13 +66,12 @@ Draw a use case diagram to describe a system that allows customers of an energy 
 
 [Sample solution](https://gist.github.com/simoncourtenage/ac6c7f2f040313c7aabbd5a8971ef893)
 
-Exercise 2
+__Exercise 2__
 
 Write a scenario for the use case for a customer booking an appointment for an engineer to service their boiler. Use a text editor or Word to do this. Try to write it without mentioning any specific implementation detail (such as menus, buttons, etc.) but still using descriptive words. You might try asking what kinds of things would be used to achieve this task if an IT system was not involved in making the appointment.
 [Sample solution](https://gist.github.com/simoncourtenage/917d9edb1082b5af0da3a2701de9a766)
 
-
-Exercise 3
+__Exercise 3__
 
 Actors in use case diagrams represent roles and these roles are fully described by the goals they have. In the following exercise, think carefully about the actors in terms of their goals. In particular, whether a person can play more than one role (be more than one actor) over the course of their interaction with a system.
 
@@ -87,3 +85,11 @@ However, only logged-in users can books places, although anyone can register for
 Create a use case diagram for this application. Write a scenario for booking a place on an upcoming race.
 
 [Sample solution](https://gist.github.com/simoncourtenage/7b4d2cde1510a3c557dc2028f3a8e819)
+
+Key takeaways
+
+- If an actor is an admin and a super admin then when the actor is in the admin role all the admin role use cases apply therefore there is no need to link the super admin as an admin - when the actor behaves like another actor only one use case needs to be shown
+
+- A secondary actor could be a system - like an ecommerce system
+
+- Subroutines details are not fleshed out in the diagram but at the back / same with the sequence of actions CRUD for example may have several subroutines - these are in the docs in astah behind the diagram in the scenario

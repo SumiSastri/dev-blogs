@@ -45,3 +45,5 @@ Data - words - tag cloud
 Association/ aggregation at this stage
 
 Term 2 - refinement of design
+
+The realisation of the usecase is in the sequence diagram

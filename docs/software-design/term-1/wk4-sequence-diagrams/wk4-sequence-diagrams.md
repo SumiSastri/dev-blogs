@@ -14,12 +14,6 @@ Relative time not the time clock
 Activation bars - object is active and executing op code
 Messages or methods are triggers for the object to become active (op code to be run)
 
-getTableDetails(tablen, seatn, isAvail){
-    return
-    tablen
-    isavila
-    seatn
-}
 
 __Loops and conditionals__
 
@@ -27,3 +21,9 @@ __Loops and conditionals__
 - No code behaviour - only contextual information
 - Some idea of what the intention is
 - 2 loop frames with a conditional statement to share - even this is only one part of the frame
+
+The loop frame is usually a boolean where the top part of the frame depicts the true validation and the bottom half the false
+
+The return can just be a notification
+
+The objects/ sequences should aim to match class diagram objects, data and behaviours (attributes and methods)
