@@ -58,6 +58,9 @@ Looks at the data type and how the process works through the algo depending on t
 __ What Does O(log2(N)) Mean?__
 When we say that **Binary Search is O(log2(N))**, we are describing its time complexity—how the number of operations it takes grows as the size of the input (N) increases.
 
+Binary Trees – Each node has up to two children, sorting is easier but allocation can be complex.
+
+
 __ Logarithmic Growth__
 - The base-2 logarithm, **log2(N)**, measures how many times you can divide **N** by 2 before reaching 1.
 - This happens because **Binary Search** repeatedly divides the search space in half.
