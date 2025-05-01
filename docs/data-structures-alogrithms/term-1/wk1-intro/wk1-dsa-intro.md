@@ -49,6 +49,8 @@ __Trees and their applications__
 
 A *binary tree* is a specific type of structure where each node has at most two children, often referred to as the left and right child. Common operations include insertion, deletion, and traversal (in-order, pre-order, post-order). Binary search trees for efficient searching and sorting. They are good for hierarchical data representations (e.g., file systems).
 
+
+
 An *AVL (Adelson-Velsky and Landis) tree* is a self-balancing binary search tree. It maintains a balance factor (difference in heights of the left and right subtrees) to ensure that the tree remains balanced, leading to optimal performance for operations like search, insertion, and deletion. Balanced tree operations for better performance in applications requiring frequent insertions and deletions.
 
 __Graphs and how they differ from trees__
@@ -134,7 +136,7 @@ PIN (Personal Identification Number): A 3-digit PIN has 1,000 possible combinati
 Password with Letters: For a password of length 3 using 26 letters, the number of possible combinations is 
 26 to the power of 3 taking a brute force attack to run 17,576 iterations to crack the code. Adding more characters or including uppercase, lowercase, or special characters increases the complexity exponentially making the password more difficult to crack.
 
-## What is an algorithm
+__What is an algorithm__
 
 An algorithm is a step-by-step set of instructions to solve a problem.
 
@@ -178,6 +180,103 @@ When analyzing algorithms, we need a way to compare their efficiency, especially
 Example:
 Consider Linear Search (O(n)) vs. Binary Search (O(log n)). Linear Search checks every element one by one. As n increases, time grows proportionally. Binary Search halves the search space each step, leading to logarithmic growth—much more efficient for large datasets. By comparing logarithmic growth DSAs, asymptotic analysis helps determine which algorithms scale better as data size increases, allowing for better decision-making in software development.
 
+__Sorting Algorithms__
+
+__Comparison-Based Sorting Algorithms__
+1. **Bubble Sort** – Repeatedly swaps adjacent elements if they are in the wrong order.
+2. **Selection Sort** – Selects the smallest (or largest) element and moves it to its correct position.
+3. **Insertion Sort** – Builds the sorted list one element at a time by inserting elements into their correct position.
+4. **Merge Sort** – Divides the array into halves, sorts each half, and then merges them back together.
+5. **Quick Sort** – Uses a pivot to partition the array into smaller and larger elements, then sorts recursively.
+6. **Heap Sort** – Converts the array into a heap and repeatedly extracts the maximum or minimum element.
+7. **Shell Sort** – A variation of insertion sort that sorts elements far apart before finalizing with a normal insertion sort.
+8. **Tim Sort** – A hybrid sorting algorithm used in Python, combining merge sort and insertion sort.
+9. **Intro Sort** – A hybrid of quicksort, heapsort, and insertion sort, used in C++’s STL.
+
+__Non-Comparison-Based Sorting Algorithms__
+10. **Counting Sort** – Works well for sorting integers in a known range, using counting instead of comparisons.
+11. **Radix Sort** – Sorts numbers digit by digit, useful for large numbers or strings.
+12. **Bucket Sort** – Distributes elements into buckets and sorts each bucket individually.
+
+
+__Search Algorithms__
+
+__Uninformed (Blind) Search Algorithms__
+1. **Linear Search** – Checks each element in a list sequentially.
+2. **Binary Search** – Efficient for sorted arrays; repeatedly divides the search range in half.
+3. **Jump Search** – Jumps ahead by fixed steps and then does a linear search in a smaller range.
+4. **Interpolation Search** – Improves binary search by estimating the search position based on values.
+5. **Exponential Search** – Finds a range using exponential jumps and then does a binary search.
+
+__Graph/Tree Search Algorithms__
+6. **Depth-First Search (DFS)** – Explores as far as possible along one branch before backtracking.
+7. **Breadth-First Search (BFS)** – Explores all neighbors of a node before moving deeper.
+8. **Iterative Deepening Depth-First Search (IDDFS)** – A combination of DFS and BFS, increasing depth limit gradually.
+9. **Uniform-Cost Search (Dijkstra’s Algorithm)** – Finds the shortest path in a weighted graph.
+
+__Heuristic (Informed) Search Algorithms__
+10. **A\* Search** – Uses heuristics to find the most optimal path in a weighted graph.
+11. **Greedy Best-First Search** – Always expands the node that appears closest to the goal.
+12. **Hill Climbing** – Moves toward the highest-valued neighbor, used in optimization problems.
+13. **Beam Search** – Similar to BFS but only keeps the best "k" candidates at each step.
+
+__Other Specialized Search Algorithms__
+14. **Fibonacci Search** – A variation of binary search that works well for ordered lists.
+15. **Ternary Search** – Similar to binary search but divides the range into three parts.
+16. **Jump Point Search** – An optimized search for grid-based pathfinding (like A* but faster in open spaces).
+
+
 Conclusion
 
 Understanding DSAs is essential for efficient data processing, memory management, and problem-solving. Choosing the right algorithm and data structure can significantly impact performance, making it crucial for optimizing computing processes.
+
+__Most Used Sorting Algorithms__
+
+The most used sorting algorithm depends on the context:
+
+
+1. General-Purpose Sorting (Everyday Use)
+
+- **Quicksort**  
+  Often the fastest in practice due to its `O(n log n)` average case and low memory overhead.  
+  ➤ Used in many standard libraries (e.g., C++'s `std::sort`).
+
+- **Merge Sort**  
+  Preferred in stable sorting scenarios.  
+  ➤ Used in Java’s `Collections.sort()` for objects.
+
+- **Timsort**  
+  A hybrid of merge sort and insertion sort.  
+  ➤ Used in Python’s `sorted()` and Java’s `Arrays.sort()` for objects.
+
+---
+
+2. In Practice (Real-World Systems)
+
+- **Timsort**  
+  ➤ One of the most widely used sorting algorithms in high-level languages (Python, Java).
+
+- **Quicksort**  
+  ➤ Commonly used in low-level and performance-critical applications.
+
+- **Merge Sort**  
+  ➤ Preferred when **stability** is required (keeps equal elements in order).
+
+---
+
+3. In Computer Science Theory
+
+- **Heap Sort**  
+  ➤ Useful when constant-time retrieval of the smallest/largest element is needed.  
+  ➤ Guarantees `O(n log n)` time and does not require recursion.
+
+There are three important rules of thumb in developing recursive programs:
+• The recursion has a base case—we always include a conditional statement as the first statement in the program that has a return.
+• Recursive calls must address subproblems that are smaller in some sense, so that recursive calls converge to the base case. In the code below, the difference between the values of the fourth and the third arguments always decreases.
+• Recursive calls should not address subproblems that overlap. In the code below, the portions of the array referenced by the two subproblems are disjoint.
+
+---
+
+> 💡 **Note:**  
+> There’s no one-size-fits-all — the "best" sorting algorithm depends on data size, structure, and the need for stability or in-place sorting.
+

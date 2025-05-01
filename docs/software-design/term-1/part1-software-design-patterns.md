@@ -1,9 +1,9 @@
----
+<!-- ---
 layout: default
 parent: Software design and UML diagrams
 nav_order: 8
 title: What is a software design pattern and why is pattern recognition useful?
----
+--- -->
 
 # What is a software design pattern and why is pattern recognition useful?
 
