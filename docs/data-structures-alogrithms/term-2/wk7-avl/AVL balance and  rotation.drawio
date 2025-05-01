@@ -1,0 +1,235 @@
+<mxfile host="Electron" modified="2024-03-08T22:39:48.786Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.21 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="hk2Dn7yf2zD834t8I444" version="22.1.21" type="device">
+  <diagram name="Page-1" id="c7yqk4G5VoMh_bxtuhq7">
+    <mxGraphModel dx="794" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="21LdweDo5FaHYTDq8uux-1" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="180" y="230" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-3" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="240" y="290" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-4" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="300" y="370" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="21LdweDo5FaHYTDq8uux-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="320" as="sourcePoint" />
+            <mxPoint x="220" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-10" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="370" as="sourcePoint" />
+            <mxPoint x="280" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-11" value="0, 1&amp;nbsp; BF=-1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="295" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-12" value="0,0 BF=0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="360" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-13" value="0, 0&amp;nbsp; BF=0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="655" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-15" value="&lt;h3 style=&quot;color: rgb(0, 0, 0); font-weight: bold; margin: 0.25em 0px; padding-top: 0.5em; padding-bottom: 0px; overflow: hidden; font-size: 1.2em; line-height: 1.6; font-family: sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span class=&quot;mw-headline&quot; id=&quot;Balance_factor&quot;&gt;Balance factor&lt;/span&gt;&lt;/h3&gt;&lt;p style=&quot;margin: 0.5em 0px 0px; padding-bottom: 0.5em; color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;In a&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Binary_tree&quot; title=&quot;Binary tree&quot; style=&quot;text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;&quot;&gt;binary tree&lt;/a&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;the&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;i&gt;balance factor&lt;/i&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;of a node X is defined to be the height difference&lt;/p&gt;&lt;dl style=&quot;margin-top: 0.2em; margin-bottom: 0.5em; color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;dd style=&quot;font-weight: 400; margin-left: 1.6em; margin-bottom: 0.1em; margin-right: 0px;&quot;&gt;&lt;span class=&quot;mwe-math-element&quot;&gt;&lt;span class=&quot;mwe-math-mathml-inline mwe-math-mathml-a11y&quot; style=&quot;display: none; clip: rect(1px, 1px, 1px, 1px); overflow: hidden; position: absolute; width: 1px; height: 1px; opacity: 0; font-size: 16.52px;&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mstyle displaystyle=&quot;true&quot; scriptlevel=&quot;0&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mtext&gt;BF&lt;/mtext&gt;&lt;/mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;�&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;:=&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mtext&gt;Height&lt;/mtext&gt;&lt;/mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mtext&gt;RightSubtree&lt;/mtext&gt;&lt;/mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;�&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mtext&gt;Height&lt;/mtext&gt;&lt;/mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mtext&gt;LeftSubtree&lt;/mtext&gt;&lt;/mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;�&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;/math&gt;&lt;/span&gt;&lt;img src=&quot;https://wikimedia.org/api/rest_v1/media/math/render/svg/ecc2a8ba2cb5c14abf4d0cb0ffee1f09b2f515fa&quot; class=&quot;mwe-math-fallback-image-inline mw-invert&quot; aria-hidden=&quot;true&quot; alt=&quot;{\displaystyle {\text{BF}}(X):={\text{Height}}({\text{RightSubtree}}(X))-{\text{Height}}({\text{LeftSubtree}}(X))}&quot; style=&quot;border: 0px; vertical-align: -0.838ex; display: inline-block; width: 63.635ex; height: 2.843ex;&quot;&gt;&amp;nbsp;or&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/dd&gt;&lt;dd style=&quot;margin-left: 1.6em; margin-bottom: 0.1em; margin-right: 0px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;most used&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; background-color: rgb(224, 255, 255);&quot; color=&quot;red&quot;&gt;BF(x)=Height(LeftSubtree(x) - Height(RightSubtree(x))&lt;/font&gt;&lt;/b&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;p style=&quot;margin: 0.5em 0px 0px; padding-bottom: 0.5em; color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;of its two child sub-trees rooted by node X. A binary tree is defined to be an&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;i&gt;AVL tree&lt;/i&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;if the invariant&amp;nbsp;&lt;/p&gt;&lt;dl style=&quot;margin-top: 0.2em; margin-bottom: 0.5em; color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;dd style=&quot;margin-left: 1.6em; margin-bottom: 0.1em; margin-right: 0px;&quot;&gt;&lt;span class=&quot;mwe-math-element&quot;&gt;&lt;span class=&quot;mwe-math-mathml-inline mwe-math-mathml-a11y&quot; style=&quot;display: none; clip: rect(1px, 1px, 1px, 1px); overflow: hidden; position: absolute; width: 1px; height: 1px; opacity: 0; font-size: 16.52px;&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mstyle displaystyle=&quot;true&quot; scriptlevel=&quot;0&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mtext&gt;BF&lt;/mtext&gt;&lt;/mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;�&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;∈&lt;/mo&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mo fence=&quot;false&quot; stretchy=&quot;false&quot;&gt;{&lt;/mo&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;mo&gt;,&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;mo fence=&quot;false&quot; stretchy=&quot;false&quot;&gt;}&lt;/mo&gt;&lt;/mrow&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;/math&gt;&lt;/span&gt;&lt;img src=&quot;https://wikimedia.org/api/rest_v1/media/math/render/svg/f6b21012e9c7ec87fac3673a5a3c82cf74376458&quot; class=&quot;mwe-math-fallback-image-inline mw-invert&quot; aria-hidden=&quot;true&quot; alt=&quot;{\displaystyle {\text{BF}}(X)\in {\{-1,0,1\}}}&quot; style=&quot;border: 0px; vertical-align: -0.838ex; display: inline-block; width: 19.482ex; height: 2.843ex;&quot;&gt;&amp;nbsp; The value of balance factor should always be -1,0, or +1&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/dd&gt;&lt;dd style=&quot;margin-left: 1.6em; margin-bottom: 0.1em; margin-right: 0px;&quot;&gt;&lt;span class=&quot;mwe-math-element&quot;&gt;holds for every node X in the tree.&lt;/span&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;p style=&quot;margin: 0.5em 0px 0px; padding-bottom: 0.5em; color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;A node X with&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;mwe-math-element&quot;&gt;&lt;span class=&quot;mwe-math-mathml-inline mwe-math-mathml-a11y&quot; style=&quot;display: none; clip: rect(1px, 1px, 1px, 1px); overflow: hidden; position: absolute; width: 1px; height: 1px; opacity: 0; font-size: 16.52px;&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mstyle displaystyle=&quot;true&quot; scriptlevel=&quot;0&quot;&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mtext&gt;BF&lt;/mtext&gt;&lt;/mrow&gt;&lt;mo stretchy=&quot;false&quot;&gt;(&lt;/mo&gt;&lt;mi&gt;�&lt;/mi&gt;&lt;mo stretchy=&quot;false&quot;&gt;)&lt;/mo&gt;&lt;mo&gt;&amp;lt;&lt;/mo&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mrow&gt;&lt;/math&gt;&lt;/span&gt;&lt;img src=&quot;https://wikimedia.org/api/rest_v1/media/math/render/svg/71c90ed04a884f420ade0813e54cf9198eea1ed4&quot; class=&quot;mwe-math-fallback-image-inline mw-invert&quot; aria-hidden=&quot;true&quot; alt=&quot;{\displaystyle {\text{BF}}(X)&lt;0}&quot; style=&quot;border: 0px; vertical-align: -0.838ex; margin: 0px; display: inline-block; width: 11.214ex; height: 2.843ex;&quot;&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;is called &quot;right-heavy&quot;, one with&amp;nbsp;&lt;span class=&quot;mwe-math-element&quot;&gt;&lt;img src=&quot;https://wikimedia.org/api/rest_v1/media/math/render/svg/c734f86938f93a517d974cb08080deabfba4f090&quot; class=&quot;mwe-math-fallback-image-inline mw-invert&quot; aria-hidden=&quot;true&quot; alt=&quot;{\displaystyle {\text{BF}}(X)&gt;0}&quot; style=&quot;border: 0px; vertical-align: -0.838ex; margin: 0px; display: inline-block; width: 11.214ex; height: 2.843ex;&quot;&gt;&lt;/span&gt;&amp;nbsp;is called &quot;left-heavy&quot;, and one with&amp;nbsp;&lt;span class=&quot;mwe-math-element&quot;&gt;&lt;img src=&quot;https://wikimedia.org/api/rest_v1/media/math/render/svg/490d6a1c82801a264f9a81da99919572d6310435&quot; class=&quot;mwe-math-fallback-image-inline mw-invert&quot; aria-hidden=&quot;true&quot; alt=&quot;{\displaystyle {\text{BF}}(X)=0}&quot; style=&quot;border: 0px; vertical-align: -0.838ex; margin: 0px; display: inline-block; width: 11.214ex; height: 2.843ex;&quot;&gt;&lt;/span&gt;&amp;nbsp;is sometimes simply called &quot;balanced&quot;.&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="17" y="-10" width="770" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-20" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="610" y="265" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-21" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="530" y="360" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-22" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="680" y="360" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-23" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="365" as="sourcePoint" />
+            <mxPoint x="620" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-25" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="360" as="sourcePoint" />
+            <mxPoint x="650" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-26" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="190" y="640" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-28" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="250" y="570" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-29" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="310" y="500" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-30" value="left rotation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="40" y="290" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-31" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="21LdweDo5FaHYTDq8uux-28" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="600" as="sourcePoint" />
+            <mxPoint x="320" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-32" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="650" as="sourcePoint" />
+            <mxPoint x="260" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-35" value="2, 0&amp;nbsp; BF=2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="515" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-36" value="1, 0&amp;nbsp; BF=1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="371" y="595" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-37" value="0, 2&amp;nbsp; BF=-2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="245" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-38" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="620" y="500" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-39" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="540" y="590" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-40" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="700" y="595" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-41" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="595" as="sourcePoint" />
+            <mxPoint x="630" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-42" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="600" as="sourcePoint" />
+            <mxPoint x="660" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-43" value="right rotation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="40" y="580" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-44" value="left and right&amp;nbsp; rotation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="40" y="820" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-45" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="300" y="750" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-46" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="240" y="830" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-47" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="300" y="920" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-48" value="0, 0&amp;nbsp; BF=0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="935" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-49" value="0, 1&amp;nbsp; BF=-1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="361" y="850" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-50" value="2, 0&amp;nbsp; BF= 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="765" width="82" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-51" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="21LdweDo5FaHYTDq8uux-46" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="850" as="sourcePoint" />
+            <mxPoint x="320" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-55" value="" style="endArrow=none;html=1;rounded=0;exitX=0.307;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315.3499999999999" y="923.3499999999999" as="sourcePoint" />
+            <mxPoint x="280" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-56" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="540" y="898" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-58" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="610" y="810" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-59" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="690" y="890" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-61" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="21LdweDo5FaHYTDq8uux-59" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="900" as="sourcePoint" />
+            <mxPoint x="660" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-63" value="down" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="495" y="908" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-64" value="right and left&amp;nbsp; rotation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1060" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-65" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="220" y="980" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-67" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="230" y="1119" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-69" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="290" y="1050" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-70" value="" style="endArrow=none;html=1;rounded=0;entryX=0.307;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="21LdweDo5FaHYTDq8uux-69" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1130" as="sourcePoint" />
+            <mxPoint x="300" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-71" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.893;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="21LdweDo5FaHYTDq8uux-65" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="1100" as="sourcePoint" />
+            <mxPoint x="310" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-72" value="0, 0&amp;nbsp; BF=0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1134" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-73" value="1, 0&amp;nbsp; BF=-1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1065" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-74" value="0 2&amp;nbsp; BF=-2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="362" y="995" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-75" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1100" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-76" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="620" y="1000" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-77" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="690" y="1100" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-82" value="" style="endArrow=none;html=1;rounded=0;exitX=0.853;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="21LdweDo5FaHYTDq8uux-75" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="1100" as="sourcePoint" />
+            <mxPoint x="630" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-83" value="" style="endArrow=none;html=1;rounded=0;exitX=0.147;exitY=-0.027;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="21LdweDo5FaHYTDq8uux-77" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="1100" as="sourcePoint" />
+            <mxPoint x="660" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-84" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="900" as="sourcePoint" />
+            <mxPoint x="620" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21LdweDo5FaHYTDq8uux-85" value="down" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="730" y="1104" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
