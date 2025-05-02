@@ -146,6 +146,7 @@ Binary Search – Efficient for sorted arrays; repeatedly divides the search ran
 Jump Search – Jumps ahead by fixed steps and then does a linear search in a smaller range.
 Interpolation Search – Improves binary search by estimating the search position based on values.
 Exponential Search – Finds a range using exponential jumps and then does a binary search.
+
 Graph/Tree Search Algorithms
 Depth-First Search (DFS) – Explores as far as possible along one branch before backtracking.
 Breadth-First Search (BFS) – Explores all neighbors of a node before moving deeper.
