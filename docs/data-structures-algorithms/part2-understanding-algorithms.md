@@ -2,7 +2,7 @@
 layout: default
 title: hat is an algorithm?
 nav_order: 13
-has_children: true
+parent: DSA - data structures and algorithms 
 last_updated: May 2025
 ---
 
