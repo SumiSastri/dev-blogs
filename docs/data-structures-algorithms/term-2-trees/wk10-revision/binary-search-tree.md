@@ -9,7 +9,6 @@ assume the number 50 has been deleted from it using the BST deletion operation, 
 Draw the state of this resultant BST after 50 has been deleted from it. [2 marks]
 [TOTAL 10]
 
-
 - BST is a special type of binary tree where the the data is ordered and sorted
 - The left node always has values smaller than the values of the right node
 - Both the left and right subtrees must also be BSTs
@@ -19,8 +18,8 @@ Draw the state of this resultant BST after 50 has been deleted from it. [2 marks
  30        61
 /  \         \
 17 48         72
-               /\
-              66   91
+                / \
+                66  91
 
 
 Post deletion of the root 50

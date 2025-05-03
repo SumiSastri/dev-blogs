@@ -36,6 +36,14 @@ Calculating the height of tree
 
 Minus 1 is sometimes used to indicate that a node or value was not found, but this is a convention, not a formal property of trees.
 
+In pseudo code this is represented as:
+
+Node = x
+x.r (right node)
+x.l (left node)
+
+A traversal iterates through x, on the left  x.l until x.l === null
+
 Nodes in a binary tree are connected via these pointers. Unlike linked lists, which are strictly linear, binary trees form a branching structure, allowing for more efficient search and organization.
 
 While both linked lists and trees use nodes and pointers, the key difference is in structure:

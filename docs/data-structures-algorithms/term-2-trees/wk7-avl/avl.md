@@ -1,6 +1,20 @@
 
 __Trees__
 
+Binary Search is efficient because it cuts the problem in half at each step, leading to a logarithmic time complexity O(log2(n))making it much faster than linear search for large datasets. The best case is O(1) (the search stops at the root).
+
+Comparison chart.
+
+| Structure      | Insert/Delete/Search Avg | Insert/Delete/Search Worst |
+|----------------|--------------------------|-----------------------------|
+| Array (unsorted) | O(1)/O(n)/O(n)           | O(1)/O(n)/O(n)              |
+| Array (sorted)   | O(n)/O(n)/O(log n)       | O(n)/O(n)/O(log n)          |
+| Linked List      | O(1)/O(1)/O(n)           | O(1)/O(1)/O(n)              |
+| BST (balanced)   | O(log n)                 | O(log n)                    |
+| BST (unbalanced) | O(n)                     | O(n)                        |
+
+
+
 __Adelson-Velsky and Landis (AVL) Tree__
 
 An AVL tree is a self-balancing binary search tree (BST) that maintains its balance through rotations during insertions and deletions. 
