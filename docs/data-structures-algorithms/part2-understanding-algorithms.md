@@ -1,6 +1,6 @@
 ---
 layout: default
-title: hat is an algorithm?
+title: What is an algorithm?
 nav_order: 13
 parent: DSA - data structures and algorithms 
 last_updated: May 2025
