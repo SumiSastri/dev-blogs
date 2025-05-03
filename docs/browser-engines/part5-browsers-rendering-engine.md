@@ -1,7 +1,7 @@
 ---
 layout: default
 parent:  Browser Engines
-nav_order: 13
+nav_order: 14
 title: How the browser rendering engine works
 last_updated: June 2024
 ---

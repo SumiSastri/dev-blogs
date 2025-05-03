@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: Installfest
-nav_order: 14
+nav_order: 16
 title: How to install Xcode on a Mac
 ---
 

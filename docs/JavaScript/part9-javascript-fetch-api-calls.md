@@ -1,7 +1,7 @@
 ---
 layout: default
 parent:  Fullstack JavaScript
-nav_order: 14
+nav_order: 15
 title: How JavaScript handles API calls
 last_updated: Feb 2024
 ---
