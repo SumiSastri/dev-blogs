@@ -93,15 +93,15 @@ This tree guarantees consistently efficient O(log n) time for all major operatio
 _Binary Tree Example (arbitrary values, no ordering)_
 Values: 51, 12, 64, 82, 16, 9, 97, 31, 43, 25, 20
 
-           51
-         /    \
-        12      64
-      /  \     /  \
-     82   16   9   97
-     /             /  \
-   31            43   25
-   /
-  20
+              51
+            /    \
+            12      64
+          /  \     /  \
+        82   16   9   97
+        /             /  \
+      31            43   25
+     /
+    20
 
 _Binary Search Tree Example (ordered, not compact)_
 Values: 51, 12, 64, 82, 16, 9, 97, 31, 43, 25, 20
@@ -133,8 +133,6 @@ All subtrees maintain BST ordering properties
     9              31    97
                     \
                     43
-
-
 
 ## 📊 Tree Comparison Table
 
