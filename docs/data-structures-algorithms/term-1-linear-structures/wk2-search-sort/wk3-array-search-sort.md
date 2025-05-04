@@ -126,8 +126,6 @@ What is the difference between a comparison (selection) sort and bubble sort?
 
 
 
-
-
 Efficiency of algorithms
 Depends on type of data structure and time taken to complete the number of steps in the algorithm
 Quick sort most efficient - divide and conquer
