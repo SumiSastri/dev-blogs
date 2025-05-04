@@ -73,36 +73,6 @@ BSTs provide efficient average-case performance for dynamic, ordered data:
 
 However, this assumes the BST remains balanced. Without self-balancing mechanisms, performance can degrade to O(n) in the worst case. BSTs are used for symbol tables (e.g., in compilers)/database indexing and ordered data representations (e.g., dictionaries)
 
-_Binary Tree Example (arbitrary values, no ordering)_
-
-Values: 51, 12, 64, 82, 16, 9, 97, 31, 43, 25, 20
-
-   51
- /    \
-12     64
-/ \     / \
-82 16  9  97
-/         /\  
-31       43 25
-/
-20
-
-_Binary Search Tree Example (ordered, not compact)_
-
-          51
-       /     \
-     12       64
-    /  \         \
-   9   16        82
-         \          \
-         31         97
-        /  \
-      25    43
-     /
-   20
-
-In this BST, the values are organized to satisfy the BST property, allowing efficient operations and yielding a sorted output from in-order traversal.
-
 ## Adelson-Velsky and Landis (AVL) Tree
 
 An AVL tree is a self-balancing BST that maintains its balance through rotations during insertions and deletions. The tree ensures that the height difference (balance factor) between the left and right subtrees of any node is at most one. This guarantees compactness of the tree and efficient data storage. Unlike a simple binary tree that can become unbalanced, the AVL tree maintains structural balance with each insertion and deletion.
@@ -117,26 +87,71 @@ Rotations to Rebalance
 
 These rotations restore the balance factor to an acceptable range and preserve the binary search tree ordering. AVL trees are particularly valuable in systems with frequent insertions and deletions, guaranteeing O(log n) time for search, insert, and delete operations — even in the worst case.
 
+_Efficiency considerations_
+This tree guarantees consistently efficient O(log n) time for all major operations, making it ideal for applications requiring fast, frequent updates and lookups.
+
+_Binary Tree Example (arbitrary values, no ordering)_
+Values: 51, 12, 64, 82, 16, 9, 97, 31, 43, 25, 20
+
+           51
+         /    \
+       12      64
+      /  \     /  \
+    82   16   9   97
+   /             /  \
+ 31            43   25
+ /
+20
+
+_Binary Search Tree Example (ordered, not compact)_
+Values: 51, 12, 64, 82, 16, 9, 97, 31, 43, 25, 20
+In this BST, the values are organised to satisfy the BST property, allowing efficient operations and yielding a sorted output from in-order traversal.
+           51
+         /    \
+       12      64
+      /  \        \
+     9   16       82
+           \         \
+           31        97
+          /  \
+        25    43
+       /
+     20
+
 _AVL Tree Example (balanced, compact and ordered)_
-Using the same values:
-51, 12, 64, 82, 16, 9, 97, 31, 43, 25, 20, 41
-
+Values: 51, 12, 64, 82, 16, 9, 97, 31, 43, 25, 20
 After inserting these values into an AVL Tree (which rebalances after each insertion), the resulting structure maintains balance at every node:
-
-             43
-           /    \
-         16      64
-        /  \       \
-      12   31      82
-     /    /  \        \
-    9   25   41       97
-       /               
-     20                
-Each node satisfies: Balance factor ∈ {−1, 0, +1}
-
 All subtrees maintain BST ordering properties
 
-This tree guarantees consistently efficient O(log n) time for all major operations, making it ideal for applications requiring fast, frequent updates and lookups.
+           25
+         /    \
+      16       64
+     /  \     /   \
+   12   20   51    82
+  /             \     \
+ 9              31    97
+                  \
+                  43 
+
+## 📊 Tree Comparison Table
+
+| **Aspect**                     | **Binary Tree**                                | **Binary Search Tree (BST)**                         | **AVL Tree**                                         |
+|-------------------------------|--------------------------------------------------|------------------------------------------------------|------------------------------------------------------|
+| **Structure Type**            | Hierarchical, unrestricted                      | Hierarchical, ordered (left < root < right)          | Ordered & self-balancing BST                         |
+| **Ordering Rule**             | No ordering enforced                            | Left child < node < Right child                      | Same as BST + height-balanced                        |
+| **Balancing**                 | Not balanced                                    | Not necessarily balanced                             | Always balanced with rotations                       |
+| **Worst-case Shape**          | Can become a linked list                        | Can become a linked list if unbalanced               | Height-balanced; stays close to minimal height       |
+| **In-order Traversal**        | Not sorted                                      | Produces sorted output                               | Produces sorted output                               |
+| **Use Case**                  | Generic hierarchy (e.g., parse trees, file systems) | Fast lookups with ordering (if balanced)            | Guaranteed fast lookups even with many updates       |
+| **Insertion Time (avg/worst)**| O(1)/O(n) (depends on where inserted)           | O(log n)/O(n)                                        | O(log n)/O(log n)                                    |
+| **Search Time (avg/worst)**   | O(n)/O(n)                                       | O(log n)/O(n)                                        | O(log n)/O(log n)                                    |
+| **Deletion Time (avg/worst)** | O(n)/O(n)                                       | O(log n)/O(n)                                        | O(log n)/O(log n)                                    |
+| **Traversal Options**         | Pre/In/Post/Level order                         | Same as binary tree                                  | Same as binary tree                                  |
+| **Height Guarantee**          | No                                              | No                                                   | Yes — max height is O(log n)                         |
+| **Rotations Required**        | ❌ None                                         | ❌ None                                               | ✅ Yes (RR, LL, LR, RL) to maintain balance           |
+| **Extra Storage (for balance)**| ❌ None                                         | ❌ None                                               | ✅ Balance factor or height at each node             |
+| **Complexity to Maintain**    | Simple                                          | Moderate (ordering must be preserved)                | High (due to balancing logic)                        |
+| **Typical Use Cases**         | Expression trees, decision trees                | Dictionaries, lookup tables, sorted data containers  | Real-time systems, high-frequency inserts/lookups    |
 
 ### Conclusion
 
