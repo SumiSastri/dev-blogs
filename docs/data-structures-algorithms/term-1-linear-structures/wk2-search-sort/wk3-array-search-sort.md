@@ -42,6 +42,7 @@ Decimal log10(n)
 
 O(log2(N )) - reduces the complexity of the search by half - log2(n)
 
+__Algos__
 Algos because they are processes are language agnostic
 The process efficiency is calculated
 Processes are different 
@@ -123,44 +124,8 @@ What is the difference between a comparison (selection) sort and bubble sort?
 [javapoint](https://www.javatpoint.com/bubble-sort-vs-selection-sort)
 [balaedung](https://www.baeldung.com/cs/insertion-vs-bubble-sort)
 
-Comparison-Based Sorting Algorithms
-Bubble Sort – Repeatedly swaps adjacent elements if they are in the wrong order.
-Selection Sort – Selects the smallest (or largest) element and moves it to its correct position.
-Insertion Sort – Builds the sorted list one element at a time by inserting elements into their correct position.
-Merge Sort – Divides the array into halves, sorts each half, and then merges them back together.
-Quick Sort – Uses a pivot to partition the array into smaller and larger elements, then sorts recursively.
-Heap Sort – Converts the array into a heap and repeatedly extracts the maximum or minimum element.
-Shell Sort – A variation of insertion sort that sorts elements far apart before finalizing with a normal insertion sort.
-Tim Sort – A hybrid sorting algorithm used in Python, combining merge sort and insertion sort.
-Intro Sort – A hybrid of quicksort, heapsort, and insertion sort, used in C++’s STL.
 
-Non-Comparison-Based Sorting Algorithms
-Counting Sort – Works well for sorting integers in a known range, using counting instead of comparisons.
-Radix Sort – Sorts numbers digit by digit, useful for large numbers or strings.
-Bucket Sort – Distributes elements into buckets and sorts each bucket individually.
 
-Search algorithms
-Uninformed (Blind) Search Algorithms
-Linear Search – Checks each element in a list sequentially.
-Binary Search – Efficient for sorted arrays; repeatedly divides the search range in half.
-Jump Search – Jumps ahead by fixed steps and then does a linear search in a smaller range.
-Interpolation Search – Improves binary search by estimating the search position based on values.
-Exponential Search – Finds a range using exponential jumps and then does a binary search.
-
-Graph/Tree Search Algorithms
-Depth-First Search (DFS) – Explores as far as possible along one branch before backtracking.
-Breadth-First Search (BFS) – Explores all neighbors of a node before moving deeper.
-Iterative Deepening Depth-First Search (IDDFS) – A combination of DFS and BFS, increasing depth limit gradually.
-Uniform-Cost Search (Dijkstra’s Algorithm) – Finds the shortest path in a weighted graph.
-Heuristic (Informed) Search Algorithms
-A Search* – Uses heuristics to find the most optimal path in a weighted graph.
-Greedy Best-First Search – Always expands the node that appears closest to the goal.
-Hill Climbing – Moves toward the highest-valued neighbor, used in optimization problems.
-Beam Search – Similar to BFS but only keeps the best "k" candidates at each step.
-Other Specialized Search Algorithms
-Fibonacci Search – A variation of binary search that works well for ordered lists.
-Ternary Search – Similar to binary search but divides the range into three parts.
-Jump Point Search – An optimized search for grid-based pathfinding (like A* but faster in open spaces).
 
 
 Efficiency of algorithms
