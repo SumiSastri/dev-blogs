@@ -6,6 +6,8 @@ parent: DSA - data structures and algorithms
 last_updated: May 2025
 ---
 
+# What are linear data structures?
+
 Linear data structures follow a sequential order. This sequential order must be preserved during any data operations such as insertions or deletions. Linear data structures could be either static, a fixed size, or dynamic where the size can grow with insertions or shrink with deletions. If a list has an index, searching is efficient happening in constant time O(1).
 
 There are four commonly used linear data types arrays, linked lists, stacks and queues.

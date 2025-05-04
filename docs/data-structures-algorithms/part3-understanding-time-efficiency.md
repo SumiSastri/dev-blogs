@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Alogorithms and data-processing efficiency
+title: Algorithms and data-processing efficiency
 nav_order: 13
 parent: DSA - data structures and algorithms 
 last_updated: May 2025
 ---
 
-# Alogorithms and data-processing efficiency
+# Algorithms and data-processing efficiency
 
 Data in an application is processed by underlying programs or algorithms. Data operations involve sorting, searching, storing, uploading, downloading, inserting, editing and deleting.
 

@@ -28,8 +28,7 @@ Strongly typed languages enforce strict type rules (e.g., Python and Java).Loose
 
 More accurately, design patterns can be effectively applied in both statically typed and dynamically typed object-oriented languages, where types are checked at compile time or runtime. Statically typed languages (like Java, C#): Types are checked at compile time. Dynamically typed languages (like Python, JavaScript): Types are checked at runtime.
 
-The nuance here is not in strong or loose typing, but static or dynamic typeing and the underlying programming paradigm being an object-oriented paradigm rather than a functional programming paradignm. Patterns therefore are language-agnostic and can be adapted across any object oriented programming language
-
+The nuance here is not in strong or loose typing, but static or dynamic typeing and the underlying programming paradigm being an object-oriented paradigm rather than a functional programming paradignm. Patterns therefore are language-agnostic and can be adapted across any object oriented programming language.
 
 ## What is Unified Modelling Language (UML) and how does it relate to software design?
 
