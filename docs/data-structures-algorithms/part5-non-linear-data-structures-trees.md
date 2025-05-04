@@ -95,13 +95,13 @@ Values: 51, 12, 64, 82, 16, 9, 97, 31, 43, 25, 20
 
            51
          /    \
-       12      64
+        12      64
       /  \     /  \
-    82   16   9   97
-   /             /  \
- 31            43   25
- /
-20
+     82   16   9   97
+     /             /  \
+   31            43   25
+   /
+  20
 
 _Binary Search Tree Example (ordered, not compact)_
 Values: 51, 12, 64, 82, 16, 9, 97, 31, 43, 25, 20
@@ -124,15 +124,16 @@ Values: 51, 12, 64, 82, 16, 9, 97, 31, 43, 25, 20
 After inserting these values into an AVL Tree (which rebalances after each insertion), the resulting structure maintains balance at every node:
 All subtrees maintain BST ordering properties
 
-           25
-         /    \
-      16       64
-     /  \     /   \
-   12   20   51    82
-  /             \     \
- 9              31    97
-                  \
-                  43
+             25
+           /    \
+        16       64
+       /  \     /   \
+    12   20   51    82
+    /             \     \
+    9              31    97
+                    \
+                    43
+
 
 
 ## 📊 Tree Comparison Table
