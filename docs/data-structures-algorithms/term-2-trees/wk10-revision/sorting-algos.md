@@ -1,3 +1,5 @@
+SORTING ALGORITHMS
+
 1. (Bubble Sort)
 Array: 45, 12, 89, 33, 5, 76
 Perform Bubble Sort and show the result after each pass.

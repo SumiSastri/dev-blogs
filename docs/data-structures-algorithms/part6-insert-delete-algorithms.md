@@ -202,7 +202,7 @@ _BST operations: delete 4 cases_
             \
             43
 
-_AVL operations: insert and delete rotations_
+<!-- _AVL operations: insert and delete rotations_
 
-As the AVL has a structure that needs to maintain values of the BST and remain in balance for compact data stroage, a series of node rotations have to be performed for both insert and delete operations.
+As the AVL has a structure that needs to maintain values of the BST and remain in balance for compact data stroage, a series of node rotations have to be performed for both insert and delete operations. -->
 

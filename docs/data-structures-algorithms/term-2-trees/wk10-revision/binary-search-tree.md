@@ -1,3 +1,5 @@
+BINARY SEARCH TREE
+
 (a) What is the main property of a Binary Search Tree (BST)? [2 marks]
 (b) Create a BST by inserting the following list of integers:
 50, 30, 61, 48, 17, 72, 66, 91

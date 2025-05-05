@@ -1,3 +1,5 @@
+AVL TREE
+
 The number 28 has just been inserted into the binary search tree in Figure 3.
 
     25

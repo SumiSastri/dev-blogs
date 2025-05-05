@@ -1,4 +1,105 @@
-__ Question 1__
+TIME COMPLEXITY
+
+1.
+Input Size (n)	Time (ms)
+1000	10
+2000	20
+4000	40
+8000	80
+16000	160
+
+→ Estimate the time complexity.
+
+2.
+Input Size (n)	Time (ms)
+1000	10
+2000	40
+4000	160
+8000	640
+16000	2560
+
+→ Estimate the time complexity.
+
+3.
+Input Size (n)	Time (ms)
+1000	300
+2000	600
+4000	900
+8000	1200
+16000	1500
+
+→ Estimate the time complexity.
+
+4.
+Input Size (n)	Time (ms)
+1000	50
+2000	100
+4000	200
+8000	400
+16000	800
+
+→ Estimate the time complexity.
+
+5.
+Input Size (n)	Time (ms)
+1000	100
+2000	500
+4000	2500
+8000	12500
+16000	62500
+
+→ Estimate the time complexity.
+
+6.
+Input Size (n)	Time (ms)
+1000	20
+2000	25
+4000	30
+8000	35
+16000	40
+
+→ Estimate the time complexity.
+
+7.
+Input Size (n)	Time (ms)
+1000	500
+2000	2000
+4000	8000
+8000	32000
+16000	128000
+
+→ Estimate the time complexity.
+
+8.
+Input Size (n)	Time (ms)
+1000	100
+2000	300
+4000	700
+8000	1500
+16000	3100
+
+→ Estimate the time complexity.
+
+9.
+Input Size (n)	Time (ms)
+1000	1000
+2000	1000
+4000	1000
+8000	1000
+16000	1000
+
+→ Estimate the time complexity.
+
+10.
+Input Size (n)	Time (ms)
+1000	70
+2000	140
+4000	280
+8000	560
+16000	1120
+
+→ Estimate the time complexity.
+
 
 (a) You are given the following run-time data for an algorithm. Based on this
 data give the algorithm’s complexity class and provide a justiﬁcation of your answer.
@@ -188,7 +289,9 @@ public void example1(int n) {
 }
 ```
 
-The algorithm performs 2 loops, the inner loop runs a different number of times for each i, leading to a quadratic growth in operations. Therefore BigO notation is - O(n squared).
+The algorithm performs 2 nested loops
+Each loop runs n time, iterating over i and j
+This results in n*n = n square operations leading to a quadratic growth in operations, time complexity is O(n squared).
 
 ```java
 public void example2(int n) {
@@ -202,7 +305,10 @@ public void example2(int n) {
 }
 ```
 
-In the algorithm the 2 nested loops run n times, starting at 0 with increments added if the number is less than n, therfore the loop runs in cubic time with the BigO notation O(n cubed).
+The algorithm performs three nested loops.
+Each loop runs n times: the outer loop iterates over i, the middle over j, and the inner over k.
+For each combination of i, j, and k, a print statement is executed.
+This results in a total of n × n × n = n³ operations, giving the algorithm a time complexity of O(n³)
 
 ```java
 public void example3(int n) {

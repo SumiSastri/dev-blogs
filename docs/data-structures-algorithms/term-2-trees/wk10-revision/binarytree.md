@@ -1,3 +1,4 @@
+BINARY TREE
  51
  /    \
 12     64
