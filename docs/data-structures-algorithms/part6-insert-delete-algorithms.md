@@ -181,12 +181,12 @@ _BST operations: delete 4 cases_
   - _Case 3A: Delete node with 2 children_ - replace with inorder successor delete 31
 
               51
-            /    \
-          12      64
+             /    \
+           12      64
           /  \       \
          9   16       82
-         \
-         43
+          \
+          43
           /
         20
 
