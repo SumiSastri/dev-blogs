@@ -154,16 +154,16 @@ _BST operations: delete 4 cases_
 
   - _Case 1: Leaf node deletion_ remove the pointer and delete the node - 97 delete
 
-             51
-           /    \
-          12     64
-         / \      \
-        9   16      82
-        \  
-         31
-         / \
-        25 43
-        /
+               51
+             /    \
+           12     64
+           / \      \
+          9   16      82
+           \  
+            31
+            / \
+          25 43
+          /
         20
 
   - _Case 2: Delete one child node_ - replace the parent node deleted with the child node - delete 25
@@ -172,8 +172,8 @@ _BST operations: delete 4 cases_
           /    \
          12     64
          / \      \
-       9   16      82
-        \  
+        9   16      82
+         \  
          31
          / \
         20 43
@@ -182,19 +182,19 @@ _BST operations: delete 4 cases_
 
               51
             /    \
-         12      64
+          12      64
           /  \       \
          9   16       82
          \
          43
-        /
-      20
+          /
+        20
 
 - _Case 3B: Delete node with 2 children_ - replace with inorder predecessor delete 31
 
              51
            /    \
-         12      64
+          12      64
          /  \       \
         9   16       82
          \
