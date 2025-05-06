@@ -1,13 +1,13 @@
 ---
 layout: default
-title: What algorithms are used for insert and delete operations for different data structures?
+title: Insert and delete algorithms
 nav_order: 13
 parent: DSA - data structures and algorithms
 last_updated: May 2025
 ---
 
 
-# What algorithms are used for insert operations for different data structures?
+# Insert and delete algorithms
 
 In any data set, data will need to be updated. This involves both insert and delete operations. Linear data structures have different algorithms and operations to insert data with different asymptotic time efficiencies.
 
@@ -120,11 +120,11 @@ Delete: Lets look at deleting 54 from the tree - we now perform a _level-order t
 
 Simlarly if wanted to delete 15 then 3 would replace 15 and the edge of 3 and the value 3 would be deleted.  This method helps preserve the structure of a complete binary tree — keeping it balanced and filled left-to-right.
 
-        1
-       / \
-      2   3
-     / \  / \
-   19 103 6 15
+         1
+        / \
+       2   3
+      / \  / \
+    19 103 6 15
 
    Lets look at a structure with both right and left children
 
@@ -132,9 +132,9 @@ Simlarly if wanted to delete 15 then 3 would replace 15 and the edge of 3 and th
        / \
       2   54
      / \  / \
-   19 103 6 15
-   / \
-  3   18
+    19 103 6 15
+    / \
+    3   18
 
   Using the same principle, the last visited would be 18 so if we wanted to delete 54 we would replace it with 18
 
@@ -142,9 +142,9 @@ Simlarly if wanted to delete 15 then 3 would replace 15 and the edge of 3 and th
        / \
       2   18
      / \  / \
-   19 103 6 15
-   /
-  3
+    19 103 6 15
+    /
+   3
 
 The node is not removed directly because it could leave a gap in the structure, break the completeness of the tree and lead to undefined behavior in traversal and storage.
 
@@ -152,13 +152,13 @@ In practice, level-order deletion is the standard and most effective way to dele
 
 _BST operations: delete 4 cases_
 
-  - Case 1: Leaf node deletion remove the pointer and delete the node - 97 delete
+  - _Case 1: Leaf node deletion_ remove the pointer and delete the node - 97 delete
 
          51
-       /    \
-      12     64
-     / \      \
-   9   16      82
+        /    \
+       12     64
+      / \      \
+     9   16      82
         \  
          31
          / \
@@ -166,7 +166,7 @@ _BST operations: delete 4 cases_
         /
         20
 
-  - Case 2: Delete one child node - replace the parent node deleted with the child node - delete 25
+  - _Case 2: Delete one child node_ - replace the parent node deleted with the child node - delete 25
 
          51
        /    \
@@ -178,25 +178,25 @@ _BST operations: delete 4 cases_
          / \
         20 43
   
-  - Case 3: Delete node with 2 children - replace with inorder successor delete 31
+  - _Case 3A: Delete node with 2 children_ - replace with inorder successor delete 31
 
          51
        /    \
-     12      64
-    /  \       \
-   9   16       82
+      12      64
+      /  \       \
+    9   16       82
          \
          43
         /
       20
 
-- Case 4: Delete node with 2 children - replace with inorder predecessor delete 31
+- _Case 3B: Delete node with 2 children_ - replace with inorder predecessor delete 31
 
-         51
-       /    \
-     12      64
-    /  \       \
-   9   16       82
+           51
+         /    \
+      12      64
+      /  \       \
+    9   16       82
          \
          20
             \
