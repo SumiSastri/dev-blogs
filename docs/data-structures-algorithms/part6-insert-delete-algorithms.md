@@ -119,32 +119,32 @@ _Binary tree operations: level-order delete_
 Delete: Lets look at deleting 54 from the tree - we now perform a _level-order traversal_ traversal, and replace the deleted node with the value from the last visited node, which is 3. Like a linked list, now 3 and its edge are deleted.
 
 Simlarly if wanted to delete 15 then 3 would replace 15 and the edge of 3 and the value 3 would be deleted.  This method helps preserve the structure of a complete binary tree — keeping it balanced and filled left-to-right.
-
-         1
-        / \
-       2   3
-      / \  / \
-    19 103 6 15
+  
+               1
+              / \
+             2   3
+            / \  / \
+          19 103 6 15
 
    Lets look at a structure with both right and left children
 
-        1
-       / \
-      2   54
-     / \  / \
-    19 103 6 15
-    / \
-    3   18
+             1
+            / \
+          2   54
+          / \  / \
+          19 103 6 15
+         / \
+       3   18
 
   Using the same principle, the last visited would be 18 so if we wanted to delete 54 we would replace it with 18
 
-        1
-       / \
-      2   18
-     / \  / \
-    19 103 6 15
-    /
-   3
+            1
+           / \
+          2   18
+         / \  / \
+        19 103 6 15
+        /
+      3
 
 The node is not removed directly because it could leave a gap in the structure, break the completeness of the tree and lead to undefined behavior in traversal and storage.
 
@@ -154,11 +154,11 @@ _BST operations: delete 4 cases_
 
   - _Case 1: Leaf node deletion_ remove the pointer and delete the node - 97 delete
 
-         51
-        /    \
-       12     64
-      / \      \
-     9   16      82
+             51
+           /    \
+          12     64
+         / \      \
+        9   16      82
         \  
          31
          / \
@@ -168,11 +168,11 @@ _BST operations: delete 4 cases_
 
   - _Case 2: Delete one child node_ - replace the parent node deleted with the child node - delete 25
 
-         51
-       /    \
-      12     64
-     / \      \
-   9   16      82
+            51
+          /    \
+         12     64
+         / \      \
+       9   16      82
         \  
          31
          / \
@@ -180,11 +180,11 @@ _BST operations: delete 4 cases_
   
   - _Case 3A: Delete node with 2 children_ - replace with inorder successor delete 31
 
-         51
-       /    \
-      12      64
-      /  \       \
-    9   16       82
+              51
+            /    \
+         12      64
+          /  \       \
+         9   16       82
          \
          43
         /
@@ -192,11 +192,11 @@ _BST operations: delete 4 cases_
 
 - _Case 3B: Delete node with 2 children_ - replace with inorder predecessor delete 31
 
-           51
-         /    \
-      12      64
-      /  \       \
-    9   16       82
+             51
+           /    \
+         12      64
+         /  \       \
+        9   16       82
          \
          20
             \
