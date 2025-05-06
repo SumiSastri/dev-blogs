@@ -24,7 +24,7 @@ Stacks and Queues typically do not support search. You can only peek() (look at 
 
 Search across all trees is supported via tree traversals.  _Efficiency of all searches are O(n)_ since each node is visited once in the worst case for all types of traversal (level-order, in-order, pre-order, post-order). _BST and AVL efficiency O(log n)_ as the trees are ordered. You can also efficiently find min/max; (leftmost/rightmost nodes);  successor/predecessor nodes in balanced trees.
 
-The examples here show the traversal orders across all tree structures.
+The examples here show the traversal orders across all tree structures.To search for a value in a general binary tree, the operation is typically a linear level-order search, which is similar to the search performed to a linked list.
 
 _Breadth-first level-order search_
 
@@ -35,7 +35,6 @@ _Breadth-first level-order search_
           19 103    6 15
          /
         3
-To search for a value in a general binary tree, the operation is typically a linear level-order search, which is similar to the search performed to a linked list.
 
 **Level order output: 1, 2, 54, 19, 103, 6, 15,3**
 
@@ -114,12 +113,12 @@ _Depth-first pre-order search (Root → Left → Right)_
 
 **Post-order output: 5,35 12, 82, 10, 25, 4, 5, 7,6, 2, 12, 2, 18**
 
-__Binary Search__
+### Binary Search
 
 A classic divide and conquer algorithm Works on sorted data (arrays or trees). This search is not suitable for linked-lists.
 Time complexity: O(log n)
 
-## Search Algorithms Summary
+###ß Search Algorithms Summary
 
 | Algorithm              | Data Structure       | Time Complexity         | Space Complexity | Description                                                                 |
 |------------------------|----------------------|--------------------------|------------------|-----------------------------------------------------------------------------|
@@ -136,6 +135,7 @@ Time complexity: O(log n)
 | **Dijkstra’s Algorithm**| Weighted Graph      | O(E + V log V)           | O(V)             | Finds shortest path from source to all vertices                             |
 
 _Note_
+
 - `V`: number of vertices
 - `E`: number of edges
 - `h`: height of the tree
