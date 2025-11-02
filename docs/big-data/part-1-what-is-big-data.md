@@ -64,7 +64,7 @@ is now a data-platform provider offering cloud-native data warehousing solutions
 
 Big data provides several tangible advantages:  
 
-- **Better insights**: More data + more types = broader and deeper understanding; uncover hidden patterns. :contentReference
+- **Better insights**: More data + more types = broader and deeper understanding; uncover hidden patterns. 
 
 - **Improved decision-making**: Data-driven decisions with more reliable predictions (market trends, customer behaviour, risk).
 
@@ -78,11 +78,11 @@ Some representative use-cases discussed include:
 
 - **Retail / e-commerce**: Predicting customer demand, launching new products using data from social, focus-groups, early roll-outs.
 
-- **Healthcare**: Combining electronic records, wearable devices, staffing and supplier data to optimise care & operations. :contentReference
+- **Healthcare**: Combining electronic records, wearable devices, staffing and supplier data to optimise care & operations. 
 
 - **Financial services**: Fraud detection, regulatory reporting, trend spotting across large volumes of financial transaction data.
 
-- **Manufacturing**: Predictive maintenance by analysing sensor data, logs, equipment performance to reduce downtime. :contentReference
+- **Manufacturing**: Predictive maintenance by analysing sensor data, logs, equipment performance to reduce downtime. 
 
 - **Government / public services**: Using data from public services, traffic, schools etc to optimise resource allocation, improve transparency and public trust.
 
