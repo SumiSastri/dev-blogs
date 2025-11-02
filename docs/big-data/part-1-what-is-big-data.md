@@ -52,14 +52,6 @@ Beyond Hadoop-based tools, NoSQL databases such as MongoDB, Cassandra, and Redis
 Major cloud providers have also reshaped the industry. For example, Amazon, which began as an online bookstore, is is the largest cloud service provider, overtaking its rivals google and Microsoft Azure. AWS (Amazon Web Services)
 is now a data-platform provider offering cloud-native data warehousing solutions such as Redshift and Snowflake a cloud-based data warehouse,  competing with googles' Big Query and contributing to the shift toward scalable, elastic, cloud-driven analytics platforms.
 
-## Evolution of big data: past, present & future  
-
-- **Past**: Managing large data sets dates back decades (1960s/70s relational databases). But big data surged around 2005 with the advent of large-scale internet usage and frameworks like Hadoop; NoSQL databases began growing.
-
-- **Present**: Open‐source frameworks (Hadoop, Spark) make big data more accessible; IoT (information of things) and machine-learning generate even more data.
-
-- **Future**: Technologies such as cloud scalability, gen-AI (generative artificial intelligence), graph databases will push the big data boundaries further. Cyber security attacks, fraud have been accelerated the data controllers responsbilities for keeping data safe and secure.
-
 ## Big data benefits
 
 Big data provides several tangible advantages:  
@@ -129,6 +121,15 @@ Oracle outlines [1] a three‐step workflow:
 - **Create sandbox/discovery labs for performance**: Provide high-performance experimental environments for analytics, data-scientists and business users.
 
 - **Adopt cloud operating model**: Big data solutions benefit from elastic scalability, on-demand compute/storage, and quick provisioning.
+
+## Evolution of big data: past, present & future  
+
+- **Past**: Managing large data sets dates back decades (1960s/70s relational databases). But big data surged around 2005 with the advent of large-scale internet usage and frameworks like Hadoop; NoSQL databases began growing.
+
+- **Present**: Open‐source frameworks (Hadoop, Spark) make big data more accessible; IoT (information of things) and machine-learning generate even more data.
+
+- **Future**: Technologies such as cloud scalability, gen-AI (generative artificial intelligence), graph databases will push the big data boundaries further. Cyber security attacks, fraud have been accelerated the data controllers responsbilities for keeping data safe and secure.
+
 
 ## Conclusion
 
