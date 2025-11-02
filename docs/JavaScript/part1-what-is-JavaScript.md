@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 parent:  Fullstack JavaScript
 nav_order: 15
@@ -188,4 +188,4 @@ With the use of JavaScript through the stack, it no longer can be considered jus
 
 - [What is JavaScript](https://www.dofactory.com/tutorial/what-is-javascript)
 
-- [JavaScript the Big Picture - Premium PluralSight Course](https://app.pluralsight.com/library/courses/javascript-big-picture/table-of-contents)
+- [JavaScript the Big Picture - Premium PluralSight Course](https://app.pluralsight.com/library/courses/javascript-big-picture/table-of-contents) -->

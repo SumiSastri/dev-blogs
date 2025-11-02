@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 parent:  Fullstack JavaScript
 nav_order: 15
@@ -71,4 +71,4 @@ With React being JavaScript centric as a library it has no template-framework sp
 
 This makes skills transfer easier - to Node and other JavaScript-based libraries.
 
-[More from Freecodecamp ](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/)
+[More from Freecodecamp ](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/) -->

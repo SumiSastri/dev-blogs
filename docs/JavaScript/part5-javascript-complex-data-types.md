@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 parent:  Fullstack JavaScript
 nav_order: 15
@@ -457,4 +457,4 @@ console.log(arrayData2);
 
 Array methods are functions performed on an array. They are in-built into the language. Higher order functions are call-back functions performed on an array. Simple array methods either mutate the array, or keep the original array in tact. `array.reverse()`, for example mutates the array.
 
-Methods on arrays can be used by factory functions to change data accessed from API's that are in arrays. The data may be in a format that is required in another format in the front end - for example a number may need to be spelt out, therefore an array of numbers will need the ```array.map()``` method to go through each array, and then the ```.toString()``` method to convert it into words and this may then be used as a param in a factory function.
+Methods on arrays can be used by factory functions to change data accessed from API's that are in arrays. The data may be in a format that is required in another format in the front end - for example a number may need to be spelt out, therefore an array of numbers will need the ```array.map()``` method to go through each array, and then the ```.toString()``` method to convert it into words and this may then be used as a param in a factory function. -->

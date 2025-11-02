@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 parent:  Fullstack JavaScript
 nav_order: 15
@@ -66,4 +66,4 @@ There is no choice between using SOAP or REST as it is already pre-defined as an
 
 Some sites, like Amazon, support both.
 
-A good blog to read [https://smartbear.com/blog/test-and-monitor/understanding-soap-and-rest-basics/] and a little more technical version [https://www.soapui.org/learn/api/soap-vs-rest-api.html]
+A good blog to read [https://smartbear.com/blog/test-and-monitor/understanding-soap-and-rest-basics/] and a little more technical version [https://www.soapui.org/learn/api/soap-vs-rest-api.html] -->

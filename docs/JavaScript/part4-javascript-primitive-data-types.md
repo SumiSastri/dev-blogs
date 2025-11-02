@@ -322,4 +322,4 @@ See [Demo of this section in CodePen](https://codepen.io/sumisastri/pen/rNRKEYq)
 
 [Free code camp tutorial](https://www.dofactory.com/tutorial/what-is-javascript) 
 
-<!-- Freecode camp vide 27:00 TO 30:00 CHECK AGAIN NOT CLEAR -->
+Freecode camp vide 27:00 TO 30:00 CHECK AGAIN NOT CLEAR
