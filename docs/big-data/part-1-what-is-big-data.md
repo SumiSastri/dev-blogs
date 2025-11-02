@@ -28,15 +28,25 @@ The five key characteristics of big data are often called the five "v's" of big 
 
 - **Value**: Data has potential value, but these insights into the data must be discovered and realised. Traditionally, simple analytics that were descriptive or analytical were provided. Big data now is analysed differently, complex data patterns are analysed by machines very rapidly, providing prescriptive insghts. Analytics can provide predictive models, forecasts and actionable recommendations from underlying data sets.  
 
-## New software - Hadoop, Map Reduce, Spark
+## New software - Hadoop the front runner
 
-With big data, new software to manage this data came into the market place.
+With big data, new software to manage this data came into the market place. The need stemmed from the growth  web search. [8] Startups like Google, Yahoo, and AltaVista began building frameworks to automate search results.
 
-High Availability Distributed Object Oriented Platform, Hadoop
+High Availability Distributed Object Oriented Platform, Hadoop, was developed by Douglas Cutting, who was with Yahoo. The primary component of the Hadoop ecosystem is the distributed file system, Hadoop Distributed File System (HDFS), that uses parallel processing to handle big data and analytics jobs, breaking workloads down into smaller chunks that can be run at the same time.
 
-Hadoop Distributed File System (HDFS), the primary component of the Hadoop ecosystem, is a distributed file system in which individual Hadoop nodes operate on data that resides in their local storage. This removes network latency, providing high-throughput access to application data. In addition, administrators don’t need to define schemas up front. Hadoop is a black box representation of 
+Map Reduce was added to HDFS, by google, and is a programming model for large-scale data processing.
 
-Outdated now - migrations are expensive and time consuming
+Yet Another Resource Negotiator (YARN), is part of the HDFS ecosystem responsible for managing compute resources in clusters and using them to schedule users’ applications. It performs scheduling and resource allocation across the Hadoop system.
+
+And finally Hadoop Common includes the libraries and utilities used and shared by other Hadoop modules.
+
+While Hadoop has been a front-runner in big-data processing, newer technologies have been widely adopted to manage and analyze modern data workloads.
+
+Within the Apache Software Foundation ecosystem, tools such as Apache Spark, an in-memory distributed processing engine; Apache Flink, which supports both streaming and batch data processing; Apache Kafka, a real-time data-streaming platform; and Apache Hive and Presto/Trino, SQL engines for querying large datasets, have become widely used.
+
+Beyond Hadoop-based tools, NoSQL databases such as MongoDB, Cassandra, and Redis have emerged, along with graph databases and graph-based query engines for relationship-driven analytics. Kubernetes-based data platforms now provide scalable, container-oriented data-pipeline orchestration, further advancing the big-data landscape.
+
+Major cloud providers have also reshaped the industry. For example, Amazon, which began as an online bookstore, is now one of the largest data-platform providers, offering cloud-native data warehousing solutions such as Amazon Redshift. Additionally, Snowflake has become a leading cloud-based data warehouse, contributing to the shift toward scalable, elastic, cloud-driven analytics platforms.
 
 ## Evolution of big data: past, present & future  
 
@@ -134,6 +144,10 @@ Big data isn’t just about storing large amounts of data — it’s about **int
 
 [6] Rob Kitchin and Gavin McArdle, "What makes Big Data, Big Data? Exploring the ontological characteristics of 26 datasets", [Available, Accessed: 2 Nov. 2025](https://journals.sagepub.com/doi/pdf/10.1177/2053951716631130)
 
-[7]Amount of data created daily [Available, Accessed: 2 Nov. 2025](https://explodingtopics.com/blog/data-generated-per-day)
+[7] Amount of data created daily [Available, Accessed: 2 Nov. 2025](https://explodingtopics.com/blog/data-generated-per-day)
 
-[8]] https://cloud.google.com/learn/what-is-hadoop
+[8] https://cloud.google.com/learn/what-is-hadoop
+
+[9] https://www.geeksforgeeks.org/data-engineering/hadoop-architecture/
+
+[10] https://www.ibm.com/think/topics/hadoop
