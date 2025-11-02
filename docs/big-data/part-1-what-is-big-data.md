@@ -18,7 +18,7 @@ Conceptually, big data is more than the issues of large amounts of data and how 
 
 The five key characteristics of big data are often called the five "v's" of big data
 
-- **Volume**: The sheer scale of data (from terabytes to petabytes) matters, we are now into zeta-bytes and beyond, if you read the exploding topics data[7]. The biggest data centres in the world are in the USA, Germany, UK, China and Canada. 
+- **Volume**: The sheer scale of data (from terabytes to petabytes) matters, we are now into zeta-bytes and beyond, if you read the exploding topics data[7]. The biggest data centres in the world are in the USA, Germany, UK, China and Canada.
 
 - **Velocity**: The speed at which data is generated and processed in the past was using RDBMS (relational database management systems). Data was structured mainly in tables, with rows and columns and could easily be processed by servers and mainframes. Big data on the other hand requires advanced parallel processing and non-standard chips; specialised tools such as Hadoop and Spark are used to sift through semi-structured, structured and unstructured data in RDBMS, graph, object or document formats.
 
@@ -28,7 +28,15 @@ The five key characteristics of big data are often called the five "v's" of big 
 
 - **Value**: Data has potential value, but these insights into the data must be discovered and realised. Traditionally, simple analytics that were descriptive or analytical were provided. Big data now is analysed differently, complex data patterns are analysed by machines very rapidly, providing prescriptive insghts. Analytics can provide predictive models, forecasts and actionable recommendations from underlying data sets.  
 
-## New technologies - Hadoop, Map Reduce, Spark
+## New software - Hadoop, Map Reduce, Spark
+
+With big data, new software to manage this data came into the market place.
+
+High Availability Distributed Object Oriented Platform, Hadoop
+
+Hadoop Distributed File System (HDFS), the primary component of the Hadoop ecosystem, is a distributed file system in which individual Hadoop nodes operate on data that resides in their local storage. This removes network latency, providing high-throughput access to application data. In addition, administrators don’t need to define schemas up front. Hadoop is a black box representation of 
+
+Outdated now - migrations are expensive and time consuming
 
 ## Evolution of big data: past, present & future  
 
@@ -62,7 +70,7 @@ Some representative use-cases discussed include:
 
 - **Manufacturing**: Predictive maintenance by analysing sensor data, logs, equipment performance to reduce downtime. :contentReference
 
-- **Government / public services**: Using data from public services, traffic, schools etc to optimise resource allocation, improve transparency and public trust. 
+- **Government / public services**: Using data from public services, traffic, schools etc to optimise resource allocation, improve transparency and public trust.
 
 ## Big data challenges
 
@@ -86,7 +94,7 @@ Several cloud based data-centres are required to manage the increasing speed and
 
 ## How big data works
 
-The Oracle three‐step workflow:
+Oracle outlines [1] a three‐step workflow:
 
 1. **Integrate**: Ingest data from many disparate sources; traditional ETL may not suffice at large scale.
 
@@ -127,3 +135,5 @@ Big data isn’t just about storing large amounts of data — it’s about **int
 [6] Rob Kitchin and Gavin McArdle, "What makes Big Data, Big Data? Exploring the ontological characteristics of 26 datasets", [Available, Accessed: 2 Nov. 2025](https://journals.sagepub.com/doi/pdf/10.1177/2053951716631130)
 
 [7]Amount of data created daily [Available, Accessed: 2 Nov. 2025](https://explodingtopics.com/blog/data-generated-per-day)
+
+[8]] https://cloud.google.com/learn/what-is-hadoop
