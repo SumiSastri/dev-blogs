@@ -1,0 +1,111 @@
+# What Is Big Data?
+
+Big data refers to extremely large and complex data sets that are difficult to manage and process. Doug Lanely, is acknowledged as the first person to popularly be associated with the term "big data", but Kitchen and McArdle, reference the term from computer science academia since the mid-1990s.
+
+While there are no formal definitions of big-data, conceptually the terminology is used to describe the volume, velocity, variety and value of data that has changed since the year 2000 as data generation has grown exponentially since the turn of the century.
+
+Conceptually, big data is more than the issues of large amounts of data and how to store this data. It is also about knowledge derived from data and the process of extracting insights from this data for better efficiencies such as financial and operational gains. It is also not contained to a type of data structure and relates to both both structured and unstructured data formats.
+
+## The five “v's” of big data
+
+The five key characteristics of big data are often called the five "v's" of big data
+
+- **Volume**: The sheer amount of data (from terabytes to petabytes) matters. :contentReference
+
+- **Velocity**: The speed at which data is generated and processed (real-time/near-real-time) matters. 
+
+- **Variety**: Data comes in many types (structured, unstructured, semi-structured) e.g., text, video, sensor data.
+
+- **Veracity**: How accurate, reliable and trustworthy the data is. Data quality and integrity are critical. 
+
+- **Value**: Data has potential value, but that value must be discovered and realised. :contentReference
+
+## Evolution of Big Data: Past, Present & Future  
+
+- **Past**: Managing large data sets dates back decades (1960s/70s relational databases). But big data surged around 2005 with the advent of large-scale internet usage and frameworks like Hadoop; NoSQL databases began growing.
+
+- **Present**: Open‐source frameworks (Hadoop, Spark) make big data more accessible; IoT (information of things) and machine-learning generate even more data.
+
+- **Future**: Technologies such as cloud scalability, gen-AI (generative artificial intelligence), graph databases will push the big data boundaries further.
+
+## Big data benefits
+
+Big data provides several tangible advantages:  
+
+- **Better insights**: More data + more types = broader and deeper understanding; uncover hidden patterns. :contentReference
+
+- **Improved decision-making**: Data-driven decisions with more reliable predictions (market trends, customer behaviour, risk).
+
+- **Personalised customer experiences**: Combining diverse data sources (sales, social media, campaign data) enables more granular customer profiles and tailored experiences.
+
+- **Operational efficiency**: Analysing internal and external data to detect anomalies, optimise processes, reduce downtime.
+
+## Big data use cases
+
+Some representative use-cases discussed include:
+
+- **Retail / e-commerce**: Predicting customer demand, launching new products using data from social, focus-groups, early roll-outs.
+
+- **Healthcare**: Combining electronic records, wearable devices, staffing and supplier data to optimise care & operations. :contentReference
+
+- **Financial services**: Fraud detection, regulatory reporting, trend spotting across large volumes of financial transaction data.
+
+- **Manufacturing**: Predictive maintenance by analysing sensor data, logs, equipment performance to reduce downtime. :contentReference
+
+- **Government / public services**: Using data from public services, traffic, schools etc to optimise resource allocation, improve transparency and public trust. 
+
+## Big data challenges
+
+There are significant hurdles to leveraging big data:  
+
+- Data volumes are growing rapidly (doubling approx every 2 years). Storing is only part of the challenge; processing, curating and making sense of it is harder.
+
+- **Data curation**: In many organisations, data scientists spend 50-80% of their time simply cleaning, preparing and organising data.
+
+- **Security & privacy**: Compliance, encryption, role-based access and regional/industry regulations add complexity.
+
+- **Cultural change**: Leveraging big data often requires shifting organisational culture — from legacy practices to data-driven processes, self-service analytics, training.
+
+- **Technology evolution**: The tools and frameworks evolve quickly; keeping up can be a challenge.
+
+## How big data works 
+
+The Oracle three‐step workflow:
+
+1. **Integrate**: Ingest data from many disparate sources; traditional ETL may not suffice at large scale.
+
+2. **Manage**: Store and manage the data (cloud, on-premises, hybrid), often using data lakes and elastic compute to scale.
+
+3. **Analyse**: Perform analysis and take action — visual analytics, machine learning/AI models, discovery of new insights.
+
+## Best practices for big data
+
+- **Align with business goals**: Ensure big data initiatives support concrete business and IT priorities, not just for novelty.
+
+- **Address skills shortages via governance & standards**: Big data requires expertise; governance and standardisation help mitigate risk.
+
+- **Establish a centre of excellence**: Share knowledge, oversight and resources across enterprise to scale big data competencies.
+
+- **Integrate unstructured with structured data**: The richest insights often come from linking new big-data sources to existing structured data.
+
+- **Create sandbox/discovery labs for performance**: Provide high-performance experimental environments for analytics, data-scientists and business users.
+
+- **Adopt cloud operating model**: Big data solutions benefit from elastic scalability, on-demand compute/storage, and quick provisioning.
+
+## Conclusion
+
+Big data isn’t just about storing large amounts of data — it’s about **integrating, managing and analysing** diverse and fast-moving data to derive value. The “five Vs” (volume, velocity, variety, veracity, value) describe its distinguishing features. While the benefits (insights, decisions, personalisation, efficiency) are significant, organisations must overcome challenges (volume growth, data curation, culture, skills, evolving tools). A solid big data strategy aligns with business goals, leverages modern infrastructure (often cloud), and links unstructured data with structured sources for maximum impact.
+
+## Further Reading
+
+[1] Oracle, “Oracle Documentation Resource,” Oracle, [Available, Accessed: 2 Nov. 2025](https://www.oracle.com/uk/big-data/what-is-big-data/)
+
+[2] Harvard Business Review, “HBR Article (PDF)”, [Available, Accessed: 2 Nov. 2025](http://commres.net/wiki/_media/c/mt/53ecf40e0cf23733e804e561.pdf)
+
+[3] I. Yaqoob et al., “Big Data: From Beginning to Future,” [Available, Accessed: 2 Nov. 2025](https://www.academia.edu/109519130/Big_data_From_beginning_to_future)
+
+[4] Natalia Yerashenia (2025), __Big Data Theory and Practice, Lecture 1,Module Introduction. Big Data Definition. Features of Big Data.Big Data Analytics. Ethics and Risks.__, PDF slides  [Available to MSc Computer Science students MODULE: (2025) 7BDIN006W.1 Big Data Theory and Practice](https://learning.westminster.ac.uk/ultra/courses/_103227_1/outline/edit/document/_5695500_1?courseId=_103227_1&view=content&state=view) and [Lecture 1 Pantopo recordings for the module](https://learning.westminster.ac.uk/ultra/courses/_103227_1/outline/edit/document/_5695500_1?courseId=_103227_1&view=content&state=view)
+
+[5] Doug Lanely official website [Available, Accessed: 2 Nov. 2025](https://www.douglasblaney.com/)
+
+[6] Rob Kitchin and Gavin McArdle, "What makes Big Data, Big Data? Exploring the ontological characteristics of 26 datasets", [Available, Accessed: 2 Nov. 2025](https://journals.sagepub.com/doi/pdf/10.1177/2053951716631130)
