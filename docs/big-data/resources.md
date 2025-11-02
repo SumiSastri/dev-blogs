@@ -21,3 +21,15 @@ last_updated: Nov 2025
 - Rob Kitchin and Gavin McArdle, "What makes Big Data, Big Data? Exploring the ontological characteristics of 26 datasets", [Available, Accessed: 2 Nov. 2025](https://journals.sagepub.com/doi/pdf/10.1177/2053951716631130)
 
 - Amount of data created daily [Available, Accessed: 2 Nov. 2025](https://explodingtopics.com/blog/data-generated-per-day)
+
+- Google learn, "What is Hadoop", [Available, Accessed: 2 Nov. 2025](https://cloud.google.com/learn/what-is-hadoop)
+
+- Geek for geeks, Hadoop architecture  [Available, Accessed: 2 Nov. 2025](https://www.geeksforgeeks.org/data-engineering/hadoop-architecture/)
+
+- IBM topics - Hadoop,[Available, Accessed: 2 Nov. 2025](https://www.ibm.com/think/topics/hadoop)
+
+- Geek for Geeks, "What is map-reduce in Hadoop," [Available, Accessed: 2 Nov. 2025](https://www.geeksforgeeks.org/c-sharp/map-reduce-in-hadoop/)
+
+- Apache official website [Available, Accessed: 2 Nov. 2025](https://www.apache.org/)
+
+- Apache Hadoop official website[Available, Accessed: 2 Nov. 2025](https://hadoop.apache.org/)

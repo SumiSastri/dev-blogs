@@ -32,9 +32,12 @@ The five key characteristics of big data are often called the five "v's" of big 
 
 With big data, new software to manage this data came into the market place. The need stemmed from the growth  web search. [8] Startups like Google, Yahoo, and AltaVista began building frameworks to automate search results.
 
-High Availability Distributed Object Oriented Platform, Hadoop, was developed by Douglas Cutting, who was with Yahoo. The primary component of the Hadoop ecosystem is the distributed file system, Hadoop Distributed File System (HDFS), that uses parallel processing to handle big data and analytics jobs, breaking workloads down into smaller chunks that can be run at the same time.
+High Availability Distributed Object Oriented Platform, Hadoop, was developed by Douglas Cutting, who was with Yahoo. The primary component of the Hadoop ecosystem is the distributed file system, Hadoop Distributed File System (HDFS).
 
-Map Reduce was added to HDFS, by google, and is a programming model for large-scale data processing.
+Today, Hadoop, is part of the open source Apache Software Foundation and is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models.[13]
+It is designed to scale up from single servers to thousands of machines, each offering local computation and storage.
+
+Map Reduce is the processing engine of Hadoop. While HDFS is responsible for storing the data, Map Reduce uses parallel processing to handle big data and analytics jobs, breaking workloads down into smaller chunks that can be run at the same time. The first phase is when the data is mapped and broken down into smaller chunks moving into the reduce phase then the data is aggregated and merged to produce a final filtered output.[11]
 
 Yet Another Resource Negotiator (YARN), is part of the HDFS ecosystem responsible for managing compute resources in clusters and using them to schedule users’ applications. It performs scheduling and resource allocation across the Hadoop system.
 
@@ -44,9 +47,10 @@ While Hadoop has been a front-runner in big-data processing, newer technologies 
 
 Within the Apache Software Foundation ecosystem, tools such as Apache Spark, an in-memory distributed processing engine; Apache Flink, which supports both streaming and batch data processing; Apache Kafka, a real-time data-streaming platform; and Apache Hive and Presto/Trino, SQL engines for querying large datasets, have become widely used.
 
-Beyond Hadoop-based tools, NoSQL databases such as MongoDB, Cassandra, and Redis have emerged, along with graph databases and graph-based query engines for relationship-driven analytics. Kubernetes-based data platforms now provide scalable, container-oriented data-pipeline orchestration, further advancing the big-data landscape.
+Beyond Hadoop-based tools, NoSQL databases such as MongoDB, Cassandra, and Redis have emerged. Fraph databases such as Neo4J, and graph-based query engines are now being used for storing and querying highly interconnected data. Kubernetes-based data platforms now provide scalable, container-oriented data-pipeline orchestration, further advancing the big-data landscape.
 
-Major cloud providers have also reshaped the industry. For example, Amazon, which began as an online bookstore, is now one of the largest data-platform providers, offering cloud-native data warehousing solutions such as Amazon Redshift. Additionally, Snowflake has become a leading cloud-based data warehouse, contributing to the shift toward scalable, elastic, cloud-driven analytics platforms.
+Major cloud providers have also reshaped the industry. For example, Amazon, which began as an online bookstore, is is the largest cloud service provider, overtaking its rivals google and Microsoft Azure. AWS (Amazon Web Services)
+is now a data-platform provider offering cloud-native data warehousing solutions such as Redshift and Snowflake a cloud-based data warehouse,  competing with googles' Big Query and contributing to the shift toward scalable, elastic, cloud-driven analytics platforms.
 
 ## Evolution of big data: past, present & future  
 
@@ -146,8 +150,14 @@ Big data isn’t just about storing large amounts of data — it’s about **int
 
 [7] Amount of data created daily [Available, Accessed: 2 Nov. 2025](https://explodingtopics.com/blog/data-generated-per-day)
 
-[8] https://cloud.google.com/learn/what-is-hadoop
+[8] Google learn, "What is Hadoop", [Available, Accessed: 2 Nov. 2025](https://cloud.google.com/learn/what-is-hadoop)
 
-[9] https://www.geeksforgeeks.org/data-engineering/hadoop-architecture/
+[9]Geek for geeks, Hadoop architecture  [Available, Accessed: 2 Nov. 2025](https://www.geeksforgeeks.org/data-engineering/hadoop-architecture/)
 
-[10] https://www.ibm.com/think/topics/hadoop
+[10] IBM topics - Hadoop,[Available, Accessed: 2 Nov. 2025](https://www.ibm.com/think/topics/hadoop)
+
+[11] Geek for Geeks, "What is map-reduce in Hadoop," [Available, Accessed: 2 Nov. 2025](https://www.geeksforgeeks.org/c-sharp/map-reduce-in-hadoop/)
+
+[12] Apache official website [Available, Accessed: 2 Nov. 2025](https://www.apache.org/)
+
+[13] Apache Hadoop official website[Available, Accessed: 2 Nov. 2025](https://hadoop.apache.org/)
