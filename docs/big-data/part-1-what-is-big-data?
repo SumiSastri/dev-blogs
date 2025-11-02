@@ -1,12 +1,12 @@
 ---
 layout: default
-title: BIBLIOGRAPHY - Big data
+title: What is big data?
 parent: Big data
 nav_order: 16
 last_updated: Nov 2025
 ---
 
-# What Is Big Data?
+# What is big data?
 
 Big data refers to extremely large and complex data sets that are difficult to manage and process. Doug Lanely, is acknowledged as the first person to popularly be associated with the term "big data", but Kitchen and McArdle[6], reference the term from computer science academia since the mid-1990s.
 
@@ -14,19 +14,19 @@ While there are no formal definitions of big-data, conceptually the terminology 
 
 Conceptually, big data is more than the issues of large amounts of data and how to store this data. It is also about knowledge derived from data and the process of extracting insights from this data for better efficiencies such as financial and operational gains. It is also not contained to a type of data structure and relates to both both structured, (traditional relational data-bases) and unstructured data (object-oriented or graph) formats.
 
-## The five “v's” of big data
+## The five “v's” of big data that are different from traditional data
 
 The five key characteristics of big data are often called the five "v's" of big data
 
-- **Volume**: The sheer amount of data (from terabytes to petabytes) matters, we are now into zeta-bytes and beyond, if you read the exploding topics data[7]. The biggest data centres in the world are in the USA, Germany, UK, China and Canada. Data centres are noisy, consume large quantities of energy and need coolants to keep the environment safe. Noise-cancellation systems are required if these data-centres are close to habitation and have become expensive to store and maintain.
+- **Volume**: The sheer scale of data (from terabytes to petabytes) matters, we are now into zeta-bytes and beyond, if you read the exploding topics data[7]. The biggest data centres in the world are in the USA, Germany, UK, China and Canada. Data centres are noisy, consume large quantities of energy and need coolants to keep the environment safe. Noise-cancellation systems are required if these data-centres are close to habitation and have become expensive to store and maintain. Traditionally data was a smaller scale managed with conventional relational databases.
 
-- **Velocity**: The speed at which data is generated and processed (real-time/near-real-time) matters.
+- **Velocity**: The speed at which data is generated and processed in the past was using RDBMS (relational database management systems). Data was structured mainly in tables, with rows and columns and could easily be processed by servers and mainframes. Big data on the other hand requires advanced parallel processing and non-standard chips; specialised tools such as Hadoop and Spark are used to sift through semi-structured, structured and unstructured data in RDBMS, graph, object or document formats.
 
 - **Variety**: Data comes in many types (structured, unstructured, semi-structured)  It is heterogenous e.g., text, video, images and near-field sensor data, used in IoT. Video, social media and gaming being the biggest generators of the variety of this data[4]. In the early 2000s, nobody predicted that entertainment would generate the biggest volume and variety of data. Previously, financial data and other "serious" forms of business data generated the most volume and variety of data.
 
 - **Veracity**: How accurate, reliable and trustworthy the data is. Data quality and integrity are critical.
 
-- **Value**: Data has potential value, but that value must be discovered and realised.
+- **Value**: Data has potential value, but these insights into the data must be discovered and realised. Traditionally, simple analytics that were descriptive or analytical were provided. Big data now is analysed differently, complex data patterns are analysed by machines very rapidly, providing prescriptive insghts. Analytics can provide predictive models, forecasts and actionable recommendations from underlying data sets.
 
 ## Evolution of Big Data: Past, Present & Future  
 
