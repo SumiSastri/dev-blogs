@@ -84,11 +84,7 @@ There are significant hurdles to leveraging big data:
 
 - Data volumes are growing rapidly (doubling approx every 2 years). Storing is only part of the challenge; processing, curating and making sense of it is harder.
 
-- - **Data storage**: Storage is not an insignificant consideration. Large volumes of data need to be stored, backed-up and restored regulary for data-safety and security as well as to prevent data losses. 
-
-Modern data centres are noisy, consume large quantities of energy and need coolants to keep the environment safe. Noise-cancellation systems are required if these data-centres are close to habitation and have become expensive to store and maintain. Traditionally data was a smaller scale managed with conventional relational databases, on premise or in the cloud.
-
-Several cloud based data-centres are required to manage the increasing speed and volume at which data is being generated.
+- **Data storage**: Storage is not an insignificant consideration. Large volumes of data need to be stored, backed-up and restored regulary for data-safety and security as well as to prevent data losses.  Modern data centres are noisy, consume large quantities of energy and need coolants to keep the environment safe. Noise-cancellation systems are required if these data-centres are close to habitation and have become expensive to store and maintain. Traditionally data was a smaller scale managed with conventional relational databases, on premise or in the cloud. Several cloud based data-centres are required to manage the increasing speed and volume at which data is being generated.
 
 - **Data curation**: In many organisations, data scientists spend 50-80% of their time simply cleaning, preparing and organising data.
 
