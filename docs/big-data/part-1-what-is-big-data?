@@ -1,24 +1,32 @@
+---
+layout: default
+title: BIBLIOGRAPHY - Big data
+parent: Big data
+nav_order: 16
+last_updated: Nov 2025
+---
+
 # What Is Big Data?
 
-Big data refers to extremely large and complex data sets that are difficult to manage and process. Doug Lanely, is acknowledged as the first person to popularly be associated with the term "big data", but Kitchen and McArdle, reference the term from computer science academia since the mid-1990s.
+Big data refers to extremely large and complex data sets that are difficult to manage and process. Doug Lanely, is acknowledged as the first person to popularly be associated with the term "big data", but Kitchen and McArdle[6], reference the term from computer science academia since the mid-1990s.
 
 While there are no formal definitions of big-data, conceptually the terminology is used to describe the volume, velocity, variety and value of data that has changed since the year 2000 as data generation has grown exponentially since the turn of the century.
 
-Conceptually, big data is more than the issues of large amounts of data and how to store this data. It is also about knowledge derived from data and the process of extracting insights from this data for better efficiencies such as financial and operational gains. It is also not contained to a type of data structure and relates to both both structured and unstructured data formats.
+Conceptually, big data is more than the issues of large amounts of data and how to store this data. It is also about knowledge derived from data and the process of extracting insights from this data for better efficiencies such as financial and operational gains. It is also not contained to a type of data structure and relates to both both structured, (traditional relational data-bases) and unstructured data (object-oriented or graph) formats.
 
 ## The five “v's” of big data
 
 The five key characteristics of big data are often called the five "v's" of big data
 
-- **Volume**: The sheer amount of data (from terabytes to petabytes) matters. :contentReference
+- **Volume**: The sheer amount of data (from terabytes to petabytes) matters, we are now into zeta-bytes and beyond, if you read the exploding topics data[7]. The biggest data centres in the world are in the USA, Germany, UK, China and Canada. Data centres are noisy, consume large quantities of energy and need coolants to keep the environment safe. Noise-cancellation systems are required if these data-centres are close to habitation and have become expensive to store and maintain.
 
-- **Velocity**: The speed at which data is generated and processed (real-time/near-real-time) matters. 
+- **Velocity**: The speed at which data is generated and processed (real-time/near-real-time) matters.
 
-- **Variety**: Data comes in many types (structured, unstructured, semi-structured) e.g., text, video, sensor data.
+- **Variety**: Data comes in many types (structured, unstructured, semi-structured)  It is heterogenous e.g., text, video, images and near-field sensor data, used in IoT. Video, social media and gaming being the biggest generators of the variety of this data[4]. In the early 2000s, nobody predicted that entertainment would generate the biggest volume and variety of data. Previously, financial data and other "serious" forms of business data generated the most volume and variety of data.
 
-- **Veracity**: How accurate, reliable and trustworthy the data is. Data quality and integrity are critical. 
+- **Veracity**: How accurate, reliable and trustworthy the data is. Data quality and integrity are critical.
 
-- **Value**: Data has potential value, but that value must be discovered and realised. :contentReference
+- **Value**: Data has potential value, but that value must be discovered and realised.
 
 ## Evolution of Big Data: Past, Present & Future  
 
@@ -109,3 +117,5 @@ Big data isn’t just about storing large amounts of data — it’s about **int
 [5] Doug Lanely official website [Available, Accessed: 2 Nov. 2025](https://www.douglasblaney.com/)
 
 [6] Rob Kitchin and Gavin McArdle, "What makes Big Data, Big Data? Exploring the ontological characteristics of 26 datasets", [Available, Accessed: 2 Nov. 2025](https://journals.sagepub.com/doi/pdf/10.1177/2053951716631130)
+
+[7]Amount of data created daily [Available, Accessed: 2 Nov. 2025](https://explodingtopics.com/blog/data-generated-per-day)
