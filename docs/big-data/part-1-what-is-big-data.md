@@ -28,7 +28,7 @@ The five key characteristics of big data are often called the five "v's" of big 
 
 - **Value**: Data has potential value, but these insights into the data must be discovered and realised. Traditionally, simple analytics that were descriptive or analytical were provided. Big data now is analysed differently, complex data patterns are analysed by machines very rapidly, providing prescriptive insghts. Analytics can provide predictive models, forecasts and actionable recommendations from underlying data sets.  
 
-## New software - Hadoop the front runner
+## New data processing software - Hadoop the front runner
 
 With big data, new software to manage this data came into the market place. The need stemmed from the growth  web search. [8] Startups like Google, Yahoo, and AltaVista began building frameworks to automate search results.
 
