@@ -28,7 +28,9 @@ The five key characteristics of big data are often called the five "v's" of big 
 
 - **Value**: Data has potential value, but these insights into the data must be discovered and realised. Traditionally, simple analytics that were descriptive or analytical were provided. Big data now is analysed differently, complex data patterns are analysed by machines very rapidly, providing prescriptive insghts. Analytics can provide predictive models, forecasts and actionable recommendations from underlying data sets.  
 
-## Evolution of Big Data: Past, Present & Future  
+## New technologies - Hadoop, Map Reduce, Spark
+
+## Evolution of big data: past, present & future  
 
 - **Past**: Managing large data sets dates back decades (1960s/70s relational databases). But big data surged around 2005 with the advent of large-scale internet usage and frameworks like Hadoop; NoSQL databases began growing.
 
@@ -82,7 +84,7 @@ Several cloud based data-centres are required to manage the increasing speed and
 
 - **Technology evolution**: The tools and frameworks evolve quickly; keeping up can be a challenge.
 
-## How big data works 
+## How big data works
 
 The Oracle three‐step workflow:
 
