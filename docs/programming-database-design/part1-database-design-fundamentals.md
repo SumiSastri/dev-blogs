@@ -1,8 +1,9 @@
 ---
 layout: default
+parent: Database design
+nav_order: 17
 title: What is database design and why is it important?
-parent: Data infrastructures and cloud computing
-nav_order: 5
+last_updated: Jan 2026
 ---
 
 # What is database design and why is it important?

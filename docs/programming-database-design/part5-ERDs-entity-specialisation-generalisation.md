@@ -2,11 +2,11 @@
 layout: default
 parent: Database design
 nav_order: 17
-title: Further investiation into entity specialisation and generalisation in conceptual ERDs
+title: Further investigation into entity specialisation and generalisation in conceptual ERDs
 last_updated: Jan 2026
 ---
 
-# Further investiation into entity specialisation and generalisation in conceptual ERDs
+# Further investigation into entity specialisation and generalisation in conceptual ERDs
 
 As we have seen in the previous section, the degree of relationships determine entity relationships. With further investigation into entities, some entities can act as a superset to other entities. This hierarchical structure of a relationship is not just represented in recursive relationships between the the same entity.
 
