@@ -2,7 +2,7 @@
 layout: default
 parent: Database design
 nav_order: 17
-title: Understanding relationships between entities in conceptual ERDs  
+title: Further investiation into entity specialisation and generalisation in conceptual ERDs
 last_updated: Jan 2026
 ---
 
