@@ -7,9 +7,7 @@ nav_order: 5
 
 # What is database design and why is it important?
 
-Database design is the process of organizing and structuring data to ensure it can be stored, accessed, and managed efficiently. A well-designed database is resilient, scalable, and supports the needs of the system it serves.
-
-The design process involves selecting the appropriate type of database system and determining how the data will be organized before it is stored and accessed. This step is crucial because it is often challenging to migrate or modify a database design once the system is implemented.
+Database design is the process of organizing and structuring data to ensure it can be stored, accessed, and managed efficiently. A well-designed database is resilient, scalable, and supports the needs of the system it serves. The design process involves selecting the appropriate type of database system and determining how the data will be organized before it is stored and accessed. This step is crucial because it is often challenging and expensive to migrate or modify a database design once the system is implemented.
 
 Key considerations in database design include:
 
