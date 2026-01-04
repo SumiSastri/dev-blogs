@@ -1,9 +1,9 @@
----
+<!-- ---
 layout: default
 parent: Installfest
 nav_order: 17
 title: Installing Git and linking it to GitHub
----
+--- -->
 
 # Installing Git 
 

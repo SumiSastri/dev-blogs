@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: default
 parent: Installfest
 nav_order: 17
-title: How to install HomeBrew on a Mac
+title: How to install HomeBrew on a Mac -->
 ---
 
 # How to install HomeBrew on a Mac
