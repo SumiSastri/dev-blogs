@@ -1,3 +1,11 @@
+---
+layout: default
+title: What are the eight phases of the data-lifecycle?
+parent: Big data
+nav_order: 18
+last_updated: Nov 2025
+---
+
 # What are the eight phases of the data-lifecycle?
 
 The data life cycle is a comprehensive framework describing the eight stages data undergoes in an organization—from generation, collection, processing, storage, and management to analysis, visualization/interpretation, and eventual disposal. The data life cycle increasingly is guided by governance, quality, and security controls to ensure accuracy, usability, and compliance.

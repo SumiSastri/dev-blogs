@@ -2,7 +2,7 @@
 layout: default
 title: What is big data?
 parent: Big data
-nav_order: 16
+nav_order: 18
 last_updated: Nov 2025
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Big data
-nav_order: 16
+nav_order: 18
 has_children: true
 last_updated: Nov 2025
 ---
@@ -9,8 +9,8 @@ last_updated: Nov 2025
 
 # Big data
 
-What is big data? Is it the size of the data, the amount of data stored? How the data is processed and used?
+Data collection and processing has grown exponentially in the 21st century. Relational databases and other data collection, wrangling and storage tools and processes are becoming rapidly outdated.
 
-This section outlines some of the common questions posed and provides answers from academic and non-academic sources to define and describe big data and the advent of machine-learning and artificial intelligence, in the 21st century.
+Organisations have to balance increasing regulatory requirements imposed on data collection and storage with the costs of upgrading legacy systems. 
 
-__Note this section is a work in progress__
+This section explores the data-life cycle, short-comings of legacy systems, the advent of big-data and opportunities that machine learning and artificial intelligence offer.
