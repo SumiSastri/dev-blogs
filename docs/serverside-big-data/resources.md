@@ -1,9 +1,9 @@
 ---
 layout: default
-title: BIBLIOGRAPHY - Big data
-parent: Big data
-nav_order: 16
-last_updated: Nov 2025
+title: IBLIOGRAPHY - Big Data
+parent: Computer programming fundamental principles
+nav_order: 18
+last_updated: Oct 2024
 ---
 
 # BIBLIOGRAPHY - Big Data
