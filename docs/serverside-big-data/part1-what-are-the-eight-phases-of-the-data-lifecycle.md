@@ -28,9 +28,9 @@ Common use cases include:
 - Meteorology: Discovering and forecasting weather patterns
 - Government: Maintaining and organising citizen data
 
-Not all data that is generated is collected. Data-mining, in some cases may only involve collection of some of the data that is generated. Mining sifts data generated into what is useful to collect and compatible with the information systems used to process, store and manage the data.
+Not all data that is generated is collected. Data-mining, in some cases may only involve collection of some of the data that is generated. Mining sifts data generated into what is useful to collect and compatible with the information systems used to process, store and manage the data. The process during which data is cleaned 
 
-Storage is in binary, so software needs
+Storage is in binary, so software needs to be compiled down from programming languages into binary. 
 
 ## What is the difference between information systems and data mining?
 
@@ -48,6 +48,8 @@ Loss-less compression is the process where a file can be compressed without losi
 
 Lossless compression uses algorithms to identify and eliminate statistical redundancy. Algorithms scan the data for repeated elements and replace them with shorter representations. For instance, a phrase that appears multiple times in a text file might be replaced with a single character as a key. During decompression, these shorter representations are replaced with their original elements, ensuring that the original data is perfectly reconstructed.
 
+The process of moving clean data into a storage unit - a database, data lake or data warehouse takes place in 3-steps extraction(and injestion)-transformation-loading (ETL).
+
 ## What is KDD?
 
 KDD, refers to the process of discovering trends and patterns in gathered data. It is focused on the analytics of information systems. Data may be visualised for easy understanding of trends and patterns that are revealed from the underlying data sets.
@@ -56,7 +58,7 @@ Information systems have three key components - the raw data collected, hardware
 
 Hardware for data storage varies from cloud-based storage, on-premise servers, computer-mobile or other digital device hardware. Digital data is stored in the form of data-types - numbers, characters, symbols on the hardware. For effective KDD, analytics software queries the data in the databases and interacts with the hardware where the data is stored.
 
-Alogrithms query the data and structure them into meaningful patterns. These patterns may be visualised for ease of understanding or provide an intepretative explaination for end-uses through data-visualisation tools or analysts who provide the data interpretation via statistical inference or ML and AI tools.
+Alogrithms query the data and structure them into meaningful patterns. These patterns may be visualised for ease of understanding or provide an intepretative explaination for end-uses through data-visualisation tools or analysts who provide the data interpretation via statistical inference or ML and AI tools. Analytics is used to reveal trends in customer behaviour, optimise supply chain processes, fraud-detection and sentiment analysis.
 
 ## Conclusion
 

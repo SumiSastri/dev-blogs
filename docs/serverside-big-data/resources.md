@@ -33,3 +33,9 @@ last_updated: Oct 2024
 - Apache official website [Available, Accessed: 2 Nov. 2025](https://www.apache.org/)
 
 - Apache Hadoop official website[Available, Accessed: 2 Nov. 2025](https://hadoop.apache.org/)
+
+- [What is the Data Lifecycle - Knime](https://www.knime.com/blog/the-data-lifecycle)
+- [Advantages of managing the Data Life Cyle - Airbyte]( https://airbyte.com/data-engineering-resources/data-life-cycle)
+- [What is Data Wrangling IBM](https://www.ibm.com/think/topics/data-wrangling)
+- [Data Wrangling - Wikipedia](https://en.wikipedia.org/wiki/Data_wrangling)
+- [Compression lossy and loss-less - Restream](https://restream.io/learn/what-is/lossless-compression/)
