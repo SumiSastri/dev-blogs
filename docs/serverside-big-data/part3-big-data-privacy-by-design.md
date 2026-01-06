@@ -10,27 +10,29 @@ last_updated: Nov 2025
 
 When it comes to Enterprise Data Management (EDM), data processors, or organisations that process customer data are expected to design systems that protect the privacy of their data subjects, or customers.
 
-The key privacy and security by design policies are:
+_The key privacy and security by design policies are_
 
-- Storage limitations – Personal data should be kept only for as long as it is necessary to fulfil its intended purpose and no longer. This reduces the risk of misuse or unauthorized access over time.
-- Purpose limitations – Data must be collected for specific, explicit, and legitimate purposes and not used in ways incompatible with those purposes. This prevents function creep and misuse of personal information.
-- Lawfulness – Personal data must be processed in accordance with the law and relevant regulations. Processing should have a valid legal basis such as consent, contract, or legal obligation.
-- Accountability – Organizations are responsible for complying with data protection principles and must be able to demonstrate compliance. This includes maintaining documentation, policies, and controls.
-- Data minimisation – Only the minimum amount of personal data necessary for a specific purpose should be collected and processed. This limits exposure and reduces privacy risks.
-- Accuracy – Personal data must be accurate, complete, and kept up to date. Inaccurate data should be corrected or deleted without delay.
-- Confidentiality – Personal data must be protected against unauthorized access, disclosure, alteration, or loss. Appropriate technical and organizational security measures must be in place.
-- Informed consent – Individuals must be clearly informed about how their data will be used and must freely agree to it. Consent should be specific, explicit, and easy to withdraw.
-- Access, rectification, erasure – Individuals have the right to access their personal data, correct inaccuracies, and request deletion when data is no longer needed. These rights empower users to control their information.
-- Restrict processing and portability – Individuals can request limits on how their data is processed and can obtain their data in a usable format. This allows transfer of data between service providers.
-- Object to automated decision-making and profiling – Individuals have the right to object to decisions made solely by automated systems. They can request human intervention and challenge such decisions.
+- *Storage limitations* – Personal data should be kept only for as long as it is necessary to fulfil its intended purpose and no longer. This reduces the risk of misuse or unauthorized access over time.
+- *Purpose limitations* – Data must be collected for specific, explicit, and legitimate purposes and not used in ways incompatible with those purposes. This prevents function creep and misuse of personal information.
+- *Lawfulness* – Personal data must be processed in accordance with the law and relevant regulations. Processing should have a valid legal basis such as consent, contract, or legal obligation.
+- *Accountability* – Organizations are responsible for complying with data protection principles and must be able to demonstrate compliance. This includes maintaining documentation, policies, and controls.
+- *Data minimisation* – Only the minimum amount of personal data necessary for a specific purpose should be collected and processed. This limits exposure and reduces privacy risks.
+- *Accuracy* – Personal data must be accurate, complete, and kept up to date. Inaccurate data should be corrected or deleted without delay.
+- *Confidentiality* – Personal data must be protected against unauthorized access, disclosure, alteration, or loss. Appropriate technical and organizational security measures must be in place.
+- *Informed consent* – Individuals must be clearly informed about how their data will be used and must freely agree to it. Consent should be specific, explicit, and easy to withdraw.
+- *Access, rectification, erasure* – Individuals have the right to access their personal data, correct inaccuracies, and request deletion when data is no longer needed. These rights empower users to control their information.
+- *Restrict processing and portability* – Individuals can request limits on how their data is processed and can obtain their data in a usable format. This allows transfer of data between service providers.
+- *Object to automated decision-making and profiling* – Individuals have the right to object to decisions made solely by automated systems. They can request human intervention and challenge such decisions.
 
 ## Legally mandated requirements, not optional ethical 'do-gooding'
 
 The key privacy and security by design policies listed above are primarily defined and enforced by legislation, not just ethical considerations.
 
-Legal basis: Most of these principles are explicitly mandated by laws such as the UK Data Protection Act 2018 and the EU General Data Protection Regulation (GDPR) (e.g. lawfulness, data minimisation, accuracy, storage limitation, accountability, data subject rights). Organizations are legally required to comply, and violations can result in penalties and fines.
+_Legal basis_ 
+Most of these principles are explicitly mandated by laws such as the UK Data Protection Act 2018 and the EU General Data Protection Regulation (GDPR) (e.g. lawfulness, data minimisation, accuracy, storage limitation, accountability, data subject rights). Organizations are legally required to comply, and violations can result in penalties and fines.
 
-Ethical foundation: While these principles have a strong ethical motivation—protecting individual autonomy, fairness, and trust—they are not optional ethical guidelines. Ethical considerations influenced their creation, but legislation makes them binding and enforceable in practice.
+_Ethical foundation_ 
+While these principles have a strong ethical motivation—protecting individual autonomy, fairness, and trust—they are not optional ethical guidelines. Ethical considerations influenced their creation, but legislation makes them binding and enforceable in practice.
 
 In short, they originate from ethical values but are formalized and required by law through data protection legislation.
 
@@ -38,7 +40,7 @@ In short, they originate from ethical values but are formalized and required by 
 
 In Industry 4.0,or the fourth industrial revolution, where digital technologies are integrated into manufacturing and industrial processes to create smart, connected, and autonomous systems significantly accelerate the challenges in monitoring privacy-by-design issues; technologies like ML, IoT, AI, AR, cloud computing, and cyber systems significantly increase both the value and risk of personal and operational data. As a result, privacy monitoring becomes more complex, continuous, and critical.
 
-Implications for privacy monitoring:
+_Implications for privacy monitoring_
 
 - Continuous and real-time oversight – Real-time data collection from IoT devices requires ongoing privacy monitoring to detect misuse, excessive data collection, or unauthorized access as it happens.
 - Expanded data footprints – Predictive analytics and digital twins combine data from many sources, increasing the risk of re-identification and making it harder to track where personal data is used.
@@ -68,9 +70,9 @@ Despite several breaches of privacy, consumers continue to have limited understa
 
 Meta was fined, and paid, $1.6 billion to the state of Texas over allegations of unlawful biometric data collection. Using Meta’s "Tag Suggestions" feature, users tagged friends and their biometrics were captured without the friends’ explicit consent. 
 
-Meta was accused of capturing biometric data “billions of times” through photos and videos uploaded by users. Despite agreeing to the settlement, Meta has denied any wrongdoing. 
+Meta was accused of capturing biometric data “billions of times” through photos and videos uploaded by users. Despite agreeing to the settlement, Meta has denied any wrongdoing.
 
-A Hackernews report points out, FB are not the only offenders, Alphabet, the owner of google and its associated brands were also fined for the same issue of collecting biometric data of consumers without their explicit consent. 
+A Hackernews report points out, FB are not the only offenders, Alphabet, the owner of google and its associated brands were also fined for the same issue of collecting biometric data of consumers without their explicit consent.
 
 In the UK, the ICO, fined a school for capturing children’s biometric data to take cashless payments from students, breaching the UK's Data Protection Act (DPA) and the (General Data Protection Regulation) GDPR legislation.
 
@@ -92,7 +94,7 @@ With the rapid rise of nudifying apps, Meta’s role in the supply chain came un
 
 The revelation of the use of AI and ML algorithms were brought into sharp focus with the Cambridge Analytica case.
 
-Contextualising the case study:
+_Contextualising the case study_
 
 - Cambridge Analytica utilised a Trojan Horse, via an app on FB platforms asking for participation in a quiz for academic purposes
 - The real purpose of the Trojan Horse was psychological profiling of users checking for six personality profiles neuroticism, conscientiousness, agreeableness, openness, extraversion and conscientiousness
@@ -100,7 +102,7 @@ Contextualising the case study:
 - The 87-million users and users' friends who did not download the quiz had their data breached and information including likes, locations, religious and political views, relationship status, as well as private messages were now available to Cambridge Analytica
 - Cambridge Analytica enhanced the FB's graph data API gathering an estimated 5,000 data-points per American user of the platform. Using advanced psychographic analytics with ML and AI algorithms, Cambridge Analytica aimed to predict what kinds of messages would influence users to change voting behaviour. This marked a fundamental shift from conventional demographic targeting to a new frontier of psychological manipulation through big data analytics, Raychaudhuri's paper demonstrates.
 
-The key legal and ethical failures:
+_The key legal and ethical failures_
 
 - Informed consent – what enraged the public was the lack of concern over the issue of consent, consent policies were not clear, often using mystifying legal terms, lengthy explanations that were difficult to read and understand, however every single legal tenant was broken as various case studies show 
 
@@ -115,13 +117,13 @@ The key legal and ethical failures:
 
 - Confidentiality – the Meta API revealed confidential information, in some cases private messages of users that were used by Cambridge Analytica in their sentiment analysis models. AI and ML algorithms were used to find psychological vulnerabilities, users’ political preferences which are all classified as confidential data.
 
-Restrict processing and portability - Meta, was considered to have been negligent for for not clearly defining data ownership between data gatherers and 3rd party processors, the Meta Graph API was an open door barely discouraging misuse of user data by 3rd parties
+- Restrict processing and portability - Meta, was considered to have been negligent for for not clearly defining data ownership between data gatherers and 3rd party processors, the Meta Graph API was an open door barely discouraging misuse of user data by 3rd parties
 
 - Data misuse – Cambridge Analytica for the reasons previously outlined
 
-Access, rectification, erasure - even though Meta knew of the data breach in 2015, it failed to inform users promptly, failed to delete data it was only in 2018 full extent public knowledge due to Christopher Wylie's expose of the issue in The Guardian newspaper and The New York Times that consumers understood how the vulnerabilities they were exposing themselves to on data-sharing platforms. FB acted late and unwillingly.
+- Access, rectification, erasure - even though Meta knew of the data breach in 2015, it failed to inform users promptly, failed to delete data it was only in 2018 full extent public knowledge due to Christopher Wylie's expose of the issue in The Guardian newspaper and The New York Times that consumers understood how the vulnerabilities they were exposing themselves to on data-sharing platforms. FB acted late and unwillingly.
 
-Object to automated decision-making and profiling – once again for all the reasons outlined, Meta’s API allowed the transfer of decision making from the user to the 3rd party processor, without the ability of the user to raise objections
+- Object to automated decision-making and profiling – once again for all the reasons outlined, Meta’s API allowed the transfer of decision making from the user to the 3rd party processor, without the ability of the user to raise objections
 
 In the subsequent investigations, the malpractices were found largely to stem from Cambridge Analytica’s misuse of the data, rather than FB. Meta was questioned on oversight failures rather than participation and access rights to third parties of their user's data.
 
@@ -149,7 +151,7 @@ By tagging their friends, or even by the simple act of posting their friends ima
 
 With the issue of minors, parents, guardians and friends post pictures of their loved ones assuming consent on their behalf.
 
-With criminal gangs using AI to detect children’s images for repurposing in sexualised content to be sold, this is a loaded gun. 
+With criminal gangs using AI to detect children’s images for repurposing in sexualised content to be sold, this is a loaded gun.
 
 Social media users, unwittingly co-opt their friends, relatives and minors assuming the principle of “informed consent” on their behalf, which is both illegal and unethical.
 
@@ -187,10 +189,10 @@ The trust-deficit between users and data harvesters is great, but users are not 
 
 - Facebook (2025) Taking action against nudify apps. Available at: [https://about.fb.com/news/2025/06/taking-action-against-nudify-apps/](Accessed: 6 January 2026).]
 
-Facebook eSafety Office (n.d.) Provider of nudify services withdraws from platforms. Available at: https://www.facebook.com/eSafetyOffice/posts/a-provider-of-three-of-the-worlds-most-widely-used-nudify-services-has-withdrawn/1173693984867667/
+- Facebook eSafety Office (n.d.) Provider of nudify services withdraws from platforms. Available at: https://www.facebook.com/eSafetyOffice/posts/a-provider-of-three-of-the-worlds-most-widely-used-nudify-services-has-withdrawn/1173693984867667/
  (Accessed: 6 January 2026).
 
-FindLaw (n.d.) Nudify apps are proliferating despite illegality and lawsuits. Available at: https://www.findlaw.com/legalblogs/law-and-life/nudify-apps-are-proliferating-despite-illegality-lawsuits/
+- FindLaw (n.d.) Nudify apps are proliferating despite illegality and lawsuits. Available at: https://www.findlaw.com/legalblogs/law-and-life/nudify-apps-are-proliferating-despite-illegality-lawsuits/
  (Accessed: 6 January 2026).
 
 - Guardian, The (2010) Facebook’s privacy problems. Available at: [https://www.theguardian.com/technology/2010/jan/11/facebook-privacy](Accessed: 6 January 2026).
@@ -201,20 +203,20 @@ FindLaw (n.d.) Nudify apps are proliferating despite illegality and lawsuits. Av
 
 - Kakaes, K. (2019) Zuckerberg’s new privacy essay shows why Facebook needs to be broken up. MIT Technology Review. Available at: [https://www.technologyreview.com/2019/03/07/1248/zuckerbergs-new-privacy-essay-shows-why-facebook-needs-to-be-broken-up/](Accessed: 6 January 2026).
 
-Kennedys Law (2024) Biometric data: Why organisations keep getting it wrong. Available at: [https://www.kennedyslaw.com/en/thought-leadership/article/2024/biometric-data-why-organisations-keep-getting-it-wrong/]
+- Kennedys Law (2024) Biometric data: Why organisations keep getting it wrong. Available at: [https://www.kennedyslaw.com/en/thought-leadership/article/2024/biometric-data-why-organisations-keep-getting-it-wrong/]
 (Accessed: 6 January 2026).
 
 - LSE Media Blog (2025) The intersection of AI and CSAM: A reflection on the UK’s Online Safety Act. Available at: [https://blogs.lse.ac.uk/medialse/2025/03/06/the-intersection-of-ai-and-csam-a-reflection-on-the-uks-online-safety-act/](Accessed: 6 January 2026).
 
-Meta (n.d.) Privacy concerns with Facebook. Wikipedia. Available at: [https://en.wikipedia.org/wiki/Privacy_concerns_with_Facebook]
+- Meta (n.d.) Privacy concerns with Facebook. Wikipedia. Available at: [https://en.wikipedia.org/wiki/Privacy_concerns_with_Facebook]
  (Accessed: 6 January 2026).
 
-MDX Voices (n.d.) Will the Online Safety Act help protect children in the metaverse? Available at:[https://www.mdx.ac.uk/mdx-voices/will-the-online-safety-act-help-protect-children-in-the-metaverse/]
+- MDX Voices (n.d.) Will the Online Safety Act help protect children in the metaverse? Available at:[https://www.mdx.ac.uk/mdx-voices/will-the-online-safety-act-help-protect-children-in-the-metaverse/]
  (Accessed: 6 January 2026).
 
 - Nairametrics (2025) Meta tops list as social media giants pay €3.9 billion for data protection violations. Available at: [https://nairametrics.com/2025/05/29/meta-tops-list-as-social-media-giants-pay-e3-9-billion-for-data-protection-violations/](Accessed: 6 January 2026).
 
-Protecto.ai (n.d.) AI data privacy breaches: Incidents analysis. Available at: https://www.protecto.ai/blog/ai-data-privacy-breaches-incidents-analysis/
+- Protecto.ai (n.d.) AI data privacy breaches: Incidents analysis. Available at: https://www.protecto.ai/blog/ai-data-privacy-breaches-incidents-analysis/
  (Accessed: 6 January 2026).
 
 - Raychaudhuri, A. (2025) The Facebook–Cambridge Analytica data scandal: A case study in ethical AI failures and data privacy violations. Available at: [https://www.irejournals.com/formatedpaper/1711588.pdf](Accessed: 6 January 2026).
