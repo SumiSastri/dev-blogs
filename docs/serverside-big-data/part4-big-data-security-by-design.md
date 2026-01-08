@@ -138,7 +138,7 @@ This case study shows the combination of tactics and diversity of cyber criminal
 
 Over £750 million was erased M&S’s market capitalization in the fallout, Tech radar reports.
 
-## Conclusion
+## Cybercrime evoloving as fast as technology and tactics are psychologically sophisticated and varied
 
 Data security is a critical pillar of organisational resilience in the digital age. As demonstrated, threats to information and communication technology systems arise not only from external attackers but also from authorised users, whether through unwitting mistakes or malicious intent. Both forms of authorised access misuse carry significant consequences, including financial loss, reputational damage, system downtime, national security risks, and loss of competitive advantage.
 
