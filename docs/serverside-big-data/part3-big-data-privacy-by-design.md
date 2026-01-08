@@ -159,23 +159,17 @@ This is where privacy-fatigue kicks in and virtue-signalling becomes an irritant
 
 ## Worrying increase of younger users, regulation on the increase but a lame deterrent
 
-In May 2025, the UK regulator Ofcom said in a report that 20% of 3–5-year-old now own smart phones, with 30% of 6–7-year-olds owning phones. The data-gathering activities of smart-phone operators have risen exponentially with most users preferring smart phones to access social media versus web applications. A significant use of social media platforms was noted for 7-17-year-olds with 18 being the legal age of consent in the UK.
+In May 2025, the UK regulator Ofcom reported that 20% of 3–5-year-olds and 30% of 6–7-year-olds now own smartphones, with a significant proportion of 7–17-year-olds regularly accessing social media platforms, despite 18 being the legal age of consent in the UK. The data-gathering activities of smartphone operators have risen exponentially, highlighting the growing challenge of monitoring and enforcing privacy protections in a digital-first society. While regulation and policy may be tightening, their global reach remains limited. Laws may recommend APIs with minimum data access by default or blockchain-based consent management for auditable and tamper-resistant records, but many organisations struggle to implement such solutions due to cost and complexity.
 
-While regulation and policy may be tightening, the global reach is poor. The law may recommend APIs default minimum data access and use block-chain-based consent management as it is auditable, tamper resistant records for data collection, permission and usage but organisations may not be able to afford to make these changes.
+Although Cambridge Analytica filed for bankruptcy, related entities and data repositories continue to exist, underlining the long-term persistence of privacy risks. Organisational recommendations, such as implementing internal governance structures balancing ethics, compliance, and commercial exploitation, are often unevenly applied or cosmetic. For example, while Facebook now has Chief Privacy Officers and an independent privacy committee reporting to the Board, cases like the Texas biometrics settlement demonstrate that these measures have had limited impact on safeguarding personal data.
 
-Cambridge Analytica filed for bankruptcy. However, while it may have ceased trading its related entities and structures continue to operate - data may still be held in their databases. 
+This pattern reflects the fragility of global privacy regulation: fines and penalties, though financially significant, rarely induce structural reform in organisations whose business models profit from large-scale data harvesting. Privacy-by-design, while conceptually sound, clashes with commercial imperatives and the cumulative burden of legislation, perpetuating privacy fatigue among users.
 
-Organisational changes have been recommended - internal governance structures that balance ethics, compliance with commercial exploitation, the need for organisations to provide reports on how data is collected, the purposes, sharing arrangements and access requests. 
-
-FB has a Chief Privacy Officers and independent privacy committee to report to FBs board of directors after the Cambridge Analytica affair, yet the Texas Biometrics case shows this change to have little impact on privacy safeguards whilst harvesting user information.
-
-The explosion in the harvesting of large volumes of personal data and the misuse of this data has exposed the fragility of regulation, enforcement on a global scale. 
-
-The interpretative adoption of internal governance, which tends to be unevenly applied at best, or cosmetic changes at worst, with underlying malpractices preserved, mean that organisations can’t be expected to mark their own copy books.
+To address these challenges, organisations must adopt continuous, automated, and auditable monitoring systems, enforce strict purpose limitations, and empower users with clear consent and data control mechanisms. Regulators should complement fines with proactive audits, incentives for best practices, and public awareness initiatives to mitigate privacy fatigue. Only through an integrated approach combining legal, technical, and ethical safeguards can trust be rebuilt, and privacy-by-design move from theory to effective practice.
 
 Privacy-by-design is great conceptually, but balancing the commercial requirements of making an organisation profitable and managing the growing burden of privacy legislation on them, privacy-fatigue looks like it is set to deepen rather than weaken, especially since the big tech giants earn back the avalanche of fines they pay in a week's earnings, tech analysts say.
 
-The trust-deficit between users and data harvesters is great, but users are not deterred from sharing data yet ...
+The trust-deficit between users and data harvesters is real, but users are not deterred from sharing data yet ...
 
 #### REFERENCES AND FURTHER READING
 
