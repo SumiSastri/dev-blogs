@@ -179,46 +179,46 @@ The trust-deficit between users and data harvesters is great, but users are not 
 
 #### REFERENCES AND FURTHER READING
 
-* Abiedu (June, 2025) Case study: Consumer protection and the Facebook–Cambridge Analytica data scandal. [Accessed: 6 January 2026, Available at](https://abiedu.com/case-study-consumer-protection-and-the-facebook-cambridge-analytica-data-scandal/)
+- Abiedu (June, 2025) Case study: Consumer protection and the Facebook–Cambridge Analytica data scandal. [Accessed: 6 January 2026, Available at](https://abiedu.com/case-study-consumer-protection-and-the-facebook-cambridge-analytica-data-scandal/)
 
-* BBC News (2024a) [Article on online harms / Meta-related issue]. [Accessed: 6 January 2026, Available at](https://www.bbc.co.uk/news/articles/c0573lj172jo)
+- Rahman-Jones, Imran, BBC News (13 June 2025) "Meta AI searches made public - but do all its users realise? ". [Accessed: 6 January 2026, Available at](https://www.bbc.co.uk/news/articles/c0573lj172jo)
 
-* BBC News (2024b) [Article on digital safety / Meta-related issue]. [Accessed: 6 January 2026, Available at](https://www.bbc.co.uk/news/articles/cd7vzw78gz9o)
+- Fraser, Graham, BBC News (23 April 2025 )"WhatsApp defends 'optional' AI tool that cannot be turned off". [Accessed: 6 January 2026, Available at](https://www.bbc.co.uk/news/articles/cd7vzw78gz9o)
 
-* CNBC (2018) Facebook CEO Mark Zuckerberg’s statements on privacy (2003–2018). [Accessed: 6 January 2026, Available at](https://www.cnbc.com/2018/03/21/facebook-ceo-mark-zuckerbergs-statements-on-privacy-2003-2018.html)
+- CNBC (2018) Facebook CEO Mark Zuckerberg’s statements on privacy (2003–2018). [Accessed: 6 January 2026, Available at](https://www.cnbc.com/2018/03/21/facebook-ceo-mark-zuckerbergs-statements-on-privacy-2003-2018.html)
 
-* Facebook (2025) Taking action against nudify apps. [Accessed: 6 January 2026, Available at](https://about.fb.com/news/2025/06/taking-action-against-nudify-apps/)
+- Facebook (2025) Taking action against nudify apps. [Accessed: 6 January 2026, Available at](https://about.fb.com/news/2025/06/taking-action-against-nudify-apps/)
 
-* Facebook eSafety Office (n.d.) Provider of nudify services withdraws from platforms. [Accessed: 6 January 2026, Available at](https://www.facebook.com/eSafetyOffice/posts/a-provider-of-three-of-the-worlds-most-widely-used-nudify-services-has-withdrawn/1173693984867667/)
+- Facebook eSafety Office (n.d.) Provider of nudify services withdraws from platforms. [Accessed: 6 January 2026, Available at](https://www.facebook.com/eSafetyOffice/posts/a-provider-of-three-of-the-worlds-most-widely-used-nudify-services-has-withdrawn/1173693984867667/)
 
-* FindLaw (n.d.) Nudify apps are proliferating despite illegality and lawsuits. [Accessed: 6 January 2026, Available at](https://www.findlaw.com/legalblogs/law-and-life/nudify-apps-are-proliferating-despite-illegality-lawsuits/)
+- FindLaw (n.d.) Nudify apps are proliferating despite illegality and lawsuits. [Accessed: 6 January 2026, Available at](https://www.findlaw.com/legalblogs/law-and-life/nudify-apps-are-proliferating-despite-illegality-lawsuits/)
 
-* Guardian, The (2010) Facebook’s privacy problems. [Accessed: 6 January 2026, Available at](https://www.theguardian.com/technology/2010/jan/11/facebook-privacy)
+- Guardian, The (2010) Facebook’s privacy problems. [Accessed: 6 January 2026, Available at](https://www.theguardian.com/technology/2010/jan/11/facebook-privacy)
 
-* Hacker News, The (2024) Meta settles for $1.4 billion with Texas over biometric privacy violations. [Accessed: 6 January 2026, Available at](https://thehackernews.com/2024/07/meta-settles-for-14-billion-with-texas.html)
+- Hacker News, The (2024) Meta settles for $1.4 billion with Texas over biometric privacy violations. [Accessed: 6 January 2026, Available at](https://thehackernews.com/2024/07/meta-settles-for-14-billion-with-texas.html)
 
-* Jurist (2024) Meta agrees to $1.4B settlement with Texas for allegedly violating biometric privacy laws. [Accessed: 6 January 2026, Available at](https://www.jurist.org/news/2024/08/meta-agrees-to-1-4b-settlement-with-texas-for-allegedly-violating-biometric-privacy-laws/)
+- Jurist (2024) Meta agrees to $1.4B settlement with Texas for allegedly violating biometric privacy laws. [Accessed: 6 January 2026, Available at](https://www.jurist.org/news/2024/08/meta-agrees-to-1-4b-settlement-with-texas-for-allegedly-violating-biometric-privacy-laws/)
 
-* Kakaes, K. (2019) Zuckerberg’s new privacy essay shows why Facebook needs to be broken up. MIT Technology Review. [Accessed: 6 January 2026, Available at](https://www.technologyreview.com/2019/03/07/1248/zuckerbergs-new-privacy-essay-shows-why-facebook-needs-to-be-broken-up/)
+- Kakaes, K. (2019) Zuckerberg’s new privacy essay shows why Facebook needs to be broken up. MIT Technology Review. [Accessed: 6 January 2026, Available at](https://www.technologyreview.com/2019/03/07/1248/zuckerbergs-new-privacy-essay-shows-why-facebook-needs-to-be-broken-up/)
 
-* Kennedys Law (2024) Biometric data: Why organisations keep getting it wrong. [Accessed: 6 January 2026, Available at](https://www.kennedyslaw.com/en/thought-leadership/article/2024/biometric-data-why-organisations-keep-getting-it-wrong/)
+- Kennedys Law (2024) Biometric data: Why organisations keep getting it wrong. [Accessed: 6 January 2026, Available at](https://www.kennedyslaw.com/en/thought-leadership/article/2024/biometric-data-why-organisations-keep-getting-it-wrong/)
 
-* LSE Media Blog (2025) The intersection of AI and CSAM: A reflection on the UK’s Online Safety Act. [Accessed: 6 January 2026, Available at](https://blogs.lse.ac.uk/medialse/2025/03/06/the-intersection-of-ai-and-csam-a-reflection-on-the-uks-online-safety-act/)
+- LSE Media Blog (2025) The intersection of AI and CSAM: A reflection on the UK’s Online Safety Act. [Accessed: 6 January 2026, Available at](https://blogs.lse.ac.uk/medialse/2025/03/06/the-intersection-of-ai-and-csam-a-reflection-on-the-uks-online-safety-act/)
 
-* Meta (n.d.) Privacy concerns with Facebook. Wikipedia. [Accessed: 6 January 2026, Available at](https://en.wikipedia.org/wiki/Privacy_concerns_with_Facebook)
+- Meta (n.d.) Privacy concerns with Facebook. Wikipedia. [Accessed: 6 January 2026, Available at](https://en.wikipedia.org/wiki/Privacy_concerns_with_Facebook)
 
-* MDX Voices (n.d.) Will the Online Safety Act help protect children in the metaverse? [Accessed: 6 January 2026, Available at](https://www.mdx.ac.uk/mdx-voices/will-the-online-safety-act-help-protect-children-in-the-metaverse/)
+- MDX Voices (n.d.) Will the Online Safety Act help protect children in the metaverse? [Accessed: 6 January 2026, Available at](https://www.mdx.ac.uk/mdx-voices/will-the-online-safety-act-help-protect-children-in-the-metaverse/)
 
-* Nairametrics (2025) Meta tops list as social media giants pay €3.9 billion for data protection violations. [Accessed: 6 January 2026, Available at](https://nairametrics.com/2025/05/29/meta-tops-list-as-social-media-giants-pay-e3-9-billion-for-data-protection-violations/)
+- Nairametrics (2025) Meta tops list as social media giants pay €3.9 billion for data protection violations. [Accessed: 6 January 2026, Available at](https://nairametrics.com/2025/05/29/meta-tops-list-as-social-media-giants-pay-e3-9-billion-for-data-protection-violations/)
 
-* Protecto.ai (n.d.) AI data privacy breaches: Incidents analysis. [Accessed: 6 January 2026, Available at](https://www.protecto.ai/blog/ai-data-privacy-breaches-incidents-analysis/)
+- Protecto.ai (n.d.) AI data privacy breaches: Incidents analysis. [Accessed: 6 January 2026, Available at](https://www.protecto.ai/blog/ai-data-privacy-breaches-incidents-analysis/)
 
-* Raychaudhuri, A. (2025) The Facebook–Cambridge Analytica data scandal: A case study in ethical AI failures and data privacy violations. [Accessed: 6 January 2026, Available at](https://www.irejournals.com/formatedpaper/1711588.pdf)
+- Raychaudhuri, A. (2025) The Facebook–Cambridge Analytica data scandal: A case study in ethical AI failures and data privacy violations. [Accessed: 6 January 2026, Available at](https://www.irejournals.com/formatedpaper/1711588.pdf)
 
-* Somathirtha, P., Analytics Insight (Sept, 2025) Meta’s most controversial lawsuits in recent years. [Accessed: 6 January 2026, Available at](https://www.analyticsinsight.net/photo/metas-most-controversial-lawsuits-in-recent-years)
+- Somathirtha, P., Analytics Insight (Sept, 2025) Meta’s most controversial lawsuits in recent years. [Accessed: 6 January 2026, Available at](https://www.analyticsinsight.net/photo/metas-most-controversial-lawsuits-in-recent-years)
 
-* Risk Communication Central (2025) Data privacy compliance risk: Meta Platforms faces ongoing GDPR fines and international data transfer challenges. [Accessed: 6 January 2026, Available at](https://riskcommunicationcentral.com/2025/06/10/data-privacy-compliance-risk-meta-platforms-faces-ongoing-gdpr-fines-and-international-data-transfer-challenges/)
+- Risk Communication Central (2025) Data privacy compliance risk: Meta Platforms faces ongoing GDPR fines and international data transfer challenges. [Accessed: 6 January 2026, Available at](https://riskcommunicationcentral.com/2025/06/10/data-privacy-compliance-risk-meta-platforms-faces-ongoing-gdpr-fines-and-international-data-transfer-challenges/)
 
-* Rukkuka, B. (2022) The Cambridge Analytica scandal and its impact on Meta. [Publication details unavailable]
+- Rukkuka, B. (2022) The Cambridge Analytica scandal and its impact on Meta. [Publication details unavailable]
 
-* Taylor & Francis Online (2024) [Article on digital surveillance, privacy, or platform governance]. [Accessed: 6 January 2026, Available at](https://www.tandfonline.com/doi/full/10.1080/17579961.2024.2392934)
+- Taylor & Francis Online (2024) [Article on digital surveillance, privacy, or platform governance]. [Accessed: 6 January 2026, Available at](https://www.tandfonline.com/doi/full/10.1080/17579961.2024.2392934)
