@@ -1,5 +1,12 @@
+---
+layout: default
+title: What technical solutions are available to combat cyber threats?
+parent: Big data
+nav_order: 18
+last_updated: Nov 2025
+---
 
-# Data security and privacy risk mitigation require a combination of human and tech solutions
+# What technical solutions are available to combat cyber threats?
 
 Organisational resilience against threats to unauthorised data access whether from cyber-attacks or unintentional actions from authorised users is a risk that needs to be continuously monitored.
 
