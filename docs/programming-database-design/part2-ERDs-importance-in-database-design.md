@@ -8,15 +8,19 @@ last_updated: Jan 2026
 
 # What is an ERD and why is it important in database design?
 
-An Entity-Relationship Diagram (ERD) is a visual representation of the relationships between entities in a database. It is a critical tool in database design, as it helps developers, database architects, and stakeholders understand the structure and organisation of data within a system. ERDs use standardised symbols to represent entities, attributes, and relationships, making it easier to communicate complex database concepts. The first stage of ERD diagrams is to create a conceptual ERD and then map it to a logical ERD. The logical ERD is then provided as a roadmap to a database developer to create the database and ensure best practice in design is followed. Enhanced ERDs show more complex relationships with more accuracy and clarity.
+An Entity-Relationship Diagram (ERD) is a visual representation of the relationships between entities in a database. It is a critical tool in database design, as it helps developers, database architects, and stakeholders understand the structure and organisation of data within a system.
+
+ERDs define what entities exist, their relationships and how they interact with each other and do not deal with table creation. A conceptual is developed recognising the business objects required in the database not tables, rows and columns.
+
+ERDs use standardised symbols to represent entities, attributes, and relationships, making it easier to communicate complex database concepts. There are three phases to database design. The first stage of ERD diagrams is to create a _conceptual ERD_ and then map it to a _logical ERD_. The logical ERD is then provided as a roadmap to a database developer _create a physical database_ and ensure best practice in design is followed. At this stage descisions are made about which database and the programming language. 
 
 ## Components of an ERD
 
 1. _Entities_: These are objects or concepts that can have data stored about them. For example, in a university database, entities might include `Student`, `Course`, and `Instructor`.
 2. _Attributes_: These are the properties or characteristics of an entity. For instance, a `Student` entity might have attributes like `StudentID`, `Name`, and `DateOfBirth`.
 3. _Relationships_: These define how entities are connected. For example, a `Student` entity might have an "enrols in" relationship with a `Course` entity.
-4. _Multiplicities_: These define the minimum and maximum times an instance of an entity is represented in a relationship.
-
+4. _Multiplicities_: Multiplicity is the number of possible occurrences entities as they interact with each other. These define the minimum and maximum times an instance of an entity is represented in the interaction or relationship.
+®
 ## Importance of ERDs in Database Design
 
 ### 1. Clarifies requirements
