@@ -69,6 +69,5 @@ _Recursive_ Represent hierarchical or self-referential data
 
 In logical ERDs, relationships are used to define foreign keys and constraints that enforce the associations between entities. They help in designing the schema for relational databases, ensuring data consistency and enabling efficient querying. Logical ERDs also refine the conceptual design by incorporating attributes and primary/foreign key relationships.  
 
-## Conclusion
 
-Understanding and defining relationships between entities is a fundamental aspect of database design. Conceptual ERDs provide a high-level view of these relationships, enabling designers to model real-world interactions effectively. By identifying the types of relationships, determining cardinality, and validating with use cases, you can create a robust and normalized database structure. These relationships form the foundation for logical ERDs, which further refine the design and ensure data integrity in relational databases.  
+Understanding and defining relationships between entities is a fundamental aspect of database design. Conceptual ERDs provide a high-level view of these relationships, enabling designers to model real-world interactions effectively. By identifying the types of relationships, determining cardinality, and validating with use cases, you can create a robust and normalised database structure. These relationships form the foundation for logical ERDs, which further refine the design and ensure data integrity in relational databases.  

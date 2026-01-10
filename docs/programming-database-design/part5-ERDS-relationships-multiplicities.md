@@ -1,37 +1,40 @@
 ---
 layout: default
-parent: ERDs establishing table relationships and multiplicities
+parent: ERDs establishing entity relationships and multiplicities
 nav_order: 17
 title: What are 
 last_updated: Jan 2026
 ---
 
-# ERDs establishing table relationships and multiplicities
+# ERDs establishing entity relationships and multiplicities
 
-Relational databases (RDBMS) follow a structured approach where individual entries or records are stored in tables organised into rows and columns. They are called "relational" databases because tables are linked to each other based on relationships. When designing a conceptual entity relationship diagram (ERD), understanding how table entities are linked by their relationships is a key first step in determining the RDBMS design and structure.
+Relational databases (RDBMS) follow a structured approach where individual entries or records are stored in tables organised into rows and columns. They are called "relational" databases because tables are linked to each other based on relationships. When designing a conceptual entity relationship diagram (ERD), understanding how table entities are linked by their relationships is a key first step in determining the RDBMS design and structure. However, ERDs describe entities and not table structures. They describe the business objects in a database not the physical table itself.
 
-Rather than storing one large table with all the data, a relational database atomises the data into entity tables. For example, in a university library, instead of having one table with all the student, course and library book records, a relational database will have a table for students with student details, a table for courses and course details and a table for library books with the library book details.
+The conceptual ERD is mapped to a logical ERD which then becomes a table. When designing tables, the concepts of normalisation and redundancy are reviewed in conjunction with ERD relationships and multiplicities to create a physical database.
 
-Each table contains data elements organised into records, fields, rows and columns. The tables are connected by relationships via a unique identifier called a _primary key_.
+Normalisation is the process of creating many tables rather than storing one large table with all the data, a relational database atomises the data into entity tables. For example, in a university library, instead of having one table with all the student, course and library book records, a relational database will have a table for students with student details, a table for courses and course details and a table for library books with the library book details. Each table contains data elements organised into records, fields, rows and columns. The tables are connected by relationships via primary keys - a unique identiier.
 
 For example, the row or field with a student record, `123, Ram Ratan Sastri, 57, Cranfield Gardens, London, W12` is stored in columns representing the attributes of the record - student_ID, first_name, last_name, address. The student_ID field 123, identifies the student and is the primary key. The book table or entity may have as its attributes book_ISBN, book_name, book_author. The student can be linked via the primary key of the book table, the book_ISBN, to the student's primary key. A third table, the borrow table, with a borrow date, connects the student, the book and the library books borrowed, with 3 tables and with the relationships between them - student borrows book.
 
-The relationships are typically represented similarly to the construction of a sentence - student (subject) borrows (verb) book (object or predicate).
+However, a conceptual ERD would simply determine the entities in the database and their relationships.
+
+Entities: Student/ Book
+
+Relationships: The relationships are typically represented similarly to the construction of a sentence - student (subject) borrows (verb) book (object or predicate).
+
+Student borrows book (the relationship represents the direction between student and book) or
+Book is borrowed by the student (the relationship represents the direction between book and student)
+
+While this may ultimately be translated into tables for the RDBMS, ERDs are conceptual roadmaps showing the business objects and their relationships and not tables and their links.
 
 ## RDBMS - key data elements
 
-This section identifies the key data elements in a relational database which have been used interchangeably above but have specific meanings in the database design landscape.
+This section identifies the differences between tables and entities and focuses on entity relationships
 
-- **Tables**: Collections of records organised in rows and columns
+_Tables_
+
 - **Records**: Individual entries in a table - usually in rows
-- **Primary keys**: Unique identifiers for records
 - **Fields**: Specific data points within a record - usually in columns
-- **Entities**: Concepts or objects represented in the database - representing the table with all its attributes
-- **Attributes**: Characteristics of entities -  the individual elements of the objects in the database
-- **Relationships**: Connections between entities are usually established by primary, foreign, compound and composite keys
-- **Multiplicities**: The connections between entities determined by the minimum participation and the maximum participation, or cardinality, or a record
-
-_Data Occurrences_
 
 In a database table, data occurrences refer to the individual rows (or records) that represent specific instances of data. Each row contains values for the columns (or fields) defined in the table schema. For example:
 
@@ -44,6 +47,13 @@ In a database table, data occurrences refer to the individual rows (or records) 
 _Columns_ Represent the attributes or properties of the data (e.g., `ID`, `Name`, `Age`, `City`).
 _Rows_ Represent individual occurrences of data (e.g., Alice, Bob, Charlie).
 _Primary Key_ A unique identifier for each row (e.g., `ID` in the table above).
+
+_ERDs_
+
+- **Entities**: Concepts or objects represented in the database - representing the table with all its attributes
+- **Attributes**: Characteristics of entities -  the individual elements of the objects in the database
+- **Relationships**: Connections between entities are usually established by primary, foreign, compound and composite keys
+- **Multiplicities**: The connections between entities determined by the minimum participation and the maximum participation, or cardinality, or a record
 
 ## Entity relationships and multiplicity
 
@@ -81,7 +91,7 @@ Multiplicities between relationships can be represented by an asterisk in ERD, w
 
 ## What is the difference between a data occurrence and multiplicities
 
-A data occurrence refers to a specific instance of data in a database. In the table of `Students`, each row represents an occurrence of a student. It pinpoints individual data points or records. Multiplicity, on the other hand, describes the number of possible relationships between entities in a database as described above. It focuses on participation and cardinality
+A data occurrence refers to a specific instance of data in a table of database. In the table of `Students`, each row represents an occurrence of a student. It pinpoints individual data points or records. Multiplicity, on the other hand, describes the number of possible relationships between entities in a database as described above. It focuses on participation and cardinality. 
 
 ### Key Differences
 
@@ -168,7 +178,5 @@ As you can see, there are high levels of ambiguity in designing a database. Ever
 _Document assumptions_
 
 At the conceptual stage, confirm the multiplicity with stakeholders or domain experts to ensure accuracy and adjust the ERD if necessary based on feedback. This becomes important when you are mapping a conceptual ERD to a logical ERD that is provided as a roadmap to developers to build a system. The conceptual ERD may go back and forth between the designer and the client, but once the design is locked down, the mapping must follow with rigour the conceptual roadmap. Record any assumptions made during the process to provide context for future reference, as well as to ensure that the client brief has been met and proven to be met.
-
-### Conclusion
 
 Determining multiplicity in an ERD is a critical step in accurately modelling real-world relationships between entities. By systematically identifying entities, analysing business rules, validating with real-world scenarios, and documenting assumptions, designers ensure that the ERD reflects both structural and functional integrity. Properly defined multiplicities not only clarify relationship constraints but also serve as a foundation for transforming conceptual designs into logical and physical database models that align with business requirements.

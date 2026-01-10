@@ -10,7 +10,7 @@ last_updated: Jan 2026
 
 Entity-Relationship Diagrams (ERDs) are a cornerstone of database design and provide a visual representation of the data and its relationships. As ERDs define business objects in a database rather than tables, this section is a deep dive into strong and weak entities and the design methodlogy used to create attributes for these entities. Keys are attributes that enforce relationships between entities, we take a closer look at keys as important data elements in an ERD and why they need some thought and care when selecting an attribute as a key in an entity.
 
-## Entities: strong and weak and types of relationships 
+## Entities: strong and weak and types of relationships
 
 Entities represent characteristics of a particular object in a data set. Entities have relationships with other entities. These relationships can be simple, or complex.
 

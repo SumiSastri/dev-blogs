@@ -51,6 +51,5 @@ ERDs allow designers to anticipate future requirements and plan for scalability.
 
 Understanding the relationships between entities helps in writing efficient queries. For example, knowing the cardinality of relationships (e.g., one-to-one, one-to-many) can guide the creation of indexes and optimise query performance.
 
-## Conclusion
 
 Entity-Relationship Diagrams are an essential tool in database design. They provide a clear, visual representation of the data model, making it easier to understand, communicate, and implement. By using ERDs, developers can create databases that are efficient, scalable, and aligned with business requirements. Whether you are designing a small application or a large enterprise system, incorporating ERDs into your workflow is a best practice that can save time and reduce errors in the long run.
