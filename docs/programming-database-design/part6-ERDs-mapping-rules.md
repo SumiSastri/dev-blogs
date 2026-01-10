@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 parent: ERDs establishing table relationships and multiplicities
 nav_order: 17
@@ -7,7 +7,7 @@ last_updated: Jan 2026
 ---
 
 
-<!-- # Mapping conceptual ERDs to logical ERDs
+# Mapping conceptual ERDs to logical ERDs
 
 _Identify binary relationships looking at participation_
 

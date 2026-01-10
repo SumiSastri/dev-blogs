@@ -2,17 +2,19 @@
 layout: default
 parent: Database design
 nav_order: 17
-title: What is an ERD and why is it important in database design?
+title: What is an Entity-Relationship-Diagram in database design?
 last_updated: Jan 2026
 ---
 
-# What is an ERD and why is it important in database design?
+# What is an Entity-Relationship-Diagram in database design?
 
 An Entity-Relationship Diagram (ERD) is a visual representation of the relationships between entities in a database. It is a critical tool in database design, as it helps developers, database architects, and stakeholders understand the structure and organisation of data within a system.
 
 ERDs define what entities exist, their relationships and how they interact with each other and do not deal with table creation. A conceptual is developed recognising the business objects required in the database not tables, rows and columns.
 
-ERDs use standardised symbols to represent entities, attributes, and relationships, making it easier to communicate complex database concepts. There are three phases to database design. The first stage of ERD diagrams is to create a _conceptual ERD_ and then map it to a _logical ERD_. The logical ERD is then provided as a roadmap to a database developer _create a physical database_ and ensure best practice in design is followed. At this stage descisions are made about which database and the programming language. 
+ERDs use standardised symbols to represent entities, attributes, and relationships, making it easier to communicate complex database concepts. There are three phases to database design. The first stage of ERD diagrams is to create a _conceptual ERD_ and then map it to a _logical ERD_. The logical ERD is then provided as a roadmap to a database developer _create a physical database_ and ensure best practice in design is followed. At this stage descisions are made about which database and the programming language.
+
+It is the first stage in developing a database design and relates to entities and their relationships not the physical building of tables, columns and rows in a relational database.
 
 ## Components of an ERD
 

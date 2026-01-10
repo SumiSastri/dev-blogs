@@ -1,12 +1,12 @@
 ---
 layout: default
-parent: ERDs establishing entity relationships and multiplicities
+parent: ERDs map relationships and multiplicities not tables, columns and rows
 nav_order: 17
 title: What are 
 last_updated: Jan 2026
 ---
 
-# ERDs establishing entity relationships and multiplicities
+# ERDs map relationships and multiplicities not tables, columns and rows
 
 Relational databases (RDBMS) follow a structured approach where individual entries or records are stored in tables organised into rows and columns. They are called "relational" databases because tables are linked to each other based on relationships. When designing a conceptual entity relationship diagram (ERD), understanding how table entities are linked by their relationships is a key first step in determining the RDBMS design and structure. However, ERDs describe entities and not table structures. They describe the business objects in a database not the physical table itself.
 

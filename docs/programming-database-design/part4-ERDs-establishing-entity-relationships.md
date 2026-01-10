@@ -2,11 +2,11 @@
 layout: default
 parent: Database design
 nav_order: 17
-title: Understanding relationships between entities in conceptual ERDs  
+title: Understanding entity relationships in conceptual ERDs  
 last_updated: Jan 2026
 ---
 
-# Understanding relationships between entities in conceptual ERDs  
+# Understanding entity relationships in conceptual ERDs  
 
 A conceptual ERD models the  business objects that should exist in a system and the relationships between them. It is an overview of teh system by defining what
 entities exist, not which tables. The relationships between entities are deemed as important and are mapped out with their multiplicities.
@@ -68,6 +68,5 @@ _Recursive_ Represent hierarchical or self-referential data
 ## How are relationships used in logical ERDs?
 
 In logical ERDs, relationships are used to define foreign keys and constraints that enforce the associations between entities. They help in designing the schema for relational databases, ensuring data consistency and enabling efficient querying. Logical ERDs also refine the conceptual design by incorporating attributes and primary/foreign key relationships.  
-
 
 Understanding and defining relationships between entities is a fundamental aspect of database design. Conceptual ERDs provide a high-level view of these relationships, enabling designers to model real-world interactions effectively. By identifying the types of relationships, determining cardinality, and validating with use cases, you can create a robust and normalised database structure. These relationships form the foundation for logical ERDs, which further refine the design and ensure data integrity in relational databases.  
