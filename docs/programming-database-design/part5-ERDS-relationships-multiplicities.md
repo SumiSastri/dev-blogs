@@ -151,13 +151,21 @@ Once the simple relationships have been determined from a brief, further investi
 
 Let's take the example of the university database a bit further. Student enrols in courses offered by a particular department; students can be undergraduate students and postgraduate students.
 
-In this case, we see the general entity is the student. The specialised entities are the undergraduate student and the post-graduate student. The 3 tables required would be represented hierarchically in an ERD. In this example, the participation is mandatory - a student must be either an undergraduate or a postgraduate student; the roles are not interchangeable. In this either-or situation, the ERD diagram describes this as a _Mandatory-OR_ type of relationship. This is also known as a disjoint
+In this case, we see the general entity is the student. The specialised entities are the undergraduate student and the post-graduate student. The 3 tables required would be represented hierarchically in an ERD. 
+
+The Superclass/subclass relationship is one-to-one (1:1) - the relationship could be mandatory or optional, this is known as a _participation constraint_ of the subclass
+Superclass may contain overlapping or distinct subclasses - this is known as a _disjoint constraint_ in the subclass relationship
+
+In this example, the participation is mandatory (1:1) - a student must be either an undergraduate or a postgraduate student; the roles are distinct not interchangeable. In this either-or situation, the ERD diagram describes this as a _Mandatory-OR_ type of relationship. This is also known as a disjoint in the relationship.
 
             Student
             /      \
 Undergraduate   Postgraduate
 
-ERDs also have _Optional-AND_ types of relationships. Let's take another example in the university. The university has staff. Staff can be admin, finance, librarians, or professors. Admin staff can also be librarians. The entities now have multiple roles; the admin staff can also be librarians or lab attendants. Optional in this case means that there could be other departments other than the ones described that can be added to the tables -eg, technicians, lab attendants. While the representation "AND" refers to the fact that the Admin entity can be Admin, Librarian and Lab Attendant. This is also known as an overlap.
+ERDs also have _Optional-AND_ types of relationships. Not all members of a superclass need be a member of a subclass, this is known as an optional relationship.
+Let's take another example in the university. The university has staff. Staff can be admin, finance, librarians, or professors. Admin staff can also be librarians. The entities now have multiple roles; the admin staff can also be librarians or lab attendants. 
+
+Optional in this case means that there could be other departments other than the ones described that can be added to the tables -eg, technicians, lab attendants. While the representation "AND" refers to the fact that the Admin entity can be Admin, Librarian and Lab Attendant. This is also known as an overlap in the relationship.
 
                     Staff
                      |
