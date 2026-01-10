@@ -79,3 +79,128 @@ Database design is a foundational aspect of building efficient, scalable, and ma
 By understanding the differences between data storage systems like data warehouses and data lakes, and following best practices in design, organizations can create robust systems that support their operational and analytical requirements.
 
 Ultimately, good database design is not just about organizing data, it is about enabling informed decision-making, ensuring data integrity, and supporting the growth and evolution of the system over time.
+
+
+
+## Preventing redundancy in RDBMS design
+
+Data redundancy refers to the duplication of data within a database. While redundancy can sometimes improve availability, unintentional redundancy due to poor design can lead to inefficiencies.
+
+**Causes of data redundancy**
+
+- Poor database design.
+- Lack of normalization.
+- Manual data entry errors.
+- Data replication for fault tolerance.
+
+**Problems with data redundancy**
+
+- **Increased storage costs**: Duplicate data consumes more space.
+- **Data inconsistency**: Conflicting versions of data can arise.
+- **Maintenance overheads**: Managing redundant data requires extra effort.
+
+**Benefits of controlled redundancy**
+
+- **Improved Data Availability**: Ensures data is accessible during failures.
+- **Faster Data Access**: Reduces access time in distributed systems.
+
+## How RDBMS reduces redundancy
+
+1. **Normalization**:
+    - The process of organizing data into tables and defining relationships between them to minimize duplication and redundancy.
+    - Ensures that each piece of data is stored only once, reducing storage requirements and improving data consistency.
+
+2. **Primary keys**:
+    - Unique identifiers for records in a table.
+    - Prevents duplicate entries and ensures that each record can be uniquely identified.
+
+3. **DBMS tools**:
+    - Built-in mechanisms in relational database management systems (RDBMS) to enforce data integrity and consistency.
+    - Includes constraints like unique constraints, foreign keys, and checks to avoid redundant data.
+
+4. **Regular audits**:
+    - Periodic reviews of the database to identify and remove unnecessary duplicates.
+    - Helps maintain data quality and ensures that redundancy is minimized over time.
+
+## What is data normalisation
+
+Data normalization is the process of organizing data to reduce redundancy and improve integrity. It involves structuring data into tables and ensuring logical dependencies.
+
+**Goals of data normalization**
+
+1. Minimize data redundancy.
+2. Ensure data consistency.
+3. Simplify database maintenance.
+
+**What are normal data forms**
+
+1. **First Normal Form (1NF)**:  
+    - Ensure all columns contain atomic values.  
+    - Remove duplicate rows.
+
+2. **Second Normal Form (2NF)**:  
+    - Achieve ojectives of the first normal form
+    - Ensure all non-key attributes depend fully on the primary key.
+
+3. **Third Normal Form (3NF)**:  
+    - Achieve objectives of the second normal form
+    - Remove transitive dependencies.
+
+4. **Boyce-Codd Normal Form (BCNF)**:  
+    - A stricter version of the third normal form where every determinant is a candidate key.
+
+**Steps to normalize data**
+
+1. Identify the data and its relationships
+2. Define primary keys for unique identification
+3. Eliminate redundancy by breaking down tables
+4. Establish relationships using foreign keys
+5. Validate against the desired normal form
+
+## Relationships Between Data Design and Data Systems
+
+Data design and data systems are closely interconnected. Effective data design ensures that data systems are efficient, scalable, and maintainable. Below are the key aspects of their relationship:
+
+### 1. Data Normalization
+
+- **Design Aspect**: Organizing data to reduce redundancy and improve integrity.
+- **System Impact**: Normalized tables reduce storage requirements and improve query performance.
+- **Example**: Splitting a table into two related tables to avoid duplicate data.
+
+### 2. Relationships Between Tables
+
+- **Design Aspect**: Defining how tables relate to each other (e.g., one-to-one, one-to-many, many-to-many).
+- **System Impact**: Relationships are implemented using foreign keys, ensuring data consistency.
+- **Example**: A `Customers` table and an `Orders` table linked by a `CustomerID`.
+
+### 3. Indexing
+
+- **Design Aspect**: Creating indexes on frequently queried columns.
+- **System Impact**: Improves query performance but may increase storage and write operation costs.
+- **Example**: Indexing the `Name` column in a table for faster search.
+
+### 4. Scalability
+
+- **Design Aspect**: Designing for future growth (e.g., partitioning, sharding).
+- **System Impact**: Ensures the system can handle large volumes of data and users.
+- **Example**: Partitioning a table by date for efficient querying.
+
+### 5. Data Integrity
+
+- **Design Aspect**: Enforcing rules to ensure data accuracy and consistency (e.g., constraints, validations).
+- **System Impact**: Prevents invalid data from being entered into the system.
+- **Example**: A `NOT NULL` constraint on a required column.
+
+### 6. Data Access Patterns
+
+- **Design Aspect**: Understanding how data will be accessed and designing accordingly.
+- **System Impact**: Optimizes the system for read-heavy or write-heavy workloads.
+- **Example**: Using a denormalized schema for read-heavy analytics systems.
+
+---
+
+## Conclusion
+
+Relational databases provide a robust framework for organizing and managing data efficiently. By leveraging key concepts like normalization, primary keys, and relationships, RDBMS minimizes redundancy, ensures data consistency, and simplifies maintenance. While controlled redundancy can enhance availability in specific scenarios, unintentional redundancy should be avoided to maintain the integrity and efficiency of the database. A well-designed RDBMS is essential for building reliable, scalable, and maintainable data-driven applications.
+
+The design of data structures and relationships directly impacts the performance, scalability, and reliability of data systems. A well-thought-out data design ensures that the data system can meet current and future requirements efficiently.
