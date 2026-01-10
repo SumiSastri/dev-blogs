@@ -2,19 +2,20 @@
 layout: default
 parent: Database design
 nav_order: 17
-title: What is an ERD and why is it Important in Database Design?
+title: What is an ERD and why is it important in database design?
 last_updated: Jan 2026
 ---
 
 # What is an ERD and why is it important in database design?
 
-An Entity-Relationship Diagram (ERD) is a visual representation of the relationships between entities in a database. It is a critical tool in database design, as it helps developers, database architects, and stakeholders understand the structure and organization of data within a system. ERDs use standardized symbols to represent entities, attributes, and relationships, making it easier to communicate complex database concepts. The first stage of ERD diagrams is to create a conceptual ERD and then map it to a logical ERD. The logical ERD is then provided as a roadmap to a database developer to create the database and ensure best pracrtice in design is followed. Enhanced ERDs, show more complex relationships with more accuracy and clarity.
+An Entity-Relationship Diagram (ERD) is a visual representation of the relationships between entities in a database. It is a critical tool in database design, as it helps developers, database architects, and stakeholders understand the structure and organisation of data within a system. ERDs use standardised symbols to represent entities, attributes, and relationships, making it easier to communicate complex database concepts. The first stage of ERD diagrams is to create a conceptual ERD and then map it to a logical ERD. The logical ERD is then provided as a roadmap to a database developer to create the database and ensure best practice in design is followed. Enhanced ERDs show more complex relationships with more accuracy and clarity.
 
 ## Components of an ERD
 
-1. **Entities**: These are objects or concepts that can have data stored about them. For example, in a university database, entities might include `Student`, `Course`, and `Instructor`.
-2. **Attributes**: These are the properties or characteristics of an entity. For instance, a `Student` entity might have attributes like `StudentID`, `Name`, and `DateOfBirth`.
-3. **Relationships**: These define how entities are connected to one another. For example, a `Student` entity might have an "enrolls in" relationship with a `Course` entity.
+1. _Entities_: These are objects or concepts that can have data stored about them. For example, in a university database, entities might include `Student`, `Course`, and `Instructor`.
+2. _Attributes_: These are the properties or characteristics of an entity. For instance, a `Student` entity might have attributes like `StudentID`, `Name`, and `DateOfBirth`.
+3. _Relationships_: These define how entities are connected. For example, a `Student` entity might have an "enrols in" relationship with a `Course` entity.
+4. _Multiplicities_: These define the minimum and maximum times an instance of an entity is represented in a relationship.
 
 ## Importance of ERDs in Database Design
 
@@ -32,7 +33,7 @@ By identifying entities, attributes, and relationships early in the design proce
 
 ### 4. Supports normalization
 
-Normalization is the process of organizing data to reduce redundancy and improve integrity. ERDs make it easier to identify opportunities for normalization by highlighting relationships and dependencies between entities.
+Normalization is the process of organising data to reduce redundancy and improve integrity. ERDs make it easier to identify opportunities for normalisation by highlighting relationships and dependencies between entities.
 
 ### 5. Simplifies Maintenance
 
@@ -42,9 +43,9 @@ A well-documented ERD serves as a reference for future database maintenance and 
 
 ERDs allow designers to anticipate future requirements and plan for scalability. By understanding the relationships between entities, it becomes easier to design a database that can accommodate growth.
 
-### 7. Aids in Query Optimization
+### 7. Aids in Query Optimisation
 
-Understanding the relationships between entities helps in writing efficient queries. For example, knowing the cardinality of relationships (e.g., one-to-one, one-to-many) can guide the creation of indexes and optimize query performance.
+Understanding the relationships between entities helps in writing efficient queries. For example, knowing the cardinality of relationships (e.g., one-to-one, one-to-many) can guide the creation of indexes and optimise query performance.
 
 ## Conclusion
 

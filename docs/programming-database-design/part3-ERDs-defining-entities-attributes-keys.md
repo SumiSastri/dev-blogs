@@ -12,7 +12,7 @@ Entity-Relationship Diagrams (ERDs) are a cornerstone of database design and pro
 
 ## Entities: strong and weak
 
-Entities as we have seen in the previous section, are represent characteristics of a particular object in a data set. Entities have relationships with other entities creating either a superclass of entities that subclasses inherit attributes from, or simply are stronger entities when compared to an entity that there is a relationship with.
+Entities represent characteristics of a particular object in a data set. Entities have relationships with other entities creating either a superclass of entities that subclasses inherit attributes from, or simply are stronger entities when compared to an entity that there is a relationship with.
 
 A **strong entity** is an independent entity that can exist without relying on another entity. It has a unique identifier (primary key) that distinguishes it from other entities in the database.
 

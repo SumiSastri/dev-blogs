@@ -1,12 +1,12 @@
 ---
 layout: default
-parent: ERDS - how database tables are linked by relationships
+parent: ERDs establishing table relationships and multiplicities
 nav_order: 17
 title: What are 
 last_updated: Jan 2026
 ---
 
-# ERDs - how database tables are linked by relationships
+# ERDs establishing table relationships and multiplicities
 
 Relational databases (RDBMS) follow a structured approach where individual entries or records are stored in tables organised into rows and columns. They are called "relational" databases because tables are linked to each other based on relationships. When designing a conceptual entity relationship diagram (ERD), understanding how table entities are linked by their relationships is a key first step in determining the RDBMS design and structure.
 
@@ -147,13 +147,11 @@ In this case, we see the general entity is the student. The specialised entities
             /      \
 Undergraduate   Postgraduate
 
-
 ERDs also have _Optional-AND_ types of relationships. Let's take another example in the university. The university has staff. Staff can be admin, finance, librarians, or professors. Admin staff can also be librarians. The entities now have multiple roles; the admin staff can also be librarians or lab attendants. Optional in this case means that there could be other departments other than the ones described that can be added to the tables -eg, technicians, lab attendants. While the representation "AND" refers to the fact that the Admin entity can be Admin, Librarian and Lab Attendant. This is also known as an overlap.
 
                     Staff
                      |
 Admin Finance Librarian Professors Lab Attendants
-
 
 Together, these concepts allow ERDs to model hierarchical data efficiently, conceptually representing real-world entity structures and relationships.
 
