@@ -63,7 +63,7 @@ In a simple _binary relationship_, the keys capture simple, direct interactions 
 
 _Ternary, Quaternary and Nary relationships_ model complex interactions involving multiple entities may require multiplicites to be identified, link tables to be created and complex and composite keys to identify their relationships. The entities are then created with these additional link table entities which in the last stage are given their types or domains for database creation.
 
-- **Recursive:** Represent hierarchical or self-referential data 
+_Recursive_ Represent hierarchical or self-referential data 
 
 ## How are relationships used in logical ERDs?
 
