@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: ERDs map relationships and multiplicities not tables, columns and rows
+parent: Database design
 nav_order: 17
 title: How to apply ERD mapping rules to create RDBMS data tables
 last_updated: Jan 2026
