@@ -15,7 +15,7 @@ This is when the conceptual ERD is mapped to the required tables in a physical d
 - The third step is to identify specialisation-generalisation relationships and create the appropriate tables
 - The final step is look for complex ternary, quaternary and nary relationships
 
-## Binary relationships_
+## Binary relationships
 
 _1:N relationship_
 _Tables: Create 2 tables parent & child. Create a FK in child to reference PK in parent_
@@ -34,11 +34,11 @@ A compound key taking the primary keys of both entities and using them in the li
 ## Recursive relationships
 
 Recursive relationships show hierarchy in an entity. The table should represent this relationship by identifying a primary key and a foreign key
-_Tables:_ I table with PK-FK
+_Tables:_ I table with PK-FK combination
 
 Eg; A staff member is a teacher and head of department. The table staff would have Staff_ID as the PK and the teacher's role as the FK in the table.
 
-## Specialisation, Generalisation disjoints and overlaps_
+## Specialisation, Generalisation disjoints and overlaps
 
 With specialisation and generalisation, the relationship of mandatory_OR, optional_OR deterimines the disjoint in the relationship and must be flagged, while overlaps, mandatory_AND/ optional_AND should be flagged. The relationship is always 1:1 parent-to-child with the child inheriting all attributes of the parent. When there is a disjoint constraint like a Mandatory_OR/ Optional_OR then the relationship is 1:0 parent to child, with 0 showing the optional disjoint of the child. Optional on both sides is 0:0. Here we look at cardinality to establish the multiplicities during mapping from conceptual ERDs to logical ERDs and for table creation
 
@@ -92,8 +92,9 @@ By the end of the mapping, logical ERD only contains only:
 • One-to-one relationships optional on one side
 • One-to-one relationships optional on both sides
 
-Further reading:
-[Gleek-app:](https://www.gleek.io/blog/multiplicity-er-diagram)
-[GeektoGeek](https://www.geeksforgeeks.org/dbms/structural-constraints-of-relationships-in-er-model/)
-[WaterlooUniversity](https://cs.uwaterloo.ca/~tozsu/courses/CS338/lectures/10%20ER%20Model.pdf)
-[Visual paradigm guides](https://guides.visual-paradigm.com/erd-and-database-implementation-bridging-the-gap-between-concept-and-reality/)
+### FURTHER READING
+
+- [Gleek-app:](https://www.gleek.io/blog/multiplicity-er-diagram)
+- [GeektoGeek](https://www.geeksforgeeks.org/dbms/structural-constraints-of-relationships-in-er-model/)
+- [WaterlooUniversity](https://cs.uwaterloo.ca/~tozsu/courses/CS338/lectures/10%20ER%20Model.pdf)
+- [Visual paradigm guides](https://guides.visual-paradigm.com/erd-and-database-implementation-bridging-the-gap-between-concept-and-reality/)
