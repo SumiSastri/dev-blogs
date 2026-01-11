@@ -47,25 +47,42 @@ A compound key taking the primary keys of both entities and using them in the li
 
 With specialisation and generalisation, the relationship of mandatory_OR, optional_OR deterimines the disjoint in the relationship and must be flagged, while overlaps, mandatory_AND/ optional_AND should be flagged. The relationship is always 1:1 parent-to-child with the child inheriting all attributes of the parent. When there is a disjoint constraint like a Mandatory_OR/ Optional_OR then the relationship is 1:0 parent to child, with 0 showing the optional disjoint of the child. Optional on both sides is 0:0. Here we look at cardinality to establish the multiplicities during mapping from conceptual ERDs to logical ERDs and for table creation
 
-_1:1 - Mandatory/AND_ total participation
-_Tables:  Only 1 table with all attributes is required. Choose PK, other one is AK or FK_
+_ _Mandatory/AND_ total participation
+_Tables:  Only 1 table with all attributes inherited. Choose PK, other one is AK or FK_
 
-- Specialised entities merged become child table -
-- FK of child references PK of parent table
-- (The parent’s PK is also the FK in the child)
-- PK of the child table is the same as the PK of parent table
+- One table only
+- Result: Merged table with flags{PK (Flag1-Flag2 of child entities)}
+
+- _Mandatary/OR_
+_Tables: Create 2 mirrored tables inheriting PK from parent_
+
+- PK of parent inherited by both tables
+- Parent attributes and child attributes are in each table
+- Result 2 mirrored tables {PK (Flag1)} + {PK (Flag 2)}
+
+- _Optional/AND_ participation mandatory on one side, optional on the other
+_Tables: Parent-Child. Create a FK in child to reference PK in parent, flags for child entities_
+
+- Parent-Child
+- FK of child references PK of parent table - PK-FK
 - Flags reference the 2 child entities
-- Result parent-child {PK-FK (Flag1-Flag2 of child entities)}
+- Result parent{PK}-child{PK-FK (Flag1-Flag2 of child entities)}
 
-_1:0 - Mandatory/OR - Cardinality_ One-to-one relationship optional on one side.
-_Tables: Create 2 tables parent & child. Create a FK in child to reference PK in parent_
+- _Optional-OR_  One-to-one relationship optional on both sides.
+_Tables: Parent with many children_
 
-- Result parent-child {PK-FK (Flag1-Flag2 of child entities)}
-
-_0:0 - Optional on both sides - Cardinality_  One-to-one relationship optional on both sides.
-_Tables:Create 2 tables parent & child. Create a FK in child to reference PK in parent_
+- Result parent{PK}-child{PK-FK + Flags}
 
 ## Complex Relationships
 
 Ternary relationships
-_Tables: Create 4 tables. Link table is a child of the other 3 tables and carries FKs and link table has a PK that is compound or composite_
+_Tables: Create 4 tables. 3 Parents 1 Link table_
+
+- PK is compound or composite
+- Result {FK-FK-FK}PK (Compound) or {FK-FK-FK + new identifier}PK (Composite)
+
+Further reading:
+[Gleek-app:](https://www.gleek.io/blog/multiplicity-er-diagram)
+[GeektoGeek](https://www.geeksforgeeks.org/dbms/structural-constraints-of-relationships-in-er-model/)
+[WaterlooUniversity](https://cs.uwaterloo.ca/~tozsu/courses/CS338/lectures/10%20ER%20Model.pdf)
+[Visual paradigm guides](https://guides.visual-paradigm.com/erd-and-database-implementation-bridging-the-gap-between-concept-and-reality/)
