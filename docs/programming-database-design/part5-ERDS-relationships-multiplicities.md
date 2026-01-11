@@ -33,7 +33,7 @@ This section identifies the differences between tables and entities and focuses 
 
 _Tables_
 
-- **Records**: Individual entries in a table - usually in rows
+- **Records or Typles**: Individual entries in a table - usually in rows also
 - **Fields**: Specific data points within a record - usually in columns
 
 In a database table, data occurrences refer to the individual rows (or records) that represent specific instances of data. Each row contains values for the columns (or fields) defined in the table schema. For example:
@@ -84,10 +84,18 @@ _Cardinality_  defines the maximum number or degree to which instances interact 
 
 Multiplicities between relationships can be represented by an asterisk in ERD, where many is represented by an asterisk in ERD, and participation is the first number, while cardinality is the second number. The numbers are separated by 2 full stops.
 
-- _Zero-to-Many (0..*)_ also known as partial or optional participation on the zero side, many is any number above 1
-- _One-to-One (1..1)_  also known as total or mandatary participation
+_Simple relationships_
+
+Binary relationships with the following multiplicities
+
 - _One-to-Many (1..*)_ shows the stronger entity on the 1 side
-- _Many-to-Many_(_.._)_ shows two weak entities
+- _Zero-to-Many (0..*)_ many is any number above 1
+- _Many-to-Many_(* .. *)_ shows two weak entities
+
+_Complex relationships_
+
+- _One-to-One (1..1)_  also known as total or mandatary participation FK of the child refernces the PK of the parent
+- _Zero-to-One (0..1)_  also known as optional participation on one side
 
 ## What is the difference between a data occurrence and multiplicities
 
