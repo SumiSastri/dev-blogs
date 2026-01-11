@@ -15,7 +15,6 @@ This is when the conceptual ERD is mapped to the required tables in a physical d
 - The third step is to identify specialisation-generalisation relationships and create the appropriate tables
 - The final step is look for complex ternary, quaternary and nary relationships
 
-
 ## Binary relationships_
 
 _1:N relationship_
@@ -31,6 +30,13 @@ _M:M_ relationships, both entities are weak entities, therefore a third link ent
 _Tables: Create 3 tables. Link table is a child of the other 2 tables and carries FKs and link table has a PK that is compound or composite_
 
 A compound key taking the primary keys of both entities and using them in the linking entity to create a PK-FK-FK relationship. The primary key of the third link entity takes the 2 primary keys of the entities in the many-to-many relationship and they become foreign keys in the third entity in a composite key PK-FK-FK.
+
+## Recursive relationships
+
+Recursive relationships show hierarchy in an entity. The table should represent this relationship by identifying a primary key and a foreign key
+_Tables:_ I table with PK-FK
+
+Eg; A staff member is a teacher and head of department. The table staff would have Staff_ID as the PK and the teacher's role as the FK in the table.
 
 ## Specialisation, Generalisation disjoints and overlaps_
 
