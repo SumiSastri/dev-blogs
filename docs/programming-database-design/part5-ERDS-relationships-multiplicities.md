@@ -1,12 +1,12 @@
 ---
 layout: default
-parent: ERDs map relationships and multiplicities not tables, columns and rows
+parent: Database design
 nav_order: 17
-title: What are 
+title: What is he difference between entity-mapping and table creation?
 last_updated: Jan 2026
 ---
 
-# ERDs map relationships and multiplicities not tables, columns and rows
+# What is he difference between entity-mapping and table creation?
 
 Relational databases (RDBMS) follow a structured approach where individual entries or records are stored in tables organised into rows and columns. They are called "relational" databases because tables are linked to each other based on relationships. When designing a conceptual entity relationship diagram (ERD), understanding how table entities are linked by their relationships is a key first step in determining the RDBMS design and structure. However, ERDs describe entities and not table structures. They describe the business objects in a database not the physical table itself.
 
@@ -33,8 +33,10 @@ This section identifies the differences between tables and entities and focuses 
 
 _Tables_
 
-- **Records or Typles**: Individual entries in a table - usually in rows also
-- **Fields**: Specific data points within a record - usually in columns
+- **Records, rows or tuples**: Individual entries in a table are called tuples, rows, data elements or records
+- **Fields, columns or attributes**: A field is a specific data point within a record organised in columns that reference ERD entity attributes
+- **Relations, tables, files**: Tables are the organisation of all the data - records and fields to create a table file, they take into account ERD relations
+- **Super keys**: These identify a row or tuple in a table, they reference primary keys in ERDs
 
 In a database table, data occurrences refer to the individual rows (or records) that represent specific instances of data. Each row contains values for the columns (or fields) defined in the table schema. For example:
 

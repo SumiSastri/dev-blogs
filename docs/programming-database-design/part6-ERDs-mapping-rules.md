@@ -1,11 +1,10 @@
 ---
 layout: default
-parent: How to apply ERD mapping rules to create RDBMS data tables
+parent: ERDs map relationships and multiplicities not tables, columns and rows
 nav_order: 17
-title: What are 
+title: How to apply ERD mapping rules to create RDBMS data tables
 last_updated: Jan 2026
 ---
-
 
 # How to apply ERD mapping rules to create RDBMS data tables
 
