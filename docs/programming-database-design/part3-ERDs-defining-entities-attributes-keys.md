@@ -18,11 +18,7 @@ _Simple relationships_ in an RDBMS refer to basic linkages between two tables vi
 
 _Complex relationships_ refer to many-to-many (* .. *) associations and other advanced patterns beyond simple one-to-one or one-to-many relationships
 
-Determining strong and weak entities in relationships
-
-A _strong entity_ is an independent entity that can exist without relying on another entity. It has a unique identifier (primary key) that distinguishes it from other entities in the database. 
-
-A _weak entity_ on the other hand relies on a strong entity and can not exist without it.  For example, a course and course material as entities in a university database show how without the course, course materials could not exist making the course a strong entity and the course material a weak entity.
+There are two types of entities. _Strong entities_ are independent entities that can exist without relying on another entity. It has a unique identifier (primary key) that distinguishes it from other entities in the database. _Weak entities_ on the other hand, rely on a strong entity and can not exist without them.  For example, a course and course material as entities in a university database show how without the course, course materials could not exist making the course a strong entity and the course material a weak entity.
 
 ## Attributes of an entity and their classification
 
