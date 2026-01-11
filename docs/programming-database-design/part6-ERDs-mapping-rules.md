@@ -16,16 +16,6 @@ This is when the conceptual ERD is mapped to the required tables in a physical d
 - The third step is to identify specialisation-generalisation relationships and create the appropriate tables
 - The final step is look for complex ternary, quaternary and nary relationships
 
-- This will result in many of the conceptual relationships in the ERDs being removed
-• One-to-many relationships will have 2 tables with the primary key (PK) of the parent referenced as the foreign key in the child (FK), the child entity retains its own PK - result PK-FK
-• Many-to-many relationships: replaced by 3 tables - a link table to link the 2 weak entities, the 2 PKs of the weak entities are merged becoming FKs in the link entity and the PK of the link table becomes a compound key - result PK-FK-FK
-• Specialisations: replaced with one or several tables (1:1 vs 1:0, 0:0) - 1:1 relationships with 1 table where all attributes are merged, or 2 tables with the PK of the parent referenced and flagged in as the FK in the child. Result PK-FK in all cases with flags
-• Ternary relationships: replaced by 4 tables and 3 one-to-many relationships
-
-Following the guidelines below, by the end of the mapping, logical ERD only contains
-• One-to-many relationships with correct FKs, there will be no many-to-many relationships or ternary relationship
-• One-to-one relationships optional on one side with correct FKs
-• One-to-one relationships optional on both sides with correct FKs
 
 ## Binary relationships_
 
@@ -80,6 +70,22 @@ _Tables: Create 4 tables. 3 Parents 1 Link table_
 
 - PK is compound or composite
 - Result {FK-FK-FK}PK (Compound) or {FK-FK-FK + new identifier}PK (Composite)
+
+## Outcomes
+
+Following this process will result in many of the conceptual relationships in the ERDs being removed.
+
+• One-to-many relationships will have 2 tables with the primary key (PK) of the parent referenced as the foreign key in the child (FK), the child entity retains its own PK - result PK-FK
+• Many-to-many relationships: replaced by 3 tables - a link table to link the 2 weak entities, the 2 PKs of the weak entities are merged becoming FKs in the link entity and the PK of the link table becomes a compound key - result PK-FK-FK
+• Specialisations: replaced with one or several tables (1:1 vs 1:0, 0:0) - 1:1 relationships with 1 table where all attributes are merged, or 2 tables with the PK of the parent referenced and flagged in as the FK in the child. Result PK-FK in all cases with flags
+• Ternary relationships: replaced by 4 tables and 3 one-to-many relationships
+
+By the end of the mapping, logical ERD only contains only:
+• Binary One-to-many relationships with correct FKs
+• Binary-Ternary New link tables for many-to-many/ ternary
+• One-to-one mandatory - one table
+• One-to-one relationships optional on one side
+• One-to-one relationships optional on both sides
 
 Further reading:
 [Gleek-app:](https://www.gleek.io/blog/multiplicity-er-diagram)
